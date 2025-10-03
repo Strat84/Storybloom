@@ -1,8 +1,8 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { openAIStoryService } from "./services/openaiService";
-import { geminiImageService } from "./services/geminiService";
+import { openAIStoryService, persistGeneratedStory } from "./services/openaiService";
+import { geminiImageService, GENERATED_IMAGES_DIR } from "./services/geminiService";
 import { pdfService } from "./services/pdfService";
 import {
   createStoryRequestSchema,
@@ -12,6 +12,20 @@ import {
 import { z } from "zod";
 import * as fs from "fs";
 import * as path from "path";
+import { uploadStoryImage } from "./services/s3/s3Service.js";
+import {
+  evaluateGenerationLimit,
+  GenerationLimitError,
+} from "./services/generationLimits";
+import {
+  getStoryPageItem,
+  updatePageImageMetadata,
+  editStory,
+} from "./services/dynamodb/story/index.js";
+import dotenv from "dotenv";
+import { extractUserIdFromToken } from "./utils/extractUserIdFromToken.js";
+
+dotenv.config();
 
 // Predefined image styles for consistent generation
 const imageStyles = [
@@ -47,7 +61,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });  // Create a new story with AI generation
   app.post('/api/stories', async (req, res) => {
-    let storyId: string | undefined;
     try {
       const request = createStoryRequestSchema.parse(req.body);
 
@@ -60,33 +73,60 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
       storyId = story.id;
 
-      // Generate story content with OpenAI
+      let userId: string;
+      try {
+        userId = extractUserIdFromToken(req.headers.authorization);
+      } catch (tokenError) {
+        console.error('Token extraction error:', tokenError);
+        return res.status(401).json({ error: tokenError instanceof Error ? tokenError.message : 'Invalid token' });
+      }
+
+      const { v4: uuidv4 } = await import('uuid');
+      const storyId = uuidv4();
+
       const generatedStory = await openAIStoryService.generateStory({
         prompt: request.prompt,
         totalPages: request.totalPages
       });
 
-      // Update story title from AI generation
-      const updatedStory = await storage.updateStory(story.id, {
+      const story = await storage.createStory({
+        id: storyId,
         title: generatedStory.title,
-        status: "complete"
+        status: "complete",
+        totalPages: request.totalPages,
+        description: request.prompt
       });
 
-      // Create story pages
       const pages = [];
+      const pageIdsMapping = [];
+      
       for (const generatedPage of generatedStory.pages) {
         const page = await storage.createStoryPage({
-          storyId: story.id,
+          storyId: storyId,
           pageNumber: generatedPage.pageNumber,
           text: generatedPage.text,
           imagePrompt: generatedPage.imagePrompt
         });
         pages.push(page);
+        
+        pageIdsMapping.push({
+          pageNumber: generatedPage.pageNumber,
+          pageId: page.id
+        });
       }
 
-      res.json({
-        story: updatedStory,
-        pages: pages
+        await persistGeneratedStory(
+        generatedStory,
+        userId,
+        {
+          storyId: storyId,
+          authorizationHeader: req.headers.authorization,
+          pageIdsMapping,
+        }
+      );      res.json({
+        story,
+        pages,
+        storyId
       });
 
     } catch (error) {
@@ -154,24 +194,61 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Update a story page
   app.patch('/api/stories/:storyId/pages/:pageId', async (req, res) => {
     try {
-      const updates = updatePageRequestSchema.parse(req.body);
+      const { text, imagePrompt } = req.body;
+      const storyId = req.params.storyId;
+      const pageId = req.params.pageId;
 
-      // SECURITY: Verify that the page belongs to the specified story
-      const existingPage = await storage.getStoryPage(req.params.pageId);
-      if (!existingPage) {
+      let userId: string;
+      try {
+        userId = extractUserIdFromToken(req.headers.authorization);
+      } catch (tokenError) {
+        console.error('Token extraction error:', tokenError);
+        return res.status(401).json({ error: tokenError instanceof Error ? tokenError.message : 'Invalid token' });
+      }
+
+      // Get page details from DynamoDB using pageId
+      let pageNumber: number;
+      try {
+        // Find the page by pageId to get its pageNumber
+        const { getStoryPageByPageId } = await import('./services/dynamodb/story/index.js');
+        const pageData = await getStoryPageByPageId(storyId, pageId);
+        
+        if (!pageData) {
+          return res.status(404).json({ error: 'Page not found' });
+        }
+        
+        pageNumber = pageData.pageNo; // Get actual pageNumber from DB
+      } catch (findError) {
+        console.error('Failed to find page:', findError);
         return res.status(404).json({ error: 'Page not found' });
       }
+      // Update page text and imagePrompt in DynamoDB if provided
+      if (text !== undefined || imagePrompt !== undefined) {
+        const pageUpdates = [];
+        const updateData: any = { pageNumber };
+        
+        if (text !== undefined) updateData.text = text;
+        if (imagePrompt !== undefined) updateData.imagePrompt = imagePrompt;
+        
+        pageUpdates.push(updateData);
 
-      if (existingPage.storyId !== req.params.storyId) {
-        return res.status(403).json({ error: 'Page does not belong to this story' });
+        await editStory({
+          storyId,
+          userId,
+          pages: pageUpdates
+        });
       }
 
-      const updatedPage = await storage.updateStoryPage(req.params.pageId, updates);
-      if (!updatedPage) {
-        return res.status(404).json({ error: 'Page not found' });
-      }
-
-      res.json(updatedPage);
+      res.json({
+        message: 'Page updated successfully',
+        storyId,
+        pageId,
+        pageNumber,
+        updatedFields: {
+          ...(text !== undefined && { text }),
+          ...(imagePrompt !== undefined && { imagePrompt })
+        }
+      });
 
     } catch (error) {
       console.error('Update page error:', error);
@@ -203,20 +280,98 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(403).json({ error: 'Page does not belong to this story' });
       }
 
-      // Generate image using the page's image prompt
+      const pageNumber = page.pageNumber;
+
+      console.log(`Table Name: ${process.env.STORIES_TABLE}`);
+      let generationPlan;
+      try {
+        if (!process.env.STORIES_TABLE) {
+          throw new Error("STORIES_TABLE environment variable is not set");
+        }
+        const dynamoMetadata = await getStoryPageItem(page.storyId, pageNumber);
+        console.log('DynamoDB metadata for page:', dynamoMetadata);
+
+        const fallbackMetadata = dynamoMetadata ?? (page as unknown as Record<string, unknown>);
+
+        generationPlan = evaluateGenerationLimit(fallbackMetadata);
+        console.log('Image generation plan:', generationPlan);
+      } catch (limitError) {
+        if (limitError instanceof GenerationLimitError) {
+          return res.status(limitError.statusCode).json({ error: limitError.message });
+        }
+        console.error('Failed to evaluate generation limits:', limitError);
+        return res.status(500).json({ error: 'Unable to validate image generation limits' });
+      }
+
       const generatedImage = await geminiImageService.generateImage({
         prompt: page.imagePrompt,
         enhancePrompt: true
       });
+      console.log('Generated image:', generatedImage);
 
-      // Update the page with the generated image URL
-      const updatedPage = await storage.updateStoryPage(page.id, {
-        imageUrl: generatedImage.imageUrl
-      });
+      let imageUrlToPersist = generatedImage.imageUrl;
+      let uploadedKey: string | undefined;
+      console.log('Bucket Name:', process.env.STORY_ASSETS_BUCKET);
+
+      if (process.env.STORY_ASSETS_BUCKET) {
+        try {
+          let extension = 'png';
+          if (generatedImage.contentType) {
+            if (generatedImage.contentType === 'image/jpeg') extension = 'jpg';
+            else if (generatedImage.contentType === 'image/webp') extension = 'webp';
+            else if (generatedImage.contentType === 'image/png') extension = 'png';
+          }
+          const fileName = `${page.storyId}_${pageNumber}.${extension}`;
+          const uploadResult = await uploadStoryImage({
+            storyId: page.storyId,
+            pageNumber,
+            buffer: generatedImage.imageBuffer,
+            contentType: generatedImage.contentType,
+            fileName,
+          });
+          console.log('Uploaded generated image to S3:', uploadResult);
+
+          imageUrlToPersist = uploadResult.signedUrl;
+          uploadedKey = uploadResult.key;
+        } catch (uploadError) {
+          console.error('Failed to upload generated image to S3:', uploadError);
+          return res.status(500).json({ error: 'Unable to store generated image' });
+        }
+      }
+      console.log(`Table Name: ${process.env.STORIES_TABLE}, Uploaded Key: ${uploadedKey}`);
+
+      if (process.env.STORIES_TABLE && uploadedKey) {
+        try {
+          await updatePageImageMetadata({
+            storyId: page.storyId,
+            pageNumber,
+            imageUrl: imageUrlToPersist,
+            imageKey: uploadedKey,
+            imageGenerationCount: generationPlan.nextCount,
+            imageGenerationDate: generationPlan.generationDate,
+            lastImageGeneratedAt: generationPlan.lastGeneratedAtIso,
+          });
+        } catch (dynamoUpdateError) {
+          console.error('Failed to update DynamoDB metadata for story page image:', dynamoUpdateError);
+        }
+      }
+
+      const updatedPage = await storage.updateStoryPage(
+        page.id,
+        {
+          imageUrl: imageUrlToPersist,
+          imageGenerationCount: generationPlan.nextCount,
+          imageGenerationDate: generationPlan.generationDate,
+          lastImageGeneratedAt: generationPlan.lastGeneratedAtIso,
+        } as any,
+      );
+      console.log('Updated page with new image URL:', updatedPage);
 
       res.json({
         page: updatedPage,
-        imageUrl: generatedImage.imageUrl
+        imageUrl: imageUrlToPersist,
+        imageGenerationCount: generationPlan.nextCount,
+        lastGeneratedAt: generationPlan.lastGeneratedAtIso,
       });
 
     } catch (error) {

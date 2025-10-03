@@ -1,0 +1,21 @@
+getUser:
+  handler: functions/user/get.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+      Resource:
+        - Fn::GetAtt: [UsersTable, Arn]
+        - Fn::Join:
+            - ""
+            - - Fn::GetAtt: [UsersTable, Arn]
+              - "/index/cognitoUserId-index"
+  events:
+    - http:
+        path: /user
+        method: GET
+        cors: true
+        authorizer:
+          name: CognitoAuthorizer
+          type: COGNITO_USER_POOLS
+          arn: !GetAtt UserPool.Arn

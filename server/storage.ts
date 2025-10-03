@@ -18,7 +18,7 @@ export interface IStorage {
   createUser(user: InsertUser): Promise<User>;
   
   // Story methods
-  createStory(story: InsertStory): Promise<Story>;
+  createStory(story: InsertStory & { id?: string }): Promise<Story>;
   getStory(id: string): Promise<Story | undefined>;
   updateStory(id: string, updates: Partial<Story>): Promise<Story | undefined>;
   deleteStory(id: string): Promise<boolean>;
@@ -62,8 +62,9 @@ export class MemStorage implements IStorage {
   }
 
   // Story methods
-  async createStory(insertStory: InsertStory): Promise<Story> {
-    const id = randomUUID();
+  async createStory(insertStory: InsertStory & { id?: string }): Promise<Story> {
+  // Always use the provided id if present, do not generate a new one
+  const id = insertStory.id ? insertStory.id : randomUUID();
     const now = new Date();
     const story: Story = { 
       ...insertStory,

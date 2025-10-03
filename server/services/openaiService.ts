@@ -1,4 +1,10 @@
 import OpenAI from "openai";
+import dotenv from "dotenv";
+import fetch from "node-fetch";
+import { createStory as createStoryRecord } from "server/services/dynamodb/story";
+import { PersistStoryOptions } from "server/types/persistStoryOptions";
+
+dotenv.config();
 
 // the newest OpenAI model is "gpt-5" which was released August 7, 2025. do not change this unless explicitly requested by the user
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -156,3 +162,94 @@ Please generate a new version of page ${pageNumber} that fits naturally with thi
 }
 
 export const openAIStoryService = new OpenAIStoryService();
+
+const AWS_STORY_ENDPOINT = process.env.CREATE_STORY_ENDPOINT;
+
+export async function persistGeneratedStory(
+  generatedStory: GeneratedStory,
+  userId: string,
+  options?: PersistStoryOptions
+): Promise<{ storyId: string }> {
+  const resolvedUserId = userId || options?.userId;
+  
+  if (!resolvedUserId) {
+    throw new Error('User ID is required for story creation');
+  }
+  
+  let storyId = options?.storyId;
+  if (!storyId) {
+    const { v4: uuidv4 } = await import('uuid');
+    storyId = uuidv4();
+  }
+  
+  const pagesWithIds = generatedStory.pages.map((page) => {
+    const pageMapping = options?.pageIdsMapping?.find(p => p.pageNumber === page.pageNumber);
+    return {
+      text: page.text,
+      imageDescription: page.imagePrompt,
+      pageId: pageMapping?.pageId
+    };
+  });
+  
+  const payload = {
+    userId: resolvedUserId,
+    title: generatedStory.title,
+    pages: pagesWithIds,
+    storyId,
+  };
+
+  const requestHeaders: Record<string, string> = {
+    "Content-Type": "application/json",
+  };
+
+  let response;
+  try {
+    if (!AWS_STORY_ENDPOINT) {
+      throw new Error("CREATE_STORY_ENDPOINT environment variable is not set.");
+    }
+    
+    response = await fetch(AWS_STORY_ENDPOINT, {
+      method: "POST",
+      headers: requestHeaders,
+      body: JSON.stringify(payload),
+    });
+
+    if (response.ok) {
+      return (await response.json()) as { storyId: string };
+    }
+
+    const status = response.status;
+    const errorText = await response.text();
+    console.warn(`AWS endpoint responded with ${status}: ${errorText}`);
+
+    if (status !== 401 && status !== 403) {
+      throw new Error(`Failed to save story to AWS: ${status} - ${errorText}`);
+    }
+  } catch (err) {
+    console.warn("Primary AWS endpoint failed, trying fallback:", err);
+  }
+
+  const hasAwsCredentials = Boolean(
+    process.env.AWS_ACCESS_KEY_ID && 
+    process.env.AWS_SECRET_ACCESS_KEY && 
+    process.env.STORIES_TABLE
+  );
+
+  if (hasAwsCredentials) {
+    try {
+      console.log("Attempting DynamoDB direct save...");
+      const savedStoryId = await createStoryRecord(
+        resolvedUserId, 
+        generatedStory.title, 
+        payload.pages, 
+        storyId
+      );
+      return { storyId: savedStoryId };
+    } catch (fallbackError) {
+      console.error("DynamoDB fallback save failed:", fallbackError);
+    }
+  }
+
+  console.warn(`Returning fallback storyId ${storyId}; data may be persisted locally only.`);
+  return { storyId };
+}

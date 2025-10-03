@@ -1,0 +1,9 @@
+# Cognito Triggers
+postConfirmationTrigger:
+  handler: functions/triggers/cognito/postConfirmationTrigger.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:PutItem
+      Resource:
+        - Fn::GetAtt: [UsersTable, Arn]

@@ -1,0 +1,31 @@
+service: storybloom
+
+frameworkVersion: '4'
+
+custom:
+  prefix: ${self:service}-${self:provider.stage}
+
+plugins:
+  - serverless-iam-roles-per-function
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'us-east-1'}  
+  profile: storybloom
+  environment:
+    serviceName: ${self:service}
+    stage: ${sls:stage}
+    AWS_REGION_NAME: ${opt:region, 'us-east-1'}
+    COGNITO_USER_POOL_ID: !Ref UserPool
+    USERS_TABLE: !Ref UsersTable
+    STORIES_TABLE: !Ref StoriesTable
+    STORY_ASSETS_BUCKET: !Ref StoryAssetsBucket
+
+functions:
+  - ${file(sls-functions/triggers.yml)}
+  - ${file(sls-functions/user.yml)}
+  - ${file(sls-functions/story.yml)}
+
+resources: ${file(resources.yaml)}

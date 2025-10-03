@@ -1,0 +1,51 @@
+createStory:
+  handler: functions/story/save.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:PutItem
+        - dynamodb:TransactWriteItems
+        - dynamodb:BatchWriteItem
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+  events:
+    - http:
+        method: post
+        path: stories
+        cors: true
+
+listStoriesByUser:
+  handler: functions/story/list.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+  events:
+    - http:
+        method: get
+        path: stories
+        cors: true
+        authorizer:
+          name: CognitoAuthorizer
+          type: COGNITO_USER_POOLS
+          arn: !GetAtt UserPool.Arn
+
+getStoryById:
+  handler: functions/story/get.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+  events:
+    - http:
+        method: get
+        path: stories/{storyId}
+        cors: true
+        authorizer:
+          name: CognitoAuthorizer
+          type: COGNITO_USER_POOLS
+          arn: !GetAtt UserPool.Arn

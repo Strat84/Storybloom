@@ -1,3 +1,4 @@
+import * as path from "path";
 import * as fs from "fs";
 import { GoogleGenAI, Modality } from "@google/genai";
 
@@ -12,37 +13,143 @@ const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
 export interface ImageGenerationRequest {
   prompt: string;
   enhancePrompt?: boolean;
+  sessionId?: string; // Optional: to continue an existing chat session
+  previousImagePath?: string; // Optional: for editing existing images
 }
 
 export interface GeneratedImage {
   imageUrl: string;
   prompt: string;
+  sessionId: string; // Return session ID for future edits
 }
 
+/**
+ * Manages persistent chat sessions for multi-turn image generation
+ */
+class ChatSessionManager {
+  private sessions: Map<string, any> = new Map();
+  private sessionTimeout = 30 * 60 * 1000; // 30 minutes
+  private sessionTimestamps: Map<string, number> = new Map();
+
+  /**
+   * Get or create a chat session
+   */
+  getOrCreateSession(sessionId?: string): { session: any; id: string } {
+    // Clean up old sessions first
+    this.cleanupExpiredSessions();
+
+    if (sessionId && this.sessions.has(sessionId)) {
+      // Reuse existing session
+      const session = this.sessions.get(sessionId)!;
+      this.sessionTimestamps.set(sessionId, Date.now());
+      console.log(`Reusing existing chat session: ${sessionId}`);
+      return { session, id: sessionId };
+    }
+
+    // Create new session
+    const newSessionId = this.generateSessionId();
+    const session = ai.chats.create({
+      model: "gemini-2.0-flash-preview-image-generation",
+      config: {
+        responseModalities: [Modality.TEXT, Modality.IMAGE],
+      },
+    });
+
+    this.sessions.set(newSessionId, session);
+    this.sessionTimestamps.set(newSessionId, Date.now());
+    console.log(`Created new chat session: ${newSessionId}`);
+    
+    return { session, id: newSessionId };
+  }
+
+  /**
+   * Delete a specific session
+   */
+  deleteSession(sessionId: string): boolean {
+    console.log(`Deleting chat session: ${sessionId}`);
+    this.sessionTimestamps.delete(sessionId);
+    return this.sessions.delete(sessionId);
+  }
+
+  /**
+   * Clean up expired sessions
+   */
+  private cleanupExpiredSessions(): void {
+    const now = Date.now();
+    const expiredSessions: string[] = [];
+
+    this.sessionTimestamps.forEach((timestamp, sessionId) => {
+      if (now - timestamp > this.sessionTimeout) {
+        expiredSessions.push(sessionId);
+      }
+    });
+
+    expiredSessions.forEach(sessionId => {
+      console.log(`Cleaning up expired session: ${sessionId}`);
+      this.sessions.delete(sessionId);
+      this.sessionTimestamps.delete(sessionId);
+    });
+  }
+
+  /**
+   * Generate unique session ID
+   */
+  private generateSessionId(): string {
+    return `chat_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+  }
+
+  /**
+   * Get session count (for debugging)
+   */
+  getActiveSessionCount(): number {
+    return this.sessions.size;
+  }
+}
+
+// Singleton instance
+const sessionManager = new ChatSessionManager();
+
 export class GeminiImageService {
+  /**
+   * Generate or edit an image with persistent chat session
+   */
   async generateImage(request: ImageGenerationRequest): Promise<GeneratedImage> {
-    const { prompt, enhancePrompt = true } = request;
+    const { prompt, enhancePrompt = true, sessionId, previousImagePath } = request;
+    
+    // Get or create chat session
+    const { session, id } = sessionManager.getOrCreateSession(sessionId);
     
     // Enhance the prompt for better children's book style images
     const enhancedPrompt = enhancePrompt ? this.enhanceImagePrompt(prompt) : prompt;
     
     try {
-      const tempDir = '/tmp/generated-images';
-      if (!fs.existsSync(tempDir)) {
-        fs.mkdirSync(tempDir, { recursive: true });
+    // ✅ FIX: Save to public/generated-images instead of /tmp
+    const tempDir = path.join(process.cwd(), 'public', 'generated-images');
+    if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir, { recursive: true });
+    }
+
+    const fileName = `story-image-${Date.now()}.png`;
+    const imagePath = path.join(tempDir, fileName); // Use path.join
+
+      // Build message parts
+      const messageParts: any[] = [{ text: enhancedPrompt }];
+
+      // If editing an existing image, include it in the message
+      if (previousImagePath && fs.existsSync(previousImagePath)) {
+        const imageData = fs.readFileSync(previousImagePath);
+        const base64Image = imageData.toString('base64');
+        messageParts.push({
+          inlineData: {
+            mimeType: "image/png",
+            data: base64Image,
+          },
+        });
+        console.log(`Including previous image in chat: ${previousImagePath}`);
       }
 
-      const fileName = `story-image-${Date.now()}.png`;
-      const imagePath = `${tempDir}/${fileName}`;
-
-      // IMPORTANT: only this gemini model supports image generation
-      const response = await ai.models.generateContent({
-        model: "gemini-2.0-flash-preview-image-generation",
-        contents: [{ role: "user", parts: [{ text: enhancedPrompt }] }],
-        config: {
-          responseModalities: [Modality.TEXT, Modality.IMAGE],
-        },
-      });
+      // Send message through the chat session (maintains history)
+      const response = await session.sendMessage({ message: messageParts });
 
       const candidates = response.candidates;
       if (!candidates || candidates.length === 0) {
@@ -69,10 +176,11 @@ export class GeminiImageService {
         throw new Error("No image data found in Gemini response");
       }
 
-      // Return the file path that can be served by the static middleware
+      // Return the file path and session ID
       return {
         imageUrl: `/api/images/${fileName}`,
-        prompt: enhancedPrompt
+        prompt: enhancedPrompt,
+        sessionId: id, // Return session ID so client can continue the conversation
       };
 
     } catch (error) {
@@ -108,17 +216,43 @@ export class GeminiImageService {
     }
   }
 
-  async regenerateImage(originalPrompt: string, customInstructions?: string): Promise<GeneratedImage> {
+  /**
+   * Regenerate/edit an image using chat session
+   * This maintains conversation context for iterative editing
+   */
+  async regenerateImage(
+    originalPrompt: string, 
+    customInstructions?: string,
+    sessionId?: string,
+    previousImagePath?: string
+  ): Promise<GeneratedImage> {
     let modifiedPrompt = originalPrompt;
     
     if (customInstructions) {
-      modifiedPrompt = `${originalPrompt}. Additional instructions: ${customInstructions}`;
+      // For chat-based editing, use conversational instructions
+      modifiedPrompt = customInstructions;
     }
 
     return this.generateImage({ 
       prompt: modifiedPrompt, 
-      enhancePrompt: true 
+      enhancePrompt: !customInstructions, // Don't enhance if custom instructions provided
+      sessionId, // Pass session ID to continue conversation
+      previousImagePath, // Include previous image for editing
     });
+  }
+
+  /**
+   * End a chat session (cleanup)
+   */
+  endChatSession(sessionId: string): boolean {
+    return sessionManager.deleteSession(sessionId);
+  }
+
+  /**
+   * Get active session count (for monitoring)
+   */
+  getActiveSessionCount(): number {
+    return sessionManager.getActiveSessionCount();
   }
 }
 

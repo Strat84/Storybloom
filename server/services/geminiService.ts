@@ -1,4 +1,6 @@
 import * as fs from "fs";
+import * as os from "os";
+import * as path from "path";
 import { GoogleGenAI, Modality } from "@google/genai";
 
 // DON'T DELETE THIS COMMENT
@@ -17,7 +19,14 @@ export interface ImageGenerationRequest {
 export interface GeneratedImage {
   imageUrl: string;
   prompt: string;
+  imageBuffer: Buffer;
+  contentType: string;
+  fileName: string;
 }
+
+export const GENERATED_IMAGES_DIR = process.env.GENERATED_IMAGES_DIR
+  ? path.resolve(process.env.GENERATED_IMAGES_DIR)
+  : path.join(os.tmpdir(), "generated-images");
 
 export class GeminiImageService {
   async generateImage(request: ImageGenerationRequest): Promise<GeneratedImage> {
@@ -27,13 +36,12 @@ export class GeminiImageService {
     const enhancedPrompt = enhancePrompt ? this.enhanceImagePrompt(prompt) : prompt;
     
     try {
-      const tempDir = '/tmp/generated-images';
-      if (!fs.existsSync(tempDir)) {
-        fs.mkdirSync(tempDir, { recursive: true });
+      if (!fs.existsSync(GENERATED_IMAGES_DIR)) {
+        fs.mkdirSync(GENERATED_IMAGES_DIR, { recursive: true });
       }
 
       const fileName = `story-image-${Date.now()}.png`;
-      const imagePath = `${tempDir}/${fileName}`;
+      const imagePath = path.join(GENERATED_IMAGES_DIR, fileName);
 
       // IMPORTANT: only this gemini model supports image generation
       const response = await ai.models.generateContent({
@@ -54,25 +62,29 @@ export class GeminiImageService {
         throw new Error("No content parts in Gemini response");
       }
 
-      let imageGenerated = false;
+      let inlineImage: { buffer: Buffer; contentType: string } | undefined;
       for (const part of content.parts) {
         if (part.inlineData && part.inlineData.data) {
           const imageData = Buffer.from(part.inlineData.data, "base64");
+          const mimeType = part.inlineData.mimeType || "image/png";
           fs.writeFileSync(imagePath, imageData);
-          imageGenerated = true;
+          inlineImage = { buffer: imageData, contentType: mimeType };
           console.log(`Story image saved as ${imagePath}`);
           break;
         }
       }
 
-      if (!imageGenerated) {
+      if (!inlineImage) {
         throw new Error("No image data found in Gemini response");
       }
 
       // Return the file path that can be served by the static middleware
       return {
         imageUrl: `/api/images/${fileName}`,
-        prompt: enhancedPrompt
+        prompt: enhancedPrompt,
+        imageBuffer: inlineImage.buffer,
+        contentType: inlineImage.contentType,
+        fileName
       };
 
     } catch (error) {

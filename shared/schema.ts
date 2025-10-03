@@ -33,6 +33,16 @@ export const storyPages = pgTable("story_pages", {
   updatedAt: timestamp("updated_at").defaultNow(),
 });
 
+export const editStoryRequestSchema = z.object({
+  title: z.string().optional(),
+  pages: z.array(z.object({
+    pageNumber: z.number().positive(),
+    text: z.string().optional(),
+    imagePrompt: z.string().optional(),
+    shouldRegenerateImage: z.boolean().optional(),
+  })).optional(),
+});
+
 // Insert schemas
 export const insertUserSchema = createInsertSchema(users).pick({
   username: true,
@@ -73,6 +83,7 @@ export const createStoryRequestSchema = z.object({
 export const updatePageRequestSchema = z.object({
   text: z.string().optional(),
   imagePrompt: z.string().optional(),
+  shouldRegenerateImage: z.boolean().optional(),
 });
 
 export const generateImageRequestSchema = z.object({
@@ -82,3 +93,4 @@ export const generateImageRequestSchema = z.object({
 export type CreateStoryRequest = z.infer<typeof createStoryRequestSchema>;
 export type UpdatePageRequest = z.infer<typeof updatePageRequestSchema>;
 export type GenerateImageRequest = z.infer<typeof generateImageRequestSchema>;
+export type EditStoryRequest = z.infer<typeof editStoryRequestSchema>;

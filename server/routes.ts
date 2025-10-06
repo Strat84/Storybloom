@@ -6,8 +6,7 @@ import { geminiImageService, GENERATED_IMAGES_DIR } from "./services/geminiServi
 import { pdfService } from "./services/pdfService";
 import {
   createStoryRequestSchema,
-  updatePageRequestSchema,
-  generateImageRequestSchema
+  generateImageRequestSchema,
 } from "@shared/schema";
 import { z } from "zod";
 import * as fs from "fs";
@@ -27,51 +26,30 @@ import { extractUserIdFromToken } from "./utils/extractUserIdFromToken.js";
 
 dotenv.config();
 
-// Predefined image styles for consistent generation
-const imageStyles = [
-  // 0: traditional_cartoon
-  "Style: Classic Western children’s cartoon with dynamic action poses, thick black outlines, and saturated primary colors. Simple, readable shapes with gentle squash-and-stretch; minimal cel shading plus occasional halftone/texture for backgrounds. Clear silhouettes, bold sound/motion cues (whoosh lines, dust puffs). Warm, playful tone; compositions uncluttered and story-first.",
-  // 1: anime_kid_style
-  "Style: Kid-friendly anime with rounded features, large expressive eyes (soft highlights), and slightly enlarged head/hand proportions (not chibi). Playful, colorful hair with bright edge highlights; clean line art and soft gradients. Add shōnen-style energy cues—speed lines, sparkle accents, wind sweeps—kept gentle and age-appropriate. Warm pastel-leaning palette, tidy backgrounds, light rim light; avoid edgy/adult themes or heavy contrast.",
-  // 2: three_d_kid_style
-  "Style: Stylized 3D for kids: rounded forms, simplified anatomy, and cozy PBR materials (soft fabric weave, matte wood, gentle skin SSS). Cinematic but friendly lighting with rim light and occasional god rays; mild DOF and SSAO for depth. Emissive glows for magic cues; avoid hyper-real pores or gritty textures. Warm/cool color contrast for drama while keeping a safe, inviting feel.",
-  // 3: chibi
-  "Style: Ultra-cute chibi with super-deformed proportions: oversized heads, tiny bodies, big sparkling eyes, and simplified features. Thick, rounded outlines with soft line-weight variation; pastel neutrals and gentle gradients. Puffy shapes, blush marks, sticker-like star/heart sparkles, tiny motion lines. Minimal shading, no clutter or heavy contrast—instant readability and maximum adorableness.",
-];
-
-import * as os from "os";
-
 export async function registerRoutes(app: Express): Promise<Server> {
   // Static file serving for generated images
   app.get('/api/images/:filename', (req, res) => {
     const filename = req.params.filename;
-
+    
     // SECURITY: Prevent path traversal attacks by sanitizing filename
     const sanitizedFilename = path.basename(filename);
     if (sanitizedFilename !== filename || filename.includes('..') || filename.includes('/') || filename.includes('\\')) {
       return res.status(400).json({ error: 'Invalid filename' });
     }
-
-    const imagePath = path.join(process.cwd(), 'public', 'generated-images', sanitizedFilename);
-
+    
+    const imagePath = path.join('/tmp/generated-images', sanitizedFilename);
+    
     if (fs.existsSync(imagePath)) {
       res.sendFile(imagePath);
     } else {
       res.status(404).json({ error: 'Image not found' });
     }
-  });  // Create a new story with AI generation
+  });
+
+  // Create a new story with AI generation
   app.post('/api/stories', async (req, res) => {
     try {
       const request = createStoryRequestSchema.parse(req.body);
-
-      // Create initial story record
-      const story = await storage.createStory({
-        title: request.title || "Untitled Story",
-        status: "generating",
-        totalPages: request.totalPages,
-        description: request.prompt
-      });
-      storyId = story.id;
 
       let userId: string;
       try {
@@ -131,26 +109,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
     } catch (error) {
       console.error('Create story error:', error);
-
-      // If OpenAI generation fails, mark story as failed instead of leaving it in generating state
-      if (storyId) {
-        try {
-          await storage.updateStory(storyId, { status: "error" });
-        } catch (updateError) {
-          console.error('Failed to update story status to error:', updateError);
-        }
-      }
-
-      // Return proper status codes for validation errors
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
+        return res.status(400).json({ 
           error: 'Invalid request data',
           details: error.errors
         });
       }
-
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to create story'
+      
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to create story' 
       });
     }
   });
@@ -164,7 +131,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       const pages = await storage.getStoryPages(story.id);
-
+      
       res.json({
         story,
         pages
@@ -172,8 +139,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
     } catch (error) {
       console.error('Get story error:', error);
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to get story'
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to get story' 
       });
     }
   });
@@ -185,8 +152,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(stories);
     } catch (error) {
       console.error('Get stories error:', error);
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to get stories'
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to get stories' 
       });
     }
   });
@@ -252,17 +219,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
     } catch (error) {
       console.error('Update page error:', error);
-
+      
       // Return proper status codes for validation errors
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
+        return res.status(400).json({ 
           error: 'Invalid request data',
           details: error.errors
         });
       }
-
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to update page'
+      
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to update page' 
       });
     }
   });
@@ -376,146 +343,106 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
     } catch (error) {
       console.error('Generate image error:', error);
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to generate image'
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to generate image' 
       });
     }
   });
 
   // Route to generate all images for a story at once for consistency
-app.post('/api/stories/:storyId/generate-all-images', async (req, res) => {
-  try {
-    console.log(`Batch generate request for storyId: ${req.params.storyId}`);
-    console.log('Request body:', req.body);
+  app.post('/api/stories/:storyId/generate-all-images', async (req, res) => {
+    try {
+      const story = await storage.getStory(req.params.storyId);
+      if (!story) {
+        return res.status(404).json({ error: 'Story not found' });
+      }
 
-    const story = await storage.getStory(req.params.storyId);
-    if (!story) {
-      return res.status(404).json({ error: 'Story not found' });
-    }
+      const pages = await storage.getStoryPages(req.params.storyId);
+      if (!pages || pages.length === 0) {
+        return res.status(404).json({ error: 'No pages found for story' });
+      }
 
-    const pages = await storage.getStoryPages(req.params.storyId);
-    if (!pages || pages.length === 0) {
-      return res.status(404).json({ error: 'No pages found for story' });
-    }
+      // Get character description from request body
+      const { characterDescription } = req.body;
+      
+      // Create a comprehensive character consistency prefix
+      let consistencyPrefix = `Children's book illustration style. Story: "${story.title}". `;
+      
+      if (characterDescription && characterDescription.trim()) {
+        consistencyPrefix += `MAIN CHARACTER (must appear exactly the same in all images): ${characterDescription.trim()}. `;
+      }
+      
+      consistencyPrefix += `Art style: Colorful, warm, child-friendly illustrations with soft edges and vibrant colors. Maintain exact character appearance, clothing, and features across all scenes. `;
+      
+      // Generate all images with the unified character description
+      const updatedPages = [];
+      for (const page of pages) {
+        if (page.imagePrompt) {
+          try {
+            // Combine the consistency prefix with the specific scene description
+            const enhancedPrompt = consistencyPrefix + `Scene: ${page.imagePrompt}`;
+            
+            console.log(`Generating image for page ${page.pageNumber} with enhanced prompt:`, enhancedPrompt.substring(0, 200) + '...');
+            
+            const generatedImage = await geminiImageService.generateImage({
+              prompt: enhancedPrompt,
+              enhancePrompt: false // Don't double-enhance since we're doing it manually
+            });
 
-    // --- PROMPT CONSTRUCTION ---
-    // 1. Select the Image Style
-    const styleIndex = 1; // 0 = traditional_cartoon
-    const stylePrefix = imageStyles[styleIndex];
-    console.log(`Selected Style (index ${styleIndex}):`, stylePrefix);
+            const updatedPage = await storage.updateStoryPage(page.id, {
+              imageUrl: generatedImage.imageUrl
+            });
 
-    // 2. Define the Main Character
-    const { characterDescription } = req.body;
-    let characterPrefix = "";
-    if (characterDescription && characterDescription.trim()) {
-      characterPrefix = `MAIN CHARACTER (must appear exactly the same in all images): ${characterDescription.trim()}.`;
-      console.log('Character Prefix:', characterPrefix);
-    }
-
-    // 3. Define Story Context
-    const storyPrefix = `Story: "${story.title}".`;
-    console.log('Story Prefix:', storyPrefix);
-
-    // 🔑 KEY FIX: Track session ID across all page generations
-    let currentSessionId: string | undefined = undefined;
-
-    // Generate all images with the unified prompt structure
-    const updatedPages = [];
-    for (const page of pages) {
-      if (page.imagePrompt) {
-        try {
-          // Combine all parts: {image style} {character style} {story context} {page details}
-          const enhancedPrompt = `${stylePrefix} ${characterPrefix} ${storyPrefix} Scene: ${page.imagePrompt}`;
-
-          console.log(`--- Generating image for page ${page.pageNumber} ---`);
-          console.log('Final Enhanced Prompt:', enhancedPrompt);
-
-          // ✅ FIX: Pass sessionId to reuse the same chat session
-          const generatedImage = await geminiImageService.generateImage({
-            prompt: enhancedPrompt,
-            enhancePrompt: false, // We've already manually constructed the prompt
-            sessionId: currentSessionId, // 🔑 Pass session ID here!
-          });
-
-          // ✅ FIX: Save the session ID for the next iteration
-          currentSessionId = generatedImage.sessionId;
-
-          console.log(`Image generated for page ${page.pageNumber}. URL: ${generatedImage.imageUrl}`);
-          console.log(`Using session ID: ${currentSessionId}`);
-
-          const updatedPage = await storage.updateStoryPage(page.id, { imageUrl: generatedImage.imageUrl });
-          updatedPages.push(updatedPage);
-        } catch (pageError) {
-          console.error(`Failed to generate image for page ${page.pageNumber}:`, pageError);
-          // Continue with other pages even if one fails
+            updatedPages.push(updatedPage);
+          } catch (pageError) {
+            console.error(`Failed to generate image for page ${page.pageNumber}:`, pageError);
+            // Continue with other pages even if one fails
+            updatedPages.push(page);
+          }
+        } else {
           updatedPages.push(page);
         }
-      } else {
-        console.log(`Skipping page ${page.pageNumber} as it has no image prompt.`);
-        updatedPages.push(page);
       }
+
+      res.json({
+        story: story,
+        pages: updatedPages,
+        message: `Generated images for ${updatedPages.filter(p => p?.imageUrl).length} pages with consistent character design`
+      });
+
+    } catch (error) {
+      console.error('Batch generate images error:', error);
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to generate images' 
+      });
     }
-
-    // ✅ Optional: Clean up the session after all images are generated
-    if (currentSessionId) {
-      geminiImageService.endChatSession(currentSessionId);
-      console.log(`Cleaned up chat session: ${currentSessionId}`);
-    }
-
-    const result = {
-      story: story,
-      pages: updatedPages,
-      message: `Generated images for ${updatedPages.filter(p => p?.imageUrl).length} pages with consistent character design using session: ${currentSessionId}`
-    };
-
-    console.log('Batch generation complete. Sending response.');
-    res.json(result);
-
-  } catch (error) {
-    console.error('Batch generate images error:', error);
-    res.status(500).json({ error: error instanceof Error ? error.message : 'Failed to generate images' });
-  }
-});
+  });
 
   // Regenerate image with custom prompt
   app.post('/api/generate-image', async (req, res) => {
     try {
       const request = generateImageRequestSchema.parse(req.body);
-      console.log('Received custom image generation request:', request);
-
-      // --- PROMPT CONSTRUCTION ---
-      // 1. Select the Image Style
-      // For now, we hardcode the index. You can make this dynamic later.
-      const styleIndex = 1; // 0 = traditional_cartoon
-      const stylePrefix = imageStyles[styleIndex];
-      console.log(`Selected Style (index ${styleIndex}):`, stylePrefix);
-
-      // 2. Combine style with user's prompt
-      // This endpoint does not include character consistency.
-      const finalPrompt = `${stylePrefix} Scene: ${request.prompt}`;
-      console.log('Final Prompt for single image:', finalPrompt);
-
+      
       const generatedImage = await geminiImageService.generateImage({
-        prompt: finalPrompt,
-        enhancePrompt: false // We've already manually constructed the prompt
+        prompt: request.prompt,
+        enhancePrompt: true
       });
 
-      console.log('Custom image generated. Sending response:', generatedImage);
       res.json(generatedImage);
 
     } catch (error) {
       console.error('Generate custom image error:', error);
-
+      
       // Return proper status codes for validation errors
       if (error instanceof z.ZodError) {
-        return res.status(400).json({
+        return res.status(400).json({ 
           error: 'Invalid request data',
           details: error.errors
         });
       }
-
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to generate image'
+      
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to generate image' 
       });
     }
   });
@@ -523,40 +450,22 @@ app.post('/api/stories/:storyId/generate-all-images', async (req, res) => {
   // Delete a story
   app.delete('/api/stories/:id', async (req, res) => {
     try {
-      // First, get the pages to find associated images
-      const pages = await storage.getStoryPages(req.params.id);
-
       const deleted = await storage.deleteStory(req.params.id);
       if (!deleted) {
         return res.status(404).json({ error: 'Story not found' });
-      }
-
-      // After successfully deleting from DB, delete associated images
-      for (const page of pages) {
-        if (page.imageUrl) {
-          try {
-            const filename = path.basename(page.imageUrl);
-            const imagePath = path.join(process.cwd(), 'public', 'generated-images', filename);
-            if (fs.existsSync(imagePath)) {
-              fs.unlinkSync(imagePath);
-              console.log(`Deleted image: ${imagePath}`);
-            }
-          } catch (fileError) {
-            console.error(`Failed to delete image file for page ${page.id}:`, fileError);
-            // Don't block the response for a file deletion error
-          }
-        }
       }
 
       res.json({ success: true });
 
     } catch (error) {
       console.error('Delete story error:', error);
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to delete story'
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to delete story' 
       });
     }
-  });  // Export story as PDF
+  });
+
+  // Export story as PDF
   app.get('/api/stories/:id/export/pdf', async (req, res) => {
     try {
       const story = await storage.getStory(req.params.id);
@@ -565,27 +474,24 @@ app.post('/api/stories/:storyId/generate-all-images', async (req, res) => {
       }
 
       const pages = await storage.getStoryPages(story.id);
-
+      
       // Generate PDF
       const pdfBuffer = await pdfService.generateStoryPDF(story, pages);
-
+      
       // Set appropriate headers for PDF download
       const filename = `${story.title.replace(/[^a-zA-Z0-9]/g, '_')}_storybook.pdf`;
       res.setHeader('Content-Type', 'application/pdf');
       res.setHeader('Content-Disposition', `attachment; filename="${filename}"`);
       res.setHeader('Content-Length', pdfBuffer.length);
-
+      
       res.send(pdfBuffer);
 
     } catch (error) {
       console.error('Export PDF error:', error);
-      res.status(500).json({
-        error: error instanceof Error ? error.message : 'Failed to export story as PDF'
+      res.status(500).json({ 
+        error: error instanceof Error ? error.message : 'Failed to export story as PDF' 
       });
     }
   });
 
   const httpServer = createServer(app);
-
-  return httpServer;
-}

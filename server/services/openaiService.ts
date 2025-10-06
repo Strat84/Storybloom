@@ -30,7 +30,7 @@ export interface GeneratedStory {
 export class OpenAIStoryService {
   async generateStory(request: StoryGenerationRequest): Promise<GeneratedStory> {
     const { prompt, totalPages, targetAge = "4-8 years old" } = request;
-    
+
     const systemPrompt = `You are a master children's book author specializing in creating engaging, educational, and age-appropriate stories for children ${targetAge}.
 
 Your task is to create a complete children's storybook with exactly ${totalPages} pages based on the user's prompt.
@@ -84,7 +84,7 @@ Make it magical, engaging, and perfect for children aged ${targetAge}.`;
       }
 
       const generatedStory = JSON.parse(content) as GeneratedStory;
-      
+
       // Validate the response structure
       if (!generatedStory.title || !generatedStory.pages || generatedStory.pages.length !== totalPages) {
         throw new Error("Invalid story structure received from OpenAI");
@@ -171,17 +171,17 @@ export async function persistGeneratedStory(
   options?: PersistStoryOptions
 ): Promise<{ storyId: string }> {
   const resolvedUserId = userId || options?.userId;
-  
+
   if (!resolvedUserId) {
     throw new Error('User ID is required for story creation');
   }
-  
+
   let storyId = options?.storyId;
   if (!storyId) {
     const { v4: uuidv4 } = await import('uuid');
     storyId = uuidv4();
   }
-  
+
   const pagesWithIds = generatedStory.pages.map((page) => {
     const pageMapping = options?.pageIdsMapping?.find(p => p.pageNumber === page.pageNumber);
     return {
@@ -190,7 +190,7 @@ export async function persistGeneratedStory(
       pageId: pageMapping?.pageId
     };
   });
-  
+
   const payload = {
     userId: resolvedUserId,
     title: generatedStory.title,
@@ -207,7 +207,7 @@ export async function persistGeneratedStory(
     if (!AWS_STORY_ENDPOINT) {
       throw new Error("CREATE_STORY_ENDPOINT environment variable is not set.");
     }
-    
+
     response = await fetch(AWS_STORY_ENDPOINT, {
       method: "POST",
       headers: requestHeaders,
@@ -230,8 +230,8 @@ export async function persistGeneratedStory(
   }
 
   const hasAwsCredentials = Boolean(
-    process.env.AWS_ACCESS_KEY_ID && 
-    process.env.AWS_SECRET_ACCESS_KEY && 
+    process.env.AWS_ACCESS_KEY_ID &&
+    process.env.AWS_SECRET_ACCESS_KEY &&
     process.env.STORIES_TABLE
   );
 
@@ -239,9 +239,9 @@ export async function persistGeneratedStory(
     try {
       console.log("Attempting DynamoDB direct save...");
       const savedStoryId = await createStoryRecord(
-        resolvedUserId, 
-        generatedStory.title, 
-        payload.pages, 
+        resolvedUserId,
+        generatedStory.title,
+        payload.pages,
         storyId
       );
       return { storyId: savedStoryId };

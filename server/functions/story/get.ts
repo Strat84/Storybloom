@@ -7,13 +7,13 @@ export const handler = async (
 ): Promise<APIGatewayProxyResult> => {
     console.log("Event:", event);
 
-    const userId = event?.requestContext?.authorizer?.claims.sub;
+    // const userId = event?.requestContext?.authorizer?.claims.sub;
     const storyId = event.pathParameters?.storyId;
 
-    if (!userId) {
-        console.log("No user ID found in token claims");
-        return buildResponse(401, { message: "Unauthorized - No user ID found" });
-    }
+    // if (!userId) {
+    //     console.log("No user ID found in token claims");
+    //     return buildResponse(401, { message: "Unauthorized - No user ID found" });
+    // }
 
     if (!storyId) {
         return buildResponse(400, { message: "Missing storyId in path parameters" });

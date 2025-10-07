@@ -13,3 +13,5 @@ vite.config.ts.*
 *.swo
 coverage
 server/.serverless
+
+undefined/

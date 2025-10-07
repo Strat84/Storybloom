@@ -190,6 +190,8 @@ export const updatePageImageMetadata = async (
     imageGenerationCount: input.imageGenerationCount,
     imageGenerationDate: input.imageGenerationDate,
     lastImageGeneratedAt: input.lastImageGeneratedAt,
+    imageGenerationStatus: 'COMPLETED', // Atomically update status
+    imageGenerationJobId: input.jobId, // Ensure jobId is also set
   };
 
   const updateQuery = generateUpdateQuery(imageMetadataData);
@@ -448,7 +450,7 @@ export const getStoryStatus = async (userId: string, storyId: string) => {
 // Update story status
 export const updateStoryStatus = async (
   userId: string,
-  storyId: string, 
+  storyId: string,
   status: 'PENDING' | 'COMPLETED' | 'FAILED'
 ) => {
   await dynamoDB.send(
@@ -468,4 +470,35 @@ export const updateStoryStatus = async (
       },
     })
   );
+};
+
+export const updatePageImageGenerationStatus = async (
+  storyId: string,
+  pageNumber: number,
+  status: 'PENDING' | 'COMPLETED' | 'FAILED',
+  jobId?: string
+) => {
+  const tableName = STORIES_TABLE;
+  const updateData: Record<string, any> = {
+    imageGenerationStatus: status,
+  };
+
+  if (jobId) {
+    updateData.imageGenerationJobId = jobId;
+  }
+
+  const updateQuery = generateUpdateQuery(updateData);
+
+  const command = new UpdateCommand({
+    TableName: tableName,
+    Key: {
+      pk: `story#${storyId}`,
+      sk: `page#${pageNumber}`,
+    },
+    ...updateQuery,
+    ReturnValues: "ALL_NEW",
+  });
+
+  const { Attributes } = await dynamoDB.send(command);
+  return Attributes;
 };

@@ -1,19 +1,19 @@
-import * as fs from "fs";
-import * as os from "os";
 import * as path from "path";
+import * as fs from "fs";
 import { GoogleGenAI, Modality } from "@google/genai";
+import { getStory } from "./dynamodb/story";
+import { S3Client, GetObjectCommand } from "@aws-sdk/client-s3";
 
-// DON'T DELETE THIS COMMENT
-// Follow these instructions when using this blueprint:
-// - Note that the newest Gemini model series is "gemini-2.5-flash" or gemini-2.5-pro"
-//   - do not change this unless explicitly requested by the user
-
-// This API key is from Gemini Developer API Key, not vertex AI API Key
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+
+// S3 Client
+const s3Client = new S3Client({ region: process.env.AWS_REGION_NAME || "us-east-1" });
 
 export interface ImageGenerationRequest {
   prompt: string;
   enhancePrompt?: boolean;
+  storyId: string;
+  pageNumber: number;
 }
 
 export interface GeneratedImage {
@@ -26,16 +26,151 @@ export interface GeneratedImage {
 
 export const GENERATED_IMAGES_DIR = process.env.GENERATED_IMAGES_DIR
   ? path.resolve(process.env.GENERATED_IMAGES_DIR)
-  : path.join(os.tmpdir(), "generated-images");
+  : path.join(process.cwd(), "tmp", "generated-images");
+
+/**
+ * Interface for conversation history parts
+ */
+interface ContentPart {
+  text?: string;
+  inlineData?: {
+    mimeType: string;
+    data: string; // base64 encoded
+  };
+}
+
+interface ConversationMessage {
+  role: "user" | "model";
+  parts: ContentPart[];
+}
 
 export class GeminiImageService {
+  /**
+   * Fetch image from S3 and convert to base64
+   */
+  private async getImageFromS3(imageKey: string): Promise<{ data: string; mimeType: string } | null> {
+    try {
+      const command = new GetObjectCommand({
+        Bucket: process.env.STORY_ASSETS_BUCKET,
+        Key: imageKey,
+      });
+
+      const response = await s3Client.send(command);
+      
+      if (!response.Body) {
+        console.error(`No body in S3 response for key: ${imageKey}`);
+        return null;
+      }
+
+      // Convert stream to buffer
+      const chunks: Uint8Array[] = [];
+      for await (const chunk of response.Body as any) {
+        chunks.push(chunk);
+      }
+      const buffer = Buffer.concat(chunks);
+      const base64Data = buffer.toString("base64");
+
+      // Determine mime type from ContentType or file extension
+      let mimeType = response.ContentType || "image/png";
+      if (!mimeType.startsWith("image/")) {
+        const ext = path.extname(imageKey).toLowerCase();
+        if (ext === ".jpg" || ext === ".jpeg") mimeType = "image/jpeg";
+        else if (ext === ".webp") mimeType = "image/webp";
+        else mimeType = "image/png";
+      }
+
+      return { data: base64Data, mimeType };
+    } catch (error) {
+      console.error(`Failed to fetch image from S3: ${imageKey}`, error);
+      return null;
+    }
+  }
+
+  /**
+   * Build conversation history from previous pages (max 4 previous pages)
+   */
+  private async buildConversationHistory(
+    storyId: string,
+    currentPageNumber: number
+  ): Promise<ConversationMessage[]> {
+    try {
+      // Fetch all story pages
+      const allPages = await getStory(storyId);
+      
+      if (!allPages || allPages.length === 0) {
+        console.log("No pages found for story");
+        return [];
+      }
+
+      // Sort pages by page number
+      const sortedPages = allPages
+        .filter((page: any) => page.pageNo < currentPageNumber) // Only previous pages
+        .sort((a: any, b: any) => a.pageNo - b.pageNo);
+
+      // Get last 4 pages maximum
+      const MAX_CONTEXT_PAGES = 4;
+      const contextPages = sortedPages.slice(-MAX_CONTEXT_PAGES);
+
+      console.log(`Building context from ${contextPages.length} previous pages`);
+
+      const history: ConversationMessage[] = [];
+
+      for (const page of contextPages) {
+        // Add user message (the prompt that generated this page's image)
+        if (page.imageDescription) {
+          const userMessage: ConversationMessage = {
+            role: "user",
+            parts: [{ text: page.imageDescription }],
+          };
+          history.push(userMessage);
+
+          // Add model response (the generated image) if available
+          if (page.imageUrl && page.imageKey) {
+            const imageData = await this.getImageFromS3(page.imageKey);
+            
+            if (imageData) {
+              const modelMessage: ConversationMessage = {
+                role: "model",
+                parts: [
+                  { text: `Here's the illustration for page ${page.pageNo}` },
+                  {
+                    inlineData: {
+                      mimeType: imageData.mimeType,
+                      data: imageData.data,
+                    },
+                  },
+                ],
+              };
+              history.push(modelMessage);
+              console.log(`Added page ${page.pageNo} to context`);
+            } else {
+              console.warn(`Could not fetch image for page ${page.pageNo}, skipping from context`);
+            }
+          } else {
+            console.log(`Page ${page.pageNo} has no image, skipping from context`);
+          }
+        }
+      }
+
+      console.log(`Built conversation history with ${history.length} messages`);
+      return history;
+    } catch (error) {
+      console.error("Error building conversation history:", error);
+      return [];
+    }
+  }
+
+  /**
+   * Generate image with conversation context from previous pages
+   */
   async generateImage(request: ImageGenerationRequest): Promise<GeneratedImage> {
-    const { prompt, enhancePrompt = true } = request;
+    const { prompt, enhancePrompt = true, storyId, pageNumber } = request;
     
-    // Enhance the prompt for better children's book style images
+    // Enhance the prompt if needed
     const enhancedPrompt = enhancePrompt ? this.enhanceImagePrompt(prompt) : prompt;
     
     try {
+      // Ensure output directory exists
       if (!fs.existsSync(GENERATED_IMAGES_DIR)) {
         fs.mkdirSync(GENERATED_IMAGES_DIR, { recursive: true });
       }
@@ -43,10 +178,33 @@ export class GeminiImageService {
       const fileName = `story-image-${Date.now()}.png`;
       const imagePath = path.join(GENERATED_IMAGES_DIR, fileName);
 
-      // IMPORTANT: only this gemini model supports image generation
+      // Build conversation history from previous pages
+      const conversationHistory = await this.buildConversationHistory(storyId, pageNumber);
+
+      // Build the contents array with history + current prompt
+      const contents: any[] = [];
+      
+      // Add conversation history
+      if (conversationHistory.length > 0) {
+        conversationHistory.forEach(msg => {
+          contents.push({
+            role: msg.role,
+            parts: msg.parts,
+          });
+        });
+        console.log(`Using ${conversationHistory.length} historical messages for context`);
+      }
+
+      // Add current user prompt
+      contents.push({
+        role: "user",
+        parts: [{ text: enhancedPrompt }],
+      });
+
+      // Generate image with context
       const response = await ai.models.generateContent({
         model: "gemini-2.0-flash-preview-image-generation",
-        contents: [{ role: "user", parts: [{ text: enhancedPrompt }] }],
+        contents: contents,
         config: {
           responseModalities: [Modality.TEXT, Modality.IMAGE],
         },
@@ -78,7 +236,6 @@ export class GeminiImageService {
         throw new Error("No image data found in Gemini response");
       }
 
-      // Return the file path that can be served by the static middleware
       return {
         imageUrl: `/api/images/${fileName}`,
         prompt: enhancedPrompt,
@@ -120,16 +277,27 @@ export class GeminiImageService {
     }
   }
 
-  async regenerateImage(originalPrompt: string, customInstructions?: string): Promise<GeneratedImage> {
+  async regenerateImage(
+    originalPrompt: string, 
+    customInstructions?: string,
+    storyId?: string,
+    pageNumber?: number
+  ): Promise<GeneratedImage> {
     let modifiedPrompt = originalPrompt;
     
     if (customInstructions) {
       modifiedPrompt = `${originalPrompt}. Additional instructions: ${customInstructions}`;
     }
 
+    if (!storyId || !pageNumber) {
+      throw new Error("storyId and pageNumber are required for regeneration with context");
+    }
+
     return this.generateImage({ 
       prompt: modifiedPrompt, 
-      enhancePrompt: true 
+      enhancePrompt: true,
+      storyId,
+      pageNumber
     });
   }
 }

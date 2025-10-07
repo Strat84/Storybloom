@@ -54,7 +54,7 @@ generateStory:
   handler: functions/story/generate.handler
   timeout: 900  # 15 minutes for background processing
   environment:
-    OPENAI_API_KEY: '' # <-- IMPORTANT: Replace with your actual key
+    OPENAI_API_KEY: '' # ${env:OPENAI_API_KEY} # <-- IMPORTANT: Replace with your actual key
   iamRoleStatements:
     - Effect: Allow
       Action:
@@ -82,3 +82,54 @@ getStoryStatus:
         method: get
         path: stories/{storyId}/status
         cors: true
+
+generateImage:
+  handler: functions/story/generateImage.handler
+  timeout: 900
+  environment:
+    GEMINI_API_KEY: "" # ${env:GEMINI_API_KEY} # <-- IMPORTANT: Replace with your actual key
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+        - dynamodb:UpdateItem
+        - dynamodb:Query  # ← ADD THIS for getStory()
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+    - Effect: Allow
+      Action:
+        - s3:PutObject
+        - s3:GetObject  # ← ADD THIS for fetching previous images
+      Resource:
+        - Fn::Join:
+            - ''
+            - - 'arn:aws:s3:::'
+              - Ref: StoryAssetsBucket
+              - '/*'
+  events:
+    - http:
+        method: post
+        path: stories/{storyId}/pages/{pageNumber}/generate-image
+        cors: true
+        authorizer:
+          name: CognitoAuthorizer
+          type: COGNITO_USER_POOLS
+          arn: !GetAtt UserPool.Arn
+
+getImageStatus:
+  handler: functions/story/getImageStatus.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+  events:
+    - http:
+        method: get
+        path: stories/{storyId}/pages/{pageNumber}/image-status
+        cors: true
+        authorizer:
+          name: CognitoAuthorizer
+          type: COGNITO_USER_POOLS
+          arn: !GetAtt UserPool.Arn

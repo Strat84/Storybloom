@@ -1,5 +1,5 @@
 import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, integer, timestamp } from "drizzle-orm/pg-core";
+import { pgTable, text, varchar, integer, timestamp, boolean } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
@@ -10,16 +10,32 @@ export const users = pgTable("users", {
 });
 
 // Stories table
-export const stories = pgTable("stories", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  title: text("title").notNull(),
-  author: text("author").notNull().default("You & AI"),
-  description: text("description"),
-  status: text("status").notNull().default("draft"), // draft, generating, complete, error
-  totalPages: integer("total_pages").notNull().default(10),
-  createdAt: timestamp("created_at").defaultNow(),
-  updatedAt: timestamp("updated_at").defaultNow(),
-});
+export const stories = pgTable(
+  "stories",
+  {
+    id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+    title: text("title").notNull(),
+    author: text("author").notNull().default("You & AI"),
+    description: text("description"),
+    status: text("status").notNull().default("draft"), // draft, generating, complete, error
+    totalPages: integer("total_pages").notNull().default(10),
+    isPublic: boolean("is_public").default(false),
+    isActive: boolean("is_active").default(true),
+    createdAt: timestamp("created_at").defaultNow(),
+    updatedAt: timestamp("updated_at").defaultNow(),
+    generationStatus: text("generation_status", { enum: ["PENDING", "COMPLETED", "FAILED"] }).default("PENDING"),
+  },
+  (table) => {
+    return {
+      ...table,
+      // Triggers
+      // @ts-ignore
+      insert: table.insert.trigger("set_default_values"),
+      // @ts-ignore
+      update: table.update.trigger("set_updated_at"),
+    };
+  }
+);
 
 // Story pages table
 export const storyPages = pgTable("story_pages", {

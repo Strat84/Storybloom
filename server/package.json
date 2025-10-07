@@ -1,0 +1,17 @@
+{
+    "name": "storybloom-server",
+    "version": "1.0.0",
+    "description": "Server for Storybloom",
+    "dependencies": {
+        "aws-lambda": "^1.0.7",
+        "esbuild": "^0.20.0",
+        "serverless": "^4.0.0",
+        "serverless-esbuild": "^1.52.1",
+        "serverless-dynamodb-local": "^0.2.40",
+        "serverless-iam-roles-per-function": "^3.2.0",
+        "serverless-offline": "^13.3.4"
+    },
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.138"
+    }
+}

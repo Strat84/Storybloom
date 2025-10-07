@@ -9,6 +9,7 @@ import { generateUpdateQuery } from "../generateUpdateQuery.js";
 import { PageImageMetadataInput } from "server/types/pageImageMetadataInput.js";
 import { EditStoryInput } from "server/types/editStoryInput.js";
 import { getDynamoDBClient, getTableNames } from "server/config/database.js";
+import { StoryGenerationRequest } from "server/services/openaiService.js";
 
 const dynamoDB = getDynamoDBClient();
 const { STORIES_TABLE } = getTableNames();
@@ -66,7 +67,7 @@ export const createStory = async (
       const { v4: uuidv4 } = require("uuid");
       return uuidv4();
     })();
-    
+
     return {
       PutRequest: {
         Item: {
@@ -161,7 +162,7 @@ export const getStoryPageItem = async (storyId: string, pageNumber: number) => {
 
 export const getStoryPageByPageId = async (storyId: string, pageId: string) => {
   const tableName = STORIES_TABLE;
-  
+
   // Query all pages of the story and find by pageId
   const params = {
     TableName: tableName,
@@ -182,7 +183,7 @@ export const updatePageImageMetadata = async (
   input: PageImageMetadataInput,
 ) => {
   const tableName = STORIES_TABLE;
-  
+
   const imageMetadataData = {
     imageUrl: input.imageUrl,
     imageKey: input.imageKey,
@@ -192,7 +193,7 @@ export const updatePageImageMetadata = async (
   };
 
   const updateQuery = generateUpdateQuery(imageMetadataData);
-  
+
   const command = new UpdateCommand({
     TableName: tableName,
     Key: {
@@ -214,7 +215,7 @@ export const editStory = async (input: EditStoryInput) => {
   if (title) {
     const storyUpdateData = { title };
     const updateQuery = generateUpdateQuery(storyUpdateData);
-    
+
     await dynamoDB.send(
       new UpdateCommand({
         TableName: tableName,
@@ -242,7 +243,7 @@ export const editStory = async (input: EditStoryInput) => {
 
       if (Object.keys(pageUpdateData).length > 0) {
         const updateQuery = generateUpdateQuery(pageUpdateData);
-        
+
         await dynamoDB.send(
           new UpdateCommand({
             TableName: tableName,
@@ -259,4 +260,212 @@ export const editStory = async (input: EditStoryInput) => {
   }
 
   return { success: true, storyId };
+};
+
+export const getStoryWithStatus = async (storyId: string) => {
+  const storyInfoParams = {
+    TableName: STORIES_TABLE,
+    KeyConditionExpression: "pk = :pk AND sk = :sk",
+    ExpressionAttributeValues: {
+      ":pk": `story#${storyId}`,
+      ":sk": "info",
+    },
+  };
+
+  const storyInfoResult = await dynamoDB.send(new QueryCommand(storyInfoParams));
+  const storyInfo = storyInfoResult.Items?.[0];
+
+  if (!storyInfo) {
+    return null;
+  }
+
+  if (storyInfo.status === "COMPLETED") {
+    const storyPages = await getStory(storyId);
+    return { ...storyInfo, pages: storyPages };
+  }
+
+  return storyInfo;
+};
+
+export const createPendingStory = async (
+  userId: string,
+  request: StoryGenerationRequest,
+  storyId: string
+) => {
+  const createdAt = Date.now();
+
+  const storyInfoItem = {
+    pk: `user#${userId}`,
+    sk: `story#info#${storyId}`,
+    storyId: storyId,
+    userId,
+    title: request.prompt, // Use prompt as a temporary title
+    status: "PENDING",
+    createdAt,
+  };
+
+  await dynamoDB.send(
+    new PutCommand({
+      TableName: STORIES_TABLE,
+      Item: storyInfoItem,
+    })
+  );
+
+  const storyDetailsItem = {
+    pk: `story#${storyId}`,
+    sk: "info",
+    storyId: storyId,
+    userId,
+    title: request.prompt,
+    status: "PENDING",
+    createdAt,
+  };
+
+  await dynamoDB.send(
+    new PutCommand({
+      TableName: STORIES_TABLE,
+      Item: storyDetailsItem,
+    })
+  );
+};
+
+
+
+export const updateStoryAfterGeneration = async (
+  userId: string,
+  storyId: string,
+  generatedStory: { title: string; pages: { text: string; imageDescription: string }[] }
+) => {
+  const { title, pages } = generatedStory;
+  const updatedAt = Date.now();
+
+  // Update story info for user
+  await dynamoDB.send(
+    new UpdateCommand({
+      TableName: STORIES_TABLE,
+      Key: {
+        pk: `user#${userId}`,
+        sk: `story#info#${storyId}`,
+      },
+      UpdateExpression: "SET title = :title, #status = :status, updatedAt = :updatedAt",
+      ExpressionAttributeNames: {
+        "#status": "status",
+      },
+      ExpressionAttributeValues: {
+        ":title": title,
+        ":status": "COMPLETED",
+        ":updatedAt": updatedAt,
+      },
+    })
+  );
+
+  // Update story details
+  await dynamoDB.send(
+    new UpdateCommand({
+      TableName: STORIES_TABLE,
+      Key: {
+        pk: `story#${storyId}`,
+        sk: "info",
+      },
+      UpdateExpression: "SET title = :title, #status = :status, updatedAt = :updatedAt",
+      ExpressionAttributeNames: {
+        "#status": "status",
+      },
+      ExpressionAttributeValues: {
+        ":title": title,
+        ":status": "COMPLETED",
+        ":updatedAt": updatedAt,
+      },
+    })
+  );
+
+  const writeRequests = pages.map((page, idx) => {
+    const { v4: uuidv4 } = require("uuid");
+    const finalPageId = uuidv4();
+
+    return {
+      PutRequest: {
+        Item: {
+          pk: `story#${storyId}`,
+          sk: `page#${idx + 1}`,
+          pageId: finalPageId,
+          storyId: storyId,
+          pageNo: idx + 1,
+          text: page.text,
+          imageDescription: page.imageDescription,
+          createdAt: updatedAt,
+        },
+      },
+    };
+  });
+
+  for (let i = 0; i < writeRequests.length; i += 25) {
+    let unprocessed = writeRequests.slice(i, i + 25);
+    let retryCount = 0;
+
+    while (unprocessed.length > 0) {
+      const batch = new BatchWriteCommand({
+        RequestItems: {
+          [STORIES_TABLE]: unprocessed,
+        },
+      });
+
+      const response = await dynamoDB.send(batch);
+      const nextUnprocessed = (response.UnprocessedItems?.[STORIES_TABLE] as typeof writeRequests | undefined) ?? [];
+
+      if (nextUnprocessed.length === 0) {
+        break;
+      }
+
+      retryCount += 1;
+      if (retryCount >= 5) {
+        throw new Error("Failed to persist all story pages after multiple retries");
+      }
+
+      await new Promise((resolve) =>
+        setTimeout(resolve, Math.min(50 * 2 ** retryCount, 1000)),
+      );
+
+      unprocessed = nextUnprocessed;
+    }
+  }
+};
+
+// Get story status for polling
+export const getStoryStatus = async (userId: string, storyId: string) => {
+  const params = {
+    TableName: STORIES_TABLE,
+    Key: {
+      pk: `user#${userId}`,
+      sk: `story#info#${storyId}`,
+    },
+  };
+
+  const result = await dynamoDB.send(new GetCommand(params));
+  return result.Item || null;
+};
+
+// Update story status
+export const updateStoryStatus = async (
+  userId: string,
+  storyId: string, 
+  status: 'PENDING' | 'COMPLETED' | 'FAILED'
+) => {
+  await dynamoDB.send(
+    new UpdateCommand({
+      TableName: STORIES_TABLE,
+      Key: {
+        pk: `user#${userId}`,
+        sk: `story#info#${storyId}`,
+      },
+      UpdateExpression: "SET #status = :status, updatedAt = :updatedAt",
+      ExpressionAttributeNames: {
+        "#status": "status",
+      },
+      ExpressionAttributeValues: {
+        ":status": status,
+        ":updatedAt": Date.now(),
+      },
+    })
+  );
 };

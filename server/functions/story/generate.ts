@@ -57,6 +57,8 @@ async function processStoryAsync(storyId: string, userId: string, request: Story
         
         const generatedStory = await openAIStoryService.generateStory(request);
         
+        console.log(`generatedStory: ${JSON.stringify(generatedStory)}`);
+
         await updateStoryAfterGeneration(userId, storyId, generatedStory);
         
         console.log(`[${storyId}] Generation complete`);

@@ -329,6 +329,8 @@ export const createPendingStory = async (
   );
 };
 
+
+
 export const updateStoryAfterGeneration = async (
   userId: string,
   storyId: string,
@@ -428,7 +430,6 @@ export const updateStoryAfterGeneration = async (
     }
   }
 };
-
 
 // Get story status for polling
 export const getStoryStatus = async (userId: string, storyId: string) => {

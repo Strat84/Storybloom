@@ -49,3 +49,36 @@ getStoryById:
           name: CognitoAuthorizer
           type: COGNITO_USER_POOLS
           arn: !GetAtt UserPool.Arn
+
+generateStory:
+  handler: functions/story/generate.handler
+  timeout: 900  # 15 minutes for background processing
+  environment:
+    OPENAI_API_KEY: '' # <-- IMPORTANT: Replace with your actual key
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:BatchWriteItem
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+  events:
+    - http:
+        method: post
+        path: stories/generate
+        cors: true
+
+getStoryStatus:
+  handler: functions/story/status.handler
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+      Resource:
+        - Fn::GetAtt: [StoriesTable, Arn]
+  events:
+    - http:
+        method: get
+        path: stories/{storyId}/status
+        cors: true

@@ -5,6 +5,7 @@ import { CheckCircle2, Download, BookOpen, Sparkles, Package, Truck, TruckIcon, 
 import { useState } from "react";
 import confetti from "canvas-confetti";
 import { useLocation } from "wouter";
+import VerifiedReviews from "@/components/VerifiedReviews";
 
 export default function Pricing() {
   const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
@@ -58,7 +59,7 @@ export default function Pricing() {
       name: "Hero's Journey",
       price: "$18.99",
       pages: "15 pages",
-      tagline: "Our most popular!",
+      tagline: "Room for a bigger adventure",
       popular: true,
     },
     {
@@ -81,24 +82,6 @@ export default function Pricing() {
       method: "Express",
       price: "$21.74",
       delivery: "6-8 days",
-    },
-  ];
-
-  const testimonials = [
-    {
-      quote: "My daughter was absolutely thrilled to see herself as the hero of her own story!",
-      author: "Sarah M.",
-      role: "Parent of 2",
-    },
-    {
-      quote: "The quality is outstanding. It's now our favorite bedtime book.",
-      author: "Michael R.",
-      role: "Dad",
-    },
-    {
-      quote: "Such a special gift for my niece's birthday. She reads it every night!",
-      author: "Emma L.",
-      role: "Aunt",
     },
   ];
 
@@ -188,7 +171,7 @@ export default function Pricing() {
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                     <Badge className="bg-gradient-to-r from-primary to-chart-2 text-primary-foreground gap-1 px-4 py-1">
                       <Star className="h-3 w-3" />
-                      Most Popular
+                      Recommended
                     </Badge>
                   </div>
                 )}
@@ -291,38 +274,14 @@ export default function Pricing() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <BookOpen className="h-10 w-10 text-primary" />
-              <h3 className="font-semibold">Worldwide</h3>
-              <p className="text-sm text-muted-foreground font-story">Proudly printing stories worldwide</p>
+              <h3 className="font-semibold">US Shipping</h3>
+              <p className="text-sm text-muted-foreground font-story">Made to order and shipped to US addresses</p>
             </div>
           </div>
         </div>
 
-        {/* Testimonials */}
-        <div className="max-w-6xl mx-auto mb-16">
-          <h2 className="text-3xl font-display font-bold text-center mb-10">
-            Loved by Families Everywhere
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {testimonials.map((testimonial, index) => (
-              <Card key={index} className="hover-elevate">
-                <CardHeader>
-                  <div className="flex gap-1 mb-2">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-primary text-primary" />
-                    ))}
-                  </div>
-                  <CardDescription className="text-base font-story italic">
-                    "{testimonial.quote}"
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="font-semibold text-sm">{testimonial.author}</p>
-                  <p className="text-sm text-muted-foreground">{testimonial.role}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
+        {/* Verified buyer reviews only. Hidden until a real review exists. */}
+        <VerifiedReviews />
 
         {/* Final CTA */}
         <div className="max-w-4xl mx-auto">

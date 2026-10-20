@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { useEffect } from "react";
 
 export default function Terms() {
@@ -11,7 +11,7 @@ export default function Terms() {
       <div className="container mx-auto px-6 py-16 max-w-4xl">
         <Card>
           <CardHeader>
-            <CardTitle data-testid="heading-terms" className="text-3xl font-display">Terms of Service</CardTitle>
+            <h1 data-testid="heading-terms" className="text-3xl font-display font-semibold">Terms of Service</h1>
             <p data-testid="text-last-updated" className="text-sm text-muted-foreground">
               Last Updated: November 5, 2025
             </p>

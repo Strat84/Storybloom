@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { useEffect } from "react";
 
 export default function Privacy() {
@@ -11,7 +11,7 @@ export default function Privacy() {
       <div className="container mx-auto px-6 py-16 max-w-4xl">
         <Card>
           <CardHeader>
-            <CardTitle data-testid="heading-privacy" className="text-3xl font-display">Privacy Policy</CardTitle>
+            <h1 data-testid="heading-privacy" className="text-3xl font-display font-semibold">Privacy Policy</h1>
           </CardHeader>
           <CardContent className="space-y-6 font-story">
             <section>
@@ -81,7 +81,7 @@ export default function Privacy() {
             </section>
 
             <div className="pt-6 text-sm text-muted-foreground">
-              <p data-testid="text-privacy-last-updated">Last updated: {new Date().toLocaleDateString()}</p>
+              <p data-testid="text-privacy-last-updated">Last updated: November 7, 2025</p>
             </div>
           </CardContent>
         </Card>

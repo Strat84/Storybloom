@@ -1,3 +1,26 @@
+/* Self-hosted fonts (SIL Open Font License), Latin subset. Inter and Quicksand are variable. */
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/fredoka-one-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("/fonts/quicksand-latin.woff2") format("woff2");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,7 +55,7 @@
 
   --sidebar-border: 260 15% 86%;
 
-  --sidebar-primary: 260 85% 65%;
+  --sidebar-primary: 262 83% 58%;
 
   --sidebar-primary-foreground: 260 20% 95%;
 
@@ -48,7 +71,7 @@
 
   --popover-border: 260 15% 84%;
 
-  --primary: 260 85% 65%;
+  --primary: 262 83% 58%;
 
   --primary-foreground: 260 20% 95%;
 
@@ -69,7 +92,7 @@
   --destructive-foreground: 0 20% 95%;
 
   --input: 260 15% 75%;
-  --ring: 260 85% 65%;
+  --ring: 262 83% 58%;
   --chart-1: 260 85% 55%;
   --chart-2: 45 90% 60%;
   --chart-3: 150 70% 45%;

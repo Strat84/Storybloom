@@ -15,17 +15,24 @@ function endOfDay(isoDate: string) {
   return new Date(`${isoDate}T23:59:59`);
 }
 
+/** Whether to feature holiday stories at all (independent of shipping dates). */
+export function isHolidaySeason(now: Date) {
+  return config.holiday.seasonActive && now <= endOfDay(config.holiday.bannerEndDate);
+}
+
+/** Shipping-deadline phase. "off" until both cutoff dates are set in the config. */
 export function holidayPhase(now: Date): HolidayPhase {
   const h = config.holiday;
-  if (!h.bannerEnabled || now > endOfDay(h.bannerEndDate)) return "off";
+  if (!h.bannerEnabled || !h.printCutoffDate || !h.expressCutoffDate || now > endOfDay(h.bannerEndDate)) return "off";
   if (now <= endOfDay(h.printCutoffDate)) return "standard";
   if (now <= endOfDay(h.expressCutoffDate)) return "expressOnly";
   return "instantGift";
 }
 
 export function activeCutoff(phase: HolidayPhase) {
-  if (phase === "standard") return endOfDay(config.holiday.printCutoffDate);
-  if (phase === "expressOnly") return endOfDay(config.holiday.expressCutoffDate);
+  const { printCutoffDate, expressCutoffDate } = config.holiday;
+  if (phase === "standard" && printCutoffDate) return endOfDay(printCutoffDate);
+  if (phase === "expressOnly" && expressCutoffDate) return endOfDay(expressCutoffDate);
   return null;
 }
 
@@ -45,5 +52,6 @@ export function countdownDays(phase: HolidayPhase, now: Date) {
 /** True when a print order placed now (with this method) should be labeled "arrives after Christmas". */
 export function printArrivesAfterChristmas(methodId: "standard" | "express", now: Date) {
   const cutoff = methodId === "standard" ? config.holiday.printCutoffDate : config.holiday.expressCutoffDate;
+  if (!cutoff) return false;
   return now > endOfDay(cutoff) && now < endOfDay(config.holiday.bannerEndDate);
 }

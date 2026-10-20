@@ -16,11 +16,11 @@ import VerifiedReviews from "@/components/VerifiedReviews";
 import { EVERGREEN_THEMES, HOLIDAY_THEMES } from "@/content/themes";
 import { EXAMPLE_BOOKS } from "@/content/examples";
 import { generalFaqs } from "@/content/faq";
-import { holidayPhase } from "@/lib/holiday";
+import { isHolidaySeason } from "@/lib/holiday";
 import { useNow } from "@/lib/useNow";
 
 export default function Home() {
-  const holiday = holidayPhase(useNow()) !== "off";
+  const holiday = isHolidaySeason(useNow());
 
   return (
     <>

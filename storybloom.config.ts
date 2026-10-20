@@ -76,16 +76,21 @@ const config = {
   },
 
   holiday: {
+    /** Feature the holiday stories (homepage order, "Holiday books" nav link) until bannerEndDate. */
+    seasonActive: true,
     /** Turn the site-wide holiday shipping banner on or off. */
     bannerEnabled: true,
-    /** Last day to order with standard shipping for Christmas delivery (placeholder: Matt to confirm with Lulu). */
-    printCutoffDate: "2026-12-08",
-    /** Last day to order with express shipping for Christmas delivery (placeholder: Matt to confirm with Lulu). */
-    expressCutoffDate: "2026-12-15",
+    /**
+     * Last day to order with standard / express shipping for Christmas delivery, e.g. "2026-12-08".
+     * Leave null until confirmed with Lulu. While either is null, the shipping banner, countdown,
+     * cutoff FAQ and "may not arrive by Dec 25" warnings are all hidden.
+     */
+    printCutoffDate: null as string | null,
+    expressCutoffDate: null as string | null,
     christmasDate: "2026-12-25",
     /** Show a live countdown when the cutoff is this many days away or fewer. */
     countdownDays: 7,
-    /** Hide the banner after this date. */
+    /** Stop featuring the holiday season and hide the banner after this date. */
     bannerEndDate: "2026-12-26",
   },
 

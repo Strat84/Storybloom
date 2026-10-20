@@ -3,7 +3,7 @@ import { Link, useLocation } from "wouter";
 import { BookOpenIcon, MenuIcon, SparklesIcon, XIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
-import { holidayPhase } from "@/lib/holiday";
+import { isHolidaySeason } from "@/lib/holiday";
 import { useNow } from "@/lib/useNow";
 
 const navLinkClass =
@@ -26,7 +26,7 @@ export default function Header() {
   const { isAuthenticated, signOut } = useAuth();
   const [, navigate] = useLocation();
   const [open, setOpen] = useState(false);
-  const holiday = holidayPhase(useNow()) !== "off";
+  const holiday = isHolidaySeason(useNow());
 
   const links = [
     ...(holiday ? [{ href: "/christmas-book-for-kids", label: "Holiday books" }] : []),

@@ -59,12 +59,21 @@ export function generalFaqs(): Faq[] {
   return faqs;
 }
 
+function longDate(isoDate: string) {
+  return new Date(`${isoDate}T12:00:00`).toLocaleDateString("en-US", { month: "long", day: "numeric" });
+}
+
 export function christmasFaqs(): Faq[] {
+  const { printCutoffDate, expressCutoffDate } = config.holiday;
   return [
-    {
-      question: "When do I need to order for Christmas delivery?",
-      answer: `Order a printed book with standard shipping by ${new Date(`${config.holiday.printCutoffDate}T12:00:00`).toLocaleDateString("en-US", { month: "long", day: "numeric" })}, or with express shipping by ${new Date(`${config.holiday.expressCutoffDate}T12:00:00`).toLocaleDateString("en-US", { month: "long", day: "numeric" })}, for delivery by Christmas. A digital PDF is ready instantly, any time.`,
-    },
+    ...(printCutoffDate && expressCutoffDate
+      ? [
+          {
+            question: "When do I need to order for Christmas delivery?",
+            answer: `Order a printed book with standard shipping by ${longDate(printCutoffDate)}, or with express shipping by ${longDate(expressCutoffDate)}, for delivery by Christmas. A digital PDF is ready instantly, any time.`,
+          },
+        ]
+      : []),
     {
       question: "Can I make a Hanukkah or non-Christmas winter book?",
       answer:

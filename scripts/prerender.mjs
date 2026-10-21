@@ -16,7 +16,7 @@ const outDir = path.join(root, "dist/public");
 const server = await import(pathToFileURL(path.join(root, "dist/server/entry-server.js")).href);
 const { render, renderHead, pageMetaFor, SITEMAP, PRERENDER_ONLY, NOT_FOUND_META } = server;
 
-const SITE_URL = "https://storybloom.ai";
+const SITE_URL = "https://www.storybloom.ai";
 let template = await readFile(path.join(outDir, "index.html"), "utf8");
 if (!template.includes("<!--app-head-->")) throw new Error("index.html is missing <!--app-head-->");
 

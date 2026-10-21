@@ -25,10 +25,17 @@ export interface ShippingMethod {
   maxDays: number;
 }
 
+/** Build-time override from Vite env vars (unset in production builds). */
+function env(name: string): string | undefined {
+  const value = (import.meta as { env?: Record<string, string | undefined> }).env?.[name];
+  return value ? value : undefined;
+}
+
 const config = {
   site: {
     name: "StoryBloom",
-    url: "https://storybloom.ai",
+    /** Canonical address. Amplify redirects storybloom.ai to www, so www is the primary host. */
+    url: "https://www.storybloom.ai",
     supportEmail: "support@storybloom.ai",
     /** Used in titles and share cards. */
     tagline: "Personalized storybooks starring your child",
@@ -40,12 +47,16 @@ const config = {
     },
   },
 
+  /**
+   * Production backend. A staging build can point at the dev backend (Stripe test mode) by
+   * setting VITE_API_BASE_URL, VITE_USER_POOL_ID and VITE_USER_POOL_CLIENT_ID at build time.
+   */
   api: {
-    baseUrl: "https://cjnwxolfm2.execute-api.us-east-1.amazonaws.com/prod",
+    baseUrl: env("VITE_API_BASE_URL") ?? "https://cjnwxolfm2.execute-api.us-east-1.amazonaws.com/prod",
     /** Public Cognito identifiers (safe to ship in the browser; they are not secrets). */
     cognito: {
-      userPoolId: "us-east-1_AR2R0wGOk",
-      userPoolClientId: "5i7gbv9mbgqfed8in84jku430b",
+      userPoolId: env("VITE_USER_POOL_ID") ?? "us-east-1_AR2R0wGOk",
+      userPoolClientId: env("VITE_USER_POOL_CLIENT_ID") ?? "5i7gbv9mbgqfed8in84jku430b",
     },
   },
 

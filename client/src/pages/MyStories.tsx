@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "wouter";
 import { BookOpen, CheckCircle2, Download, Eye, Loader2, Plus, Trash2, Truck } from "lucide-react";
 import config from "@config";
@@ -18,7 +18,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { useToast } from "@/hooks/use-toast";
 import BookViewerDialog, { type ViewerStory } from "@/components/BookViewerDialog";
 import PrintOrderDialog, { type PrintOrder } from "@/components/PrintOrderDialog";
-import { api, checkoutUrlFrom, getIdToken, getUserSub, isPaidSession, type DownloadOption, type StoryListItem, type StoryPage } from "@/lib/api";
+import { api, checkoutUrlFrom, getIdToken, getUserSub, type DownloadOption, type StoryListItem, type StoryPage } from "@/lib/api";
 import { digitalPrice, formatPrice, printTierForStory, type PrintPageCount } from "@/lib/pricing";
 import { track } from "@/lib/track";
 
@@ -83,43 +83,57 @@ export default function MyStories() {
       .finally(() => setLoading(false));
   }, [loadStories]);
 
-  // Confirm a Stripe checkout when we return with ?session_id=.
+  // Confirm a purchase after returning from Stripe. The backend's success URL is plain
+  // /mystories (no session ID) and the Stripe webhook marks the story paid, sometimes a few
+  // seconds later, so watch for the paid status, then record the purchase exactly once.
+  const purchaseHandled = useRef(false);
   useEffect(() => {
-    const url = new URL(window.location.href);
-    const sessionId = url.searchParams.get("session_id");
-    if (!sessionId) return;
-    const pending = readJson<{ storyId: string; downloadOption: DownloadOption; value?: number }>(PENDING_PURCHASE) ?? readJson<{ storyId: string; value?: number }>(PENDING_UNLOCK);
-    (async () => {
+    if (loading || purchaseHandled.current) return;
+    const pending = readJson<{ storyId: string; downloadOption: DownloadOption; value?: number; timestamp: number }>(PENDING_PURCHASE);
+    const clear = () => {
       try {
-        const result = await api(`/stripe/verify-session?session_id=${encodeURIComponent(sessionId)}`);
-        if (isPaidSession(result) && pending?.storyId) {
-          if (!("downloadOption" in pending) || pending.downloadOption === "pdf_only") markUnlocked(pending.storyId);
-          // event_id = Stripe session ID, so the server-side Conversions API can deduplicate.
-          track("purchase", {
-            event_id: sessionId,
-            transaction_id: sessionId,
-            value: pending.value,
-            currency: config.pricing.currency,
-            items: [{ item_id: ("downloadOption" in pending && pending.downloadOption) || "pdf_only" }],
-          });
-          await loadStories();
-          toast({ title: "Thank you! Your purchase is complete." });
-        }
-      } catch (err) {
-        console.error("verify-session failed", err);
-      } finally {
-        try {
-          localStorage.removeItem(PENDING_PURCHASE);
-          localStorage.removeItem(PENDING_UNLOCK);
-        } catch {
-          // Ignore.
-        }
-        url.searchParams.delete("session_id");
-        url.searchParams.delete("preview_unlock");
-        window.history.replaceState({}, "", url.toString());
+        localStorage.removeItem(PENDING_PURCHASE);
+        localStorage.removeItem(PENDING_UNLOCK);
+      } catch {
+        // Ignore.
       }
-    })();
-  }, [loadStories, markUnlocked, toast]);
+    };
+    if (!pending?.storyId || Date.now() - pending.timestamp > 2 * 60 * 60 * 1000) {
+      if (pending) clear();
+      return;
+    }
+
+    let attempts = 0;
+    let timer: number | undefined;
+    const check = (list: StoryListItem[]) => {
+      const story = list.find((s) => s.storyId === pending.storyId);
+      if (story && hasPaid(story, pending.downloadOption)) {
+        purchaseHandled.current = true;
+        clear();
+        if (pending.downloadOption === "pdf_only") markUnlocked(pending.storyId);
+        const sessionId = new URLSearchParams(window.location.search).get("session_id");
+        // Deterministic event_id so a server-side Conversions API event can deduplicate against it.
+        const eventId = sessionId ?? `${pending.storyId}:${pending.downloadOption}:${pending.timestamp}`;
+        track("purchase", {
+          event_id: eventId,
+          transaction_id: eventId,
+          value: pending.value,
+          currency: config.pricing.currency,
+          items: [{ item_id: pending.downloadOption }],
+        });
+        toast({ title: "Thank you! Your purchase is complete." });
+        return;
+      }
+      // Not paid yet: the webhook may still be running, or the buyer cancelled. Retry briefly.
+      if (attempts++ < 6) {
+        timer = window.setTimeout(() => loadStories().then(check).catch(() => undefined), 5000);
+      }
+    };
+    check(stories);
+    return () => window.clearTimeout(timer);
+    // Run once after the first load; later story updates come from check() itself.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading]);
 
   const isUnlocked = (s: StoryListItem) => unlocked[s.storyId] || hasPaid(s, "pdf_only") || hasPaid(s, "pdf_and_book");
 
@@ -181,6 +195,7 @@ export default function MyStories() {
         shippingAddress: {
           name: order.address.name.trim(),
           line1: order.address.street1.trim(),
+          line2: order.address.street2.trim() || undefined,
           city: order.address.city.trim(),
           state: order.address.state_code,
           postalCode: order.address.postcode,

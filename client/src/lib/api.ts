@@ -72,10 +72,6 @@ export function checkoutUrlFrom(data: any): string | null {
   return data?.url || data?.sessionUrl || data?.checkout_url || data?.checkoutUrl || data?.session?.url || null;
 }
 
-export function isPaidSession(data: any) {
-  return data?.paid === true || data?.payment_status === "paid" || data?.status === "complete" || data?.session?.payment_status === "paid";
-}
-
 export const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // ---- Story types (as returned by the backend) ----

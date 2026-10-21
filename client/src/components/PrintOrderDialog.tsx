@@ -18,6 +18,7 @@ const POD_PACKAGE_ID = "0850X1100FCPRESS080CW444GXX";
 export interface ShippingAddress {
   name: string;
   street1: string;
+  street2: string;
   city: string;
   state_code: string;
   postcode: string;
@@ -38,6 +39,7 @@ export interface PrintOrder {
 const EMPTY_ADDRESS: ShippingAddress = {
   name: "",
   street1: "",
+  street2: "",
   city: "",
   state_code: "",
   postcode: "",
@@ -86,9 +88,8 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
 
   const complete =
     address.name.trim() && address.street1.trim() && address.city.trim() && address.state_code && address.postcode.length === 5 && address.phone_number.length === 10;
-  // Lulu limits the street line to 30 characters, not counting spaces.
-  // TODO(backend): add an apartment/unit line once the backend forwards street2/line2 to Lulu.
-  const streetTooLong = address.street1.replace(/\s/g, "").length > 30;
+  // Lulu limits each street line to 30 characters, not counting spaces.
+  const streetTooLong = [address.street1, address.street2].some((s) => s.replace(/\s/g, "").length > 30);
 
   const validate = async () => {
     if (!complete) {
@@ -96,7 +97,7 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
       return;
     }
     if (streetTooLong) {
-      setError("The street address can be at most 30 characters (not counting spaces). Try abbreviations like St, Ave or Apt.");
+      setError("Each street line can be at most 30 characters (not counting spaces). Try abbreviations like St, Ave or Apt.");
       return;
     }
     setBusy(true);
@@ -112,6 +113,7 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
             postcode: address.postcode,
             state_code: address.state_code || null,
             street1: address.street1.trim(),
+            ...(address.street2.trim() ? { street2: address.street2.trim() } : {}),
             phone_number: address.phone_number,
           },
           shipping_option: shipping === "standard" ? "MAIL" : "EXPRESS",
@@ -180,8 +182,12 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
                 <Input id="ship-name" autoComplete="shipping name" value={address.name} onChange={(e) => set({ name: e.target.value })} />
               </div>
               <div className="space-y-1.5">
-                <Label htmlFor="ship-street1">Street address, including apartment or unit</Label>
+                <Label htmlFor="ship-street1">Street address</Label>
                 <Input id="ship-street1" autoComplete="shipping address-line1" value={address.street1} onChange={(e) => set({ street1: e.target.value })} />
+              </div>
+              <div className="space-y-1.5">
+                <Label htmlFor="ship-street2">Apartment, suite, etc. <span className="text-muted-foreground font-normal">(optional)</span></Label>
+                <Input id="ship-street2" autoComplete="shipping address-line2" value={address.street2} onChange={(e) => set({ street2: e.target.value })} />
               </div>
               <div className="grid grid-cols-2 gap-3">
                 <div className="space-y-1.5">
@@ -226,7 +232,7 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
             <div className="rounded-lg bg-muted/50 p-3 text-sm">
               <p className="font-medium">Ships to</p>
               <p>{address.name}</p>
-              <p>{address.street1}</p>
+              <p>{address.street1}{address.street2 ? `, ${address.street2}` : ""}</p>
               <p>{address.city}, {address.state_code} {address.postcode}</p>
               <p className="mt-2 text-muted-foreground">Estimated delivery {formatDeliveryWindow(shipping, now)}</p>
               {printArrivesAfterChristmas(shipping, now) && (

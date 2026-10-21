@@ -318,6 +318,10 @@ export default function MyStories() {
             const open = isUnlocked(s);
             const left = previewsLeft[s.storyId] ?? 0;
             const state = busy[s.storyId];
+            const textStatus = s.status?.toUpperCase();
+            // Only a finished, illustrated book can be bought (older records may have no status).
+            const stage: "failed" | "writing" | "needsPictures" | "ready" =
+              textStatus === "FAILED" ? "failed" : textStatus === "PENDING" ? "writing" : !s.coverImageUrl && !pdfPaid && !bookPaid ? "needsPictures" : "ready";
             return (
               <Card key={s.storyId} className="overflow-hidden flex flex-col">
                 <div className="relative aspect-[4/3] bg-muted">
@@ -344,6 +348,24 @@ export default function MyStories() {
                     </p>
                   )}
 
+                  {stage === "failed" && (
+                    <p className="text-sm text-muted-foreground rounded-lg border p-3">
+                      Something went wrong writing this story. Please delete it and create it again.
+                    </p>
+                  )}
+                  {stage === "writing" && (
+                    <p className="text-sm text-muted-foreground rounded-lg border p-3 flex items-center gap-2">
+                      <Loader2 className="h-4 w-4 animate-spin" aria-hidden />Still being written. Check back in a few minutes.
+                    </p>
+                  )}
+                  {stage === "needsPictures" && (
+                    <div className="rounded-lg border p-3 space-y-2">
+                      <p className="text-sm text-muted-foreground">The story is written. Add the pictures to preview and order it.</p>
+                      <Button asChild size="sm"><Link href={`/generated-story/${s.storyId}`}>Finish your book</Link></Button>
+                    </div>
+                  )}
+
+                  {stage === "ready" && (
                   <div className="space-y-2">
                     <div className="flex items-center justify-between gap-2 rounded-lg border p-3">
                       <div>
@@ -368,7 +390,9 @@ export default function MyStories() {
                       )}
                     </div>
                   </div>
+                  )}
 
+                  {stage === "ready" && (
                   <div className="mt-auto flex flex-wrap items-center gap-2">
                     <Button variant="outline" size="sm" className="gap-1" onClick={() => preview(s)}>
                       <Eye className="h-3.5 w-3.5" aria-hidden />Preview
@@ -381,6 +405,7 @@ export default function MyStories() {
                       {open ? "Unlimited previews" : left > 0 ? `${left} free preview${left === 1 ? "" : "s"} left` : "Free previews used"}
                     </span>
                   </div>
+                  )}
                 </div>
               </Card>
             );

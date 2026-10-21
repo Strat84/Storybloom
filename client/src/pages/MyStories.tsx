@@ -18,7 +18,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { useToast } from "@/hooks/use-toast";
 import BookViewerDialog, { type ViewerStory } from "@/components/BookViewerDialog";
 import PrintOrderDialog, { type PrintOrder } from "@/components/PrintOrderDialog";
-import { api, checkoutUrlFrom, getIdToken, getUserSub, type DownloadOption, type StoryListItem, type StoryPage } from "@/lib/api";
+import { api, checkoutUrlFrom, getIdToken, getUserSub, normalizePages, type DownloadOption, type StoryListItem, type StoryPage } from "@/lib/api";
 import { digitalPrice, formatPrice, printTierForStory, type PrintPageCount } from "@/lib/pricing";
 import { track } from "@/lib/track";
 
@@ -258,7 +258,7 @@ export default function MyStories() {
           ...base,
           storyId: story.storyId,
           title: base.title ?? story.title,
-          pages: detail.pages ?? [],
+          pages: normalizePages(detail.pages, story.storyId),
           regenerationLimit: base.regenerationLimit ?? story.regenerationLimit,
           regenerationUsed: base.regenerationUsed ?? story.regenerationUsed,
         },

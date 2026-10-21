@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { api, pageNumberOf, type Character, type PageType, type Story, type StoryPage } from "@/lib/api";
+import { api, normalizePages, pageNumberOf, type Character, type PageType, type Story, type StoryPage } from "@/lib/api";
 import { recallStoryContext } from "@/lib/generate";
 
 const IMAGE_POLL_MS = 20_000;
@@ -217,10 +217,16 @@ export default function GeneratedStory() {
   useEffect(() => {
     if (!storyId) return;
     setLoading(true);
-    api<{ story: Story; pages: StoryPage[] }>(`/stories/${storyId}`)
+    // The endpoint returns { pages }; the title and author live on the cover page.
+    api<{ story?: Story; pages?: StoryPage[] }>(`/stories/${storyId}`)
       .then((data) => {
-        setStory(data.story);
-        setPages(data.pages ?? []);
+        const loaded = normalizePages(data.pages, storyId);
+        setPages(loaded);
+        setStory({
+          ...data.story,
+          title: data.story?.title ?? loaded.find((p) => p.title)?.title,
+          author: data.story?.author ?? loaded.find((p) => p.author)?.author,
+        });
       })
       .catch((err) => setLoadError(err.message || "We couldn't load this story."))
       .finally(() => setLoading(false));
@@ -254,9 +260,15 @@ export default function GeneratedStory() {
     pollTimer.current = window.setInterval(async () => {
       attempts++;
       try {
-        const data = await api<{ pages?: StoryPage[] }>(`/stories/${storyId}/images-status`);
+        // Per-page picture status, keyed by page number (no page ids in this response).
+        const data = await api<{ pages?: { pageNumber: number; status?: string; imageUrl?: string | null }[] }>(`/stories/${storyId}/images-status`);
         const latest = data.pages ?? [];
-        setPages((prev) => latest.map((p) => ({ ...prev.find((q) => q.id === p.id), ...p })));
+        setPages((prev) =>
+          prev.map((page) => {
+            const update = latest.find((l) => Number(l.pageNumber) === Number(pageNumberOf(page)));
+            return update ? { ...page, status: update.status, imageUrl: update.imageUrl ?? page.imageUrl } : page;
+          }),
+        );
         if (latest.some((p) => p.status?.toUpperCase() === "FAILED")) {
           window.clearInterval(pollTimer.current!);
           setGenerating(false);

@@ -127,3 +127,12 @@ export interface Character {
 export function pageNumberOf(page: StoryPage) {
   return page.pageNumber ?? page.pageNo;
 }
+
+/** Story pages come from DynamoDB as-is: the id is `pageId` and the number is `pageNo`. */
+export function normalizePages(pages: (StoryPage & { pageId?: string })[] | undefined, storyId: string): StoryPage[] {
+  return (pages ?? []).map((p, i) => ({
+    ...p,
+    id: p.id ?? p.pageId ?? `${storyId}-${pageNumberOf(p) ?? i}`,
+    pageNumber: p.pageNumber ?? (p.pageNo !== undefined ? Number(p.pageNo) : undefined),
+  }));
+}

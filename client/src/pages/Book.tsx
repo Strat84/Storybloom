@@ -43,6 +43,8 @@ export default function Book() {
   const author = pages.find((p) => p.author)?.author;
   const purchased = isPurchased(listItem);
   const printed = hasPaid(listItem, "pdf_and_book");
+  // The PDF price is credited toward the printed book (the backend applies it at checkout).
+  const pdfCredit = hasPaid(listItem, "pdf_only") && !printed ? digitalPrice() : 0;
 
   const loadBook = useCallback(async () => {
     const [detail, list] = await Promise.all([api<{ pages?: StoryPage[] }>(`/stories/${storyId}`), loadStoryList()]);
@@ -258,7 +260,9 @@ export default function Book() {
           <Card className="p-6">
             <h2 className="text-2xl font-display font-bold mb-1 flex items-center gap-2"><CheckCircle2 className="h-6 w-6 text-primary" aria-hidden />It's yours</h2>
             <p className="text-muted-foreground mb-4">
-              {printed ? "Your printed book is being made. You can also download the PDF any time." : "Download the PDF to read on any device or print at home."}
+              {printed
+                ? "Your printed book is being made. You can also download the PDF any time."
+                : `Download the PDF to read on any device or print at home. Want a printed keepsake too? We'll take the ${formatPrice(pdfCredit)} you paid for the PDF off the printed book.`}
               {listItem?.expectedDeliveryDate && ` Expected delivery ${new Date(listItem.expectedDeliveryDate).toLocaleDateString(undefined, { month: "short", day: "numeric" })}.`}
             </p>
             <div className="flex flex-wrap gap-2">
@@ -266,7 +270,9 @@ export default function Book() {
                 {busy === "download" ? <Loader2 className="h-4 w-4 animate-spin" aria-hidden /> : <Download className="h-4 w-4" aria-hidden />}Download PDF
               </Button>
               {!printed && (
-                <Button variant="outline" onClick={() => setPrintOpen(true)} className="gap-2"><Truck className="h-4 w-4" aria-hidden />Order a printed copy</Button>
+                <Button variant="outline" onClick={() => setPrintOpen(true)} className="gap-2">
+                  <Truck className="h-4 w-4" aria-hidden />Order a printed copy: {formatPrice(printPrice(printTier) - pdfCredit)}
+                </Button>
               )}
               <Button asChild variant="ghost"><Link href="/create">Make another book</Link></Button>
             </div>
@@ -279,7 +285,7 @@ export default function Book() {
               <div className="rounded-xl border-2 p-4 flex flex-col">
                 <p className="font-semibold flex items-center gap-2"><Download className="h-4 w-4 text-primary" aria-hidden />Digital book</p>
                 <p className="text-3xl font-bold text-primary my-1">{formatPrice(digitalPrice())}</p>
-                <p className="text-sm text-muted-foreground mb-4 flex-1">Instant PDF. Read on any phone or tablet, or print at home.</p>
+                <p className="text-sm text-muted-foreground mb-4 flex-1">Instant PDF of the whole book. Read on any phone or tablet. If you order the printed book later, we'll credit the {formatPrice(digitalPrice())}.</p>
                 <Button onClick={startDigital} disabled={!!busy || !!drawing} className="w-full">{busy === "pdf" ? "Opening checkout…" : "Get the digital book"}</Button>
               </div>
               <div className="rounded-xl border-2 border-primary p-4 flex flex-col">
@@ -315,6 +321,7 @@ export default function Book() {
         storyTitle={title}
         pageCount={printTier}
         onClose={() => setPrintOpen(false)}
+        pdfCredit={pdfCredit}
         onCheckout={async (order) => {
           setBusy("print");
           try {

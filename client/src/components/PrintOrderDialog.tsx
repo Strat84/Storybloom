@@ -60,9 +60,11 @@ interface PrintOrderDialogProps {
   pageCount: PrintPageCount;
   onClose: () => void;
   onCheckout: (order: PrintOrder) => Promise<void>;
+  /** Already paid for this story's PDF; the backend credits it toward the printed book. */
+  pdfCredit?: number;
 }
 
-export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount, onClose, onCheckout }: PrintOrderDialogProps) {
+export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount, onClose, onCheckout, pdfCredit = 0 }: PrintOrderDialogProps) {
   const { toast } = useToast();
   const [step, setStep] = useState<1 | 2>(1);
   const [address, setAddress] = useState<ShippingAddress>(EMPTY_ADDRESS);
@@ -84,7 +86,8 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
   const bookPrice = printPrice(pageCount);
   const method = shippingMethods().find((m) => m.id === shipping)!;
   const shippingPrice = quotedShipping ?? method.price;
-  const total = bookPrice + shippingPrice;
+  const credit = Math.min(pdfCredit, bookPrice);
+  const total = bookPrice - credit + shippingPrice;
 
   const complete =
     address.name.trim() && address.street1.trim() && address.city.trim() && address.state_code && address.postcode.length === 5 && address.phone_number.length === 10;
@@ -226,6 +229,9 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
           <div className="space-y-4">
             <dl className="text-sm space-y-2">
               <div className="flex justify-between"><dt>Printed book ({pageCount} pages)</dt><dd>{formatPrice(bookPrice)}</dd></div>
+              {credit > 0 && (
+                <div className="flex justify-between text-primary"><dt>Credit for the PDF you already bought</dt><dd>−{formatPrice(credit)}</dd></div>
+              )}
               <div className="flex justify-between"><dt>{method.label} shipping</dt><dd>{formatPrice(shippingPrice)}</dd></div>
               <div className="flex justify-between border-t pt-2 font-semibold text-base"><dt>Total</dt><dd>{formatPrice(total)}</dd></div>
             </dl>

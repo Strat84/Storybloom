@@ -61,7 +61,7 @@ export const HOW_IT_WORKS = [
   {
     icon: UserRound,
     name: "Tell us about your child",
-    text: "Add their name, age and what they look like, plus a favorite animal, toy or hobby.",
+    text: "Add their name and age, then upload a photo or describe them. Siblings and pets can join too.",
   },
   {
     icon: Palette,

@@ -20,6 +20,8 @@ interface BookViewerDialogProps {
   open: boolean;
   onClose: () => void;
   onStoryUpdate: (story: ViewerStory) => void;
+  /** Page to open on (defaults to the cover). */
+  initialIndex?: number;
 }
 
 function orderPages(pages: StoryPage[]) {
@@ -41,7 +43,7 @@ async function waitForImage(storyId: string, pageNo: number) {
   throw new Error("Drawing the picture took too long. Please try again.");
 }
 
-export default function BookViewerDialog({ story, loading, open, onClose, onStoryUpdate }: BookViewerDialogProps) {
+export default function BookViewerDialog({ story, loading, open, onClose, onStoryUpdate, initialIndex = 0 }: BookViewerDialogProps) {
   const { toast } = useToast();
   const [index, setIndex] = useState(0);
   const [mode, setMode] = useState<"view" | "edit" | "redraw">("view");
@@ -51,9 +53,11 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
 
   useEffect(() => {
     if (open) {
-      setIndex(0);
+      setIndex(initialIndex);
       setMode("view");
     }
+    // Only reset when the dialog opens, not on every story update while it's open.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open, story?.storyId]);
 
   const pages = useMemo(() => orderPages(story?.pages ?? []), [story]);

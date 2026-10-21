@@ -14,7 +14,7 @@ const root = path.resolve(import.meta.dirname, "..");
 const dist = path.join(root, "dist/public");
 
 // Keep in sync with APP_SHELL_PREFIXES in client/src/routes.tsx.
-const APP_SHELL = ["/generated-story", "/mystories", "/profile"];
+const APP_SHELL = ["/generated-story", "/book", "/mystories", "/profile"];
 
 async function prerenderedPaths(dir = dist, prefix = "") {
   const found = [];

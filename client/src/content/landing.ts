@@ -261,9 +261,29 @@ export const LANDING_PAGES: LandingPage[] = [
     benefits: [
       { title: "Looks like them", text: "An illustrated character built from your photos, consistent on every page." },
       { title: "Private by design", text: "Photos are stored privately, deleted automatically, and never used to train AI." },
-      { title: "Siblings and pets too", text: "Add a sibling, parent or pet to join the adventure." },
+      { title: "Siblings and pets too", text: "Add a brother or sister, a grandparent or the family pet, each from a photo or a short description." },
     ],
-    sections: [],
+    sections: [
+      {
+        heading: "From photo to picture-book hero",
+        paragraphs: [
+          "Choose one to three clear photos of your child. StoryBloom draws them as an illustrated character in the art style you pick, from traditional cartoon to anime, 3D animation or chibi, keeping what makes them recognizable: their hair, skin tone, eyes, freckles and glasses.",
+          "That character then appears on the cover and every page of the story, looking the same throughout. Brothers, sisters, friends, grandparents and pets can join the adventure too.",
+        ],
+      },
+      {
+        heading: "No photo? No problem",
+        paragraphs: [
+          "Photos are optional. If you'd rather not upload one, describe your child instead: hair color and style, skin tone, eye color and glasses. The story is just as personal.",
+        ],
+      },
+      {
+        heading: "Your photos stay private",
+        paragraphs: [
+          "Only a parent or guardian (or someone with their permission) can upload photos. They're stored privately, used only to draw your book, deleted automatically within 30 days, and never used to train AI. You can delete your photos and books any time from your account.",
+        ],
+      },
+    ],
     faqs: [],
   },
 ];

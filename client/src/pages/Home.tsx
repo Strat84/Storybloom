@@ -34,7 +34,7 @@ export default function Home() {
               Personalized storybooks starring <span className="text-primary">your child</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground font-story mb-6 max-w-xl mx-auto lg:mx-0">
-              Pick an adventure, add their name and look, and StoryBloom writes and illustrates a picture book all about them.
+              Upload a photo (or describe them), pick an adventure, and StoryBloom writes and illustrates a picture book all about them.
               Preview it free, then download it instantly or order a printed keepsake.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">

@@ -27,6 +27,7 @@ import {
 const GeneratedStory = lazy(() => import("@/pages/GeneratedStory"));
 const MyStories = lazy(() => import("@/pages/MyStories"));
 const Profile = lazy(() => import("@/pages/Profile"));
+const Book = lazy(() => import("@/pages/Book"));
 
 export interface RouteDef {
   /** wouter pattern */
@@ -188,6 +189,7 @@ export function pageMetaFor(path: string): PageMeta {
     }
   }
   if (clean.startsWith("/generated-story")) return noindex(clean, "Your story");
+  if (clean.startsWith("/book/")) return noindex(clean, "Your book");
   return NOT_FOUND_META;
 }
 
@@ -207,6 +209,7 @@ export const ROUTES: RouteDef[] = [
   { path: "/forgot-password", component: ForgotPassword, access: "publicOnly" },
   { path: "/create-new-password", component: CreateNewPassword, access: "publicOnly" },
   { path: "/generated-story/:storyId", component: GeneratedStory, access: "protected" },
+  { path: "/book/:storyId", component: Book, access: "protected" },
   { path: "/mystories", component: MyStories, access: "protected" },
   { path: "/profile", component: Profile, access: "protected" },
 ];
@@ -229,4 +232,4 @@ export const SITEMAP: SitemapEntry[] = [
 export const PRERENDER_ONLY = ["/signin", "/signup", "/forgot-password", "/create-new-password"];
 
 /** Path prefixes served by the client-only app shell (see scripts/amplify-rules.mjs). */
-export const APP_SHELL_PREFIXES = ["/generated-story", "/mystories", "/profile"];
+export const APP_SHELL_PREFIXES = ["/generated-story", "/book", "/mystories", "/profile"];

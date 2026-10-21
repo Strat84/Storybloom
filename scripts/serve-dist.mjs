@@ -14,7 +14,7 @@ const dist = path.join(root, "dist/public");
 const port = Number(process.argv[2] ?? 4173);
 
 // Keep in sync with APP_SHELL_PREFIXES in client/src/routes.tsx.
-const APP_SHELL = ["/generated-story", "/mystories", "/profile"];
+const APP_SHELL = ["/generated-story", "/book", "/mystories", "/profile"];
 
 function rewrite(uri) {
   if (uri.length > 1 && uri.endsWith("/")) return { redirect: uri.replace(/\/+$/, "") };

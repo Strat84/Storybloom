@@ -1,6 +1,6 @@
 import config from "@config";
 import type { CartoonStyle } from "@/components/CartoonStyleSelector";
-import { PRONOUNS, type HeroDetails, type StoryTheme } from "./themes";
+import { PRONOUNS, type HeroDetails, type Pronouns, type StoryTheme } from "./themes";
 
 export interface Appearance {
   hairColor: string;
@@ -20,13 +20,57 @@ export interface PersonalDetails {
   fromName: string;
 }
 
+export type LookMode = "photo" | "describe";
+
+export type CastRole = "sibling" | "friend" | "parent" | "grandparent" | "pet" | "other";
+
+/** Someone besides the hero: a sibling, friend, grown-up or pet. */
+export interface CastMember {
+  key: string;
+  name: string;
+  role: CastRole;
+  /** People only. */
+  age: number | null;
+  pronouns: Pronouns | null;
+  lookMode: LookMode;
+  /** Prepared photo data URLs (see lib/photo.ts). */
+  photos: string[];
+  /** Short free-text look, e.g. "curly black hair, freckles" or "a fluffy grey cat". */
+  description: string;
+}
+
 export interface WizardAnswers {
   hero: HeroDetails;
   appearance: Appearance;
+  heroLookMode: LookMode;
+  heroPhotos: string[];
+  others: CastMember[];
   themeId: string;
   style: CartoonStyle;
   details: PersonalDetails;
   pageCount: 10 | 15 | 20;
+}
+
+/** e.g. "little sister", "grandpa", "dog". */
+export function relationLabel(member: CastMember, hero: HeroDetails) {
+  const p = member.pronouns;
+  switch (member.role) {
+    case "sibling": {
+      const word = p === "she" ? "sister" : p === "he" ? "brother" : "sibling";
+      if (member.age != null && member.age !== hero.age) return `${member.age < hero.age ? "little" : "big"} ${word}`;
+      return word;
+    }
+    case "parent":
+      return p === "she" ? "mom" : p === "he" ? "dad" : "parent";
+    case "grandparent":
+      return p === "she" ? "grandma" : p === "he" ? "grandpa" : "grandparent";
+    case "friend":
+      return "best friend";
+    case "pet":
+      return "pet";
+    default:
+      return "friend";
+  }
 }
 
 export type AgeRange = (typeof config.story.ageRanges)[number];
@@ -85,7 +129,7 @@ export function fitOutline(beats: string[], interiorPages: number) {
 
 /** Build the prompt sent to the existing story generator. */
 export function buildStoryPrompt(theme: StoryTheme, answers: WizardAnswers) {
-  const { hero, appearance, details, style, pageCount } = answers;
+  const { hero, appearance, heroLookMode, others, details, style, pageCount } = answers;
   const p = PRONOUNS[hero.pronouns];
   const title = theme.title(hero);
   const beats = fitOutline(theme.outline(hero), pageCount);
@@ -103,14 +147,22 @@ export function buildStoryPrompt(theme: StoryTheme, answers: WizardAnswers) {
   const lines = [
     `Write a personalized children's picture book titled exactly "${title}".`,
     `The hero is ${hero.name}, age ${hero.age}. Use ${p.subject}/${p.object} pronouns for ${hero.name}. Use ${hero.name}'s name often.`,
-    `What ${hero.name} looks like (keep identical on the cover and every page): ${characterDescription(hero, appearance)}.`,
+    heroLookMode === "describe"
+      ? `What ${hero.name} looks like (keep identical on the cover and every page): ${characterDescription(hero, appearance)}.`
+      : `${hero.name}'s look comes from a photo; keep ${PRONOUNS[hero.pronouns].object} identical on the cover and every page.`,
+    others.length
+      ? `Also in the story, on several pages: ${others
+          .map((m) => {
+            const age = m.role !== "pet" && m.age != null ? `, age ${m.age}` : "";
+            const look = m.lookMode === "describe" && m.description.trim() ? `; looks: ${clean(m.description, 160)}` : "";
+            return `${m.name} (${hero.name}'s ${relationLabel(m, hero)}${age}${look})`;
+          })
+          .join("; ")}. Give each of them a real part in the adventure.`
+      : "",
     `Reading level: ages ${ageRangeFor(hero.age).replace(" years", "")}. Short sentences, 2–4 per page, warm and playful.`,
     `Follow this plot outline in order, about one beat per page:${extra}`,
     ...beats.map((beat, i) => `${i + 1}. ${beat}`),
     personal.length ? `Weave in these details naturally: ${personal.join("; ")}.` : "",
-    details.dedication.trim()
-      ? `The book opens with this dedication from the giver, shown on its own before the story: "${clean(details.dedication, 300)}"`
-      : "",
     `Illustrations: ${STYLE_NAMES[style]} style. ${theme.illustrationGuide} ${hero.name} appears on the front cover with the title.`,
     `Keep it gentle and age-appropriate: no frightening peril, violence or brand names. End on a warm, happy note.`,
   ];
@@ -134,3 +186,30 @@ export const EMPTY_DETAILS: PersonalDetails = {
   dedication: "",
   fromName: "",
 };
+
+/** The cast as sent to /stories/generate. Photos are only included with the parent's consent. */
+export function castRequest(a: WizardAnswers, photoConsent: boolean) {
+  const heroPronouns = PRONOUNS[a.hero.pronouns];
+  return [
+    {
+      name: a.hero.name,
+      role: "hero",
+      kind: "person",
+      age: a.hero.age,
+      pronouns: `${heroPronouns.subject}/${heroPronouns.object}`,
+      description: a.heroLookMode === "describe" ? lookSummary(a.appearance) : clean(a.appearance.other, 160),
+      photoConsent,
+      photos: photoConsent && a.heroLookMode === "photo" ? a.heroPhotos : [],
+    },
+    ...a.others.map((m) => ({
+      name: m.name.trim(),
+      role: m.role,
+      kind: m.role === "pet" ? "pet" : "person",
+      age: m.role === "pet" ? undefined : m.age ?? undefined,
+      pronouns: m.pronouns ? `${PRONOUNS[m.pronouns].subject}/${PRONOUNS[m.pronouns].object}` : undefined,
+      description: clean(m.description, 160),
+      photoConsent,
+      photos: photoConsent && m.lookMode === "photo" ? m.photos.slice(0, 1) : [],
+    })),
+  ];
+}

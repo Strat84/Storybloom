@@ -278,8 +278,8 @@ export default function GeneratedStory() {
         if (latest.length > 0 && latest.every((p) => !!p.imageUrl)) {
           window.clearInterval(pollTimer.current!);
           setGenerating(false);
-          toast({ title: "Your book is illustrated!", description: "Taking you to My Stories to preview and order." });
-          window.setTimeout(() => navigate("/mystories"), 2000);
+          toast({ title: "Your book is illustrated!" });
+          window.setTimeout(() => navigate(`/book/${storyId}`), 1000);
           return;
         }
       } catch {
@@ -337,6 +337,7 @@ export default function GeneratedStory() {
   return (
     <div className="container mx-auto px-4 sm:px-6 py-8 max-w-5xl space-y-6">
       <div className="text-center">
+        <Link href={`/book/${storyId}`} className="inline-block text-sm text-primary hover:underline mb-2">← Back to the book</Link>
         <h1 className="text-3xl sm:text-4xl font-display font-bold mb-2">{story.title || "Your story"}</h1>
         <p className="text-muted-foreground font-story">
           {story.author ? `by ${story.author}. ` : ""}Read it through and make any changes, then generate the pictures.
@@ -363,7 +364,7 @@ export default function GeneratedStory() {
       <Card className="p-6 text-center sticky bottom-4 shadow-lg">
         <h2 className="text-xl font-display font-bold mb-3">{allIllustrated ? "Your book is illustrated" : "Happy with the story?"}</h2>
         {allIllustrated ? (
-          <Button asChild size="lg"><Link href="/mystories">Preview and order</Link></Button>
+          <Button asChild size="lg"><Link href={`/book/${storyId}`}>Back to the book</Link></Button>
         ) : (
           <Button size="lg" onClick={generateImages} disabled={generating} className="gap-2">
             {generating ? <Loader2 className="h-4 w-4 animate-spin" aria-hidden /> : <Wand2 className="h-4 w-4" aria-hidden />}

@@ -48,6 +48,23 @@ export default function Privacy() {
             </section>
 
             <section>
+              <h2 data-testid="heading-photos" className="text-xl font-semibold mb-3">4a. Photos You Upload</h2>
+              <div data-testid="text-photos" className="text-muted-foreground space-y-2">
+                <p>
+                  Uploading photos is optional. You can always describe your child instead. Only the adult account holder may
+                  upload photos, and only of children they are the parent or guardian of, or have permission to use.
+                </p>
+                <ul className="list-disc pl-6 space-y-1">
+                  <li>Photos are stored privately. They are never published or shared, and are not accessible by public links.</li>
+                  <li>We use photos only to draw the illustrated characters for the book you're creating. Our image service (Google Gemini) processes them for that purpose.</li>
+                  <li>Photos are never used to train AI models, by us or by the AI services we use.</li>
+                  <li>Original photos are deleted automatically within 30 days of upload. Deleting a book deletes its photos immediately, and you can delete all of your photos and books at any time from your account page.</li>
+                  <li>The illustrated characters drawn from your photos are part of your book and are kept with it until you delete the book.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section>
               <h2 data-testid="heading-third-party" className="text-xl font-semibold mb-3">5. Third-Party Services</h2>
               <p data-testid="text-third-party" className="text-muted-foreground">
                 We use third-party AI services (OpenAI and Google Gemini) to generate story content and
@@ -81,7 +98,7 @@ export default function Privacy() {
             </section>
 
             <div className="pt-6 text-sm text-muted-foreground">
-              <p data-testid="text-privacy-last-updated">Last updated: November 7, 2025</p>
+              <p data-testid="text-privacy-last-updated">Last updated: October 21, 2026</p>
             </div>
           </CardContent>
         </Card>

@@ -107,8 +107,8 @@ const config = {
 
   /** Feature flags. Flip to true only when the feature is actually live. */
   features: {
-    /** P0-2: upload a photo and the child becomes the hero. Keep false until it ships. */
-    photoUpload: false,
+    /** P0-2: upload a photo (optional) and the child becomes the illustrated hero. */
+    photoUpload: true,
     /** P0-5: gift certificates. Needs backend support before turning on. */
     giftCertificates: false,
     /** P0-1: endpoint that returns verified buyer reviews. Keep false until it exists. */

@@ -83,6 +83,7 @@ Allow: /
 Disallow: /mystories
 Disallow: /profile
 Disallow: /generated-story/
+Disallow: /book/
 Disallow: /app.html
 
 Sitemap: ${SITE_URL}/sitemap.xml

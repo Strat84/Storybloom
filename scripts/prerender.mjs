@@ -29,6 +29,16 @@ if (cssLink) {
 }
 template = template.replace(/<script type="module" crossorigin src="/, '<script type="module" crossorigin fetchpriority="low" src="');
 
+// Staging builds (SITE_ENV=staging): keep test traffic out of analytics and search results.
+const STAGING = process.env.SITE_ENV === "staging";
+if (STAGING) {
+  template = template
+    .replace(/<script>\s*\(function \(w, d, s, l, i\)[\s\S]*?GTM-[A-Z0-9]+"\);\s*<\/script>/, "")
+    .replace(/<noscript><iframe src="https:\/\/www\.googletagmanager\.com[\s\S]*?<\/noscript>/, "")
+    .replace("<!--app-head-->", '<meta name="robots" content="noindex, nofollow"><!--app-head-->');
+  if (template.includes("googletagmanager")) throw new Error("Failed to strip GTM from staging build");
+}
+
 function page(head, body, prerenderedPath) {
   const attr = prerenderedPath ? ` data-prerendered="${prerenderedPath}"` : "";
   // Function replacers: page content contains "$" (prices), which string replacements would interpret.
@@ -68,7 +78,7 @@ ${SITEMAP.map(
 `;
 await writeFile(path.join(outDir, "sitemap.xml"), sitemap);
 
-const robots = `User-agent: *
+const robots = STAGING ? "User-agent: *\nDisallow: /\n" : `User-agent: *
 Allow: /
 Disallow: /mystories
 Disallow: /profile

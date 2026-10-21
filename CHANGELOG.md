@@ -4,6 +4,14 @@ All notable changes to storybloom.ai. Newest first.
 
 ## Unreleased (branch `holiday-2026`)
 
+### Photo likeness, multi-person stories, and a frictionless buying flow (P0-2, P0-3, P0-4)
+- **Wizard rebuilt**: Hero → Look (upload 1–3 photos *or* describe) → Friends (optional siblings, friends, grown-ups or pets, each by photo or description) → Story → Style → Create. Account sign-up/sign-in happens inline on the last step, with no page change.
+- **Photos are optional** everywhere. They're resized in the browser, checked for blur, checked server-side for no face/several people/blur with friendly messages, sent only with the parent's consent, stored privately under the story, auto-deleted within 30 days, and never used to train AI.
+- **One continuous flow**: story text (~1 min) → pictures start automatically (~1 min) → the buyer watches the book fill in on the new **book page** (`/book/:id`): cover + first 3 pages free, the rest blurred behind "Unlock the whole book", digital and printed options on the same page, sticky mobile "Get the book" bar. Stripe returns buyers to their book, which unlocks automatically.
+- **Account page**: "Delete my photos and books".
+- **Privacy policy**: new "Photos You Upload" section (needs Matt's review).
+- Backend (Strat84/storybloom-backend): stateless illustration pipeline. No more title text leaking onto random pages, no borders, consistent characters from reference sheets, about 4× faster pictures. Plus cast/photo support, dedication on page 1, free-story refund on failure.
+
 ### Front end rebuilt on the live backend, plus SEO foundations (P0-3, P1-1, groundwork for P0-6/P0-7/P0-8)
 
 The production front-end source was never pushed to GitHub. This branch rebuilds it from the newest repo code, wired to the existing live backend (same Cognito user pool, same API Gateway endpoints, same Stripe and Lulu request payloads), so sign-in, checkout and print ordering keep working unchanged.

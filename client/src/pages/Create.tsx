@@ -216,7 +216,7 @@ export default function Create() {
       } catch {
         // Ignore.
       }
-      navigate(`/book/${creation.state.storyId}`);
+      navigate(`/book/${creation.state.storyId}?new=1`);
     }
   }, [creation.state, navigate]);
 

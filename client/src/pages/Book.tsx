@@ -31,6 +31,7 @@ export default function Book() {
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
   const [drawing, setDrawing] = useState<{ done: number; total: number } | null>(null);
+  const watching = useRef(false);
   const [index, setIndex] = useState(0);
   const [busy, setBusy] = useState<null | "pdf" | "print" | "download" | "confirming">(null);
   const [printOpen, setPrintOpen] = useState(false);
@@ -57,19 +58,26 @@ export default function Book() {
         return u ? { ...page, status: u.status, imageUrl: u.imageUrl ?? page.imageUrl } : page;
       }),
     );
-    setDrawing(picturesDone(s) ? null : { done: s.counts?.completed ?? 0, total: s.counts?.total ?? 0 });
+    // Right after "generate-images" the backend may not have marked pages pending yet,
+    // so keep showing progress while we're watching until every picture is finished.
+    const inProgress = !picturesDone(s) && (watching.current || (s.counts?.pending ?? 0) > 0);
+    setDrawing(inProgress ? { done: s.counts?.completed ?? 0, total: s.counts?.total ?? 0 } : null);
   }, []);
 
   const watchPictures = useCallback(() => {
     if (pollTimer.current) window.clearInterval(pollTimer.current);
+    watching.current = true;
+    const startedAt = Date.now();
+    const stop = () => {
+      watching.current = false;
+      if (pollTimer.current) window.clearInterval(pollTimer.current);
+      pollTimer.current = null;
+    };
     const tick = async () => {
       try {
         const s = await api<ImagesStatus>(`/stories/${storyId}/images-status`);
+        if (picturesDone(s) || Date.now() - startedAt > 20 * 60_000) stop();
         applyImagesStatus(s);
-        if (picturesDone(s) && pollTimer.current) {
-          window.clearInterval(pollTimer.current);
-          pollTimer.current = null;
-        }
       } catch {
         // Keep polling through transient errors.
       }
@@ -83,7 +91,9 @@ export default function Book() {
     loadBook()
       .then(async () => {
         const s = await api<ImagesStatus>(`/stories/${storyId}/images-status`).catch(() => null);
-        if (s && s.counts && s.counts.pending > 0) watchPictures();
+        // ?new=1: just created in the wizard, drawing has started even if no page is marked yet.
+        const justCreated = new URLSearchParams(window.location.search).get("new") === "1";
+        if (s && ((s.counts?.pending ?? 0) > 0 || (justCreated && !picturesDone(s)))) watchPictures();
         else if (s) applyImagesStatus(s);
       })
       .catch((err) => setLoadError(err.message || "We couldn't load this book."))

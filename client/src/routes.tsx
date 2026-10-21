@@ -228,5 +228,5 @@ export const SITEMAP: SitemapEntry[] = [
 /** Prerendered but not in the sitemap (noindex app entry points). */
 export const PRERENDER_ONLY = ["/signin", "/signup", "/forgot-password", "/create-new-password"];
 
-/** Path prefixes served by the client-only app shell (see deploy/cloudfront-function.js). */
+/** Path prefixes served by the client-only app shell (see scripts/amplify-rules.mjs). */
 export const APP_SHELL_PREFIXES = ["/generated-story", "/mystories", "/profile"];

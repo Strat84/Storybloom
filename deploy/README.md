@@ -1,71 +1,62 @@
 # Deploying storybloom.ai
 
-The site is static files in an S3 bucket behind CloudFront. The backend (API Gateway + Lambda, Cognito, Stripe, Lulu) is separate and is **not** changed by deploying this front end.
+## Where things run
 
-## 0. Back up the live site first (one time, before the first deploy)
+| Piece | Where | Notes |
+|---|---|---|
+| Live website | AWS Amplify app `d1xdvaub8jmiw5` ("StoryMagic-Client"), branch `prod` | Serves `www.storybloom.ai` (apex redirects to www). DNS is at Cloudflare. |
+| Staging website | AWS Amplify app `d355wgiri735ra` ("storybloom-staging"), branch `staging` | https://staging.d355wgiri735ra.amplifyapp.com. Uses the **dev** backend: Stripe test mode, Lulu sandbox. Manual deploys. |
+| Backend | Serverless stacks `storybloom-prod` / `storybloom-dev` in us-east-1 | Source: github.com/Strat84/storybloom-backend |
+| Secrets | SSM Parameter Store `/storybloom/{dev,prod}/*` | Never in code or git. |
 
-The files currently in the bucket are the only copy of the December 2025 front end. Keep them so you can roll back:
+All in AWS account 777380868813.
 
-```sh
-aws s3 sync s3://<SITE_BUCKET> ./backup-live-$(date +%Y%m%d)
-```
-
-Also turn on S3 versioning for the bucket if it isn't already.
-
-## 1. Build
-
-```sh
-npm ci
-npm run build        # outputs dist/public/
-node scripts/serve-dist.mjs   # optional: check it at http://localhost:4173 with production URL rules
-```
-
-`npm run fetch:examples` refreshes the example books from the live API, and `npm run images` regenerates optimized images. Run both, then rebuild, when examples change.
-
-## 2. Upload
-
-Hashed assets can be cached forever. HTML must revalidate so new deploys show up.
+## Deploy to staging (safe, any time)
 
 ```sh
-# Long-lived, fingerprinted or rarely changing files
-aws s3 sync dist/public s3://<SITE_BUCKET> \
-  --exclude "*.html" --exclude "sitemap.xml" --exclude "robots.txt" \
-  --cache-control "public, max-age=31536000, immutable"
+# Build against the dev backend, without analytics, blocked from search engines
+SITE_ENV=staging \
+VITE_API_BASE_URL=https://keigr6djr2.execute-api.us-east-1.amazonaws.com/dev \
+VITE_USER_POOL_ID=us-east-1_v4wLL7iJI \
+VITE_USER_POOL_CLIENT_ID=5jrss1relgvpaggkgs1todqnfq \
+npm run build
 
-# HTML, sitemap and robots: always revalidate
-aws s3 sync dist/public s3://<SITE_BUCKET> \
-  --exclude "*" --include "*.html" --include "sitemap.xml" --include "robots.txt" \
-  --cache-control "public, max-age=0, must-revalidate"
+cd dist/public && zip -r ../staging.zip . && cd ../..
+aws amplify create-deployment --app-id d355wgiri735ra --branch-name staging   # returns jobId + zipUploadUrl
+curl -T dist/staging.zip "<zipUploadUrl>"
+aws amplify start-deployment --app-id d355wgiri735ra --branch-name staging --job-id <jobId>
+
+# Routing rules (re-run when pages are added or removed)
+node scripts/amplify-rules.mjs > rules.json
+aws amplify update-app --app-id d355wgiri735ra --custom-rules file://rules.json
 ```
 
-Don't use `--delete` on the first deploy (it would remove the backup-able old files). Old hashed assets are harmless.
+Test card: `4242 4242 4242 4242`, any future expiry, any CVC.
 
-## 3. CloudFront (one time)
+## Deploy to production
 
-1. **URL rewrite function.** CloudFront → Functions → Create → runtime `cloudfront-js-2.0`, paste `deploy/cloudfront-url-rewrite.js`, publish, and associate it with the distribution's default behavior as **Viewer request**. It maps `/pricing` to `/pricing/index.html`, sends logged-in app pages to `/app.html`, and 301-redirects trailing slashes.
-2. **Error pages.** Distribution → Error pages: change the 403 and 404 responses to path `/404.html` with HTTP response code **404**. (Today they most likely return `/index.html` with 200, which makes every unknown URL look like a duplicate home page to Google.)
-3. **Compression.** Behavior → "Compress objects automatically": Yes.
-4. Invalidate after each deploy: `aws cloudfront create-invalidation --distribution-id <ID> --paths "/*"`.
+The live Amplify app builds automatically from git using `amplify.yml` (Node 22, `npm ci`, `npm run build`, publishes `dist/public`).
 
-## 4. Check after deploy
+**One-time switch** (planned, needs Matt's go-ahead): reconnect app `d1xdvaub8jmiw5` from the contractor's repo `Moheed789/StoryMagic-Client` to `Strat84/Storybloom`, and replace its routing rules:
 
-- Open `/`, `/christmas-book-for-kids`, `/pricing`, `/mystories` (should ask you to sign in), and a made-up URL (should show "Page not found").
-- Sign in with an existing account and check My Stories, preview, and the print order form up to the Stripe page.
-- Run one test purchase end to end before marketing launches.
-- `https://storybloom.ai/sitemap.xml` and `/robots.txt` load.
+```sh
+node scripts/amplify-rules.mjs --apex-redirect > rules-prod.json   # run after a production build
+aws amplify update-app --app-id d1xdvaub8jmiw5 --custom-rules file://rules-prod.json
+```
+
+The current production rules are a single-page-app catch-all (`/<anything without a dot>` → `/index.html`) plus a 302 apex → www redirect. The new rules serve the prerendered pages, send app pages to `/app.html`, return real 404s, and make the apex redirect a permanent 301.
+
+**Rollback:** in the Amplify console, open the app → the `prod` branch → Deployments → pick the previous deployment → **Redeploy this version**. To undo the repo switch, reconnect the app to the old repository.
+
+## After every production deploy
+
+- Open `/`, `/christmas-book-for-kids`, `/pricing`, `/mystories` (should ask you to sign in) and a made-up URL (should show "Page not found").
+- Sign in with a real account and check My Stories and the print order form up to the Stripe page.
+- `https://www.storybloom.ai/sitemap.xml` and `/robots.txt` load.
 - PageSpeed Insights (mobile) for `/` and `/christmas-book-for-kids`.
 
-## 5. Google Search Console (one time)
+## Google Search Console (one time)
 
-1. Add the domain property `storybloom.ai` and verify it with the DNS TXT record Google gives you.
-2. Sitemaps → submit `https://storybloom.ai/sitemap.xml`.
-3. URL inspection → "Request indexing" for `/`, `/christmas-book-for-kids` and the other landing pages.
-
-## Rollback
-
-```sh
-aws s3 sync ./backup-live-YYYYMMDD s3://<SITE_BUCKET>
-aws cloudfront create-invalidation --distribution-id <ID> --paths "/*"
-```
-
-If you added the URL-rewrite function, detach it from the behavior when rolling back to the old single-page app.
+1. Add the domain property `storybloom.ai` and verify it with the DNS TXT record Google gives you (add it in Cloudflare).
+2. Sitemaps → submit `https://www.storybloom.ai/sitemap.xml`.
+3. URL inspection → "Request indexing" for `/` and each landing page.

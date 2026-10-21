@@ -1,22 +1,27 @@
-// Serve dist/public locally with the same URL rules as production
-// (deploy/cloudfront-url-rewrite.js + the 404 error page).
+// Serve dist/public locally the way production does: clean URLs (/pricing ->
+// /pricing/index.html), app pages -> /app.html, unknown paths -> 404.html.
+// Mirrors the Amplify rules from scripts/amplify-rules.mjs.
 //
 // Usage: node scripts/serve-dist.mjs [port]
 
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
-import vm from "node:vm";
 import { gzipSync } from "node:zlib";
 
 const root = path.resolve(import.meta.dirname, "..");
 const dist = path.join(root, "dist/public");
 const port = Number(process.argv[2] ?? 4173);
 
-// Run the real CloudFront function so local behavior matches production.
-const fnSource = await readFile(path.join(root, "deploy/cloudfront-url-rewrite.js"), "utf8");
-const sandbox = {};
-vm.runInNewContext(`${fnSource}\nthis.handler = handler;`, sandbox);
+// Keep in sync with APP_SHELL_PREFIXES in client/src/routes.tsx.
+const APP_SHELL = ["/generated-story", "/mystories", "/profile"];
+
+function rewrite(uri) {
+  if (uri.length > 1 && uri.endsWith("/")) return { redirect: uri.replace(/\/+$/, "") };
+  if (/\.[a-zA-Z0-9]+$/.test(uri)) return { uri };
+  if (APP_SHELL.some((p) => uri === p || uri.startsWith(`${p}/`))) return { uri: "/app.html" };
+  return { uri: uri === "/" ? "/index.html" : `${uri}/index.html` };
+}
 
 const TYPES = {
   ".html": "text/html; charset=utf-8",
@@ -34,11 +39,10 @@ const TYPES = {
 
 createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${port}`);
-  const querystring = Object.fromEntries([...url.searchParams].map(([k, v]) => [k, { value: v }]));
-  const result = sandbox.handler({ request: { uri: decodeURIComponent(url.pathname), querystring } });
+  const result = rewrite(decodeURIComponent(url.pathname));
 
-  if (result.statusCode) {
-    res.writeHead(result.statusCode, { location: result.headers.location.value });
+  if (result.redirect) {
+    res.writeHead(301, { location: result.redirect + url.search });
     return res.end();
   }
 
@@ -47,7 +51,7 @@ createServer(async (req, res) => {
     if (!file.startsWith(dist) || !(await stat(file)).isFile()) throw new Error("not found");
     const type = TYPES[path.extname(file)] ?? "application/octet-stream";
     const body = await readFile(file);
-    // Compress text like CloudFront does, so local performance tests are realistic.
+    // Compress text like Amplify does, so local performance tests are realistic.
     if (/text|javascript|json|xml|svg/.test(type) && /gzip/.test(req.headers["accept-encoding"] ?? "")) {
       res.writeHead(200, { "content-type": type, "content-encoding": "gzip", "cache-control": "public, max-age=31536000" });
       return res.end(gzipSync(body));

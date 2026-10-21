@@ -15,7 +15,7 @@ The production front-end source was never pushed to GitHub. This branch rebuilds
 - **Prerendered pages** (22) with unique titles, descriptions, canonical URLs, Open Graph/Twitter share images, and structured data (Organization, WebSite, Product with real offers, BreadcrumbList, FAQPage, Book). No review/rating markup.
 - **Landing pages**: `/christmas-book-for-kids`, `/hanukkah-book-for-kids`, `/personalized-birthday-book`, `/new-sibling-book`, `/gift-for-grandchild`, `/personalized-space-book`. `/personalized-book-with-childs-photo` is built but hidden until `features.photoUpload` is on.
 - **Example books** prerendered at `/examples/<slug>` with full story text, from a snapshot of the public examples API (`npm run fetch:examples`).
-- `sitemap.xml`, `robots.txt`, a real 404 page, and a CloudFront function for clean URLs (`deploy/`).
+- `sitemap.xml`, `robots.txt`, a real 404 page, and Amplify routing rules for clean URLs (`scripts/amplify-rules.mjs`).
 - **Speed**: images converted to WebP (style previews were 4 MB PNGs each, now ~30 KB), self-hosted fonts, inlined CSS, logged-in pages code-split, Amplify loaded only for signed-in visitors. Measured LCP on an emulated mid-range phone over slow 4G: about 0.7–1.8 s.
 - **Tracking groundwork**: funnel events pushed to the GTM dataLayer (`view_content`, `generate_lead`, `sign_up`, `begin_checkout`, `purchase` with value and the Stripe session ID as `event_id`), plus first-touch UTM and `?code=` capture. GTM tags for GA4/Meta/TikTok still need to be set up (P0-7).
 - **Fixes**: header/footer use real links (crawlable), one H1 per page, brand purple darkened for WCAG contrast, legal pages get real H1s, privacy policy no longer shows today's date as "last updated", pinch-zoom re-enabled.

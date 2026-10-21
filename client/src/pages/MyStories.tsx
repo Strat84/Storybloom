@@ -325,7 +325,13 @@ export default function MyStories() {
             return (
               <Card key={s.storyId} className="overflow-hidden flex flex-col">
                 <div className="relative aspect-[4/3] bg-muted">
-                  <img src={s.coverImageUrl || "/placeholder-cover.jpg"} alt={`Cover of ${s.title || "your story"}`} className="w-full h-full object-cover" loading="lazy" />
+                  {s.coverImageUrl ? (
+                    <img src={s.coverImageUrl} alt={`Cover of ${s.title || "your story"}`} className="w-full h-full object-cover" loading="lazy" />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/15 to-chart-2/15">
+                      <BookOpen className="h-12 w-12 text-primary/60" aria-hidden />
+                    </div>
+                  )}
                   {s.deliveryStatus && (
                     <span className="absolute top-2 left-2 rounded-full bg-background/90 px-2 py-1 text-xs font-medium flex items-center gap-1">
                       <Truck className="h-3 w-3" aria-hidden />{capitalize(s.deliveryStatus)}

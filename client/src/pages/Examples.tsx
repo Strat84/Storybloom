@@ -10,7 +10,7 @@ export function Examples() {
         <SectionHeading
           as="h1"
           title="Example storybooks"
-          subtitle="Real books made with StoryBloom. Open one to flip through every page."
+          subtitle="Real books made with StoryBloom's story wizard, exactly as a parent would make them. Open one to flip through every page."
         />
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
           {EXAMPLE_BOOKS.map((book) => (
@@ -40,6 +40,11 @@ export function ExampleBookPage() {
         <div className="text-center max-w-2xl mx-auto mb-8">
           <h1 className="text-3xl sm:text-4xl font-display font-bold mb-3">{book.title}</h1>
           <p className="text-muted-foreground font-story">An example personalized storybook made with StoryBloom.</p>
+          <dl className="mt-4 flex flex-wrap justify-center gap-2 text-sm">
+            {[["Starring", book.starring], ["Story", book.story], ["Art style", book.style]].map(([k, v]) => (
+              <div key={k} className="rounded-full bg-primary/10 px-3 py-1"><dt className="inline font-semibold text-primary">{k}: </dt><dd className="inline">{v}</dd></div>
+            ))}
+          </dl>
         </div>
         <SampleBookViewer book={book} />
       </Section>
@@ -51,7 +56,10 @@ export function ExampleBookPage() {
           <h2 className="text-2xl font-display font-bold mb-3">Read the full story</h2>
           <div className="space-y-4 font-story text-lg leading-relaxed">
             {storyPagesOf(book).map((page, i) => (
-              <p key={i}>{page.text}</p>
+              <div key={i} className="space-y-4">
+                {page.dedication && <p className="italic text-muted-foreground">{page.dedication}</p>}
+                <p>{page.text}</p>
+              </div>
             ))}
           </div>
         </div>

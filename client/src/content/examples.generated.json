@@ -1,367 +1,383 @@
 [
   {
-    "slug": "the-turtle-who-wanted-to-be-fast",
-    "storyId": "3cad98b6-6c66-4489-ae2f-748655406fcd",
-    "title": "The Turtle Who Wanted to Be Fast",
-    "description": "A little turtle is sad because he's so slow while all his friends - the rabbit, the bird, and the squirrel - zoom around quickly. He tries everything to go faster but keeps falling behind. Then one day, his friends get lost in a rushing adventure and the turtle's slow, steady pace helps him notice the trail back home and safely guide everyone. He learns that being slow and careful is just as important as being fast.",
+    "slug": "mia-saves-christmas",
+    "storyId": "512b2a10-9ac8-445d-859c-78180653bc33",
+    "title": "Mia Saves Christmas",
+    "description": "On Christmas Eve an elf named Pip asks Mia for help: Santa's sleigh has lost its Christmas spark. Mia rides a magic snow globe to the North Pole, cheers up the workshop and the reindeer, and finds the spark in the kindest place of all. Made from the \"Saves Christmas\" story with a dedication from Mom and Dad.",
+    "story": "Christmas story",
+    "style": "Traditional Cartoon",
+    "starring": "Mia (6), her little brother Leo and Biscuit the puppy",
     "pages": [
       {
         "type": "COVER_FRONT",
         "text": "",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/00.webp",
+        "image": "/samples/mia-saves-christmas/00.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Toby the turtle liked mornings by the pond. Warm light danced on his shell. His friends zoomed past—the quick rabbit, the bright bird, and the busy squirrel. Toby tried to wave, but they had already dashed away. He sighed softly and whispered, “I wish I could go fast like them someday.”",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/01.webp",
+        "text": "On Christmas Eve, Mia sat by the window in her red pajamas, watching snow drift down like tiny feathers. Leo dozed on the rug in his dinosaur hat, and Biscuit chased his tail by the tree. Then Mia heard jingle-jingle bells. At the frosty window stood a little elf, wide-eyed and worried. “Hello,” he whispered. “I’m Pip.”",
+        "dedication": "To Mia, who makes every Christmas brighter. Love, Mom and Dad",
+        "image": "/samples/mia-saves-christmas/01.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Raya hopped so fast her ears blinked like flags. Benny swooped low, singing as he flew. Squeaky dashed up a tree like lightning. Toby slowly stretched his neck. His short legs waddled on the dirt path. It felt unfair. “How can I ever keep up?” he muttered sadly.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/02.webp",
+        "text": "Mia opened the window a crack, and cold, sparkly air whooshed in. Pip tipped his green hat. “Santa’s sleigh has lost its Christmas spark,” he said. “Without it, the sleigh cannot fly.” Mia blinked. “How can I help?” Pip smiled a little. “Only a kind and brave kid can find the spark again, and I hoped it was you.”",
+        "image": "/samples/mia-saves-christmas/02.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "The friends laughed and raced by. Toby puffed and pushed his tiny feet faster. He shook his scarf so it flew behind him like wind. But no matter how he hurried, he stayed last. That evening, he sat under a bush and decided, “Tomorrow, I will practice being fast.”",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/03.webp",
+        "text": "Pip set a shining snow globe on Mia’s hands. Inside, silver snow danced around a tiny North Pole. “Hop on,” Pip said. Mia giggled. It grew as big as a sleigh seat. Leo waved his dinosaur hat. Biscuit barked once, brave and bright. With a soft whoosh and a swirl of golden light, Mia rode the magic snow globe into the starry sky.",
+        "image": "/samples/mia-saves-christmas/03.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Next morning, Toby tried rolling down a small hill. “This makes me fast!” he cheered. But splat! He tumbled into soft mud. Benny helped him out with a gentle flap. “You don’t need to rush,” said Benny kindly. Toby sighed, wiping mud off his scarf, still hoping to go faster.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/04.webp",
+        "text": "The snow globe landed at the North Pole with a twinkle. The workshop lights flickered on and off, on and off, as if they were sleepy too. Inside stood Santa, kind-faced but worried. Nearby, the reindeer drooped with sad, heavy eyes. “Welcome, Mia,” Santa said gently. “Our Christmas spark is nearly gone, and time is hurrying faster than snow.”",
+        "image": "/samples/mia-saves-christmas/04.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Then Toby tried hopping like Raya. Hop, hop—plop! He tripped over a stick and landed on his shell. Raya laughed kindly. “You have your own way to move, Toby.” But Toby looked at her swift jumps and whispered, “Maybe I just need to practice more.” His friends smiled and cheered anyway.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/05.webp",
+        "text": "Mia looked all around. No glittering switch. No hidden button. Then she noticed tired elves struggling with the last pile of presents. “Maybe I should start small,” Mia said. She tied ribbons, matched tags, and stacked boxes neatly. Pip zipped beside her with tape and bows. Soon the workshop felt calmer, and one warm golden lamp glowed a little brighter.",
+        "image": "/samples/mia-saves-christmas/05.webp",
+        "width": 768,
+        "height": 1088
+      },
+      {
+        "type": "PAGE",
+        "text": "That helped, but the sleigh still would not lift. Mia heard a gloomy sniff from the stable. The reindeer looked sleepy and sad. So Mia sang a bouncy, silly song about wiggly carrots and dancing hooves. Pip jingled along. One reindeer snorted. Another stomped. Soon they were bobbing their heads, and the workshop windows glimmered with a brighter golden shine.",
+        "image": "/samples/mia-saves-christmas/06.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "That afternoon, the friends wanted to explore deeper into the forest. “Let’s see what’s over the stream!” said Squeaky, racing ahead. Benny flew above, and Raya hopped across rocks quickly. Toby waded carefully after them, ripples forming around his shell. Soon, he couldn’t see them anymore at all!",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/06.webp",
+        "text": "“Better,” said Santa, “but not enough.” Mia searched the workshop again. Under a bench, beside a lost mitten and a candy cane stripe, she found one last unopened letter. Mia read it softly. A child had not asked for toys at all. The wish was simple and small: “Dear Santa, please help me find a friend.” Mia pressed the letter to her heart.",
+        "image": "/samples/mia-saves-christmas/07.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Toby called out, “Wait for me!” But only the forest answered with wind. The rushing friends had gone too far. Toby felt a bit scared, but he noticed tiny footprints pressed in the mud. He followed slowly, trail by trail. Birds tweeted high up, but the wood grew darker and quiet.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/07.webp",
+        "text": "Mia knew what to do. She tucked a warm note beside that child’s gift. It said, “You matter. A kind friend may be closer than you think. Keep your heart open.” Pip slid the note into the package and tied the bow. Suddenly the air hummed. A bright golden spark burst above the sleigh, swirling bigger, brighter, and merry as sunrise.",
+        "image": "/samples/mia-saves-christmas/08.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Far ahead, Toby finally heard tiny voices. “We can’t find the way back!” cried Raya. Squeaky pointed nervously around. Benny circled above some tangled vines. When they saw Toby calmly coming along the trail, their faces brightened. “You found us!” said Raya. Toby nodded. “I saw your footprints,” he said proudly.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/08.webp",
+        "text": "“Ho, ho, hooray!” Santa laughed. The sleigh rose smoothly at last. Mia climbed aboard to help, wrapped in a cozy blanket. Across the sparkling night sky they flew, past chimneys and snowy treetops shining like sugar. Mia handed Santa presents, checked gift tags, and waved at the moon. Far below, windows glowed gold, and Christmas felt big, bright, and kind.",
+        "image": "/samples/mia-saves-christmas/09.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Toby turned and said, “Follow me. I’ll go slow, but sure.” Step by step, his feet found safe ground. He waited at roots and stones. His friends followed closely now, watching his careful path. Soon, the trees thinned, and they saw the glimmer of their sunny pond straight ahead again.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/09.webp",
-        "width": 768,
-        "height": 1052
-      },
-      {
-        "type": "PAGE",
-        "text": "When they reached the pond, everyone cheered. “You saved us, Toby!” said Benny. “Slow is very smart,” Raya smiled. Toby felt warm and proud inside. He no longer wished to rush. Being careful was his special way. The friends laughed together, watching soft ripples on the pond shimmer in the sun.",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/10.webp",
+        "text": "On Christmas morning, Mia woke in her own bed with Biscuit’s nose tickling her cheek and Leo bouncing nearby in his dinosaur hat. At first, the adventure felt dream-soft. Then Mia saw a tiny golden bell on her blanket and a note that read, “Thank you, brave and kind Mia.” She grinned her missing-tooth grin. Christmas sparkled warmly inside her too.",
+        "image": "/samples/mia-saves-christmas/10.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "COVER_BACK",
         "text": "",
-        "image": "/samples/the-turtle-who-wanted-to-be-fast/11.webp",
+        "image": "/samples/mia-saves-christmas/11.webp",
         "width": 768,
         "height": 1052
       }
     ]
   },
   {
-    "slug": "the-birthday-that-grew",
-    "storyId": "4ee7cc37-8921-4d46-84b5-88964b5f8913",
-    "title": "The Birthday That Grew",
-    "description": "A little boy plants his birthday candle in the garden after making a wish, and overnight it grows into a magical tree that sprouts presents, decorations, and party surprises for everyone in the neighborhood. He learns that sharing his special day with others makes it even more magical and that birthdays are better when everyone celebrates together.",
+    "slug": "noahs-birthday-adventure",
+    "storyId": "10ca3ff9-ff84-4a5e-b7a4-40f911404a61",
+    "title": "Noah's Birthday Adventure",
+    "description": "When Noah blows out his seven candles, a tiny map pops out of the cake. He, Grandma Rose and Priya follow it through a hidden door into a land of giant balloons, a lemonade river and a lonely little dragon. Made from the \"Birthday Adventure\" story as a gift from Grandma.",
+    "story": "Birthday story",
+    "style": "Chibi",
+    "starring": "Noah (7), Grandma Rose and his friend Priya",
     "pages": [
       {
         "type": "COVER_FRONT",
         "text": "",
-        "image": "/samples/the-birthday-that-grew/00.webp",
+        "image": "/samples/noahs-birthday-adventure/00.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Ben woke up with a happy wiggle. It was his birthday! Mama painted stars on his pancakes and sang a cheerful tune. He clapped and grinned from ear to ear. A shiny candle sat on the table beside a small piece of cake. Ben closed his eyes tight and made a silent birthday wish.",
-        "image": "/samples/the-birthday-that-grew/01.webp",
+        "text": "Noah woke up on his seventh birthday feeling extra sparkly, as if sunshine had tiptoed right into his toes. He bounced out of bed and grinned at his mirror. Downstairs, Grandma Rose hugged him, and Priya waved beside a bright birthday cake. “Today feels different,” Noah said, with freckles almost dancing.",
+        "dedication": "Happy 7th birthday, Noah! Love, Grandma Rose",
+        "image": "/samples/noahs-birthday-adventure/01.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "After breakfast, Ben held the candle gently. Its tiny flame had danced for him, and he didn’t want to throw it away. He looked out at the garden and had an idea. “I’ll plant it!” he said. Mama handed him a small shovel and grinned. “Every birthday can start something to grow,” she whispered.",
-        "image": "/samples/the-birthday-that-grew/02.webp",
+        "text": "At the party table, Noah closed his green eyes and made a quiet birthday wish. He blew out every candle in one brave puff. Poof! A tiny rolled map popped straight out of the cake and landed on his plate. Priya gasped. Grandma Rose adjusted her glasses and whispered, “Well, that is deliciously mysterious.”",
+        "image": "/samples/noahs-birthday-adventure/02.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Ben dug a tiny hole and placed the waxy candle inside. He patted dirt over it, soft like a blanket. “Goodnight, candle,” he whispered. He ran off to play with balloons, not seeing the faint flicker that sparkled below the soil. That night, while stars twinkled high, a whisper of light began to grow.",
-        "image": "/samples/the-birthday-that-grew/03.webp",
+        "text": "The map showed swirly arrows leading to the garden gate, then to a little door hidden in the hedge. Noah, Priya, and Grandma Rose hurried outside. When Noah touched the shining knob, the door swung open with a happy creak. Beyond it waited giant balloons, talking flowers, and a sky as blue as frosting.",
+        "image": "/samples/noahs-birthday-adventure/03.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "When Ben woke, his eyes grew wide. Something bright stood in the garden! He slipped on his red sneakers and ran outside. A tree had sprouted where the candle was! But its branches shimmered like ribbons and bells. “Mama!” he called out, bouncing. “It’s the candle! It grew into a birthday tree!”",
-        "image": "/samples/the-birthday-that-grew/04.webp",
+        "text": "In the balloon land, a tiny creature bobbed sadly near the path. “I’m Pop,” he squeaked. “I lost my string!” Noah searched under tulips as tall as chairs. Priya checked behind singing daisies. Grandma Rose spotted the string looped around a rosebush. Pop twirled with joy and followed Noah like a happy balloon shadow.",
+        "image": "/samples/noahs-birthday-adventure/04.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Ben touched a branch carefully. Pop! Out opened a gift box tied with a shiny bow. Then—ding! A bunch of balloons drifted up from another branch. He spun in delight and clapped. Mama laughed and called, “It’s a wishing tree!” Ben cheered, “It’s a sharing tree! There’s enough for everyone!”",
-        "image": "/samples/the-birthday-that-grew/05.webp",
+        "text": "Soon the map led them to Lemonade River, bubbling and fizzy in the sun. A cookie raft waited at the shore, trimmed with icing swirls. Noah climbed aboard first. Pop bounced gently overhead while Priya paddled with a candy cane stick. Even Grandma Rose laughed as the raft wobbled, crumbly and brave, across the sweet water.",
+        "image": "/samples/noahs-birthday-adventure/05.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Ben waved to Lila next door. “Come see, Lila! The tree made gifts!” Lila ran over, eyes round as moons. A branch dipped low, offering sparkling hats. They giggled as confetti sprinkled down like snowflakes. More friends peeked from fences and gates, eyes glowing wide at the shimmering, colorful branches above.",
-        "image": "/samples/the-birthday-that-grew/06.webp",
+        "text": "On the other side sat a small dragon beside a sign that read, NEXT CLUE. He looked friendly, but very pouty. “My name is Drift,” he sighed. “Nobody sang to me today.” Noah cleared his throat. Then Noah, Priya, Grandma Rose, and Pop sang “Happy Birthday” so warmly that Drift’s wings fluttered like party streamers.",
+        "image": "/samples/noahs-birthday-adventure/06.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Everyone gathered around the garden. The tree whistled softly and dropped sweets into waiting hands. Balloons floated between smiling faces. Ben twirled with Lila while ribbons swirled through the sunlight. But as more people arrived, a few branches drooped. Ben frowned. The tree looked sleepy. “Oh, maybe it’s tired!” he said kindly.",
-        "image": "/samples/the-birthday-that-grew/07.webp",
+        "text": "Drift still looked a little wistful, so Noah opened the cake box Grandma Rose had carried all along. Inside was one last perfect slice with rainbow sprinkles. Noah shared it with the dragon. Crunch, munch, grin! Drift licked a frosting dot from his nose and handed Noah the final clue: a golden key tied to ribbon.",
+        "image": "/samples/noahs-birthday-adventure/07.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Mama said softly, “All the giving made it sleepy, Ben. Maybe the tree needs help now.” Ben thought a moment. “Then we can give too.” He shared his toys, passed his cake around, and poured lemonade for everyone. Smiling children joined in, setting their sweets and toys under the tree’s shining leaves.",
-        "image": "/samples/the-birthday-that-grew/08.webp",
+        "text": "The key fit a treasure chest hidden beneath a bow-shaped hill. Click! The lid opened, and seven glowing wishes floated up like fireflies. One shimmered blue, one pink, one gold. Noah counted each shining light on his fingers. “One wish for every year,” Priya whispered. Noah felt excited, thoughtful, and a little bit bigger inside.",
+        "image": "/samples/noahs-birthday-adventure/08.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Suddenly, sparkles spun around them like dancing dust. The tree’s branches lifted tall and proud again. It shone brighter than before! Twinkling lights draped down, wrapping everyone in happy glow. Songs and laughter floated through the bright air. Ben’s heart felt full, round, and warm. “It’s my best birthday ever!” he said.",
-        "image": "/samples/the-birthday-that-grew/09.webp",
+        "text": "Noah chose one glowing wish and held it close to his heart. “I wish for a giant birthday party for all our new friends,” he said. Whoosh! Long tables appeared in the garden, covered with cake, fruit, and lemonade. Talking flowers swayed. Pop zigzagged overhead. Drift danced carefully. Noah felt proud of his kind, brave birthday.",
+        "image": "/samples/noahs-birthday-adventure/09.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "That night, the golden tree twinkled softly. Ben lay in bed smiling at the bright window. He whispered, “Thank you, birthday tree.” Outside, its lights flickered like tiny candles, one for everyone who shared the day. And in the morning, every child found a small flower whispering, “Birthdays grow best when we share.”",
-        "image": "/samples/the-birthday-that-grew/10.webp",
+        "text": "When evening came, the magical door gave one soft blink, and everyone was home again. Noah found the tiny map tucked inside a birthday card beside his bed. Grandma Rose smiled, and Priya leaned close as Noah read the curling words aloud: “Happy Birthday, adventurer.” Noah hugged the card and knew this brave, wondrous day would shine forever.",
+        "image": "/samples/noahs-birthday-adventure/10.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "COVER_BACK",
         "text": "",
-        "image": "/samples/the-birthday-that-grew/11.webp",
+        "image": "/samples/noahs-birthday-adventure/11.webp",
         "width": 768,
         "height": 1052
       }
     ]
   },
   {
-    "slug": "lunas-two-voices",
-    "storyId": "8fb63fac-ffd3-41d1-b8b3-276b97dfd220",
-    "title": "Luna's Two Voices",
-    "description": "Luna roars like a dinosaur and sings silly songs at home with her family. But at the playground, she gets quiet and watches other kids from far away. One day, a ball rolls to her feet. She takes a tiny brave breath and rolls it back. The other kids smile and ask, \"Want to play?\" Suddenly Luna discovers her big voice works at the playground too.",
+    "slug": "captain-courage-and-the-runaway-balloon",
+    "storyId": "39c4fd06-55d9-4c76-9664-ae2281bdb9e7",
+    "title": "Captain Courage and the Runaway Balloon",
+    "description": "Jayden's homemade red cape turns him into Captain Courage. When a storm sets the town's giant parade balloon loose, he and his big sister Amara chase it to the river and learn that real heroes ask for help. Written from a parent's own idea with \"Write your own story\".",
+    "story": "Written by the parent",
+    "style": "3D Animation",
+    "starring": "Jayden (8) and his big sister Amara",
     "pages": [
       {
         "type": "COVER_FRONT",
         "text": "",
-        "image": "/samples/lunas-two-voices/00.webp",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/00.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna loves noise! She roars like a dinosaur. She stomps and growls around the living room. Mama laughs and claps her hands. Luna’s big voice makes funny words bounce off the walls. At home, she feels loud and free. Her voice sounds like music and thunder mixed together. Mama says, “That’s my brave little roar!”",
-        "image": "/samples/lunas-two-voices/01.webp",
+        "text": "On the morning of the town festival, Jayden raced across the living room with his red blanket cape streaming behind him. When Jayden wore it, he felt taller inside, as if bravery had stitched itself into every fold. “Captain Courage is on duty!” he declared. Amara laughed, clicked her walkie-talkie, and announced, “Mission Control is ready.”",
+        "dedication": "For our brave Jayden. Love, Mom and Dad",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/01.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna sings silly songs while brushing her teeth. She shouts them extra loud in the bath. She makes sillyus splashes while she sings. Mama giggles, “You sound like a bubble storm, Luna!” Luna smiles so wide her cheeks hurt. Music, roaring, laughter—all feel easy at home. Her loud heart likes to dance in sound.",
-        "image": "/samples/lunas-two-voices/02.webp",
+        "text": "Outside, the town square shimmered with color. Streamers danced. Booths sparkled. At the center floated the giant parade balloon, round and bright as a second sunrise. Jayden gazed up, spellbound. He loved how everyone smiled when they saw it. Amara checked a festival map and said the balloon must stay safe until the parade began that afternoon.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/02.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "At the playground, Luna holds Mama’s hand tight. Swings creak. Kids shout and laugh all around. Her feet feel wiggly. Her mouth feels small. She watches the bright, loud kids run by. Her roar hides deep inside her chest. She whispers, “Just watching today.” Mama nods gently, “That’s okay, little roar.”",
-        "image": "/samples/lunas-two-voices/03.webp",
+        "text": "Then the sky gave a mischievous shiver. A sudden gust rushed through the square, snapping ribbons and wobbling signs. One rope slipped free from the giant balloon. Then another. “Oh no!” cried Mayor Elena as the balloon tugged upward and drifted toward the river. Jayden’s heart thumped hard. This was no pretend mission anymore. Captain Courage was needed now.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/03.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna sits on the green bench. She watches the sparkly bright slide. Kids zoom down, squealing like happy birds. She wants to slide too... but her feet stay still. Mama smiles softly and sits beside her. “It’s okay to wait,” she says. Luna nods. Even so, she feels her brave roar shrinking smaller and smaller.",
-        "image": "/samples/lunas-two-voices/04.webp",
+        "text": "Jayden grabbed his cape and ran after the runaway balloon. Amara sprinted beside him, talking quickly into her walkie-talkie to tell helpers where it was heading. Jayden leaped from the curb and felt a thrilling lift under his feet. He was flying, wobbly but real. Still, the balloon floated faster, bobbing over gardens, fences, and the curling road to the river.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/04.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "The loud kids play tag. Laughter fills the air. A red ball rolls free. It bounces and bumps and finally stops—right at Luna’s feet! Mama looks over, eyes twinkling. “Looks like the ball found you!” she whispers. Luna swallows hard. Her toes wiggle. Her fingers twitch. The red ball waits like a friendly hello.",
-        "image": "/samples/lunas-two-voices/05.webp",
+        "text": "Jayden swooped higher and stretched for the trailing rope, but the wind twirled the balloon away like a dancer. He nearly bumped a tall maple tree and had to veer aside. “Too breezy on the left!” Amara reported through the walkie-talkie. Jayden tried again from above, yet the balloon skipped forward, teasing him farther toward the shining riverbank.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/05.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "One boy runs over. Luna has seen him giggle on the slides before. “Hi! Can I get my ball?” he asks kindly. Luna nods but her mouth feels quiet again. The ball glows bright in the sun. She gives it a tiny push. It rolls toward him. Her heart begins to thump like drumbeats.",
-        "image": "/samples/lunas-two-voices/06.webp",
+        "text": "At the river path, Jayden hovered and frowned. He wanted to save the balloon by himself, the way heroes did in stories. But the ropes swung wildly, and the open water sparkled just ahead. Amara studied the balloon, the wind, and the path. “Jayden,” she said firmly, “real teams talk. Tell me what you need, and I’ll help.”",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/06.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "The boy grins wide. “Nice roll!” he says. “Want to play catch?” Luna blinks. No roar, just small squeaks. She takes one deep breath in, like she does before singing at home. “O-okay,” she says softly. The boy tosses the ball back. Luna catches it! Her fingers feel a happy buzz of surprise.",
-        "image": "/samples/lunas-two-voices/07.webp",
+        "text": "Jayden took a breath deep as a drumbeat. “I need your brain, Amara,” he admitted. Her face brightened. Through the walkie-talkie, she called Mayor Elena and the festival helpers to meet them at the bend in the river path with long ribbons and nets. Jayden circled above, keeping the balloon in sight while Amara built a plan below.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/07.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Now the ball bounces back and forth. Luna giggles. A new laugh. A playground laugh. It feels wobbly—but wonderful! More kids come over with giggles and squeals. The noise grows, and Luna doesn’t hide. She laughs louder! Her voice climbs high and bright above the breeze. It sounds happy, warm, and fearless, just like home.",
-        "image": "/samples/lunas-two-voices/08.webp",
+        "text": "The biggest challenge came at the river bend, where the wind puffed hardest. The balloon dipped, rose, and spun like a merry moon. Jayden dove for the lowest rope while Amara shouted directions from below. He caught it for one bouncing second, then slipped free. The balloon lurched toward the water. Everyone gasped. Jayden swallowed and steadied himself for one more try.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/08.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Mama waves from the bench, smiling proud. Luna’s song bubbles out between games. She hums, twirls, and even roars while running with the kids. Everyone laughs together. The shy wind in her voice is gone. The playground now feels like her living room made of sky and slides. Luna’s brave heart hums happily inside.",
-        "image": "/samples/lunas-two-voices/09.webp",
+        "text": "This time, Jayden listened. “Right side! Wait for the gust to fade! Now!” Amara called. Jayden glided exactly where she pointed and caught the rope with both hands. Below, Mayor Elena and the helpers lifted their ribbons and nets, guiding the balloon gently down. Together they anchored it safely on the grass. Jayden landed, breathless and glowing with relieved, proud joy.",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/09.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "When playtime ends, Luna swings for a quiet minute. Birds fly by, gentle and calm. Mama hugs her tight. “You used both voices today,” she says. Luna smiles big. “One for home. One for outside.” The wind hums softly. Luna whispers to the sky, “Both mean brave.” And her heart roars a silent song of pride.",
-        "image": "/samples/lunas-two-voices/10.webp",
+        "text": "By parade time, the giant balloon floated safely above the cheering town once more. Mayor Elena thanked Jayden for his courage and Amara for her clever plan. Jayden squeezed his sister’s hand. “Captain Courage can fly,” he said, smiling, “but heroes are bravest when they ask for help.” Amara tapped her walkie-talkie and replied, “Best team in town.”",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/10.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "COVER_BACK",
         "text": "",
-        "image": "/samples/lunas-two-voices/11.webp",
+        "image": "/samples/captain-courage-and-the-runaway-balloon/11.webp",
         "width": 768,
         "height": 1052
       }
     ]
   },
   {
-    "slug": "the-sparkle-heart-hero",
-    "storyId": "a07bd819-4c5a-43f0-a05f-608f71667b94",
-    "title": "The Sparkle Heart Hero",
-    "description": "A little girl discovers her heart glows with superpowers whenever she shows kindness. She must help a lonely, grumpy creature who has stolen all the color from the playground by befriending him instead of fighting him, teaching that kindness is the greatest superpower of all.",
+    "slug": "sofia-the-space-explorer",
+    "storyId": "e206d380-f22b-47dc-8e34-1c0ea68841d3",
+    "title": "Sofia the Space Explorer",
+    "description": "Sofia's cardboard rocket really flies. With Mochi the cat she bounces on the Moon, meets a three-eyed alien named Zib, learns why Mars is red and catches a shooting star to power Zib's ship home. Made from the \"Space Explorer\" story.",
+    "story": "Space story",
+    "style": "Anime",
+    "starring": "Sofia (5) and Mochi the cat",
     "pages": [
       {
         "type": "COVER_FRONT",
         "text": "",
-        "image": "/samples/the-sparkle-heart-hero/00.webp",
+        "image": "/samples/sofia-the-space-explorer/00.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna loved the playground near her house. She swung high, slid fast, and laughed loud. Her best friend, Sunny the parrot, followed close, chirping happy songs. Luna’s heart often glowed softly when she shared her toys or helped friends. She called it her sparkle heart. She didn’t know then—it was a secret superpower!",
-        "image": "/samples/the-sparkle-heart-hero/01.webp",
+        "text": "Sofia loved making big things from little things. Tonight, Sofia built a rocket from a cardboard box beside her bed. She drew a swirly logo and taped on paper wings. Mochi sniffed the nose and flicked his tail. At bedtime, Sofia climbed inside. Then the box began to hum softly. A golden glow filled her room.",
+        "dedication": "To Sofia, our little star. Love, Papa and Mama",
+        "image": "/samples/sofia-the-space-explorer/01.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "One misty morning, the playground looked different. The red swing turned gray. The bright slide looked dull. All the colors were gone! 'Oh no!' Luna gasped. Even Sunny’s green feathers looked pale. They heard soft sniffles behind the slide. Something small shuffled there, leaving gray dust in the air.",
-        "image": "/samples/the-sparkle-heart-hero/02.webp",
+        "text": "Sofia put on her paper badge. “Captain Sofia is ready,” she whispered. Mochi hopped in behind her and curled by her feet. Sofia buckled a ribbon belt and held the cardboard controls. “Ten, nine, eight...” she counted. The rocket shivered. Then WHOOSH. Up they zoomed through the dark, starry sky, past clouds that looked like sleepy sheep.",
+        "image": "/samples/sofia-the-space-explorer/02.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna peeked around. A fuzzy gray creature with droopy eyes sat alone. 'Who are you?' she asked gently. 'I’m Mr. Gloom,' he mumbled. 'Everything looked happy, so I took the colors away.' Sunny squawked, 'That wasn’t nice!' Mr. Gloom covered his ears. Luna’s heart dimmed. She whispered, 'Maybe he’s just lonely.'",
-        "image": "/samples/the-sparkle-heart-hero/03.webp",
+        "text": "Soon the rocket floated down on the Moon. Sofia stepped out and laughed. Boing. Boing. Her boots bounced so high in the gentle low gravity. Mochi made tiny moon pawprints near the ladder. Sofia planted a little flag in the dust. It said, “SOFIA.” She grinned at her bright, quiet world and gave the Moon a proud salute.",
+        "image": "/samples/sofia-the-space-explorer/03.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna thought hard. Maybe kindness could help. She gave Mr. Gloom her yellow ball. He blinked. Nothing changed. She offered a smile. Still gray. Sunny fluttered around him like a tiny rainbow, but the light stayed weak. Luna frowned, wondering what to do next. 'I guess I must try again,' she said softly.",
-        "image": "/samples/the-sparkle-heart-hero/04.webp",
+        "text": "Blink. Blink. Blink. A little light flashed beyond a moon hill. Sofia followed it with Mochi close behind. There she found a small green alien with three eyes and a worried smile. “I’m Zib,” he said. His tiny ship looked sleepy and dim. “My ship has run out of starlight.” Sofia patted the side. “We can help,” she said.",
+        "image": "/samples/sofia-the-space-explorer/04.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "The sky grew darker. Mr. Gloom hugged his knees. 'Nobody ever wants to play with me,' he muttered. Luna sat close, though the ground looked bare. 'I’ll play,' she said. They sat quietly, tossing the yellow ball gently. Tiny drops of color crept back into the grass—just a hint of cheer.",
-        "image": "/samples/the-sparkle-heart-hero/05.webp",
+        "text": "Sofia invited Zib to fly beside her cardboard rocket. Off they zoomed together, following a trail of bright stars. Soon a red world glowed ahead. “That is Mars,” said Zib. “People call it the Red Planet.” Sofia peeped through the window. She saw rusty hills and red dust swirling below. “Red like paint!” Sofia said. Zib giggled.",
+        "image": "/samples/sofia-the-space-explorer/05.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna’s heart flickered pink, then bright gold. Mr. Gloom blinked as blush colors glowed around them. 'What’s happening?' he asked. 'That’s my sparkle heart!' she laughed. 'It shines when I show kindness.' The gray mist lifted for an instant. A few daisies turned yellow again. Sunny chirped and twirled above, wings sparkling bright.",
-        "image": "/samples/the-sparkle-heart-hero/06.webp",
+        "text": "Next they swooped toward Saturn. Its rings stretched wide around it like giant shining hoops. Sofia gasped. The rings sparkled like ice and dust in the starlight silver. Around and around they looped, smooth and slow. Mochi pressed his paws to the window. Zib smiled with all three eyes. “Saturn is very fancy,” Sofia said. Everyone agreed.",
+        "image": "/samples/sofia-the-space-explorer/06.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Mr. Gloom tried tossing the ball higher this time. It rolled near the merry-go-round, once gray but now shimmering faint blue. Luna laughed and clapped. Her heart sparkled even brighter! The colors stretched further across the playground. 'Wow!' said Sunny. 'It’s working!' Mr. Gloom smiled… just a little grin at first.",
-        "image": "/samples/the-sparkle-heart-hero/07.webp",
+        "text": "But Zib’s ship was still dim. It needed more starlight to go home. Sofia thought very hard. Then she pointed ahead. A shooting star zipped across the sky, bright and quick. “I have a clever idea,” Sofia said. She found a clean jar in her rocket snack box. “We can catch some glow and refill your ship!” Zib clapped.",
+        "image": "/samples/sofia-the-space-explorer/07.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "But then Mr. Gloom tripped and the ball bounced into gray mud. The colors faded again. He turned away sadly. 'See, I always ruin things,' he whispered. Luna gently wiped his furry hand clean. 'You didn’t ruin it,' she said kindly. 'My heart glows for friends, not for games.' Her light blinked softly, waiting.",
-        "image": "/samples/the-sparkle-heart-hero/08.webp",
+        "text": "Sofia steered close. Not too close. Just right. Zib opened a tiny silver hatch. Mochi tapped the jar with one white paw. Together they tipped it toward the sparkling trail. Whoooosh. Soft star glow swirled inside like twinkly mist. “We did it!” Sofia cheered. The jar shone bright in her hands, warm as a night-light and gentle as a song.",
+        "image": "/samples/sofia-the-space-explorer/08.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "Luna smiled wide and hugged Mr. Gloom. 'You’ve been kind to me, too,' she whispered. He looked surprised, but hugged her back. At that very moment, Luna’s heart flashed bright and strong—pink, gold, and blue! Light whooshed everywhere! Every swing, flower, and tree shimmered alive with joyful colors again.",
-        "image": "/samples/the-sparkle-heart-hero/09.webp",
+        "text": "Sofia poured the starlight glow into Zib’s little ship. At once, the buttons twinkled. The ship hummed happily and lit up green and gold. “Home power!” said Zib. Before he left, Zib placed a tiny star in Sofia’s palm. It shone soft and steady. “This will always light your way home,” Zib said. Sofia felt brave and proud.",
+        "image": "/samples/sofia-the-space-explorer/09.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "PAGE",
-        "text": "The playground sang with brightness again. Mr. Gloom twirled and laughed, not gloomy anymore. Sunny chirped, 'We did it!' Luna hugged them both. Her sparkle heart glowed warmly. 'Kindness is my favorite superpower,' she said. They all played together in the lit-up park, hearts happy, colors dancing in every breeze forevermore.",
-        "image": "/samples/the-sparkle-heart-hero/10.webp",
+        "text": "Soon Captain Sofia flew back through the twinkly dark. Down past the clouds, down past the moonlight, down into her quiet room. The cardboard rocket rested by her bed once more. Mochi curled up on the blanket. Sofia slipped under the covers, holding her tiny star. All night long, it twinkled softly on the ceiling, lighting sweet dreams home.",
+        "image": "/samples/sofia-the-space-explorer/10.webp",
         "width": 768,
         "height": 1052
       },
       {
         "type": "COVER_BACK",
         "text": "",
-        "image": "/samples/the-sparkle-heart-hero/11.webp",
+        "image": "/samples/sofia-the-space-explorer/11.webp",
         "width": 768,
         "height": 1052
       }

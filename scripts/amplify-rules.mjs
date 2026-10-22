@@ -40,6 +40,10 @@ if (process.argv.includes("--apex-redirect")) {
 for (const p of ["/create/custom", "/create/custom/"]) {
   rules.push({ source: p, target: "/create?mode=custom", status: "301" });
 }
+// Example books replaced in Oct 2026.
+for (const slug of ["the-turtle-who-wanted-to-be-fast", "the-birthday-that-grew", "lunas-two-voices", "the-sparkle-heart-hero"]) {
+  for (const p of [`/examples/${slug}`, `/examples/${slug}/`]) rules.push({ source: p, target: "/examples", status: "301" });
+}
 for (const prefix of APP_SHELL) {
   rules.push({ source: prefix, target: "/app.html", status: "200" });
   rules.push({ source: `${prefix}/<*>`, target: "/app.html", status: "200" });

@@ -6,12 +6,12 @@ import {
   ExampleBookCard,
   FaqSection,
   HowItWorks,
+  PhotoToCartoon,
   PricingCards,
   Section,
   SectionHeading,
   ThemeGrid,
 } from "@/components/marketing";
-import { CARTOON_STYLES, styleImage } from "@/components/CartoonStyleSelector";
 import VerifiedReviews from "@/components/VerifiedReviews";
 import { EVERGREEN_THEMES, HOLIDAY_THEMES } from "@/content/themes";
 import { EXAMPLE_BOOKS } from "@/content/examples";
@@ -92,30 +92,7 @@ export default function Home() {
         </Section>
       )}
 
-      <Section>
-        <SectionHeading title="Four illustration styles" subtitle="Your child appears in the style you pick on the cover and every page." />
-        <ul className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
-          {CARTOON_STYLES.map((s) => (
-            <li key={s.id} className="rounded-2xl border bg-card overflow-hidden">
-              <img
-                src={styleImage(s.id)}
-                srcSet={`${styleImage(s.id, 400)} 400w, ${styleImage(s.id, 800)} 800w`}
-                sizes="(min-width: 1024px) 280px, 45vw"
-                width={400}
-                height={300}
-                loading="lazy"
-                decoding="async"
-                alt={`${s.name} illustration style`}
-                className="w-full aspect-[4/3] object-cover"
-              />
-              <div className="p-3">
-                <h3 className="font-display font-bold">{s.name}</h3>
-                <p className="text-sm text-muted-foreground font-story">{s.description}</p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </Section>
+      <PhotoToCartoon />
 
       <Section id="pricing">
         <SectionHeading title="Simple pricing" subtitle="Creating and previewing is free. Pay only for the book you want." />

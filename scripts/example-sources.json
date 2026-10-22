@@ -1,0 +1,35 @@
+[
+  {
+    "storyId": "512b2a10-9ac8-445d-859c-78180653bc33",
+    "title": "Mia Saves Christmas",
+    "story": "Christmas story",
+    "style": "Traditional Cartoon",
+    "starring": "Mia (6), her little brother Leo and Biscuit the puppy",
+    "description": "On Christmas Eve an elf named Pip asks Mia for help: Santa's sleigh has lost its Christmas spark. Mia rides a magic snow globe to the North Pole, cheers up the workshop and the reindeer, and finds the spark in the kindest place of all. Made from the \"Saves Christmas\" story with a dedication from Mom and Dad.",
+    "trimPages": [5]
+  },
+  {
+    "storyId": "10ca3ff9-ff84-4a5e-b7a4-40f911404a61",
+    "title": "Noah's Birthday Adventure",
+    "story": "Birthday story",
+    "style": "Chibi",
+    "starring": "Noah (7), Grandma Rose and his friend Priya",
+    "description": "When Noah blows out his seven candles, a tiny map pops out of the cake. He, Grandma Rose and Priya follow it through a hidden door into a land of giant balloons, a lemonade river and a lonely little dragon. Made from the \"Birthday Adventure\" story as a gift from Grandma."
+  },
+  {
+    "storyId": "39c4fd06-55d9-4c76-9664-ae2281bdb9e7",
+    "title": "Captain Courage and the Runaway Balloon",
+    "story": "Written by the parent",
+    "style": "3D Animation",
+    "starring": "Jayden (8) and his big sister Amara",
+    "description": "Jayden's homemade red cape turns him into Captain Courage. When a storm sets the town's giant parade balloon loose, he and his big sister Amara chase it to the river and learn that real heroes ask for help. Written from a parent's own idea with \"Write your own story\"."
+  },
+  {
+    "storyId": "e206d380-f22b-47dc-8e34-1c0ea68841d3",
+    "title": "Sofia the Space Explorer",
+    "story": "Space story",
+    "style": "Anime",
+    "starring": "Sofia (5) and Mochi the cat",
+    "description": "Sofia's cardboard rocket really flies. With Mochi the cat she bounces on the Moon, meets a three-eyed alien named Zib, learns why Mars is red and catches a shooting star to power Zib's ship home. Made from the \"Space Explorer\" story."
+  }
+]

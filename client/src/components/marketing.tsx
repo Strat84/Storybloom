@@ -9,6 +9,7 @@ import type { Faq } from "@/content/faq";
 import type { StoryTheme } from "@/content/themes";
 import { coverOf, type ExampleBook } from "@/content/examples";
 import { digitalPrice, extraCopyPrice, formatPrice, printPrice, shippingMethods } from "@/lib/pricing";
+import { CARTOON_STYLES } from "@/components/CartoonStyleSelector";
 
 export function Section({ id, className, children }: { id?: string; className?: string; children: React.ReactNode }) {
   return (
@@ -156,7 +157,10 @@ export function SampleBookViewer({ book }: { book: ExampleBook }) {
         {page.type === "COVER_FRONT" ? (
           <p className="text-2xl font-display font-bold mb-6">{book.title}</p>
         ) : (
-          <p className="text-lg font-story leading-relaxed mb-6 min-h-[6rem]">{page.text || "The End"}</p>
+          <>
+            {page.dedication && <p className="italic text-muted-foreground font-story mb-3">{page.dedication}</p>}
+            <p className="text-lg font-story leading-relaxed mb-6 min-h-[6rem]">{page.text || "The End"}</p>
+          </>
         )}
         <div className="flex items-center gap-3">
           <Button variant="outline" onClick={() => setIndex((i) => Math.max(0, i - 1))} disabled={index === 0} aria-label="Previous page">
@@ -186,9 +190,46 @@ export function ExampleBookCard({ book }: { book: ExampleBook }) {
       />
       <div className="p-4">
         <h3 className="font-display font-bold text-lg group-hover:text-primary">{book.title}</h3>
-        <p className="text-sm text-muted-foreground line-clamp-2 font-story">{book.description}</p>
+        <p className="text-xs font-semibold text-primary mt-1 mb-1.5">{book.story} · {book.style}</p>
+        <p className="text-sm text-muted-foreground line-clamp-2 font-story">{book.starring}</p>
       </div>
     </Link>
+  );
+}
+
+/** One photo of a (fictional) child drawn in every art style, made by the same pipeline as customers' books. */
+export function PhotoToCartoon({ title = "From one photo to the star of the story", subtitle = "Upload a photo and pick a style. Your child keeps their hair, skin tone, eyes, freckles and glasses on every page." }: { title?: string; subtitle?: string }) {
+  const img = (name: string) => ({
+    src: `/images/photo-demo/${name}-400.webp`,
+    srcSet: `/images/photo-demo/${name}-400.webp 400w, /images/photo-demo/${name}-800.webp 800w`,
+    width: 400,
+    height: 548,
+    loading: "lazy" as const,
+    decoding: "async" as const,
+  });
+  return (
+    <Section>
+      <SectionHeading title={title} subtitle={subtitle} />
+      <div className="grid grid-cols-1 md:grid-cols-[5fr_auto_6fr] gap-4 md:gap-6 items-center max-w-5xl mx-auto">
+        <figure className="max-w-xs mx-auto md:max-w-none w-full">
+          <img {...img("photo")} sizes="(min-width: 768px) 40vw, 80vw" alt="Photo of a smiling girl with red curly hair, freckles and round glasses" className="w-full h-auto rounded-2xl border shadow-sm" />
+          <figcaption className="mt-2 text-center text-sm font-semibold">The photo</figcaption>
+        </figure>
+        <ArrowRight className="h-8 w-8 text-primary mx-auto rotate-90 md:rotate-0" aria-hidden />
+        <ul className="grid grid-cols-2 gap-3">
+          {CARTOON_STYLES.map((s) => (
+            <li key={s.id} className="rounded-2xl border bg-white overflow-hidden">
+              <img {...img(s.id)} sizes="(min-width: 768px) 25vw, 45vw" alt={`The same girl drawn in the ${s.name} style`} className="w-full h-auto" />
+              <p className="px-2 py-2 text-center text-sm font-semibold text-foreground bg-card border-t">{s.name}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <p className="text-center text-xs text-muted-foreground mt-4 max-w-2xl mx-auto">
+        The example photo is an AI-generated image of a child who doesn't exist. Photos you upload stay private, are never used to train AI, and are deleted within 30 days.
+      </p>
+      <div className="text-center mt-6"><CreateButton label="Try it with your photo" /></div>
+    </Section>
   );
 }
 

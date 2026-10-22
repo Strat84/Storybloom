@@ -25,6 +25,7 @@ Marketing launch: **Nov 2, 2026**. Listed in priority order. **Owner** = who has
 | 11 | **Sales tax.** Decide whether to turn on Stripe Tax (about 0.5% per transaction) and register where required. | Physical goods shipped to many states. | Matt / accountant |
 | 12 | **Monitoring.** CloudWatch alarms on errors in story generation, checkout and the Stripe webhook, emailed to you. | So a failure is caught in minutes, not from customer emails. | Me |
 | 13 | **support@storybloom.ai** is checked daily, and the FAQ covers refunds and reprints. | Ad traffic brings questions. | Matt |
+| 14 | **Pixel-based border check** for illustrations. The AI vision check misses thin white margins (seen on an example page). A simple edge-pixel check would catch them before printing. | Printed pages with white margins look like a defect. | Me |
 
 ## Later
 

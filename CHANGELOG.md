@@ -4,6 +4,16 @@ All notable changes to storybloom.ai. Newest first.
 
 ## Unreleased (branch `holiday-2026`)
 
+### New example books and a photo-to-cartoon showcase
+- **Four new example books** made with the current story wizard and illustration pipeline (staging, QA account), replacing the four books from the previous model:
+  - Mia Saves Christmas (Christmas, Traditional, with brother and puppy)
+  - Noah's Birthday Adventure (Birthday, Chibi, with grandma and friend)
+  - Captain Courage and the Runaway Balloon (superhero, written with "Write your own story", 3D)
+  - Sofia the Space Explorer (Space, Anime, with cat)
+- Cards and book pages show who's in the book, which story it came from and the art style. Dedications appear above page 1. Each landing page shows a matching example.
+- `npm run fetch:examples` now snapshots the books listed in `scripts/example-sources.json` (needs an ID token). The old example URLs 301 to `/examples`.
+- **"From one photo to the star of the story"** section on the home page and the photo landing page: one AI-generated photo of a fictional child, drawn in all four art styles by the same code customers' photos go through. Labeled as AI-generated.
+
 ### New pricing, watermarked preview, print-first, families and "write your own story" (P0-5)
 - **Prices (approved by Matt)**: printed softcover **$34.99 with free standard shipping** (any length), digital PDF **$4.99**, extra copies **+$19.99** each (up to 5, shipped together), Priority **+$9.99**, Expedited **+$14.99**. Lulu shipping levels MAIL / PRIORITY_MAIL / EXPEDITED. All prices live in `storybloom.config.ts` (front end) and `services/pricing.js` (backend), which must match; the backend computes every charge.
 - **PDF credit**: buying the PDF first takes what was paid off the printed book. The order screen shows the amount actually paid, so earlier $2.99 buyers see $2.99.

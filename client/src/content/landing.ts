@@ -23,6 +23,8 @@ export interface LandingPage {
   holiday?: boolean;
   /** Example book to show sample pages from. */
   sampleSlug?: string;
+  /** Show the photo-to-cartoon example (one photo drawn in every art style). */
+  photoDemo?: boolean;
   benefits: { title: string; text: string }[];
   sections: LandingSection[];
   faqs: Faq[];
@@ -44,6 +46,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "Your child saves Christmas, spends a night at the North Pole, or rescues a lost reindeer, with their name on the cover and their look on every page. Create it in minutes, preview it free, and give it as a printed keepsake or an instant digital gift.",
     ctaLabel: "Create their Christmas book",
     themeIds: ["saves-christmas", "north-pole-night", "lost-reindeer", "hanukkah-lights"],
+    sampleSlug: "mia-saves-christmas",
     holiday: true,
     benefits: [
       { title: "Their name, their story", text: "Your child is the hero of a complete holiday adventure, with their name in the title." },
@@ -86,6 +89,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "In \"[Name]'s First Hanukkah Lights\", your child is finally old enough to help light the menorah. Across eight nights they make latkes, spin the dreidel, hear the story of the oil that lasted, and discover the light they bring to their family.",
     ctaLabel: "Create their Hanukkah book",
     themeIds: ["hanukkah-lights"],
+    sampleSlug: "captain-courage-and-the-runaway-balloon",
     holiday: true,
     benefits: [
       { title: "A story about them", text: "Your child's name, age and look throughout a warm, eight-night Hanukkah story." },
@@ -122,7 +126,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "On their birthday, your child's wish comes true: a map hidden in the cake leads to a treasure hunt through a land of giant balloons, a lemonade river and a dragon who just wants someone to sing to him. Their name, their age, their adventure.",
     ctaLabel: "Create their birthday book",
     themeIds: ["birthday-adventure", "space-explorer"],
-    sampleSlug: "the-birthday-that-grew",
+    sampleSlug: "noahs-birthday-adventure",
     benefits: [
       { title: "Made for their age", text: "The story celebrates the exact birthday they're turning, with a reading level to match." },
       { title: "Their favorite things", text: "Add a favorite animal, toy or hobby and it becomes part of the adventure." },
@@ -158,6 +162,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "A gentle, reassuring story for a child who's about to welcome a new baby: feeling excited and a little worried, helping get ready, meeting the baby, and discovering there's plenty of love to go around, all starring your child as the proud new big brother or sister.",
     ctaLabel: "Create their big brother or sister book",
     themeIds: ["big-sibling"],
+    sampleSlug: "captain-courage-and-the-runaway-balloon",
     benefits: [
       { title: "Names the big feelings", text: "Excited, curious and a little worried are all okay, and the story says so." },
       { title: "Important new jobs", text: "Singing lullabies, fetching diapers and making silly faces make them proud helpers." },
@@ -193,7 +198,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "Give your grandchild a book where they're the hero and you're on the first page. Pick an adventure, add their name and a few favorite things, write a personal dedication, and send it as a printed book or an instant digital gift.",
     ctaLabel: "Create a book for your grandchild",
     themeIds: ["saves-christmas", "birthday-adventure", "space-explorer", "big-sibling"],
-    sampleSlug: "the-turtle-who-wanted-to-be-fast",
+    sampleSlug: "noahs-birthday-adventure",
     benefits: [
       { title: "Your words on page one", text: "A personal dedication from Grandma, Grandpa or whatever they call you." },
       { title: "Simple to make", text: "Step-by-step: pick a story, add their name and favorite things, and preview it free." },
@@ -229,6 +234,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "Your child's cardboard rocket really flies. As captain, they bounce on the Moon, races past Mars, loops Saturn's rings and helps a friendly lost alien collect starlight to get home.",
     ctaLabel: "Create their space adventure",
     themeIds: ["space-explorer"],
+    sampleSlug: "sofia-the-space-explorer",
     benefits: [
       { title: "Real space facts", text: "Low gravity on the Moon, the Red Planet and Saturn's icy rings, told simply." },
       { title: "Brave and kind", text: "The mission is about helping a new friend, not fighting anyone." },
@@ -253,6 +259,7 @@ export const LANDING_PAGES: LandingPage[] = [
       "Upload a photo and your child becomes the illustrated hero of their own storybook, looking like themselves on every page and the cover.",
     breadcrumb: "Photo storybooks",
     eyebrow: "Upload a photo",
+    photoDemo: true,
     h1: "Upload a photo and your child becomes the hero",
     intro:
       "Upload one to three photos of your child. StoryBloom creates an illustrated character with their hair, skin tone, eye color and glasses, and keeps them looking like themselves on every page and the cover.",

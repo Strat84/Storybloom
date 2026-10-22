@@ -4,6 +4,7 @@ import {
   CreateButton,
   FaqSection,
   HowItWorks,
+  PhotoToCartoon,
   PricingCards,
   SampleBookViewer,
   Section,
@@ -69,6 +70,8 @@ export default function Landing({ page }: { page: LandingPage }) {
           ))}
         </ul>
       </Section>
+
+      {page.photoDemo && <PhotoToCartoon title="See a photo become a storybook character" />}
 
       {themes.length > 0 && (
         <Section>

@@ -1,21 +1,31 @@
-// Snapshot the public example books from the live API so they can be prerendered.
+// Snapshot the example books listed in scripts/example-sources.json so they can be prerendered.
 //
-// Example images are private S3 objects served through 1-hour presigned URLs, so they
-// can't be linked from static pages. This downloads each page once, converts it to a
-// small WebP under client/public/samples/, and writes the story text and image paths
+// The examples are real books made with the StoryBloom wizard (on the staging site, with
+// a QA account). Story images are private S3 objects served through 1-hour presigned URLs,
+// so they can't be linked from static pages. This downloads each page once, converts it
+// to a small WebP under client/public/samples/, and writes the story text and image paths
 // to client/src/content/examples.generated.json.
 //
-// Usage: npm run fetch:examples   (re-run whenever the examples change)
+// Usage:
+//   STORYBLOOM_ID_TOKEN=<Cognito ID token of the account that owns the books> npm run fetch:examples
+//   STORYBLOOM_API defaults to the dev API (where the staging site's books live).
 
-import { mkdir, writeFile, rm } from "node:fs/promises";
+import { mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import path from "node:path";
 import sharp from "sharp";
 
-const API = "https://cjnwxolfm2.execute-api.us-east-1.amazonaws.com/prod";
+const API = process.env.STORYBLOOM_API || "https://keigr6djr2.execute-api.us-east-1.amazonaws.com/dev";
+const TOKEN = process.env.STORYBLOOM_ID_TOKEN;
 const ROOT = path.resolve(import.meta.dirname, "..");
+const SOURCES = path.join(ROOT, "scripts/example-sources.json");
 const OUT_IMAGES = path.join(ROOT, "client/public/samples");
 const OUT_JSON = path.join(ROOT, "client/src/content/examples.generated.json");
 const PAGE_WIDTH = 768;
+
+if (!TOKEN) {
+  console.error("Set STORYBLOOM_ID_TOKEN to the ID token of the account that owns the example books.");
+  process.exit(1);
+}
 
 function slugify(text) {
   return text
@@ -27,7 +37,7 @@ function slugify(text) {
 }
 
 async function getJson(url) {
-  const res = await fetch(url, { headers: { "Content-Type": "application/json" } });
+  const res = await fetch(url, { headers: { Authorization: TOKEN, "Content-Type": "application/json" } });
   if (!res.ok) throw new Error(`${url} -> ${res.status}`);
   return res.json();
 }
@@ -35,15 +45,19 @@ async function getJson(url) {
 function orderPages(pages) {
   const front = pages.filter((p) => p.type === "COVER_FRONT");
   const back = pages.filter((p) => p.type === "COVER_BACK");
-  const inner = pages.filter((p) => p.type !== "COVER_FRONT" && p.type !== "COVER_BACK");
+  const inner = pages
+    .filter((p) => p.type !== "COVER_FRONT" && p.type !== "COVER_BACK")
+    .sort((a, b) => (a.pageNo ?? a.pageNumber ?? 0) - (b.pageNo ?? b.pageNumber ?? 0));
   return [...front, ...inner, ...back];
 }
 
-async function saveImage(url, file) {
+async function saveImage(url, file, trim) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`image ${res.status}`);
-  const input = Buffer.from(await res.arrayBuffer());
-  const { data, info } = await sharp(input)
+  let image = sharp(Buffer.from(await res.arrayBuffer()));
+  // A few pictures come back with a plain margin around the art; cut it off.
+  if (trim) image = sharp(await image.trim({ threshold: 30 }).toBuffer());
+  const { data, info } = await image
     .resize({ width: PAGE_WIDTH, withoutEnlargement: true })
     .webp({ quality: 74 })
     .toBuffer({ resolveWithObject: true });
@@ -51,17 +65,13 @@ async function saveImage(url, file) {
   return { width: info.width, height: info.height };
 }
 
-const list = await getJson(`${API}/stories/examples/list`);
-const items = Array.isArray(list?.examples) ? list.examples : Array.isArray(list?.stories) ? list.stories : Array.isArray(list) ? list : [];
-
+const sources = JSON.parse(await readFile(SOURCES, "utf8"));
 await rm(OUT_IMAGES, { recursive: true, force: true });
 const books = [];
 
-for (const item of items) {
-  const id = item.storyId || item.id;
-  const detail = await getJson(`${API}/stories/examples/${id}`);
-  const title = detail.title || item.title || "Untitled Story";
-  const slug = slugify(title);
+for (const source of sources) {
+  const detail = await getJson(`${API}/stories/${source.storyId}`);
+  const slug = slugify(source.title);
   const dir = path.join(OUT_IMAGES, slug);
   await mkdir(dir, { recursive: true });
 
@@ -69,10 +79,17 @@ for (const item of items) {
   for (const [index, page] of orderPages(detail.pages || []).entries()) {
     if (!page.imageUrl) continue;
     const name = `${String(index).padStart(2, "0")}.webp`;
-    const size = await saveImage(page.imageUrl, path.join(dir, name));
+    const size = await saveImage(page.imageUrl, path.join(dir, name), source.trimPages?.includes(index));
+    let text = (page.text || page.content || "").trim();
+    // The dedication is stored as the first paragraph of page 1.
+    let dedication;
+    if (pages.length === 1 && text.includes("\n\n")) {
+      [dedication, text] = [text.slice(0, text.indexOf("\n\n")).trim(), text.slice(text.indexOf("\n\n")).trim()];
+    }
     pages.push({
       type: page.type || "PAGE",
-      text: (page.text || page.content || "").trim(),
+      text,
+      ...(dedication ? { dedication } : {}),
       image: `/samples/${slug}/${name}`,
       ...size,
     });
@@ -80,12 +97,15 @@ for (const item of items) {
 
   books.push({
     slug,
-    storyId: id,
-    title,
-    description: (detail.originalPrompt || item.description || "").trim(),
+    storyId: source.storyId,
+    title: source.title,
+    description: source.description,
+    story: source.story,
+    style: source.style,
+    starring: source.starring,
     pages,
   });
-  console.log(`${title}: ${pages.length} pages`);
+  console.log(`${source.title}: ${pages.length} pages`);
 }
 
 await writeFile(OUT_JSON, JSON.stringify(books, null, 2) + "\n");

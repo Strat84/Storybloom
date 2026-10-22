@@ -155,8 +155,8 @@ export const LANDING_PAGES: LandingPage[] = [
     eyebrow: "New baby on the way",
     h1: "A personalized book for your new big brother or big sister",
     intro:
-      "A gentle, reassuring story for a child who's about to welcome a new baby. They feel excited and a little worried, help get ready, meet the baby, and discover there's plenty of love to go around, all starring your child as the proud new big sibling.",
-    ctaLabel: "Create their big sibling book",
+      "A gentle, reassuring story for a child who's about to welcome a new baby: feeling excited and a little worried, helping get ready, meeting the baby, and discovering there's plenty of love to go around, all starring your child as the proud new big brother or sister.",
+    ctaLabel: "Create their big brother or sister book",
     themeIds: ["big-sibling"],
     benefits: [
       { title: "Names the big feelings", text: "Excited, curious and a little worried are all okay, and the story says so." },
@@ -167,8 +167,8 @@ export const LANDING_PAGES: LandingPage[] = [
       {
         heading: "Help them get ready for the new baby",
         paragraphs: [
-          "Becoming a big sibling is a big change. Reading a story where they are the big brother or big sister helps young children picture what's coming and talk about how they feel. The story reassures them that love grows bigger, not smaller, when a family grows.",
-          "Choose \"big brother\", \"big sister\" or \"big sibling\" through the pronouns you pick, add a dedication from the family, and choose an art style.",
+          "Becoming a big brother or sister is a big change. Reading a story where your child is the big brother or big sister helps young children picture what's coming and talk about how they feel. The story reassures them that love grows bigger, not smaller, when a family grows.",
+          "Choose whether your child is a boy or a girl to make it a big brother or big sister story, add a dedication from the family, and choose an art style.",
         ],
       },
       {

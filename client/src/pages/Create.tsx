@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation } from "wouter";
-import { ArrowLeft, ArrowRight, Camera, CheckCircle2, Dog, Glasses, Loader2, PencilLine, Plus, ShieldCheck, Sparkles, Trash2, UserPlus } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpen, Camera, CheckCircle2, Dog, Glasses, Loader2, PencilLine, Plus, ShieldCheck, Sparkles, Trash2, UserPlus } from "lucide-react";
 import config from "@config";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -17,6 +17,7 @@ import {
   EMPTY_APPEARANCE,
   EMPTY_DETAILS,
   ageRangeFor,
+  buildCustomStoryPrompt,
   buildStoryPrompt,
   castRequest,
   lookSummary,
@@ -35,9 +36,10 @@ import { formatPrice, printPrice } from "@/lib/pricing";
 import { track } from "@/lib/track";
 import { cn } from "@/lib/utils";
 
-const STORAGE_KEY = "sb_wizard_v2";
+const STORAGE_KEY = "sb_wizard_v3";
 const STEPS = ["Hero", "Look", "Friends", "Story", "Style", "Create"] as const;
-const MAX_OTHERS = 3;
+/** Siblings, parents, grandparents, friends and pets besides the hero (backend allows 8 including the hero). */
+const MAX_OTHERS = 7;
 
 const HAIR_COLORS = ["Black", "Dark brown", "Brown", "Light brown", "Blonde", "Strawberry blonde", "Red", "Auburn", "Gray"];
 const HAIR_STYLES = ["Short", "Straight", "Wavy", "Curly", "Coily", "Afro", "Braids", "Locs", "Ponytail", "Pigtails", "Long", "Buzz cut", "Bald"];
@@ -71,7 +73,11 @@ interface WizardState {
   heroPhotos: PreparedPhoto[];
   appearance: Appearance;
   others: OtherMember[];
+  /** "theme": one of our story templates; "custom": the parent's own idea. */
+  storyMode: "theme" | "custom";
   themeId: string | null;
+  customIdea: string;
+  customTitle: string;
   style: CartoonStyle;
   details: PersonalDetails;
   pageCount: 10 | 15 | 20;
@@ -87,7 +93,10 @@ const INITIAL: WizardState = {
   heroPhotos: [],
   appearance: EMPTY_APPEARANCE,
   others: [],
+  storyMode: "theme",
   themeId: null,
+  customIdea: "",
+  customTitle: "",
   style: "traditional",
   details: EMPTY_DETAILS,
   pageCount: config.story.defaultPageCount,
@@ -128,6 +137,10 @@ function Chips<T extends string>({ value, options, onChange, label }: { value: T
 }
 
 const PRONOUN_OPTIONS = (Object.keys(PRONOUNS) as Pronouns[]).map((p) => ({ value: p, label: PRONOUNS[p].label }));
+const GROWNUP_OPTIONS: { value: Pronouns; label: string }[] = [
+  { value: "he", label: "Man" },
+  { value: "she", label: "Woman" },
+];
 
 function ThemeOption({ theme, name, selected, onSelect }: { theme: StoryTheme; name: string; selected: boolean; onSelect: () => void }) {
   return (
@@ -185,11 +198,14 @@ export default function Create() {
     try {
       const saved = sessionStorage.getItem(STORAGE_KEY);
       if (saved) next = { ...INITIAL, ...JSON.parse(saved) };
+      if (next.pronouns && !(next.pronouns in PRONOUNS)) next = { ...next, pronouns: null };
     } catch {
       // Ignore unreadable storage.
     }
-    const preselected = getTheme(new URLSearchParams(window.location.search).get("theme"));
-    if (preselected && !next.themeId) next = { ...next, themeId: preselected.id };
+    const params = new URLSearchParams(window.location.search);
+    const preselected = getTheme(params.get("theme"));
+    if (preselected && !next.themeId) next = { ...next, storyMode: "theme", themeId: preselected.id };
+    if (params.get("mode") === "custom") next = { ...next, storyMode: "custom" };
     setState(next);
     setRestored(true);
     track("start_creation");
@@ -225,14 +241,22 @@ export default function Create() {
   const updateDetails = (patch: Partial<PersonalDetails>) => setState((s) => ({ ...s, details: { ...s.details, ...patch } }));
   const updateOther = (key: string, patch: Partial<OtherMember>) =>
     setState((s) => ({ ...s, others: s.others.map((m) => (m.key === key ? { ...m, ...patch } : m)) }));
-  const addOther = (pet: boolean) =>
+  const addOther = (pet: boolean) => {
+    const key = `${Date.now()}`;
+    // Focus the new person's name field so adding several family members is quick.
+    window.setTimeout(() => {
+      const input = document.getElementById(`name-${key}`) as HTMLInputElement | null;
+      input?.scrollIntoView({ block: "center", behavior: "smooth" });
+      input?.focus();
+    }, 50);
     setState((s) => ({
       ...s,
       others: [
         ...s.others,
-        { key: `${Date.now()}`, name: "", role: pet ? "pet" : "sibling", age: null, pronouns: null, lookMode: "describe", photos: [], description: "" } satisfies OtherMember,
+        { key, name: "", role: pet ? "pet" : "sibling", age: null, pronouns: null, lookMode: "describe", photos: [], description: "" } satisfies OtherMember,
       ].slice(0, MAX_OTHERS),
     }));
+  };
 
   const theme = getTheme(state.themeId);
   const name = state.name.trim();
@@ -242,7 +266,7 @@ export default function Create() {
   const stepError = (): string | null => {
     switch (state.step) {
       case 0:
-        return hero ? null : "Please add your child's name, age and pronouns.";
+        return hero ? null : "Please add your child's name and age, and choose boy or girl.";
       case 1:
         if (!state.lookMode) return `Choose whether to use a photo or describe ${name || "your child"}.`;
         if (state.lookMode === "photo" && !state.heroPhotos.length) return `Add at least one photo of ${name}, or choose "Describe instead".`;
@@ -250,11 +274,12 @@ export default function Create() {
         return null;
       case 2: {
         const incomplete = state.others.find((m) => !m.name.trim() || (m.role !== "pet" && !m.pronouns));
-        if (incomplete) return incomplete.role === "pet" ? "Please give each pet a name." : "Please add a name and pronouns for everyone you've added, or remove them.";
+        if (incomplete) return incomplete.role === "pet" ? "Please give each pet a name." : "Please add a name and choose boy or girl for everyone you've added, or remove them.";
         return null;
       }
       case 3:
-        return theme ? null : "Please choose a story.";
+        if (state.storyMode === "custom") return state.customIdea.trim().length >= 15 ? null : "Tell us a little about the story you'd like (a sentence or two is plenty).";
+        return theme ? null : "Please choose one of our stories, or pick \"Write your own story\".";
       default:
         return null;
     }
@@ -280,15 +305,19 @@ export default function Create() {
     track("view_content", { content_type: "theme", content_ids: [t.id], content_name: t.label });
   };
 
+  const custom = state.storyMode === "custom";
+  const storyReady = custom ? state.customIdea.trim().length >= 15 : !!theme;
+  const storyTitle = hero ? (custom ? state.customTitle.trim() || `${hero.name}'s story` : theme?.title(hero) ?? "") : "";
+
   const answers = (): WizardAnswers | null =>
-    hero && theme
+    hero && storyReady
       ? {
           hero,
           appearance: state.appearance,
           heroLookMode: state.lookMode ?? "describe",
           heroPhotos: state.heroPhotos.map((p) => p.dataUrl),
           others: state.others.map((m) => ({ ...m, photos: m.photos.map((p) => p.dataUrl) })),
-          themeId: theme.id,
+          themeId: custom ? "" : theme?.id ?? "",
           style: state.style,
           details: state.details,
           pageCount: state.pageCount,
@@ -297,13 +326,15 @@ export default function Create() {
 
   const startBook = () => {
     const a = answers();
-    if (!a || !theme || !hero) return;
+    if (!a || !hero) return;
+    if (!custom && !theme) return;
     creation.start({
-      prompt: buildStoryPrompt(theme, a),
+      prompt: custom || !theme ? buildCustomStoryPrompt(a, state.customIdea, state.customTitle) : buildStoryPrompt(theme, a),
       totalPages: state.pageCount,
       targetAge: ageRangeFor(hero.age),
       imageStyleId: config.story.imageStyleIds[state.style],
-      title: theme.title(hero),
+      // Custom stories without a title get one from the story writer.
+      title: custom ? state.customTitle.trim() || undefined : theme?.title(hero),
       authorName: state.details.fromName.trim() || undefined,
       dedication: state.details.dedication.trim() || undefined,
       cast: castRequest(a, state.photoConsent),
@@ -341,11 +372,11 @@ export default function Create() {
   // ---- Creating screen ----
   if (creation.state.phase === "writing") {
     const seconds = creation.state.seconds;
-    const lines = [`Planning ${name}'s adventure…`, `Writing ${theme && hero ? `"${theme.title(hero)}"` : "the story"}…`, "Choosing the perfect words…", "Almost there…"];
+    const lines = [`Planning ${name}'s adventure…`, `Writing ${storyTitle ? `"${storyTitle}"` : "the story"}…`, "Choosing the perfect words…", "Almost there…"];
     return (
       <div className="container mx-auto px-4 sm:px-6 py-16 max-w-xl text-center" aria-live="polite">
         <Loader2 className="h-10 w-10 text-primary animate-spin mx-auto mb-6" aria-hidden />
-        <h1 className="text-3xl font-display font-bold mb-3">{theme && hero ? theme.title(hero) : "Your book"}</h1>
+        <h1 className="text-3xl font-display font-bold mb-3">{storyTitle || "Your book"}</h1>
         <p className="text-lg font-story text-muted-foreground mb-6">{lines[Math.min(lines.length - 1, Math.floor(seconds / 20))]}</p>
         <Progress value={Math.min(90, 5 + seconds * 1.4)} className="mb-3" />
         <p className="text-sm text-muted-foreground">Writing takes about a minute, then the pictures appear one by one.</p>
@@ -391,8 +422,8 @@ export default function Create() {
               </Select>
             </div>
             <fieldset className="space-y-2">
-              <legend className="text-sm font-medium mb-1.5">Pronouns</legend>
-              <Chips label="Pronouns" value={state.pronouns} options={PRONOUN_OPTIONS} onChange={(pronouns) => update({ pronouns })} />
+              <legend className="text-sm font-medium mb-1.5">Boy or girl?</legend>
+              <Chips label="Boy or girl" value={state.pronouns} options={PRONOUN_OPTIONS} onChange={(pronouns) => update({ pronouns })} />
             </fieldset>
           </div>
         )}
@@ -442,7 +473,7 @@ export default function Create() {
           <div className="space-y-5">
             <div>
               <h2 className="text-2xl font-display font-bold">Anyone else in the story?</h2>
-              <p className="text-muted-foreground text-sm mt-1">Optional. Add a brother or sister, a friend, a grown-up or a pet, and they'll join {name}'s adventure.</p>
+              <p className="text-muted-foreground text-sm mt-1">Optional. Add brothers and sisters, parents, grandparents, friends or pets, as many as {MAX_OTHERS}, and they'll join {name}'s adventure. Add the whole family if you like.</p>
             </div>
 
             {others.map((m) => (
@@ -463,7 +494,7 @@ export default function Create() {
                   </div>
                   {m.role !== "pet" && (
                     <div className="space-y-1.5">
-                      <Label htmlFor={`role-${m.key}`}>Who are they?</Label>
+                      <Label htmlFor={`role-${m.key}`}>Who is this?</Label>
                       <Select value={m.role} onValueChange={(v) => updateOther(m.key, { role: v as CastRole })}>
                         <SelectTrigger id={`role-${m.key}`}><SelectValue /></SelectTrigger>
                         <SelectContent>{PERSON_ROLES.map((r) => <SelectItem key={r.value} value={r.value}>{r.label}</SelectItem>)}</SelectContent>
@@ -481,7 +512,7 @@ export default function Create() {
                   )}
                 </div>
                 {m.role !== "pet" && (
-                  <Chips label="Pronouns" value={m.pronouns} options={PRONOUN_OPTIONS} onChange={(pronouns) => updateOther(m.key, { pronouns })} />
+                  <Chips label="Boy or girl" value={m.pronouns} options={m.role === "parent" || m.role === "grandparent" ? GROWNUP_OPTIONS : PRONOUN_OPTIONS} onChange={(pronouns) => updateOther(m.key, { pronouns })} />
                 )}
                 <div className="flex gap-2 text-sm">
                   {(["describe", "photo"] as LookMode[]).map((mode) => (
@@ -494,7 +525,7 @@ export default function Create() {
                   <PhotoPicker photos={m.photos} onChange={(photos) => updateOther(m.key, { photos })} max={1} name={m.name || "them"} compact />
                 ) : (
                   <Input
-                    aria-label={`What ${m.name || "they"} look like`}
+                    aria-label={`What ${m.name || "this person"} looks like`}
                     value={m.description}
                     maxLength={160}
                     onChange={(e) => updateOther(m.key, { description: e.target.value })}
@@ -504,31 +535,80 @@ export default function Create() {
               </div>
             ))}
 
-            {others.length < MAX_OTHERS && (
-              <div className="flex flex-wrap gap-2">
-                <Button variant="outline" className="gap-1" onClick={() => addOther(false)}><Plus className="h-4 w-4" aria-hidden />Add a person</Button>
-                <Button variant="outline" className="gap-1" onClick={() => addOther(true)}><Plus className="h-4 w-4" aria-hidden />Add a pet</Button>
+            {others.length < MAX_OTHERS ? (
+              <div className="space-y-2">
+                {others.length > 0 && <p className="text-sm font-medium">Anyone else? You can add {MAX_OTHERS - others.length} more.</p>}
+                <div className="flex flex-wrap gap-2">
+                  <Button variant="outline" className="gap-1" onClick={() => addOther(false)}><Plus className="h-4 w-4" aria-hidden />{others.some((m) => m.role !== "pet") ? "Add another person" : "Add a person"}</Button>
+                  <Button variant="outline" className="gap-1" onClick={() => addOther(true)}><Plus className="h-4 w-4" aria-hidden />{others.some((m) => m.role === "pet") ? "Add another pet" : "Add a pet"}</Button>
+                </div>
               </div>
+            ) : (
+              <p className="text-sm text-muted-foreground">That's the most people a story can hold ({MAX_OTHERS + 1} including {name}).</p>
             )}
           </div>
         )}
 
         {state.step === 3 && (
           <div className="space-y-5">
-            <h2 className="text-2xl font-display font-bold">Pick a story</h2>
-            <div role="radiogroup" aria-label="Holiday stories" className="space-y-2">
-              <p className="text-sm font-semibold text-muted-foreground">Holiday stories</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {HOLIDAY_THEMES.map((t) => <ThemeOption key={t.id} theme={t} name={name} selected={state.themeId === t.id} onSelect={() => selectTheme(t)} />)}
-              </div>
+            <h2 className="text-2xl font-display font-bold">What's the story?</h2>
+            <div role="radiogroup" aria-label="Story type" className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {([
+                { value: "theme", title: "Pick one of our stories", text: "Holiday and everyday adventures with tried-and-tested plots." },
+                { value: "custom", title: "Write your own story", text: "Describe any adventure you can dream up and we'll write and illustrate it." },
+              ] as const).map((o) => (
+                <button
+                  key={o.value}
+                  type="button"
+                  role="radio"
+                  aria-checked={state.storyMode === o.value}
+                  onClick={() => update({ storyMode: o.value })}
+                  className={cn("text-left rounded-xl border-2 p-4", state.storyMode === o.value ? "border-primary bg-primary/5" : "border-border hover:border-primary/50")}
+                >
+                  <span className="flex items-center gap-2 font-semibold">
+                    {o.value === "theme" ? <BookOpen className="h-5 w-5 text-primary" aria-hidden /> : <PencilLine className="h-5 w-5 text-primary" aria-hidden />}
+                    {o.title}
+                  </span>
+                  <span className="block text-sm text-muted-foreground mt-1">{o.text}</span>
+                </button>
+              ))}
             </div>
-            <div role="radiogroup" aria-label="Everyday adventures" className="space-y-2">
-              <p className="text-sm font-semibold text-muted-foreground">Everyday adventures</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {EVERGREEN_THEMES.map((t) => <ThemeOption key={t.id} theme={t} name={name} selected={state.themeId === t.id} onSelect={() => selectTheme(t)} />)}
+
+            {state.storyMode === "theme" ? (
+              <>
+                <div role="radiogroup" aria-label="Holiday stories" className="space-y-2">
+                  <p className="text-sm font-semibold text-muted-foreground">Holiday stories</p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {HOLIDAY_THEMES.map((t) => <ThemeOption key={t.id} theme={t} name={name} selected={state.themeId === t.id} onSelect={() => selectTheme(t)} />)}
+                  </div>
+                </div>
+                <div role="radiogroup" aria-label="Everyday adventures" className="space-y-2">
+                  <p className="text-sm font-semibold text-muted-foreground">Everyday adventures</p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {EVERGREEN_THEMES.map((t) => <ThemeOption key={t.id} theme={t} name={name} selected={state.themeId === t.id} onSelect={() => selectTheme(t)} />)}
+                  </div>
+                </div>
+              </>
+            ) : (
+              <div className="space-y-4">
+                <div className="space-y-1.5">
+                  <Label htmlFor="custom-idea">What happens in the story?</Label>
+                  <Textarea
+                    id="custom-idea"
+                    rows={6}
+                    maxLength={1500}
+                    value={state.customIdea}
+                    onChange={(e) => update({ customIdea: e.target.value })}
+                    placeholder={`e.g. ${name || "Maya"} finds a door in the backyard that leads to a kingdom of friendly robots who need help fixing their rainbow machine.${others.length ? ` ${others[0].name || "Their sister"} comes along to help.` : ""}`}
+                  />
+                  <p className="text-xs text-muted-foreground">A sentence or two is plenty. Add a lesson, a favorite place or a funny moment if you like. Everyone you added on the previous steps will be in it.</p>
+                </div>
+                <div className="space-y-1.5">
+                  <Label htmlFor="custom-title">Title <span className="text-muted-foreground font-normal">(optional, we'll make one up if you leave it blank)</span></Label>
+                  <Input id="custom-title" value={state.customTitle} maxLength={80} placeholder={`e.g. ${name || "Maya"} and the Robot Kingdom`} onChange={(e) => update({ customTitle: e.target.value })} />
+                </div>
               </div>
-            </div>
-            <p className="text-sm text-muted-foreground">Have your own idea? <Link href="/create/custom" className="text-primary font-medium hover:underline">Write your own story</Link></p>
+            )}
           </div>
         )}
 
@@ -539,9 +619,9 @@ export default function Create() {
           </div>
         )}
 
-        {state.step === 5 && theme && hero && (
+        {state.step === 5 && hero && storyReady && (
           <div className="space-y-5">
-            <h2 className="text-2xl font-display font-bold">"{theme.title(hero)}"</h2>
+            <h2 className="text-2xl font-display font-bold">"{storyTitle}"</h2>
             <dl className="text-sm rounded-xl bg-muted/50 p-4 space-y-1.5">
               <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Starring</dt><dd className="font-medium text-right">{[hero.name, ...others.map((m) => `${m.name} (${relationLabel({ ...m, photos: [] }, hero)})`)].join(", ")}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-muted-foreground">{hero.name}'s look</dt><dd className="font-medium text-right">{state.lookMode === "photo" ? `From ${state.heroPhotos.length} photo${state.heroPhotos.length === 1 ? "" : "s"}` : lookSummary(state.appearance)}</dd></div>
@@ -573,7 +653,7 @@ export default function Create() {
                       {config.story.pageCounts.map((p) => (
                         <button key={p} type="button" role="radio" aria-checked={state.pageCount === p} onClick={() => update({ pageCount: p })} className={cn("rounded-xl border-2 p-3 text-center", state.pageCount === p ? "border-primary bg-primary/10" : "border-border")}>
                           <span className="block font-semibold">{p} pages</span>
-                          <span className="block text-xs text-muted-foreground">Printed {formatPrice(printPrice(p))}</span>
+                          <span className="block text-xs text-muted-foreground">{p === 10 ? "Short" : p === 15 ? "Medium" : "Long"}, same price</span>
                         </button>
                       ))}
                     </div>
@@ -629,10 +709,6 @@ export default function Create() {
           )}
         </div>
       </div>
-
-      <p className="text-center text-sm text-muted-foreground mt-6">
-        Prefer to write it yourself? <Link href="/create/custom" className="text-primary font-medium hover:underline">Write your own story</Link>
-      </p>
     </div>
   );
 }

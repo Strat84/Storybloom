@@ -1,20 +1,19 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "wouter";
-import { BookOpen, CheckCircle2, ChevronLeft, ChevronRight, Download, Loader2, Lock, Pencil, ShieldCheck, Sparkles, Truck } from "lucide-react";
+import { BookOpen, CheckCircle2, ChevronLeft, ChevronRight, Download, Loader2, Pencil, ShieldCheck, Sparkles, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useToast } from "@/hooks/use-toast";
 import BookViewerDialog, { type ViewerStory } from "@/components/BookViewerDialog";
+import PreviewWatermark from "@/components/PreviewWatermark";
 import PrintOrderDialog from "@/components/PrintOrderDialog";
 import { api, normalizePages, type StoryListItem, type StoryPage } from "@/lib/api";
-import { buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, readPendingPurchase } from "@/lib/checkout";
+import { buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, pdfCreditFor, readPendingPurchase } from "@/lib/checkout";
 import { picturesDone, type ImagesStatus } from "@/lib/createBook";
-import { digitalPrice, formatPrice, printPrice, printTierForStory, shippingMethods } from "@/lib/pricing";
+import { digitalPrice, formatPrice, printPrice, printTierForStory } from "@/lib/pricing";
 import { cn } from "@/lib/utils";
 
-/** Cover plus the first story pages are free to read; the rest unlocks with a purchase. */
-const FREE_PREVIEW_PAGES = 4;
 const IMAGES_POLL_MS = 5000;
 
 function pageLabel(page: StoryPage, index: number, total: number) {
@@ -44,7 +43,7 @@ export default function Book() {
   const purchased = isPurchased(listItem);
   const printed = hasPaid(listItem, "pdf_and_book");
   // The PDF price is credited toward the printed book (the backend applies it at checkout).
-  const pdfCredit = hasPaid(listItem, "pdf_only") && !printed ? digitalPrice() : 0;
+  const pdfCredit = pdfCreditFor(listItem);
 
   const loadBook = useCallback(async () => {
     const [detail, list] = await Promise.all([api<{ pages?: StoryPage[] }>(`/stories/${storyId}`), loadStoryList()]);
@@ -126,10 +125,10 @@ export default function Book() {
 
   const total = pages.length;
   const page = pages[index];
-  const locked = !purchased && index >= FREE_PREVIEW_PAGES;
+  // Before purchase every page is readable but carries a "PREVIEW" watermark (the cover stays clean).
+  const watermarked = !purchased && index > 0;
   const noPictures = !loading && !drawing && pages.length > 0 && pages.every((p) => !p.imageUrl);
   const printTier = printTierForStory(total);
-  const lowestShipping = Math.min(...shippingMethods().map((m) => m.price));
 
   const viewerStory = useMemo<ViewerStory | null>(() => (storyId ? { storyId, title, pages, regenerationUsed: listItem?.regenerationUsed, regenerationLimit: listItem?.regenerationLimit } : null), [storyId, title, pages, listItem]);
 
@@ -205,18 +204,17 @@ export default function Book() {
       <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-6 items-start">
         <div className="relative rounded-2xl overflow-hidden border bg-muted aspect-[3/4]">
           {page.imageUrl ? (
-            <img src={page.imageUrl} alt={`${title}: ${pageLabel(page, index, total).toLowerCase()}`} className={cn("w-full h-full object-cover", locked && "blur-xl scale-110")} />
+            <img
+              src={page.imageUrl}
+              alt={`${title}: ${pageLabel(page, index, total).toLowerCase()}`}
+              className="w-full h-full object-cover"
+              draggable={false}
+              onContextMenu={(e) => watermarked && e.preventDefault()}
+            />
           ) : (
             <div className="w-full h-full flex items-center justify-center text-muted-foreground"><Loader2 className="h-8 w-8 animate-spin" aria-label="Drawing this page" /></div>
           )}
-          {locked && (
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-background/40 p-6 text-center">
-              <Lock className="h-8 w-8 text-primary mb-2" aria-hidden />
-              <p className="font-display font-bold text-xl mb-1">The rest of the story is waiting</p>
-              <p className="text-sm mb-4">Unlock every page to read the whole book.</p>
-              <Button onClick={scrollToPurchase}>Unlock the whole book</Button>
-            </div>
-          )}
+          {watermarked && page.imageUrl && <PreviewWatermark />}
         </div>
 
         <div className="flex flex-col gap-4">
@@ -224,14 +222,14 @@ export default function Book() {
           {index === 0 ? (
             <p className="text-2xl font-display font-bold">{title}</p>
           ) : (
-            <p className={cn("text-lg font-story leading-relaxed whitespace-pre-line min-h-[6rem]", locked && "blur-sm select-none")} aria-hidden={locked}>
-              {locked ? "This page unlocks when you get the book. ".repeat(4) : text || (index === total - 1 ? "The End" : "")}
+            <p className="text-lg font-story leading-relaxed whitespace-pre-line min-h-[6rem]">
+              {text || (index === total - 1 ? "The End" : "")}
             </p>
           )}
           <div className="flex items-center gap-2">
             <Button variant="outline" onClick={() => setIndex((i) => Math.max(0, i - 1))} disabled={index === 0} aria-label="Previous page"><ChevronLeft className="h-4 w-4" /></Button>
             <Button variant="outline" onClick={() => setIndex((i) => Math.min(total - 1, i + 1))} disabled={index === total - 1} aria-label="Next page"><ChevronRight className="h-4 w-4" /></Button>
-            {(purchased || index < FREE_PREVIEW_PAGES) && !drawing && (
+            {!drawing && (
               <Button variant="ghost" size="sm" className="gap-1 ml-auto" onClick={() => setEditor(true)}><Pencil className="h-3.5 w-3.5" aria-hidden />Edit or redraw</Button>
             )}
           </div>
@@ -246,12 +244,18 @@ export default function Book() {
                 onClick={() => setIndex(i)}
                 className={cn("shrink-0 w-12 h-16 rounded-md overflow-hidden border-2 bg-muted", i === index ? "border-primary" : "border-transparent")}
               >
-                {p.imageUrl && <img src={p.imageUrl} alt="" className={cn("w-full h-full object-cover", !purchased && i >= FREE_PREVIEW_PAGES && "blur-sm")} loading="lazy" />}
+                {p.imageUrl && <img src={p.imageUrl} alt="" className="w-full h-full object-cover" loading="lazy" draggable={false} />}
               </button>
             ))}
           </div>
         </div>
       </div>
+
+      {!purchased && !drawing && (
+        <p className="mt-4 text-sm text-muted-foreground text-center">
+          Read every page free. The "Preview" watermark disappears in the book you buy.
+        </p>
+      )}
 
       <div ref={purchaseRef} className="mt-10 scroll-mt-24">
         {busy === "confirming" ? (
@@ -280,19 +284,24 @@ export default function Book() {
         ) : (
           <Card className="p-6">
             <h2 className="text-2xl font-display font-bold mb-1">Get {title}</h2>
-            <p className="text-muted-foreground mb-5">Unlock every page and keep it forever.</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="rounded-xl border-2 p-4 flex flex-col">
-                <p className="font-semibold flex items-center gap-2"><Download className="h-4 w-4 text-primary" aria-hidden />Digital book</p>
-                <p className="text-3xl font-bold text-primary my-1">{formatPrice(digitalPrice())}</p>
-                <p className="text-sm text-muted-foreground mb-4 flex-1">Instant PDF of the whole book. Read on any phone or tablet. If you order the printed book later, we'll credit the {formatPrice(digitalPrice())}.</p>
-                <Button onClick={startDigital} disabled={!!busy || !!drawing} className="w-full">{busy === "pdf" ? "Opening checkout…" : "Get the digital book"}</Button>
-              </div>
-              <div className="rounded-xl border-2 border-primary p-4 flex flex-col">
-                <p className="font-semibold flex items-center gap-2"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book + PDF</p>
+            <p className="text-muted-foreground mb-5">A keepsake they'll read again and again.</p>
+            <div className="grid grid-cols-1 sm:grid-cols-[3fr_2fr] gap-4">
+              <div className="rounded-xl border-2 border-primary bg-primary/5 p-4 flex flex-col">
+                <p className="font-semibold flex items-center gap-2"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book</p>
                 <p className="text-3xl font-bold text-primary my-1">{formatPrice(printPrice(printTier))}</p>
-                <p className="text-sm text-muted-foreground mb-4 flex-1">A {printTier}-page keepsake, printed and shipped to your door. Shipping from {formatPrice(lowestShipping)}.</p>
-                <Button variant="outline" onClick={() => setPrintOpen(true)} disabled={!!busy || !!drawing} className="w-full border-primary">Order the printed book</Button>
+                <ul className="text-sm text-muted-foreground mb-4 flex-1 space-y-1">
+                  <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />{printTier}-page full-color book, printed and shipped to your door</li>
+                  <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Includes the digital PDF</li>
+                  <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Check every page before it's printed</li>
+                  <li className="flex gap-1.5"><Truck className="h-4 w-4 text-primary shrink-0" aria-hidden />Free standard shipping</li>
+                </ul>
+                <Button size="lg" onClick={() => setPrintOpen(true)} disabled={!!busy || !!drawing} className="w-full">Order the printed book</Button>
+              </div>
+              <div className="rounded-xl border-2 p-4 flex flex-col">
+                <p className="font-semibold flex items-center gap-2"><Download className="h-4 w-4 text-primary" aria-hidden />Digital book only</p>
+                <p className="text-3xl font-bold text-primary my-1">{formatPrice(digitalPrice())}</p>
+                <p className="text-sm text-muted-foreground mb-4 flex-1">Instant PDF without the watermark. Order the printed book later and we'll credit the {formatPrice(digitalPrice())}.</p>
+                <Button variant="outline" onClick={startDigital} disabled={!!busy || !!drawing} className="w-full">{busy === "pdf" ? "Opening checkout…" : "Get the PDF"}</Button>
               </div>
             </div>
             {drawing && <p className="text-sm text-muted-foreground mt-3">You can buy as soon as all the pictures are drawn.</p>}
@@ -309,9 +318,10 @@ export default function Book() {
         <div className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t bg-background/95 backdrop-blur p-3 flex items-center gap-3">
           <div className="flex-1 text-sm">
             <p className="font-semibold leading-tight">{title}</p>
-            <p className="text-muted-foreground leading-tight">From {formatPrice(digitalPrice())}</p>
+            <p className="text-muted-foreground leading-tight">Printed book {formatPrice(printPrice(printTier))}</p>
           </div>
-          <Button onClick={scrollToPurchase} disabled={!!drawing}>Get the book</Button>
+          <Button onClick={() => setPrintOpen(true)} disabled={!!drawing}>Order printed book</Button>
+          <button type="button" onClick={scrollToPurchase} className="text-xs text-primary underline whitespace-nowrap">PDF only</button>
         </div>
       )}
 
@@ -322,6 +332,12 @@ export default function Book() {
         pageCount={printTier}
         onClose={() => setPrintOpen(false)}
         pdfCredit={pdfCredit}
+        proofPages={pages.map((pg, i) => ({ imageUrl: pg.imageUrl ?? null, text: pg.text || pg.content || "", label: pageLabel(pg, i, total) }))}
+        watermark={!purchased}
+        onEditPages={() => {
+          setPrintOpen(false);
+          setEditor(true);
+        }}
         onCheckout={async (order) => {
           setBusy("print");
           try {

@@ -3,21 +3,15 @@
  *
  * Edit the values below and rebuild (`npm run build`). No other code changes needed.
  *
- * IMPORTANT about prices: the amount a customer is actually charged is set by the
- * Stripe checkout on the backend, not by this file. The `live` prices here are what
- * the site DISPLAYS and must match what the backend charges. Only switch
- * `useProposedPricing` on after the backend charges the proposed prices too.
+ * IMPORTANT about prices: the amount a customer is charged is set by the backend's
+ * Stripe checkout (services/pricing.js in storybloom-backend). Keep the prices here
+ * and there the same.
  */
 
-export type ProductId =
-  | "digitalPdf"
-  | "softcover"
-  | "hardcover"
-  | "grandparentBundle"
-  | "giftWrap";
-
 export interface ShippingMethod {
-  id: "standard" | "express";
+  id: "standard" | "priority" | "expedited";
+  /** Lulu shipping level used for this option. */
+  luluLevel: "MAIL" | "PRIORITY_MAIL" | "EXPEDITED";
   label: string;
   price: number;
   /** Business days from order to delivery, used for estimated delivery dates. */
@@ -60,29 +54,29 @@ const config = {
     },
   },
 
+  /**
+   * Prices shown on the site. The backend charges the same amounts
+   * (services/pricing.js in storybloom-backend); change both together.
+   */
   pricing: {
     currency: "USD",
+    /** Digital PDF. Credited toward the printed book if bought first. */
+    digitalPdf: 4.99,
+    /** Printed softcover, any length (10–20 story pages), standard shipping included. */
+    printBook: 34.99,
+    /** Each additional copy of the same book, shipped together. */
+    extraCopy: 19.99,
+    maxCopies: 5,
+    /** Hardcover is planned (needs a 24+ page layout); off until built. */
+    hardcover: 49.99,
     /**
-     * What the live backend charges today. Leave these until Matt approves new prices
-     * AND the backend is updated to charge them.
+     * Delivery days are production + transit estimates in business days.
+     * Confirm with Lulu before relying on them for holiday cutoffs.
      */
-    live: {
-      digitalPdf: 2.99,
-      /** Printed book price by page count (the backend picks the tier from page count). */
-      printByPages: { 10: 16.99, 15: 18.99, 20: 20.99 } as Record<10 | 15 | 20, number>,
-    },
-    /** P0-5 proposal. Not shown or charged while `useProposedPricing` is false. */
-    proposed: {
-      digitalPdf: 9.99,
-      softcover: 29.99,
-      hardcover: 34.99,
-      grandparentBundle: 54.99,
-      giftWrap: 4.99,
-    } as Record<ProductId, number>,
-    useProposedPricing: false,
     shipping: [
-      { id: "standard", label: "Standard", price: 6.69, minDays: 11, maxDays: 13 },
-      { id: "express", label: "Express", price: 21.74, minDays: 6, maxDays: 8 },
+      { id: "standard", label: "Standard", price: 0, minDays: 8, maxDays: 13, luluLevel: "MAIL" },
+      { id: "priority", label: "Priority", price: 9.99, minDays: 6, maxDays: 9, luluLevel: "PRIORITY_MAIL" },
+      { id: "expedited", label: "Expedited", price: 14.99, minDays: 4, maxDays: 6, luluLevel: "EXPEDITED" },
     ] as ShippingMethod[],
   },
 

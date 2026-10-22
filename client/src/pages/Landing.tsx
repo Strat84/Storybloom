@@ -49,7 +49,7 @@ export default function Landing({ page }: { page: LandingPage }) {
               <h2 className="font-semibold text-lg">Christmas delivery deadlines</h2>
               <p className="text-sm text-muted-foreground">
                 {cutoff
-                  ? `Order your printed book by ${formatCutoff(cutoff)}${phase === "expressOnly" ? " with express shipping" : ""} for delivery by Christmas. `
+                  ? `Order your printed book by ${formatCutoff(cutoff)}${phase === "expressOnly" ? " with expedited shipping" : ""} for delivery by Christmas. `
                   : "Printed books ordered now will arrive after Christmas. "}
                 The digital book is ready instantly, any time.
               </p>

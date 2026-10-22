@@ -6,7 +6,7 @@
  * child's details into a prompt for the existing /stories/generate endpoint.
  */
 
-export type Pronouns = "she" | "he" | "they";
+export type Pronouns = "she" | "he";
 
 export interface HeroDetails {
   name: string;
@@ -35,9 +35,8 @@ export interface StoryTheme {
 }
 
 export const PRONOUNS: Record<Pronouns, { subject: string; object: string; possessive: string; label: string }> = {
-  she: { subject: "she", object: "her", possessive: "her", label: "She / her" },
-  he: { subject: "he", object: "him", possessive: "his", label: "He / him" },
-  they: { subject: "they", object: "them", possessive: "their", label: "They / them" },
+  she: { subject: "she", object: "her", possessive: "her", label: "Girl" },
+  he: { subject: "he", object: "him", possessive: "his", label: "Boy" },
 };
 
 export function ordinal(n: number) {
@@ -48,7 +47,7 @@ export function ordinal(n: number) {
 }
 
 function siblingWord(pronouns: Pronouns) {
-  return pronouns === "she" ? "Sister" : pronouns === "he" ? "Brother" : "Sibling";
+  return pronouns === "she" ? "Sister" : "Brother";
 }
 
 export const THEMES: StoryTheme[] = [
@@ -137,7 +136,7 @@ export const THEMES: StoryTheme[] = [
     title: (h) => `${h.name}'s First Hanukkah Lights`,
     tagline: "Eight nights of light, family and a little miracle.",
     description:
-      "Your child is finally old enough to help light the menorah. Across eight nights of Hanukkah they spin the dreidel, help make latkes, hear the story of the oil that lasted, and discover the light they bring to their family.",
+      "Your child is finally old enough to help light the menorah. Across eight nights of Hanukkah your child spins the dreidel, helps make latkes, hears the story of the oil that lasted, and discovers how much light one kind heart brings to the whole family.",
     defaultPages: 10,
     outline: (h) => [
       `It's the first night of Hanukkah, and ${h.name} is finally old enough to help light the menorah.`,
@@ -149,7 +148,7 @@ export const THEMES: StoryTheme[] = [
       `${h.name} decides to share Hanukkah gelt and kindness with a neighbor who is spending the holiday alone.`,
       `The neighbor joins the family, and the room feels even brighter with one more friend.`,
       `On the eighth night, all the candles glow together in the window for everyone to see.`,
-      `${h.name} realizes the brightest light of all is the love and kindness ${PRONOUNS[h.pronouns].subject} share${h.pronouns === "they" ? "" : "s"} with others.`,
+      `${h.name} realizes the brightest light of all is the love and kindness ${PRONOUNS[h.pronouns].subject} shares with others.`,
     ],
     illustrationGuide:
       "Warm, glowing palette: candlelight gold, deep blues and silver, cozy home interiors. Recurring elements: the family menorah in the window (nine branches), a blue-and-white dreidel, winter snow outside.",
@@ -165,7 +164,7 @@ export const THEMES: StoryTheme[] = [
       "On their birthday, your child's wish comes true in the most surprising way: a map hidden in the cake leads to a treasure hunt through magical places, ending in the best birthday party ever.",
     defaultPages: 10,
     outline: (h) => [
-      `It's ${h.name}'s ${ordinal(h.age)} birthday, and ${PRONOUNS[h.pronouns].subject} wake${h.pronouns === "they" ? "" : "s"} up feeling extra sparkly.`,
+      `It's ${h.name}'s ${ordinal(h.age)} birthday, and ${PRONOUNS[h.pronouns].subject} wakes up feeling extra sparkly.`,
       `When ${h.name} blows out the candles and makes a wish, a tiny map pops out of the cake.`,
       `The map leads through a door in the garden to a land of giant balloons and talking flowers.`,
       `${h.name} helps a balloon creature named Pop find his lost string and gains a loyal friend.`,
@@ -188,7 +187,7 @@ export const THEMES: StoryTheme[] = [
     title: (h) => `${h.name} the Space Explorer`,
     tagline: "Blast off to the stars on a mission to help a lost alien.",
     description:
-      "Your child becomes captain of a cardboard rocket that really flies. They visit the Moon, ring Saturn's rings, meet a friendly lost alien, and use courage and curiosity to help it get home.",
+      "Your child becomes captain of a cardboard rocket that really flies: a visit to the Moon, a loop around Saturn's rings, and a friendly lost alien who needs courage and curiosity to get home.",
     defaultPages: 10,
     outline: (h) => [
       `${h.name} builds a rocket out of a cardboard box, and at bedtime it starts to hum and glow.`,
@@ -213,7 +212,7 @@ export const THEMES: StoryTheme[] = [
     title: (h) => `${h.name} the Big ${siblingWord(h.pronouns)}`,
     tagline: "A gentle story for welcoming a new baby.",
     description:
-      "A reassuring story for a child about to welcome a new baby. Big feelings, important jobs, and the discovery that there is plenty of love to go around, with your child as the proud new big sibling.",
+      "A reassuring story for a child about to welcome a new baby. Big feelings, important jobs, and the discovery that there is plenty of love to go around, with your child as the proud new big brother or sister.",
     defaultPages: 10,
     outline: (h) => [
       `${h.name}'s family has big news: a new baby is coming, and ${h.name} is going to be a big ${siblingWord(h.pronouns).toLowerCase()}.`,

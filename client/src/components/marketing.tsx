@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import type { Faq } from "@/content/faq";
 import type { StoryTheme } from "@/content/themes";
 import { coverOf, type ExampleBook } from "@/content/examples";
-import { digitalPrice, formatPrice, printPrice, shippingMethods } from "@/lib/pricing";
+import { digitalPrice, extraCopyPrice, formatPrice, printPrice, shippingMethods } from "@/lib/pricing";
 
 export function Section({ id, className, children }: { id?: string; className?: string; children: React.ReactNode }) {
   return (
@@ -234,22 +234,16 @@ export function PricingCards() {
           <BookOpen className="h-5 w-5 text-primary" aria-hidden />
           <h3 className="text-xl font-display font-bold">Printed storybook</h3>
         </div>
-        <p className="text-4xl font-bold text-primary mb-1">
-          <span className="text-base font-normal text-muted-foreground">from </span>
-          {formatPrice(printPrice(10))}
-        </p>
-        <p className="text-sm text-muted-foreground mb-4">Printed to order, includes the PDF</p>
+        <p className="text-4xl font-bold text-primary mb-1">{formatPrice(printPrice())}</p>
+        <p className="text-sm text-muted-foreground mb-4">Printed to order, includes the PDF, free standard shipping</p>
         <ul className="space-y-2 text-sm font-story">
-          {config.story.pageCounts.map((p) => (
-            <li key={p} className="flex justify-between gap-2 border-b border-dashed pb-1">
-              <span>{p}-page book</span>
-              <span className="font-semibold">{formatPrice(printPrice(p))}</span>
-            </li>
+          {["Full-color 8.5×11 keepsake book", "Check every page before it's printed", `Extra copies ${formatPrice(extraCopyPrice())} each`, `Bought the PDF first? We credit the ${formatPrice(digitalPrice())}`].map((f) => (
+            <li key={f} className="flex gap-2"><CheckCircle2 className="h-4 w-4 text-primary mt-0.5 shrink-0" aria-hidden />{f}</li>
           ))}
           {shipping.map((s) => (
             <li key={s.id} className="flex justify-between gap-2 text-muted-foreground">
               <span className="flex items-center gap-1"><Truck className="h-3.5 w-3.5" aria-hidden />{s.label} shipping ({s.minDays}–{s.maxDays} business days)</span>
-              <span>{formatPrice(s.price)}</span>
+              <span>{s.price ? `+${formatPrice(s.price)}` : "Free"}</span>
             </li>
           ))}
         </ul>

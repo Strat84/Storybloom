@@ -43,6 +43,13 @@ export function hasPaid(story: StoryListItem | undefined, option: DownloadOption
   return story.downloadable === "Yes" && story.downloadStatus === "paid" && story.downloadOption === option;
 }
 
+/** What the buyer paid for this story's PDF, credited toward the printed book (0 if none). */
+export function pdfCreditFor(story: StoryListItem | undefined) {
+  if (!hasPaid(story, "pdf_only") || hasPaid(story, "pdf_and_book")) return 0;
+  const paid = story?.downloadHistory?.find((d) => d.downloadOption === "pdf_only" && d.status === "paid" && Number(d.paidAmount) > 0)?.paidAmount;
+  return Number(paid) > 0 ? Number(paid) : digitalPrice();
+}
+
 export function isPurchased(story: StoryListItem | undefined) {
   return hasPaid(story, "pdf_only") || hasPaid(story, "pdf_and_book");
 }
@@ -83,6 +90,7 @@ export function buyPrint(order: PrintOrder) {
       storyId: order.storyId,
       pageCount: order.pageCount,
       shippingOption: order.shipping,
+      copies: order.copies,
       // The backend recomputes the price; this is only logged if it differs.
       totalPrice: Number(order.totalPrice.toFixed(2)),
       shippingAddress: {

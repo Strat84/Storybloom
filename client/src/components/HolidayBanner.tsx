@@ -33,7 +33,7 @@ export default function HolidayBanner() {
   } else if (phase === "expressOnly" && cutoff) {
     message = (
       <>
-        Express shipping: order by <strong>{formatCutoff(cutoff)}</strong> for Christmas delivery
+        Expedited shipping: order by <strong>{formatCutoff(cutoff)}</strong> for Christmas delivery
       </>
     );
   } else {

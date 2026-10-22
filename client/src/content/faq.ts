@@ -7,7 +7,8 @@ export interface Faq {
 }
 
 const standard = shippingMethod("standard");
-const express = shippingMethod("express");
+const priority = shippingMethod("priority");
+const expedited = shippingMethod("expedited");
 
 /** General FAQ. Answers must stay true to how the product works today. */
 export function generalFaqs(): Faq[] {
@@ -19,7 +20,7 @@ export function generalFaqs(): Faq[] {
     },
     {
       question: "How much does a personalized book cost?",
-      answer: `Creating and previewing your story is free. A digital PDF is ${formatPrice(digitalPrice())}, and printed books start at ${formatPrice(lowestPrintPrice())} plus shipping (from ${formatPrice(standard.price)}).`,
+      answer: `Creating and previewing your story is free. A digital PDF is ${formatPrice(digitalPrice())}, and a printed book is ${formatPrice(lowestPrintPrice())} with free standard shipping. If you buy the PDF first, its price is credited toward the printed book.`,
     },
     {
       question: "How long does it take to make a book?",
@@ -28,7 +29,7 @@ export function generalFaqs(): Faq[] {
     },
     {
       question: "When will my printed book arrive?",
-      answer: `Every book is printed to order. Standard shipping takes about ${standard.minDays}–${standard.maxDays} business days and express about ${express.minDays}–${express.maxDays} business days. Printed books currently ship to US addresses.`,
+      answer: `Every book is printed to order. Free standard shipping takes about ${standard.minDays}–${standard.maxDays} business days. Priority (+${formatPrice(priority.price)}) takes about ${priority.minDays}–${priority.maxDays} and expedited (+${formatPrice(expedited.price)}) about ${expedited.minDays}–${expedited.maxDays}. Printed books currently ship to US addresses.`,
     },
     {
       question: "What ages are StoryBloom books for?",
@@ -70,7 +71,7 @@ export function christmasFaqs(): Faq[] {
       ? [
           {
             question: "When do I need to order for Christmas delivery?",
-            answer: `Order a printed book with standard shipping by ${longDate(printCutoffDate)}, or with express shipping by ${longDate(expressCutoffDate)}, for delivery by Christmas. A digital PDF is ready instantly, any time.`,
+            answer: `Order a printed book with standard shipping by ${longDate(printCutoffDate)}, or with expedited shipping by ${longDate(expressCutoffDate)}, for delivery by Christmas. A digital PDF is ready instantly, any time.`,
           },
         ]
       : []),

@@ -111,7 +111,7 @@ export interface StoryListItem extends Story {
   downloadable?: string;
   downloadStatus?: string;
   downloadOption?: DownloadOption;
-  downloadHistory?: { downloadOption: DownloadOption; status: string; downloadable: string }[];
+  downloadHistory?: { downloadOption: DownloadOption; status: string; downloadable: string; paidAmount?: number | null }[];
   deliveryStatus?: string;
   /** Text generation status: PENDING, COMPLETED or FAILED. */
   status?: string;

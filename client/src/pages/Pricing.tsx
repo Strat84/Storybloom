@@ -3,7 +3,7 @@ import { CreateButton, FaqSection, PricingCards, Section, SectionHeading } from 
 import VerifiedReviews from "@/components/VerifiedReviews";
 import { generalFaqs } from "@/content/faq";
 import { activeCutoff, formatCutoff, holidayPhase } from "@/lib/holiday";
-import { formatDeliveryWindow, shippingMethods } from "@/lib/pricing";
+import { formatDeliveryWindow, formatPrice, shippingMethods } from "@/lib/pricing";
 import { useNow } from "@/lib/useNow";
 
 export default function Pricing() {
@@ -30,6 +30,7 @@ export default function Pricing() {
             <thead>
               <tr className="text-left text-muted-foreground">
                 <th className="py-2 font-medium">Method</th>
+                <th className="py-2 font-medium">Price</th>
                 <th className="py-2 font-medium">Delivery time</th>
                 <th className="py-2 font-medium">If you order today</th>
               </tr>
@@ -38,6 +39,7 @@ export default function Pricing() {
               {shippingMethods().map((m) => (
                 <tr key={m.id} className="border-t">
                   <td className="py-2 font-medium">{m.label}</td>
+                  <td className="py-2">{m.price ? `+${formatPrice(m.price)}` : "Free"}</td>
                   <td className="py-2">{m.minDays}–{m.maxDays} business days</td>
                   <td className="py-2">{formatDeliveryWindow(m.id, now)}</td>
                 </tr>
@@ -46,7 +48,7 @@ export default function Pricing() {
           </table>
           <p className="text-sm text-muted-foreground mt-4">
             Every book is printed to order. Printed books currently ship to US addresses only.
-            {phase !== "off" && cutoff && ` For Christmas delivery, order by ${formatCutoff(cutoff)}${phase === "expressOnly" ? " with express shipping" : ""}.`}
+            {phase !== "off" && cutoff && ` For Christmas delivery, order by ${formatCutoff(cutoff)}${phase === "expressOnly" ? " with expedited shipping" : ""}.`}
           </p>
         </div>
       </Section>

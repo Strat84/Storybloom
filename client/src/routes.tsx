@@ -2,7 +2,7 @@ import { lazy, type ComponentType } from "react";
 import config from "@config";
 import Home from "@/pages/Home";
 import Create from "@/pages/Create";
-import CreateCustom from "@/pages/CreateCustom";
+import { Redirect } from "wouter";
 import Pricing from "@/pages/Pricing";
 import { Examples, ExampleBookPage } from "@/pages/Examples";
 import Landing, { landingFaqs } from "@/pages/Landing";
@@ -53,7 +53,7 @@ function truncate(text: string, max: number) {
 function offers() {
   return [
     { name: "Digital storybook (PDF)", price: digitalPrice(), sku: "digital-pdf" },
-    ...config.story.pageCounts.map((p) => ({ name: `Printed storybook, ${p} pages`, price: printPrice(p), sku: `print-${p}` })),
+    { name: "Printed storybook (free standard shipping)", price: printPrice(), sku: "print-softcover" },
   ];
 }
 
@@ -100,16 +100,11 @@ const STATIC_META: Record<string, PageMeta> = {
     description:
       "Make a personalized storybook in about five minutes: add your child's name and look, pick a story and art style, and preview the whole book free.",
   },
-  "/create/custom": {
-    path: "/create/custom",
-    title: `Write Your Own Personalized Story | ${SITE}`,
-    description: "Describe any story idea and StoryBloom writes and illustrates a picture book starring your child.",
-  },
   "/pricing": {
     path: "/pricing",
     title: `Pricing & Shipping for Personalized Books | ${SITE}`,
     description:
-      "Creating and previewing is free. Digital PDF storybooks and printed books made to order, with standard and express shipping across the US.",
+      "Creating and previewing is free. Digital PDF storybooks and printed books made to order with free standard shipping across the US.",
     jsonLd: [
       breadcrumbLd([{ name: "Home", path: "/" }, { name: "Pricing", path: "/pricing" }]),
       bookProductLd("/pricing", "Personalized children's storybook", "A picture book written and illustrated around your child."),
@@ -196,7 +191,8 @@ export function pageMetaFor(path: string): PageMeta {
 export const ROUTES: RouteDef[] = [
   { path: "/", component: Home },
   { path: "/create", component: Create },
-  { path: "/create/custom", component: CreateCustom },
+  // "Write your own story" now lives inside the wizard.
+  { path: "/create/custom", component: () => <Redirect to="/create?mode=custom" replace /> },
   { path: "/pricing", component: Pricing },
   { path: "/examples", component: Examples },
   { path: "/examples/:slug", component: ExampleBookPage },
@@ -223,7 +219,6 @@ export const SITEMAP: SitemapEntry[] = [
   ...EXAMPLE_BOOKS.map((b) => ({ path: `/examples/${b.slug}`, priority: 0.6, changefreq: "monthly" as const })),
   { path: "/pricing", priority: 0.8, changefreq: "monthly" },
   { path: "/faq", priority: 0.6, changefreq: "monthly" },
-  { path: "/create/custom", priority: 0.4, changefreq: "yearly" },
   { path: "/privacy", priority: 0.2, changefreq: "yearly" },
   { path: "/terms", priority: 0.2, changefreq: "yearly" },
 ];

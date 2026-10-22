@@ -4,6 +4,16 @@ All notable changes to storybloom.ai. Newest first.
 
 ## Unreleased (branch `holiday-2026`)
 
+### New pricing, watermarked preview, print-first, families and "write your own story" (P0-5)
+- **Prices (approved by Matt)**: printed softcover **$34.99 with free standard shipping** (any length), digital PDF **$4.99**, extra copies **+$19.99** each (up to 5, shipped together), Priority **+$9.99**, Expedited **+$14.99**. Lulu shipping levels MAIL / PRIORITY_MAIL / EXPEDITED. All prices live in `storybloom.config.ts` (front end) and `services/pricing.js` (backend), which must match; the backend computes every charge.
+- **PDF credit**: buying the PDF first takes what was paid off the printed book. The order screen shows the amount actually paid, so earlier $2.99 buyers see $2.99.
+- **Watermarked preview** replaces the blur: every page is readable with a "PREVIEW · StoryBloom" watermark until purchase, and the cover stays clean.
+- **Printed book is the default**: the main button orders the printed book, and the order starts with a page-by-page proof the buyer approves.
+- **Whole-family stories**: up to 7 extra people or pets, with "Add another person/pet" buttons.
+- **"Write your own story"** is now one of two equal choices on the Story step, next to "Pick one of our stories". `/create/custom` redirects there.
+- **Boy or girl** replaces the pronoun picker, with Man/Woman for parents and grandparents. They/them was removed.
+- Verified on staging with Stripe test mode and the Lulu sandbox: a custom family story, the $4.99 PDF, print with credit ($30.00), and 2 copies with Priority ($59.98, Lulu job with quantity 2 and PRIORITY_MAIL). Single-page and cover redraws were also tested.
+
 ### Photo likeness, multi-person stories, and a frictionless buying flow (P0-2, P0-3, P0-4)
 - **Wizard rebuilt**: Hero → Look (upload 1–3 photos *or* describe) → Friends (optional siblings, friends, grown-ups or pets, each by photo or description) → Story → Style → Create. Account sign-up/sign-in happens inline on the last step, with no page change.
 - **Photos are optional** everywhere. They're resized in the browser, checked for blur, checked server-side for no face/several people/blur with friendly messages, sent only with the parent's consent, stored privately under the story, auto-deleted within 30 days, and never used to train AI.

@@ -1,4 +1,4 @@
-import config from "@config";
+import config, { type ShippingMethod } from "@config";
 
 /**
  * Where we are relative to the holiday shipping cutoffs.
@@ -50,7 +50,7 @@ export function countdownDays(phase: HolidayPhase, now: Date) {
 }
 
 /** True when a print order placed now (with this method) should be labeled "arrives after Christmas". */
-export function printArrivesAfterChristmas(methodId: "standard" | "express", now: Date) {
+export function printArrivesAfterChristmas(methodId: ShippingMethod["id"], now: Date) {
   const cutoff = methodId === "standard" ? config.holiday.printCutoffDate : config.holiday.expressCutoffDate;
   if (!cutoff) return false;
   return now > endOfDay(cutoff) && now < endOfDay(config.holiday.bannerEndDate);

@@ -45,6 +45,7 @@ export interface WizardAnswers {
   heroLookMode: LookMode;
   heroPhotos: string[];
   others: CastMember[];
+  /** Empty for "Write your own story". */
   themeId: string;
   style: CartoonStyle;
   details: PersonalDetails;
@@ -167,6 +168,35 @@ export function buildStoryPrompt(theme: StoryTheme, answers: WizardAnswers) {
     `Keep it gentle and age-appropriate: no frightening peril, violence or brand names. End on a warm, happy note.`,
   ];
 
+  return lines.filter(Boolean).join("\n");
+}
+
+/** Prompt for "Write your own story": the parent's idea plus the cast, looks and reading level. */
+export function buildCustomStoryPrompt(answers: WizardAnswers, idea: string, title: string) {
+  const { hero, appearance, heroLookMode, others, details, style, pageCount } = answers;
+  const p = PRONOUNS[hero.pronouns];
+  const personal = [
+    details.favoriteAnimal && `favorite animal: ${clean(details.favoriteAnimal, 60)}`,
+    details.favoriteToy && `favorite toy: ${clean(details.favoriteToy, 60)}`,
+    details.hobby && `loves: ${clean(details.hobby, 80)}`,
+  ].filter(Boolean);
+  const lines = [
+    title.trim() ? `Write a personalized children's picture book titled exactly "${clean(title, 80)}".` : `Write a personalized children's picture book with a short, delightful title that includes ${hero.name}'s name.`,
+    `The hero is ${hero.name}, age ${hero.age}. Use ${p.subject}/${p.object} pronouns for ${hero.name}. Use ${hero.name}'s name often.`,
+    heroLookMode === "describe"
+      ? `What ${hero.name} looks like (keep identical on the cover and every page): ${characterDescription(hero, appearance)}.`
+      : `${hero.name}'s look comes from a photo; keep ${p.object} identical on the cover and every page.`,
+    others.length
+      ? `Also in the story: ${others
+          .map((m) => `${m.name} (${hero.name}'s ${relationLabel(m, hero)}${m.role !== "pet" && m.age != null ? `, age ${m.age}` : ""}${m.lookMode === "describe" && m.description.trim() ? `; looks: ${clean(m.description, 160)}` : ""})`)
+          .join("; ")}. Give each of them a real part in the story.`
+      : "",
+    `Reading level: ages ${ageRangeFor(hero.age).replace(" years", "")}. Short sentences, 2–4 per page, warm and playful. ${pageCount} story pages.`,
+    `The parent's story idea (follow it closely, fill in any gaps with a clear beginning, middle and happy ending): ${clean(idea, 1500)}`,
+    personal.length ? `Weave in these details naturally: ${personal.join("; ")}.` : "",
+    `Illustrations: ${STYLE_NAMES[style]} style. ${hero.name} appears on the front cover with the title.`,
+    `Keep it gentle and age-appropriate: no frightening peril, violence or brand names. End on a warm, happy note.`,
+  ];
   return lines.filter(Boolean).join("\n");
 }
 

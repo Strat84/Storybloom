@@ -9,23 +9,23 @@ export function formatPrice(amount: number) {
   }).format(amount);
 }
 
-/** Digital PDF price as currently charged by the backend. */
+/** Digital PDF price. */
 export function digitalPrice() {
-  return config.pricing.useProposedPricing
-    ? config.pricing.proposed.digitalPdf
-    : config.pricing.live.digitalPdf;
+  return config.pricing.digitalPdf;
 }
 
-/** Printed book price for a page tier, as currently charged by the backend. */
-export function printPrice(pages: PrintPageCount) {
-  return config.pricing.useProposedPricing
-    ? config.pricing.proposed.softcover
-    : config.pricing.live.printByPages[pages];
+/** Printed book price (the same for every length; standard shipping included). */
+export function printPrice(_pages?: PrintPageCount) {
+  return config.pricing.printBook;
 }
 
 /** Lowest printed-book price, for "from $X" copy and structured data. */
 export function lowestPrintPrice() {
-  return Math.min(...config.story.pageCounts.map((p) => printPrice(p)));
+  return config.pricing.printBook;
+}
+
+export function extraCopyPrice() {
+  return config.pricing.extraCopy;
 }
 
 export function shippingMethods(): ShippingMethod[] {
@@ -38,7 +38,7 @@ export function shippingMethod(id: ShippingMethod["id"]) {
   return method;
 }
 
-/** Story page count includes front and back covers; print tiers count interior pages. */
+/** Story page count includes front and back covers; print sizes count interior pages. */
 export function printTierForStory(totalPages: number): PrintPageCount {
   const interior = Math.max(1, totalPages - 2);
   if (interior <= 10) return 10;

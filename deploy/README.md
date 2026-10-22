@@ -37,7 +37,9 @@ Test card: `4242 4242 4242 4242`, any future expiry, any CVC.
 
 The live Amplify app builds automatically from git using `amplify.yml` (Node 22, `npm ci`, `npm run build`, publishes `dist/public`).
 
-**One-time switch** (planned, needs Matt's go-ahead): reconnect app `d1xdvaub8jmiw5` from the contractor's repo `Moheed789/StoryMagic-Client` to `Strat84/Storybloom`, and replace its routing rules:
+Since Oct 22, 2026 app `d1xdvaub8jmiw5` builds from `Strat84/Storybloom` branch `prod` (it used to build from the contractor's `Moheed789/StoryMagic-Client`). To deploy: `git push origin holiday-2026:prod`.
+
+Routing rules are app settings, not part of the build. Re-apply them when pages are added or removed:
 
 ```sh
 node scripts/amplify-rules.mjs --apex-redirect > rules-prod.json   # run after a production build

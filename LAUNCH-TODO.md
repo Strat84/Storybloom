@@ -31,10 +31,10 @@ Marketing launch: **Nov 2, 2026**. Listed in priority order. **Owner** = who has
 
 | # | Task | Owner |
 |---|------|-------|
-| 14 | Hardcover option at $49.99 (needs a Lulu hardcover product ID and cover template). | Me |
-| 15 | Gift certificates / "send as a gift" for last-minute buyers after the shipping cutoffs. | Me |
-| 16 | Real customer reviews (collected after delivery). Never fake ones. | Matt + me |
-| 17 | Retire the second Amplify app (d337m1fzzqrom6) and the unused dev permission `luluQuoteParams`. | Me |
+| 15 | Hardcover option at $49.99 (needs a Lulu hardcover product ID and cover template). | Me |
+| 16 | Gift certificates / "send as a gift" for last-minute buyers after the shipping cutoffs. | Me |
+| 17 | Real customer reviews (collected after delivery). Never fake ones. | Matt + me |
+| 18 | Retire the second Amplify app (d337m1fzzqrom6) and the unused dev permission `luluQuoteParams`. | Me |
 
 ## Done on Oct 22
 - Live backend updated: new prices, PDF credit, extra copies, shipping options, family stories, new illustration pipeline. Rollback copies saved.

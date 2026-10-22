@@ -36,6 +36,10 @@ const rules = [];
 if (process.argv.includes("--apex-redirect")) {
   rules.push({ source: "https://storybloom.ai", target: "https://www.storybloom.ai", status: "301" });
 }
+// Retired URLs that may still be bookmarked or linked from old ads.
+for (const p of ["/create/custom", "/create/custom/"]) {
+  rules.push({ source: p, target: "/create?mode=custom", status: "301" });
+}
 for (const prefix of APP_SHELL) {
   rules.push({ source: prefix, target: "/app.html", status: "200" });
   rules.push({ source: `${prefix}/<*>`, target: "/app.html", status: "200" });

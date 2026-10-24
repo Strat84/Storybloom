@@ -12,6 +12,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { CartoonStyleSelector, CARTOON_STYLES, type CartoonStyle } from "@/components/CartoonStyleSelector";
 import InlineAuth from "@/components/InlineAuth";
 import PhotoPicker from "@/components/PhotoPicker";
+import { BOOK_LANGUAGES, bookLanguage, browserBookLanguage } from "@/content/languages";
 import { HOLIDAY_THEMES, EVERGREEN_THEMES, PRONOUNS, getTheme, type Pronouns, type StoryTheme } from "@/content/themes";
 import {
   EMPTY_APPEARANCE,
@@ -81,6 +82,8 @@ interface WizardState {
   style: CartoonStyle;
   details: PersonalDetails;
   pageCount: 10 | 15 | 20;
+  /** Book language code (content/languages.ts). */
+  language: string;
   photoConsent: boolean;
 }
 
@@ -100,6 +103,7 @@ const INITIAL: WizardState = {
   style: "traditional",
   details: EMPTY_DETAILS,
   pageCount: config.story.defaultPageCount,
+  language: "en",
   photoConsent: false,
 };
 
@@ -203,6 +207,10 @@ export default function Create() {
       // Ignore unreadable storage.
     }
     const params = new URLSearchParams(window.location.search);
+    // ?lang= from ads in other languages, else the browser's language for a fresh start.
+    const langParam = BOOK_LANGUAGES.find((l) => l.code === params.get("lang"))?.code;
+    if (langParam) next = { ...next, language: langParam };
+    else if (!next.name && next.language === "en") next = { ...next, language: browserBookLanguage() };
     const preselected = getTheme(params.get("theme"));
     if (preselected && !next.themeId) next = { ...next, storyMode: "theme", themeId: preselected.id };
     if (params.get("mode") === "custom") next = { ...next, storyMode: "custom" };
@@ -288,6 +296,7 @@ export default function Create() {
   const go = (step: number) => {
     setError(null);
     update({ step });
+    if (step > state.step) track("wizard_step", { step_name: STEPS[step], step_number: step + 1 });
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -321,6 +330,7 @@ export default function Create() {
           style: state.style,
           details: state.details,
           pageCount: state.pageCount,
+          language: state.language,
         }
       : null;
 
@@ -328,6 +338,15 @@ export default function Create() {
     const a = answers();
     if (!a || !hero) return;
     if (!custom && !theme) return;
+    track("create_book", {
+      story_mode: custom ? "custom" : "theme",
+      theme: custom ? undefined : theme?.id,
+      art_style: state.style,
+      language: state.language,
+      hero_photo: state.lookMode === "photo",
+      cast_size: state.others.length + 1,
+      pages: state.pageCount,
+    });
     creation.start({
       prompt: custom || !theme ? buildCustomStoryPrompt(a, state.customIdea, state.customTitle) : buildStoryPrompt(theme, a),
       totalPages: state.pageCount,
@@ -337,6 +356,7 @@ export default function Create() {
       title: custom ? state.customTitle.trim() || undefined : theme?.title(hero),
       authorName: state.details.fromName.trim() || undefined,
       dedication: state.details.dedication.trim() || undefined,
+      language: state.language,
       cast: castRequest(a, state.photoConsent),
     });
   };
@@ -627,6 +647,21 @@ export default function Create() {
               <div className="flex justify-between gap-4"><dt className="text-muted-foreground">{hero.name}'s look</dt><dd className="font-medium text-right">{state.lookMode === "photo" ? `From ${state.heroPhotos.length} photo${state.heroPhotos.length === 1 ? "" : "s"}` : lookSummary(state.appearance)}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-muted-foreground">Art style</dt><dd className="font-medium">{CARTOON_STYLES.find((s) => s.id === state.style)?.name}</dd></div>
             </dl>
+
+            <div className="space-y-1.5">
+              <Label htmlFor="book-language">Language of the book</Label>
+              <Select value={state.language} onValueChange={(language) => update({ language })}>
+                <SelectTrigger id="book-language" className="sm:w-72"><SelectValue /></SelectTrigger>
+                <SelectContent>
+                  {BOOK_LANGUAGES.map((l) => (
+                    <SelectItem key={l.code} value={l.code}>{l.native === l.name ? l.name : `${l.native} (${l.name})`}</SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              {state.language !== "en" && (
+                <p className="text-xs text-muted-foreground">The whole book, title included, will be written in {bookLanguage(state.language).name}. Names stay exactly as you typed them.</p>
+              )}
+            </div>
 
             <div>
               <button type="button" className="text-sm font-medium text-primary hover:underline" onClick={() => setShowExtras((v) => !v)} aria-expanded={showExtras}>

@@ -12,7 +12,13 @@ export type FunnelEvent =
   | "begin_checkout"
   | "purchase"
   | "sign_up"
-  | "start_creation";
+  | "start_creation"
+  | "wizard_step" // moved forward in the wizard (step_name)
+  | "create_book" // story submitted (language, art style, photo, cast size)
+  | "book_ready" // all pictures drawn while the buyer watched
+  | "view_book" // opened a book page (purchased or not)
+  | "open_print_order"
+  | "add_shipping_info"; // address checked, order summary shown
 
 declare global {
   interface Window {

@@ -4,6 +4,15 @@ All notable changes to storybloom.ai. Newest first.
 
 ## Unreleased (branch `holiday-2026`)
 
+### Languages, typeset cover titles, follow-up emails, international buyers, tracking
+- **21 book languages** (wizard "Language of the book", defaults to the browser language, `?lang=` for ads): English, Spanish, French, German, Italian, Portuguese, Dutch, Polish, Turkish, Russian, Ukrainian, Arabic, Hindi, Chinese (Simplified/Traditional), Japanese, Korean, Vietnamese, Thai, Filipino, Indonesian. Text direction is automatic on the book page and editor.
+- **Cover titles are typeset, not drawn by AI** (backend): exact spelling in every script, including Arabic, Chinese, Japanese and Korean, plus emoji. PDFs typeset text the comic font can't show.
+- **Follow-up emails** (backend + SES): 12 and 36 hours after a book is made if it isn't bought, with the cover and one-click unsubscribe.
+- **Outside the US** (by time zone) the book page leads with the $4.99 PDF; printed books still ship to US addresses only.
+- **Home page** leads with photos, families and languages; the photo-to-cartoon demo moved up. Ad copy drafts in `docs/meta-ad-copy.md`.
+- **Tracking:** new funnel events (wizard_step, create_book, view_book, book_ready, open_print_order, add_shipping_info) and a GTM import file (`deploy/gtm-container.json`) for GA4 + Meta Pixel.
+- PDF file names keep non-English letters.
+
 ### New example books and a photo-to-cartoon showcase
 - **Four new example books** made with the current story wizard and illustration pipeline (staging, QA account), replacing the four books from the previous model:
   - Mia Saves Christmas (Christmas, Traditional, with brother and puppy)

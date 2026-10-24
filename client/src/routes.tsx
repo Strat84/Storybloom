@@ -87,7 +87,7 @@ const STATIC_META: Record<string, PageMeta> = {
     path: "/",
     title: "StoryBloom | Personalized Storybooks Starring Your Child",
     description:
-      "Create a personalized picture book where your child is the hero. Pick a story and art style, preview it free, then download instantly or order a printed book.",
+      "Turn a photo of your child into the illustrated hero of their own picture book, with the whole family and pets, in 21 languages. Preview free, then download or order a printed book.",
     jsonLd: [
       organizationLd(),
       websiteLd(),

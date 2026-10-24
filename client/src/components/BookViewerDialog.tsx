@@ -158,12 +158,12 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
                   <div className="space-y-3">
                     {isFront ? (
                       <>
-                        <div className="space-y-1.5"><Label htmlFor="v-title">Title</Label><Input id="v-title" value={draft.title} onChange={(e) => setDraft({ ...draft, title: e.target.value })} disabled={!!busy} /></div>
+                        <div className="space-y-1.5"><Label htmlFor="v-title">Title</Label><Input id="v-title" dir="auto" value={draft.title} onChange={(e) => setDraft({ ...draft, title: e.target.value })} disabled={!!busy} /></div>
                         <div className="space-y-1.5"><Label htmlFor="v-author">Author</Label><Input id="v-author" value={draft.author} onChange={(e) => setDraft({ ...draft, author: e.target.value })} disabled={!!busy} /></div>
                         <p className="text-xs text-muted-foreground">Changing the title redraws the cover.</p>
                       </>
                     ) : (
-                      <div className="space-y-1.5"><Label htmlFor="v-text">Story text</Label><Textarea id="v-text" rows={7} value={draft.text} onChange={(e) => setDraft({ ...draft, text: e.target.value })} disabled={!!busy} /></div>
+                      <div className="space-y-1.5"><Label htmlFor="v-text">Story text</Label><Textarea id="v-text" dir="auto" rows={7} value={draft.text} onChange={(e) => setDraft({ ...draft, text: e.target.value })} disabled={!!busy} /></div>
                     )}
                     <div className="flex gap-2">
                       <Button onClick={saveEdit} disabled={!!busy}>{busy === "saving" ? "Saving…" : busy === "drawing" ? "Drawing cover…" : "Save changes"}</Button>
@@ -176,7 +176,7 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
                     {author && <p className="text-muted-foreground">by {author}</p>}
                   </div>
                 ) : (
-                  <p className="text-lg font-story leading-relaxed whitespace-pre-line">{text}</p>
+                  <p dir="auto" className="text-lg font-story leading-relaxed whitespace-pre-line">{text}</p>
                 )}
 
                 {mode === "redraw" && (

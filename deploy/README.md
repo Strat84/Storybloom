@@ -62,3 +62,21 @@ The current production rules are a single-page-app catch-all (`/<anything withou
 1. Add the domain property `storybloom.ai` and verify it with the DNS TXT record Google gives you (add it in Cloudflare).
 2. Sitemaps → submit `https://www.storybloom.ai/sitemap.xml`.
 3. URL inspection → "Request indexing" for `/` and each landing page.
+
+## Tracking: Google Analytics 4 and Meta Pixel (one time)
+
+The site pushes funnel events to the GTM dataLayer (`client/src/lib/track.ts`):
+`view_content`, `start_creation`, `wizard_step`, `create_book`, `view_book`, `book_ready`,
+`generate_lead`, `sign_up`, `open_print_order`, `add_shipping_info`, `begin_checkout`, `purchase`.
+`deploy/gtm-container.json` sets up GA4 for all of them and maps them to Meta's standard events
+(ViewContent, Lead, CompleteRegistration, InitiateCheckout, AddPaymentInfo, Purchase, plus a
+custom CreateBook), each with an event ID so Meta can deduplicate against server events later.
+
+1. Google Tag Manager → container GTM-TL24S7M7 → Admin → **Import Container** → choose
+   `deploy/gtm-container.json`, workspace "Default", option **Merge** → "Rename conflicting".
+2. Variables → **GA4 Measurement ID**: paste your ID (GA4 → Admin → Data streams → "G-…").
+3. Variables → **Meta Pixel ID**: paste your pixel ID (Meta Events Manager → Data sources).
+4. **Preview**, open www.storybloom.ai, make a test book and check the events fire.
+5. **Submit / Publish**.
+6. In GA4 mark `purchase`, `create_book` and `sign_up` as key events. In Meta Events Manager
+   set Purchase as the conversion event for ad optimization, and verify the storybloom.ai domain.

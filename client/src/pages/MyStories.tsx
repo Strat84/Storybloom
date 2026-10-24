@@ -134,7 +134,7 @@ export default function MyStories() {
                   </button>
                 </div>
                 <div className="p-4 flex flex-col gap-3 flex-1">
-                  <h2 className="font-display font-bold text-lg">{s.title || "Untitled story"}</h2>
+                  <h2 dir="auto" className="font-display font-bold text-lg">{s.title || "Untitled story"}</h2>
                   {s.expectedDeliveryDate && (
                     <p className="text-sm text-muted-foreground">Expected delivery {new Date(s.expectedDeliveryDate).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}</p>
                   )}

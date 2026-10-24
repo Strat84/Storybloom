@@ -13,6 +13,7 @@ import { printArrivesAfterChristmas } from "@/lib/holiday";
 import { US_STATES } from "@/lib/usStates";
 import { cn } from "@/lib/utils";
 import PreviewWatermark from "@/components/PreviewWatermark";
+import { track } from "@/lib/track";
 
 /** Lulu print package used by the live site: 8.5x11, premium full color, saddle-stitched, 80# coated paper. */
 const POD_PACKAGE_ID = "0850X1100FCPRESS080CW444GXX";
@@ -148,6 +149,7 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
         return;
       }
       setStep(2);
+      track("add_shipping_info", { shipping_tier: shipping, copies, value: total, currency: "USD" });
     } catch {
       setError("Something went wrong verifying the address. Please try again.");
     } finally {
@@ -186,7 +188,7 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
                     {pg.imageUrl && <img src={pg.imageUrl} alt={`${pg.label} proof`} className="w-full h-full object-cover" loading="lazy" draggable={false} onContextMenu={(e) => watermark && e.preventDefault()} />}
                     {watermark && i > 0 && <PreviewWatermark label="PROOF" />}
                   </div>
-                  {pg.text && <p className="text-sm font-story whitespace-pre-line">{pg.text}</p>}
+                  {pg.text && <p dir="auto" className="text-sm font-story whitespace-pre-line">{pg.text}</p>}
                 </li>
               ))}
             </ol>

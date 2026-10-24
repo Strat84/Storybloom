@@ -9,6 +9,8 @@ export interface GenerateRequest {
   imageStyleId: number;
   title?: string;
   authorName?: string;
+  /** Book language code (content/languages.ts). */
+  language?: string;
 }
 
 export type GenerationState =

@@ -12,7 +12,9 @@ import { api, normalizePages, type StoryListItem, type StoryPage } from "@/lib/a
 import { buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, pdfCreditFor, readPendingPurchase } from "@/lib/checkout";
 import { picturesDone, type ImagesStatus } from "@/lib/createBook";
 import { digitalPrice, formatPrice, printPrice, printTierForStory } from "@/lib/pricing";
+import { likelyInUS } from "@/lib/region";
 import { cn } from "@/lib/utils";
+import { track } from "@/lib/track";
 
 const IMAGES_POLL_MS = 5000;
 
@@ -77,6 +79,7 @@ export default function Book() {
     const tick = async () => {
       try {
         const s = await api<ImagesStatus>(`/stories/${storyId}/images-status`);
+        if (picturesDone(s)) track("book_ready", { story_id: storyId, seconds: Math.round((Date.now() - startedAt) / 1000) });
         if (picturesDone(s) || Date.now() - startedAt > 20 * 60_000) stop();
         applyImagesStatus(s);
       } catch {
@@ -91,6 +94,7 @@ export default function Book() {
     if (!storyId) return;
     loadBook()
       .then(async () => {
+        track("view_book", { story_id: storyId });
         const s = await api<ImagesStatus>(`/stories/${storyId}/images-status`).catch(() => null);
         // ?new=1: just created in the wizard, drawing has started even if no page is marked yet.
         const justCreated = new URLSearchParams(window.location.search).get("new") === "1";
@@ -130,8 +134,15 @@ export default function Book() {
   const noPictures = !loading && !drawing && pages.length > 0 && pages.every((p) => !p.imageUrl);
   const printTier = printTierForStory(total);
 
+  // Printed books ship to the US only: elsewhere the PDF is the main offer.
+  const [inUS, setInUS] = useState(true);
+  useEffect(() => setInUS(likelyInUS()), []);
   const viewerStory = useMemo<ViewerStory | null>(() => (storyId ? { storyId, title, pages, regenerationUsed: listItem?.regenerationUsed, regenerationLimit: listItem?.regenerationLimit } : null), [storyId, title, pages, listItem]);
 
+  const openPrintOrder = () => {
+    track("open_print_order", { story_id: storyId, in_us: inUS });
+    setPrintOpen(true);
+  };
   const scrollToPurchase = () => purchaseRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   const startDigital = async () => {
@@ -180,10 +191,37 @@ export default function Book() {
 
   const text = page.text || page.content || "";
 
+  const cardClass = (primary: boolean) => cn("rounded-xl border-2 p-4 flex flex-col", primary && "border-primary bg-primary/5");
+  const printCard = (
+    <div className={cardClass(inUS)}>
+      <p className="font-semibold flex items-center gap-2"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book</p>
+      <p className="text-3xl font-bold text-primary my-1">{formatPrice(printPrice(printTier))}</p>
+      <ul className="text-sm text-muted-foreground mb-4 flex-1 space-y-1">
+        <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />{printTier}-page full-color book, printed and shipped to your door</li>
+        <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Includes the digital PDF</li>
+        <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Check every page before it's printed</li>
+        <li className="flex gap-1.5"><Truck className="h-4 w-4 text-primary shrink-0" aria-hidden />{inUS ? "Free standard shipping" : "Free shipping to US addresses only"}</li>
+      </ul>
+      <Button size={inUS ? "lg" : "default"} variant={inUS ? "default" : "outline"} onClick={openPrintOrder} disabled={!!busy || !!drawing} className="w-full">Order the printed book</Button>
+    </div>
+  );
+  const pdfCard = (
+    <div className={cardClass(!inUS)}>
+      <p className="font-semibold flex items-center gap-2"><Download className="h-4 w-4 text-primary" aria-hidden />{inUS ? "Digital book only" : "Digital book"}</p>
+      <p className="text-3xl font-bold text-primary my-1">{formatPrice(digitalPrice())}</p>
+      <p className="text-sm text-muted-foreground mb-4 flex-1">
+        {inUS
+          ? `Instant PDF without the watermark. Order the printed book later and we'll credit the ${formatPrice(digitalPrice())}.`
+          : "Instant full-color PDF without the watermark. Read it on any phone, tablet or computer, or print it at home or at a local print shop."}
+      </p>
+      <Button size={inUS ? "default" : "lg"} variant={inUS ? "outline" : "default"} onClick={startDigital} disabled={!!busy || !!drawing} className="w-full">{busy === "pdf" ? "Opening checkout…" : "Get the PDF"}</Button>
+    </div>
+  );
+
   return (
     <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-10 max-w-5xl pb-28 md:pb-10">
       <div className="text-center mb-6">
-        <h1 className="text-3xl sm:text-4xl font-display font-bold">{title}</h1>
+        <h1 dir="auto" className="text-3xl sm:text-4xl font-display font-bold">{title}</h1>
         {author && <p className="text-muted-foreground">by {author}</p>}
       </div>
 
@@ -220,9 +258,9 @@ export default function Book() {
         <div className="flex flex-col gap-4">
           <p className="text-sm font-semibold text-primary">{pageLabel(page, index, total)} of {total}</p>
           {index === 0 ? (
-            <p className="text-2xl font-display font-bold">{title}</p>
+            <p dir="auto" className="text-2xl font-display font-bold">{title}</p>
           ) : (
-            <p className="text-lg font-story leading-relaxed whitespace-pre-line min-h-[6rem]">
+            <p dir="auto" className="text-lg font-story leading-relaxed whitespace-pre-line min-h-[6rem]">
               {text || (index === total - 1 ? "The End" : "")}
             </p>
           )}
@@ -274,7 +312,7 @@ export default function Book() {
                 {busy === "download" ? <Loader2 className="h-4 w-4 animate-spin" aria-hidden /> : <Download className="h-4 w-4" aria-hidden />}Download PDF
               </Button>
               {!printed && (
-                <Button variant="outline" onClick={() => setPrintOpen(true)} className="gap-2">
+                <Button variant="outline" onClick={openPrintOrder} className="gap-2">
                   <Truck className="h-4 w-4" aria-hidden />Order a printed copy: {formatPrice(printPrice(printTier) - pdfCredit)}
                 </Button>
               )}
@@ -286,23 +324,7 @@ export default function Book() {
             <h2 className="text-2xl font-display font-bold mb-1">Get {title}</h2>
             <p className="text-muted-foreground mb-5">A keepsake they'll read again and again.</p>
             <div className="grid grid-cols-1 sm:grid-cols-[3fr_2fr] gap-4">
-              <div className="rounded-xl border-2 border-primary bg-primary/5 p-4 flex flex-col">
-                <p className="font-semibold flex items-center gap-2"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book</p>
-                <p className="text-3xl font-bold text-primary my-1">{formatPrice(printPrice(printTier))}</p>
-                <ul className="text-sm text-muted-foreground mb-4 flex-1 space-y-1">
-                  <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />{printTier}-page full-color book, printed and shipped to your door</li>
-                  <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Includes the digital PDF</li>
-                  <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Check every page before it's printed</li>
-                  <li className="flex gap-1.5"><Truck className="h-4 w-4 text-primary shrink-0" aria-hidden />Free standard shipping</li>
-                </ul>
-                <Button size="lg" onClick={() => setPrintOpen(true)} disabled={!!busy || !!drawing} className="w-full">Order the printed book</Button>
-              </div>
-              <div className="rounded-xl border-2 p-4 flex flex-col">
-                <p className="font-semibold flex items-center gap-2"><Download className="h-4 w-4 text-primary" aria-hidden />Digital book only</p>
-                <p className="text-3xl font-bold text-primary my-1">{formatPrice(digitalPrice())}</p>
-                <p className="text-sm text-muted-foreground mb-4 flex-1">Instant PDF without the watermark. Order the printed book later and we'll credit the {formatPrice(digitalPrice())}.</p>
-                <Button variant="outline" onClick={startDigital} disabled={!!busy || !!drawing} className="w-full">{busy === "pdf" ? "Opening checkout…" : "Get the PDF"}</Button>
-              </div>
+              {inUS ? <>{printCard}{pdfCard}</> : <>{pdfCard}{printCard}</>}
             </div>
             {drawing && <p className="text-sm text-muted-foreground mt-3">You can buy as soon as all the pictures are drawn.</p>}
             <ul className="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
@@ -317,11 +339,15 @@ export default function Book() {
       {!purchased && busy !== "confirming" && (
         <div className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t bg-background/95 backdrop-blur p-3 flex items-center gap-3">
           <div className="flex-1 text-sm">
-            <p className="font-semibold leading-tight">{title}</p>
-            <p className="text-muted-foreground leading-tight">Printed book {formatPrice(printPrice(printTier))}</p>
+            <p dir="auto" className="font-semibold leading-tight">{title}</p>
+            <p className="text-muted-foreground leading-tight">{inUS ? `Printed book ${formatPrice(printPrice(printTier))}` : `Digital book ${formatPrice(digitalPrice())}`}</p>
           </div>
-          <Button onClick={() => setPrintOpen(true)} disabled={!!drawing}>Order printed book</Button>
-          <button type="button" onClick={scrollToPurchase} className="text-xs text-primary underline whitespace-nowrap">PDF only</button>
+          {inUS ? (
+            <Button onClick={openPrintOrder} disabled={!!drawing}>Order printed book</Button>
+          ) : (
+            <Button onClick={startDigital} disabled={!!busy || !!drawing}>Get the PDF</Button>
+          )}
+          <button type="button" onClick={scrollToPurchase} className="text-xs text-primary underline whitespace-nowrap">{inUS ? "PDF only" : "Printed (US)"}</button>
         </div>
       )}
 

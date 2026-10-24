@@ -150,7 +150,7 @@ export async function downloadPdf(storyId: string, title?: string) {
   });
   if (!res.ok) throw new Error(`Download failed (${res.status})`);
   const link = document.createElement("a");
-  link.download = `${(title || "Story").replace(/[^a-zA-Z0-9]/g, "_")}.pdf`;
+  link.download = `${(title || "Story").replace(new RegExp("[^\\p{L}\\p{N}]+", "gu"), "_")}.pdf`;
   if ((res.headers.get("content-type") ?? "").includes("application/json")) {
     const data = await res.json();
     const href = data.downloadUrl || data.url || data.pdfUrl;

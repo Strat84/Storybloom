@@ -1,4 +1,5 @@
 import config from "@config";
+import { bookLanguage } from "./languages";
 import type { CartoonStyle } from "@/components/CartoonStyleSelector";
 import { PRONOUNS, type HeroDetails, type Pronouns, type StoryTheme } from "./themes";
 
@@ -50,6 +51,20 @@ export interface WizardAnswers {
   style: CartoonStyle;
   details: PersonalDetails;
   pageCount: 10 | 15 | 20;
+  /** Book language code (content/languages.ts); English when missing. */
+  language?: string;
+}
+
+/** The title line, asking for a translation when the book isn't in English. */
+function titleLine(title: string, language: string | undefined) {
+  const lang = bookLanguage(language);
+  if (lang.code === "en") return `Write a personalized children's picture book titled exactly "${title}".`;
+  return `Write a personalized children's picture book in ${lang.name}. Title it with a natural ${lang.name} translation of "${title}" (if it is already in ${lang.name}, use it exactly).`;
+}
+
+function languageLine(language: string | undefined) {
+  const lang = bookLanguage(language);
+  return lang.code === "en" ? "" : `Write the title and all page text in ${lang.name}. Keep the names of the people you were given exactly as written; new side characters can have names that suit ${lang.name}.`;
 }
 
 /** e.g. "little sister", "grandpa", "dog". */
@@ -146,7 +161,8 @@ export function buildStoryPrompt(theme: StoryTheme, answers: WizardAnswers) {
   ].filter(Boolean);
 
   const lines = [
-    `Write a personalized children's picture book titled exactly "${title}".`,
+    titleLine(title, answers.language),
+    languageLine(answers.language),
     `The hero is ${hero.name}, age ${hero.age}. Use ${p.subject}/${p.object} pronouns for ${hero.name}. Use ${hero.name}'s name often.`,
     heroLookMode === "describe"
       ? `What ${hero.name} looks like (keep identical on the cover and every page): ${characterDescription(hero, appearance)}.`
@@ -164,7 +180,7 @@ export function buildStoryPrompt(theme: StoryTheme, answers: WizardAnswers) {
     `Follow this plot outline in order, about one beat per page:${extra}`,
     ...beats.map((beat, i) => `${i + 1}. ${beat}`),
     personal.length ? `Weave in these details naturally: ${personal.join("; ")}.` : "",
-    `Illustrations: ${STYLE_NAMES[style]} style. ${theme.illustrationGuide} ${hero.name} appears on the front cover with the title.`,
+    `Illustrations: ${STYLE_NAMES[style]} style. ${theme.illustrationGuide} ${hero.name} appears on the front cover.`,
     `Keep it gentle and age-appropriate: no frightening peril, violence or brand names. End on a warm, happy note.`,
   ];
 
@@ -181,7 +197,10 @@ export function buildCustomStoryPrompt(answers: WizardAnswers, idea: string, tit
     details.hobby && `loves: ${clean(details.hobby, 80)}`,
   ].filter(Boolean);
   const lines = [
-    title.trim() ? `Write a personalized children's picture book titled exactly "${clean(title, 80)}".` : `Write a personalized children's picture book with a short, delightful title that includes ${hero.name}'s name.`,
+    title.trim()
+      ? titleLine(clean(title, 80), answers.language)
+      : `Write a personalized children's picture book${bookLanguage(answers.language).code === "en" ? "" : ` in ${bookLanguage(answers.language).name}`} with a short, delightful title that includes ${hero.name}'s name.`,
+    languageLine(answers.language),
     `The hero is ${hero.name}, age ${hero.age}. Use ${p.subject}/${p.object} pronouns for ${hero.name}. Use ${hero.name}'s name often.`,
     heroLookMode === "describe"
       ? `What ${hero.name} looks like (keep identical on the cover and every page): ${characterDescription(hero, appearance)}.`
@@ -194,7 +213,7 @@ export function buildCustomStoryPrompt(answers: WizardAnswers, idea: string, tit
     `Reading level: ages ${ageRangeFor(hero.age).replace(" years", "")}. Short sentences, 2–4 per page, warm and playful. ${pageCount} story pages.`,
     `The parent's story idea (follow it closely, fill in any gaps with a clear beginning, middle and happy ending): ${clean(idea, 1500)}`,
     personal.length ? `Weave in these details naturally: ${personal.join("; ")}.` : "",
-    `Illustrations: ${STYLE_NAMES[style]} style. ${hero.name} appears on the front cover with the title.`,
+    `Illustrations: ${STYLE_NAMES[style]} style. ${hero.name} appears on the front cover.`,
     `Keep it gentle and age-appropriate: no frightening peril, violence or brand names. End on a warm, happy note.`,
   ];
   return lines.filter(Boolean).join("\n");

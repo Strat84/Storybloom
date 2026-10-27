@@ -99,6 +99,28 @@ const config = {
     bannerEndDate: "2026-12-26",
   },
 
+  /**
+   * Partner program (/partners). Keep these the same as storybloom-outreach/config/settings.yaml
+   * and the Referralful campaigns; the page and the outreach emails both quote them.
+   */
+  partners: {
+    /** Discount a partner's code gives their audience. */
+    customerDiscountPct: 10,
+    /** Commission on what the customer pays (before shipping and tax). */
+    creatorPct: 20,
+    orgPct: 25,
+    /** Days before a commission is payable (refunds and reprints settle first). */
+    holdDays: 30,
+    /** Free printed book after this many referred printed books ship, then one per rewardEvery. */
+    rewardFirstAt: 5,
+    rewardEvery: 10,
+    /**
+     * Where "Apply" goes. Set to the Referralful signup link once the program is set up; until then
+     * applications come in by email.
+     */
+    applyUrl: "mailto:support@storybloom.ai?subject=StoryBloom%20partner%20application",
+  },
+
   /** Feature flags. Flip to true only when the feature is actually live. */
   features: {
     /** P0-2: upload a photo (optional) and the child becomes the illustrated hero. */

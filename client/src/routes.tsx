@@ -4,6 +4,7 @@ import Home from "@/pages/Home";
 import Create from "@/pages/Create";
 import { Redirect } from "wouter";
 import Pricing from "@/pages/Pricing";
+import Partners from "@/pages/Partners";
 import { Examples, ExampleBookPage } from "@/pages/Examples";
 import Landing, { landingFaqs } from "@/pages/Landing";
 import FaqPage, { allFaqs } from "@/pages/FaqPage";
@@ -116,6 +117,13 @@ const STATIC_META: Record<string, PageMeta> = {
     description: "Flip through real personalized children's books made with StoryBloom, page by page, then make one starring your child.",
     jsonLd: [breadcrumbLd([{ name: "Home", path: "/" }, { name: "Examples", path: "/examples" }])],
   },
+  "/partners": {
+    path: "/partners",
+    title: `Partner Program: Earn on Every Book | ${SITE}`,
+    description:
+      "Creators, parent groups, PTAs, churches, schools and kids' businesses: give families a discount on personalized storybooks and earn on every order.",
+    jsonLd: [breadcrumbLd([{ name: "Home", path: "/" }, { name: "Partners", path: "/partners" }])],
+  },
   "/faq": {
     path: "/faq",
     title: `FAQ: Personalized Children's Books | ${SITE}`,
@@ -197,6 +205,7 @@ export const ROUTES: RouteDef[] = [
   { path: "/examples", component: Examples },
   { path: "/examples/:slug", component: ExampleBookPage },
   { path: "/faq", component: FaqPage },
+  { path: "/partners", component: Partners },
   { path: "/terms", component: Terms },
   { path: "/privacy", component: Privacy },
   ...enabledLandingPages().map((page) => ({ path: page.path, component: () => <Landing page={page} /> })),
@@ -219,6 +228,7 @@ export const SITEMAP: SitemapEntry[] = [
   ...EXAMPLE_BOOKS.map((b) => ({ path: `/examples/${b.slug}`, priority: 0.6, changefreq: "monthly" as const })),
   { path: "/pricing", priority: 0.8, changefreq: "monthly" },
   { path: "/faq", priority: 0.6, changefreq: "monthly" },
+  { path: "/partners", priority: 0.5, changefreq: "monthly" },
   { path: "/privacy", priority: 0.2, changefreq: "yearly" },
   { path: "/terms", priority: 0.2, changefreq: "yearly" },
 ];

@@ -18,7 +18,9 @@ export type FunnelEvent =
   | "book_ready" // all pictures drawn while the buyer watched
   | "view_book" // opened a book page (purchased or not)
   | "open_print_order"
-  | "add_shipping_info"; // address checked, order summary shown
+  | "add_shipping_info" // address checked, order summary shown
+  | "partner_section_view" // an audience section of /partners scrolled into view (audience)
+  | "partner_apply"; // Apply clicked on /partners (audience)
 
 declare global {
   interface Window {

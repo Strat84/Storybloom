@@ -121,6 +121,11 @@ const config = {
      * applications come in by email.
      */
     applyUrl: "mailto:support@storybloom.ai?subject=StoryBloom%20partner%20application",
+    /**
+     * Referralful account slug (Dashboard -> Settings -> Tracking snippet, the data-account value).
+     * Empty = no tracking snippet; partner codes still work, partner links don't get credit.
+     */
+    referralfulAccount: "",
   },
 
   /** Feature flags. Flip to true only when the feature is actually live. */

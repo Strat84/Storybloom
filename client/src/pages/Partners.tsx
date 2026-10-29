@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { BookHeart, Building2, Check, Church, Copy, GraduationCap, Megaphone, School, Users, Video } from "lucide-react";
 import config from "@config";
 import { Button } from "@/components/ui/button";
@@ -139,6 +139,11 @@ const BLURBS = [
 
 const FAQS: Faq[] = [
   {
+    question: "How do I join?",
+    answer:
+      "Use any Join button on this page. It takes a couple of minutes, and we email your partner link and discount code, usually within a day.",
+  },
+  {
     question: "How does tracking work?",
     answer:
       "Every partner gets their own discount code and link. An order counts for you when the customer uses your code at checkout or arrives through your link.",
@@ -171,12 +176,23 @@ const FAQS: Faq[] = [
   },
 ];
 
-function ApplyButton({ audience }: { audience: string }) {
-  const href = P.applyUrl.startsWith("mailto:") ? `${P.applyUrl}%20(${encodeURIComponent(audience)})` : `${P.applyUrl}${P.applyUrl.includes("?") ? "&" : "?"}campaign=${audience}`;
+const applyHref = (audience: string) =>
+  P.applyUrl.startsWith("mailto:") ? `${P.applyUrl}%20(${encodeURIComponent(audience)})` : P.applyUrl;
+
+/** Every sign-up link on the page goes through here, tagged with where it was clicked. */
+function ApplyButton({ audience, label = "Join the partner program", variant }: { audience: string; label?: string; variant?: "outline" }) {
   return (
-    <Button asChild size="lg" className="text-base px-6">
-      <a href={href} onClick={() => track("partner_apply", { audience })}>Apply</a>
+    <Button asChild size="lg" variant={variant} className="text-base px-6">
+      <a href={applyHref(audience)} onClick={() => track("partner_apply", { audience })}>{label}</a>
     </Button>
+  );
+}
+
+function ApplyLink({ audience, children }: { audience: string; children: ReactNode }) {
+  return (
+    <a className="underline font-semibold text-primary hover:opacity-80" href={applyHref(audience)} onClick={() => track("partner_apply", { audience })}>
+      {children}
+    </a>
   );
 }
 
@@ -235,7 +251,7 @@ export default function Partners() {
           subtitle="StoryBloom makes personalized storybooks where a child is the illustrated hero. Partners give their audience a discount and earn on every order."
         />
         <div className="flex flex-wrap justify-center gap-3">
-          <ApplyButton audience="general" />
+          <ApplyButton audience="hero" />
           <Button asChild variant="outline" size="lg" className="text-base px-6">
             <a href="#how-it-works">How it works</a>
           </Button>
@@ -248,7 +264,7 @@ export default function Partners() {
         <SectionHeading title="How it works" />
         <ol className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {[
-            ["Apply", "Tell us who you are and how you reach families, and we'll get back to you."],
+            ["Sign up", "Takes a couple of minutes. We send your partner link and discount code, usually within a day."],
             ["Get your code and link", `Your audience gets ${P.customerDiscountPct}% off. You get blurbs and captions ready to paste.`],
             ["Earn on every order", `Every partner earns ${P.creatorPct}% of each order for ${P.commissionMonths} months, paid monthly after a ${P.holdDays}-day hold.`],
           ].map(([title, body], i) => (
@@ -264,6 +280,9 @@ export default function Partners() {
           Partners who sell get a free printed book once {P.rewardFirstAt} books ship with their code, then one more for every {P.rewardEvery} after that.
           A printed book is {formatPrice(printPrice())} with free US shipping.
         </p>
+        <div className="flex justify-center mt-6">
+          <ApplyButton audience="how-it-works" label="Sign up free" />
+        </div>
       </Section>
 
       {AUDIENCES.map((a, i) => (
@@ -285,10 +304,20 @@ export default function Partners() {
             </ul>
             <h3 className="font-semibold mb-1">What we ask</h3>
             <p className="font-story text-muted-foreground mb-5">{a.ask}</p>
-            <ApplyButton audience={a.id} />
+            <ApplyButton audience={a.id} label="Join as a partner" />
           </div>
         </Section>
       ))}
+
+      <Section id="join" className="py-10">
+        <div className="max-w-3xl mx-auto rounded-2xl bg-primary/10 p-8 text-center">
+          <h2 className="text-2xl sm:text-3xl font-display font-bold mb-2">Ready to join?</h2>
+          <p className="font-story text-muted-foreground mb-5">
+            Free to join, no minimums. Your audience gets {P.customerDiscountPct}% off and you earn {P.creatorPct}% of every order for {P.commissionMonths} months.
+          </p>
+          <ApplyButton audience="join-band" label="Sign up free" />
+        </div>
+      </Section>
 
       <Section id="resources" className="py-10">
         <SectionHeading title="Partner resources" subtitle="Ready to paste. Swap YOURCODE for your own code." />
@@ -297,7 +326,7 @@ export default function Partners() {
         </div>
         <p className="text-center text-sm text-muted-foreground mt-6">
           Book covers and sample pages to share are on our <a className="underline hover:text-primary" href="/examples">examples page</a>.
-          More images are available when you join.
+          More images are available when you <ApplyLink audience="resources">join the program</ApplyLink>.
         </p>
       </Section>
 
@@ -318,7 +347,10 @@ export default function Partners() {
       </Section>
 
       <Section className="text-center pt-0">
-        <ApplyButton audience="general" />
+        <ApplyButton audience="footer" />
+        <p className="text-sm text-muted-foreground mt-3">
+          Questions first? Email <a className="underline" href={`mailto:${config.site.supportEmail}`}>{config.site.supportEmail}</a>.
+        </p>
       </Section>
     </>
   );

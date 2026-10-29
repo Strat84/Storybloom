@@ -2,6 +2,7 @@ import config from "@config";
 import type { PrintOrder } from "@/components/PrintOrderDialog";
 import { api, checkoutUrlFrom, getIdToken, type DownloadOption, type StoryListItem } from "./api";
 import { digitalPrice } from "./pricing";
+import { currentReferral } from "./referral";
 import { track } from "./track";
 
 /** Set before redirecting to Stripe; read when the buyer comes back. */
@@ -62,11 +63,12 @@ export async function loadStoryList() {
 async function startCheckout(
   storyId: string,
   path: "/stripe/story-download-session" | "/stripe/story-download-book",
-  body: unknown,
+  body: object,
   pending: { downloadOption: DownloadOption; value: number },
 ) {
   track("begin_checkout", { value: pending.value, currency: config.pricing.currency, items: [{ item_id: pending.downloadOption }] });
-  const data = await api(path, { method: "POST", body });
+  const referral = currentReferral();
+  const data = await api(path, { method: "POST", body: referral ? { ...body, referral } : body });
   const url = checkoutUrlFrom(data);
   if (!url) throw new Error("Checkout link not found");
   localStorage.setItem(PENDING_PURCHASE, JSON.stringify({ storyId, ...pending, timestamp: Date.now() }));

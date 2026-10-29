@@ -101,14 +101,16 @@ const config = {
 
   /**
    * Partner program (/partners). Keep these the same as storybloom-outreach/config/settings.yaml
-   * and the Referralful campaigns; the page and the outreach emails both quote them.
+   * and the Referralful campaign; the page and the outreach emails both quote them.
    */
   partners: {
     /** Discount a partner's code gives their audience. */
     customerDiscountPct: 10,
-    /** Commission on what the customer pays (before shipping and tax). */
+    /** Commission on what the customer pays (before shipping and tax). One rate for every partner. */
     creatorPct: 20,
-    orgPct: 25,
+    orgPct: 20,
+    /** Months a partner earns on a customer they referred, counted from that customer's first order. */
+    commissionMonths: 12,
     /** Days before a commission is payable (refunds and reprints settle first). */
     holdDays: 30,
     /** Free printed book after this many referred printed books ship, then one per rewardEvery. */

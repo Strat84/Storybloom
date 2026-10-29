@@ -250,7 +250,7 @@ export default function Partners() {
           {[
             ["Apply", "Tell us who you are and how you reach families, and we'll get back to you."],
             ["Get your code and link", `Your audience gets ${P.customerDiscountPct}% off. You get blurbs and captions ready to paste.`],
-            ["Earn on every order", `Creators and parent groups earn ${P.creatorPct}%, organizations ${P.orgPct}%, paid monthly after a ${P.holdDays}-day hold.`],
+            ["Earn on every order", `Every partner earns ${P.creatorPct}% of each order for ${P.commissionMonths} months, paid monthly after a ${P.holdDays}-day hold.`],
           ].map(([title, body], i) => (
             <li key={title} className="rounded-2xl border bg-card p-6">
               <div className="text-sm font-semibold text-primary mb-1">Step {i + 1}</div>
@@ -307,7 +307,7 @@ export default function Partners() {
         <div className="max-w-3xl mx-auto rounded-2xl border bg-card p-6">
           <h2 className="text-2xl font-display font-bold mb-4">Partner terms, in plain language</h2>
           <ul className="space-y-2 font-story text-muted-foreground list-disc pl-5">
-            <li>Commissions are a percentage of what the customer pays for the book, before shipping and tax: {P.creatorPct}% for creators and parent groups, {P.orgPct}% for PTAs, churches, schools and businesses.</li>
+            <li>Commissions are {P.creatorPct}% of what the customer pays for the book, before shipping and tax, for every type of partner. You earn on a referred customer's orders for {P.commissionMonths} months from their first order.</li>
             <li>A commission becomes payable {P.holdDays} days after the order. Refunded or charged-back orders don't earn one, and a commission already paid on one is taken off the next payout.</li>
             <li>You must disclose the partnership (#ad, #gifted or your platform's paid-partnership tag) every time you share your code or a book you received free.</li>
             <li>No paid search ads on the StoryBloom name, no coupon-site listings of your code, and no spam or unsolicited messages.</li>

@@ -207,6 +207,7 @@ def main():
             try:
                 s, book, cost, problems = fut.result()
             except Exception as e:  # one bad book shouldn't stop the batch
+                failed.append("error")
                 print("ERROR", type(e).__name__, str(e)[:200])
                 continue
             spent += cost

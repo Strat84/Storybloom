@@ -13,7 +13,8 @@ import { CartoonStyleSelector, CARTOON_STYLES, type CartoonStyle } from "@/compo
 import InlineAuth from "@/components/InlineAuth";
 import PhotoPicker from "@/components/PhotoPicker";
 import { BOOK_LANGUAGES, bookLanguage, browserBookLanguage } from "@/content/languages";
-import { HOLIDAY_THEMES, EVERGREEN_THEMES, PRONOUNS, getTheme, type Pronouns, type StoryTheme } from "@/content/themes";
+import { HOLIDAY_THEMES, EVERGREEN_THEMES, PRONOUNS, THEMES, getTheme, type Pronouns, type StoryTheme } from "@/content/themes";
+import { CATALOG, ensureBookTheme, getEntry } from "@/content/catalog";
 import {
   EMPTY_APPEARANCE,
   EMPTY_DETAILS,
@@ -213,6 +214,8 @@ export default function Create() {
     else if (!next.name && next.language === "en") next = { ...next, language: browserBookLanguage() };
     const preselected = getTheme(params.get("theme"));
     if (preselected && !next.themeId) next = { ...next, storyMode: "theme", themeId: preselected.id };
+    // Arriving from a catalog book page selects that book.
+    if (getEntry(params.get("theme"))) next = { ...next, storyMode: "theme", themeId: params.get("theme") };
     if (params.get("mode") === "custom") next = { ...next, storyMode: "custom" };
     setState(next);
     setRestored(true);
@@ -266,6 +269,13 @@ export default function Create() {
     }));
   };
 
+  // A catalog book's outline loads on demand; re-render when it arrives.
+  const [, setBookReady] = useState(0);
+  useEffect(() => {
+    if (state.themeId && !getTheme(state.themeId) && getEntry(state.themeId)) {
+      ensureBookTheme(state.themeId).then(() => setBookReady((n) => n + 1));
+    }
+  }, [state.themeId]);
   const theme = getTheme(state.themeId);
   const name = state.name.trim();
   const hero = useMemo(() => (name && state.age && state.pronouns ? { name, age: state.age, pronouns: state.pronouns } : null), [name, state.age, state.pronouns]);
@@ -596,6 +606,12 @@ export default function Create() {
 
             {state.storyMode === "theme" ? (
               <>
+                {theme && !THEMES.includes(theme) && (
+                  <div role="radiogroup" aria-label="Your chosen story" className="space-y-2">
+                    <p className="text-sm font-semibold text-muted-foreground">Your chosen story</p>
+                    <ThemeOption theme={theme} name={name} selected onSelect={() => undefined} />
+                  </div>
+                )}
                 <div role="radiogroup" aria-label="Holiday stories" className="space-y-2">
                   <p className="text-sm font-semibold text-muted-foreground">Holiday stories</p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -608,6 +624,11 @@ export default function Create() {
                     {EVERGREEN_THEMES.map((t) => <ThemeOption key={t.id} theme={t} name={name} selected={state.themeId === t.id} onSelect={() => selectTheme(t)} />)}
                   </div>
                 </div>
+                {CATALOG.length > 0 && (
+                  <p className="text-sm text-muted-foreground">
+                    Looking for something else? <a href="/books" className="text-primary font-medium hover:underline">Browse all {CATALOG.length} books</a>
+                  </p>
+                )}
               </>
             ) : (
               <div className="space-y-4">

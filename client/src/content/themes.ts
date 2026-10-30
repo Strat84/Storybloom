@@ -233,8 +233,15 @@ export const THEMES: StoryTheme[] = [
   },
 ];
 
+/** Catalog books the visitor has opened (content/catalog.ts), available alongside THEMES. */
+const REGISTERED = new Map<string, StoryTheme>();
+
+export function registerTheme(theme: StoryTheme) {
+  REGISTERED.set(theme.id, theme);
+}
+
 export function getTheme(id: string | null | undefined) {
-  return THEMES.find((t) => t.id === id);
+  return THEMES.find((t) => t.id === id) ?? (id ? REGISTERED.get(id) : undefined);
 }
 
 export const HOLIDAY_THEMES = THEMES.filter((t) => t.season === "holiday");

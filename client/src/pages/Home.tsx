@@ -19,6 +19,7 @@ import { BOOK_LANGUAGES } from "@/content/languages";
 import { generalFaqs } from "@/content/faq";
 import { isHolidaySeason } from "@/lib/holiday";
 import { useNow } from "@/lib/useNow";
+import { BookCategoryLinks } from "@/pages/Books";
 
 export default function Home() {
   const holiday = isHolidaySeason(useNow());
@@ -78,6 +79,8 @@ export default function Home() {
       ) : (
         <ThemeGrid themes={EVERGREEN_THEMES} title="Pick an adventure" subtitle="Each story has a planned plot, so it reads like a real picture book." />
       )}
+
+      <BookCategoryLinks />
 
       <HowItWorks />
 

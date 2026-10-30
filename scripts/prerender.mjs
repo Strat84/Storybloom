@@ -14,7 +14,7 @@ import { pathToFileURL } from "node:url";
 const root = path.resolve(import.meta.dirname, "..");
 const outDir = path.join(root, "dist/public");
 const server = await import(pathToFileURL(path.join(root, "dist/server/entry-server.js")).href);
-const { render, renderHead, pageMetaFor, SITEMAP, PRERENDER_ONLY, NOT_FOUND_META } = server;
+const { render, renderHead, pageMetaFor, SITEMAP, PRERENDER_ONLY, NOT_FOUND_META, merchantFeedXml } = server;
 
 const SITE_URL = "https://www.storybloom.ai";
 let template = await readFile(path.join(outDir, "index.html"), "utf8");
@@ -77,6 +77,7 @@ ${SITEMAP.map(
 </urlset>
 `;
 await writeFile(path.join(outDir, "sitemap.xml"), sitemap);
+if (!STAGING) await writeFile(path.join(outDir, "merchant-feed.xml"), merchantFeedXml());
 
 const robots = STAGING ? "User-agent: *\nDisallow: /\n" : `User-agent: *
 Allow: /

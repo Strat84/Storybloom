@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/lib/auth";
 import { isHolidaySeason } from "@/lib/holiday";
 import { useNow } from "@/lib/useNow";
+import { CATALOG } from "@/content/catalog";
 
 const navLinkClass =
   "px-3 py-2 rounded-md text-sm font-medium text-foreground/80 hover:text-foreground hover:bg-muted transition-colors";
@@ -30,6 +31,7 @@ export default function Header() {
 
   const links = [
     ...(holiday ? [{ href: "/christmas-book-for-kids", label: "Holiday books" }] : []),
+    ...(CATALOG.length ? [{ href: "/books", label: "All books" }] : []),
     { href: "/examples", label: "Examples" },
     { href: "/pricing", label: "Pricing" },
     ...(isAuthenticated ? [{ href: "/mystories", label: "My Stories" }] : []),

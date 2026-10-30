@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { SiTiktok, SiInstagram, SiFacebook, SiYoutube } from "react-icons/si";
 import config from "@config";
 import { enabledLandingPages } from "@/content/landing";
+import { CATALOG } from "@/content/catalog";
 
 const linkClass = "text-sm text-muted-foreground hover:text-primary transition-colors";
 
@@ -59,6 +60,7 @@ export default function Footer() {
             <p className="text-sm font-semibold">StoryBloom</p>
             <ul className="flex flex-col gap-2">
               <li><Link href="/create" className={linkClass}>Create a book</Link></li>
+              {CATALOG.length > 0 && <li><Link href="/books" className={linkClass}>All books</Link></li>}
               <li><Link href="/examples" className={linkClass}>Example books</Link></li>
               <li><Link href="/pricing" className={linkClass}>Pricing &amp; shipping</Link></li>
               <li><Link href="/faq" className={linkClass}>FAQ</Link></li>
@@ -70,6 +72,7 @@ export default function Footer() {
             <p className="text-sm font-semibold">Help</p>
             <ul className="flex flex-col gap-2">
               <li><a href={`mailto:${config.site.supportEmail}`} className={linkClass}>{config.site.supportEmail}</a></li>
+              <li><Link href="/shipping-returns" className={linkClass}>Shipping and returns</Link></li>
               <li><Link href="/terms" className={linkClass}>Terms of Service</Link></li>
               <li><Link href="/privacy" className={linkClass}>Privacy Policy</Link></li>
             </ul>

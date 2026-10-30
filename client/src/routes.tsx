@@ -8,12 +8,14 @@ import Partners from "@/pages/Partners";
 import { Examples, ExampleBookPage } from "@/pages/Examples";
 import Landing, { landingFaqs } from "@/pages/Landing";
 import FaqPage, { allFaqs } from "@/pages/FaqPage";
+import { BooksCatalog, BooksSlug, ShippingReturns } from "@/pages/Books";
 import Terms from "@/pages/Terms";
 import Privacy from "@/pages/Privacy";
 import { SignIn, SignUp, ForgotPassword, CreateNewPassword } from "@/pages/auth";
 import { enabledLandingPages, type LandingPage } from "@/content/landing";
 import { EXAMPLE_BOOKS, coverOf, getExample } from "@/content/examples";
-import { digitalPrice, printPrice } from "@/lib/pricing";
+import { CATALOG, bookForPrerender, coverOf as bookCoverOf, exampleTitle, getEntry, getHub, liveHubs } from "@/content/catalog";
+import { digitalPrice, printPrice, shippingMethods } from "@/lib/pricing";
 import {
   breadcrumbLd,
   faqLd,
@@ -75,6 +77,77 @@ function landingMeta(page: LandingPage): PageMeta {
   };
 }
 
+/** Hub or book page metadata. FAQ data is only available on the prerendered page, for crawlers. */
+function catalogMeta(slug: string, path: string): PageMeta | null {
+  const hub = getHub(slug);
+  if (hub) {
+    return {
+      path,
+      title: hub.metaTitle,
+      description: hub.metaDescription,
+      jsonLd: [breadcrumbLd([{ name: "Home", path: "/" }, { name: "Books", path: "/books" }, { name: hub.name, path }])],
+    };
+  }
+  const entry = getEntry(slug);
+  if (!entry) return null;
+  const full = bookForPrerender(slug);
+  const bookHub = getHub(entry.category);
+  const standard = shippingMethods()[0];
+  return {
+    path,
+    title: entry.meta_title,
+    description: entry.meta_description,
+    ogImage: bookCoverOf(slug),
+    ogImageAlt: entry.image_alt,
+    ogType: "product",
+    jsonLd: [
+      breadcrumbLd([
+        { name: "Home", path: "/" },
+        { name: "Books", path: "/books" },
+        ...(bookHub ? [{ name: bookHub.name, path: `/books/${bookHub.slug}` }] : []),
+        { name: exampleTitle(entry), path },
+      ]),
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: entry.h1,
+        description: entry.meta_description,
+        image: `${config.site.url}${bookCoverOf(slug)}`,
+        sku: `${slug}-print`,
+        brand: { "@type": "Brand", name: SITE },
+        url: `${config.site.url}${path}`,
+        offers: {
+          "@type": "Offer",
+          sku: `${slug}-print`,
+          price: printPrice().toFixed(2),
+          priceCurrency: config.pricing.currency,
+          availability: "https://schema.org/InStock",
+          itemCondition: "https://schema.org/NewCondition",
+          url: `${config.site.url}${path}`,
+          seller: { "@id": `${config.site.url}/#organization` },
+          shippingDetails: {
+            "@type": "OfferShippingDetails",
+            shippingRate: { "@type": "MonetaryAmount", value: "0.00", currency: config.pricing.currency },
+            shippingDestination: { "@type": "DefinedRegion", addressCountry: "US" },
+            deliveryTime: {
+              "@type": "ShippingDeliveryTime",
+              transitTime: { "@type": "QuantitativeValue", minValue: standard.minDays, maxValue: standard.maxDays, unitCode: "DAY" },
+            },
+          },
+          // Custom goods: no change-of-mind returns; damaged or misprinted books are replaced or refunded (/shipping-returns).
+          hasMerchantReturnPolicy: {
+            "@type": "MerchantReturnPolicy",
+            applicableCountry: "US",
+            returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+            merchantReturnLink: `${config.site.url}/shipping-returns`,
+          },
+        },
+      },
+      ...(full ? [faqLd(full.faqs)] : []),
+    ],
+  };
+}
+
 const noindex = (path: string, title: string): PageMeta => ({
   path,
   title: `${title} | ${SITE}`,
@@ -129,6 +202,18 @@ const STATIC_META: Record<string, PageMeta> = {
     title: `FAQ: Personalized Children's Books | ${SITE}`,
     description: "Answers about making, pricing, shipping and editing StoryBloom personalized storybooks for kids.",
     jsonLd: [breadcrumbLd([{ name: "Home", path: "/" }, { name: "FAQ", path: "/faq" }]), faqLd(allFaqs())],
+  },
+  "/books": {
+    path: "/books",
+    title: `Personalized Children's Books | ${SITE}`,
+    description: "Personalized picture books for holidays, birthdays, big firsts and everything kids love. Your child is the illustrated hero of every story.",
+    jsonLd: [breadcrumbLd([{ name: "Home", path: "/" }, { name: "Books", path: "/books" }])],
+  },
+  "/shipping-returns": {
+    path: "/shipping-returns",
+    title: `Shipping and Returns | ${SITE}`,
+    description: "Shipping options and times for StoryBloom's printed books, and our promise: a free reprint or refund if a book arrives damaged or misprinted.",
+    jsonLd: [breadcrumbLd([{ name: "Home", path: "/" }, { name: "Shipping and returns", path: "/shipping-returns" }])],
   },
   "/terms": {
     path: "/terms",
@@ -191,6 +276,11 @@ export function pageMetaFor(path: string): PageMeta {
       };
     }
   }
+  const catalogPage = clean.match(/^\/books\/([^/]+)$/);
+  if (catalogPage) {
+    const meta = catalogMeta(catalogPage[1], clean);
+    if (meta) return meta;
+  }
   if (clean.startsWith("/generated-story")) return noindex(clean, "Your story");
   if (clean.startsWith("/book/")) return noindex(clean, "Your book");
   return NOT_FOUND_META;
@@ -202,6 +292,9 @@ export const ROUTES: RouteDef[] = [
   // "Write your own story" now lives inside the wizard.
   { path: "/create/custom", component: () => <Redirect to="/create?mode=custom" replace /> },
   { path: "/pricing", component: Pricing },
+  { path: "/books", component: BooksCatalog },
+  { path: "/books/:slug", component: BooksSlug },
+  { path: "/shipping-returns", component: ShippingReturns },
   { path: "/examples", component: Examples },
   { path: "/examples/:slug", component: ExampleBookPage },
   { path: "/faq", component: FaqPage },
@@ -224,6 +317,10 @@ export const SITEMAP: SitemapEntry[] = [
   { path: "/", priority: 1.0, changefreq: "weekly" },
   { path: "/create", priority: 0.9, changefreq: "monthly" },
   ...enabledLandingPages().map((p) => ({ path: p.path, priority: 0.9, changefreq: "weekly" as const })),
+  ...(CATALOG.length ? [{ path: "/books", priority: 0.9, changefreq: "weekly" as const }] : []),
+  ...liveHubs().map((h) => ({ path: `/books/${h.slug}`, priority: 0.8, changefreq: "weekly" as const })),
+  ...CATALOG.map((b) => ({ path: `/books/${b.slug}`, priority: 0.8, changefreq: "monthly" as const })),
+  { path: "/shipping-returns", priority: 0.4, changefreq: "yearly" },
   { path: "/examples", priority: 0.7, changefreq: "monthly" },
   ...EXAMPLE_BOOKS.map((b) => ({ path: `/examples/${b.slug}`, priority: 0.6, changefreq: "monthly" as const })),
   { path: "/pricing", priority: 0.8, changefreq: "monthly" },

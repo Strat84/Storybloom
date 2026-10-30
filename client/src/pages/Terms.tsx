@@ -153,7 +153,7 @@ export default function Terms() {
                 <li>Because each book is made-to-order based on AI-generated content, no refunds or reprints will be issued for 
                   dissatisfaction related to story content, image quality, or style.</li>
                 <li>You are responsible for verifying that the digital preview meets your expectations before placing an order.</li>
-                <li>We will replace or reprint only in the event of a manufacturing or printing defect (e.g., damaged or missing pages).</li>
+                <li>If your printed book arrives damaged or misprinted (e.g., damaged or missing pages), tell us within 30 days of delivery and we will send a free reprint or give you a refund. See <a className="underline" href="/shipping-returns">Shipping and returns</a>.</li>
                 <li>In test or beta periods, you may be asked to use temporary payment methods or test credit cards.</li>
               </ul>
             </section>

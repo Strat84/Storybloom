@@ -1,0 +1,115 @@
+slug	title_pattern	hub	age_range	priority	sensitive	seasonal_peak	main_keyword	premise
+santas-missing-list	{name} and Santa's Missing List	christmas	3-7	P0	no	Nov-Dec	personalized christmas book for kids	Santa's list blows away the week before Christmas and the child tracks the pages across a snowy town, helping neighbors along the way.
+elf-for-a-night	{name}, Elf for One Night	christmas	3-7	P0	no	Nov-Dec	personalized elf book for kids	The child is called in to fill a shift in the toy workshop when an elf catches a sneezing cold, and fixes a toy nobody else could.
+christmas-eve-star	{name} and the Christmas Eve Star	christmas	3-8	P0	no	Nov-Dec	personalized christmas eve book	On Christmas Eve the star falls off the top of the tree and asks the child to carry it back up to the sky before midnight.
+babys-first-christmas	{name}'s First Christmas	christmas	0-3	P0	no	Nov-Dec	baby's first christmas book personalized	A gentle rhyming walk through a baby's first Christmas: lights, stockings, wrapping paper and being held close. Read aloud, very few words.
+snowman-who-wanted-cocoa	{name} and the Snowman Who Wanted Cocoa	christmas	2-6	P0	no	Nov-Jan	personalized snow day book	On a snow day the child's snowman wakes up curious about warm things, and they find a clever way to share cocoa without melting him.
+christmas-with-grandparents	{name}'s Christmas at Grandma and Grandpa's	christmas	3-7	P0	no	Nov-Dec	christmas gift for grandchild personalized book	The child spends Christmas at the grandparents' house and uncovers a family tradition by following clues left in the old ornaments.
+sleigh-school	{name} Goes to Sleigh School	christmas	4-8	P0	no	Nov-Dec	santa book personalized for child	The child trains young reindeer who are afraid of flying, and learns how patience gets them off the ground.
+eight-nights-of-light	{name} and the Eight Nights of Light	holidays	3-8	P0	no	Dec	personalized hanukkah book	Across eight nights the child does one small kindness each evening and watches how the light in the house and street grows. Respectful of tradition.
+letter-from-grandma	Grandma's Letter to {name}	gifts-from-grandparents	2-8	P0	no		gift from grandma to grandchild book	A letter from Grandma leads the child on a backyard treasure hunt, each stop naming something she treasures about them. Book reads as from the giver.
+grandpas-little-blue-boat	{name} and Grandpa's Little Blue Boat	gifts-from-grandparents	3-8	P0	no		book from grandpa to grandchild	A day on the water with Grandpa turns into a rescue of a lost duckling, with stories of when Grandpa was small.
+far-away-grandparents	Over the Hills to {name}	gifts-from-grandparents	2-8	P0	no		long distance grandparent book	A grandparent far away sends a paper bird that flies over hills and cities to the child, and the child sends one back. Love across miles.
+baking-with-nana	{name} Bakes with Nana	gifts-from-grandparents	3-7	P0	no		nana gift book for grandchild personalized	A family recipe goes wonderfully wrong while baking with Nana, and the child saves the day and invents a new tradition.
+dad-road-trip	{name} and Dad's Big Road Trip	gifts-from-family	3-8	P0	no		book from dad to son or daughter personalized	A drive to the mountains with Dad gets a flat tire and a long detour, which turns into the best part of the trip.
+mom-garden	{name} and Mom Grow Something Wonderful	gifts-from-family	2-7	P0	no		book from mom to child personalized	Child and Mom plant a mystery seed and care for it through a stormy week, and a surprise grows. About patience and being loved.
+aunt-uncle-missions	{name}'s Day of Secret Missions	gifts-from-family	3-8	P0	no		gift for niece or nephew personalized book	A silly day out with a beloved aunt or uncle who turns ordinary errands into missions.
+godparent-compass	{name} and the Godparent's Compass	gifts-from-family	2-8	P0	no		godchild gift book personalized	A godparent gives the child a small compass and a promise to always help them find their way, proven on a camping trip.
+turning-one	{name} Turns One	birthday	0-2	P0	no		first birthday book personalized	A soft rhyming story of a first year and first birthday: cake on the nose, balloons, first steps. Read aloud.
+turning-three	{name} Is Three Today	birthday	3-4	P0	no		3rd birthday book for child personalized	The child wakes up three and discovers three new things they can do on their own, each helping save the birthday party.
+turning-five	{name}'s Five-Candle Quest	birthday	5-6	P0	no		5th birthday book personalized	Five candles go missing from the cake and each is found by doing something a five-year-old is brave enough to do.
+turning-ten	{name} and the Double-Digit Door	birthday	8-10	P1	no		10th birthday gift book personalized	A door appears on the morning of the tenth birthday and leads to a puzzle only someone who has lived ten years could solve.
+welcome-little-one	Hello, {name}	new-baby	0-2	P0	no		new baby personalized book	A welcome-to-the-world lullaby: the moon, the trees and the family each say hello to the new baby. Read aloud; a newborn keepsake.
+big-sibling-first-week	{name}'s First Week as a Big {Sister/Brother}	new-baby	2-6	P0	no		big sister book personalized	The first seven days home with a new baby, one new job and one honest feeling each day, ending in a quiet moment just for the older child.
+twins-arrive	{name} and the Two New Babies	new-baby	2-6	P1	no		new twin siblings book for big sister or brother	Twice the crying, twice the socks: the child learns to tell two new siblings apart and earns a title only they can hold.
+everyday-superhero	{name}, the Everyday Superhero	adventures	3-8	P0	no		personalized superhero book	The child finds a cape in the laundry and spends a day using small powers (noticing, listening, helping) until a real problem needs them. Generic hero, no licensed characters.
+dinosaur-egg	{name} and the Dinosaur Egg	adventures	3-8	P0	no		personalized dinosaur book for kids	A warm egg appears in the backyard, hatches into a small friendly dinosaur, and the child must get it back to its valley.
+tide-pool-mermaid	{name} and the Tide Pool Mermaid	adventures	3-8	P0	no		personalized mermaid book	The child meets a tiny mermaid stuck in a tide pool and has until high tide to help her home, learning about the sea on the way.
+broken-bridge-princess	{Princess/Prince} {name} and the Broken Bridge	adventures	3-8	P0	no		personalized princess book	A princess with a toolbox fixes the kingdom's broken bridge, and earns the trust of a grumpy troll by asking what he needs.
+sniffly-dragon	{Dame/Sir} {name} and the Sniffly Dragon	adventures	3-8	P1	no		personalized knight and dragon book	A young knight sent to chase off a dragon finds out it has a terrible cold, and the cure takes the whole village.
+paper-map-pirate	Captain {name} and the Paper Map	adventures	3-8	P0	no		personalized pirate book for kids	A rainy-day cardboard ship sets sail through an imagined sea to find treasure that turns out to be something shared.
+big-yellow-digger	{name} and the Big Yellow Digger	adventures	2-6	P0	no		personalized construction truck book	The child helps a crew whose digger is stuck and figures out how to free it. Lots of truck sounds.
+midnight-train	Conductor {name} and the Midnight Train	adventures	2-7	P1	no		personalized train book for kids	The child runs a night train carrying sleepy animals home, solving problems at each stop until every passenger is tucked in.
+little-red-racer	{name} and the Little Red Racer	adventures	3-8	P1	no		personalized race car book	A small car with a big dream needs a pit crew, and the child learns winning is not the only reason to finish.
+lost-moon-rover	Commander {name} and the Lost Moon Rover	adventures	4-9	P1	no		astronaut book personalized	The child pilots a ship to rescue a lost moon rover, using real facts about the moon and stars.
+unicorn-sparkle	{name} and the Unicorn Who Lost Her Sparkle	adventures	3-7	P0	no		personalized unicorn book	A young unicorn has lost her shine and the child helps her see it comes from what she does for others.
+fairies-under-the-porch	{name} and the Fairies Under the Porch	adventures	3-7	P1	no		personalized fairy book	A very small village is found under the porch steps, and the child helps protect it from a coming rain.
+jungle-rescue	{name}'s Jungle Rescue	adventures	3-8	P1	no		personalized jungle animals book	The child helps a lost baby elephant find its herd, meeting and learning about jungle animals on the way.
+morning-on-the-farm	{name}'s Morning on the Farm	adventures	2-5	P1	no		personalized farm animals book	A rooster who overslept leaves the farm in a muddle and the child helps every animal get on with their day.
+runaway-puppy	{name} and the Puppy Who Ran Away	animals	3-8	P1	no		personalized dog book for kids	A new puppy runs off through the neighborhood and the child follows, learning what the pup needs to feel safe.
+kitten-on-the-roof	{name} and the Kitten on the Roof	animals	3-7	P1	no		personalized cat book for kids	A stubborn kitten will not come down, and the child uses patience instead of force.
+clover-the-pony	{name} and Clover the Pony	animals	4-9	P1	no		personalized horse book for kids	The child earns the trust of a shy pony at a stable, one carrot and one quiet morning at a time.
+soccer-team-goal	{name} Scores for the Team	adventures	4-9	P1	no		personalized soccer book	The team's star is out sick and the child learns the winning play was a pass.
+basketball-last-shot	{name} and the Last Shot	adventures	5-9	P1	no		personalized basketball book	A missed shot, a long practice with a neighbor and the courage to try again.
+dance-recital	{name} Takes the Stage	adventures	3-8	P1	no		personalized dance book	Recital nerves meet a costume mishap and the child dances anyway.
+backyard-home-run	{name} and the Backyard Home Run	adventures	4-9	P2	no		personalized baseball book	A ball through a window leads to owning up and to an unlikely coach.
+balance-beam	{name} on the Balance Beam	adventures	4-9	P2	no		personalized gymnastics book	Falling off the beam again and again until the child learns to count falls as practice.
+earns-a-belt	{name} Earns a Belt	adventures	4-9	P2	no		personalized karate book	A first belt test and what respect and focus actually mean.
+song-nobody-knew	{name} and the Song Nobody Knew	adventures	4-9	P2	no		personalized music book for kids	The child hears a tune in the rain and writes a song that brings a quiet street together.
+paints-the-town	{name} Paints the Town	adventures	3-8	P2	no		personalized art book for kids	A gray wall becomes a mural when the child invites neighbors to add one brushstroke each.
+messy-kitchen-chef	Chef {name}'s Very Messy Kitchen	adventures	3-8	P1	no		personalized cooking book for kids	A soup for a sick friend, an overflowing pot and tasting as you go.
+almost-working-machine	{name} and the Almost-Working Machine	adventures	5-9	P1	no		personalized science book for kids	The child's machine fails five times, and each failure teaches what the next version needs.
+camps-under-the-stars	{name} Camps Under the Stars	adventures	3-8	P1	no		personalized camping book	A first night in a tent: noises, a fire, stars, and working out what the rustling is.
+first-day-of-school	{name}'s First Day of School	milestones	4-6	P1	no	Jul-Sep	first day of school book personalized	Backpack nerves, a lost lunchbox, and one other child who is just as nervous.
+goes-to-preschool	{name} Goes to Preschool	milestones	2-4	P1	no	Jul-Sep	starting preschool book personalized	A gentle first drop-off and the promise that grown-ups always come back.
+kindergarten-graduation	{name} Graduates	milestones	5-6	P2	no	May-Jun	kindergarten graduation book	Remembering a whole year of learning on the last day before moving on.
+wiggly-tooth	{name} and the Wiggly Tooth	milestones	4-7	P1	no		losing first tooth book personalized	A wiggly tooth takes all week to fall out, and goes missing at the worst moment before the Tooth Fairy's visit.
+rides-a-bike	{name} Rides Without Training Wheels	milestones	4-7	P1	no	Apr-Jul	learning to ride a bike book	Wobbles, a scraped knee and the moment a grown-up's hand lets go.
+first-haircut	{name}'s First Haircut	milestones	1-4	P2	no		first haircut book for toddlers	A nervous trip to the barber or salon, made brave by a stuffed friend who goes first.
+new-house	{name}'s New House	milestones	3-7	P1	no		moving to a new home book for kids	Saying goodbye to the old house and finding the first thing that makes the new one feel like home.
+big-kid-bed	{name}'s Big Kid Bed	milestones	2-4	P1	no		big kid bed book toddler	The first night in a big bed: getting out, getting back in, and staying.
+potty-hero	{name} the Potty Hero	life-lessons	2-3	P1	no		potty training book personalized	Trying, missing, trying again, and a proud chart. Warm and matter-of-fact, never shaming.
+bye-bye-binky	{name} Says Bye-Bye Binky	life-lessons	2-3	P2	no		giving up the pacifier book	The child decides to give the pacifier to the new babies who need it.
+goodnight-moon-walk	Goodnight, {name}	bedtime	1-5	P0	no		personalized bedtime book for toddlers	A quiet walk to sleep: the moon tucks in the town one window at a time until it reaches the child. Soothing rhythm, soft ending. Must be an original text.
+friendly-dark	{name} and the Friendly Dark	bedtime	3-6	P1	no		book about being afraid of the dark personalized	The child goes looking for what makes the noises at night and finds each one has a kind explanation.
+kindness-ripple	{name} and the Kindness Ripple	life-lessons	3-8	P1	no		book about kindness personalized	One small kindness at the bus stop travels around town and comes back at the end.
+one-red-wagon	{name} and the One Red Wagon	life-lessons	2-5	P2	no		book about sharing toddler personalized	Two children want one wagon, and what they build together is better.
+brave-today	{name} Is Brave Today	life-lessons	3-7	P1	no		book about bravery for kids personalized	Brave turns out to mean doing it while scared, shown across three small moments.
+confidence-can	{name} Can	life-lessons	4-8	P1	no		confidence book for kids personalized	After a hard day the child lists everything they can do, and finds out a friend needs exactly that.
+big-mad-storm	{name} and the Big Mad Storm	life-lessons	3-7	P1	no		book about big feelings anger for kids	Anger arrives like weather and the child learns breathing, words and waiting it out. No outcome claims.
+worry-backpack	{name}'s Worry Backpack	life-lessons	4-8	P1	no		book about anxiety worry for kids	The child's worries weigh down a backpack, and sharing them with someone lightens it. No clinical claims.
+spills-the-paint	{name} Spills the Paint	life-lessons	3-7	P2	no		book about making mistakes for kids	A spill ruins a project and turns into a better one.
+tries-a-bite	{name} Tries a Bite	life-lessons	2-6	P2	no		picky eater book personalized	A picky eater visits a market with a grandparent and agrees to one brave bite.
+broken-blue-vase	{name} and the Broken Blue Vase	life-lessons	4-8	P2	no		book about honesty for kids	Telling the truth feels awful and then better.
+makes-a-friend	{name} Makes a Friend	life-lessons	3-7	P1	no		book about friendship for kids personalized	The new child on the playground sits alone, and the child works out how to say hello.
+thank-you-jar	{name}'s Thank-You Jar	life-lessons	3-8	P2	no		gratitude book for kids	A jar of notes on a hard week helps the whole family.
+waits-for-the-bus	{name} Waits for the Bus	life-lessons	2-5	P2	no		patience book for kids	A long wait becomes a game of noticing.
+just-like-nobody-else	{name}, Just Like Nobody Else	life-lessons	4-8	P2	no		be yourself book for kids personalized	The child stops copying a friend and finds out what they themselves love doing, like painting or building.
+visits-the-dentist	{name} Visits the Dentist	life-lessons	2-6	P2	no		first dentist visit book	A first dentist visit, step by step, with the chair ride as a highlight.
+at-the-doctors	{name} at the Doctor's	life-lessons	2-6	P2	no		going to the doctor book for kids	A checkup explained: what each tool does, and a small brave moment.
+rainbow-lunch	{name}'s Rainbow Lunch	life-lessons	2-6	P2	no		healthy eating book for kids	The child sets out to eat every color in one day.
+sugar-bugs	{name} and the Sugar Bugs	life-lessons	2-5	P2	no		brushing teeth book for toddlers	Two minutes of brushing is told as a rescue mission.
+looks-up	{name} Looks Up	life-lessons	4-8	P2	no		screen time book for kids	A tablet out of battery on a rainy day leads to a day the child would not trade.
+doctor-saves-the-day	Dr. {name} Saves the Day	careers	3-7	P1	no		when i grow up doctor book personalized	A pretend clinic for toys becomes real when a neighbor's pet needs gentle help, with the child assisting a grown-up.
+animal-doctor	{name} the Animal Doctor	careers	3-8	P1	no		vet book for kids personalized	A day helping at a vet's office and a shy rabbit who needs care.
+teacher-for-a-day	Teacher {name}	careers	3-7	P2	no		when i grow up teacher book	The child teaches a class of stuffed animals and learns how hard listening is.
+firefighter-rescue	Firefighter {name} to the Rescue	careers	2-7	P1	no		personalized firefighter book	A day at the station, a kitten rescue, and how to stay safe.
+captain-takes-off	Captain {name} Takes Off	careers	3-8	P2	no		pilot book for kids personalized	The child visits the cockpit, then guides a small plane home through fog in a pretend run.
+builds-a-bridge	{name} Builds a Bridge	careers	4-9	P2	no		engineer book for kids personalized	The creek floods and the child designs and tests a footbridge.
+very-own-abcs	{name}'s Very Own ABCs	learning	1-5	P1	no		abc book with child's name	An alphabet walk through a day, with the child named throughout. Keep the alphabet generic since the text must work for any name.
+counts-to-ten	{name} Counts to Ten	learning	1-4	P2	no		counting book personalized toddler	One sun, two ducks, up to ten sleepy stars.
+finds-a-rainbow	{name} Finds a Rainbow	learning	1-4	P2	no		colors and shapes book personalized	A search for every color and shape around the house and garden.
+reads-all-alone	{name} Reads It All Alone	learning	4-6	P2	no		learning to read book personalized	A very simple repeated text in which the child reads signs on a walk, ending with reading to a younger friend.
+secret-valentine	{name} and the Secret Valentine	holidays	3-8	P2	no	Jan-Feb	personalized valentine book for kids	Someone in class gets no card, and the child quietly fixes that.
+great-egg-trail	{name} and the Great Egg Trail	holidays	2-7	P2	no	Feb-Apr	personalized easter book for kids	A bunny asks the child for help when eggs roll down the hill in every direction.
+shy-little-ghost	{name} and the Shy Little Ghost	holidays	3-7	P2	no	Sep-Oct	personalized halloween book for kids	Trick-or-treat night with a small ghost who is scared of people. Friendly, never frightening.
+thankful-table	{name}'s Thankful Table	holidays	3-7	P2	no	Oct-Nov	personalized thanksgiving book for kids	A burnt turkey and a family who shows up anyway.
+sparkler-parade	{name} and the Sparkler Parade	holidays	3-8	P2	no	Jun-Jul	fourth of july book for kids personalized	A small town parade needs one more float, built by the child and neighbors.
+new-year-wish	{name}'s New Year Wish	holidays	3-8	P2	no	Dec-Jan	new year book for kids	The child stays up for midnight and makes a promise to try one new thing.
+seven-candles	{name} and the Seven Candles	holidays	3-8	P2	no	Dec	personalized kwanzaa book	The seven principles shown through one week helping family and neighbors. Respectful and accurate.
+festival-of-lights	{name} and the Festival of Lights	holidays	3-8	P2	no	Oct-Nov	personalized diwali book	Lighting diyas, rangoli and family, and a small act that brings light to a neighbor. Respectful and accurate.
+eid-morning	{name}'s Eid Morning	holidays	3-8	P2	no	varies	personalized eid book for kids	The excitement of Eid morning: new clothes, prayer, sweets and giving to others. Respectful and accurate.
+red-lantern	{name} and the Red Lantern	holidays	3-8	P2	no	Jan-Feb	lunar new year book for kids personalized	Cleaning the house, red envelopes, a family dinner and a lion dance. Respectful and accurate.
+baptism-day	{name}'s Baptism Day	faith	0-6	P1	no		baptism gift book personalized	A gentle story of a baptism day with family gathered, water and blessing. Christian, warm, not denominationally specific.
+first-communion	{name}'s First Communion	faith	6-9	P2	no	Mar-May	first communion gift book personalized	Preparing for and receiving first communion, with family and parish. Catholic tradition, accurate and respectful.
+helps-noah	{name} Helps Noah	faith	3-8	P1	no		personalized bible story book	The child joins the animals boarding the ark and helps a frightened pair find courage. Faithful to the story.
+bedtime-prayer	{name}'s Bedtime Prayer	faith	1-6	P1	no		bedtime prayer book personalized	A soft bedtime prayer thanking God for the day's small gifts and for the people the child loves.
+reads-from-the-torah	{name} Reads from the Torah	faith	9-13	P2	no		bar mitzvah or bat mitzvah gift book personalized	Months of study, nerves on the day, and the community around them. Accurate and respectful.
+remembering-a-pet	Remembering {name}'s Friend	family-changes	3-8	P1	yes		book about death of a pet for kids	Plain words about a beloved pet who died: what death means, feeling sad, and making a memory box together.
+remembers-grandparent	{name} Remembers	family-changes	4-9	P1	yes		book about death of a grandparent for kids	A grandparent has died. Plain words, honest feelings, and the things they taught the child that keep going.
+two-homes	{name} Has Two Homes	family-changes	3-8	P1	yes		book about divorce for kids two homes	Parents live apart now. Two bedrooms, the things that stay the same, and that it is not the child's fault.
+counts-the-days-deployment	{name} Counts the Days	family-changes	3-8	P1	yes		book for kids with deployed parent	A parent in the military is away. Video calls, a map on the wall and how to be sad and proud at once.
+hospital-visit	{name}'s Hospital Visit	family-changes	3-8	P1	yes		book about going to the hospital for kids	What to expect during a hospital stay or surgery, who the people are and what the machines do. No medical claims.
+day-came-home	The Day {name} Came Home	family-changes	2-8	P1	yes		adoption book personalized	The day an adopted child joined their family, told warmly and honestly, with their story as something to be proud of.
+bigger-table	{name}'s Bigger Table	family-changes	4-9	P2	yes		book about blended family stepfamily for kids	A parent remarries and new siblings arrive. Awkward dinners, and slowly finding one's place, with a mom and a dad figure.
+very-small-baby	{name} and the Very Small Baby	family-changes	3-8	P2	yes		book for sibling of a nicu baby	A new sibling is born early and stays at the hospital for a while. What the older child can do, and what they can feel.

@@ -1,0 +1,117 @@
+{
+  "slug": "paper-map-pirate",
+  "status": "live",
+  "title_pattern": "Captain {name} and the Paper Map",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized pirate book for kids",
+  "landing_page_slug": "books/paper-map-pirate",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "A rainy afternoon, a cardboard ship, and a paper map that leads to a treasure meant for everyone.",
+  "lesson_or_purpose": "A playful pretend-play adventure about bravery, problem solving and the joy of sharing: the best treasure is the one you hand around.",
+  "tone": "Cozy, playful and adventurous, with gentle suspense during the storm and a warm, glowing ending.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, lively sound words and a little repetition.",
+  "keywords": [
+    "personalized pirate book for kids",
+    "pirate adventure book with child's name",
+    "rainy day pretend play book",
+    "cardboard ship story",
+    "treasure map picture book",
+    "sharing story for kids",
+    "imagination book for preschoolers",
+    "personalized adventure book"
+  ],
+  "illustration_guide": "Every page shows a cozy family home on a rainy afternoon that the child's imagination turns into an ocean world. Real objects stay recognizable while a soft, painterly sea layer flows over them: the rug becomes rolling teal waves, sofa cushions become islands, bookshelves become cliffs, and the kitchen table becomes a sheltered cove. Palette: rainy blue-gray at the windows, warm amber lamplight indoors, teal and seafoam for the imagined sea, and creamy paper tones for the map. Recurring elements on every page: the child's cardboard box ship with a paper sail decorated with a hand-drawn star, a folded paper hat, a stuffed bear first mate, a striped sock-puppet parrot, and the paper map drawn only with pictures (dotted path, little islands, a big X, no lettering). Rain streaks on the windows until the final page, where the sky clears to a soft rainbow.",
+  "page_outline": [
+    {
+      "beat": "Rain taps the windows all morning, and {name} cannot play outside. Dad drags in a giant cardboard box, and {name} gets a twinkle of an idea.",
+      "illustration_prompt": "A cozy living room on a rainy day, gray rain streaking the windows, the child standing beside a huge empty cardboard box with a curious, excited smile while a dad sets it down, warm lamp glow."
+    },
+    {
+      "beat": "{name} turns the box into a ship with a paper sail and a folded paper hat, becoming Captain {name}. Tucked in the bottom of the box, {she/he} finds a folded paper map with a dotted path and a big X.",
+      "illustration_prompt": "The child wearing a folded paper hat, sitting proudly in a cardboard box ship with a paper sail decorated with a hand-drawn star, unfolding a cream paper map showing small drawn islands, a dotted path and a big X, no lettering."
+    },
+    {
+      "beat": "Captain {name} studies the map: Pillow Island, the Rug Sea, Bookshelf Cliffs and Kitchen Cove. {name} calls the crew aboard, a stuffed bear first mate and a sock-puppet parrot, and sets sail.",
+      "illustration_prompt": "The child in the cardboard ship holding the map high, a stuffed bear and a striped sock-puppet parrot sitting aboard, the patterned rug transforming into gentle teal painted waves around the box."
+    },
+    {
+      "beat": "{name} paddles with a wooden spoon across the Rug Sea, waving to imagined dolphins and stopping to rest on soft Pillow Island.",
+      "illustration_prompt": "The child rowing the cardboard ship with a wooden spoon over swirling teal rug waves, playful dream-like dolphins leaping nearby, a pile of sofa cushions shaped like a soft island ahead."
+    },
+    {
+      "beat": "BOOM! Thunder rolls outside and a stormy wind rocks the ship. The paper map flutters out of {name}'s hands and slides deep into the dark Under-Sofa Cave.",
+      "illustration_prompt": "A dramatic but gentle storm moment: rain lashing the window, painted waves rising around the cardboard ship, the child reaching out as the paper map sails toward the shadowy gap under the sofa, the parrot puppet flapping."
+    },
+    {
+      "beat": "{name} takes a deep breath and decides a captain does not give up. With a flashlight and a long reach, {name} rescues the map, but the corner with the end of the path is torn away.",
+      "illustration_prompt": "The child lying on the floor shining a flashlight into the dark space under the sofa, bravely reaching in, pulling out the crinkled map with one corner torn off, the stuffed bear watching nearby."
+    },
+    {
+      "beat": "Captain {name} does not panic. {She/He} remembers the clues, draws the missing path with a crayon, and steers past the tall Bookshelf Cliffs toward Kitchen Cove.",
+      "illustration_prompt": "The child kneeling in the ship, drawing a dotted line onto the torn map with a crayon, then steering past tall bookshelves painted like rocky sea cliffs with seabirds circling."
+    },
+    {
+      "beat": "Under the kitchen table, {name} finds a wooden treasure chest. Inside is a tin of warm cookies, more than enough for one, and {name} has a choice to make.",
+      "illustration_prompt": "The child crouched beneath a kitchen table that looks like a cozy sea cove, opening a small wooden chest that holds a round tin of golden cookies, the child's face thoughtful, light glowing from the chest."
+    },
+    {
+      "beat": "{name} decides treasure is better when it is shared. Captain {name} invites Dad, Grandma and the whole crew aboard for a picnic on the deck, handing out cookies to everyone.",
+      "illustration_prompt": "The child handing cookies to a dad and a grandma sitting on a blanket beside the cardboard ship, the stuffed bear and parrot puppet each holding a cookie, everyone laughing in warm amber light."
+    },
+    {
+      "beat": "The rain stops and a rainbow glows in the window. {name} draws a brand-new map for tomorrow's voyage, with room on the ship for everyone.",
+      "illustration_prompt": "The child drawing a new picture map at the kitchen table with the family gathered close, the cardboard ship nearby, a soft rainbow shining through the clear window, the map showing drawn islands, a ship and smiling figures, no lettering."
+    }
+  ],
+  "cover_scene": "The child as a proud captain in a folded paper hat, standing in a cardboard box ship with a paper star sail, holding up a picture map, as the living room rug swirls into teal painted waves, a stuffed bear and sock-puppet parrot aboard, sofa cushion islands in the distance, with a calm, soft blue-gray sky stretching across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "\"All aboard!\" called Captain {name}. Up jumped Bear, the first mate. Up flapped Parrot, the lookout. Swish, swish went the Rug Sea. Off they sailed, past Pillow Island, to find the X!",
+      "scene": "The child in the cardboard ship holding the map high, a stuffed bear and a striped sock-puppet parrot aboard, the patterned rug becoming gentle teal waves, a pile of cushions shaped like an island ahead."
+    },
+    {
+      "text": "The cave was dark. The cave was deep. But Captain {name} took a big breath. \"Captains don't give up!\" {She/He} clicked on the flashlight, reached in, and pulled out the map. Hooray! But wait... one corner was missing.",
+      "scene": "The child lying on the floor shining a flashlight under the sofa, bravely reaching in and pulling out a crinkled paper map with one torn corner, the stuffed bear watching with wide button eyes."
+    }
+  ],
+  "h1": "Personalized Pirate Book for Kids: Captain of the Cardboard Ship",
+  "meta_title": "Personalized Pirate Book for Kids | StoryBloom",
+  "meta_description": "A personalized pirate book for kids: your child captains a cardboard ship on a rainy day and follows a paper map to a treasure worth sharing.",
+  "promise": "Your child becomes the captain of a rainy-day ship, braves a living room storm, and discovers that the best treasure is the one you share.",
+  "story_summary": "It is raining too hard to play outside, so your child turns a giant cardboard box into a pirate ship and finds a mysterious paper map tucked inside. With a stuffed bear first mate and a sock-puppet parrot, your child sails across the Rug Sea, rests on Pillow Island and spots dolphins in the waves. Then thunder booms, the ship rocks, and the map slides into the dark Under-Sofa Cave with its most important corner torn away. Your child will need courage, a flashlight and some clever thinking to reach Kitchen Cove and see what the X is hiding.",
+  "why_parents": [
+    "Pretend play is how young children try on being brave, in charge and resourceful. A cardboard box adventure feels huge to a three- to eight-year-old, and seeing themselves as the captain who rescues the map and redraws the path gives a real moment of pride in solving a problem without giving up.",
+    "Sharing can be hard at this age, especially when the prize is something sweet. This story lets your child hold the treasure, pause, and choose to hand it around, so generosity feels like the exciting ending of the adventure rather than a rule. It is also a gentle nudge toward turning gray, stuck-inside days into something memorable together."
+  ],
+  "for_grownups": [
+    "When the map gets torn, ask your child what they would do. Could they remember the path, ask for help, or draw a new one? Celebrate any idea that keeps the voyage going.",
+    "At the treasure chest, pause before turning the page and ask: who would you share your treasure with? Talk about how sharing can make something feel even better.",
+    "Keep a box and some paper handy for the next rainy day and let your child draw a picture map of your home for the family to follow."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a scary pirate story?",
+      "answer": "No. The pirate adventure happens in a cozy living room, and the storm is just a thunderclap and a wobbly ship. There are no villains, swords or fights, only gentle suspense that resolves quickly."
+    },
+    {
+      "question": "Who else appears in the story?",
+      "answer": "The crew is a stuffed bear and a sock-puppet parrot, and a dad and a grandma join the picnic at the end. They appear warmly by role, and your child stays the captain throughout."
+    },
+    {
+      "question": "Does the book work for both younger and older kids in the 3-8 range?",
+      "answer": "Yes. Little ones enjoy the sound words like swish and boom and the fun of a cardboard ship, while older children can follow the map clues, the problem of the torn corner and the choice your child makes at the treasure chest."
+    }
+  ],
+  "image_alt": "Personalized pirate book cover featuring an illustrated child as captain of a cardboard ship sailing a living room sea",
+  "feed_title": "Personalized Pirate Book for Kids, Your Child Captains a Cardboard Ship Adventure",
+  "feed_description": "A personalized pirate picture book where your child becomes the captain of a rainy-day adventure. Stuck inside on a stormy afternoon, your child turns a big cardboard box into a ship, finds a mysterious paper map, and sets sail across the Rug Sea with a stuffed bear first mate and a sock-puppet parrot. Along the way come Pillow Island, Bookshelf Cliffs and a thunderclap that sends the map sliding into the dark Under-Sofa Cave. Your child must be brave, think cleverly and redraw the missing path to reach Kitchen Cove, where a treasure waits that is better when shared. A cozy, imaginative read-aloud for ages 3 to 8 that celebrates pretend play, courage and generosity."
+}

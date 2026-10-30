@@ -1,0 +1,117 @@
+{
+  "slug": "welcome-little-one",
+  "status": "live",
+  "title_pattern": "Hello, {name}",
+  "category": "new-baby",
+  "age_range": "0-2",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "new baby personalized book",
+  "landing_page_slug": "books/welcome-little-one",
+  "example": {
+    "name": "Hana",
+    "pronouns": "she",
+    "look": "light tan skin, straight black hair with bangs"
+  },
+  "tagline": "The moon, the trees and the whole family say hello to your newest little one.",
+  "lesson_or_purpose": "A gentle welcome-to-the-world lullaby that tells a newborn they are wanted, known and safe, and celebrates the baby's very first hello back.",
+  "tone": "Soft, rhythmic, tender, hushed like a lullaby",
+  "reading_level": "Read-aloud for ages 0-2: one or two short, repeating lines per page with a gentle refrain",
+  "keywords": [
+    "new baby personalized book",
+    "personalized newborn book",
+    "baby keepsake book",
+    "welcome baby book",
+    "new baby gift",
+    "personalized lullaby book",
+    "baby's first book with name",
+    "bedtime book for babies"
+  ],
+  "illustration_guide": "Setting: a cozy home on a quiet evening, moving between a softly lit nursery with a wooden rocking chair and a crib, and the window view of a gentle garden with two tall leafy trees and a round, friendly moon. Palette: muted night blues, creamy moonlight, sage greens, warm honey lamplight and blush pink accents. Recurring elements on every page: the round glowing moon (visible in the sky or through the nursery window), a small knitted star-patterned blanket wrapped around the baby, a little brown owl that appears somewhere in each scene, and scattered tiny stars. The baby is always swaddled or held safely. Style: soft watercolor with rounded shapes, gentle textures and calm, uncluttered compositions. Family members are drawn by role (Mom, Dad, Grandma, Grandpa) with warm expressions.",
+  "page_outline": [
+    {
+      "beat": "Evening settles over a quiet house. {name} is home for the very first night, wrapped in {her/his} star blanket, and everything outside seems to lean in, curious about the new little one.",
+      "illustration_prompt": "A cozy house at dusk with a warm glowing window, two tall trees in the garden, a round moon rising, and inside the window a swaddled newborn, the child, in a star-patterned blanket held in loving arms."
+    },
+    {
+      "beat": "The round moon peeks through the nursery window and says a soft hello to {name}, spilling silver light across {her/his} blanket. Use a repeating refrain: Hello, {name}.",
+      "illustration_prompt": "A large friendly moon glowing through a nursery window, pale moonlight falling across a crib where the child lies swaddled in a star-patterned blanket, a small brown owl perched on the windowsill outside."
+    },
+    {
+      "beat": "The tall trees in the garden sway and whisper their own hello to {name}, leaves rustling like a gentle shush. Repeat the refrain.",
+      "illustration_prompt": "Two tall leafy trees swaying softly under the moon, branches curving toward the nursery window, where the child is visible in the crib, the little owl tucked on a branch."
+    },
+    {
+      "beat": "The little owl and the twinkling stars join in, each saying hello to {name} in their own quiet way, a hoot and a shimmer. Repeat the refrain.",
+      "illustration_prompt": "A night sky full of tiny twinkling stars around the round moon, a small brown owl with wide gentle eyes on a branch, looking toward the warm nursery window where the child sleeps in a crib."
+    },
+    {
+      "beat": "The challenge: {name} wakes and gives a small cry. The world goes still. The moon, the trees and the owl wonder what the new baby needs on this first big night.",
+      "illustration_prompt": "Inside the nursery, the child in the crib with a small crying face, the moon outside looking concerned, the trees leaning gently, the owl tilting its head, soft blue night tones."
+    },
+    {
+      "beat": "Mom and Dad come in, lift {name} up and rock {her/him} in the rocking chair, saying hello with warm, close voices. Keep the refrain.",
+      "illustration_prompt": "Mom and Dad together in a wooden rocking chair under warm lamplight, cradling the child swaddled in the star blanket, moonlight drifting in from the window."
+    },
+    {
+      "beat": "Grandma and Grandpa tiptoe in and hum a gentle hello song for {name}, their voices low and sweet. Keep the refrain.",
+      "illustration_prompt": "Grandma and Grandpa leaning in beside the rocking chair, smiling softly at the child in Mom's arms, the nursery glowing with honey lamplight and the moon in the window."
+    },
+    {
+      "beat": "The turning point: {name} opens {her/his} eyes, looks at all the loving faces, and makes {her/his} own choice: a tiny coo and a first sleepy smile. It is {name}'s hello back to the world.",
+      "illustration_prompt": "Close view of the child with open, shining eyes and a small sleepy smile, wrapped in the star blanket, surrounded by the gentle faces of family, the moon glowing brighter through the window."
+    },
+    {
+      "beat": "Everyone hears {name}'s hello. The moon glows brighter, the trees sway happily, the owl hoots softly and the stars sparkle, all answering {name} at once.",
+      "illustration_prompt": "A wide view of the garden and house under a brilliant round moon, trees swaying, stars sparkling, the owl on its branch, and the warmly lit nursery window showing the family gathered around the child."
+    },
+    {
+      "beat": "{name} gives a big little yawn and drifts to sleep in the crib. The moon keeps watch as the refrain softens one last time into goodnight: Hello, {name}. Goodnight, {name}.",
+      "illustration_prompt": "The child sleeping peacefully in the crib under the star blanket, a soft nightlight glow, the round moon watching through the window, the owl resting with closed eyes on a branch outside."
+    }
+  ],
+  "cover_scene": "The child as a swaddled newborn in a star-patterned blanket, nestled in a soft crescent of moonlight on a cozy nursery windowsill cushion, two tall leafy trees curving gently on either side and a small brown owl nearby. The top third of the picture is calm, open twilight sky in muted blue with a large round glowing moon to one side and only a few faint stars, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Round and bright, the moon looks in. \"Hello, {name}. Hello, little one.\"",
+      "scene": "A large friendly moon glowing through a nursery window, pale moonlight falling across a crib where the child lies swaddled in a star-patterned blanket, a small brown owl perched on the windowsill outside."
+    },
+    {
+      "text": "A little cry. The night goes still. What does {name} need?",
+      "scene": "Inside the nursery, the child in the crib with a small crying face, the moon outside looking concerned, the trees leaning gently, the owl tilting its head, soft blue night tones."
+    }
+  ],
+  "h1": "Personalized New Baby Book: Hello, Little One",
+  "meta_title": "Personalized New Baby Lullaby Book | StoryBloom",
+  "meta_description": "A personalized new baby book where the moon, the trees and the family each say hello to your little one. A gentle read-aloud keepsake.",
+  "promise": "A soft, rhythmic welcome your newborn will hear in your voice, and a keepsake that records the first night your family said hello.",
+  "story_summary": "It is your child's very first night at home, and the whole world wants to say hello. The round moon peeks through the nursery window, the garden trees whisper, and a little owl and the stars join in. When your baby wakes with a small cry, Mom, Dad, Grandma and Grandpa gather close with their own gentle hellos. What happens next is your little one's to share.",
+  "why_parents": [
+    "In the first months, babies are soothed by the sound of a familiar voice and the steady rhythm of repeated words. A short refrain like \"Hello\" with your baby's name gives you something calm and sweet to say during late feeds and rocking, long before your little one understands the story.",
+    "This book also marks a moment that passes quickly: the first days of getting to know each other. As your child grows, it becomes a story about themselves, the night the moon, the trees and the whole family welcomed them home, and the tiny smile that answered back."
+  ],
+  "for_grownups": [
+    "Read it slowly in a soft voice, pausing on each \"Hello\" so the rhythm can settle you both. Even a few pages during a feed is plenty.",
+    "Swap in the names your family uses, like Nana or Papa, as you read aloud, and point to each face so your baby begins to connect voices and people.",
+    "When your child is older, revisit the book together and tell them about their real first night home: who visited, what the weather was like, and how they first smiled."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for reading to a newborn?",
+      "answer": "Yes. Each page has only a line or two with a repeating hello refrain, written to be read aloud gently during feeds, rocking or bedtime."
+    },
+    {
+      "question": "Which family members appear in the story?",
+      "answer": "Mom, Dad, Grandma and Grandpa each say hello to the baby, alongside the moon, the trees, an owl and the stars. They are shown by role, so the story stays warm and simple."
+    },
+    {
+      "question": "Is it more of a story or a keepsake?",
+      "answer": "Both. It is a soothing lullaby to read now, with a gentle arc where your baby offers a first sleepy smile, and it becomes a keepsake about their welcome into the family."
+    }
+  ],
+  "image_alt": "Personalized new baby book cover featuring an illustrated swaddled baby under a glowing moon as the hero",
+  "feed_title": "Personalized New Baby Book, Lullaby Keepsake Where Your Baby Is the Hero",
+  "feed_description": "Hello, Little One is a personalized new baby book written as a gentle welcome-to-the-world lullaby. On your baby's first night home, the round moon peeks through the nursery window, the garden trees whisper, and a little owl and the twinkling stars each say hello. When the baby wakes with a small cry, Mom, Dad, Grandma and Grandpa gather close with their own soft hellos, until your little one answers with a first sleepy smile. Short, rhythmic lines and a repeating refrain make it easy to read aloud during feeds and bedtime. Soft watercolor illustrations in night blues, sage and warm lamplight show your baby as the hero on every page. A tender keepsake for newborns and a thoughtful new baby gift."
+}

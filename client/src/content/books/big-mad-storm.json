@@ -1,0 +1,117 @@
+{
+  "slug": "big-mad-storm",
+  "status": "live",
+  "title_pattern": "{name} and the Big Mad Storm",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about big feelings anger for kids",
+  "landing_page_slug": "books/big-mad-storm",
+  "example": {
+    "name": "Mateo",
+    "pronouns": "he",
+    "look": "tan skin, wavy dark brown hair"
+  },
+  "tagline": "When a big mad storm rumbles in, your child learns to breathe, find words, and wait for the sky to clear.",
+  "lesson_or_purpose": "Anger is a normal feeling that comes and goes like weather. A child can notice it, slow it with deep breaths, say what is wrong in words, and wait until it passes, without being told that the feeling itself is bad.",
+  "tone": "Warm, playful and reassuring, with stormy sound words that build and then soften into calm.",
+  "reading_level": "Ages 3-7. Short sentences, read-aloud rhythm, simple weather sound words like rumble, crash and whoosh, and a repeated breathing pattern children can copy.",
+  "keywords": [
+    "book about big feelings anger for kids",
+    "personalized anger book for kids",
+    "picture book about feeling mad",
+    "calm down book for preschoolers",
+    "big feelings book personalized",
+    "book about managing anger ages 3-7",
+    "deep breathing story for kids",
+    "social emotional picture book"
+  ],
+  "illustration_guide": "Setting: a cozy family living room with a large window, a soft rug, a couch and a reading corner with pillows. Palette: begins in warm sunny yellows and soft blues, shifts to swirling grays, deep blues and stormy purples while the child is angry, then returns to gentle pastels with a small rainbow at the end. Recurring elements on every page: Biscuit, a small brown puppy with floppy ears and a wagging tail; a set of chunky red, blue and yellow building blocks; the big window whose sky always matches the child's mood; and, during the angry part of the story, a round cartoon storm cloud floating above the child's head that grows and shrinks with the feeling. The cloud is friendly in shape, never frightening. Mom appears as a calm, kind presence. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "On a bright afternoon, {name} is building the tallest block tower ever on the living room rug. {name} carefully places each block, proud and happy, while sunshine pours through the window.",
+      "illustration_prompt": "The child kneels on a soft rug carefully placing a block on top of a tall tower of red, blue and yellow blocks, smiling with concentration. Sunlight streams through a big window showing a clear blue sky. A small brown floppy-eared puppy naps on the couch in the background."
+    },
+    {
+      "beat": "Biscuit the puppy wakes up and bounds over, tail wagging fast. Whack! The wagging tail knocks the whole tower down, and blocks tumble everywhere around {name}.",
+      "illustration_prompt": "The excited brown puppy leaps toward the tower, tail mid-wag, as blocks fly and tumble through the air. The child's arms reach out in surprise, mouth open in an O. The window sky is still blue but a thin cloud is drifting in."
+    },
+    {
+      "beat": "Something rumbles inside {name}. {Her/His} cheeks get hot, {her/his} fists squeeze tight, and a small gray storm cloud puffs up right above {name}'s head.",
+      "illustration_prompt": "The child stands among scattered blocks with flushed cheeks, scrunched eyebrows and tight little fists. A small round gray cartoon storm cloud floats just above the child's head. Outside the window, the sky has turned gray. The puppy tilts its head, unsure."
+    },
+    {
+      "beat": "The cloud grows into a big mad storm. {name} stomps like thunder, shouts 'NO!' like a crack of lightning, and kicks a block like a gust of wind. Biscuit scurries under the couch to hide.",
+      "illustration_prompt": "A large swirling gray and purple cartoon storm cloud fills the space above the child, with playful zigzag shapes like lightning. The child mid-stomp, mouth wide in a shout, one block skidding across the floor. The puppy peeks out from under the couch with worried eyes. The window sky is dark and windy, trees bending."
+    },
+    {
+      "beat": "{name} looks around. The storm has made everything messier, and Biscuit looks scared. {name} does not like how the storm feels inside, all hot and tight, and wonders how to make a storm get smaller.",
+      "illustration_prompt": "The child pauses in the middle of the messy room, the big storm cloud still overhead but no longer growing. The child looks toward the frightened puppy under the couch with a thoughtful, uncertain face. Blocks lie scattered everywhere. Rain streaks the window."
+    },
+    {
+      "beat": "{name} remembers how wild wind outside slows down to a soft breeze. {She/He} takes a slow breath in, like smelling a flower, and lets it out slowly, like blowing a gentle breeze. {name} does it three times, and the thunder grumbles quieter.",
+      "illustration_prompt": "The child stands with eyes closed and cheeks puffed, gently blowing out a long breath shown as soft swirling lines. The storm cloud above has shrunk a little and lightened from purple to gray. The window shows the trees bending less. The puppy's nose pokes out from under the couch."
+    },
+    {
+      "beat": "Mom comes in and sits on the rug. {name} chooses words instead of thunder: 'I am mad. My tower fell down and I worked so hard on it.' Mom listens and nods, and {name} feels the lightning fizzle out.",
+      "illustration_prompt": "Mom sits cross-legged on the rug at eye level with the child, listening with a kind, open face. The child speaks with hands open, explaining. The storm cloud above the child is smaller and softer, a few gentle raindrops falling from it, no lightning. Gray light at the window is beginning to brighten."
+    },
+    {
+      "beat": "A little drizzle is still left, so {name} decides to wait it out. {She/He} curls up in the cozy corner, squeezes a big pillow, and counts raindrops sliding down the window. {name} knows storms pass, even the slow ones.",
+      "illustration_prompt": "The child curls up in a cozy reading corner, hugging a large soft pillow, watching raindrops trickle down the window. A tiny light gray cloud drizzles above the child's head. Warm lamp light fills the corner. Mom sits nearby quietly, and the puppy has crept halfway out from under the couch."
+    },
+    {
+      "beat": "The clouds drift apart, and a small rainbow peeks through the window. {name} feels light again. {She/He} crouches by the couch, says sorry to Biscuit for the shouting, and gives him a gentle pat.",
+      "illustration_prompt": "Sunlight breaks through the window with a small soft rainbow arching across the sky. The storm cloud is gone. The child crouches by the couch, gently patting the puppy, who wags its tail and licks the child's hand. Soft pastel colors fill the room."
+    },
+    {
+      "beat": "{name} and Biscuit build a brand new tower together, with Biscuit sitting nicely nearby. {name} knows that if a big mad storm comes again, {she/he} has slow breaths, words and waiting to help it pass.",
+      "illustration_prompt": "The child places a block on a new tall tower while the puppy sits politely beside it, tail still. Warm golden sunlight and a fading rainbow fill the window. The room is bright and calm in gentle pastels, Mom smiling from the couch."
+    }
+  ],
+  "cover_scene": "The child stands confidently on a soft living room rug next to a tall tower of red, blue and yellow blocks, a small brown floppy-eared puppy sitting at the child's feet. Behind them a big window shows a sky that shifts from a few soft, fading gray storm clouds on one side to clear sunshine and a gentle rainbow on the other. The top third of the picture is calm open sky in soft blues and pastels, uncluttered, leaving room for a title. Warm, friendly palette, no words or lettering.",
+  "sample_pages": [
+    {
+      "text": "Rumble, rumble. Something grumbles deep inside {name}. {Her/His} cheeks get hot. {Her/His} fists squeeze tight. And puff! A little gray storm cloud pops up over {her/his} head.",
+      "scene": "The child stands among scattered blocks with flushed cheeks, scrunched eyebrows and tight little fists. A small round gray cartoon storm cloud floats just above the child's head. The window sky has turned gray, and the brown puppy tilts its head, unsure."
+    },
+    {
+      "text": "{name} remembers how the wild wind slows down. Breathe in, like smelling a flower. Breathe out, like a soft, soft breeze. In... and out. In... and out. In... and out. The thunder grumbles a little quieter.",
+      "scene": "The child stands with eyes closed and cheeks puffed, gently blowing out a long breath shown as soft swirling lines. The storm cloud above has shrunk and lightened. Trees outside the window bend less, and the puppy's nose pokes out from under the couch."
+    }
+  ],
+  "h1": "Personalized Book About Big Feelings and Anger for Kids",
+  "meta_title": "Personalized Big Feelings Anger Book | StoryBloom",
+  "meta_description": "A personalized picture book about anger for ages 3-7. Your child calms a big mad storm with slow breaths, honest words and waiting.",
+  "promise": "A gentle, stormy story where your child meets a big mad feeling and finds three simple ways to let it pass: breathing, words and waiting.",
+  "story_summary": "Your child is building the tallest block tower ever when Biscuit the puppy's wagging tail sends it crashing down. A rumble starts inside, and a little gray storm cloud puffs up overhead, growing into thunderous stomps and lightning shouts. When your child notices the mess and a frightened puppy hiding under the couch, a new question appears: how do you make a storm get smaller? Your child tries slow breaths, honest words and a cozy spot to wait, discovering what helps the sky begin to change.",
+  "why_parents": [
+    "Between ages 3 and 7, anger can arrive fast and feel enormous, often before a child has words for it. Picturing the feeling as weather gives children a way to see it from the outside: storms come, storms are loud, and storms pass. It also sends a quiet message that being mad is not the same as being bad.",
+    "This story keeps the tools small and concrete so your child can picture using them in a real moment: a flower-and-breeze breath, a simple sentence about what went wrong, and a cozy place to wait. Seeing their own face working through a frustrating everyday mishap, like a toppled tower, can make those ideas feel familiar and reachable rather than like a lecture."
+  ],
+  "for_grownups": [
+    "Practice the flower-and-breeze breath together at a calm moment, such as bedtime, so it feels familiar before a real storm shows up.",
+    "Ask your child what their own storm feels like in their body. Hot cheeks? Tight fists? A stompy feeling in the feet? Naming the signs together can make them easier to notice later.",
+    "Offer a simple sentence starter your child can borrow when upset, like the one in the book: 'I am mad because...' and try using it yourself when you feel frustrated."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book tell children that anger is bad?",
+      "answer": "No. The story treats anger like weather: it shows up, it can be loud, and it passes. The focus is on what your child can do with the feeling, not on being ashamed of it."
+    },
+    {
+      "question": "What calming ideas appear in the story?",
+      "answer": "Your child tries three things: slow breathing pictured as smelling a flower and blowing a gentle breeze, saying what is wrong in plain words, and waiting it out in a cozy corner with a pillow. They are simple enough to act out together while reading."
+    },
+    {
+      "question": "Is the storm cloud scary for younger children?",
+      "answer": "The cloud is drawn as a round, friendly cartoon shape that grows and shrinks with the feeling, and it never threatens anyone. Stormy colors give way to sunshine and a small rainbow by the end."
+    }
+  ],
+  "image_alt": "Personalized book about anger cover featuring an illustrated child as the hero beside a block tower and a puppy under a clearing stormy sky",
+  "feed_title": "Personalized Book About Anger and Big Feelings for Kids, Your Child Is the Hero",
+  "feed_description": "A personalized picture book for ages 3-7 about big, stormy feelings. Your child is building a tall block tower when the family puppy's wagging tail knocks it down, and a little gray storm cloud of anger puffs up overhead. As the storm grows into stomps and shouts, your child notices the mess and a scared puppy, and wonders how to make a storm get smaller. Through slow flower-and-breeze breaths, honest words with a listening grown-up, and a cozy place to wait, your child finds ways to let the feeling pass. Bright illustrations shift from sunny yellows to swirling grays and back to soft pastels with a rainbow. A warm, gentle story for talking about anger at home."
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "kindness-ripple",
+  "status": "live",
+  "title_pattern": "{name} and the Kindness Ripple",
+  "category": "life-lessons",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about kindness personalized",
+  "landing_page_slug": "books/kindness-ripple",
+  "example": {
+    "name": "Diego",
+    "pronouns": "he",
+    "look": "tan skin, thick black hair"
+  },
+  "tagline": "One red mitten, one small kindness, and a ripple that travels all the way around town and back.",
+  "lesson_or_purpose": "Small acts of kindness matter, travel further than we can see, and are worth choosing even when no one is watching or thanking us.",
+  "tone": "Warm, cozy and gently wondrous, with a quiet sense of everyday magic as kindness moves from person to person.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, gentle repetition of the ripple idea, simple vocabulary.",
+  "keywords": [
+    "book about kindness personalized",
+    "personalized kindness book",
+    "kindness book for kids",
+    "personalized book about sharing",
+    "pay it forward book for children",
+    "life lessons picture book",
+    "personalized book for preschoolers",
+    "kindness gift for kids"
+  ],
+  "illustration_guide": "Setting: a small, friendly town on a chilly autumn day, with a covered bus stop, a corner bakery, a mail route of brick row houses, steep front steps, a school playground and a leafy park. Palette: soft grays and misty blues for the cold morning, warmed by cozy oranges, creamy yellows and the bright cherry red of the child's mittens, which pop on every page they appear. Recurring elements: the red mittens (one is shared, so watch which hand is bare), a faint golden ripple of light, like a circle spreading on water, that appears whenever a kindness happens and drifts toward the next person, puddles that catch the shimmer, fallen leaves, and steam curling from warm bread and breath. Characters: Dad in a navy coat; Theo, a small boy with a knitted hat; Theo's Grandpa, a gentle older man with a cane and a basket of yarn; Mrs. Patel the baker in a flour-dusted apron; a mail carrier with a big satchel; a younger girl with a yellow kite. The town should feel connected, with the same streets and landmarks visible from different angles across pages.",
+  "page_outline": [
+    {
+      "beat": "On a chilly morning, {name} waits at the bus stop with Dad, wearing {her/his} favorite bright red mittens. Establish the cozy, gray town and the puddles by the curb, and show how warm and happy {name} feels.",
+      "illustration_prompt": "The child and Dad stand under a covered bus stop on a misty autumn morning, the child wearing bright red mittens, puddles shining by the curb and fallen leaves scattered on the sidewalk."
+    },
+    {
+      "beat": "{name} notices a small boy named Theo shivering at the stop, his bare hands tucked into his sleeves because he forgot his mittens at home. {name} sees that Theo looks cold and a little sad.",
+      "illustration_prompt": "A small boy in a knitted hat shivers at the bus stop with his hands pulled into his sleeves, while the child in red mittens watches him with a thoughtful, caring look."
+    },
+    {
+      "beat": "{name} thinks for a moment, then pulls off one red mitten and holds it out to Theo. Now they each have one warm hand. Theo smiles, and a tiny golden ripple shimmers across the puddle at {name}'s feet.",
+      "illustration_prompt": "The child offers one red mitten to the smiling boy, each now with one mittened hand and one bare hand, as a soft golden ripple of light spreads across a puddle beneath them."
+    },
+    {
+      "beat": "Theo's bus leaves, and though {name} cannot see it, the ripple travels with him. Feeling warm and cheerful, Theo holds the bakery door open for Mrs. Patel, who is carrying heavy trays. Delighted, Mrs. Patel hands an extra warm roll to the mail carrier passing by. Show that the kindness {name} started is still moving.",
+      "illustration_prompt": "Outside a cozy corner bakery, the boy with one red mitten holds the door for a baker with trays of bread, who hands a steaming roll to a smiling mail carrier, a golden ripple of light drifting between them."
+    },
+    {
+      "beat": "The ripple keeps going. Warmed by the roll, the mail carrier stops to help an older man with a cane carry his groceries and a basket of yarn up his steep front steps. The man thanks him and settles in by his window with his knitting needles. The kindness from {name}'s bus stop has now reached all the way across town.",
+      "illustration_prompt": "A mail carrier helps a gentle older man with a cane carry grocery bags and a basket of red yarn up the steps of a brick row house, a faint golden ripple floating up the stairs."
+    },
+    {
+      "beat": "Meanwhile, at recess, {name}'s bare hand is cold and pink. {name} tucks it into a pocket and wonders if giving the mitten away really mattered, since no one has said anything about it all day.",
+      "illustration_prompt": "On a breezy school playground, the child sits on a bench with one red mitten on and the other hand tucked into a coat pocket, looking up thoughtfully at swirling leaves."
+    },
+    {
+      "beat": "After school, {name} walks through the park with Dad and finds a younger girl crying because her yellow kite is tangled deep in a prickly bush. People hurry past. {name}'s cold hand aches, and {she/he} has to decide whether to keep walking or stop.",
+      "illustration_prompt": "In a leafy park, a little girl cries beside a yellow kite tangled in a low bush while people hurry by along the path, and the child pauses nearby, one hand bare, looking at her."
+    },
+    {
+      "beat": "{name} chooses to help. {She/He} kneels down, and slowly and patiently untangles the string loop by loop, even with a chilly hand, until the kite is free. The girl cheers and lets {name} help fly it, and a bright golden ripple glows across the sky.",
+      "illustration_prompt": "The child kneels by the bush carefully untangling kite string, then the child and the little girl hold the string together as the yellow kite soars, a wide golden ripple of light spreading across the sky."
+    },
+    {
+      "beat": "That evening, back at the bus stop, Theo hurries over with his Grandpa, the very same man the mail carrier helped. Grandpa holds out {name}'s red mitten along with a brand-new pair he knitted that afternoon, and explains how a chain of kindness came all the way around to him. {name} realizes the ripple has come home.",
+      "illustration_prompt": "At the bus stop at dusk, the boy and his grandpa with a cane present the child with one red mitten and a new pair of knitted red mittens, golden ripples circling softly around all of them under glowing streetlights."
+    },
+    {
+      "beat": "Walking home with both hands warm, {name} understands that one small kindness can travel farther than anyone can see. Already {she/he} is looking around for the next person to help, ready to start a brand-new ripple.",
+      "illustration_prompt": "The child walks home along a lamp-lit street holding Dad's hand, wearing cozy red mittens, while golden ripples glow gently over rooftops, the bakery, the park and the bus stop across the whole town."
+    }
+  ],
+  "cover_scene": "The child stands at a cozy town bus stop wearing bright red mittens, smiling and holding out one mitten, as a soft golden ripple of light spreads outward across a shiny puddle and along the sidewalk toward a bakery and brick row houses in the distance. The top third of the picture is a calm, open, pale blue autumn sky with only a few soft clouds and drifting leaves.",
+  "sample_pages": [
+    {
+      "text": "{name} looked at Theo. {name} looked at {her/his} warm red mittens. Then {she/he} pulled one off. \"Here,\" said {name}. \"One for you, one for me.\" Theo smiled. And in the puddle, something sparkled. A tiny golden ripple.",
+      "scene": "The child holds out one red mitten to a smiling boy in a knitted hat at the bus stop, each with one bare hand, while a small golden ripple of light spreads across the puddle at their feet."
+    },
+    {
+      "text": "The yellow kite was stuck. The little girl was crying. People hurried by. {name}'s bare hand was cold, so cold. Should {she/he} keep walking? {name} stopped. \"I can help,\" {she/he} said.",
+      "scene": "In a leafy park, a little girl cries beside a yellow kite tangled in a prickly bush as people walk past, and the child stops on the path with one mittened hand and one bare hand, turning toward her."
+    }
+  ],
+  "h1": "Personalized Book About Kindness: Your Child and the Kindness Ripple",
+  "meta_title": "Personalized Kindness Book for Kids | StoryBloom",
+  "meta_description": "A personalized book about kindness where your child shares a red mitten at the bus stop and watches the good deed ripple around town and back.",
+  "promise": "Your child sees, page by page, how one small kindness at a bus stop can travel through a whole town and find its way home again.",
+  "story_summary": "On a chilly morning, your child notices a little boy shivering at the bus stop and shares one of a favorite pair of red mittens. The bus pulls away, but the kindness keeps going, passing from a boy to a baker to a mail carrier to an older man across town. Meanwhile, your child spends the day with one cold hand and starts to wonder whether such a small act really mattered. Then, in the park, your child faces a new choice: walk past someone who needs help, or stop again.",
+  "why_parents": [
+    "Between three and eight, children are starting to notice other people's feelings, but kindness can still feel abstract or like something grown-ups simply ask for. This story makes it concrete and visual: a mitten, a door held open, a warm roll, a tangled kite. The golden ripple gives children a picture for something that is usually invisible, which is how one good deed nudges the next.",
+    "The book also tells the truth that kindness does not always come with an instant thank-you. Your child feels the cold hand and the doubt, and still chooses to help again. That quiet moment of choosing, even when no one is watching, is the heart of the story and a gentle way to talk about doing good for its own sake."
+  ],
+  "for_grownups": [
+    "Pause on the pages where the ripple travels and ask, \"Who do you think will be kind next?\" Let your child predict how the kindness might move.",
+    "Talk about the cold-hand moment: \"Have you ever done something kind and wondered if anyone noticed? How did it feel?\" Share a time this happened to you too.",
+    "Try a family ripple day: each person does one small kindness, then share them at dinner and imagine where each one might travel."
+  ],
+  "faqs": [
+    {
+      "question": "What kind of kindness does my child show in this story?",
+      "answer": "Your child shares one red mitten with a cold little boy at the bus stop, and later untangles a younger girl's kite in the park. Both are small, everyday actions a young child could really do."
+    },
+    {
+      "question": "Is this book good for a child who is just learning about sharing?",
+      "answer": "Yes. Sharing one mitten instead of the whole pair shows a simple, realistic kind of sharing, and the story gently explores the feeling of giving something up and wondering if it was worth it."
+    },
+    {
+      "question": "Does the story work for both younger and older children in the 3-8 range?",
+      "answer": "Younger children enjoy the repetition of the golden ripple and the bright red mittens, while older children can follow the chain of kindness around town and spot how the characters connect at the end."
+    }
+  ],
+  "image_alt": "Personalized kindness book cover featuring an illustrated child at a bus stop sharing a red mitten as a golden ripple spreads across town",
+  "feed_title": "Personalized Kindness Book for Kids Ages 3-8, Your Child Is the Hero of the Kindness Ripple",
+  "feed_description": "A personalized picture book about kindness where your child becomes the illustrated hero. On a chilly morning at the bus stop, your child shares one red mitten with a shivering little boy. That small act sets off a golden ripple that travels through town, from a baker to a mail carrier to a kind older man knitting by his window. Along the way, your child faces a real choice in the park: walk past someone who needs help, or stop and help even with a cold hand. Warm, cozy illustrations follow the ripple from street to street. Includes gentle conversation prompts for grown-ups about sharing, noticing others, and choosing to be kind when no one is watching. A thoughtful gift for children ages 3 to 8, any time of year."
+}

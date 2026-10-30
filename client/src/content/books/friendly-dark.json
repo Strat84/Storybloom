@@ -1,0 +1,117 @@
+{
+  "slug": "friendly-dark",
+  "status": "live",
+  "title_pattern": "{name} and the Friendly Dark",
+  "category": "bedtime",
+  "age_range": "3-6",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about being afraid of the dark personalized",
+  "landing_page_slug": "books/friendly-dark",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "Every creak, tap and whoosh has a kind little secret, and your child is the one who finds it.",
+  "lesson_or_purpose": "Night noises and shadows feel less scary once you look closely. Curiosity and a brave breath can turn the dark into something cozy and familiar.",
+  "tone": "Cozy, gentle and lightly playful, with soft sound words and a calm, sleepy ending.",
+  "reading_level": "Read-aloud for ages 3-6: short sentences, simple words, repeated sound words like creak, tap-tap and whoosh.",
+  "keywords": [
+    "book about being afraid of the dark personalized",
+    "afraid of the dark book for kids",
+    "personalized bedtime story",
+    "night noises picture book",
+    "fear of the dark children's book",
+    "bedtime book for preschoolers",
+    "custom bedtime book with child's name",
+    "flashlight bedtime story"
+  ],
+  "illustration_guide": "Setting: the child's bedroom at night, with a bed and patchwork quilt, a nightstand with a small flashlight, a window showing a leafy tree branch and a round moon, a floor vent, and a coat hook by the door holding a bathrobe and a winter hat. Palette: deep indigo, soft navy and dusky violet for the night, warmed by the golden beam of the flashlight and the amber glow of a star-shaped nightlight. Recurring elements: a floppy plush bunny the child carries on every page, a fluffy orange cat who appears partway through, the moon in the window, and the flashlight's warm circle of light. Shapes are soft and rounded; shadows are gentle and never menacing. The child wears cozy pajamas throughout.",
+  "page_outline": [
+    {
+      "beat": "Bedtime. A grown-up tucks {name} into bed, kisses {her/his} forehead and turns off the big light. {name} snuggles with a plush bunny while the star nightlight glows softly.",
+      "illustration_prompt": "A cozy bedroom at night, a parent at the doorway with a hand on the light switch, the child tucked under a patchwork quilt hugging a plush bunny, a star-shaped nightlight glowing amber, moon visible through the window."
+    },
+    {
+      "beat": "Creak! A noise in the dark. {name} pulls the blanket up to {her/his} nose, then chooses to be brave: {she/he} takes a deep breath, picks up the little flashlight from the nightstand and decides to find out what the noise is.",
+      "illustration_prompt": "The child sitting up in bed, quilt pulled to the nose with wide curious eyes, one hand reaching for a small flashlight on the nightstand, plush bunny tucked under an arm, deep indigo room lit by the nightlight."
+    },
+    {
+      "beat": "{name} tiptoes across the room and steps on one floorboard. Creak! It is just the old floor, stretching like a sleepy yawn. {name} steps on it again on purpose and smiles.",
+      "illustration_prompt": "The child in pajamas tiptoeing across a wooden floor, one foot pressing a floorboard, a golden flashlight beam on the floor, the child smiling with surprise, plush bunny dangling from one hand."
+    },
+    {
+      "beat": "Tap-tap-tap at the window. {name} shines the flashlight and finds a leafy tree branch swaying in the breeze, tapping the glass like it is waving hello. {name} waves back.",
+      "illustration_prompt": "The child at the bedroom window holding the flashlight, its warm beam lighting a leafy branch brushing the glass, a round moon behind it, the child waving at the branch."
+    },
+    {
+      "beat": "Whoosh! A soft rush of air comes from the floor vent. {name} kneels and holds out a hand. The air is warm. It is the heater, working all night to keep {her/him} cozy.",
+      "illustration_prompt": "The child kneeling beside a floor vent with one palm held over it, a curl of soft warm air drawn as gentle swirls, the flashlight resting on the floor making a golden pool of light, plush bunny beside the child."
+    },
+    {
+      "beat": "Scritch-scratch, from under the bed! {name} lies on the floor and peeks underneath with the flashlight. Two bright eyes blink back. It is the family cat, who wants to cuddle. {name} giggles and scoops the cat up.",
+      "illustration_prompt": "The child lying on the floor peeking under the bed with the flashlight, a fluffy orange cat with glowing friendly eyes curled under the bed frame, the child's delighted face lit in gold."
+    },
+    {
+      "beat": "Hoo-hoo! A sound drifts in from outside. {name} looks out the window with the cat and spots a round little owl on the tree branch, wide awake. Some animals do their busy work at night while {name} sleeps.",
+      "illustration_prompt": "The child at the window holding the orange cat, both looking out at a small round owl perched on the moonlit branch, stars in a navy sky, the flashlight pointed gently downward."
+    },
+    {
+      "beat": "Then {name} sees it: a giant shadow on the wall with long floppy arms and a pointy head! {Her/His} knees wobble. But {name} counts to three, points the flashlight right at it, and discovers it is only {her/his} bathrobe and winter hat on the hook. {She/He} laughs and says goodnight to it.",
+      "illustration_prompt": "A tall soft shadow on the bedroom wall shaped by a bathrobe and a pointy winter hat hanging on a coat hook, the child standing bravely with the flashlight beam lighting the robe, the cat peeking from behind the child's legs, the child's expression turning from surprise to a grin."
+    },
+    {
+      "beat": "{name} clicks off the flashlight and listens. Creak, tap-tap, whoosh, hoo-hoo. All together the sounds are like a quiet night song. {name} whispers goodnight to each one: goodnight floor, goodnight branch, goodnight heater, goodnight owl.",
+      "illustration_prompt": "The child sitting on the edge of the bed in the soft amber nightlight glow, flashlight off in the lap, eyes closed and listening with a peaceful smile, gentle musical swirls drifting from the floor, window, vent and tree, the cat curled nearby."
+    },
+    {
+      "beat": "Back under the quilt, with the bunny in {her/his} arms and the cat curled at {her/his} feet, {name} snuggles down. The dark is not scary anymore. It is full of friends. {name} drifts off to sleep.",
+      "illustration_prompt": "The child asleep under the patchwork quilt hugging the plush bunny, the orange cat curled at the foot of the bed, the moon and owl visible through the window, the whole room bathed in calm indigo and soft amber light."
+    }
+  ],
+  "cover_scene": "The child in cozy pajamas stands on a moonlit bedroom rug, holding a small flashlight that casts a warm golden beam, with a plush bunny tucked under one arm and a fluffy orange cat at their feet. Behind them, a window shows a leafy branch with a small round owl perched on it. The top third of the picture is a calm, open deep-indigo night sky with a soft round moon off to one side and a few faint stars, leaving clear space for the title.",
+  "sample_pages": [
+    {
+      "text": "Creak! went something in the dark. {name} pulled the blanket up to {her/his} nose. Then {she/he} took a big, deep breath. \"I'm going to find out what you are,\" {she/he} whispered, and click! {She/He} turned on {her/his} little flashlight.",
+      "scene": "The child sitting up in bed with the quilt tucked under the chin, holding a small flashlight that has just switched on, its golden beam cutting across the indigo room, plush bunny tucked under one arm, star nightlight glowing in the corner."
+    },
+    {
+      "text": "On the wall stood a giant shadow with long, floppy arms and a pointy head! {name}'s knees went wibble-wobble. One, two, three... {She/He} pointed the flashlight right at it. It was only {her/his} bathrobe and winter hat, hanging on the hook! {name} giggled. \"Goodnight, Mr. Robe!\"",
+      "scene": "A tall, soft shadow stretching up the bedroom wall, cast by a bathrobe and a pointy knit hat on a coat hook, the child standing with the flashlight beam on the robe and a big grin, the orange cat peeking out from behind the child's legs."
+    }
+  ],
+  "h1": "Personalized Book About Being Afraid of the Dark: Your Child Meets the Friendly Dark",
+  "meta_title": "Personalized Afraid of the Dark Book | StoryBloom",
+  "meta_description": "A personalized bedtime book where your child explores night noises with a flashlight and finds a kind, cozy reason for each one.",
+  "promise": "A gentle bedtime adventure where your child grabs a flashlight, follows every creak and tap, and discovers the dark is full of friendly surprises.",
+  "story_summary": "When the big light goes off, your child hears a creak in the dark. Instead of hiding under the covers, your child picks up a little flashlight and sets out to solve the mystery. A tapping at the window, a whoosh from the floor, and a scritch-scratch under the bed each turn out to have a kind and cozy explanation. But then a giant shadow appears on the wall, and your child has to decide what to do next.",
+  "why_parents": [
+    "Between three and six, many children start to notice night sounds and shadows they never paid attention to before, and an active imagination can turn a coat on a hook into something much bigger. This book meets that worry with curiosity rather than dismissal, showing that each noise has an ordinary, gentle reason waiting to be found.",
+    "Seeing themselves as the one holding the flashlight gives children a picture of being brave in their own room, on their own terms. The story ends with a simple goodnight ritual to the house's sounds that families can borrow for real bedtimes, turning the quiet hours into something familiar and warm."
+  ],
+  "for_grownups": [
+    "After reading, lie quietly together with the lights low and name the real sounds you hear in your home, like the fridge humming or a car passing outside, then say goodnight to each one.",
+    "If your child points to a shadow that looks scary, try the story's trick: count to three together, turn on a small light, and look at what is really there.",
+    "Ask your child which sound in the book they would like to investigate first, and what they think the branch, the owl or the cat would say if they could talk."
+  ],
+  "faqs": [
+    {
+      "question": "Is the story scary at all?",
+      "answer": "No. The sounds and the shadow are drawn softly and each one is quickly explained in a cozy way. The single surprise moment with the shadow on the wall ends with your child laughing."
+    },
+    {
+      "question": "Does the child leave the bedroom in the story?",
+      "answer": "No. The whole adventure happens inside your child's bedroom and at the window, so the story never suggests wandering the house alone at night."
+    },
+    {
+      "question": "Does the book end calmly enough for bedtime?",
+      "answer": "Yes. The last pages slow down with a quiet goodnight to each sound, and your child drifts off to sleep with a bunny and the family cat close by."
+    }
+  ],
+  "image_alt": "Personalized afraid of the dark book cover featuring an illustrated child holding a flashlight in a moonlit bedroom",
+  "feed_title": "Personalized Afraid of the Dark Book for Kids Ages 3-6, Your Child Is the Bedtime Hero",
+  "feed_description": "A personalized bedtime picture book for children ages 3 to 6 who feel uneasy about the dark. Your child becomes the illustrated hero who hears a creak after lights out, picks up a little flashlight, and goes looking for answers. A tapping branch at the window, a warm whoosh from the heater, a cat hiding under the bed and a round owl outside each turn out to have a gentle explanation. When a tall shadow appears on the wall, your child counts to three and shines a light on it. The story closes with a calm goodnight to every sound in the room, a small ritual families can use at real bedtimes. Soft indigo night scenes, warm golden light and short, rhythmic read-aloud text."
+}

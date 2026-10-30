@@ -1,0 +1,117 @@
+{
+  "slug": "turning-ten",
+  "status": "live",
+  "title_pattern": "{name} and the Double-Digit Door",
+  "category": "birthday",
+  "age_range": "8-10",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "10th birthday gift book personalized",
+  "landing_page_slug": "books/turning-ten",
+  "example": {
+    "name": "Mateo",
+    "pronouns": "he",
+    "look": "tan skin, wavy dark brown hair"
+  },
+  "tagline": "On the morning your child turns ten, a door appears, and only ten years of living can open it.",
+  "lesson_or_purpose": "Every year of a child's life, including the hard parts, adds up to who they are, and turning ten is a moment to see how much they have grown and to step into what comes next with confidence.",
+  "tone": "Warm, adventurous and a little mysterious, with puzzle-solving fun and a gentle, proud reflective ending.",
+  "reading_level": "Ages 8-10: fuller sentences, a few interesting words, short paragraphs per page suitable for independent reading or reading aloud.",
+  "keywords": [
+    "10th birthday gift book personalized",
+    "personalized 10th birthday book",
+    "tenth birthday gift for kids",
+    "double digit birthday book",
+    "personalized birthday adventure book",
+    "birthday book for 10 year old",
+    "custom picture book for kids",
+    "puzzle adventure book for kids"
+  ],
+  "illustration_guide": "Setting: the child's sunny bedroom on a birthday morning, then a long magical hallway of ten small rooms, each holding objects from one year of the child's life, ending at a tall double door. Palette: deep teal and polished brass for the doors, warm cream walls, golden morning light, with each room tinted a slightly brighter shade of coral, peach or gold as the years go on; the year-seven room starts in dusky blue-gray before glowing warm. Recurring elements: a small teal door with two brass keyholes (one tall and narrow, one perfectly round), a friendly brass clockwork owl companion with amber eyes, glowing puzzle pieces the child collects in a canvas satchel, and a single tiny brass key. No words, numbers, signs or lettering appear anywhere in the art.",
+  "page_outline": [
+    {
+      "beat": "On the morning of {name}'s tenth birthday, {she/he} wakes to find a small teal door in the bedroom wall that was definitely not there last night. It has two brass keyholes, one tall and narrow, one perfectly round. {name} is curious and a little brave, and decides to open it.",
+      "illustration_prompt": "A sunny bedroom in golden morning light. The child sits up in bed in pajamas, eyes wide, staring at a small teal door with polished brass trim set into the cream wall. The door has two brass keyholes, one tall and narrow and one perfectly round. A soft glow leaks from around its edges."
+    },
+    {
+      "beat": "Behind the door, a brass clockwork owl named Tock greets {name}. Tock explains that this door only opens for someone who has lived exactly ten years. Beyond it is a hallway of ten rooms, one for each year of {her/his} life, and each room hides a glowing puzzle piece. Collect all ten, and {name} can open the Double-Digit Door at the end.",
+      "illustration_prompt": "The child kneels at the open teal door, looking into a long, warmly lit hallway lined with ten small arched rooms. A friendly brass clockwork owl with amber eyes perches on a round knob, one wing gesturing down the hall. At the far end stands a tall double door of teal and brass."
+    },
+    {
+      "beat": "The first rooms are full of baby blankets, soft blocks and wobbly first steps. The puzzles here ask {name} to look closely at clues from when {she/he} was tiny. {name} solves them quickly, laughing at how small {she/he} once was, and four pieces glow in {her/his} satchel.",
+      "illustration_prompt": "A cozy peach-colored room filled with soft stacking blocks, a tiny pair of baby shoes and a rocking toy. The child crouches, grinning, holding up a glowing puzzle piece found under a block. Tock the owl hops beside the child. A canvas satchel at the child's hip shines with collected pieces."
+    },
+    {
+      "beat": "In the rooms for years five and six, the puzzles need real skills. {name} must tie a tricky knot to free a piece from a ribbon and read a riddle written in a picture code. {name} realizes these are things {she/he} could not do once, and now does easily.",
+      "illustration_prompt": "A bright coral room with shoelaces and colorful ribbons strung like garlands. The child concentrates, fingers working a ribbon knot that holds a glowing puzzle piece. Picture-code tiles of stars, moons and leaves cover one wall. Tock watches with tilted head."
+    },
+    {
+      "beat": "The room for year seven is dim and blue-gray, and its door is stuck. Tock says this piece can only be earned by remembering something hard. {name} remembers a time things went wrong, a moment {she/he} would rather forget, and {name} feels a tight knot in {her/his} chest.",
+      "illustration_prompt": "A dusky blue-gray room with a closed door and a faint shimmer behind it. The child stands in front of it, shoulders slightly hunched, thoughtful and uncertain. Tock the owl sits close by on the floor, looking up kindly. The glow from the satchel is the only warm light."
+    },
+    {
+      "beat": "{name} wants to skip this room, but Tock gently says the Double-Digit Door counts every year, not just the easy ones. {name} takes a breath and says out loud what happened and what {she/he} learned from it: that trying again matters more than getting it right the first time. The room fills with warm light and the piece appears.",
+      "illustration_prompt": "The same year-seven room now flooding with warm golden light, the blue-gray melting away. The child stands taller, hand reaching toward a glowing puzzle piece floating at chest height. Tock spreads both brass wings in happy surprise."
+    },
+    {
+      "beat": "In the rooms for years eight and nine, the puzzles get bigger. {name} solves a number riddle using a clever pattern, then finds a paper bird that has lost its way. Helping it home will take time, but {name} chooses to help anyway, and the grateful bird drops the ninth piece into {her/his} hands.",
+      "illustration_prompt": "A golden room with a high open window and drifting paper clouds. The child gently lifts a small folded paper bird toward the window, guiding it out. A glowing puzzle piece tumbles from the bird toward the child's waiting hand. Tock flutters alongside."
+    },
+    {
+      "beat": "With all ten pieces, {name} reaches the Double-Digit Door, but the pieces will not fit when lined up by year. {name} thinks hard, then tries something new: {she/he} arranges them by what each year taught {her/him}. The pieces click together into a shining brass key with two parts, one tall and one round.",
+      "illustration_prompt": "The child kneels on the hallway floor before the tall teal and brass double door, arranging ten glowing puzzle pieces into a new shape. The pieces are joining into a shining key with a tall narrow part and a round part. Tock leans in, eyes bright."
+    },
+    {
+      "beat": "The key turns, and the Double-Digit Door swings open onto a bright, empty room with bare shelves and a wide open window full of sky. Tock explains that this is the room for year eleven, and it belongs to {name} to fill. {name} sets one small thing on the first shelf: a seed, a promise to grow.",
+      "illustration_prompt": "The tall double door stands open onto a sunlit room with empty wooden shelves and a large window showing open blue sky and distant hills. The child places a tiny seed in a small clay pot on the first shelf. Tock perches on the windowsill, feathers glinting."
+    },
+    {
+      "beat": "{name} steps back through the little teal door, which quietly fades into the bedroom wall. From downstairs, the family calls {her/him} to birthday breakfast. On the pillow sits one tiny brass key. {name} tucks it into a pocket and runs to celebrate, ready for whatever year eleven brings.",
+      "illustration_prompt": "The sunny bedroom again, the wall plain where the teal door was, with a faint golden shimmer fading. The child, smiling, holds a tiny brass key from the pillow. Through the open bedroom doorway, warm light and a glimpse of a birthday breakfast table with balloons."
+    }
+  ],
+  "cover_scene": "The child stands confidently at the open teal and brass Double-Digit Door, holding a shining brass key, with a canvas satchel of glowing puzzle pieces at one hip and a friendly brass clockwork owl on one shoulder. Golden light pours from the doorway onto a long magical hallway behind. The top third of the picture is calm, softly glowing cream and pale gold open space above the door's arch, left clear for a title. No words or lettering.",
+  "sample_pages": [
+    {
+      "text": "Behind the little door sat a brass owl with glowing amber eyes. \"Good morning, {name},\" it said, ruffling its metal feathers. \"I am Tock. This door opens only for someone who has lived exactly ten years.\" Tock pointed a wing down a long, golden hallway. \"Ten rooms, one for every year of your life. Find the hidden piece in each one, and the Double-Digit Door is yours to open.\"",
+      "scene": "The child kneels at the open teal door, looking into a long, warmly lit hallway lined with ten small arched rooms. A friendly brass clockwork owl with amber eyes perches on a round knob, one wing gesturing down the hall. At the far end stands a tall double door of teal and brass."
+    },
+    {
+      "text": "{name} wanted to walk right past. But Tock said softly, \"The door counts every year, not just the easy ones.\" So {name} took a deep breath and told the truth about the day everything went wrong. \"I wanted to quit,\" {she/he} said. \"But I tried again, and I got better.\" Warm light poured into the room, and there, floating in the air, was the seventh piece.",
+      "scene": "A small room turning from dusky blue-gray to warm gold as light floods in. The child stands taller, hand reaching toward a glowing puzzle piece floating at chest height. A brass clockwork owl spreads both wings in happy surprise."
+    }
+  ],
+  "h1": "Personalized 10th Birthday Gift Book: The Double-Digit Door",
+  "meta_title": "Personalized 10th Birthday Book | StoryBloom",
+  "meta_description": "A personalized 10th birthday book where your child opens a magical door and solves a puzzle built from ten years of growing up.",
+  "promise": "A tenth birthday adventure that helps your child see every year so far, the easy ones and the hard ones, as part of the story of who they are becoming.",
+  "story_summary": "On the morning your child turns ten, a small teal door appears in the bedroom wall. Behind it waits Tock, a brass clockwork owl, and a hallway of ten rooms, one for each year of your child's life. Each room hides a puzzle piece, and the puzzles get trickier as the years go on, from baby blocks to knots, codes and a paper bird that needs help finding its way. One room is dim and stuck, and opening it means remembering something hard.",
+  "why_parents": [
+    "Turning ten feels big to kids. Double digits mark the shift from little kid to big kid, and many children are quietly aware that they can do things now that once seemed impossible. A story that walks back through each year gives that feeling shape, and lets your child notice their own growth in a way that is playful rather than sentimental.",
+    "Ten is also an age when kids start replaying mistakes and comparing themselves to others. This book includes a room for a hard memory, and shows your child choosing to face it and name what they learned. It is a gentle way to say that the tough days count too, and that they are part of what makes your child ready for the year ahead."
+  ],
+  "for_grownups": [
+    "Ask your child which room from the story they would most like to visit from their own life, and what puzzle might be hidden there.",
+    "Share a hard moment from when you were around ten and what it taught you, then invite your child to share one of theirs if they want to.",
+    "Talk about the empty room for year eleven: what is one thing your child hopes to learn, try or get better at this year?"
+  ],
+  "faqs": [
+    {
+      "question": "Is this book only for a tenth birthday?",
+      "answer": "Yes, the story is built around turning ten, with one room for each year of your child's life and a door that opens only at ten. It makes a natural gift for the birthday morning or the party."
+    },
+    {
+      "question": "Is the hard memory in the year-seven room upsetting?",
+      "answer": "The story keeps the hard moment general, so your child can fill it in with their own experience or none at all. The focus is on facing it and realizing that trying again matters, so the scene ends warm and hopeful."
+    },
+    {
+      "question": "Is the reading level right for an independent reader?",
+      "answer": "The text is written for ages 8 to 10, with fuller sentences, some dialogue and a puzzle-adventure plot. Most children this age can read it on their own, and it also works well read aloud together."
+    }
+  ],
+  "image_alt": "Personalized 10th birthday book cover featuring an illustrated child holding a brass key at a glowing magical door with a clockwork owl",
+  "feed_title": "Personalized 10th Birthday Gift Book for Kids, Your Child Opens the Double-Digit Door",
+  "feed_description": "A personalized picture book made for a tenth birthday. On the morning your child turns ten, a small teal door appears in the bedroom wall. Inside, a brass clockwork owl named Tock leads your child down a hallway of ten rooms, one for every year of life so far. Each room hides a glowing puzzle piece, and the puzzles grow trickier from baby blocks to knots, picture codes and a lost paper bird. One room holds a hard memory, and your child must face it to move forward. With all ten pieces, your child solves the final puzzle in a clever new way and opens the Double-Digit Door. Written for ages 8 to 10, it is a warm birthday gift that celebrates growing up and looks ahead to year eleven."
+}

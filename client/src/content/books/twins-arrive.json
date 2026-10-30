@@ -1,0 +1,117 @@
+{
+  "slug": "twins-arrive",
+  "status": "live",
+  "title_pattern": "{name} and the Two New Babies",
+  "category": "new-baby",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "new twin siblings book for big sister or brother",
+  "landing_page_slug": "books/twins-arrive",
+  "example": {
+    "name": "Sophie",
+    "pronouns": "she",
+    "look": "fair skin, long red hair in a braid"
+  },
+  "tagline": "Two new babies, twice the socks, and one big sibling who knows them best.",
+  "lesson_or_purpose": "Helps a big sister or brother welcoming twins feel capable and needed by noticing what makes each baby unique, turning a busy, doubled-up household into a place where they have a special role.",
+  "tone": "Warm, playful and gently funny, with a cozy sense of busy-family chaos settling into pride.",
+  "reading_level": "Read-aloud for ages 2-6: short rhythmic lines, simple repetition, one or two sentences per page.",
+  "keywords": [
+    "new twin siblings book for big sister or brother",
+    "personalized twins book",
+    "big sister twins book",
+    "big brother twins book",
+    "new baby twins gift",
+    "becoming a big sibling to twins",
+    "twin siblings picture book",
+    "personalized new baby book"
+  ],
+  "illustration_guide": "Setting: a cozy, lived-in family home with a nursery holding two matching cribs side by side, a living room with a soft rug, and a bathroom with a small tub. Palette: warm creams, soft peach, sage green and buttery yellow, with gentle evening light in later pages. Recurring elements: one baby always wears yellow socks and has a little curl of hair on top; the other always wears green socks and has a dimple in one cheek; a basket of tiny mixed-up socks; the child's toy magnifying glass; a paper star badge that appears from page 9 onward. Mom and Dad look happy but a little tired and rumpled. Keep the child visually central and slightly larger in frame than the babies.",
+  "page_outline": [
+    {
+      "beat": "{name} learns from Mom and Dad that not one but two new babies are coming. {name} counts on {her/his} fingers, one, two, and wonders how two babies could ever fit in one house.",
+      "illustration_prompt": "The child sits between Mom and Dad on a sofa, holding up two fingers with wide, surprised eyes, while Mom rests a hand on her round belly and Dad smiles."
+    },
+    {
+      "beat": "The twins come home and everything is doubled: two cribs, two blankets, two cries, and twice the socks. {name} looks around at the busy house with {her/his} mouth open.",
+      "illustration_prompt": "A cheerful, cluttered nursery with two matching cribs, two tiny babies swaddled, and little socks scattered everywhere as the child stands in the doorway looking amazed."
+    },
+    {
+      "beat": "Mom and Dad are so busy that they keep mixing the babies up. {name} feels a little small in the middle of all the rocking and burping and wishes {she/he} had a job too.",
+      "illustration_prompt": "Mom and Dad each hold a baby and look puzzled at each other, while the child sits on the rug hugging knees, looking up at them with a small, wistful face."
+    },
+    {
+      "beat": "One morning the sock basket spills, both babies start crying, and Dad cannot tell which baby already had a bottle. {name} sees that the family has a real puzzle to solve.",
+      "illustration_prompt": "A tipped-over basket of tiny socks on the floor, two crying babies in bouncy seats, and Dad holding a bottle with a confused expression while the child watches thoughtfully."
+    },
+    {
+      "beat": "{name} fetches {her/his} toy magnifying glass and decides to look very, very closely at each baby, like a careful detective.",
+      "illustration_prompt": "The child kneels beside the two bouncy seats, holding a toy magnifying glass up to one eye, peering at the babies with a determined, curious face."
+    },
+    {
+      "beat": "{name} finds the first clues: one baby has a little curl on top, and the other has a dimple in one cheek. {name} sorts the socks too, yellow for curl, green for dimple.",
+      "illustration_prompt": "Close view of the child gently pointing to a curl of hair on one baby and a dimple on the other baby's cheek, with neat piles of yellow and green socks beside them."
+    },
+    {
+      "beat": "{name} keeps watching and finds one more clue: the curly baby stops fussing when {name} hums, and the dimply baby giggles at peekaboo.",
+      "illustration_prompt": "The child hums to one baby who looks calm and sleepy, while hiding behind hands for peekaboo with the other baby, who is laughing."
+    },
+    {
+      "beat": "At bath time, both babies cry at once and Mom and Dad mix them up again. {name} steps in, hums for the curly baby, plays peekaboo for the dimply baby, and both babies grow quiet and happy.",
+      "illustration_prompt": "A steamy bathroom with Mom and Dad each holding a towel-wrapped baby, the child standing on a step stool between them, humming to one baby and peeking out from behind hands at the other as both babies smile."
+    },
+    {
+      "beat": "Mom and Dad give {name} a paper star badge and name {her/him} the Official Twin Spotter, the only one in the whole family who never mixes up the babies. {name} stands tall and proud.",
+      "illustration_prompt": "Mom pins a paper star badge onto the child's shirt while Dad claps, and the child beams with chest puffed out, the two babies watching from a play mat."
+    },
+    {
+      "beat": "That night, {name} says goodnight to each baby in their own special way, a hum for one and a peekaboo for the other. Two little babies, and one big {daughter/son} who knows them best.",
+      "illustration_prompt": "A softly lit nursery at night with the two cribs side by side, the child wearing the star badge and leaning over the cribs, one baby sleepy and one smiling, Mom and Dad hugging in the doorway."
+    }
+  ],
+  "cover_scene": "The child stands proudly in the middle of a warm, sunlit nursery, holding a toy magnifying glass and wearing a paper star badge, with a baby on each side on a soft rug, one in yellow socks with a curl of hair and one in green socks with a dimple. Tiny socks are scattered playfully around them. The top third of the picture is a calm, open wall of soft cream and peach with gentle light, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Two little cribs. Two little cries. Two little blankets, and two little sighs. Socks on the floor and socks on the chair! {name} looked around. There were babies everywhere!",
+      "scene": "A cheerful, cluttered nursery with two matching cribs, two tiny swaddled babies, and little socks scattered on the floor and a chair, while the child stands in the doorway with wide, amazed eyes."
+    },
+    {
+      "text": "{name} looked closely. Look! This baby has a curl on top. And this baby has a dimple when {she/he} tickles a cheek. \"Yellow socks for curl,\" said {name}. \"Green socks for dimple!\"",
+      "scene": "Close view of the child gently pointing to a curl of hair on one baby and a dimple on the other baby's cheek, holding a toy magnifying glass, with neat piles of yellow and green socks beside them."
+    }
+  ],
+  "h1": "Personalized New Twins Book for a Big Sister or Brother",
+  "meta_title": "Personalized New Twins Big Sibling Book | StoryBloom",
+  "meta_description": "A personalized big sister or brother book for families welcoming twins. Your child learns to tell two new babies apart and earns a special title.",
+  "promise": "A story that gives your child a real, important job when two new babies arrive at once.",
+  "story_summary": "When two new babies come home, everything in the house doubles: two cribs, two cries, and a mountain of tiny socks. Mom and Dad are so busy they keep mixing the twins up, and your child starts to feel a little lost in the shuffle. Then a spilled sock basket and two crying babies create a puzzle that needs solving. With a toy magnifying glass and a sharp eye, your child sets out to discover what makes each baby their very own person.",
+  "why_parents": [
+    "Welcoming twins can feel like a whirlwind for an older child. There is twice the noise, twice the attention going to the babies, and often very tired grown-ups. Little ones at this age may feel overlooked, and they do best when they have a clear, positive way to belong in the new family picture.",
+    "This story gives your child a role that is genuinely theirs: noticing the small things that make each twin unique, like a curl, a dimple, or a favorite way to be soothed. It quietly reminds everyone that the twins are two separate little people, and that the big sibling is the one who sees them clearly."
+  ],
+  "for_grownups": [
+    "Before or after reading, invite your child to look at the real babies and find one thing that is different about each. Their discoveries can become family jokes and ways to tell the babies apart.",
+    "Talk about the moment in the story when the big sibling feels small. Ask, \"Do you ever feel that way when the babies need us?\" and let them know those feelings are okay.",
+    "Give your child a simple real job, like choosing sock colors or a special goodnight song for each baby, so the Twin Spotter role carries into everyday life."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story work if our twins are boys, girls, or one of each?",
+      "answer": "Yes. The twins are described by their little traits, a curl and a dimple, rather than by gender, so the story fits any pair of twins."
+    },
+    {
+      "question": "Is this a good book to read before the twins are born?",
+      "answer": "It works well before and after. The first pages show the family learning that two babies are coming, which can help your child picture the busy, happy days ahead."
+    },
+    {
+      "question": "What is the special title my child earns?",
+      "answer": "Your child becomes the Official Twin Spotter, the one person in the family who can always tell the babies apart. It celebrates attention and care rather than just being older."
+    }
+  ],
+  "image_alt": "Personalized new twins book cover featuring an illustrated child as the hero with two baby siblings",
+  "feed_title": "Personalized New Twins Book for Big Sister or Brother, Your Child Is the Hero",
+  "feed_description": "A personalized picture book for a big sister or big brother welcoming twin siblings. Your child is the illustrated hero of a warm, funny story about the day two new babies come home and everything doubles: two cribs, two cries, and twice the socks. When Mom and Dad keep mixing the twins up, your child picks up a toy magnifying glass and discovers what makes each baby unique, from a little curl to a dimpled cheek to a favorite way to be soothed. Their careful noticing earns them a special title in the family. Written for ages 2 to 6 with gentle rhyme and repetition, it is a thoughtful gift for families expecting twins or newly home with them."
+}

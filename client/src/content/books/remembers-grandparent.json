@@ -1,0 +1,117 @@
+{
+  "slug": "remembers-grandparent",
+  "status": "live",
+  "title_pattern": "{name} Remembers",
+  "category": "family-changes",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book about death of a grandparent for kids",
+  "landing_page_slug": "books/remembers-grandparent",
+  "example": {
+    "name": "Kai",
+    "pronouns": "he",
+    "look": "light tan skin, straight dark hair, gap-toothed smile"
+  },
+  "tagline": "A gentle story about missing Grandpa and keeping what he taught you growing.",
+  "lesson_or_purpose": "To help a young child understand, in plain and honest words, that a grandparent has died, that every feeling is allowed, and that the things a grandparent taught can keep going through the child's own hands.",
+  "tone": "Tender, honest, quiet and warm, with small moments of lightness and hope. Never frightening, never euphemistic.",
+  "reading_level": "Read-aloud for ages 4-6, independent reading for ages 7-9. Short sentences, concrete words, two to four sentences per page.",
+  "keywords": [
+    "book about death of a grandparent for kids",
+    "grandpa died book for children",
+    "grief book for kids",
+    "personalized book about loss",
+    "children's book about losing a grandparent",
+    "remembering grandpa picture book",
+    "book to help kids understand death",
+    "memory book for kids"
+  ],
+  "illustration_guide": "Soft watercolor and colored pencil style with gentle textures. Setting: Grandpa's small backyard vegetable garden with tall wooden bean poles, a weathered bench, a red watering can and a bird feeder, plus a cozy family kitchen and living room. Palette: warm muted greens, honey gold light and soft clay reds for garden and memory scenes; quieter blue-greys and lavender for sad moments, slowly warming back toward gold as the story moves on. Recurring elements on many pages: Grandpa's blue-and-white striped garden hat, the red watering can, a pair of robins, and a clear glass jar filling with folded paper slips decorated only with small drawings. Memory scenes of Grandpa have a soft, glowing, slightly hazy edge so the child can tell they are remembering. Grandpa is a kind older man with a warm smile and rolled-up sleeves. Grandma is gentle, with reading glasses on a cord. Mom and Dad appear warm and present. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "Open with a warm memory. {name} and Grandpa spend Saturday mornings in Grandpa's garden. Grandpa shows {name} how to push a bean seed into the soil one finger deep and teaches {her/him} his little whistling tune while they water.",
+      "illustration_prompt": "A sunny backyard vegetable garden with tall wooden bean poles. The child kneels beside a kind older man in a blue-and-white striped garden hat, both pressing seeds into dark soil. A red watering can sits nearby and two robins perch on a pole. Soft glowing edges suggest a happy memory."
+    },
+    {
+      "beat": "Mom and Dad sit close to {name} on the couch and tell {her/him} plainly that Grandpa died. They explain that his body stopped working, that he does not feel hurt, and that he will not come back. {name} asks questions and they answer honestly and simply.",
+      "illustration_prompt": "A quiet living room in soft blue-grey afternoon light. The child sits on a couch between Mom and Dad, who lean in close with gentle faces, Mom's hand resting on the child's back. The child looks up with a serious, questioning expression."
+    },
+    {
+      "beat": "{name} has big, mixed-up feelings: sad, then cross, then strangely giggly, then tired. Dad says every feeling is okay, and that he feels sad too. {name} sees Dad cry and they hug for a long time.",
+      "illustration_prompt": "A sequence of small soft vignettes on one page: the child crying into a pillow, the child stomping with folded arms, the child laughing at the dog, and finally the child and Dad sitting on the floor in a long hug, Dad's eyes wet. Muted lavender and blue tones."
+    },
+    {
+      "beat": "The family gathers to say goodbye to Grandpa. {name} holds Grandma's hand while people share funny and kind stories about him. {name} notices that some people cry and some people laugh, sometimes both at once.",
+      "illustration_prompt": "A calm, light-filled room with flowers and a framed watercolor portrait of the older man in his striped hat. Family members stand and sit together, some smiling, some wiping tears. The child holds Grandma's hand and listens closely."
+    },
+    {
+      "beat": "Weeks later, {name} visits Grandma. Grandpa's garden is full of weeds and the bean poles are leaning. Grandma says she has not had the heart to tend it. {name} feels a worried ache and wonders if {she/he} will forget Grandpa.",
+      "illustration_prompt": "An overgrown backyard garden under a grey-blue sky, bean poles tilted, the red watering can lying on its side. Grandma stands on the back step looking tired. The child stands at the garden edge, hands in pockets, looking worried."
+    },
+    {
+      "beat": "{name} spots Grandpa's striped hat on the bench and remembers what he taught: one finger deep, water at the roots, whistle while you work. {name} decides {she/he} can take care of the garden, and asks Grandma to help.",
+      "illustration_prompt": "The child picks up a blue-and-white striped garden hat from a weathered bench, a faint glowing memory of the older man's smiling face drifting softly in the air beside it. Grandma watches from the step, her expression softening. Warm gold light begins to break through the clouds."
+    },
+    {
+      "beat": "{name} and Grandma pull weeds, straighten the bean poles and plant new seeds. {name} tries Grandpa's whistling tune. It comes out wobbly, and Grandma laughs for the first time in a long while, then joins in.",
+      "illustration_prompt": "The child, wearing the oversized striped hat, pushes seeds into fresh soil while Grandma straightens a bean pole. The child's lips are puckered in a whistle and Grandma is laughing. The red watering can is upright and full. Robins hop nearby."
+    },
+    {
+      "beat": "Back home, {name} starts a remembering jar. On little slips of paper {she/he} draws memories of Grandpa: his big laugh, the striped hat, pancakes on Sundays, the way he waved from the gate. Whenever {name} misses him, {she/he} adds one more.",
+      "illustration_prompt": "The child sits at a kitchen table with crayons, drawing small pictures on paper slips and folding them into a clear glass jar that is half full. Tiny drawings visible on the slips show a hat, pancakes and a smiling face, with no writing. Mom sits nearby with a cup of tea."
+    },
+    {
+      "beat": "On the next visit, {name} finds tiny green bean sprouts pushing up through the soil. {name} understands that the things Grandpa taught are still growing. Sad feelings still come sometimes, but now they sit beside happy ones.",
+      "illustration_prompt": "A close, low view of fresh green bean sprouts curling up from dark soil. The child crouches with hands on knees, eyes wide with wonder, the striped hat tipped back. Grandma kneels beside the child. Bright honey-gold morning light."
+    },
+    {
+      "beat": "At summer's end, the family shares a supper with beans from the garden. {name} pulls a slip from the remembering jar, tells a memory about Grandpa, and whistles his tune. Grandpa is not here, but what he gave {name} keeps going, and {name} knows {she/he} will always remember.",
+      "illustration_prompt": "A warm evening table outdoors by the flourishing garden, bean poles heavy with green pods. Mom, Dad and Grandma smile as the child holds up a folded slip from the glass jar, the striped hat on the bench nearby. Two robins on a pole, golden sunset light."
+    }
+  ],
+  "cover_scene": "The child stands in a flourishing backyard garden among tall bean poles heavy with green leaves, wearing an oversized blue-and-white striped garden hat and holding a red watering can, smiling softly. A clear glass jar of folded paper slips rests on a weathered bench nearby and two robins perch on a pole. The top third of the picture is calm, open, pale golden sky with soft watercolor clouds, leaving room for a title.",
+  "sample_pages": [
+    {
+      "text": "Mom and Dad sat close to {name} on the couch. \"We have something sad to tell you,\" Mom said softly. \"Grandpa died. His body stopped working, and it does not hurt him anymore. He can't come back.\" {name} had a lot of questions. Mom and Dad answered every one.",
+      "scene": "A quiet living room in soft blue-grey afternoon light. The child sits on a couch between Mom and Dad, who lean in close with gentle faces, Mom's hand on the child's back. The child looks up with a serious, questioning expression."
+    },
+    {
+      "text": "On the bench sat Grandpa's striped hat. {name} picked it up and remembered. One finger deep. Water at the roots. Whistle while you work. \"Grandma,\" {she/he} said, \"I know how to do this. Will you help me?\"",
+      "scene": "The child holds a blue-and-white striped garden hat beside a weathered bench in an overgrown garden, a faint glowing memory of the older man's smiling face drifting softly beside it. Grandma watches from the back step, her face softening, as warm gold light breaks through grey clouds."
+    }
+  ],
+  "h1": "Personalized Book About the Death of a Grandparent for Kids",
+  "meta_title": "Personalized Book About Losing a Grandparent | StoryBloom",
+  "meta_description": "A personalized picture book for ages 4-9 about a grandparent dying, told with plain words, honest feelings and memories that keep growing.",
+  "promise": "An honest, gentle story that helps your child name what happened, feel what they feel, and keep a grandparent's lessons close.",
+  "story_summary": "Your child and Grandpa have always spent Saturday mornings in his garden, planting beans and whistling his little tune. When Grandpa dies, Mom and Dad explain what happened in plain, honest words, and your child meets a whole jumble of feelings. After the family gathers to say goodbye, Grandpa's garden sits overgrown and Grandma doesn't have the heart to tend it. Your child spots Grandpa's striped hat on the bench and remembers everything he taught.",
+  "why_parents": [
+    "Children between four and nine are working hard to understand what death means: that it is permanent, that it happens to bodies, and that it is not anyone's fault. Soft phrases like \"went to sleep\" or \"we lost him\" can leave them confused or even frightened. This story uses the word died and explains it simply, so your child hears the same clear language you may be using at home.",
+    "Grief at this age often comes in bursts, with tears one minute and play the next. Seeing themselves in a story where sad, cross and giggly feelings are all allowed, and where a grown-up cries too, can make it easier to talk. The garden and the remembering jar give your child something concrete to do with their love for a grandparent who has died."
+  ],
+  "for_grownups": [
+    "After reading, ask your child what they remember most about their grandparent, and consider starting your own remembering jar with drawings or short notes you add over time.",
+    "Use the same plain words the book uses, like \"died\" and \"his body stopped working,\" and let your child ask the same questions more than once. Repeating questions is common at this age.",
+    "If your child's sadness, worries, sleep or behavior seem to stay heavy for a long time, it can help to talk with your pediatrician or a school counselor."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book use the word died?",
+      "answer": "Yes. Mom and Dad tell the child plainly that Grandpa died, that his body stopped working and that he will not come back. The book avoids phrases like \"passed away\" or \"went to sleep.\""
+    },
+    {
+      "question": "Is there a funeral in the story?",
+      "answer": "There is one gentle page where the family gathers to say goodbye and share stories about Grandpa. It focuses on holding Grandma's hand and hearing people laugh and cry together, with no upsetting details."
+    },
+    {
+      "question": "Is the book religious?",
+      "answer": "No. The story does not describe any particular faith or afterlife, so families can share their own beliefs alongside it in their own words."
+    }
+  ],
+  "image_alt": "Personalized book about the death of a grandparent, cover featuring an illustrated child as the hero in Grandpa's garden wearing a striped hat",
+  "feed_title": "Personalized Book About the Death of a Grandparent for Kids, Your Child Is the Hero",
+  "feed_description": "A personalized picture book for children ages 4 to 9 who are grieving a grandparent. Your child spends Saturday mornings in Grandpa's garden, planting beans and learning his whistling tune. When Grandpa dies, Mom and Dad explain what happened using plain, honest words, and your child meets sad, cross and mixed-up feelings that are all allowed. After the family says goodbye, Grandpa's garden grows wild, and your child remembers what he taught and decides to care for it with Grandma. A remembering jar filled with drawings of favorite memories helps carry Grandpa's love forward. Soft watercolor illustrations, a gentle pace and clear language make this a thoughtful story to read together."
+}

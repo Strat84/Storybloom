@@ -1,0 +1,117 @@
+{
+  "slug": "midnight-train",
+  "status": "live",
+  "title_pattern": "Conductor {name} and the Midnight Train",
+  "category": "adventures",
+  "age_range": "2-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized train book for kids",
+  "landing_page_slug": "books/midnight-train",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "All aboard the night train, where your child is the conductor who gets every sleepy animal home to bed.",
+  "lesson_or_purpose": "A gentle bedtime adventure about calm problem solving and caring for others: the child keeps the train running, helps each sleepy passenger with a small worry, and winds down toward sleep along with them.",
+  "tone": "Cozy, rhythmic and softly adventurous, with a slowing pace that settles toward bedtime.",
+  "reading_level": "Read-aloud for ages 2-7. Short lines with a repeating train refrain for little listeners, and simple stop-by-stop problems older children can follow and predict.",
+  "keywords": [
+    "personalized train book for kids",
+    "personalized bedtime book",
+    "train bedtime story",
+    "personalized conductor book",
+    "night train picture book",
+    "bedtime book with child's name",
+    "personalized train gift for toddlers",
+    "animal bedtime story personalized"
+  ],
+  "illustration_guide": "Setting: a small night railway winding through soft rolling countryside under a big crescent moon and scattered stars, with stops at a meadow burrow, a forest cave, a moonlit duck pond, a long stone tunnel, a hedgerow cottage and a windmill by a round stone. Palette: deep navy and indigo night skies, soft plum shadows, silvery moonlight, and warm golden lantern glow spilling from train windows. Recurring elements on every page: a small rounded red steam engine with a gold trim and four little passenger cars; the child in a navy conductor cap with a gold band and a navy vest; a brass lantern the child carries; a small brass bell on the engine; gentle puffs of pale steam shaped like soft clouds. Passengers: a gray bunny in a striped scarf, a brown bear cub with a patchwork blanket, a mother duck with three ducklings, a small hedgehog with a tiny blue blanket, and a little mouse in a yellow nightcap. As the story goes on, the cars empty and the windows glow fewer and softer. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "The moon rises over the little station. {name} puts on {her/his} conductor cap, lifts the brass lantern, and checks the small red night train. Tonight Conductor {name} has an important job: carry every sleepy animal safely home to bed.",
+      "illustration_prompt": "A tiny countryside station at dusk turning to night, a crescent moon rising. The child in a navy conductor cap and vest holds up a glowing brass lantern beside a small red steam engine with four empty passenger cars, soft steam curling from the chimney."
+    },
+    {
+      "beat": "Sleepy passengers shuffle onto the platform: a bunny, a bear cub, a duck family, a hedgehog and a little mouse, all yawning. {name} helps each one aboard, rings the bell, and calls out the train's soft refrain, setting a rhythm that repeats at every stop: chug, chug, hush, hush.",
+      "illustration_prompt": "Yawning animals in nightclothes climb into the glowing passenger cars while the child offers a helping hand at the steps. A gray bunny in a striped scarf, a bear cub holding a patchwork blanket, a mother duck with three ducklings, a hedgehog with a little blue blanket and a mouse in a yellow nightcap."
+    },
+    {
+      "beat": "First stop, Meadow Hill. Fog has rolled in and Bunny cannot see the way to the burrow. {name} climbs down, holds the lantern high, and walks ahead slowly until the glow finds the round burrow door. Bunny hops inside, and {name} waves goodnight.",
+      "illustration_prompt": "A misty meadow at night, the train paused on the tracks. The child walks through soft fog holding the lantern high, its golden light revealing a small round burrow door in a grassy hill, with the bunny hopping close behind."
+    },
+    {
+      "beat": "The train chugs toward the forest, but a fallen branch lies across the tracks. {name} stops the train just in time. Instead of worrying, {she/he} has an idea and asks the passengers to help. Together, with {name} counting one, two, three, they roll the branch off the rails.",
+      "illustration_prompt": "A moonlit forest track with a large fallen branch across the rails. The child, lantern set on the ground, leads the bear cub, mother duck and hedgehog as they push the branch aside together, the red engine waiting with headlamp glowing."
+    },
+    {
+      "beat": "At Forest Cave, Bear Cub is too tired to carry the big patchwork blanket. {name} helps fold it small, and Bear Cub carries it inside. {name} tucks the corner around the cub's shoulders, and the cub is asleep before {name} reaches the door.",
+      "illustration_prompt": "Inside a cozy cave lit by the lantern's glow, the child gently tucks a patchwork blanket around a curled-up, sleeping bear cub on a bed of soft moss."
+    },
+    {
+      "beat": "At Moonlight Pond, the three ducklings are much too wiggly to sleep. {name} sits by the water and hums a slow, quiet train song, chug, chug, hush, hush, slower and slower, until the ducklings tuck their heads under their wings and their mother smiles at {name}.",
+      "illustration_prompt": "A still pond reflecting the moon and stars. The child sits on the bank humming softly, the mother duck and three ducklings floating nearby, the ducklings drowsy and tucking their heads under their wings."
+    },
+    {
+      "beat": "Ahead is the long stone tunnel, and Hedgehog curls into a tight, worried ball. {name} sits beside Hedgehog, holds a tiny paw, and lifts the lantern so its glow fills the car. {name} counts the soft lights along the tunnel walls out loud until they roll out under the stars again.",
+      "illustration_prompt": "Inside a warm passenger car moving through a dark stone tunnel, the child sits beside a nervous hedgehog, holding its paw. The lantern lights the car with a golden glow and small round lamps line the tunnel walls outside the window."
+    },
+    {
+      "beat": "At Hedgerow Cottage, Hedgehog cannot find the little blue blanket. {name} searches the cars, under seats and behind cushions, and finds it tucked in the corner. Hedgehog snuggles in, and {name} quietly closes the cottage door.",
+      "illustration_prompt": "A tiny cottage tucked into a leafy hedgerow at night, round window glowing. The child, kneeling, hands a small blue blanket to the delighted hedgehog at the doorway, the train waiting softly behind."
+    },
+    {
+      "beat": "Only Little Mouse is left, and Mouse has forgotten which way is home. {name} asks gentle questions and remembers Mouse's clue: home is near a windmill by a big round stone. {name} drives slowly past fields until {she/he} spots the windmill against the moon, and there is the stone with a tiny door. {name} tucks Mouse in.",
+      "illustration_prompt": "A windmill silhouetted against the big moon beside a large round stone with a tiny arched door at its base. The child carefully lifts the mouse in its yellow nightcap toward the little door, the empty train glowing quietly on the tracks."
+    },
+    {
+      "beat": "Every passenger is home and every window is dark. Conductor {name} drives the empty train back to the station, gives one last soft toot, and hangs up the cap. Then it is {name}'s turn to be tucked in, snug and sleepy, as the moon keeps watch.",
+      "illustration_prompt": "The child asleep in a cozy bed by an open window, the conductor cap hanging on the bedpost and the brass lantern dimmed on the nightstand. Through the window, the little red train rests at the distant station beneath the crescent moon and stars."
+    }
+  ],
+  "cover_scene": "The child stands proudly on the step of a small rounded red steam engine, wearing a navy conductor cap with a gold band and holding up a glowing brass lantern. Sleepy animal passengers peek from the warmly lit windows of the cars behind: a bunny, a bear cub, ducklings, a hedgehog and a mouse in a nightcap. The track curves through soft rolling hills. The top third of the picture is calm, open indigo night sky with a gentle crescent moon low to one side and a few soft stars, leaving clear space for the title.",
+  "sample_pages": [
+    {
+      "text": "Bunny, Bear Cub, Duck and Ducklings, Hedgehog, little Mouse. Yawn, yawn, yawn. Everyone is sleepy, and everyone is going home. Conductor {name} rings the bell. Ding, ding! \"All aboard!\" Chug, chug, hush, hush.",
+      "scene": "Yawning animals in nightclothes climb into the glowing passenger cars of a small red train at a moonlit country station. The child in a navy conductor cap holds out a hand to help the ducklings up the step, a brass bell gleaming on the engine."
+    },
+    {
+      "text": "Here comes the long, dark tunnel. Hedgehog curls up tight. \"I'm right here,\" says {name}, and {she/he} holds Hedgehog's tiny paw. {name} lifts the lantern high and counts the lights. One, two, three, four... and out we go, under the stars!",
+      "scene": "Inside a warm passenger car rolling through a stone tunnel, the child sits beside a small curled-up hedgehog, holding its paw and raising a glowing brass lantern. Round lamps along the tunnel wall shine through the window."
+    }
+  ],
+  "h1": "Personalized Train Book for Kids: Conductor Your Child and the Midnight Train",
+  "meta_title": "Personalized Train Book for Kids | StoryBloom",
+  "meta_description": "A personalized train book for kids: your child drives a night train, helping sleepy animals home to bed. A cozy bedtime adventure.",
+  "promise": "Your child becomes the conductor of a little red night train, guiding sleepy animals home one stop at a time until it is their own turn to be tucked in.",
+  "story_summary": "When the moon rises, your child puts on a conductor cap, lifts a brass lantern, and takes charge of a small red night train full of yawning animals. At every stop there is a small problem to solve: fog hiding a burrow, a branch across the tracks, ducklings too wiggly to sleep, a hedgehog nervous about a dark tunnel. Your child stays calm, thinks it through, and helps each passenger home. But the last passenger, a little mouse, has forgotten which way home is, and your child will need to listen carefully for clues.",
+  "why_parents": [
+    "Bedtime can feel like a big transition for little ones, and a story that slows down as it goes gives them a gentle runway toward sleep. Each stop in this book is a little quieter than the last, the train cars empty one by one, and a soft repeating refrain gives toddlers something familiar to say along with you.",
+    "Trains are endlessly fascinating to young children, and being the conductor means being trusted with an important job. Here that job is about patience and kindness: noticing when someone is scared, lost or tired, and helping them in a calm, steady way. Seeing themselves handle each small problem lets children picture what being a helper looks like."
+  ],
+  "for_grownups": [
+    "Say the refrain together, \"chug, chug, hush, hush,\" a little slower and softer each time it comes around, and let your child set the pace on the last one.",
+    "At the tunnel page, ask what helps your child feel better when something feels a little scary, like holding a hand, a light, or counting out loud.",
+    "Before lights out, let your child be the conductor for their own stuffed animals, saying goodnight and tucking each one in before you tuck them in."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a good book to read right before sleep?",
+      "answer": "Yes. The story starts with a bit of adventure and then grows quieter with each stop, ending with your child being tucked into bed as the moon keeps watch."
+    },
+    {
+      "question": "Will a 2-year-old follow the story?",
+      "answer": "Little ones can enjoy the repeating train refrain, the animal passengers and the bell sounds, while older children follow the problem at each stop and guess how it will be solved."
+    },
+    {
+      "question": "Is there anything scary in it?",
+      "answer": "The tensest moments are a foggy meadow, a branch on the tracks and a dark tunnel, and each is handled calmly and quickly by your child. The tone stays soft and reassuring throughout."
+    }
+  ],
+  "image_alt": "Personalized train book cover featuring an illustrated child as a conductor on a red night train with sleepy animal passengers under a crescent moon",
+  "feed_title": "Personalized Train Book for Kids, Your Child Is the Conductor of a Bedtime Night Train",
+  "feed_description": "A cozy personalized bedtime adventure where your child becomes the conductor of a little red night train. As the moon rises, your child welcomes sleepy animal passengers aboard: a bunny, a bear cub, a duck family, a hedgehog and a little mouse. At each stop there is a gentle problem to solve, from finding a burrow in the fog to clearing a branch from the tracks to helping a nervous hedgehog through a dark tunnel. Your child stays calm, thinks it through, and gets every passenger safely home. The story slows and softens page by page, with a repeating train refrain little ones can say along, and ends with your child tucked into bed. A warm read-aloud for ages 2 to 7."
+}

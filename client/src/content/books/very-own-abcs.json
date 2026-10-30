@@ -1,0 +1,117 @@
+{
+  "slug": "very-own-abcs",
+  "status": "live",
+  "title_pattern": "{name}'s Very Own ABCs",
+  "category": "learning",
+  "age_range": "1-5",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "abc book with child's name",
+  "landing_page_slug": "books/very-own-abcs",
+  "example": {
+    "name": "Arjun",
+    "pronouns": "he",
+    "look": "medium brown skin, neat black hair"
+  },
+  "tagline": "From A at breakfast to Z at bedtime, a whole alphabet day with your child leading the way.",
+  "lesson_or_purpose": "Introduces the letters of the alphabet through familiar sights in an ordinary day, and shows the child persisting and problem-solving to find the last missing letter.",
+  "tone": "Cozy, rhythmic and playful, with gentle repetition and a small, happy puzzle near the end.",
+  "reading_level": "Read-aloud for ages 1-5: one or two short, rhythmic lines per page, with simple object words a toddler can point to and an older preschooler can begin to sound out.",
+  "keywords": [
+    "abc book with child's name",
+    "personalized alphabet book",
+    "personalized abc book for toddlers",
+    "custom alphabet book for kids",
+    "first alphabet book personalized",
+    "abc book gift for 1 year old",
+    "toddler letter book with name",
+    "personalized learning book"
+  ],
+  "illustration_guide": "Setting is a cheerful home, garden, neighborhood park and pond over the course of one day, moving from soft morning light to golden afternoon to a dim, starry bedroom. Palette of warm primary colors softened with cream, sage green and sky blue. Recurring elements on every page: the child carrying a small woven basket that fills with chunky wooden alphabet blocks as the day goes on (blocks shown as plain colored cubes with no visible lettering), a friendly orange cat who follows along, and one large, clear, easy-to-point-at object for each letter on the page. Simple shapes, generous white space and rounded, friendly forms suited to very young readers.",
+  "page_outline": [
+    {
+      "beat": "Morning sunshine wakes {name}. {She/He} picks up a little empty basket for a letter hunt and finds the first letters at breakfast: A for apple, B for ball, C for the cat curled at {her/his} feet. {name} drops three blocks in the basket.",
+      "illustration_prompt": "A sunny kitchen in the morning. The child, in pajamas, holds a small woven basket and reaches for a shiny red apple on the table. A bright ball rests on the floor and an orange cat stretches nearby. Three plain colored blocks sit at the bottom of the basket."
+    },
+    {
+      "beat": "{name} heads outside and keeps hunting: D for the neighbor's dog wagging hello, E for eggs in a nest box, F for flowers by the gate. {She/He} counts the blocks in the basket with a proud grin.",
+      "illustration_prompt": "A sunny front yard with a low gate. The child kneels to pat a happy, wagging dog. Brown eggs sit in a small nest box nearby, and bright flowers line the gate. The orange cat watches from the step. The basket holds more colored blocks."
+    },
+    {
+      "beat": "In the garden, {name} finds G for green grass, H for a floppy sun hat, and I for an inchworm on a leaf. {She/He} puts on the hat and whispers hello to the inchworm.",
+      "illustration_prompt": "A leafy garden with soft green grass. The child wears a big floppy sun hat and leans close to a tiny inchworm on a leaf. The orange cat sniffs the grass. The basket sits beside the child, fuller now."
+    },
+    {
+      "beat": "At the park, {name} plays: J for jumping, K for a kite tugging in the breeze, L for crunchy leaves. {She/He} jumps into a leaf pile and laughs.",
+      "illustration_prompt": "A bright park with a kite flying high on a string. The child jumps into a pile of autumn-colored leaves, arms out, laughing. The orange cat peeks from behind a tree. The basket rests on a bench."
+    },
+    {
+      "beat": "By the pond, {name} spots M for muddy puddles, N for a nest in a tree, O for an owl dozing, and P for ducks paddling. {She/He} stomps one puddle, just one, then waves to the ducks.",
+      "illustration_prompt": "A calm pond with ducks paddling. The child in rain boots splashes in a small muddy puddle. A bird's nest sits in a nearby tree with a sleepy owl perched above. The orange cat keeps its paws dry on a rock."
+    },
+    {
+      "beat": "Clouds roll in. {name} shows Q for being quiet to hear the rain, R for raindrops, S for splashing home. {She/He} holds the basket close so no blocks fall out.",
+      "illustration_prompt": "A gentle rain shower over a tree-lined path. The child, in a raincoat, hugs the basket and splashes along the wet path. Raindrops sparkle in the air. The orange cat trots under the child's umbrella-shaped hood shadow."
+    },
+    {
+      "beat": "Home again, {name} gets warm and dry: T for a towel, U for an umbrella dripping by the door, V for a vegetable soup supper. {She/He} lines the blocks up on the table to see how many are found.",
+      "illustration_prompt": "A cozy kitchen in late afternoon light. The child, wrapped in a soft towel, sits at the table with a bowl of colorful vegetable soup. A wet umbrella drips by the door. A long row of plain colored blocks stretches across the table. The orange cat naps on a chair."
+    },
+    {
+      "beat": "After supper comes W for a warm bath, X for a toy xylophone that goes plink, Y for a yawn. Then {name} counts the row of blocks again and frowns. One letter is missing: Z! {name} wonders where it could be.",
+      "illustration_prompt": "A bathroom and bedroom glimpse in soft evening light. The child, in fresh pajamas, sits beside a toy xylophone and stares at the row of blocks with a puzzled face, one gap clearly at the end of the line. The orange cat yawns widely."
+    },
+    {
+      "beat": "{name} thinks hard and searches: under the bed, in the toy box, behind the curtain. Then {she/he} hears a sleepy sound, zzz, coming from the cat's cushion. {name} follows the sound and finds the last block tucked under the snoozing cat. Z for zzz!",
+      "illustration_prompt": "A dim, cozy bedroom with a nightlight glow. The child crouches beside a round cushion where the orange cat sleeps soundly, gently lifting one paw to reveal a single colored block. The child's face is bright with discovery. Toys and an open toy box show the search."
+    },
+    {
+      "beat": "All the letters are found, A to Z. {name} places the last block in the basket, gives the cat a goodnight pat, and snuggles into bed, sleepy and proud of {her/his} very own alphabet day.",
+      "illustration_prompt": "A peaceful, starry bedroom. The child lies tucked under a quilt, smiling with eyes nearly closed. The full basket of colored blocks sits on the nightstand. The orange cat curls at the foot of the bed. Moonlight through the window."
+    }
+  ],
+  "cover_scene": "The child stands on a sunny garden path, smiling and holding up a small woven basket overflowing with chunky, plain colored wooden blocks, while an orange cat sits at their feet. Bright flowers, a red apple tree and a distant kite frame the lower and middle parts of the picture. The top third is open, soft blue morning sky with a few light, wispy clouds.",
+  "sample_pages": [
+    {
+      "text": "Good morning, {name}! Here is your basket. A is for apple. B is for ball. C is for cat, curled up small.",
+      "scene": "A sunny kitchen in the morning. The child, in pajamas, holds a small woven basket and reaches for a shiny red apple on the table. A bright ball rests on the floor and an orange cat curls up at the child's feet."
+    },
+    {
+      "text": "Drip, drop! Shh, be quiet, {name}. Q is for quiet. R is for rain. S is for splashing home again.",
+      "scene": "A gentle rain shower over a tree-lined path. The child, in a raincoat and boots, hugs a basket of colored blocks and splashes through a small puddle. Raindrops sparkle in the air and the orange cat trots alongside."
+    }
+  ],
+  "h1": "Personalized ABC Book With Your Child's Name: An Alphabet Day From Breakfast to Bedtime",
+  "meta_title": "Personalized ABC Book With Your Child's Name | StoryBloom",
+  "meta_description": "A personalized ABC book with your child's name: an alphabet walk from breakfast to bedtime, finding a letter at every step of the day.",
+  "promise": "Your child spends a whole day collecting the alphabet, from an apple at breakfast to a sleepy surprise at bedtime.",
+  "story_summary": "Your child wakes up with an empty basket and a big plan: to find every letter of the alphabet before bedtime. The hunt winds through breakfast, the garden, the park, a rainy walk by the pond and a warm supper at home, with an orange cat tagging along the whole way. Each page pairs a few letters with simple things little ones see every day, like a ball, a kite, muddy puddles and a towel after the rain. But when it is time to count the letters before bed, one is nowhere to be found, and your child has to think hard to track it down.",
+  "why_parents": [
+    "Between one and five, children are surrounded by letters long before they can read them, on cereal boxes, signs and the fridge. An alphabet book built around an ordinary day ties each letter to things your child already knows, so the pages feel familiar and easy to point at, whether you are naming objects with a one-year-old or sounding out letters with a preschooler.",
+    "This book also gives the alphabet a little story to hold onto. Instead of a flat list, your child is the one gathering letters, keeping the basket safe in the rain and solving the mystery of the missing Z. That small puzzle at the end invites young listeners to guess, giggle and ask for the book again tomorrow."
+  ],
+  "for_grownups": [
+    "After reading, go on your own short letter hunt around the house. Pick two or three letters from the book and look for things that start with them.",
+    "With younger toddlers, skip the letters on some pages and just point and name the big object: apple, dog, kite. With older children, pause and ask what sound a letter makes before turning the page.",
+    "On the Z page, pause before the reveal and ask your child where they think the missing letter might be. Let them make a guess."
+  ],
+  "faqs": [
+    {
+      "question": "Does the alphabet change to match my child's name?",
+      "answer": "No. The book walks through all 26 letters from A to Z in order, and your child appears throughout the story as the one collecting them. This keeps the alphabet complete and easy to follow for any name."
+    },
+    {
+      "question": "Is this book suitable for a one-year-old?",
+      "answer": "Yes. Each page has only a line or two of rhythmic text and one big, simple object per letter, so very young children can simply listen and point. As they grow, the same pages work for naming letters and sounds."
+    },
+    {
+      "question": "Is there a story, or is it just a list of letters?",
+      "answer": "There is a gentle story. Your child sets out with a basket to collect letters over one day, keeps them safe through a rain shower, and at bedtime has to solve the puzzle of the one letter that has gone missing."
+    }
+  ],
+  "image_alt": "Personalized ABC book cover featuring an illustrated child holding a basket of alphabet blocks on a sunny garden path with an orange cat",
+  "feed_title": "Personalized ABC Book With Your Child's Name, Alphabet Picture Book for Toddlers and Kids",
+  "feed_description": "A personalized alphabet picture book where your child is the hero of a day-long letter hunt. Starting with an empty basket at breakfast, your child finds A for apple, B for ball and C for cat, then heads out to the garden, the park and the pond to gather the rest, with a friendly orange cat following along. Each page pairs a few letters with simple, everyday things young children recognize, like a kite, muddy puddles, raindrops and a warm towel. At bedtime one letter is missing, and your child solves the little mystery to finish the alphabet. Short, rhythmic text suits read-aloud time for ages 1 to 5, and bright, gentle illustrations show your child on every page."
+}

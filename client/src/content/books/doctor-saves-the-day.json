@@ -1,0 +1,116 @@
+{
+  "slug": "doctor-saves-the-day",
+  "status": "live",
+  "title_pattern": "Dr. {name} Saves the Day",
+  "category": "careers",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "when i grow up doctor book personalized",
+  "landing_page_slug": "books/doctor-saves-the-day",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "A toy clinic, a frightened puppy, and one small doctor with very gentle hands.",
+  "lesson_or_purpose": "Shows how calm, kindness and careful steps help others, and lets a child imagine growing up to be a doctor while practicing helpfulness today.",
+  "tone": "Warm, cozy and gently suspenseful, with a proud, happy finish.",
+  "reading_level": "Read-aloud for ages 3-7; short sentences, simple dialogue and a repeated clinic routine young listeners can join in on.",
+  "keywords": [
+    "when i grow up doctor book personalized",
+    "personalized doctor book for kids",
+    "pretend doctor story for children",
+    "toy clinic picture book",
+    "kids career book doctor",
+    "personalized vet and doctor book",
+    "book about helping animals for kids"
+  ],
+  "illustration_guide": "Setting moves from a sunny living room toy clinic to a leafy shared backyard between two homes, then back inside at dusk. Palette: soft mint green, warm cream, sky blue and cheerful coral accents, with golden afternoon light. Recurring elements on every page where it fits: the child's toy doctor kit (a soft red bag with a toy stethoscope and bandages), a well-loved teddy bear patient with a bandaged arm, a small fluffy tan puppy named Biscuit with a red collar, a plaid blanket, and a white wooden garden bench. Mom wears a yellow cardigan; the neighbor, Mrs. Rosa, is an older woman with a gardening hat and green apron. Rounded, friendly shapes and expressive faces. No text, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} runs a pretend clinic for toys in the living room, wearing a toy stethoscope and listening to Teddy's heartbeat. {She/He} bandages a stuffed rabbit's floppy ear and shares the three clinic rules {name} made up: gentle hands, calm voice, and always ask \"Where does it hurt?\"",
+      "illustration_prompt": "A sunny living room turned into a toy clinic, the child in a play doctor coat listening to a teddy bear with a toy stethoscope, stuffed animals lined up on cushions waiting their turn, a soft red doctor bag open nearby."
+    },
+    {
+      "beat": "Mom becomes the next patient and pretends to have a sore elbow. {name} asks where it hurts, counts \"one, two, three\" before each pretend check, and explains every step so Mom feels calm. Mom laughs and tells {name} {she/he} is a very careful doctor.",
+      "illustration_prompt": "Mom in a yellow cardigan sitting on the sofa holding out her elbow while the child gently wraps a toy bandage around it, the teddy bear watching from an armrest, warm afternoon light through the window."
+    },
+    {
+      "beat": "A small whimper comes from outside. {name} looks out the window and sees Biscuit, the neighbor Mrs. Rosa's puppy, limping across the backyard and holding up one front paw.",
+      "illustration_prompt": "The child pressing hands to a window, looking out at a leafy backyard where a small fluffy tan puppy with a red collar is limping with one front paw lifted, Mom peeking over the child's shoulder."
+    },
+    {
+      "beat": "{name} and Mom hurry outside. Biscuit is so frightened that he hides under the garden bench and backs away from Mrs. Rosa and Mom. {name} feels a wobble of nerves too, because this is a real patient, not a toy.",
+      "illustration_prompt": "A backyard with a white wooden bench, the tan puppy tucked underneath with worried eyes, Mrs. Rosa in a gardening hat kneeling with an outstretched hand, Mom nearby, and the child standing a little back clutching the toy doctor bag."
+    },
+    {
+      "beat": "{name} remembers the clinic rules. {She/He} sits down low on the grass, speaks in {her/his} softest calm voice, and holds out a still hand so Biscuit can sniff it. Slowly, Biscuit creeps out toward {name}.",
+      "illustration_prompt": "The child sitting cross-legged on the grass beside the bench, one hand held out low and still, the puppy inching out from under the bench to sniff it, Mrs. Rosa and Mom watching quietly in the background."
+    },
+    {
+      "beat": "{name} asks Biscuit, \"Where does it hurt?\" and looks carefully with Mom. Tangled in the fur of his paw is a prickly burr from the bushes. Mom says she can gently take it out, but she needs a steady helper, and {name} says {she/he} is ready.",
+      "illustration_prompt": "Close view of the child and Mom kneeling together, looking at the puppy's lifted front paw where a small spiky green burr is caught in the fur, the puppy resting on a plaid blanket."
+    },
+    {
+      "beat": "{name} wraps Biscuit in his plaid blanket, strokes his soft ears, and counts \"one, two, three\" just like in the toy clinic. While {name} keeps Biscuit calm, Mom carefully works the burr free.",
+      "illustration_prompt": "The child cuddling the puppy wrapped in a plaid blanket and stroking its ears, while Mom gently holds the paw, Mrs. Rosa beside them with hands clasped hopefully, dappled sunlight through leaves."
+    },
+    {
+      "beat": "{name} has an idea from the clinic: every brave patient gets water and a rest. {She/He} fetches Biscuit's water bowl and a treat from Mrs. Rosa, and Biscuit takes a careful drink.",
+      "illustration_prompt": "The child setting down a water bowl in front of the puppy, who is lapping water, Mrs. Rosa holding out a small dog treat, Mom smiling, the toy doctor bag resting on the grass."
+    },
+    {
+      "beat": "Biscuit stands, tests his paw, and trots in a happy circle before licking {name}'s cheek. Mrs. Rosa thanks Dr. {name} and says she will take Biscuit to the vet if his paw is sore tomorrow. Mom tells {name} that staying calm made all the difference.",
+      "illustration_prompt": "The puppy jumping up to lick the giggling child's cheek, tail a happy blur, Mrs. Rosa laughing with hands on her heart, Mom beaming beside them in golden late-afternoon light."
+    },
+    {
+      "beat": "Back home at dusk, {name} adds a toy puppy to the clinic and tells Teddy all about the real patient. As {she/he} tucks in, {name} imagines growing up to be a doctor who helps people and animals feel better, one gentle step at a time.",
+      "illustration_prompt": "A cozy bedroom at dusk, the child in pajamas tucking a teddy bear and a small toy puppy into bed beside them, a soft dream bubble above showing the child grown up in a doctor's coat kindly caring for a person and a puppy, warm lamp glow."
+    }
+  ],
+  "cover_scene": "The child stands proudly in the leafy backyard wearing a play doctor coat and toy stethoscope, gently holding a happy fluffy tan puppy with a red collar and a plaid blanket, the soft red doctor bag at their feet and a teddy bear peeking from it. The top third of the picture is calm, open soft blue sky with a few light clouds, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Dr. {name} is open for the day!\nTeddy has a bumpy tummy. Bunny has a floppy ear.\n\"Gentle hands. Calm voice,\" says {name}.\n\"Now, where does it hurt?\"",
+      "scene": "A sunny living room toy clinic, the child in a play doctor coat listening to a teddy bear with a toy stethoscope, a stuffed rabbit with a bandaged ear waiting on a cushion, the soft red doctor bag open beside them."
+    },
+    {
+      "text": "{name} sits down low, low, low on the grass.\n\"Hello, Biscuit,\" {she/he} whispers. \"I'm here to help.\"\n{name} holds out one still hand.\nSniff, sniff... and out comes Biscuit, one slow step at a time.",
+      "scene": "The child sitting cross-legged on the grass beside a white garden bench, one hand held out low and still, a small tan puppy creeping out from underneath to sniff it, Mom and Mrs. Rosa watching quietly behind."
+    }
+  ],
+  "h1": "Personalized When I Grow Up Doctor Book: Your Child Saves the Day",
+  "meta_title": "Personalized Doctor Book for Kids | StoryBloom",
+  "meta_description": "A personalized doctor book where your child runs a toy clinic, then calmly helps a neighbor's scared puppy with Mom's help.",
+  "promise": "Your child becomes Dr. Hero, using gentle hands and a calm voice to help a frightened puppy when it matters.",
+  "story_summary": "Your child runs a busy pretend clinic for stuffed animals, complete with a toy stethoscope and three very important rules. Then a real whimper comes from the backyard: the neighbor's puppy, Biscuit, is limping and too scared to let anyone near. With Mom ready to help, your child has to decide whether toy clinic skills can work on a real patient. Sitting low, speaking softly and counting to three, your child takes the first brave step.",
+  "why_parents": [
+    "Between three and seven, pretend play is how children try on grown-up roles, and playing doctor is one of the most popular. This story honors that play and connects it to something real: the toy clinic routine your child practices becomes the very thing that helps a frightened puppy.",
+    "It also shows that helping is not about being big or knowing everything. Your child works beside a grown-up, stays calm when feeling nervous, and offers kindness to someone smaller. It is a gentle way to talk about what doctors and vets really do and how your child can be a helper right now."
+  ],
+  "for_grownups": [
+    "Set up your own toy clinic and ask your child to teach you their clinic rules. Take turns being the doctor and the patient.",
+    "Talk about a time your child felt nervous but stayed calm. What helped? Counting, a soft voice, or holding something cozy are ideas from the story you can try together.",
+    "Use Mrs. Rosa's plan to visit the vet as a chance to explain that grown-ups, doctors and vets take care of real injuries, and kids can help by staying calm and getting a grown-up."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child treat the puppy alone?",
+      "answer": "No. Your child is the calm, steady helper while Mom gently removes the burr, and the neighbor plans a vet visit if the paw is still sore. The story models kids helping alongside a trusted grown-up."
+    },
+    {
+      "question": "Is this book about being a doctor or a vet?",
+      "answer": "Both. Your child runs a pretend doctor clinic for toys, helps a real puppy, and ends the story dreaming of growing up to care for people and animals."
+    },
+    {
+      "question": "Is the scene with the hurt puppy too scary for little ones?",
+      "answer": "It is gently suspenseful but never frightening. Biscuit only has a prickly burr caught in his paw fur, and he is happily trotting around soon after."
+    }
+  ],
+  "image_alt": "Personalized doctor book cover featuring an illustrated child in a play doctor coat holding a happy puppy in a backyard",
+  "feed_title": "Personalized Doctor Book for Kids, When I Grow Up Story Where Your Child Is the Hero",
+  "feed_description": "A personalized picture book for ages 3 to 7 where your child becomes Dr. Hero. It starts in a cozy toy clinic, where your child checks a teddy bear's heartbeat, bandages a bunny's ear and follows three simple rules: gentle hands, calm voice, and always ask where it hurts. When the neighbor's puppy starts limping and hides under the garden bench, your child uses those same skills to calm him so Mom can gently remove a prickly burr from his paw. Warm illustrations, a repeated counting routine little listeners can join in on, and a sweet ending where your child dreams of growing up to help people and animals make this a lovely read for kids who adore playing doctor or vet."
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "potty-hero",
+  "status": "live",
+  "title_pattern": "{name} the Potty Hero",
+  "category": "life-lessons",
+  "age_range": "2-3",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "potty training book personalized",
+  "landing_page_slug": "books/potty-hero",
+  "example": {
+    "name": "Kai",
+    "pronouns": "he",
+    "look": "light tan skin, straight dark hair, gap-toothed smile"
+  },
+  "tagline": "Sit, try, oops, try again: a gentle potty story starring your child.",
+  "lesson_or_purpose": "Learning to use the potty takes many tries. Accidents are normal, cleaning up is no big deal, and listening to your body and trying again is something to feel proud of.",
+  "tone": "Warm, calm, matter-of-fact and lightly playful, with gentle rhythm and repetition. Never shaming, never pressured.",
+  "reading_level": "Ages 2-3: very short sentences, sound words, repeated phrases, one simple idea per page.",
+  "keywords": [
+    "potty training book personalized",
+    "personalized potty book for toddlers",
+    "potty training story for 2 year olds",
+    "toddler potty book with child's name",
+    "potty sticker chart story",
+    "gentle potty training picture book",
+    "custom potty training gift"
+  ],
+  "illustration_guide": "Setting: a cozy, everyday home with a bright bathroom, a sunny playroom and a bedroom. Palette: soft sunshine yellow, mint green, sky blue and warm cream, rounded shapes and gentle light. Recurring elements on every page where it fits: a small mint-green potty with a round handle, a soft brown teddy bear who is the child's companion, and a simple sticker chart on the bathroom wall showing rows of star stickers and empty squares (no words or numbers). A grown-up appears by role, kind and relaxed, shown at the child's eye level. The child is always dressed modestly; potty moments are shown discreetly from the side or with the child seated and covered by clothing at the knees, never showing private areas. Faces are expressive and friendly. No words, signs or lettering in any picture.",
+  "page_outline": [
+    {
+      "beat": "{name} meets {her/his} brand new little potty in the bathroom. It is mint green and just the right size. {name} pats it and shows Teddy. A sticker chart with empty squares hangs on the wall nearby.",
+      "illustration_prompt": "A bright cozy bathroom. The child crouches beside a small mint-green potty, patting it with curiosity, a soft brown teddy bear tucked under one arm. A simple sticker chart with empty squares hangs on the wall at child height. Warm morning light."
+    },
+    {
+      "beat": "{name} sits on the potty with {her/his} clothes on, then tries for real. Sit, sit, sit. Nothing happens yet, and that is okay. {name} washes {her/his} hands anyway.",
+      "illustration_prompt": "The child sits on the mint-green potty, shown discreetly from the side, swinging feet and looking calm, teddy bear sitting on the bath mat facing the child. A smiling grown-up kneels nearby, relaxed."
+    },
+    {
+      "beat": "{name} is busy building a tall block tower in the playroom. {She/He} feels a funny wiggle in {her/his} tummy but keeps on stacking.",
+      "illustration_prompt": "A sunny playroom with a wobbly tower of colorful blocks. The child concentrates on placing a block on top, one hand lightly on the tummy, teddy bear watching from a cushion."
+    },
+    {
+      "beat": "Oops! {name} has a little accident. Dad says, matter-of-fact and kind, that accidents happen and we just clean up. {name} helps carry the wet clothes to the laundry basket.",
+      "illustration_prompt": "The child, in a fresh change of clothes, carries a small bundle of clothes to a wicker laundry basket. A kind dad walks beside the child with a calm, reassuring smile. No mess shown, just a tidy, gentle moment."
+    },
+    {
+      "beat": "{name} thinks about the wiggle feeling. {She/He} decides that next time {she/he} will stop and listen to {her/his} body. {name} practices with Teddy, sitting Teddy on a pretend potty.",
+      "illustration_prompt": "The child sits cross-legged on a rug, carefully placing the teddy bear on an upturned toy bucket like a pretend potty, looking thoughtful and determined."
+    },
+    {
+      "beat": "Back at play, the wiggle feeling comes again. This time {name} stops right away. {name} puts down the block and heads to the bathroom, quick, quick, quick.",
+      "illustration_prompt": "The child sets down a block mid-play and hurries toward an open bathroom doorway, teddy bear swinging in one hand, face alert and determined."
+    },
+    {
+      "beat": "{name} pushes down {her/his} pants all by {her/his}self and sits on the potty. {She/He} waits and listens. Tinkle, tinkle! {name} did it!",
+      "illustration_prompt": "The child sits on the mint-green potty, shown discreetly from the side with clothing at the knees, eyes wide with a delighted surprised smile. Teddy bear sits nearby looking just as pleased."
+    },
+    {
+      "beat": "{name} helps tip the potty into the big toilet, flushes, and waves bye-bye. Then {name} washes {her/his} hands with lots of bubbles.",
+      "illustration_prompt": "The child stands on a small step stool at the sink, hands covered in big soap bubbles, grinning. A grown-up smiles from the doorway."
+    },
+    {
+      "beat": "{name} picks a shiny star sticker and presses it onto the chart all by {her/his}self. {She/He} stands tall and proud.",
+      "illustration_prompt": "The child reaches up to press a shiny star sticker onto the wall chart, standing on tiptoe, proud smile, teddy bear held up as if to watch. Some squares have stars, some are still empty."
+    },
+    {
+      "beat": "At bedtime, {name} looks at the chart: stars, and a few empty squares from the oops days too. {name} knows {she/he} can try again tomorrow, and {she/he} feels like a potty hero.",
+      "illustration_prompt": "A cozy bedroom at dusk with soft lamp light. The child in pajamas hugs the teddy bear, smiling sleepily beside a grown-up who holds up the sticker chart with a mix of stars and empty squares."
+    }
+  ],
+  "cover_scene": "The child stands proudly beside a small mint-green potty in a sunny, cozy bathroom, holding a teddy bear high in one hand and a shiny star sticker in the other, beaming with pride. A sticker chart with some stars is on the wall at the child's side. The top third of the picture is a calm, open expanse of soft pale yellow wall with gentle light, clear and uncluttered for the title. No words or lettering.",
+  "sample_pages": [
+    {
+      "text": "{name} sits on the potty. Sit, sit, sit. Nothing yet! That's okay. {name} will try again.",
+      "scene": "The child sits on the mint-green potty, shown discreetly from the side, swinging feet and looking calm, a soft brown teddy bear on the bath mat. A smiling grown-up kneels nearby."
+    },
+    {
+      "text": "Wiggle, wiggle! {name} stops. \"Potty!\" says {name}. Quick, quick, quick!",
+      "scene": "The child sets down a block mid-play in a sunny playroom and hurries toward an open bathroom doorway, teddy bear swinging in one hand, face alert and determined."
+    }
+  ],
+  "h1": "Personalized Potty Training Book Starring Your Child",
+  "meta_title": "Personalized Potty Training Book | StoryBloom",
+  "meta_description": "A personalized potty training book for ages 2-3 where your child tries, has an oops, tries again and earns a star on the chart.",
+  "promise": "A gentle, never-shaming potty story where your child learns that trying, missing and trying again is how it works.",
+  "story_summary": "Your child meets a brand new mint-green potty and gives it a first try with Teddy close by. Nothing happens at first, and later a busy block tower leads to a little accident. Dad helps clean up calmly, and your child decides to start listening for that wiggly tummy feeling. When the wiggle comes again, your child has a choice to make.",
+  "why_parents": [
+    "Between two and three, many toddlers are just starting to notice the signals their bodies send, and the potty can feel big and new. A story that walks through sitting, waiting, an accident and another try shows the whole process as ordinary, so the real version at home feels familiar instead of scary.",
+    "Accidents are part of learning, and toddlers read our reactions closely. In this book the grown-ups stay calm and kind, cleanup is simple, and the sticker chart includes empty squares as well as stars. Seeing themselves keep trying gives your child a picture of pride that does not depend on getting it right every time."
+  ],
+  "for_grownups": [
+    "When you read the oops page, try saying the same words you use at home, like \"Accidents happen, we clean up,\" so the book and real life match.",
+    "Pause on the wiggle pages and ask, \"What does your tummy feel like when you need to go?\" Let your child point or make a wiggle motion.",
+    "If you use a sticker chart, look at the book's chart together and notice that it has empty squares too. Praise the trying, not just the stars."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story include an accident?",
+      "answer": "Yes. Your child has one gentle accident while playing, and Dad responds calmly while your child helps carry the clothes to the laundry. It is shown simply and kindly, with no mess and no scolding."
+    },
+    {
+      "question": "Will it match how we potty train at home?",
+      "answer": "The story uses a small potty, a sticker chart and handwashing, and shows the child sitting to go so it works for any toddler. If you use a different routine, you can simply talk through the differences as you read."
+    },
+    {
+      "question": "Is the text short enough for a two-year-old?",
+      "answer": "Yes. Pages use very few words, sound words like tinkle and wiggle, and repeated phrases such as \"try again,\" so toddlers can join in after a few readings."
+    }
+  ],
+  "image_alt": "Personalized potty training book cover featuring an illustrated toddler as the hero beside a small green potty holding a teddy bear and a star sticker",
+  "feed_title": "Personalized Potty Training Book for Toddlers, Your Child Is the Potty Hero",
+  "feed_description": "A gentle personalized potty training picture book for ages 2 to 3 where your child is the illustrated hero. Your child meets a new little potty, tries with Teddy close by, and finds that sometimes nothing happens yet. After a little accident during block play, a calm grown-up helps clean up and your child decides to listen for the wiggly tummy feeling next time. Short, rhythmic pages with sound words and repeated phrases are easy for toddlers to follow and join in. The story keeps things warm and matter-of-fact, never shaming, and celebrates trying again with a sticker chart that has both stars and empty squares. A cozy read for the potty learning season."
+}

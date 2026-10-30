@@ -1,0 +1,117 @@
+{
+  "slug": "camps-under-the-stars",
+  "status": "live",
+  "title_pattern": "{name} Camps Under the Stars",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized camping book",
+  "landing_page_slug": "books/camps-under-the-stars",
+  "example": {
+    "name": "Amara",
+    "pronouns": "she",
+    "look": "deep brown skin, short coily black hair"
+  },
+  "tagline": "A first night in a tent, a sky full of stars, and one mystery rustle to solve.",
+  "lesson_or_purpose": "Unfamiliar night sounds feel less scary when we stop, listen and look for clues. Curiosity can turn a worry into a discovery.",
+  "tone": "Cozy, gently suspenseful, warm and wonder-filled",
+  "reading_level": "Read-aloud for ages 3-5; early independent reading for ages 6-8. Short sentences with sound words and light repetition.",
+  "keywords": [
+    "personalized camping book",
+    "camping book for kids",
+    "first camping trip book",
+    "personalized adventure book",
+    "bedtime book about night sounds",
+    "book about being brave at night",
+    "outdoor adventure book for kids",
+    "stars and campfire picture book"
+  ],
+  "illustration_guide": "Setting: a quiet woodland campsite beside a small meadow, with tall pines, a little stream and a ring of stones for the campfire. A bright orange dome tent stays the same on every page. Palette: warm golden afternoon light at the start, deepening into dusky purples and inky navy blues at night, lit by amber firelight and the soft yellow beam of the child's flashlight, then pale peach and mint green at dawn. Recurring elements: the child's red flashlight, a patchwork sleeping bag, a speckled tin mug, a crescent moon, fireflies, and a small brown rabbit who appears hidden in the background of early pages before being revealed. Style: soft textured gouache look, rounded friendly shapes, cozy rather than spooky shadows. Mom and Dad appear as gentle supporting figures. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} arrives at the woodland campsite with Mom and Dad, carrying {her/his} own little backpack and a red flashlight. {She/He} looks up at the tall pines and wonders what a whole night outside will be like.",
+      "illustration_prompt": "Golden afternoon at a woodland campsite. The child stands at the edge of a sunny clearing wearing a small backpack and holding a red flashlight, gazing up at tall pine trees. Mom and Dad unload gear from a car in the background. A small brown rabbit peeks from behind a fern."
+    },
+    {
+      "beat": "{name} helps put up the orange tent, holding poles steady and pushing in pegs with a stomp. When the tent finally pops up, {she/he} crawls inside first and declares it the coziest house in the forest.",
+      "illustration_prompt": "The child kneels inside a freshly pitched bright orange dome tent, peeking out of the open door with a big grin. Dad hammers in the last peg nearby. Sleeping bags and a lantern are piled beside the tent in warm afternoon light."
+    },
+    {
+      "beat": "As the sun sinks, {name} gathers dry sticks and helps Dad build a small campfire in the stone ring. {She/He} toasts a treat on a long stick and listens to the fire crackle and pop.",
+      "illustration_prompt": "Dusk with purple and orange sky. The child sits on a log beside a crackling campfire in a stone ring, holding a long stick with a treat toasting over the flames. Dad sits close by. Warm amber light glows on their faces and fireflies begin to appear."
+    },
+    {
+      "beat": "The sky turns dark and the stars come out one by one. {name} lies on a blanket and finds shapes among them, a star kite, a star fish, a star that winks just for {her/him}.",
+      "illustration_prompt": "The child lies on a patchwork blanket in the meadow next to Mom, pointing up at a deep navy sky full of glittering stars and a crescent moon. Pine silhouettes frame the edges. The glow of the campfire is soft in the distance."
+    },
+    {
+      "beat": "Time for bed. {name} snuggles into {her/his} patchwork sleeping bag inside the tent. The forest is full of new sounds: crickets chirping, the stream trickling, an owl calling hoo-hoo. {She/He} names each one sleepily.",
+      "illustration_prompt": "Inside the orange tent lit by a small lantern, the child is snuggled in a patchwork sleeping bag with eyes half open, listening. Through the mesh window, an owl sits on a branch, crickets rest on grass and a stream glimmers under moonlight."
+    },
+    {
+      "beat": "Then comes a sound {name} does not know. Rustle, rustle, crunch. Something is moving just outside the tent! {She/He} sits up, heart thumping, and holds the red flashlight tight.",
+      "illustration_prompt": "Inside the dark tent, the child sits up in the sleeping bag clutching a red flashlight, eyes wide. A small shadowy shape is softly outlined against the tent wall from outside, round and harmless looking. Mom sleeps peacefully nearby."
+    },
+    {
+      "beat": "Instead of hiding, {name} decides to be a night detective. {She/He} listens carefully. The rustle is small and quiet, not big and stompy. It stops, then starts again near the ground. {name} gently wakes Dad to come look with {her/him}.",
+      "illustration_prompt": "The child kneels by the tent door, one hand cupped to an ear in a listening pose, the other gently nudging a sleepy Dad. The red flashlight rests ready in the child's lap. Moonlight filters through the tent fabric."
+    },
+    {
+      "beat": "{name} unzips the door a little and shines the flashlight low across the grass. {She/He} spots the clues: tiny footprints in the dirt and nibbled clover leaves. Then two shiny eyes blink back at {her/him}.",
+      "illustration_prompt": "The child peeks out of the slightly open tent door, shining a soft yellow flashlight beam low across the grass. The beam reveals tiny paw prints, nibbled clover, and two shiny eyes in the dark near a fern. Dad leans out beside the child, smiling."
+    },
+    {
+      "beat": "It is a little brown rabbit having a midnight snack! {name} whispers hello and watches it nibble, then hop away into the ferns. {She/He} grins, proud to have solved the mystery all by listening and looking.",
+      "illustration_prompt": "In the circle of flashlight glow, a small brown rabbit sits nibbling clover just outside the tent. The child watches with a delighted grin, a finger to the lips. Dad watches from behind. Stars and fireflies twinkle overhead."
+    },
+    {
+      "beat": "{name} snuggles back into {her/his} sleeping bag. Now every sound is a friendly one: crickets, the stream, the owl, and the rabbit's soft rustle. {She/He} falls asleep under the stars, and in the morning finds rabbit tracks right by the tent door.",
+      "illustration_prompt": "Split feeling of night into dawn: the child sleeps peacefully in the patchwork sleeping bag, then at early morning the child crouches outside the orange tent in pale peach light, pointing happily at a trail of tiny rabbit tracks in the dewy grass."
+    }
+  ],
+  "cover_scene": "The child sits in the open doorway of a bright orange dome tent, holding a red flashlight and gazing up in wonder, while a small campfire glows nearby and a little brown rabbit peeks from behind a fern. Tall pine silhouettes frame the sides. The top third of the picture is a calm, open deep navy night sky with a soft scattering of faint stars and a crescent moon tucked to one side, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Snap, crackle, pop! {name} helped build a little campfire. {She/He} held a long stick over the flames and toasted a sweet, gooey treat. The fire sang and the sky turned purple.",
+      "scene": "Dusk at the campsite. The child sits on a log beside a crackling campfire in a ring of stones, holding a long stick with a treat toasting over the flames. Dad sits close by. The sky glows purple and orange and the first fireflies drift around them."
+    },
+    {
+      "text": "Rustle, rustle, crunch! That was not a cricket. That was not the owl. {name} sat up and held {her/his} flashlight tight. Something was outside the tent!",
+      "scene": "Inside the dark orange tent, the child sits upright in a patchwork sleeping bag, eyes wide, gripping a red flashlight. A small, round, harmless-looking shadow shows faintly on the tent wall from outside. Mom sleeps peacefully nearby."
+    }
+  ],
+  "h1": "Personalized Camping Book: Your Child's First Night Under the Stars",
+  "meta_title": "Personalized Camping Book for Kids | StoryBloom",
+  "meta_description": "A personalized camping book: your child's first night in a tent, a crackling fire, bright stars and a mystery rustle to solve.",
+  "promise": "Your child pitches a tent, toasts a treat by the fire, counts the stars and bravely discovers what is rustling outside in the dark.",
+  "story_summary": "Your child heads to a woodland campsite with Mom and Dad for a very first night in a tent. There are poles to hold, sticks to gather, a campfire to build and a whole sky of stars to find shapes in. Once snuggled into a sleeping bag, your child hears the forest's night music: crickets, a trickling stream and an owl. Then comes a rustle nobody can explain, and your child has to decide whether to hide or become a night detective.",
+  "why_parents": [
+    "A first camping trip, or even the idea of one, is full of big new feelings. The dark is darker outside, and the woods are full of sounds a child has never heard at bedtime. This story lets your child rehearse that night from somewhere safe and familiar, with the excitement of the tent and the campfire front and center.",
+    "Between three and eight, many children start to feel unsure about things they cannot see. Here, your child does not wait to be rescued. They stop, listen, look for clues and bring a grown-up along, which shows that a scary sound can become a small, friendly discovery. It works just as well for backyard tent nights as for real campsites."
+  ],
+  "for_grownups": [
+    "Before a trip, play a listening game at bedtime: turn off the lights and take turns naming every sound you can hear, just like your child does in the tent.",
+    "Ask, \"What clues helped you figure out it was a rabbit?\" and talk about how being curious can make a worry shrink.",
+    "Pack a flashlight that belongs only to your child, and let them be in charge of shining it during your own camping night or living room campout."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book scary for younger children?",
+      "answer": "No. The mystery rustle is gentle and the shadows are drawn cozy, not spooky. It is solved quickly and happily when your child finds a little rabbit having a midnight snack."
+    },
+    {
+      "question": "Does my family need to go camping to enjoy this story?",
+      "answer": "Not at all. It works as a fun adventure on its own, as preparation for a first trip, or as a keepsake after one, and it pairs nicely with a backyard or living room tent night."
+    },
+    {
+      "question": "Who else appears in the story?",
+      "answer": "Mom and Dad come along as calm, supportive grown-ups, along with forest friends like an owl, crickets, fireflies and the rabbit. Your child is the one who solves the mystery."
+    }
+  ],
+  "image_alt": "Personalized camping book cover featuring an illustrated child as the hero sitting at a tent door under a starry night sky",
+  "feed_title": "Personalized Camping Book for Kids Ages 3-8, Your Child Is the Hero of a Night Under the Stars",
+  "feed_description": "A personalized picture book about a first night of camping, made for children ages 3 to 8. Your child becomes the illustrated hero who helps pitch a bright orange tent, gathers sticks for a crackling campfire, toasts a treat and finds shapes among the stars. Snuggled into a sleeping bag, your child names the night sounds of the forest, from chirping crickets to a hooting owl. Then a mysterious rustle outside the tent turns your child into a night detective who listens closely, looks for clues and discovers who is visiting in the dark. A cozy, gently suspenseful story about curiosity and courage, ideal for bedtime, before a first camping trip or as a keepsake afterward."
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "messy-kitchen-chef",
+  "status": "live",
+  "title_pattern": "Chef {name}'s Very Messy Kitchen",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized cooking book for kids",
+  "landing_page_slug": "books/messy-kitchen-chef",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "One big pot, one bubbly mess, and a soup made with love for a friend who needs it.",
+  "lesson_or_purpose": "Caring for a friend in a practical way, staying calm when something goes wrong, and learning that tasting and adjusting as you go is how good things get made.",
+  "tone": "Playful, warm and gently silly, with cozy kitchen energy and a satisfying, kind ending.",
+  "reading_level": "Read-aloud for ages 3-5 and early independent reading for ages 6-8: short sentences, fun sound words and a repeating 'taste, think, try again' rhythm.",
+  "keywords": [
+    "personalized cooking book for kids",
+    "kids chef book",
+    "get well soup story",
+    "cooking picture book for children",
+    "personalized book about kindness",
+    "kitchen adventure book",
+    "book about mistakes for kids",
+    "personalized gift for little chefs"
+  ],
+  "illustration_guide": "Setting: a sunny, homey family kitchen with a wooden table, a big window over the sink, a stove with a tall silver soup pot, and hanging pots and utensils. One short outdoor scene on a leafy neighborhood street at a friend's front door. Palette: warm butter yellow, tomato red, carrot orange, pea green and soft cream, with steam drawn in airy white swirls. Recurring elements: the child wears a slightly too-big white chef hat and a red apron with a carrot pocket; Dad is the calm helper in rolled-up sleeves who always handles the hot stove; a wooden spoon with a little heart carved on the handle appears on every page; a small orange cat watches from the windowsill and gets more splashed as the mess grows; the kitchen gets visibly messier page by page until the cleanup. Friend Rosie has curly hair, a striped blanket and a red nose from her cold. Scenes contain no words, signs or lettering.",
+  "page_outline": [
+    {
+      "beat": "On a gray morning, {name} hears that best friend Rosie has a cold and must stay home in bed. {name} feels sad for Rosie and wonders how to make her feel better.",
+      "illustration_prompt": "The child at the kitchen window looking toward a neighbor's house across the street, chin in hands, gray clouds outside, the orange cat on the sill beside the child, the heart-handled wooden spoon on the counter."
+    },
+    {
+      "beat": "{name} has an idea: a warm get-well soup! {She/He} ties on a red apron and a big chef hat, and Dad agrees to be the helper who handles the hot stove while Chef {name} is in charge.",
+      "illustration_prompt": "The child proudly putting on a too-big chef hat and red apron with a carrot pocket, holding the heart-handled wooden spoon up high like a scepter, Dad smiling and tying on his own apron, bright tidy kitchen."
+    },
+    {
+      "beat": "Chef {name} gathers carrots, celery, peas and a fat yellow onion, then washes them at the sink. Splish, splash! Water sprays across the counter and onto the cat.",
+      "illustration_prompt": "The child standing on a step stool at the sink scrubbing carrots, water droplets flying in sparkly arcs, the startled orange cat dripping on the windowsill, a basket of colorful vegetables nearby."
+    },
+    {
+      "beat": "{name} tears herbs, snaps celery and helps Dad measure noodles. A bag of flour tips over, and a soft white cloud puffs up. Chef {name} giggles: cooking is messy work!",
+      "illustration_prompt": "A puff of flour drifting through the air, the child with a white-dusted nose laughing, Dad with flour on his eyebrows, torn green herbs and snapped celery on the table, the kitchen starting to look messy."
+    },
+    {
+      "beat": "Into the big pot go the vegetables, the herbs and the noodles. Then {name} adds more noodles, and more water, just to be sure. Dad turns on the stove, and the pot begins to bubble.",
+      "illustration_prompt": "The child carefully pouring noodles from a bowl into a tall silver pot while Dad stands at the stove beside it, gentle steam rising in white swirls, the pot filled very close to the top."
+    },
+    {
+      "beat": "Blub, blub, BLOOP! The pot bubbles over. Foam spills down the sides and noodles slide across the stove. {name} gasps and worries the soup for Rosie is ruined.",
+      "illustration_prompt": "Foamy soup spilling over the rim of the tall pot, a few noodles sliding down the side, the child stepping back a safe distance with wide worried eyes, Dad reaching for the stove knob, the cat peeking out from behind a jar."
+    },
+    {
+      "beat": "{name} takes a big breath and thinks like a chef. {She/He} asks Dad to turn the heat down low, then has a clever idea: split the soup into two pots so each one has room to bubble.",
+      "illustration_prompt": "The child pointing to a second empty pot with a determined, thoughtful face, Dad turning the stove knob down and nodding, the first pot calmer now with gentle steam, a small puddle of spilled soup on the stove."
+    },
+    {
+      "beat": "Now it is time to taste as you go. Dad cools a spoonful, and {name} sips. Too plain! {She/He} adds a pinch of herbs and a squeeze of lemon, then tastes again. Just right! Chef {name} grins.",
+      "illustration_prompt": "The child blowing on a small spoonful of soup with puffed cheeks, a lemon half and a little bowl of herbs nearby, Dad giving a thumbs-up, two pots steaming softly on the stove."
+    },
+    {
+      "beat": "{name} fills a warm jar with soup, and Dad carries it carefully as they walk to Rosie's house. Rosie opens the door in her striped blanket, sniffs the soup, and smiles a big sleepy smile. There is even a second pot to share with the neighbors.",
+      "illustration_prompt": "On a leafy neighborhood street, the child at a front door handing a picture drawn in crayon to Rosie, who is wrapped in a striped blanket with a red nose and a happy smile, Dad holding a covered jar of soup, sunshine breaking through the clouds."
+    },
+    {
+      "beat": "Back home, {name} and Dad wipe, scrub and sweep the very messy kitchen together, singing a silly soup song. {name} decides that real chefs taste, fix and share, and that a little mess is worth it.",
+      "illustration_prompt": "The child and Dad cleaning the kitchen together, the child sweeping noodles into a dustpan with a big smile, Dad wiping the stove, the clean orange cat curled on the sunny windowsill, the heart-handled wooden spoon resting in a drying rack, warm golden light."
+    }
+  ],
+  "cover_scene": "The child as a proud little chef in a too-big white chef hat and red apron, standing on a step stool beside a tall silver soup pot on a sunny kitchen counter, holding a heart-handled wooden spoon high. Playful swirls of steam and a few flying noodles and carrot coins float around the pot, and an orange cat peeks over the counter edge. The top third of the picture is calm, soft butter-yellow kitchen wall and open window light with no clutter, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Chef {name} washed the carrots. Chef {name} washed the peas. Splish! Splash! Splosh! Water flew everywhere, even onto the cat. \"Oops,\" said {name}. \"Cooking is splashy!\"",
+      "scene": "The child on a step stool at the kitchen sink scrubbing bright orange carrots, sparkly water droplets arcing through the air, a dripping, surprised orange cat on the windowsill, a basket of peas and celery on the counter."
+    },
+    {
+      "text": "Dad cooled a little spoonful. {name} took a sip. \"Hmm. Too plain!\" {She/He} added a pinch of herbs and a squeeze of lemon. Taste, think, try again. One more sip. \"Mmm! Just right!\"",
+      "scene": "The child holding a small spoon of soup with a delighted, wide smile, a lemon half and a tiny bowl of green herbs on the counter, Dad leaning in with a thumbs-up, two silver pots steaming gently on the stove behind them."
+    }
+  ],
+  "h1": "Personalized Cooking Book for Kids: Chef's Very Messy Kitchen",
+  "meta_title": "Personalized Cooking Book for Kids | StoryBloom",
+  "meta_description": "A personalized cooking book for kids: your child cooks get-well soup for a sick friend, handles a bubbling-over pot and tastes as they go.",
+  "promise": "Your child becomes the chef in charge of a big, splashy, giggly soup adventure, cooking for a friend and discovering that mistakes in the kitchen can be fixed with a calm breath and a clever idea.",
+  "story_summary": "When a best friend comes down with a cold, your child decides to cook a get-well soup, with Dad as the helper who handles the hot stove. Carrots get scrubbed, flour puffs into the air and the kitchen cat gets splashed more than once. Then the soup pot starts to bubble over, noodles slide everywhere, and the little chef has to think fast. Along the way your child learns to taste, think and try again until the soup is just right.",
+  "why_parents": [
+    "Young children love to help in the kitchen, and they also love to help people they care about. This story puts both together: your child sees a friend feeling unwell and turns that worry into something real and warm to give. It is a gentle way to show that kindness can be as simple as making something with your own hands.",
+    "Little ones often feel crushed when something spills or goes wrong. Here the overflowing pot is a big, funny moment, and your child is the one who stays calm, asks for help with the hot stove and comes up with a fix. The 'taste, think, try again' rhythm gives kids a playful way to see that getting it right often takes a few tries."
+  ],
+  "for_grownups": [
+    "Ask your child what they would put in their own get-well soup, and who they would want to bring it to. If you can, make a simple version together and let them do the tasting and adjusting.",
+    "Talk about the overflowing pot: what did the chef do first, and why was it smart to ask a grown-up to turn the heat down? It is a natural moment to go over your own kitchen safety rules about the stove and hot pots.",
+    "When something spills or goes wrong at home, try borrowing the story's words: 'Taste, think, try again.' It can turn a frustrating moment into a small problem to solve together."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story show a child using the stove alone?",
+      "answer": "No. Dad is the helper who handles the hot stove throughout the story, and your child is the chef who washes, tears, measures, tastes and makes the decisions. When the pot bubbles over, your child asks Dad to turn the heat down."
+    },
+    {
+      "question": "What is the friend sick with?",
+      "answer": "The friend simply has a cold and is resting at home in bed. The story keeps the illness light so the focus stays on cooking, kindness and a happy delivery."
+    },
+    {
+      "question": "Is this book good for a child who gets upset about mistakes?",
+      "answer": "It can be a nice fit. The big spill is played for giggles, and your child stays calm, fixes the problem and keeps going, which gives you an easy, low-pressure story to talk about together."
+    }
+  ],
+  "image_alt": "Personalized cooking book cover featuring an illustrated child as a chef stirring a big bubbling soup pot in a sunny kitchen",
+  "feed_title": "Personalized Cooking Book for Kids, Your Child Is the Chef in a Get-Well Soup Story",
+  "feed_description": "A personalized picture book for ages 3 to 8 in which your child becomes the chef of a very messy kitchen. When a best friend catches a cold, your child decides to cook a warm get-well soup, with Dad helping at the stove. Vegetables get scrubbed with plenty of splashing, flour puffs into the air, and then the big pot bubbles right over. Your child takes a breath, thinks like a chef and finds a clever fix, then learns to taste, think and try again until the soup is just right. A playful, cozy story about caring for a friend, staying calm when things spill, and the fun of cooking together, illustrated with your child as the hero on every page."
+}

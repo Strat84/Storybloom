@@ -1,0 +1,117 @@
+{
+  "slug": "day-came-home",
+  "status": "live",
+  "title_pattern": "The Day {name} Came Home",
+  "category": "family-changes",
+  "age_range": "2-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "adoption book personalized",
+  "landing_page_slug": "books/day-came-home",
+  "example": {
+    "name": "Diego",
+    "pronouns": "he",
+    "look": "tan skin, thick black hair"
+  },
+  "tagline": "A warm, honest story of the day your child came home, told so they can feel proud of every part of it.",
+  "lesson_or_purpose": "To help an adopted child hear their coming-home story told warmly and truthfully, understand that their beginning belongs to them and was never their fault, and feel proud and secure that their family is forever.",
+  "tone": "Warm, gentle, honest and celebratory, with simple plain language and a cozy family feel.",
+  "reading_level": "Read-aloud for ages 2-8: short sentences with gentle repetition for little ones, and enough story and feeling for early readers to grow into.",
+  "keywords": [
+    "adoption book personalized",
+    "personalized adoption book for kids",
+    "adoption story book",
+    "gotcha day book",
+    "coming home day book",
+    "adopted child picture book",
+    "adoption gift for child",
+    "family adoption book"
+  ],
+  "illustration_guide": "Soft, warm watercolor style with gentle textures. Palette of golden morning light, peach, soft sage green and dusty sky blue, with a deeper evening indigo for night scenes. The present-day scenes take place in a cozy family home with a sunny window, a wooden kitchen table and a bright child's room. Flashback scenes are framed with a slightly lighter, dreamier wash so they read as memories. Recurring elements on most pages: a small yellow knitted blanket that was waiting for the child on the day they came home, a little potted lemon tree in the window that grows taller over the years, and a string of paper stars the family adds to each Coming Home Day. The child's family appears by role and is shown loving and attentive. No words, signs or lettering anywhere in the art.",
+  "page_outline": [
+    {
+      "beat": "On a quiet rainy afternoon, {name} finds a photo tucked inside the yellow knitted blanket in a drawer. In the photo, a grown-up is holding a little {name} close. Curious, {name} carries it to the family and asks, \"Tell me the story of the day I came home.\"",
+      "illustration_prompt": "The child sitting on a bedroom rug beside an open drawer, holding a small photo and a folded yellow knitted blanket, rain on the window, a potted lemon tree on the sill, warm lamplight."
+    },
+    {
+      "beat": "The family snuggles up with {name} on the couch and begins honestly: before {name} came home, {she/he} had a beginning with a birth family. That beginning is part of {name}, and it is something to be proud of.",
+      "illustration_prompt": "The child cuddled on a cozy couch between loving family members under the yellow blanket, the photo held between them, soft golden light, a dreamy pale wash at the edges suggesting a memory about to begin."
+    },
+    {
+      "beat": "The family describes the waiting: they hoped and hoped for {name}. They painted a room, set the little lemon tree in the window and knitted the yellow blanket, wondering what {name} would be like.",
+      "illustration_prompt": "A memory scene in lighter watercolor: family members painting a child's room a soft sage green, a small lemon tree in the sunny window, a yellow blanket half knitted in a basket, an empty crib or small bed waiting."
+    },
+    {
+      "beat": "Then came the day the family met {name}. They tell how their hearts went thump, thump, thump, and how {name} looked right at them. In that moment, they knew they were {name}'s family and {name} was theirs, forever.",
+      "illustration_prompt": "A memory scene: the family meeting the child as a younger child in a bright, simple room, a grown-up kneeling at eye level, the child reaching out a small hand, morning light pouring in, the yellow blanket held ready."
+    },
+    {
+      "beat": "The family describes bringing {name} home: through the front door, past the lemon tree, into the waiting room. That first night they tucked {name} in with the yellow blanket and whispered, \"Welcome home.\"",
+      "illustration_prompt": "A memory scene at evening: a cozy child's room with sage walls, the child as a younger child tucked under the yellow blanket, a family member's hand gently resting on the covers, a soft indigo night sky through the window and the lemon tree on the sill."
+    },
+    {
+      "beat": "Back in the present, {name} grows quiet and asks a big question: \"Why couldn't my birth family keep me?\" The family answers plainly and kindly: {name}'s birth family could not take care of a child at that time. It was never because of anything {name} did, and {name} is loved by the family for always.",
+      "illustration_prompt": "The child on the couch looking thoughtful, a family member kneeling in front of the child and holding both of the child's hands, rain gently easing outside, the photo resting on the blanket."
+    },
+    {
+      "beat": "{name} shares a worry: tomorrow at school everyone is drawing a family picture, and {she/he} is not sure how to show {her/his} story. What if it looks different from everyone else's?",
+      "illustration_prompt": "The child at the wooden kitchen table with a blank sheet of paper and crayons, chin resting on one hand, looking unsure, a family member nearby pouring two cups of warm milk, evening light."
+    },
+    {
+      "beat": "{name} has an idea and decides to draw a tree with two kinds of roots: one for {her/his} birth family where {name} began, and one for the family {she/he} came home to. {name} adds a yellow blanket and a little lemon tree, choosing to show the whole story with pride.",
+      "illustration_prompt": "The child kneeling on a chair at the kitchen table, happily drawing a big tree with spreading roots on paper, crayons scattered, the real lemon tree in the window behind, the family watching with proud smiles. The drawing shows only shapes and colors, no writing."
+    },
+    {
+      "beat": "At school, {name} holds up the drawing and tells {her/his} story in {her/his} own words. Friends ask questions, and {name} answers proudly. One friend says, \"Your family has extra roots. That's cool!\"",
+      "illustration_prompt": "The child standing at the front of a sunny classroom holding up a colorful tree drawing, classmates seated on a rug leaning in with curious, friendly faces, a kind teacher smiling nearby."
+    },
+    {
+      "beat": "That evening, {name}'s family celebrates Coming Home Day together. {name} hangs a new paper star on the string in the window and decides that every year, the family will tell the story again. {name} knows {her/his} story is a good one, and {she/he} is home.",
+      "illustration_prompt": "The family together in the cozy living room at dusk, the child standing on tiptoe to hang a paper star on a string of stars above the window, the lemon tree glowing in lamplight, the yellow blanket around the child's shoulders, everyone smiling."
+    }
+  ],
+  "cover_scene": "The child stands on the front step of a cozy home with a sage-green door, wrapped in a small yellow knitted blanket like a cape, smiling and holding out a hand in welcome. A little potted lemon tree sits beside the door and a string of paper stars hangs from the porch. Warm golden late-afternoon light. The top third of the picture is calm, open soft peach and pale blue sky with a few gentle clouds, leaving space for a title.",
+  "sample_pages": [
+    {
+      "text": "Then came the day we met you, {name}. Thump, thump, thump went our hearts. You looked right at us. And we knew: you are our {daughter/son}, and we are your family. Forever.",
+      "scene": "A memory scene in soft, dreamy watercolor: the family meeting the child as a younger child in a bright, simple room, a grown-up kneeling at eye level, the child reaching out a small hand, morning light streaming in, the yellow knitted blanket held ready."
+    },
+    {
+      "text": "{name} picked up a green crayon. {She/He} drew a big tree with two kinds of roots. \"These roots are where I began,\" {she/he} said. \"And these roots are where I came home.\"",
+      "scene": "The child kneeling on a chair at the kitchen table, drawing a big tree with spreading roots on paper, crayons scattered, the real lemon tree in the window behind, family members watching with proud, gentle smiles. The drawing shows only shapes and colors, no writing."
+    }
+  ],
+  "h1": "Personalized Adoption Book: The Day Your Child Came Home",
+  "meta_title": "Personalized Adoption Book for Kids | StoryBloom",
+  "meta_description": "A personalized adoption book that tells the day your child came home warmly and honestly, so they feel proud of their own story.",
+  "promise": "Your child hears the story of their coming-home day told with warmth and truth, and sees themselves as the hero who is proud of every part of it.",
+  "story_summary": "One rainy afternoon, your child finds an old photo tucked in a yellow blanket and asks to hear the story of the day they came home. Snuggled on the couch, the family tells it honestly: a beginning with a birth family, the hopeful waiting, the first meeting, and the first night home. When a big question and a school worry about drawing a family picture come up, your child has to decide how to show where they came from. What they create, and how they share it, is all their own.",
+  "why_parents": [
+    "Children who joined their family through adoption often begin asking about their story early, sometimes in small sideways questions. Hearing it told plainly and lovingly, again and again, gives them words for their own beginning and a sense that it is safe to wonder and ask.",
+    "This book names the birth family respectfully, says clearly that the adoption was never the child's fault, and lets your child be the one who decides to share their story with pride. It also gently shows a common moment, a family picture assignment at school, so you can talk about it together before it happens."
+  ],
+  "for_grownups": [
+    "Use the photo moment as an invitation: share a real photo or keepsake from your child's coming-home day and let them hold it while you read.",
+    "When your child asks why their birth family could not care for them, keep answers honest, simple and age-appropriate, and repeat that it was never because of anything they did. You can add details as they grow.",
+    "Every child's adoption story is different. If big feelings come up, an adoption-competent counselor, your pediatrician or your agency's post-adoption support can help you find the right words."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story work for different kinds of adoption?",
+      "answer": "Yes. The book refers to your child's birth family and coming-home day in gentle, general terms, so it fits infant, older child, foster-to-adopt and international adoptions alike. It does not assume details like a hospital or an airport."
+    },
+    {
+      "question": "How does the book talk about the birth family?",
+      "answer": "The birth family is mentioned with respect as the place where your child began. The story explains simply that they could not take care of a child at that time and that it was never the child's fault."
+    },
+    {
+      "question": "Is it right for a two-year-old and an eight-year-old?",
+      "answer": "The text uses short sentences and gentle repetition that little ones enjoy, while the school family-picture moment and the child's choice to share their story give older children something to think about. Many families read it on Coming Home Day each year."
+    }
+  ],
+  "image_alt": "Personalized adoption book cover featuring an illustrated child as the hero on the front step of a cozy home, wrapped in a yellow blanket",
+  "feed_title": "Personalized Adoption Book for Kids, The Day Your Child Came Home, Your Child Is the Hero",
+  "feed_description": "The Day Your Child Came Home is a personalized adoption picture book for ages 2 to 8 that tells the story of an adopted child joining their family, warmly and honestly. After finding an old photo tucked in a yellow blanket, your child asks to hear about their coming-home day. The family shares the waiting, the first meeting and the first night home, and gently names the birth family as part of where your child began. When a school family-picture assignment brings up a worry, your child decides how to show their own story and shares it with pride. Soft watercolor illustrations feature your child as the hero. A thoughtful keepsake for Coming Home Day or any day you want to tell the story again."
+}

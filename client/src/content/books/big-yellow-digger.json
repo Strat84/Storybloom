@@ -1,0 +1,116 @@
+{
+  "slug": "big-yellow-digger",
+  "status": "live",
+  "title_pattern": "{name} and the Big Yellow Digger",
+  "category": "adventures",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized construction truck book",
+  "landing_page_slug": "books/big-yellow-digger",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "Beep, beep! The digger is stuck, and your child knows just what to do.",
+  "lesson_or_purpose": "A truck-filled adventure where a young child notices how things work, tests an idea, and helps a construction crew solve a real problem.",
+  "tone": "Noisy, bouncy and cheerful, packed with truck sounds to read aloud, with a gentle moment of puzzling things out.",
+  "reading_level": "Read-aloud for ages 2-6: short sentences, repeated sound words, a few new words like crew, mud and boards.",
+  "keywords": [
+    "personalized construction truck book",
+    "personalized digger book",
+    "construction book for toddlers",
+    "truck sounds picture book",
+    "personalized book for kids who love trucks",
+    "excavator book personalized",
+    "dump truck book for kids"
+  ],
+  "illustration_guide": "Setting: a sunny neighborhood building site where a new playground is being made, with a low safety fence, piles of dirt, puddles from last night's rain, and a half-built slide frame. Palette: bright digger yellow, safety orange, sky blue, warm brown mud and fresh green grass at the edges. Recurring elements: Big Yellow, a friendly round-cabbed digger with a long arm and a scoop; a red dump truck; a spinning striped cement mixer; Rosa, the crew boss in an orange vest and white hard hat; Grandpa in a flat cap; the child in a small yellow hard hat and rain boots once invited onto the site. Big chunky shapes, soft rounded lines, expressive truck faces with headlight eyes. Sound moments shown with motion lines and puffs of dust, never with lettering.",
+  "page_outline": [
+    {
+      "beat": "{name} and Grandpa walk to the building site at the end of the street, where a crew is making a new playground. {name} presses up to the safety fence to watch.",
+      "illustration_prompt": "The child and Grandpa standing at a low safety fence on a sunny morning, looking at a busy building site with dirt piles, puddles and a half-built slide frame."
+    },
+    {
+      "beat": "The trucks get to work with lots of noise. The dump truck goes BEEP BEEP, the cement mixer goes RUMBLE RUMBLE, and Big Yellow the digger goes SCOOP! {name} copies every sound.",
+      "illustration_prompt": "A red dump truck backing up, a striped cement mixer turning, and a yellow digger lifting a scoop of dirt, while the child at the fence cups hands around mouth, joyful."
+    },
+    {
+      "beat": "Big Yellow rolls toward the spot for the slide, right into a patch of soft mud from last night's rain. WHIRR, WHIRR! The wheels spin and spin, but Big Yellow does not move. {name} gasps.",
+      "illustration_prompt": "The yellow digger tilted in a deep brown mud patch with wheels spinning and mud splashing, the crew looking surprised, the child at the fence with wide eyes."
+    },
+    {
+      "beat": "The crew tries pushing. Rosa, the crew boss, tries rocking Big Yellow back and forth. The dump truck tries a tow. Still stuck. Rosa scratches the hard hat and sighs, and {name} watches the wheels closely.",
+      "illustration_prompt": "Crew workers in orange vests pushing the stuck digger, a red dump truck pulling with a rope, the crew boss looking puzzled, the child at the fence studying the wheels."
+    },
+    {
+      "beat": "Grandpa and {name} look at the puddles by the fence. {name} remembers rainy days at the park, when stepping on a flat plank kept boots from sinking.",
+      "illustration_prompt": "The child crouched by a puddle beside Grandpa, pointing at a flat wooden board lying near the fence, a thoughtful glow on the child's face."
+    },
+    {
+      "beat": "{name} tests the idea. Stepping into the mud: squish, squish, down sink the boots. Stepping onto a flat board: no squish at all. {name} stays right on top!",
+      "illustration_prompt": "Split moment in one picture: the child's rain boots sinking into mud on one side, and the child standing proudly on a flat wooden board on the other, Grandpa smiling nearby."
+    },
+    {
+      "beat": "{name} calls out to Rosa: put flat boards under the wheels! Rosa hands {name} a small yellow hard hat and invites Grandpa and {name} through the gate to help.",
+      "illustration_prompt": "The crew boss kneeling to hand the child a small yellow hard hat at the open gate, Grandpa holding the child's hand, crew members turning to listen."
+    },
+    {
+      "beat": "The crew slides wide boards under Big Yellow's wheels while {name} points to each spot. Then {name} gives the signal: GO! The engine goes VROOM, the wheels grip, and Big Yellow rumbles up and out of the mud.",
+      "illustration_prompt": "The yellow digger climbing out of the mud on wooden boards, dust and mud puffs flying, the child in a hard hat raising both arms, crew cheering at a safe distance."
+    },
+    {
+      "beat": "Everyone cheers. Big Yellow digs the hole for the new slide, SCOOP, SCOOP, and Rosa lets {name} sit in the cab for one big toot of the horn: BEEP BEEP!",
+      "illustration_prompt": "The child sitting in the digger cab beside the crew boss, pressing the horn with a huge grin, crew waving below, a neat hole ready for the slide."
+    },
+    {
+      "beat": "At sunset, {name} and Grandpa walk home past the new playground taking shape. {name} waves to the trucks parked for the night and whispers one last, sleepy beep beep.",
+      "illustration_prompt": "Golden sunset over the building site, trucks parked in a row with headlight eyes closing, the child in the yellow hard hat waving while walking home with Grandpa."
+    }
+  ],
+  "cover_scene": "The child in a small yellow hard hat and rain boots stands proudly on a wooden board beside Big Yellow, a friendly round-cabbed digger with its scoop raised high, at a sunny building site with dirt piles and a red dump truck behind. The top third of the picture is open, calm blue sky with a few soft clouds.",
+  "sample_pages": [
+    {
+      "text": "BEEP, BEEP! goes the dump truck. RUMBLE, RUMBLE! goes the mixer. SCOOP! goes Big Yellow. And {name} goes BEEP, RUMBLE, SCOOP too!",
+      "scene": "A red dump truck backing up, a striped cement mixer turning, and a yellow digger lifting dirt, while the child at the safety fence joyfully copies the sounds beside Grandpa."
+    },
+    {
+      "text": "{name} steps in the mud. Squish, squish! Down go the boots. Then {name} steps on a flat board. No squish! Up stays {name}.",
+      "scene": "The child in rain boots, one boot sunk in brown mud and the other planted firmly on a flat wooden board, Grandpa smiling nearby at the edge of the building site."
+    }
+  ],
+  "h1": "Personalized Construction Truck Book: Your Child and the Big Yellow Digger",
+  "meta_title": "Big Yellow Digger Personalized Book | StoryBloom",
+  "meta_description": "A personalized construction truck book where your child helps a crew free a stuck digger, with beeps, rumbles and scoops to read aloud.",
+  "promise": "Your child becomes the clever helper who gets Big Yellow the digger unstuck, in a noisy, joyful story built for reading aloud.",
+  "story_summary": "Your child and Grandpa stop by the building site at the end of the street, where a crew is making a brand new playground. The dump truck beeps, the mixer rumbles, and Big Yellow the digger scoops away, until it rolls into a patch of soft mud and gets stuck. The crew pushes, rocks and tows, but nothing works. Your child has been watching those spinning wheels very carefully and has an idea worth testing.",
+  "why_parents": [
+    "Between two and six, so many kids fall hard for trucks. The size, the noise and the way each machine has a job make a building site feel like the most exciting place in the world. This story leans right into that with sound words on almost every page, so little ones can shout along before they can read a single word.",
+    "Underneath the beeps and rumbles is a small, real moment of thinking: your child notices something, tries it out with a pair of rain boots, and then speaks up to help. Seeing themselves as the one with the good idea, and watching grown-ups listen, is a lovely feeling for a young child to land on at bedtime."
+  ],
+  "for_grownups": [
+    "Make the sounds together: let your child be the dump truck, the mixer or the digger, and see who can beep the loudest.",
+    "After reading, try the mud test at home with a tray of wet sand and a flat block or lid, and talk about why the board kept the boots from sinking.",
+    "On your next walk past a building site, stop at the fence and name the trucks you see, just like in the story."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child go onto a real construction site in the story?",
+      "answer": "Your child watches from behind the safety fence with Grandpa, and only steps through the gate when the crew boss invites them in and hands over a hard hat. It keeps the adventure exciting while modeling safe habits around big machines."
+    },
+    {
+      "question": "Is this book good for a two-year-old?",
+      "answer": "Yes. The text is short and full of repeated truck sounds like BEEP BEEP and RUMBLE RUMBLE, so toddlers can join in. Older kids up to six enjoy following how the stuck digger gets free."
+    },
+    {
+      "question": "Which trucks appear in the book?",
+      "answer": "Big Yellow the digger is the star, joined by a red dump truck and a spinning cement mixer. The whole crew is building a new playground, so a slide frame and dirt piles show up throughout."
+    }
+  ],
+  "image_alt": "Personalized construction truck book cover featuring an illustrated child in a yellow hard hat beside a big yellow digger",
+  "feed_title": "Personalized Construction Truck Book for Kids, Your Child Helps Free the Big Yellow Digger",
+  "feed_description": "A personalized picture book for truck-loving kids ages 2 to 6. Your child and Grandpa visit a building site where a crew is making a new playground. The dump truck beeps, the cement mixer rumbles and Big Yellow the digger scoops, until the digger rolls into soft mud and gets stuck. When pushing and towing do not work, your child tests an idea with a pair of rain boots and a flat board, then helps the crew get Big Yellow moving again. Packed with read-aloud truck sounds, bright illustrations and a cheerful ending at sunset, this story shows your child as the clever helper on a busy construction site. A fun gift for birthdays or any day."
+}

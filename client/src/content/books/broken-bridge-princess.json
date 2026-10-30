@@ -1,0 +1,116 @@
+{
+  "slug": "broken-bridge-princess",
+  "status": "live",
+  "title_pattern": "{Princess/Prince} {name} and the Broken Bridge",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized princess book",
+  "landing_page_slug": "books/broken-bridge-princess",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "A toolbox, a broken bridge, and one kind question that changes everything.",
+  "lesson_or_purpose": "Problems get solved by asking others what they need, and practical skills plus kindness can turn a grumpy stranger into a friend.",
+  "tone": "Playful, cozy fairy-tale adventure with satisfying building sounds and a gentle, funny troll.",
+  "reading_level": "Ages 3-8. Short sentences with sound words (tap, creak, clunk) and a light repeating refrain, easy to read aloud to younger children and simple enough for early readers.",
+  "keywords": [
+    "personalized princess book",
+    "personalized prince book",
+    "princess adventure book for kids",
+    "troll and bridge story",
+    "kindness book for kids",
+    "problem solving picture book",
+    "custom fairy tale book"
+  ],
+  "illustration_guide": "A cheerful storybook kingdom of rolling green hills, a small stone castle with round towers, and a wide blue river. Palette: soft sky blue, meadow green, warm honey gold, and berry red accents, with dusky purple for the shady space under the bridge. Recurring elements: the child in a simple crown and a practical tunic or dress with a tool belt, carrying a red wooden toolbox; a wooden bridge with a missing middle section; Bramble the troll, large, mossy-green, round-nosed, more shaggy than scary, with a patched blanket; a small blue bird that follows the child on every page; villagers with baskets and carts waiting on the far bank. Keep the troll friendly-looking even when grumpy: crossed arms and a pout, never sharp teeth.",
+  "page_outline": [
+    {
+      "beat": "Morning in the kingdom. {Princess/Prince} {name} is known for fixing things and is shown tightening a squeaky castle gate with a trusty red toolbox. Establish the refrain: tap, tap, twist, all better.",
+      "illustration_prompt": "A sunny castle courtyard with the child in a small crown kneeling by a wooden gate, using a little wrench from an open red toolbox, a blue bird perched on the gate."
+    },
+    {
+      "beat": "A loud CREAK and CRACK echo from the river. The old bridge has a big broken gap in the middle, and villagers with carts of apples and bread cannot cross to market. {Princess/Prince} {name} grabs the toolbox and runs to help.",
+      "illustration_prompt": "A wide river with a wooden bridge missing its middle planks, villagers with carts and baskets looking worried on the far bank, the child running down the hill holding a red toolbox."
+    },
+    {
+      "beat": "{name} measures the gap and starts hammering a new plank, but a rumbly voice booms from below: no more noise! Out climbs Bramble, a big, grumpy troll with crossed arms who lives under the bridge.",
+      "illustration_prompt": "The child holding a hammer at the edge of the broken bridge, startled, as a large mossy-green troll with crossed arms and a pout climbs up from the shady riverbank below."
+    },
+    {
+      "beat": "Bramble grumbles that the bridge should stay broken. The villagers whisper that trolls are trouble. {Princess/Prince} {name} feels a little nervous but notices the troll looks more tired than mean.",
+      "illustration_prompt": "The troll standing tall and frowning beside the bridge, villagers peeking from behind a cart, and the child looking up at the troll with a curious, thoughtful face."
+    },
+    {
+      "beat": "Instead of arguing, {name} sets down the hammer and asks a simple question: what do you need? Bramble is so surprised that the frown wobbles. Nobody has ever asked before.",
+      "illustration_prompt": "The child sitting on an upturned toolbox with hands open in a friendly way, the troll blinking in surprise, the blue bird tilting its head between them."
+    },
+    {
+      "beat": "Bramble shows {Princess/Prince} {name} the home under the bridge. Rain drips through the old cracks onto a soggy bed, and stomping feet shake dust down all night. The troll has been cold, wet and sleepy for years.",
+      "illustration_prompt": "A cozy but damp nook under the bridge with a soggy patched blanket, puddles on the floor, drips falling from cracks in the planks above, the child and the troll looking up at the leaks together."
+    },
+    {
+      "beat": "{name} has an idea and sketches a plan in the dirt with a stick: a bridge with tight, leak-proof planks, soft moss padding to hush the footsteps, and a snug little roof for the home below.",
+      "illustration_prompt": "The child crouching and drawing simple shapes in the dirt with a stick, the troll leaning in closely with a hopeful look, the toolbox open beside them."
+    },
+    {
+      "beat": "The work begins. {Princess/Prince} {name} measures and hammers while Bramble lifts the heavy logs that no one else can carry. Tap, tap, twist. The villagers bring moss and rope to help too.",
+      "illustration_prompt": "The troll lifting a large log into place over the river while the child hammers a plank, villagers passing bundles of green moss and coils of rope along the bank."
+    },
+    {
+      "beat": "A big storm rolls in before the last plank is done. {name} and Bramble work fast together in the rain, and the final plank clicks into place just in time. Not one drop leaks through.",
+      "illustration_prompt": "Dark rain clouds over the river, the child and the troll pressing the last plank into place side by side, raindrops bouncing off the smooth new bridge."
+    },
+    {
+      "beat": "The sun comes out. Carts roll quietly across the soft, mossy bridge to market, and Bramble naps warm and dry below. {Princess/Prince} {name} learns that the best fix starts with asking what someone needs. Tap, tap, twist, all better.",
+      "illustration_prompt": "A sunny rainbow over the repaired bridge with villagers and carts crossing, the troll snoozing happily in a dry nook below, and the child waving from the middle of the bridge with the toolbox and the blue bird."
+    }
+  ],
+  "cover_scene": "The child stands proudly in the middle of a sturdy wooden bridge over a sparkling blue river, wearing a small crown and a tool belt, holding a red toolbox. Beside the bridge, a big friendly mossy-green troll peeks up and smiles, and a little blue bird flies nearby. Rolling green hills and a small stone castle sit in the distance, with a wide calm pale-blue sky filling the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Morning in the kingdom! {Princess/Prince} {name} fixes a squeaky gate. Tap, tap, twist. All better!",
+      "scene": "A sunny castle courtyard where the child in a small crown kneels beside a wooden gate, turning a little wrench from an open red toolbox, while a blue bird watches from the top of the gate."
+    },
+    {
+      "text": "Under the bridge, drip, drip, drip! Rain fell on the troll's soggy bed. \"So that is why you are grumpy,\" said {name}. \"You need a dry home and a quiet night.\"",
+      "scene": "A damp nook under the bridge with puddles and a soggy patched blanket, drips falling through cracks above, the child and the mossy troll looking up at the leaks side by side."
+    }
+  ],
+  "h1": "Personalized Princess Book: Your Child Fixes the Broken Bridge",
+  "meta_title": "Personalized Princess Book: The Broken Bridge | StoryBloom",
+  "meta_description": "A personalized princess or prince book where your child grabs a toolbox, fixes a broken bridge and wins over a grumpy troll.",
+  "promise": "Your child becomes a royal fixer who solves a real problem with tools, a clever plan and one kind question.",
+  "story_summary": "Your child is the kingdom's handiest royal, always ready with a red toolbox. When the old bridge cracks and the villagers cannot reach market, your child rushes to repair it, only to be stopped by Bramble, a grumpy troll who lives underneath. Instead of arguing, your child asks the troll what he needs and discovers a soggy, sleepless home. Now there is a bigger job to do, and a storm is on the way.",
+  "why_parents": [
+    "Between three and eight, children are learning that big feelings often have a reason behind them. This story shows a grumpy character who is not bad, just cold, wet and tired, and a hero who stops to find out why. It is a gentle way to practice curiosity over judgment.",
+    "It also gives your child a hero who builds things. Measuring, planning and hammering sit right alongside the crown, so the adventure celebrates being useful, capable and helpful, with teamwork turning a problem into a friendship."
+  ],
+  "for_grownups": [
+    "Ask: Why do you think Bramble was grumpy at first? Have you ever felt grumpy because something was bothering you?",
+    "Practice the question from the story. Next time a sibling or friend is upset, try asking together: what do you need?",
+    "Build a pretend bridge from blocks or books and talk about what makes it strong, just like your child did in the story."
+  ],
+  "faqs": [
+    {
+      "question": "Can this book be a prince story instead of a princess story?",
+      "answer": "Yes. The title and story use princess or prince to match your child, so the royal hero fits every reader."
+    },
+    {
+      "question": "Is the troll scary?",
+      "answer": "Not at all. Bramble is grumpy at first with crossed arms and a pout, but is drawn soft and shaggy, and becomes a friend once your child asks what is wrong."
+    },
+    {
+      "question": "What will my child take away from the story?",
+      "answer": "The story shows that asking someone what they need can solve a problem better than arguing. It also celebrates planning, building and working as a team."
+    }
+  ],
+  "image_alt": "Personalized princess book cover featuring an illustrated child with a toolbox on a repaired bridge beside a friendly troll",
+  "feed_title": "Personalized Princess or Prince Book for Kids, Your Child Fixes the Broken Bridge",
+  "feed_description": "A personalized fairy tale adventure for ages 3 to 8 where your child is the royal hero with a red toolbox. When the kingdom's old bridge cracks and the villagers cannot reach market, your child rushes to repair it, but a grumpy troll named Bramble lives underneath and wants no more noise. Instead of arguing, your child asks a simple question: what do you need? Together they plan a leak-proof, mossy, quiet bridge and race to finish before a storm arrives. The story pairs building and problem solving with kindness and teamwork, and the gentle troll is friendly rather than scary. Works as a princess or prince story with your child's name and likeness throughout."
+}

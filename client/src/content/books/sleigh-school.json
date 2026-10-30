@@ -1,0 +1,117 @@
+{
+  "slug": "sleigh-school",
+  "status": "live",
+  "title_pattern": "{name} Goes to Sleigh School",
+  "category": "christmas",
+  "age_range": "4-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Dec",
+  "sensitive": false,
+  "main_keyword": "santa book personalized for child",
+  "landing_page_slug": "books/sleigh-school",
+  "example": {
+    "name": "Sophie",
+    "pronouns": "she",
+    "look": "fair skin, long red hair in a braid"
+  },
+  "tagline": "Three young reindeer are scared to fly. Your child has a plan, and it starts with one small hop.",
+  "lesson_or_purpose": "Patience and gentle encouragement help others, and ourselves, grow brave one small step at a time.",
+  "tone": "Cozy, wintry and encouraging, with gentle humor and a glowing Christmas Eve finish.",
+  "reading_level": "Ages 4-8: read-aloud for younger children, with short paragraphs and simple dialogue that early readers can try on their own.",
+  "keywords": [
+    "santa book personalized for child",
+    "personalized christmas book",
+    "reindeer book for kids",
+    "north pole story with child's name",
+    "christmas gift book for kids",
+    "patience story for children",
+    "personalized santa story",
+    "sleigh school christmas book"
+  ],
+  "illustration_guide": "Setting: a snowy North Pole training field with a small red barn, a frosted fence, hay bales, round snowdrifts and pine trees, plus Santa's workshop glowing in the distance. Night scenes show soft northern lights in teal and violet. Palette: snowy whites, deep evergreen, cranberry red, warm gold lantern light, and cool blue shadows. Recurring elements on every page where they fit: the child in a red knit scarf and mittens; three young reindeer, each easy to tell apart (Pip is small with a pale spotted coat, Clover has a cream belly and wears a little green scarf, Bramble is tall and lanky with fuzzy antler nubs); Coach Juniper, a cheerful elf in a green coat and striped stockings; a small wooden red practice sleigh; a line of snowballs used for hopping practice. Santa appears with a white beard and red coat, kind and calm. Rounded, soft painterly style with gentle textures. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "On a frosty December night, {name} finds a letter from Santa tucked by the fireplace. It invites {name} to Sleigh School at the North Pole to help some young reindeer. {She/He} closes {her/his} eyes, and with a jingle and a swirl of snow, {she/he} is there.",
+      "illustration_prompt": "A cozy living room at night with a glowing fireplace and a decorated tree. The child in pajamas holds an open envelope sealed with red wax, eyes wide with wonder, as sparkling snowflakes swirl around them."
+    },
+    {
+      "beat": "Coach Juniper the elf welcomes {name} to the snowy training field and introduces three young reindeer: Pip, Clover and Bramble. They are supposed to fly before Christmas Eve, but they have never left the ground. {name} promises to help.",
+      "illustration_prompt": "A snowy training field with a small red barn and pine trees. The child in a red scarf shakes hands with a cheerful elf in a green coat while three young reindeer peek out shyly from behind a hay bale."
+    },
+    {
+      "beat": "Eager to help fast, {name} cheers loudly, waves {her/his} arms and tugs the reins, calling for them to fly right now. The reindeer tremble, back away and hide behind the barn. {name} feels {her/his} cheeks go hot. Hurrying has made things worse.",
+      "illustration_prompt": "The child stands in the snow holding loose reins, arms raised mid-cheer, while three young reindeer scramble to hide behind the red barn, only their tails and ears showing. The elf watches with a gentle, knowing smile."
+    },
+    {
+      "beat": "{name} sits quietly in the snow and waits. One by one, the reindeer come close and share their worries. Pip is afraid of being high up. Clover is afraid of the wind. Bramble is afraid of falling. {name} listens to every word.",
+      "illustration_prompt": "The child sits cross-legged in the snow, calm and attentive, as the three young reindeer gather close around them. Soft afternoon light, a few snowflakes drifting, the barn in the background."
+    },
+    {
+      "beat": "{name} has a new idea: one tiny step at a time. {She/He} lines up snowballs on the field, and each reindeer practices hopping over just one. {name} cheers softly for every small hop, even the wobbly ones.",
+      "illustration_prompt": "A neat line of snowballs across the snowy field. Pip mid-hop over a snowball while Clover and Bramble wait their turn, and the child kneels nearby clapping mittened hands with a warm smile."
+    },
+    {
+      "beat": "Each day {name} makes the steps a little bigger: hops onto a hay bale, then onto a tall snowdrift. {She/He} holds up a scarf in the breeze so Clover can see the wind is gentle. But Bramble slips off a snowdrift and refuses to try again.",
+      "illustration_prompt": "A montage-style scene on the field: Pip standing proudly on a hay bale, the child holding a green scarf fluttering in a light breeze beside a curious Clover, and Bramble sitting at the bottom of a snowdrift looking sad and dusted with snow."
+    },
+    {
+      "beat": "{name} does not rush Bramble. {She/He} sits beside the reindeer, shares a carrot, and tells how {she/he} once learned something hard very slowly. When Bramble is ready, Bramble tries the snowdrift again and lands it.",
+      "illustration_prompt": "The child and Bramble sit side by side against a snowdrift, sharing a carrot, under a pale pink winter sunset. In a small second moment, Bramble stands proudly on top of the snowdrift with the child cheering below."
+    },
+    {
+      "beat": "On the night before Christmas Eve, Santa comes to watch the test flight. The reindeer shuffle their hooves nervously. {name} hitches them to the little practice sleigh, climbs in, and reminds them in a calm voice: one hop at a time.",
+      "illustration_prompt": "Nighttime on the training field under soft teal and violet northern lights. Santa stands by the fence with Coach Juniper, lantern glowing. The child sits in a small red wooden sleigh hitched to the three young reindeer, speaking calmly to them."
+    },
+    {
+      "beat": "{name} counts slowly. Hop. Hop. Lift. The reindeer rise just above the snow, then a little higher, then up over the barn roof, pulling {name} in the sleigh in a wide, wobbly, wonderful loop beneath the glowing sky.",
+      "illustration_prompt": "The three young reindeer fly above the snowy field pulling the small red sleigh, the child inside with arms raised in joy. The barn and pine trees sit below, and ribbons of northern lights glow across the sky."
+    },
+    {
+      "beat": "They land softly, and Santa says these young reindeer will be ready to join the big team one day, thanks to {name}'s patient help. He gives {name} a small silver bell. Back home in bed, {name} holds the bell close and smiles at the snowy window.",
+      "illustration_prompt": "A two-part scene: Santa kneeling to hand the child a small silver bell as the three reindeer nuzzle close, then the child tucked in bed at home holding the bell, snow falling softly outside a moonlit window."
+    }
+  ],
+  "cover_scene": "The child in a red knit scarf sits in a small red wooden sleigh gliding just above a snowy field, pulled by three young reindeer (one small and spotted, one wearing a green scarf, one tall and lanky). A red barn and pine trees sit low in the scene, and the top third of the picture is calm, open night sky in deep blue with soft, faint northern lights and gentle stars.",
+  "sample_pages": [
+    {
+      "text": "\"Fly, reindeer, fly!\" {name} shouted. {She/He} waved {her/his} arms and tugged the reins. But Pip, Clover and Bramble did not fly. They ran and hid behind the barn. {name} let the reins go slack. Maybe fast was not the way.",
+      "scene": "The child stands in the snow holding loose reins, arms half-raised, while three young reindeer hide behind a red barn with only ears and tails peeking out. A cheerful elf in a green coat watches kindly from the fence."
+    },
+    {
+      "text": "{name} rolled snowballs into a long, bumpy line. \"Just one hop,\" {she/he} said softly. Pip hopped. Clover hopped. Bramble wobbled, then hopped too. \"Hooray!\" whispered {name}. One small hop was a very good start.",
+      "scene": "A line of snowballs across a snowy field. A small spotted reindeer leaps over one snowball while the other two reindeer wait nearby, and the child kneels in the snow clapping mittened hands."
+    }
+  ],
+  "h1": "Personalized Santa Book for Your Child: Sleigh School at the North Pole",
+  "meta_title": "Personalized Santa Book: Sleigh School | StoryBloom",
+  "meta_description": "A personalized Santa book where your child trains shy young reindeer at the North Pole and learns how patience helps them fly.",
+  "promise": "Your child is invited to Santa's Sleigh School and becomes the patient, clever helper who teaches three nervous young reindeer to fly.",
+  "story_summary": "A letter from Santa invites your child to Sleigh School at the North Pole, where three young reindeer named Pip, Clover and Bramble are supposed to learn to fly before Christmas Eve. There is just one problem: they are too scared to leave the ground. When cheering and hurrying only send them hiding behind the barn, your child slows down, listens to each reindeer's worry, and comes up with a plan built on small, brave steps. With Santa coming to watch a test flight, everyone will find out whether patience can lift a sleigh into the sky.",
+  "why_parents": [
+    "Between ages 4 and 8, children are often working on hard things of their own: buttoning a coat, reading a page, trying a new skill on the playground. This story lets your child stand on the other side for once, as the helper who learns that shouting and rushing make friends nervous, while listening and small steps make them brave.",
+    "December can feel like one long countdown, full of excitement and impatience. A Santa story about waiting, trying again and celebrating little wins fits right into the season, and the cozy North Pole setting, gentle reindeer and glowing test flight make it a warm book to share in the weeks before Christmas."
+  ],
+  "for_grownups": [
+    "Ask your child why the reindeer hid when they were told to fly right away, and what helped them feel safe instead. Talk about a time someone was patient with them.",
+    "Pick something your child is learning right now and break it into 'snowball hops' together, cheering for each small step the way the story does.",
+    "After reading, try a quiet moment like the one in the story: sit together, listen to a worry, and see if a small first step comes to mind."
+  ],
+  "faqs": [
+    {
+      "question": "Does Santa appear in the story?",
+      "answer": "Yes. Santa sends the invitation that starts the adventure and comes to watch the reindeer's test flight. He is kind and calm, and he thanks your child at the end."
+    },
+    {
+      "question": "Is this a good book to read before Christmas Eve?",
+      "answer": "It works well any time in November or December. The story builds toward the night before Christmas Eve, so it can make a cozy part of a holiday countdown."
+    },
+    {
+      "question": "Will this story help with a child who gets frustrated when things are hard?",
+      "answer": "It is a gentle way to talk about it. Your child sees that rushing did not work and that small steps and patience did, which can open an easy conversation about their own challenges."
+    }
+  ],
+  "image_alt": "Personalized Santa book cover featuring an illustrated child as the hero riding a small red sleigh pulled by three young reindeer under a starry night sky",
+  "feed_title": "Personalized Santa Book for Kids, Your Child Trains Santa's Reindeer at Sleigh School",
+  "feed_description": "A personalized Christmas picture book for ages 4 to 8 in which your child is the illustrated hero. A letter from Santa invites your child to Sleigh School at the North Pole to help three young reindeer, Pip, Clover and Bramble, who are too scared to fly. When cheering and hurrying only make them hide behind the barn, your child slows down, listens to each reindeer's worry, and builds a plan of small, brave steps: one snowball hop, then a hay bale, then a snowdrift. With Santa coming to watch a test flight under the northern lights, the story celebrates patience, kindness and trying again. Soft wintry illustrations, a cozy North Pole setting and gentle read-aloud text make it a warm book to share during the holiday season."
+}

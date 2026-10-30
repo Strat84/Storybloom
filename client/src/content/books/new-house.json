@@ -1,0 +1,117 @@
+{
+  "slug": "new-house",
+  "status": "live",
+  "title_pattern": "{name}'s New House",
+  "category": "milestones",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "moving to a new home book for kids",
+  "landing_page_slug": "books/new-house",
+  "example": {
+    "name": "Theo",
+    "pronouns": "he",
+    "look": "light skin, curly auburn hair, uses a wheelchair"
+  },
+  "tagline": "A goodbye, a new door, and the first little thing that makes it home.",
+  "lesson_or_purpose": "Helps young children name the mixed feelings of moving, honor what they loved about the old house, and take an active part in making a new place feel like their own.",
+  "tone": "Gentle, warm and reassuring, with quiet moments of sadness that open into curiosity and comfort.",
+  "reading_level": "Read-aloud for ages 3-7: short sentences, simple repeated phrases like 'Goodbye, room' and 'Hello, house', with a few longer lines for older listeners.",
+  "keywords": [
+    "moving to a new home book for kids",
+    "personalized moving book",
+    "new house book for children",
+    "moving book for toddlers",
+    "book about moving for preschoolers",
+    "saying goodbye to old house",
+    "personalized milestone book",
+    "first night in a new house"
+  ],
+  "illustration_guide": "Soft, cozy watercolor and colored-pencil style. The old house is warm honey and faded rose, with a big leafy tree out front and a round garden stone path. The new house is pale sky blue and cream, at first a little bare and echoey with stacked cardboard boxes, then gradually warmer. Recurring elements: a smooth grey pebble with a white stripe from the old garden that the child keeps in a pocket; a small cardboard box the child decorates with crayon drawings; a sleepy family cat who appears on most pages; morning sunlight shown as golden beams. Palette shifts from cool and muted in the empty new house to golden and warm by the end. Mom and Dad appear by role, kind and busy. No text, signs or lettering in any image.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} in the old house on the last morning there. Rooms are filling with boxes. {name} notices the bedroom looks different without pictures on the walls and feels a wobble inside.",
+      "illustration_prompt": "The child sitting on a bare bedroom floor surrounded by taped cardboard boxes in a honey-colored room, a lighter patch on the wall where a picture used to hang, the family cat curled on a box."
+    },
+    {
+      "beat": "{name} decides to say goodbye properly. {She/He} walks from room to room saying a soft goodbye to each one: the kitchen, the stairs, the cozy reading corner. Use a repeating line.",
+      "illustration_prompt": "The child waving gently at an empty kitchen with warm light through the window, a few boxes stacked by the door, the cat following behind."
+    },
+    {
+      "beat": "In the garden, {name} kneels by the old stone path and picks up a smooth grey pebble with a white stripe. {She/He} tucks it in a pocket so a little piece of the old house can come along.",
+      "illustration_prompt": "The child kneeling on a round stone garden path under a big leafy tree, holding up a smooth grey pebble with a white stripe, soft rose and honey colors."
+    },
+    {
+      "beat": "The family drives away. {name} watches the old house get smaller through the car window and holds the pebble tight. Mom says it is okay to feel sad and excited at the same time.",
+      "illustration_prompt": "View from the back seat of a car, the child looking out the rear window at a honey-colored house with a big tree growing small in the distance, the child's hand closed around a pebble."
+    },
+    {
+      "beat": "They arrive at the new house. It is big and quiet. {name}'s footsteps echo, the walls are plain, and nothing smells familiar. {name} whispers that it does not feel like home yet.",
+      "illustration_prompt": "The child standing in a large empty pale-blue living room with cream walls, cardboard boxes scattered, cool muted light, the cat peeking out from a box."
+    },
+    {
+      "beat": "Instead of hiding, {name} decides to explore. {She/He} peeks into every room, counting doors, tapping walls and looking for anything that might feel friendly.",
+      "illustration_prompt": "The child tiptoeing down a sunlit hallway with several open doors, peeking around a doorframe with a curious face, the cat padding alongside."
+    },
+    {
+      "beat": "In a small room upstairs, {name} finds a wide window seat where golden morning light pours in and makes a warm patch on the floor. The cat stretches out in it right away. {name} sits too and feels the sun on {her/his} face.",
+      "illustration_prompt": "The child sitting on a wide window seat in an upstairs room, bright golden sunbeams spilling across the floor, the cat stretched out in the warm patch of light."
+    },
+    {
+      "beat": "{name} takes the striped pebble from the old garden and sets it on the windowsill, right in the sunshine. {She/He} decides this will be the first home spot in the new house.",
+      "illustration_prompt": "Close view of the child's hand placing a smooth grey pebble with a white stripe on a sunny windowsill, golden light glowing around it, the child smiling."
+    },
+    {
+      "beat": "{name} runs to get Mom and Dad and invites them to have their first breakfast in the sunny spot. The family sits on the floor among the boxes, sharing toast in the golden light. {name} notices the house feels warmer already.",
+      "illustration_prompt": "The child, Mom and Dad sitting together on the floor in a patch of golden morning light, sharing toast on a picnic blanket, boxes around them, the cat curled nearby, warm glowing colors."
+    },
+    {
+      "beat": "That night, {name} says goodnight to the new house the same way {she/he} said goodbye to the old one, room by room, ending at the window where the pebble waits for morning. {name} falls asleep knowing home is starting here.",
+      "illustration_prompt": "The child in pajamas at the upstairs window at night, a crescent moon outside, the striped pebble on the sill, a cozy room now with a few unpacked toys and a soft lamp glow, the cat asleep on the bed."
+    }
+  ],
+  "cover_scene": "The child stands on the front step of a pale sky blue house with a cream door, holding a small crayon-decorated cardboard box in one arm and a smooth striped pebble in the other hand, the family cat at the child's feet. Golden morning light falls across the scene. The top third of the picture is calm, open soft blue sky with a few faint wispy clouds and nothing else.",
+  "sample_pages": [
+    {
+      "text": "Goodbye, kitchen. Goodbye, stairs. Goodbye, cozy reading chair. {name} walked softly through every room and said goodbye to each one, so none of them would feel forgotten.",
+      "scene": "The child waving gently at an empty honey-colored kitchen with warm window light, a few taped boxes by the door, the family cat trotting behind."
+    },
+    {
+      "text": "{name} did not hide. {She/He} took a big breath and went exploring. One door, two doors, three doors, four. Was there something friendly here?",
+      "scene": "The child tiptoeing down a sunlit hallway lined with open doors, peeking around a doorframe with a curious face, the cat padding close behind."
+    }
+  ],
+  "h1": "Personalized Moving to a New Home Book for Kids",
+  "meta_title": "Personalized Moving to a New Home Book | StoryBloom",
+  "meta_description": "A personalized moving book where your child says goodbye to the old house and finds the first thing that makes the new one feel like home.",
+  "promise": "A gentle story where your child says a proper goodbye to the old house, carries a small piece of it along, and discovers the first spot that makes the new house feel like home.",
+  "story_summary": "On the last morning in the old house, your child walks from room to room saying goodbye, then tucks a striped pebble from the garden into a pocket to bring along. The new house is big, quiet and echoey, and at first it does not feel like home at all. Rather than hiding, your child decides to explore every room, looking for something friendly. What your child finds, and what your child chooses to do with it, starts to change how the whole house feels.",
+  "why_parents": [
+    "Moving is one of the biggest changes a young child can go through, and at three to seven, children feel it deeply even when they cannot explain why. The old house holds their routines, their hiding spots and their sense of safety, so leaving it can bring sadness, worry or a lot of questions all at once.",
+    "This story gives those feelings room. It shows that saying goodbye is something you can do on purpose, that bringing a small keepsake is allowed, and that a new place becomes home bit by bit. Seeing themselves walk through each step can help children feel like a part of the move rather than something that simply happens to them."
+  ],
+  "for_grownups": [
+    "Before the move, try your own goodbye walk through the old house together, letting your child name a favorite memory in each room.",
+    "Invite your child to choose one small keepsake from the old house, like a pebble, leaf or drawing, and decide together where it will live in the new home.",
+    "On the first days in the new house, ask your child to help find a 'first home spot' and use it for a family snack or story time."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book better to read before or after we move?",
+      "answer": "It works for both. Before the move it can help your child picture what will happen, and afterward it can help your child talk about the goodbye and settling in."
+    },
+    {
+      "question": "Does the story show any sadness about leaving?",
+      "answer": "Yes, gently. Your child feels a wobble on the last morning and in the quiet new house, and a parent says it is okay to feel sad and excited at the same time, before the story turns warm and hopeful."
+    },
+    {
+      "question": "Will it fit if we are moving to an apartment instead of a house?",
+      "answer": "The story is about leaving a familiar home and finding comfort in a new one, so the feelings and the goodbye ritual carry over to any kind of move, even though the pictures show houses."
+    }
+  ],
+  "image_alt": "Personalized moving to a new home book cover featuring an illustrated child as the hero on the front step of a new house",
+  "feed_title": "Personalized Moving Book for Kids, Your Child Says Goodbye and Finds Home in a New House",
+  "feed_description": "A gentle personalized picture book for children ages 3 to 7 who are moving to a new home. Your child becomes the illustrated hero who walks through the old house saying goodbye to each room, then picks up a striped pebble from the garden to carry along. The new house feels big, quiet and unfamiliar at first, so your child sets out to explore and look for something friendly. Soft watercolor illustrations shift from cool and empty to warm and golden as the new place starts to feel like home. A helpful read before or after a move, with simple repeated lines for little listeners and a family breakfast moment that shows home is built together."
+}

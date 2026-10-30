@@ -1,0 +1,116 @@
+{
+  "slug": "big-kid-bed",
+  "status": "live",
+  "title_pattern": "{name}'s Big Kid Bed",
+  "category": "milestones",
+  "age_range": "2-4",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "big kid bed book toddler",
+  "landing_page_slug": "books/big-kid-bed",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "Out of bed, back to bed, and a cozy reason to stay.",
+  "lesson_or_purpose": "Helps toddlers picture the first night in a big bed: the urge to climb out, a calm walk back, and finding their own way to feel cozy and stay put.",
+  "tone": "Gentle, rhythmic, cozy, with a little playful mischief",
+  "reading_level": "Read-aloud for ages 2-4: short lines, repeated sounds, simple words",
+  "keywords": [
+    "big kid bed book toddler",
+    "toddler bed book",
+    "crib to bed transition book",
+    "first big bed story",
+    "personalized bedtime book",
+    "staying in bed book for toddlers",
+    "moving to a big bed"
+  ],
+  "illustration_guide": "Setting: the child's bedroom from evening to morning. A low wooden big kid bed with a patchwork quilt in soft yellows and blues sits against the wall, a round nightlight casts tiny star shapes on the ceiling, and a window shows the sky changing from dusk to night to sunrise. Palette: warm amber lamplight and honey tones early on, deepening to dusky blues and lavender at night, then peach and gold for morning. Recurring elements on every page: a floppy brown plush bear, a soft blue blanket, the star nightlight, and the bedroom door with a warm hallway glow. Style is rounded, soft-edged and friendly, with simple uncluttered compositions sized for little eyes. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "A brand new big kid bed stands in {name}'s room. {name} pats the quilt, bounces once, and grins: this bed is just for {her/him}.",
+      "illustration_prompt": "Afternoon light in a cozy bedroom; the child bounces happily on a low wooden bed with a patchwork quilt, a floppy brown bear and blue blanket nearby, star nightlight on the shelf."
+    },
+    {
+      "beat": "Bedtime comes with the usual steps: bath, pajamas, one story. {name} climbs into the big bed all by {her/him}self, and Mom tucks the quilt up snug.",
+      "illustration_prompt": "Warm lamplight; the child in pajamas climbs into the big bed while Mom holds the quilt corner, a picture book open on the nightstand."
+    },
+    {
+      "beat": "Mom whispers goodnight and the lamp clicks off. The star nightlight glows. {name} notices something new: no bars, and feet can reach the floor. Wiggle, wiggle.",
+      "illustration_prompt": "Dusky blue room lit by tiny star shapes on the ceiling; the child peeks over the quilt edge, toes dangling toward the rug, curious smile."
+    },
+    {
+      "beat": "Pat, pat, pat. {name} slips out of the big bed and tiptoes to the door to peek at the glowing hallway.",
+      "illustration_prompt": "The child tiptoes in pajamas across the rug toward the slightly open door, warm golden hallway light spilling in, bear left behind on the bed."
+    },
+    {
+      "beat": "Dad appears, calm and kind. He walks {name} back, lifts {her/him} into bed, and says softly, \"Big beds are for staying.\" One more tuck.",
+      "illustration_prompt": "Dad gently guiding the child back toward the bed by the hand, soft hallway glow behind them, quiet blue bedroom tones."
+    },
+    {
+      "beat": "Alone again, the big bed feels very big and the room feels very quiet. {name} slides out once more, then stops in the middle of the rug, thinking.",
+      "illustration_prompt": "The child stands on the rug in the starry nightlight glow, looking back at the wide bed with a thoughtful face, bear on the pillow."
+    },
+    {
+      "beat": "{name} has an idea. {She/He} grabs Bear and {her/his} blue blanket and builds a cozy nest: pillow here, blanket there, a snug spot for Bear right beside {her/him}.",
+      "illustration_prompt": "The child arranging the pillow, blue blanket and plush bear into a cozy nest on the bed, focused and pleased, nightlight stars twinkling."
+    },
+    {
+      "beat": "{name} climbs back into the big bed all alone, tucks Bear in, and whispers to Bear, \"Big beds are for staying.\" This time it is {her/his} own choice.",
+      "illustration_prompt": "The child snuggled under the quilt, tucking the blue blanket around the bear tucked in beside them, both faces peeking out, soft lavender light."
+    },
+    {
+      "beat": "{name} stays. {She/He} listens to the quiet house, counts the nightlight stars, one, two, three, and {her/his} eyes grow heavy.",
+      "illustration_prompt": "Close view of the child drowsy in bed with the bear, star shapes glowing on the ceiling above, deep blue night outside the window."
+    },
+    {
+      "beat": "Morning sun peeks in. {name} wakes up still in the big bed, hops out, and runs to tell Mom and Dad, \"I stayed!\" Hugs all around.",
+      "illustration_prompt": "Peach and gold sunrise light; the child runs joyfully toward Mom and Dad in the doorway, bear swinging in one hand, rumpled quilt on the bed behind."
+    }
+  ],
+  "cover_scene": "The child sits proudly in the middle of a low wooden big kid bed with a patchwork quilt, hugging a floppy brown bear with a blue blanket draped over one shoulder. Soft star shapes from a round nightlight float on the bedroom wall. The top third of the picture is a calm, open expanse of dusky lavender-blue wall and ceiling with only a few faint stars, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Pat, pat, pat. Little feet on the floor. {name} slips out of bed and tiptoes to the door.",
+      "scene": "The child tiptoes in pajamas across a soft rug toward a slightly open bedroom door, warm golden hallway light spilling in, the bear left on the pillow and star nightlight glowing behind."
+    },
+    {
+      "text": "{name} has an idea! A pillow here. A blanket there. A cozy spot for Bear. Snug, snug, snug.",
+      "scene": "The child kneels on the big bed arranging a pillow, a blue blanket and a floppy brown bear into a cozy nest, smiling with concentration as tiny stars from the nightlight dot the ceiling."
+    }
+  ],
+  "h1": "Personalized Big Kid Bed Book for Toddlers",
+  "meta_title": "Personalized Big Kid Bed Book for Toddlers | StoryBloom",
+  "meta_description": "A personalized big kid bed book for toddlers: your child climbs out, gets walked back, and finds a cozy way to stay all night.",
+  "promise": "A gentle first-night story where your child tries the big bed, tests it, and decides to stay.",
+  "story_summary": "A brand new big kid bed has arrived, and your child can hardly wait to bounce on the quilt. Bedtime goes as usual until the lamp clicks off and your child discovers that feet can reach the floor. Out of bed, a tiptoe to the door, and a calm walk back with Dad. Then the big bed starts to feel very big, and your child has to come up with a plan of their own.",
+  "why_parents": [
+    "Moving from a crib to a big bed is exciting for toddlers, and it also comes with a brand new freedom they almost always test. Climbing out to see what happens is a normal part of the switch, and this story shows that moment honestly, without anyone getting in trouble.",
+    "Little ones this age like to feel in charge of something. Here your child is the one who notices the bed feels too big, builds a cozy nest with Bear, and chooses to climb back in. Reading it before or during the switch gives your family shared words, like \"big beds are for staying,\" to use on your own first nights."
+  ],
+  "for_grownups": [
+    "Pick a phrase from the book, such as \"big beds are for staying,\" and use it at your own bedtime so the walk back to bed feels familiar and calm.",
+    "Ask your child what would make their bed cozy, then let them choose a stuffed friend or blanket to tuck in beside them, just like Bear.",
+    "When your child stays in bed, celebrate it in the morning the way the family does on the last page."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story show the child getting out of bed?",
+      "answer": "Yes. Your child slips out twice, once to peek at the hallway and once to stand and think, and Dad walks them back calmly. The story treats this as a normal part of the first night."
+    },
+    {
+      "question": "Will it work for a toddler bed as well as a twin bed?",
+      "answer": "Yes. The bed in the story is a low wooden big kid bed, so it fits a toddler bed, a floor bed or a twin bed equally well."
+    },
+    {
+      "question": "Is it a good book to read at bedtime itself?",
+      "answer": "It was written with bedtime in mind. The lines are short and rhythmic, the colors soften as night falls, and the story ends with a sunny morning celebration."
+    }
+  ],
+  "image_alt": "Personalized big kid bed book cover featuring an illustrated child hugging a plush bear in a cozy new bed",
+  "feed_title": "Personalized Big Kid Bed Book for Toddlers, Your Child Is the Hero of Their First Night",
+  "feed_description": "A personalized picture book for ages 2 to 4 about the first night in a big kid bed. Your child is the illustrated hero who bounces on the new quilt, climbs in for bedtime, then discovers that feet can reach the floor. After a tiptoe to the door and a calm walk back with Dad, the big bed starts to feel very big. Your child comes up with a cozy plan, building a snug nest for a plush bear and choosing to climb back in and stay. Short, rhythmic lines and repeated sounds make it easy to read aloud, and the soft evening colors suit bedtime. A gentle story for families moving from a crib to a toddler bed, floor bed or twin bed."
+}

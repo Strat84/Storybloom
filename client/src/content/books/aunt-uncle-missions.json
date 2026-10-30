@@ -1,0 +1,116 @@
+{
+  "slug": "aunt-uncle-missions",
+  "status": "live",
+  "title_pattern": "{name}'s Day of Secret Missions",
+  "category": "gifts-from-family",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "gift for niece or nephew personalized book",
+  "landing_page_slug": "books/aunt-uncle-missions",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "An ordinary day of errands becomes a top-secret adventure with a favorite aunt or uncle.",
+  "lesson_or_purpose": "Celebrates the special bond between a child and an aunt or uncle, and shows that paying attention and staying calm can help a child save the day.",
+  "tone": "Silly, warm, playful, with a gentle spy-adventure flavor",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, playful repetition of 'Mission complete!'",
+  "keywords": [
+    "gift for niece or nephew personalized book",
+    "personalized book from aunt",
+    "personalized book from uncle",
+    "aunt and niece book",
+    "uncle and nephew book",
+    "secret mission book for kids",
+    "personalized kids book gift from family"
+  ],
+  "illustration_guide": "A cheerful small town on a breezy day: a red post office mailbox, a striped-awning grocery store, a brick library with wide steps, a corner bakery, a little park, and a cozy house with a blue door belonging to Grandma. Palette of sunny yellow, tomato red, mint green and sky blue, turning to soft grays with a hint of rain in the later pages, then warm golden light at the end. Recurring elements: the child and the grown-up both wear matching dark sunglasses and bright orange scarves as their 'agent' outfits; a small canvas mission bag; a bunch of yellow flowers that appears from page 7 on. The aunt or uncle is a friendly adult relative drawn to match the chosen role. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Morning. A knock at the door: it is {name}'s favorite aunt or uncle, wearing dark sunglasses and an orange scarf. The grown-up whispers a secret code name, Agent Pickle, and hands {name} a matching scarf, naming {her/him} Agent {name}. Today they are on secret missions.",
+      "illustration_prompt": "A sunny doorway where a grinning adult relative in dark sunglasses and an orange scarf crouches to hand a matching scarf to the delighted child in pajamas."
+    },
+    {
+      "beat": "Mission one: deliver a mystery package to the post office. Agent Pickle and {name} tiptoe down the sidewalk, hiding behind a tree and a mailbox like real spies. {name} drops the package in the slot. Mission complete!",
+      "illustration_prompt": "The child and the adult in matching sunglasses and scarves peeking around a big red mailbox on a sunny sidewalk, the child holding a small brown package."
+    },
+    {
+      "beat": "Mission two at the grocery store: find the reddest apple in the whole place. Agent Pickle searches the bananas by mistake, making silly faces. {name} scans every bin carefully and finds the shiniest red apple. Mission complete!",
+      "illustration_prompt": "Inside a bright grocery store under a striped awning, the child holds up a gleaming red apple while the adult comically peers into a pile of bananas."
+    },
+    {
+      "beat": "Mission three at the library: return three books without making a single sound. Agent Pickle almost sneezes. {name} hands the grown-up a tissue just in time, and the two agents slide the books onto the return cart in perfect silence.",
+      "illustration_prompt": "Library steps and a quiet interior where the child offers a tissue to the adult, whose face is scrunched in a near-sneeze, a small stack of books in the child's arms."
+    },
+    {
+      "beat": "Snack break at the corner bakery. Agent Pickle explains the most secret mission of all: pick up flowers for Grandma's surprise visit, then find the way to her house. {name} feels very important and tucks the mission bag close.",
+      "illustration_prompt": "A cozy bakery table by a window where the child and the adult share warm rolls, leaning close as if sharing a secret, the canvas mission bag on the child's lap."
+    },
+    {
+      "beat": "At the flower stand, {name} picks a bunch of bright yellow flowers. Then gray clouds roll in and big raindrops start to fall. The agents dash under an awning, and Agent Pickle looks left and right, puzzled.",
+      "illustration_prompt": "A small flower stand under darkening clouds, the child hugging yellow flowers while the adult glances in both directions under a dripping awning."
+    },
+    {
+      "beat": "Uh oh. Agent Pickle admits to being turned around and not sure which way leads to Grandma's house. The rain is getting heavier. {name} takes a deep breath and thinks hard about everything {she/he} saw today.",
+      "illustration_prompt": "The child standing still with eyes closed in thought, holding the flowers, as the adult scratches their head under a shared umbrella on a rainy street."
+    },
+    {
+      "beat": "{name} remembers the missions in order and leads the way: past the bakery that smells like warm bread, past the library steps, past the big red mailbox. Agent Pickle follows, amazed, as {name} points out each clue.",
+      "illustration_prompt": "The child confidently leading the adult down a rainy sidewalk, pointing ahead toward a red mailbox, puddles reflecting the colorful shops behind them."
+    },
+    {
+      "beat": "There it is: the house with the blue door. {name} rings the bell, and Grandma opens it with a happy gasp. {name} presents the yellow flowers. The most secret mission is complete, thanks to {name}'s sharp agent eyes.",
+      "illustration_prompt": "A cozy house with a blue door as the rain clears, Grandma beaming in the doorway while the child holds out yellow flowers and the adult cheers behind."
+    },
+    {
+      "beat": "Warm and dry with cocoa at Grandma's table, Agent Pickle gives {name} a big hug and says {she/he} is the best mission partner ever. {name} grins and announces a brand new mission for next time, and they shake on it.",
+      "illustration_prompt": "Golden evening light in Grandma's kitchen, the child and the adult shaking hands over mugs of cocoa, sunglasses pushed up on their heads and orange scarves still on."
+    }
+  ],
+  "cover_scene": "The child and a beloved adult relative in matching dark sunglasses and bright orange scarves striding side by side down a cheerful small-town sidewalk, the child in front holding a canvas mission bag and a bunch of yellow flowers, a red mailbox and striped shop awnings behind them. The top third of the picture is calm, open soft-blue sky with a few faint clouds.",
+  "sample_pages": [
+    {
+      "text": "Shhh! Agent Pickle and Agent {name} tiptoed down the street. They hid behind a tree. They hid behind a big red mailbox. Then {name} slipped the mystery package into the slot. Mission complete!",
+      "scene": "The child and the adult in matching sunglasses and orange scarves peeking out from behind a big red mailbox on a sunny sidewalk, the child holding a small brown package."
+    },
+    {
+      "text": "Drip. Drop. Splash! Rain began to fall. Agent Pickle looked left. Agent Pickle looked right. \"Hmm,\" said Agent Pickle. \"Which way is Grandma's house?\" {name} hugged the flowers tight and began to think.",
+      "scene": "A small flower stand under gray clouds, the child clutching bright yellow flowers while the adult looks around, puzzled, beneath a dripping striped awning."
+    }
+  ],
+  "h1": "Personalized Secret Missions Book: A Gift for Your Niece or Nephew",
+  "meta_title": "Personalized Book for a Niece or Nephew | StoryBloom",
+  "meta_description": "A personalized book where your child and a fun aunt or uncle turn everyday errands into silly secret missions. A gift from family.",
+  "promise": "Your niece or nephew becomes a secret agent on a giggly day of errands with you, and ends up being the one who saves the mission.",
+  "story_summary": "A knock at the door brings a favorite aunt or uncle in dark sunglasses, ready to turn a plain day of errands into secret missions. Your child gets an agent scarf and a code name, then tiptoes to the post office, hunts for the reddest apple, and returns library books without a sound. The most secret mission of all is bringing flowers to Grandma. But when the rain rolls in and the grown-up agent gets turned around, it is up to your child to remember the way.",
+  "why_parents": [
+    "Aunts and uncles hold a special place in a child's world: close enough to feel like family, playful enough to feel like an adventure. A book that turns time together into a shared story gives your niece or nephew something to pull off the shelf and remember you by, even when you live far away.",
+    "Between ages 3 and 8, children love feeling capable and trusted. In this story the grown-up is the silly one who gets lost, and your child is the one who notices details, stays calm and leads the way home. That role reversal is funny, and it is also a lovely way to show a child you believe in them."
+  ],
+  "for_grownups": [
+    "After reading, invent a code name for each of you and plan a real mission together, like finding the reddest apple at the store or delivering a drawing to someone you love.",
+    "Ask your child how they knew the way back to Grandma's house. Talk about the landmarks you pass on your own walks and play a 'remember the clues' game next time you are out.",
+    "Add a dedication about a real outing you shared, or one you are promising to take soon."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book work for both an aunt and an uncle?",
+      "answer": "Yes. The grown-up in the story is a favorite aunt or uncle, illustrated to match whichever relative is giving the book, and goes by the playful code name Agent Pickle throughout."
+    },
+    {
+      "question": "Is the part where they get lost scary?",
+      "answer": "Not at all. It is a light, silly moment with a bit of rain, and your child quickly remembers the landmarks from earlier missions and leads everyone safely to Grandma's house."
+    },
+    {
+      "question": "Is this a good gift if I live far from my niece or nephew?",
+      "answer": "It makes a warm long-distance gift because it captures the fun of a day together. Many aunts and uncles pair it with a promise to go on a real secret mission at the next visit."
+    }
+  ],
+  "image_alt": "Personalized niece or nephew book cover featuring an illustrated child and a favorite aunt or uncle as secret agents in a small town",
+  "feed_title": "Personalized Book for a Niece or Nephew, Secret Missions with Aunt or Uncle, Your Child Is the Hero",
+  "feed_description": "A personalized picture book gift from an aunt or uncle for children ages 3 to 8. Your niece or nephew becomes the illustrated hero of a silly day out, where everyday errands turn into secret missions. Wearing matching sunglasses and orange agent scarves, your child and a favorite grown-up tiptoe to the post office, hunt for the reddest apple at the grocery store and return library books without a sound. When rain rolls in on the way to Grandma's house and the grown-up gets turned around, your child remembers the clues from the day and leads the way. A playful story about a special family bond, with bright small-town illustrations and conversation ideas for grown-ups."
+}

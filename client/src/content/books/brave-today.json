@@ -1,0 +1,117 @@
+{
+  "slug": "brave-today",
+  "status": "live",
+  "title_pattern": "{name} Is Brave Today",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about bravery for kids personalized",
+  "landing_page_slug": "books/brave-today",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "Three small moments, one big discovery: brave means doing it even while you feel scared.",
+  "lesson_or_purpose": "Bravery is not the absence of fear. Being brave means feeling scared and taking the small step anyway, and every child can do that in ordinary, everyday moments.",
+  "tone": "Warm, gentle and encouraging, with a light rhythm and a cozy bedtime ending.",
+  "reading_level": "Read-aloud for ages 3-7: short sentences, simple words, a repeated line about wobbly knees and taking one breath, easy for early readers to join in.",
+  "keywords": [
+    "book about bravery for kids personalized",
+    "personalized bravery book",
+    "children's book about being brave",
+    "book about fear for kids",
+    "personalized book for anxious child",
+    "brave book for preschoolers",
+    "courage picture book",
+    "first day nerves book"
+  ],
+  "illustration_guide": "Soft, rounded picture-book style with warm watercolor textures. Daytime scenes use sunny yellows, leafy greens and sky blues; evening scenes shift to dusky purples, deep blues and the warm glow of a small lamp and flashlight. Recurring elements on every page where possible: the child's soft gray toy bunny with one floppy ear, pajamas printed with small friendly knights in the morning and evening scenes, and Dad as a kind, steady presence nearby. Feelings are shown through body language: a fluttery tummy shown as tiny drawn butterflies near the child, wobbly knees with small motion lines, and a deep breath shown as a soft curl of air. Settings: a cozy family home, a neighborhood park with a tall red slide, and a bright library story corner with floor cushions. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "Morning in the cozy home. {name} wakes up in knight pajamas and announces to Dad that today {she/he} will be brave. Dad asks what brave means, and {name} says brave means never, ever feeling scared.",
+      "illustration_prompt": "A sunny bedroom in the morning. The child stands on the bed in pajamas printed with small friendly knights, arms raised proudly, holding a soft gray toy bunny with one floppy ear. Dad leans in the doorway smiling with a coffee mug. Warm yellow light pours through the window."
+    },
+    {
+      "beat": "At the park, {name} stands at the bottom of the tallest slide. {Her/His} tummy flutters and {her/his} knees wobble. {name} steps back and worries that feeling scared means {she/he} is not brave.",
+      "illustration_prompt": "A green neighborhood park with a very tall red slide reaching toward a blue sky. The child stands at the foot of the ladder looking up, small butterflies drawn near the tummy and little motion lines by the knees. Dad stands a few steps behind, relaxed and patient. Other children play in the distance."
+    },
+    {
+      "beat": "{name} decides to try anyway. {She/He} holds the rail, takes one big breath, and climbs one step at a time while still feeling scared. At the top, {name} sits, lets go, and whooshes down, laughing.",
+      "illustration_prompt": "The child zooming down the tall red slide with hair flying and a huge surprised grin, arms up. A soft curl of air near the mouth shows a breath just let out. Dad at the bottom clapping. Bright afternoon sun and fluttering leaves."
+    },
+    {
+      "beat": "Later, at library story time, {name} notices a new child sitting alone at the edge of the rug. {name} wants to say hello, but {her/his} voice suddenly feels very small and the butterflies come back.",
+      "illustration_prompt": "A bright library story corner with colorful floor cushions and low bookshelves. The child sits on a cushion holding the gray bunny, glancing toward another child sitting alone at the edge of the rug. Small butterflies drawn near the child's tummy. A friendly librarian reads to a group in the background."
+    },
+    {
+      "beat": "{name} hugs the bunny, takes one big breath, and walks over even though {her/his} knees wobble. {She/He} says hello in a quiet voice and offers to share crayons. The new child smiles, and {name} feels warm inside.",
+      "illustration_prompt": "The child kneeling beside the new child on the library rug, holding out a small box of crayons. The new child smiles shyly back. The gray bunny sits between them. Warm light, a few picture books open on the floor nearby."
+    },
+    {
+      "beat": "Evening at home. Dad asks {name} to fetch the bunny, left behind in the playroom at the end of the dark hallway. {name} peers into the shadows, feels scared again, and sighs that maybe {she/he} is not brave at all.",
+      "illustration_prompt": "A home hallway at dusk with deep blue shadows. The child in knight pajamas stands at the lit end of the hallway, looking down toward a dim doorway. Shadowy shapes of a coat on a hook and a chair stretch along the wall. Dad sits in a warmly lit living room behind the child."
+    },
+    {
+      "beat": "Standing at the edge of the hallway, {name} remembers the tall slide and the new friend at the library. {She/He} realizes {she/he} felt scared both times and did it anyway.",
+      "illustration_prompt": "The child stands still at the edge of the dim hallway with a thoughtful face. Soft dreamy bubbles float above the child's head showing the tall red slide and the smiling new friend with crayons. Warm lamplight behind, cool blue shadows ahead."
+    },
+    {
+      "beat": "{name} picks up a small flashlight, takes one big breath, and hums a little song while walking down the hallway step by step. The scary shapes turn out to be just a coat and a chair, and {name} finds the bunny waiting.",
+      "illustration_prompt": "The child walking down the hallway holding a small flashlight, its warm beam lighting up a coat on a hook and an ordinary wooden chair. Tiny music notes float near the child's mouth as the child hums. In the playroom doorway, the gray bunny sits on the floor in the circle of light."
+    },
+    {
+      "beat": "Tucked into bed, {name} tells Dad the big discovery: brave is not never being scared, brave is feeling scared and doing it anyway. Dad says he feels scared sometimes too, and he is proud of {her/him}.",
+      "illustration_prompt": "A cozy bedroom at night lit by a small bedside lamp. The child sits up in bed in knight pajamas, hugging the gray bunny and talking with animated hands. Dad sits on the edge of the bed, listening with a warm smile. Stars visible through the window."
+    },
+    {
+      "beat": "As the lamp clicks off, {name} snuggles the bunny and thinks about tomorrow. There will be new scary things, but {name} knows {she/he} can feel scared and be brave at the very same time.",
+      "illustration_prompt": "The child asleep peacefully under a soft quilt, arm around the gray bunny, a tiny contented smile. Moonlight falls across the bed and the knight pajamas. A small flashlight rests on the nightstand. Calm deep blue and purple tones."
+    }
+  ],
+  "cover_scene": "The child stands at the top of a tall red slide in a sunny park, one hand on the rail and the other hugging a soft gray toy bunny with one floppy ear, wearing a hopeful, slightly nervous smile with tiny drawn butterflies fluttering nearby. Green trees frame the sides. The top third of the picture is calm open blue sky with a few soft clouds, leaving space for a title.",
+  "sample_pages": [
+    {
+      "text": "The slide was tall. So very tall! {name}'s tummy went flutter. {Her/His} knees went wobble. \"Uh oh,\" thought {name}. \"I feel scared. Does that mean I am not brave?\"",
+      "scene": "A green neighborhood park with a very tall red slide reaching toward a blue sky. The child stands at the foot of the ladder looking up, small butterflies drawn near the tummy and little motion lines by the knees. Dad stands a few steps behind, relaxed and patient."
+    },
+    {
+      "text": "{name} hugged the bunny tight. Knees wobble. One big breath. Step, step, step. \"Hi,\" {she/he} said in a small voice. \"Want to share my crayons?\" The new friend smiled a great big smile.",
+      "scene": "The child kneeling beside a new child on a library rug, holding out a small box of crayons. The new child smiles shyly back. The gray bunny sits between them. Warm light and colorful floor cushions."
+    }
+  ],
+  "h1": "Personalized Bravery Book for Kids: Brave Today",
+  "meta_title": "Personalized Bravery Book for Kids | StoryBloom",
+  "meta_description": "A personalized bravery book for ages 3-7: your child climbs a tall slide, says hello and walks a dark hallway, scared and brave at once.",
+  "promise": "A gentle story that shows your child that feeling scared and being brave can happen at the very same time.",
+  "story_summary": "Your child wakes up certain that being brave means never feeling scared. Then the day brings three small challenges: a very tall slide at the park, a new child sitting alone at library story time, and a dark hallway at bedtime. Each time, the butterflies come back and the knees start to wobble. With one big breath and a soft gray bunny for company, your child has to decide what to do next, and begins to wonder what brave really means.",
+  "why_parents": [
+    "Young children often believe brave people never feel afraid, so when their own tummy flutters, they decide they must not be brave. This story gently flips that idea. Fear shows up in every scene, and your child keeps going anyway, which gives kids a way to see their nervous feelings as normal instead of as a failure.",
+    "The moments in this book are deliberately small: a slide, a hello, a hallway. These are the everyday challenges preschoolers and early schoolers actually face, and seeing themselves handle each one step by step can make the next tall slide or new classroom feel a little more manageable."
+  ],
+  "for_grownups": [
+    "After reading, share a time you felt scared and did something anyway. Hearing that grown-ups feel nervous too, just like Dad in the story, helps children feel less alone with their worries.",
+    "Practice the story's tool together: one big breath, then one small step. You can use it before a doctor visit, a first swim lesson or a new playdate.",
+    "Ask your child to name one small brave thing they did today, even if it felt tiny, and notice it out loud with them at bedtime."
+  ],
+  "faqs": [
+    {
+      "question": "What are the three brave moments in the story?",
+      "answer": "Your child climbs a very tall slide at the park, says hello to a new child sitting alone at library story time, and walks down a dark hallway at bedtime to fetch a toy bunny. Each moment is small and familiar, so children can picture themselves doing it in real life."
+    },
+    {
+      "question": "Is this a good book for a child who gets nervous or shy?",
+      "answer": "It was written with nervous and shy children in mind. The story never tells your child to stop being scared; it shows that feeling scared and being brave can happen together, which many cautious kids find reassuring."
+    },
+    {
+      "question": "Is the story calm enough for bedtime?",
+      "answer": "Yes. The scary parts are mild, the hallway shadows turn out to be a coat and a chair, and the book ends with your child cozy in bed with Dad and the bunny, feeling proud and sleepy."
+    }
+  ],
+  "image_alt": "Personalized bravery book cover featuring an illustrated child as the hero at the top of a tall red slide holding a toy bunny",
+  "feed_title": "Personalized Bravery Book for Kids Ages 3-7, Your Child Is the Hero",
+  "feed_description": "A personalized picture book about bravery for children ages 3-7, starring your child as the illustrated hero. Your child wakes up sure that being brave means never feeling scared, then meets three small challenges in one ordinary day: a very tall slide at the park, a new child sitting alone at library story time, and a dark hallway at bedtime. Each time the tummy flutters and the knees wobble, and each time your child takes one big breath and one small step. The gentle story shows that brave means feeling scared and doing it anyway. Soft watercolor illustrations, a cuddly gray bunny companion and a cozy bedtime ending make it a calm read-aloud for nervous, shy or cautious kids."
+}

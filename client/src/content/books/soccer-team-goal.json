@@ -1,0 +1,116 @@
+{
+  "slug": "soccer-team-goal",
+  "status": "live",
+  "title_pattern": "{name} Scores for the Team",
+  "category": "adventures",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized soccer book",
+  "landing_page_slug": "books/soccer-team-goal",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "The big game is today, the star is home sick, and your child finds out what teamwork really looks like.",
+  "lesson_or_purpose": "Being a great teammate means seeing the whole field. Sometimes the bravest, smartest play is passing the ball to a friend in a better spot.",
+  "tone": "Upbeat, sporty and warm, with real game-day butterflies and a joyful, shared win.",
+  "reading_level": "Read-aloud for ages 4-6, early independent reading for ages 7-9. Short sentences, lively sound words, a few repeated cheers.",
+  "keywords": [
+    "personalized soccer book",
+    "soccer book for kids",
+    "teamwork book for children",
+    "personalized sports book",
+    "soccer gift for kids",
+    "kids book about passing and sharing",
+    "custom picture book soccer"
+  ],
+  "illustration_guide": "Setting: a sunny neighborhood soccer field with bright green grass, white chalk lines, small goals with white nets, a wooden bench, and a low hill where families sit on blankets. The child's team wears orange jerseys and white socks; the other team wears blue. Palette: grass green, sunny orange, sky blue, warm cream, with soft golden afternoon light. Recurring elements: a black-and-white soccer ball, the child's orange water bottle, a small yellow bird that perches on the goal post and watches each scene, and the coach's red cap. Style: soft painterly picture-book art with clear action poses and expressive faces. No words, numbers, logos or lettering anywhere, including jerseys and scoreboards.",
+  "page_outline": [
+    {
+      "beat": "Game day morning. {name} laces up orange cleats, grabs the orange water bottle and bounces to the field, excited for the biggest game of the season.",
+      "illustration_prompt": "The child in an orange jersey and white socks tying cleats on a front step in morning sunlight, an orange water bottle and a soccer ball beside them, a small yellow bird on a nearby fence."
+    },
+    {
+      "beat": "At the field, Coach shares news: Theo, the team's fastest player and top scorer, is home sick today. The team looks worried, and {name} feels butterflies too.",
+      "illustration_prompt": "A group of children in orange jerseys gathered around a coach in a red cap beside a wooden bench, faces worried, the child in the middle looking thoughtful, green field and white goals behind."
+    },
+    {
+      "beat": "Coach asks {name} to play forward, the spot Theo usually plays. {name} nods, takes a deep breath and decides to try {her/his} very best.",
+      "illustration_prompt": "The coach kneeling to talk with the child at eye level, a hand on the child's shoulder, the child taking a deep breath, teammates watching hopefully."
+    },
+    {
+      "beat": "The whistle blows. {name} grabs the ball and races down the field alone, trying to be just like Theo, but the blue team surrounds {her/him} and steals it.",
+      "illustration_prompt": "The child dribbling the black-and-white ball while three players in blue jerseys close in from all sides, grass flying, families on blankets on the hill in the background."
+    },
+    {
+      "beat": "It happens again and again. {name} keeps running solo and keeps losing the ball. The blue team scores, and {name} slumps onto the bench at halftime.",
+      "illustration_prompt": "The child sitting on the wooden bench with shoulders slumped, holding the orange water bottle, the small yellow bird perched on the goal post nearby, afternoon light on the field."
+    },
+    {
+      "beat": "From the bench, {name} watches the field and notices something: whenever the blue players crowd around the ball, a teammate named Rosa is standing wide open.",
+      "illustration_prompt": "The child sitting up on the bench, eyes bright, looking out at the field where a cluster of blue players stands near the ball and one orange-jersey girl stands alone in open grass."
+    },
+    {
+      "beat": "{name} has an idea and shares it with the team in the huddle: instead of one star, let's all work together and look for the open friend.",
+      "illustration_prompt": "The team in a tight huddle with arms around each other, the child in the center speaking with excited hand gestures, the coach in a red cap smiling at the edge."
+    },
+    {
+      "beat": "Second half. {name} dribbles forward and the blue players rush in, just like before. This time, {name} looks up and spots Rosa wide open near the goal.",
+      "illustration_prompt": "The child mid-dribble with head up, looking across the field, blue players rushing in, a girl in an orange jersey waving with an open path to the goal."
+    },
+    {
+      "beat": "{name} makes the choice and kicks a perfect pass. Rosa catches it with her foot and sends it into the net. Goal! The whole team cheers for the pass as loudly as the shot.",
+      "illustration_prompt": "The ball curving through the air from the child's foot toward the orange-jersey girl, then a second moment of the ball hitting the white net, teammates leaping with arms up, families cheering on the hill, the yellow bird flapping on the goal post."
+    },
+    {
+      "beat": "After the game, {name} brings a team drawing to Theo's house and tells him all about the passing play. {name} learned that you score for the team when you play as a team.",
+      "illustration_prompt": "The child at a front door handing a colorful drawing of stick-figure players to a smiling boy wrapped in a blanket, the soccer ball tucked under the child's arm, golden evening light, the yellow bird on the porch rail."
+    }
+  ],
+  "cover_scene": "The child in an orange jersey and white socks mid-kick on a bright green soccer field, the black-and-white ball soaring forward, teammates in orange running alongside, a white-netted goal in the distance and a small yellow bird on the goal post. The top third of the picture is calm open blue sky with a few soft clouds, leaving room for a title.",
+  "sample_pages": [
+    {
+      "text": "The whistle blew. Tweet! {name} took the ball and ran, ran, ran, all alone. Zoom! But three blue players closed in, and swish, the ball was gone.",
+      "scene": "The child dribbling the black-and-white ball across green grass while three players in blue jerseys close in from all sides, families cheering on the hill behind."
+    },
+    {
+      "text": "From the bench, {name} watched and wondered. Then {she/he} saw it. When the blue team crowded the ball, Rosa stood all by herself, wide open. \"That's it!\" {name} whispered.",
+      "scene": "The child sitting up straight on a wooden bench with bright eyes, looking toward a girl in an orange jersey standing alone in open grass while blue players cluster around the ball."
+    }
+  ],
+  "h1": "Personalized Soccer Book: Your Child Scores for the Team",
+  "meta_title": "Personalized Soccer Book for Kids | StoryBloom",
+  "meta_description": "A personalized soccer book where your child steps up when the team star is sick and discovers the winning play is a pass.",
+  "promise": "Your child becomes the player who saves the big game, not by doing it alone, but by seeing a teammate and making the pass.",
+  "story_summary": "It is the biggest soccer game of the season, and the team's star player is home sick. Your child is asked to step into the forward spot and tries to win the game single-handedly, racing down the field again and again. When that does not work, a quiet moment on the bench changes everything. Your child spots something the rest of the team has missed and has to decide what kind of player to be in the second half.",
+  "why_parents": [
+    "Kids between four and nine are just starting to play on real teams, and many of them believe the hero is whoever scores. This story gently shows a different kind of hero: the player who keeps an eye on everyone and makes the pass that sets up the goal.",
+    "It also honors the frustration of trying hard and having it not work. Your child gets to feel discouraged on the bench, regroup, and come back with a new idea, which is a very familiar feeling for young athletes and a hopeful one to see on the page."
+  ],
+  "for_grownups": [
+    "Ask your child: Why do you think the team cheered as loudly for the pass as for the goal? Can you remember a time someone helped you do something great?",
+    "Next time you play ball together, try a passing game where a point only counts if everyone touches the ball first.",
+    "Talk about the bench moment: what helped the hero go from feeling stuck to having an idea? Watching, breathing and thinking are all part of playing well."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child need to play soccer to enjoy this book?",
+      "answer": "Not at all. The game is easy to follow, and the heart of the story is about teamwork and sharing, so it works for kids who are on a team, just learning, or simply cheering from the sidelines."
+    },
+    {
+      "question": "Is the lesson about not trying to score?",
+      "answer": "No. The story celebrates trying hard and wanting to win. It shows that looking up and passing to an open teammate is a smart, brave way to help the whole team score."
+    },
+    {
+      "question": "Does the sick teammate stay sad or left out?",
+      "answer": "Theo is just home with a cold, and the story ends with your child visiting to share a team drawing and tell him about the big play, so he is part of the celebration too."
+    }
+  ],
+  "image_alt": "Personalized soccer book cover featuring an illustrated child as the hero kicking a ball on a sunny field",
+  "feed_title": "Personalized Soccer Book for Kids, Your Child Is the Hero of the Big Game",
+  "feed_description": "A personalized soccer picture book for ages 4 to 9 starring your child. On the day of the biggest game of the season, the team's top scorer is home sick, and your child is asked to play forward. At first your child tries to win the game alone and keeps losing the ball. After a thoughtful moment on the bench, your child notices a teammate standing wide open and comes up with a new plan for the second half. Bright, sunny illustrations show your child on the field in an orange jersey, with lively action scenes, a cheering crowd and a small yellow bird watching every play. A warm story about teamwork, passing and being a good friend, ideal for young players, new team members and end of season gifts."
+}

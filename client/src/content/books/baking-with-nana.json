@@ -1,0 +1,116 @@
+{
+  "slug": "baking-with-nana",
+  "status": "live",
+  "title_pattern": "{name} Bakes with Nana",
+  "category": "gifts-from-grandparents",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "nana gift book for grandchild personalized",
+  "landing_page_slug": "books/baking-with-nana",
+  "example": {
+    "name": "Kai",
+    "pronouns": "he",
+    "look": "light tan skin, straight dark hair, gap-toothed smile"
+  },
+  "tagline": "A recipe goes wonderfully wrong in Nana's kitchen, and your child turns the mess into a brand-new family tradition.",
+  "lesson_or_purpose": "Mistakes can turn into something special, and the time shared with a grandparent matters more than a perfect result.",
+  "tone": "Warm, cozy, playful and gently funny, with a small moment of worry that resolves in shared laughter.",
+  "reading_level": "Read-aloud for ages 3-7: short sentences, sound words and simple dialogue, about 2-4 sentences per page.",
+  "keywords": [
+    "nana gift book for grandchild personalized",
+    "personalized book from nana",
+    "grandma baking book for kids",
+    "personalized grandparent gift book",
+    "baking with grandma picture book",
+    "gift from nana to grandchild",
+    "family tradition book for kids"
+  ],
+  "illustration_guide": "Setting: a cozy, sunlit grandparent kitchen with butter-yellow cabinets, a checkered tablecloth, a round wooden table, a window with potted herbs and a small oven with a glass window. Palette: warm butter yellow, soft cherry red, cream, sage green and golden cookie brown, with gentle afternoon light. Recurring elements: a flowered recipe tin with worn recipe cards, a striped apron on the child, a matching apron on Nana, a big blue mixing bowl, a wooden spoon, a drawer of metal cookie cutters, and drifting puffs of flour. Nana has silver hair, round glasses and a cheerful cardigan. Recipe cards show only doodles and smudges, never readable writing. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} arrives at Nana's cozy kitchen for a special baking day. Nana ties a striped apron on {name}, and the whole kitchen smells like cinnamon and warm butter.",
+      "illustration_prompt": "The child stands in a sunny grandparent kitchen as Nana, with silver hair and round glasses, ties a striped apron around the child's waist. Butter-yellow cabinets, a checkered tablecloth, herbs on the windowsill."
+    },
+    {
+      "beat": "Nana takes down the old flowered recipe tin and pulls out a worn card for Sunshine Cookies, a recipe from Nana's own mother. The family is coming for supper, and {name} wants to help make the cookies just right.",
+      "illustration_prompt": "Nana opens a flowered recipe tin on the wooden table while the child peeks in with wide, excited eyes. A worn recipe card covered in doodles and smudges rests beside a big blue mixing bowl."
+    },
+    {
+      "beat": "{name} and Nana measure, pour and stir. {name} cracks an egg with no help at all, and a puff of flour lands on Nana's nose, so Nana and {name} burst into giggles.",
+      "illustration_prompt": "The child proudly holds a cracked eggshell over the blue mixing bowl while a cloud of flour drifts onto Nana's nose. Both are laughing, flour sprinkled across the table."
+    },
+    {
+      "beat": "A smudge on the old card makes the butter amount hard to read, so Nana makes a guess. {name} scoops the dough onto the tray in neat little balls, one by one.",
+      "illustration_prompt": "Nana squints through round glasses at a smudged recipe card while the child carefully places round dough balls in rows on a baking tray."
+    },
+    {
+      "beat": "Through the oven window, {name} watches the cookies melt and spread until every little ball joins into one giant, wobbly, golden cookie covering the whole tray.",
+      "illustration_prompt": "The child kneels in front of the oven, nose close to the glass window, watching one enormous golden cookie spread across the entire tray inside. The child's face shows surprise."
+    },
+    {
+      "beat": "Nana pulls out the tray and sighs. The family is coming soon, and no time is left to start over. {name} sees Nana's worried face and thinks very hard about what to do.",
+      "illustration_prompt": "Nana holds a tray with one giant cookie, shoulders drooping. The child stands beside Nana with a thoughtful expression, finger tapping chin, the kitchen clock on the wall without numbers."
+    },
+    {
+      "beat": "{name} spots the cookie cutters in the drawer and gets an idea: cut the giant cookie into shapes, one for every person in the family. {name} presses out a heart, a star, a moon and more.",
+      "illustration_prompt": "The child presses a metal star-shaped cutter into the giant cookie, with heart and moon shapes already cut out. Nana watches, smiling with delight, an open drawer of cookie cutters nearby."
+    },
+    {
+      "beat": "{name} and Nana decorate each shape with icing and sprinkles, giving every cookie a happy face for Mom, Dad, Grandpa, Nana and {name}. The leftover edges become crunchy crumbles for ice cream.",
+      "illustration_prompt": "The child and Nana pipe icing smiles onto cookie shapes covered in colorful sprinkles. A small bowl of cookie crumbles sits next to a carton of ice cream. Sprinkles scattered on the checkered tablecloth."
+    },
+    {
+      "beat": "The family arrives and finds a plate of smiling cookie people. Everyone laughs, finds a favorite shape, and Grandpa asks {name} for the secret recipe.",
+      "illustration_prompt": "Mom, Dad and Grandpa gather around the kitchen table laughing, each holding a decorated cookie shape. The child stands proudly beside Nana, presenting the plate."
+    },
+    {
+      "beat": "{name} and Nana make a brand-new recipe card together for Giant Surprise Cookies and tuck it into the flowered tin beside the old card. Nana declares it a new tradition for every visit, and {name} can't wait for next time.",
+      "illustration_prompt": "The child and Nana sit close at the table, placing a freshly decorated recipe card with doodled cookie drawings into the flowered tin. Warm golden evening light fills the kitchen."
+    }
+  ],
+  "cover_scene": "The child, wearing a striped apron with a dusting of flour, stands at a round wooden kitchen table beside smiling silver-haired Nana in round glasses. Together they hold up a plate of decorated star, heart and moon cookies with icing smiles. A flowered recipe tin and blue mixing bowl sit nearby. The top third of the picture is a calm, softly lit butter-yellow kitchen wall with gentle sunlight, open and uncluttered for a title.",
+  "sample_pages": [
+    {
+      "text": "Measure, pour, and stir, stir, stir! {name} cracks an egg with no help at all. Then, POOF! A cloud of flour lands right on Nana's nose. Nana and {name} giggle and giggle.",
+      "scene": "The child holds a cracked eggshell over a big blue mixing bowl while a puff of flour drifts onto Nana's nose. Both are laughing at the checkered table, flour sprinkled everywhere."
+    },
+    {
+      "text": "Nana looks at the giant cookie and sighs. \"Oh dear. Everyone is coming soon.\" {name} looks at Nana's worried face. Then {name} looks at the cookie drawer. Hmm. What can {name} do?",
+      "scene": "Nana holds a tray with one enormous golden cookie, shoulders drooping. The child stands nearby with a thinking face, glancing toward a slightly open drawer of shiny cookie cutters."
+    }
+  ],
+  "h1": "Personalized Nana Gift Book for Your Grandchild: Baking Day with Nana",
+  "meta_title": "Personalized Nana Baking Book | StoryBloom",
+  "meta_description": "A personalized book from Nana: your child bakes with Nana, rescues a cookie mix-up, and starts a sweet new family tradition.",
+  "promise": "Your child and Nana share a cozy baking day where a happy accident becomes a tradition all their own.",
+  "story_summary": "Your child arrives at Nana's kitchen for a baking day, ready to help make the family's treasured Sunshine Cookies from an old recipe card. Eggs get cracked, flour goes flying, and the two of them can't stop giggling. But a smudge on the card leads to a surprise in the oven, and with the family coming for supper, Nana starts to worry. Now it's up to your child to think fast and find a way to make something wonderful out of a baking mix-up.",
+  "why_parents": [
+    "Between ages 3 and 7, children are just starting to understand that families have stories and rituals that stretch back before they were born. A recipe passed down from Nana's own mother gives your child a small, concrete way to feel part of that history, and baking together is one of the most natural ways a grandparent and grandchild connect.",
+    "Young children often get upset when things don't go as planned. In this story, a recipe goes wrong and the grown-up feels worried too, which gives your child a gentle model for staying calm, trying an idea, and discovering that mistakes can lead somewhere fun. It is a sweet reminder that the time spent together matters more than a perfect batch."
+  ],
+  "for_grownups": [
+    "Ask your child: What would you do if your cookies came out as one giant cookie? Let them dream up their own rescue idea.",
+    "Share a recipe or food tradition from your family and talk about who made it first. If you can, bake it together.",
+    "Invite your child to invent a recipe with Nana, even a simple snack, and draw it on a card to keep in a special box."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book a good gift from Nana to a grandchild?",
+      "answer": "Yes. The story centers on a baking day between your child and Nana, so it works well as a gift Nana gives to mark a visit, a birthday or just a cozy afternoon together."
+    },
+    {
+      "question": "Does the child really solve the problem in the story?",
+      "answer": "Yes. When the cookies spread into one giant cookie, your child is the one who comes up with the idea that saves supper and starts a new family tradition."
+    },
+    {
+      "question": "Does the book include a real recipe?",
+      "answer": "The story follows a pretend family recipe rather than a printed recipe. Many families enjoy reading it and then baking their own cookies together afterward."
+    }
+  ],
+  "image_alt": "Personalized Nana baking book cover featuring an illustrated child and Nana holding a plate of decorated cookies",
+  "feed_title": "Personalized Nana Gift Book for Grandchild, Your Child Bakes with Nana as the Hero",
+  "feed_description": "A personalized picture book where your child spends a cozy baking day with Nana. Together they pull an old family recipe from a flowered tin and start mixing Sunshine Cookies for a family supper. Eggs get cracked, flour lands on Nana's nose, and then a smudged recipe card leads to a surprise in the oven. With the family on the way and no time to start over, your child comes up with a clever idea that turns the mix-up into a plate of smiling cookie people and a brand-new tradition to share on every visit. Written for ages 3 to 7 with warm, playful read-aloud text and cozy kitchen illustrations. A thoughtful gift from a grandmother to a grandchild."
+}

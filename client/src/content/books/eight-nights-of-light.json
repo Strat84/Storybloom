@@ -1,0 +1,117 @@
+{
+  "slug": "eight-nights-of-light",
+  "status": "live",
+  "title_pattern": "{name} and the Eight Nights of Light",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Dec",
+  "sensitive": false,
+  "main_keyword": "personalized hanukkah book",
+  "landing_page_slug": "books/eight-nights-of-light",
+  "example": {
+    "name": "Noa",
+    "pronouns": "she",
+    "look": "light olive skin, curly dark brown hair"
+  },
+  "tagline": "Eight nights, eight small kindnesses, and a whole street that begins to glow.",
+  "lesson_or_purpose": "Small, everyday kindnesses add light to the world, the way one more candle is added each night of Hanukkah.",
+  "tone": "Warm, cozy and gently festive, with quiet wonder and a touch of humor around the family table.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, a repeating night-by-night rhythm and simple holiday words explained in context.",
+  "keywords": [
+    "personalized hanukkah book",
+    "hanukkah book for kids",
+    "personalized chanukah book",
+    "hanukkah gift for kids",
+    "jewish holiday picture book",
+    "eight nights of hanukkah story",
+    "menorah book for children",
+    "kindness book for kids"
+  ],
+  "illustration_guide": "Setting: a cozy family home on a small, snowy street of row houses during the eight nights of Hanukkah, plus the front step and kitchen of an older neighbor named Mr. Adler next door. Palette: deep winter blues and soft indigo outside, warm candle golds, honey ambers and creamy whites inside, with accents of blue and silver. Recurring elements: a brass menorah in the front window with nine candle holders, the raised shamash in the middle, and the correct number of candles for each night added from right to left; a small wooden dreidel; a bowl of gold-wrapped chocolate coins; plates of golden latkes and powdered jelly doughnuts; gently falling snow. Each spread should show the light growing a little: one window glowing on the first night, more and more glowing windows along the street by the eighth night. The child wears a cozy blue sweater throughout. Family members shown: Grandma, Dad, and a small cousin named Noah. No words, letters or Hebrew lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "On the first night of Hanukkah, Grandma tells {name} the story of the Maccabees and the tiny jar of oil that kept the temple lamp burning for eight whole nights. Dad lights the shamash and then the first candle. {name} helps carry the menorah to the front window so the whole street can see the light, and decides to do one small kindness every night of Hanukkah.",
+      "illustration_prompt": "A warm living room at dusk. Grandma sits beside the child, telling a story with an open hand. Dad holds the lit shamash near a brass menorah with one candle glowing. The child carefully helps set the menorah on the front windowsill, snowy street visible outside."
+    },
+    {
+      "beat": "On the second night, the family plays dreidel. Little cousin Noah loses every chocolate coin and looks ready to cry. {name} quietly slides a handful of gold coins across the table so Noah can keep playing. Two candles glow in the window.",
+      "illustration_prompt": "A family table with a spinning wooden dreidel and scattered gold chocolate coins. A small cousin with a sad face sits beside the child, who pushes a pile of coins across the table with a kind smile. A menorah with two lit candles and the shamash glows in the window behind."
+    },
+    {
+      "beat": "On the third night, Dad fries crispy latkes. {name} helps grate potatoes and sets the table without being asked, saving the best spot for Grandma. Three candles glow, and the kitchen smells golden.",
+      "illustration_prompt": "A cozy kitchen with Dad at the stove frying latkes in a pan. The child sets plates on the table and pulls out a chair for Grandma. Through the doorway, a menorah with three lit candles glows in the front window."
+    },
+    {
+      "beat": "On the fourth night, {name} looks out the window and notices that the house next door is dark. Mr. Adler, the older neighbor, lives there alone. {name} wants to help but feels shy and unsure what to do.",
+      "illustration_prompt": "The child stands at the front window beside a menorah with four lit candles, looking out at a snowy street. The house next door has a dark, empty window. The child's face looks thoughtful and a little worried."
+    },
+    {
+      "beat": "On the fifth night, {name} gathers courage, draws a bright card, and carries a plate of jelly doughnuts next door with Dad. Mr. Adler opens the door, surprised and smiling, and explains that the family menorah is packed away on a high shelf that is too hard to reach.",
+      "illustration_prompt": "A snowy front step at night. The child, holding a plate of powdered jelly doughnuts and a colorful handmade card with only pictures on it, stands beside Dad. An older neighbor in a cardigan opens the door with a warm, surprised smile."
+    },
+    {
+      "beat": "On the sixth night, {name} comes up with a plan. Dad brings the step stool, and {name} helps find the box and polishes the old menorah until it shines. Soon Mr. Adler's window glows with six candles too.",
+      "illustration_prompt": "Inside the neighbor's cozy home, Dad stands on a step stool lowering a box from a high shelf. The child kneels on a rug polishing an old brass menorah with a cloth. In the next moment shown in the window, six candles and the shamash glow brightly."
+    },
+    {
+      "beat": "On the seventh night, {name} invites Mr. Adler over to celebrate. {name} teaches cousin Noah and Mr. Adler a dreidel game, and Mr. Adler teaches everyone an old Hanukkah song from long ago. Seven candles glow in two windows on the street.",
+      "illustration_prompt": "The family table crowded with Grandma, Dad, the small cousin, the older neighbor and the child, all laughing around a spinning dreidel. Through the window, a snowy street shows two houses with glowing menorahs, each with seven candles lit."
+    },
+    {
+      "beat": "On the eighth night, {name} looks outside and gasps. Neighbors who saw the glowing windows have set out their own menorahs, and families have come out to share doughnuts and wave from their steps. All eight candles and the shamash shine.",
+      "illustration_prompt": "A snowy street at night seen from the front step. Many windows glow with menorahs, each showing eight candles and a shamash. Neighbors stand on their steps waving and sharing doughnuts. The child stands in the doorway, eyes wide with joy, beside Grandma and Dad."
+    },
+    {
+      "beat": "Back inside, Grandma wraps {name} in a hug and asks what the best part of Hanukkah was. {name} thinks about the coins, the latkes, the card and the old menorah, and says the best part was watching the light spread from one window to many.",
+      "illustration_prompt": "Grandma and the child snuggle on a couch under a soft blanket. The menorah with all eight candles and the shamash glows in the window behind them. Small floating golden glows hint at each night's kindness: a coin, a latke, a card, a menorah."
+    },
+    {
+      "beat": "Grandma says that kindness works like the Hanukkah candles: one small light, then another, until everything glows. {name} presses close to the window, watching the shining street, already thinking about tomorrow's small kindness.",
+      "illustration_prompt": "The child kneels at the front window, hands on the sill, looking out at a whole snowy street glowing with menorahs in every window. Soft snow falls. Warm candlelight reflects on the child's peaceful, happy face."
+    }
+  ],
+  "cover_scene": "The child stands on a snowy front step at night in a cozy blue sweater, holding a small plate of powdered jelly doughnuts and smiling. Behind the child, a brass menorah with all candles lit glows in the front window, and the snowy street beyond shows windows shining with warm candlelight. The top third of the picture is a calm, deep indigo night sky with soft, gently falling snow, open and uncluttered.",
+  "sample_pages": [
+    {
+      "text": "On the second night, the dreidel spins and spins. Little cousin Noah loses every chocolate coin. Noah's lip starts to wobble. {name} slides over a pile of shiny gold coins. \"Here. Keep playing!\" Two little candles glow in the window.",
+      "scene": "A family table with a spinning wooden dreidel and scattered gold chocolate coins. A small cousin with a wobbly lip sits beside the child, who pushes a pile of coins across the table with a kind smile. A menorah with two lit candles and the shamash glows in the window behind."
+    },
+    {
+      "text": "On the fifth night, {name} takes a big breath. Knock, knock, knock. The door creaks open. \"Happy Hanukkah, Mr. Adler!\" {name} holds out a plate of jelly doughnuts and a bright, happy card. Mr. Adler smiles the biggest smile.",
+      "scene": "A snowy front step at night. The child, holding a plate of powdered jelly doughnuts and a colorful handmade card with only pictures on it, stands beside Dad. An older neighbor in a cardigan opens the door with a warm, surprised smile, warm light spilling out."
+    }
+  ],
+  "h1": "Personalized Hanukkah Book: Your Child and the Eight Nights of Light",
+  "meta_title": "Personalized Hanukkah Book for Kids | StoryBloom",
+  "meta_description": "A personalized Hanukkah book where your child does one small kindness each night and watches the light spread down the whole street.",
+  "promise": "Your child becomes the helper who adds a little more light to the world, one candle and one kindness at a time.",
+  "story_summary": "On the first night of Hanukkah, Grandma tells the story of the oil that lasted eight nights, and your child decides to do one small kindness every evening. Sharing chocolate coins with a little cousin and helping Dad with the latkes come easily. Then your child notices that the older neighbor's window next door stays dark, and being brave enough to help is a bigger step. With a plate of jelly doughnuts and a homemade card, your child knocks on the door and discovers what a small act can begin.",
+  "why_parents": [
+    "Hanukkah is a holiday young children can see and count. Each night there is one more candle, and that steady growth is a natural way to talk about how small actions build on each other. Tying each night to a simple kindness gives children something real to do alongside the lighting, the dreidel games and the latkes.",
+    "Children between three and eight are starting to notice other people's feelings, but reaching out can feel scary, especially to a grown-up outside the family. This story shows a child moving from easy kindnesses at home to a braver one next door, and it honors the tradition of placing the menorah in the window so the light is shared with everyone who passes by."
+  ],
+  "for_grownups": [
+    "Before lighting candles each night, ask your child to name one small kindness they did or want to do. Keep a simple list and read it together on the eighth night.",
+    "Talk about why many families place the menorah in a window. Ask your child who on your street or in your life might enjoy a little extra light this season.",
+    "After reading the fifth night, ask how your child thinks it felt to knock on the neighbor's door. Share a time you felt shy about helping and did it anyway."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story explain what Hanukkah celebrates?",
+      "answer": "Yes. On the first night, Grandma briefly tells the story of the Maccabees and the small jar of oil that burned for eight nights, in simple words young children can follow."
+    },
+    {
+      "question": "Are the Hanukkah details shown accurately?",
+      "answer": "The menorah has nine branches with a raised shamash, one more candle is added each night, and the family places the menorah in the window. Dreidel, gold chocolate coins, latkes and jelly doughnuts appear throughout."
+    },
+    {
+      "question": "Is this a good book to read across all eight nights?",
+      "answer": "It works well that way. Each night of Hanukkah has its own page, so many families read one night's page after lighting candles and save the ending for the eighth night."
+    }
+  ],
+  "image_alt": "Personalized Hanukkah book cover featuring an illustrated child as the hero on a snowy step with a glowing menorah in the window",
+  "feed_title": "Personalized Hanukkah Book for Kids, Your Child Is the Hero of the Eight Nights",
+  "feed_description": "A personalized Hanukkah picture book for children ages 3 to 8 in which your child is the illustrated hero. On the first night, Grandma shares the story of the oil that lasted eight nights, and your child decides to do one small kindness every evening. Sharing chocolate coins with a cousin, helping with latkes, and finally finding the courage to bring jelly doughnuts to a neighbor whose window is dark, your child watches the light grow from one window to a whole glowing street. The book respectfully shows the menorah with its shamash, adding one candle each night, dreidel games and holiday foods. A warm read-aloud for the eight nights and a thoughtful Hanukkah gift."
+}

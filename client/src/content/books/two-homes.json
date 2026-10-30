@@ -1,0 +1,117 @@
+{
+  "slug": "two-homes",
+  "status": "live",
+  "title_pattern": "{name} Has Two Homes",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book about divorce for kids two homes",
+  "landing_page_slug": "books/two-homes",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "Two homes, two bedrooms, and the same love in both.",
+  "lesson_or_purpose": "Helps a young child understand that parents living apart is a grown-up decision and not the child's fault, that some things stay the same in both homes, and that the child can take small steps to feel at home in each place.",
+  "tone": "Gentle, honest and reassuring, with plain words and a calm, steady rhythm.",
+  "reading_level": "Ages 3-8. Short sentences and simple, concrete words that a preschooler can follow when read aloud, with enough feeling and detail to hold an early reader. Light repetition of the phrase about things that stay the same.",
+  "keywords": [
+    "book about divorce for kids two homes",
+    "personalized divorce book for children",
+    "two homes book for kids",
+    "parents living apart book",
+    "co-parenting picture book",
+    "separation book for preschoolers",
+    "not your fault divorce book",
+    "custom book for child of divorce"
+  ],
+  "illustration_guide": "Soft, warm watercolor style with rounded shapes and gentle light. Two homes appear throughout: Mom's house in warm peach and butter yellow with a round window and a lemon tree by the door, and Dad's apartment in soft sky blue and sage green with a tall window and a balcony of potted herbs. The child's two bedrooms echo each colour scheme. Recurring elements on every page where it fits: a small plush fox that travels with the child, a striped travel backpack, a crescent moon visible through windows in both homes, and the child's crayon drawings that slowly fill both bedroom walls. Both parents look calm, kind and attentive, never angry. No words, letters, numbers or signs anywhere in the art.",
+  "page_outline": [
+    {
+      "beat": "At the kitchen table, Mom and Dad sit close to {name} and explain gently that they are going to live in two different homes now. They both say clearly that they love {name} and always will, and that this is a grown-up decision.",
+      "illustration_prompt": "A warm kitchen in peach and yellow tones. Mom and Dad sit on either side of the child at a round table, both leaning in kindly. The child holds a small plush fox. Late afternoon light falls across the table."
+    },
+    {
+      "beat": "{name} feels mixed up inside: sad, confused, and a little scared. {She/He} quietly asks if {she/he} did something wrong. Mom and Dad answer together, in plain words, that it is not {name}'s fault, nothing {name} did caused it, and it is not {her/his} job to fix it.",
+      "illustration_prompt": "Close view of the child on a cozy couch hugging the plush fox, with Mom and Dad kneeling in front, each holding one of the child's hands. Their faces are calm and caring. A soft lamp glows nearby."
+    },
+    {
+      "beat": "{name} visits Dad's new apartment for the first time. There is a new bedroom just for {her/him}, but the walls are bare, the bed feels different, and the sounds are unfamiliar.",
+      "illustration_prompt": "A sky blue and sage green bedroom with plain walls, a neatly made bed, and a tall window. The child stands in the doorway holding the plush fox and a striped backpack, looking around carefully. Dad stands behind with a gentle hand on the child's shoulder."
+    },
+    {
+      "beat": "At bedtime, {name} cannot fall asleep. {She/He} misses the other bedroom and wonders whether anything will ever feel the same again.",
+      "illustration_prompt": "The child lies awake in the blue bedroom at night, the plush fox tucked under one arm. Through the tall window, a crescent moon glows in a deep blue sky. Soft night-light shadows on the walls."
+    },
+    {
+      "beat": "{name} notices the moon in the window. It is the very same moon {she/he} sees from Mom's house. {name} decides to go looking for all the things that stay the same.",
+      "illustration_prompt": "The child sits up in bed, face lit with curiosity, pointing at the crescent moon through the tall window. The plush fox sits on the pillow. A dreamy inset bubble shows the same moon over Mom's peach house with the lemon tree."
+    },
+    {
+      "beat": "In the morning, {name} starts a set of drawings of the same things: Dad's bedtime hug and Mom's bedtime hug, the plush fox, the moon, and {her/his} own favorite songs. {name} hangs a drawing on the bare wall.",
+      "illustration_prompt": "The child kneels on the floor of the blue bedroom with crayons spread out, drawing simple pictures of hugs, a fox and a moon. One finished drawing is taped to the wall. Dad sits nearby with a cup, smiling."
+    },
+    {
+      "beat": "On switching day, {name} feels a lump in {her/his} throat. {She/He} packs the striped backpack with the fox and a copy of the drawings, so the same things can come along wherever {she/he} goes.",
+      "illustration_prompt": "The child carefully places the plush fox and a few folded crayon drawings into the striped backpack by the apartment door. Dad crouches beside to help zip it. Morning light from the balcony herbs."
+    },
+    {
+      "beat": "Back at Mom's house, {name} has an idea. With Mom's help, {name} makes a picture calendar with a little yellow house and a little blue house, so {she/he} always knows where {she/he} will sleep next.",
+      "illustration_prompt": "In the peach bedroom, the child and Mom sit at a small table making a calendar made only of colored squares with tiny yellow house and blue house shapes, no numbers or letters. The plush fox watches from the table."
+    },
+    {
+      "beat": "{name} bravely tells Mom, and later Dad, how {she/he} has been feeling, the sad parts and the okay parts. Each parent listens and says that every feeling is allowed and that their love for {name} does not split in two.",
+      "illustration_prompt": "A split picture: on one side the child talks with Mom on a peach couch, on the other the child talks with Dad on a blue balcony bench. In both, the parent listens closely and the child holds the plush fox."
+    },
+    {
+      "beat": "Now both bedrooms have {name}'s drawings on the walls. Two homes, two beds, one {name}, and the same moon shining over both. {She/He} is loved in each one.",
+      "illustration_prompt": "A wide view showing Mom's peach house and Dad's blue apartment side by side under one evening sky with a single crescent moon above. Through each lit window, the child's drawings are visible on the walls. In one window the child waves with the plush fox."
+    }
+  ],
+  "cover_scene": "The child stands smiling on a gentle hill path between Mom's peach house with its lemon tree on one side and Dad's sky blue apartment with balcony herbs on the other, holding the plush fox and wearing the striped backpack. The top third of the picture is a calm, open twilight sky in soft lavender and blue with a single pale crescent moon near the edge, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "{name} held Fox very tight. \"Did I do something wrong?\" {she/he} whispered. Mom and Dad held {her/his} hands. \"No,\" said Dad. \"This is not your fault,\" said Mom. \"Nothing you did made this happen. And you don't have to fix it. We both love you, always.\"",
+      "scene": "The child sits on a cozy couch hugging the plush fox. Mom and Dad kneel in front, each holding one of the child's hands, faces calm and kind. A soft lamp glows nearby."
+    },
+    {
+      "text": "{name} looked out the window. There was the moon, round and bright at the edge. \"That's the same moon I see at Mom's house!\" {she/he} said. Some things are new. Some things stay the same. {name} decided to find them all.",
+      "scene": "The child sits up in bed in the blue bedroom, pointing at a crescent moon through a tall window. The plush fox rests on the pillow. A dreamy inset shows the same moon over Mom's peach house with its lemon tree."
+    }
+  ],
+  "h1": "Personalized Two Homes Book About Divorce for Kids",
+  "meta_title": "Personalized Two Homes Divorce Book | StoryBloom",
+  "meta_description": "A personalized picture book for kids whose parents live apart: two homes, the things that stay the same, and it is not their fault.",
+  "promise": "A gentle, honest story where your child learns that two homes can both feel like home, and that the grown-ups' decision was never their fault.",
+  "story_summary": "When Mom and Dad explain that they will live in two homes, your child feels sad and mixed up, and quietly asks the question so many children wonder about. Both parents answer clearly that it is not their fault. At Dad's new apartment, the bedroom feels strange and bedtime is hard, until your child spots the same moon shining through the window that shines over Mom's house. That small discovery starts a search for all the things that stay the same.",
+  "why_parents": [
+    "Young children often believe they caused big changes in their family, even when no one has said so. Hearing the words \"this is not your fault\" plainly, more than once, and seeing them said by both a mom and a dad character in a story, gives your child a clear message they can come back to again and again.",
+    "Moving between two homes brings real practical questions for a child: where will I sleep, what comes with me, what happens next. This story shows your child taking small, doable steps, like packing a comfort item, decorating a new room and using a picture calendar, so the change feels a little more understandable and a little more theirs."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: \"What are some things that are the same at both homes?\" Make your own list or drawings together, the way the child in the story does.",
+    "Children may ask \"Is it my fault?\" many times, sometimes long after the separation. Answering calmly and the same way each time is part of how the message sinks in.",
+    "If your child seems very worried, withdrawn or stuck in big feelings for a while, it can help to talk with your pediatrician or a family counselor. This book is a starting point for conversation, not a replacement for that support."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book blame either parent?",
+      "answer": "No. Mom and Dad are both shown as calm, loving and caring, and the separation is described simply as a grown-up decision. Neither parent is cast as the cause."
+    },
+    {
+      "question": "Is it suitable if my child is only three?",
+      "answer": "Yes. The sentences are short and the ideas are concrete, like two bedrooms, a travel backpack and the same moon in both windows. Older children up to about eight can read along and talk about the feelings in more depth."
+    },
+    {
+      "question": "What if our family's arrangement is different from the story?",
+      "answer": "The story keeps the details general: Mom has a house and Dad has an apartment, and the child moves between them on switching days. It works well as a conversation starter about your own family's schedule and homes, whatever they look like."
+    }
+  ],
+  "image_alt": "Personalized two homes divorce book cover featuring an illustrated child as the hero standing between two houses under a crescent moon",
+  "feed_title": "Personalized Divorce Book for Kids, Two Homes Story Where Your Child Is the Hero",
+  "feed_description": "A gentle personalized picture book for children ages 3 to 8 whose parents now live in two homes. Your child is the illustrated hero of the story. When Mom and Dad explain they will live apart, your child asks the question many children carry quietly, and both parents answer clearly that it is not their fault. At Dad's new apartment the bedroom feels strange at first, until your child notices the same moon shining over both homes and sets out to find all the things that stay the same. Along the way your child packs a favorite plush fox to travel between homes, fills bare walls with drawings and makes a picture calendar to know where they will sleep next. Warm watercolor art, plain honest words and a calm, reassuring ending."
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "lost-moon-rover",
+  "status": "live",
+  "title_pattern": "Commander {name} and the Lost Moon Rover",
+  "category": "adventures",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "astronaut book personalized",
+  "landing_page_slug": "books/lost-moon-rover",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "A countdown, a crater, and a little rover waiting for help.",
+  "lesson_or_purpose": "An adventure about staying calm, thinking things through and using what you know to help someone in trouble, with real facts about the moon and stars woven into the rescue.",
+  "tone": "Exciting, warm and curious, with a gentle sense of wonder and a satisfying, cozy ending.",
+  "reading_level": "Read-aloud for ages 4-6, early independent reading for ages 7-9. Short paragraphs of 2-4 sentences per page.",
+  "keywords": [
+    "astronaut book personalized",
+    "personalized space book for kids",
+    "moon book for kids",
+    "personalized astronaut story",
+    "space adventure book with child's name",
+    "moon rover book",
+    "kids book about the moon and stars",
+    "gift for kids who love space"
+  ],
+  "illustration_guide": "Setting moves from a bright, friendly mission control room on Earth to a sleek white rocket, the black starry sky of space, and the gray, cratered surface of the moon, ending in a cozy bedroom at night. Palette: deep navy and inky black skies, silver-gray moon dust, crisp white spacesuit with warm orange trim, soft gold sunlight, and a glowing blue-and-green Earth. Recurring elements: the child's white spacesuit with an orange stripe and a round helmet, the small boxy rover named Pip with blue solar panels and one round camera eye, the child's helmet light, footprints left in moon dust, and Earth hanging in the black sky whenever the scene is on the moon. Stars on the moon and in space are sharp, steady points of light, never twinkling sparkles. Style: rounded, friendly shapes, soft textures, expressive faces, no text or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "At Mission Control, {name} hears an urgent beeping. Pip, a small moon rover, has stopped sending signals near a giant crater. The team turns to {name}, and {she/he} pulls on {her/his} spacesuit. Commander {name} is ready.",
+      "illustration_prompt": "A bright, friendly mission control room with big round screens showing the gray moon and a blinking dot. The child stands in the center in a white spacesuit with an orange stripe, holding a round helmet, looking determined. Friendly grown-up crew members in matching jackets gather around, pointing at the screen."
+    },
+    {
+      "beat": "{name} climbs into the rocket and buckles in. Everyone counts down together, and the rocket roars up through the clouds. Soon {name} is in space, where the sky is black and the stars shine steady and bright, because there is no air to make them twinkle.",
+      "illustration_prompt": "A sleek white rocket rising above fluffy clouds on a trail of golden fire, then a view through a round cockpit window of the child buckled in, gazing out at a deep black sky full of sharp, steady points of starlight."
+    },
+    {
+      "beat": "Halfway there, the ship's map flickers and goes dark. {name} stays calm and looks out the window, finding a bright pattern of stars {she/he} knows. Using the stars and the glowing moon, which shines by reflecting sunlight, {name} steers the ship back on course.",
+      "illustration_prompt": "Inside the cockpit, a dim control panel with a blank screen. The child leans toward the window, one hand on the steering controls, pointing at a clear pattern of bright stars. The large silver moon glows ahead, lit on one side by golden sunlight."
+    },
+    {
+      "beat": "The ship lands softly on the moon. {name} steps out and bounces high, because things weigh only about one sixth as much on the moon. {She/He} looks back at {her/his} footprints in the gray dust. With no wind on the moon, they could stay there for a very long time.",
+      "illustration_prompt": "The child mid-bounce, floating high above the gray, dusty moon surface in a white spacesuit, arms out with joy. A trail of crisp boot prints leads back to the landed ship. Earth, blue and green, hangs in the black sky."
+    },
+    {
+      "beat": "{name} follows Pip's wheel tracks to the edge of an enormous crater. Then the tracks disappear into deep, dark shadow. It is very cold in the shadows on the moon. For a moment, {name} isn't sure what to do.",
+      "illustration_prompt": "The child standing at the rim of a huge round crater, looking down into a pool of deep black shadow. Twin wheel tracks lead to the edge and vanish. Long shadows stretch across the gray ground under the black starry sky."
+    },
+    {
+      "beat": "{name} thinks hard. Pip runs on sunlight, using its solar panels. If Pip rolled into the shadow, it would have no power at all! {name} switches on {her/his} helmet light and carefully steps down into the crater to look.",
+      "illustration_prompt": "The child carefully stepping down a sloping crater wall, a bright beam of light shining from the helmet into the darkness, revealing gray rocks and faint wheel tracks. The rim behind is lit by golden sunlight."
+    },
+    {
+      "beat": "A tiny, faint beep! {name} sweeps the light across the rocks and finds Pip, tipped on its side at the bottom of the crater. Its blue solar panels are covered in gray dust. {name} kneels beside the little rover. \"I've got you, Pip.\"",
+      "illustration_prompt": "At the bottom of the shadowy crater, the helmet beam lands on a small boxy rover tipped on its side, its blue solar panels dusty, its round camera eye dim. The child kneels beside it with a gentle, caring expression."
+    },
+    {
+      "beat": "{name} gently brushes the dust off Pip's panels. Then {she/he} clips on a tow line and pulls. On the moon, Pip is light enough for {name} to tug, step by bouncy step, up the crater wall and into the warm sunshine.",
+      "illustration_prompt": "The child climbing up the crater slope, pulling the small rover behind on a bright orange tow line, both moving from deep shadow into a band of golden sunlight at the rim. Puffs of gray dust float softly behind them."
+    },
+    {
+      "beat": "Sunlight hits Pip's clean panels. Its camera eye glows and it beeps a happy tune! Pip shows {name} a picture it took of Earth, glowing blue in the black sky. {name} radios Mission Control: \"Pip is safe!\"",
+      "illustration_prompt": "In bright sunlight on the crater rim, the little rover's blue panels shine and its round camera eye glows. A small floating image shows the blue-and-green Earth. The child holds one gloved hand to the helmet as if speaking on the radio, smiling widely. Earth hangs in the black sky above."
+    },
+    {
+      "beat": "Back home that night, {name} looks out {her/his} bedroom window at the moon. Somewhere up there, Pip is rolling safely in the sunshine, next to a trail of footprints that belong to Commander {name}.",
+      "illustration_prompt": "A cozy bedroom at night with a warm lamp glow. The child in pajamas kneels on the bed at the window, chin in hands, smiling up at a bright full moon in a navy sky. A small toy rocket sits on the windowsill."
+    }
+  ],
+  "cover_scene": "The child stands proudly on the gray, cratered moon surface in a white spacesuit with an orange stripe, helmet visor up to show a confident smile, one gloved hand resting on the small boxy rover Pip, whose blue solar panels gleam in golden sunlight. The landed white rocket sits in the middle distance and a trail of boot prints leads toward it. The blue-and-green Earth hangs low on the right side. The top third of the picture is calm, open black space with only a few soft, steady stars, leaving clear room for a title.",
+  "sample_pages": [
+    {
+      "text": "Bump! The ship landed softly on the moon. {name} stepped outside and gave a little hop. Whoosh! Up, up, up {she/he} floated! On the moon, everything weighs much less than on Earth, so even a small hop feels like flying. {name} looked back at {her/his} footprints in the gray dust. With no wind to blow them away, they would stay right there.",
+      "scene": "The child mid-bounce, floating high above the gray, dusty moon surface in a white spacesuit with an orange stripe, arms spread with delight. A trail of crisp boot prints leads back to the landed white rocket. The blue-and-green Earth hangs in the black sky."
+    },
+    {
+      "text": "{name} stopped and thought. Pip gets its power from sunlight, through its shiny solar panels. \"If Pip rolled into the shadow,\" {name} said, \"it can't charge up!\" Click! {She/He} switched on {her/his} helmet light and stepped carefully down into the dark crater.",
+      "scene": "The child stepping carefully down a sloping crater wall, a bright beam shining from the helmet into deep shadow and lighting up gray rocks and faint wheel tracks. Behind, the crater rim glows with golden sunlight under a black, starry sky."
+    }
+  ],
+  "h1": "Personalized Astronaut Book: Commander Your Child and the Lost Moon Rover",
+  "meta_title": "Personalized Astronaut Book: Lost Moon Rover | StoryBloom",
+  "meta_description": "A personalized astronaut book where your child flies to the moon and rescues a lost rover, with real moon and star facts along the way.",
+  "promise": "Your child takes command of a real-feeling moon mission, steering by the stars and bouncing across the moon to bring a little lost rover back into the sunshine.",
+  "story_summary": "When a small moon rover named Pip stops sending signals near a giant crater, Mission Control calls on Commander Your Child. Your child suits up, blasts off and finds out why stars look different in space. When the ship's map goes dark, it's up to your child to steer by the stars, then land and bounce across the moon in low gravity. But Pip's tracks vanish into a deep, cold shadow, and your child will have to think carefully about how a rover works to find it.",
+  "why_parents": [
+    "Kids between four and nine are full of big questions about the sky: why the moon glows, why stars twinkle, what it would feel like to walk up there. This story answers a handful of those questions inside the action, so facts like low gravity, footprints that last and solar power become part of the rescue rather than a lecture.",
+    "It is also a story about keeping a cool head. Twice, your child hits a moment of not knowing what to do, once when the map fails and once when the tracks disappear, and both times the answer comes from stopping, thinking and using what they already know. That is a lovely thing for a young reader to see themselves do."
+  ],
+  "for_grownups": [
+    "Head outside on a clear night and look at the moon together. Talk about the story's fact that the moon doesn't make its own light but reflects sunlight, and check what shape it is tonight.",
+    "Ask your child about the moment the map went dark or the tracks disappeared: what do they do when they feel stuck? Share a time you stopped, took a breath and figured something out.",
+    "Try a footprint experiment in sand or flour, then gently blow on it. Talk about why the footprints on the moon stay put when there is no wind."
+  ],
+  "faqs": [
+    {
+      "question": "Are the space facts in the story real?",
+      "answer": "Yes. The story uses real facts, such as the moon reflecting sunlight, things weighing about one sixth as much on the moon, footprints lasting because there is no wind, and stars not twinkling in space because there is no air."
+    },
+    {
+      "question": "Is this story too scary for a younger child?",
+      "answer": "No. There are a couple of tense moments, like the dark crater and the rover going quiet, but the tone stays gentle and the rover is found safe. The story ends at home in a cozy bedroom looking up at the moon."
+    },
+    {
+      "question": "Who is Pip?",
+      "answer": "Pip is a small, friendly moon rover with blue solar panels and one round camera eye. It is the character your child rescues, and it appears in the illustrations from the crater onward."
+    }
+  ],
+  "image_alt": "Personalized astronaut book cover featuring an illustrated child in a spacesuit on the moon beside a small rover",
+  "feed_title": "Personalized Astronaut Book for Kids, Your Child Rescues a Lost Moon Rover",
+  "feed_description": "A personalized space adventure picture book for ages 4 to 9 where your child becomes Commander of a moon rescue mission. When a little rover named Pip goes silent near a giant crater, your child blasts off, steers the ship by the stars when the map goes dark, and bounces across the moon in low gravity to find it. Real facts about the moon and stars are woven into the story, from footprints that stay in the dust to why stars shine steady in space. Your child solves the problem by thinking about how the rover works. Illustrated with friendly spacesuits, a glowing Earth and a cozy ending at home. A thoughtful gift for kids who love rockets, astronauts and the night sky."
+}

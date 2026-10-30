@@ -1,0 +1,117 @@
+{
+  "slug": "rides-a-bike",
+  "status": "live",
+  "title_pattern": "{name} Rides Without Training Wheels",
+  "category": "milestones",
+  "age_range": "4-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": "Apr-Jul",
+  "sensitive": false,
+  "main_keyword": "learning to ride a bike book",
+  "landing_page_slug": "books/rides-a-bike",
+  "example": {
+    "name": "Arjun",
+    "pronouns": "he",
+    "look": "medium brown skin, neat black hair"
+  },
+  "tagline": "A wobbly start, a scraped knee, and the moment your child rides on two wheels.",
+  "lesson_or_purpose": "Learning something hard takes wobbles and falls, and trying again with a plan of your own is how you get there.",
+  "tone": "Warm, encouraging and lightly funny, with a building sense of excitement toward the moment of riding alone.",
+  "reading_level": "Ages 4-7: short sentences, simple everyday words, a little sound play (wobble, whoosh, ding) for reading aloud.",
+  "keywords": [
+    "learning to ride a bike book",
+    "personalized bike book for kids",
+    "training wheels book",
+    "riding a bike picture book",
+    "milestone book for kids",
+    "first bike ride story",
+    "trying again book for kids",
+    "personalized book about bravery"
+  ],
+  "illustration_guide": "Setting: a sunny neighborhood park with a smooth winding path, green lawns, a duck pond and one large, easy-to-spot oak tree at the far end of the path. Season is late spring into early summer: fresh leaves, dandelions, soft blue sky. Palette: bright grass greens, warm yellows, sky blue, with the child's bike in a cheerful teal with a silver bell and colorful streamers on the handlebars. The child always wears a matching teal helmet. Dad wears a striped shirt and sneakers throughout. Recurring elements: the big oak tree as the goal, the two removed training wheels shown on the porch or in Dad's backpack, a small orange bandage on the child's knee from page 4 onward, and a friendly mallard duck who appears near the path on several pages. Soft, rounded shapes and gentle light. No words, signs or lettering anywhere in the art.",
+  "page_outline": [
+    {
+      "beat": "On a bright morning, {name} watches Dad unscrew the training wheels from {her/his} teal bike. {name} feels a fizzy mix of excited and nervous, buckles {her/his} helmet, and says {she/he} is ready to try.",
+      "illustration_prompt": "A sunny front porch with a teal bike on its side, Dad in a striped shirt holding two small training wheels, and the child in a teal helmet standing beside the bike with a nervous, excited smile."
+    },
+    {
+      "beat": "At the park path, Dad holds the back of the seat while {name} climbs on. The first push is a big wobble, and {name} grips the handlebars tight as the bike leans this way and that.",
+      "illustration_prompt": "A winding park path with green lawns, the child on the teal bike leaning sideways, Dad bent over holding the back of the seat, a mallard duck watching from the grass."
+    },
+    {
+      "beat": "{name} tries again and again. The front wheel wiggles like a noodle, {her/his} feet slip off the pedals, and {name} laughs and groans at the same time.",
+      "illustration_prompt": "The child on the bike with the front wheel turned at a silly angle and one foot off the pedal, motion lines showing the wobble, Dad jogging alongside, dandelions along the path."
+    },
+    {
+      "beat": "On one wobble the bike tips all the way over, and {name} lands on the path with a scraped knee. It stings, and {name} cries while Dad kneels down, gives a hug and puts on an orange bandage.",
+      "illustration_prompt": "The bike lying on its side on the path, the child sitting on the ground with teary eyes, Dad kneeling and gently placing a small orange bandage on the child's knee."
+    },
+    {
+      "beat": "{name} sits on a bench by the pond and says {she/he} doesn't want to ride anymore. Dad says that is okay and just sits close. {name} watches the duck waddle, flap and finally lift off the water.",
+      "illustration_prompt": "A park bench beside a duck pond, the child with a bandaged knee sitting next to Dad, both watching a mallard duck flapping its wings as it rises off the water."
+    },
+    {
+      "beat": "{name} thinks hard and makes a plan: look up at the big oak tree instead of down at the wheel, and pedal strong and steady. {name} stands up and tells Dad {she/he} wants to try one more time.",
+      "illustration_prompt": "The child standing by the bench pointing down the path toward a large oak tree in the distance, a determined look, Dad smiling and nodding."
+    },
+    {
+      "beat": "Dad holds the seat as {name} pushes off. This time {name} keeps {her/his} eyes on the oak tree and pedals round and round, and the wobbles get smaller.",
+      "illustration_prompt": "The child on the teal bike with eyes fixed ahead, streamers fluttering, Dad running beside holding the seat, the oak tree visible at the far end of the path."
+    },
+    {
+      "beat": "Without a word, Dad lets go of the seat. {name} doesn't notice and keeps pedaling, faster and smoother, the breeze rushing past {her/his} helmet.",
+      "illustration_prompt": "Dad slowing to a stop on the path with his hand open and a proud smile, while the child rides ahead alone on the bike, wind blowing the streamers, the duck flying overhead."
+    },
+    {
+      "beat": "{name} reaches the oak tree, squeezes the brakes and looks back. Dad is way down the path, waving both arms, and {name} realizes {she/he} rode the whole way alone.",
+      "illustration_prompt": "The child stopped under the big oak tree, looking back over a shoulder with an amazed, delighted face, Dad small in the distance waving both arms."
+    },
+    {
+      "beat": "{name} rings the silver bell, turns the bike around and rides all the way back to Dad. The scraped knee is forgotten, and {name} is already planning where to ride tomorrow.",
+      "illustration_prompt": "The child riding confidently back toward Dad along the sunny path, one hand near the silver bell, Dad crouched with arms open, the duck landing on the pond nearby."
+    }
+  ],
+  "cover_scene": "The child in a teal helmet rides a teal bike with handlebar streamers along a winding park path, smiling with eyes looking ahead, a small orange bandage on one knee. Dad stands back down the path cheering, and the big oak tree rises at the side. A mallard duck flies nearby. The top third of the picture is calm, open blue sky with a few soft clouds, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Dad held the seat. {name} gave a push. Wobble left. Wobble right. \"Hold on tight!\" said Dad. {name} held on very, very tight.",
+      "scene": "A winding park path with green lawns, the child on the teal bike leaning sideways, Dad bent over holding the back of the seat, a mallard duck watching from the grass."
+    },
+    {
+      "text": "{name} looked at the duck. Then {she/he} looked way down the path at the big oak tree. \"I have a plan,\" said {name}. \"Eyes on the tree. Pedal strong. One more try.\"",
+      "scene": "The child standing by the bench pointing down the path toward a large oak tree in the distance, a determined look, Dad smiling and nodding."
+    }
+  ],
+  "h1": "Personalized Learning to Ride a Bike Book: Your Child Rides Without Training Wheels",
+  "meta_title": "Learning to Ride a Bike Book, Personalized | StoryBloom",
+  "meta_description": "A personalized learning to ride a bike book where your child wobbles, falls, makes a plan and rides off on two wheels.",
+  "promise": "Your child goes from first wobble to riding alone, and gets there by choosing to try again.",
+  "story_summary": "The training wheels are off, and your child is ready (mostly) to ride a bike on two wheels at the park. With Dad holding the seat, the first tries are all wobbles, wiggly front wheels and slipping feet. Then a tumble brings a scraped knee and a moment of wanting to quit. Sitting by the duck pond, your child comes up with a plan of their own and decides whether to give it one more go.",
+  "why_parents": [
+    "Riding without training wheels is one of those milestones kids remember, and it almost never happens on the first try. Between four and seven, children are starting to notice when something is hard for them, and a fall can feel like proof they can't do it. Seeing themselves wobble, get hurt, feel upset and then try again gives that whole messy process a shape they can recognize.",
+    "This story also honors the quiet moment many parents know well: the instant you let go of the seat and your child doesn't even notice. It is a book to read before the big ride, after a frustrating practice, or once they've done it, so they can see their own courage on the page."
+  ],
+  "for_grownups": [
+    "Ask your child what their plan would be if something felt too hard, like looking at the oak tree in the story. Helping them name one small step can make practice feel less overwhelming.",
+    "Talk about the bench moment: it was okay to feel like quitting and to take a break. Share a time you wanted to give up on something and what helped you try again.",
+    "If your child is about to practice, pick a real landmark together at your own park or street to be their oak tree, and keep helmets on for every ride."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book good to read before my child actually learns to ride?",
+      "answer": "Yes. Many families read it ahead of time so the wobbles and falls feel expected rather than scary, and then read it again after the big ride to celebrate."
+    },
+    {
+      "question": "Does the story show the child getting hurt?",
+      "answer": "There is one gentle tumble and a scraped knee, which Dad cleans up with a hug and a bandage. It is shown as a normal part of learning, and your child is wearing a helmet throughout."
+    },
+    {
+      "question": "Who helps the child in the story?",
+      "answer": "Dad holds the seat and runs alongside, but the plan to look ahead at the oak tree and pedal steady comes from your child, and the final ride is all theirs."
+    }
+  ],
+  "image_alt": "Personalized learning to ride a bike book cover featuring an illustrated child riding a teal bike without training wheels in a sunny park",
+  "feed_title": "Personalized Learning to Ride a Bike Book for Kids, Your Child Rides Without Training Wheels",
+  "feed_description": "A personalized picture book for ages 4 to 7 about the big moment of riding a bike without training wheels. Your child is the illustrated hero, heading to the park with Dad on a sunny morning to try two wheels for the first time. There are wobbles, a wiggly front wheel, slipping pedals and one tumble that ends in a scraped knee and a bandage. After a break by the duck pond, your child makes a plan, looks ahead to the big oak tree and pedals strong, never noticing the moment Dad lets go. A warm, encouraging story about trying again after a fall, made for reading before the first ride or celebrating after it. Bright spring park illustrations with a teal bike and helmet throughout.\n"
+}

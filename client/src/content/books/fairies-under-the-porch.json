@@ -1,0 +1,117 @@
+{
+  "slug": "fairies-under-the-porch",
+  "status": "live",
+  "title_pattern": "{name} and the Fairies Under the Porch",
+  "category": "adventures",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized fairy book",
+  "landing_page_slug": "books/fairies-under-the-porch",
+  "example": {
+    "name": "Amara",
+    "pronouns": "she",
+    "look": "deep brown skin, short coily black hair"
+  },
+  "tagline": "A tiny village, a coming storm, and one helper just the right size to save it.",
+  "lesson_or_purpose": "Noticing small things and choosing to help: the child sees a problem coming, makes a plan, and uses careful, gentle hands to protect a world much smaller than themselves.",
+  "tone": "Cozy, wonder-filled and gently suspenseful, with a warm, glowing ending.",
+  "reading_level": "Read-aloud for ages 3-7; short sentences, simple vocabulary, a little rhythm and repetition, and a few fun sound words for early readers.",
+  "keywords": [
+    "personalized fairy book",
+    "fairy book for kids",
+    "personalized fairy story",
+    "fairy village picture book",
+    "personalized adventure book",
+    "custom children's book with fairies",
+    "fairy gift for kids",
+    "nature adventure book for kids"
+  ],
+  "illustration_guide": "Setting: the shady world beneath wooden porch steps at a family home, opening onto a green backyard and garden bed. Under the porch is a tiny fairy village with acorn-cap roofs, walnut-shell houses, pebble paths, thimble buckets, a market square made of a flat stone, and lanterns made from seed pods glowing soft gold. Palette: mossy greens, warm wood browns, dusty lavender and periwinkle, with honey-gold lantern light; storm scenes shift to slate blue and silver, then return to fresh, sunlit greens after the rain. Recurring elements: a small blue glass marble, Pip the fairy with leaf-green wings and a dandelion-fluff hat, a line of tiny glowing lanterns, the child's garden trowel, and a large rhubarb leaf. Scale is important: the child appears huge and gentle beside the fairies, often kneeling or lying on the grass to look in. Soft watercolor textures with gentle light; no words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "On a cloudy afternoon, {name} plays in the backyard with a favorite blue marble. The marble slips from {her/his} hand, bounces down the porch steps, and rolls into the dark gap underneath. {name} kneels down on the grass to peek inside.",
+      "illustration_prompt": "A child kneeling on green grass beside wooden porch steps, peering into the shadowy gap beneath, a small blue marble rolling into the dark. Gray clouds gather softly in the sky above the backyard."
+    },
+    {
+      "beat": "Under the steps, {name} discovers a very small village: acorn-cap roofs, pebble paths, and glowing seed-pod lanterns. A fairy named Pip flutters out holding the blue marble and says hello. {name} whispers hello back, very softly, so as not to scare anyone.",
+      "illustration_prompt": "A view under the porch steps revealing a tiny fairy village with acorn-cap roofs, walnut-shell houses, pebble paths and golden lanterns. A small fairy with leaf-green wings and a dandelion-fluff hat holds up a blue marble toward the child's large, gentle face peeking in."
+    },
+    {
+      "beat": "Pip looks worried and points up at the sky. When big rain comes, water pours off the steps and rushes right through the village, and the fairies are far too small to stop it. Pip asks if {name} can help before the storm arrives.",
+      "illustration_prompt": "Pip the fairy pointing upward toward dark gray clouds visible past the edge of the porch steps, tiny fairies gathered nervously in the market square. The child lies on the grass, chin in hands, listening closely."
+    },
+    {
+      "beat": "{name} looks at the clouds, then at the tiny houses, and thinks hard. {She/He} notices exactly where the water will drip off the bottom step and which way the ground slopes. {name} decides on a plan.",
+      "illustration_prompt": "The child crouched beside the porch steps, one finger tracing the slope of the ground toward the garden bed, eyes thoughtful. Fairies peek out from their walnut-shell doorways watching. The sky above is darkening to slate blue."
+    },
+    {
+      "beat": "{name} runs to gather supplies: {her/his} little garden trowel, a pocketful of flat stones, and a big rhubarb leaf from the garden. {She/He} carries everything back carefully, stepping around the fairy paths.",
+      "illustration_prompt": "The child hurrying across the backyard carrying a small garden trowel, a pocket bulging with flat stones, and a huge green rhubarb leaf held over one shoulder. Wind ruffles the grass and the trees sway."
+    },
+    {
+      "beat": "{name} digs a narrow ditch beside the village that leads away toward the garden bed, so the rain will have somewhere else to go. The fairies help line it with pebbles, carrying them two by two. {name} sets the flat stones along the edge like a little wall.",
+      "illustration_prompt": "The child kneeling and digging a narrow channel in the dirt with a garden trowel, beside the tiny village. A line of fairies carries pebbles in thimble buckets and lays them along the channel. Flat stones form a low wall."
+    },
+    {
+      "beat": "Plip, plop! The first raindrops fall. {name} props the big rhubarb leaf over the market square like a giant green umbrella, holding it steady with two sticks. The fairies hurry underneath, lanterns glowing.",
+      "illustration_prompt": "Fat raindrops beginning to fall. The child props a large rhubarb leaf over the tiny market square using two sticks, creating a green roof. Fairies with glowing lanterns gather beneath it, sheltered and dry."
+    },
+    {
+      "beat": "The rain pours down hard. Water splashes off the steps and rushes straight into {name}'s ditch, away past the houses and into the garden. When one acorn roof starts to wobble, {name} reaches in and holds it steady with a gentle finger until the gust passes.",
+      "illustration_prompt": "Heavy silver rain falling in the backyard. Water streams off the porch steps into a pebble-lined channel and flows away toward the garden bed, past the tiny village. The child, damp and determined, holds one wobbling acorn roof steady with a single fingertip."
+    },
+    {
+      "beat": "At last the rain stops and the sun peeks out. Every little house is dry and safe. The fairies cheer, ring tiny bells, and dance around {name}'s muddy hands, and Pip says {name} was exactly the right size to help.",
+      "illustration_prompt": "Sunlight breaking through clouds after the rain, raindrops sparkling on the grass. The tiny village is dry and whole beneath the rhubarb leaf. Fairies dance and twirl around the child's muddy hands resting on the ground, lanterns glowing gold."
+    },
+    {
+      "beat": "Pip gives {name} back the blue marble, and now it holds a tiny swirl of fairy light inside. {name} promises to come back and check on the village after every storm. That night, the marble glows softly on {her/his} windowsill while {name} drifts off to sleep.",
+      "illustration_prompt": "Nighttime in the child's cozy bedroom, the child snug in bed with a sleepy smile. On the windowsill, a small blue marble glows with a gentle swirl of golden light. Outside the window, the porch steps are faintly visible under a starry sky."
+    }
+  ],
+  "cover_scene": "The child lies on the green grass in front of wooden porch steps, smiling with delight and peeking into a tiny glowing fairy village beneath the steps, where acorn-cap roofs and seed-pod lanterns shine gold. Pip the fairy, with leaf-green wings and a dandelion-fluff hat, hovers near the child's face holding a small blue marble. A big rhubarb leaf rests nearby. The top third of the picture is calm, soft periwinkle sky with a few gentle clouds, leaving open space for a title.",
+  "sample_pages": [
+    {
+      "text": "Pip pointed up at the sky.\n\"When the big rain comes, the water rushes down the steps. Swish! Right through our village!\"\nThe fairies were very small. The rain was very big.\n\"{name},\" Pip asked, \"can you help us?\"",
+      "scene": "Pip the fairy pointing upward toward dark gray clouds visible past the edge of the porch steps, tiny fairies gathered nervously in the market square. The child lies on the grass, chin in hands, listening closely."
+    },
+    {
+      "text": "Dig, dig, dig went {name}'s little trowel.\nA path for the rain, away from the houses!\nThe fairies carried pebbles, two by two by two.\n{name} lined the edge with flat stones, one, two, three.",
+      "scene": "The child kneeling and digging a narrow channel in the dirt with a garden trowel, beside the tiny village. A line of fairies carries pebbles in thimble buckets and lays them along the channel. Flat stones form a low wall."
+    }
+  ],
+  "h1": "Personalized Fairy Book: Your Child Saves the Village Under the Porch",
+  "meta_title": "Personalized Fairy Book for Kids | StoryBloom",
+  "meta_description": "A personalized fairy book where your child finds a tiny village under the porch steps and helps the fairies stay safe from a coming storm.",
+  "promise": "Your child discovers a secret fairy village right at home and becomes the clever, gentle helper who keeps it safe from the rain.",
+  "story_summary": "When a blue marble rolls under the porch steps, your child peeks in and finds a very small village of acorn-cap roofs, pebble paths and glowing lanterns. A fairy named Pip explains that storm clouds are coming, and when big rain falls, water rushes straight through the fairies' homes. The fairies are far too small to stop it, so your child studies the ground, gathers a trowel, stones and a giant garden leaf, and gets to work. With the first raindrops falling, it becomes a race to finish the plan before the storm arrives.",
+  "why_parents": [
+    "Young children spend a lot of time feeling small in a big world. This story flips that around: your child is the big one, and the job is to be careful, gentle and thoughtful with someone much smaller. Kids this age often love tiny things, from bugs to toy figures, and the fairy village gives that love a purpose.",
+    "The adventure also shows a simple kind of problem-solving that preschoolers and early readers can follow: notice what is coming, look at where the water will go, gather what you need, and try. Nothing magic fixes the storm. Your child's own ideas and steady hands do, which makes the cozy ending feel earned."
+  ],
+  "for_grownups": [
+    "After reading, take a walk around your own yard or a park and look for places tiny creatures might live, like under steps, in tree roots or beneath leaves. Ask your child what those creatures might need when it rains.",
+    "On the next rainy day, watch from a window together and notice where the water runs. Ask, \"If you were helping the fairies, where would you dig the path?\"",
+    "Talk about being gentle with small things: holding a ladybug, petting a kitten, or helping a younger cousin. Ask your child how they knew to use soft hands with the fairy village."
+  ],
+  "faqs": [
+    {
+      "question": "Is this fairy story scary for a three-year-old?",
+      "answer": "No. The storm brings a little gentle suspense, but the rain is never dangerous to your child, and the fairies are kept safe and dry under a leaf. The book ends cozy and calm, with a glowing marble on the windowsill at bedtime."
+    },
+    {
+      "question": "Does the child use magic to save the village?",
+      "answer": "Not at all. Your child solves the problem with real ideas: noticing the slope of the ground, digging a little ditch with a trowel, and using a big garden leaf as an umbrella. The only magic is the fairy light Pip puts in the marble as a thank you."
+    },
+    {
+      "question": "Is this book only for children who love fairies?",
+      "answer": "It works well for any child who enjoys nature, digging in the dirt, rainy days or tiny hidden worlds. The fairies are friendly and the heart of the story is a backyard building adventure."
+    }
+  ],
+  "image_alt": "Personalized fairy book cover featuring an illustrated child peeking into a tiny glowing fairy village under the porch steps",
+  "feed_title": "Personalized Fairy Book for Kids Ages 3-7, Your Child Saves a Tiny Fairy Village",
+  "feed_description": "A personalized fairy picture book for children ages 3 to 7 in which your child becomes the illustrated hero. When a blue marble rolls under the porch steps, your child discovers a very small village of acorn-cap roofs, pebble paths and glowing lanterns. A fairy named Pip explains that a storm is coming and the rain will rush right through the fairies' homes. Your child makes a plan, digs a little path for the water, lines it with stones and props up a giant garden leaf as an umbrella. Soft watercolor style illustrations show a cozy backyard world, gentle suspense, and a warm bedtime ending. A thoughtful gift for kids who love fairies, nature, rainy days and tiny hidden worlds."
+}

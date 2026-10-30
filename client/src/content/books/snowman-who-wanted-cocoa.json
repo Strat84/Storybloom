@@ -1,0 +1,116 @@
+{
+  "slug": "snowman-who-wanted-cocoa",
+  "status": "live",
+  "title_pattern": "{name} and the Snowman Who Wanted Cocoa",
+  "category": "christmas",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Jan",
+  "sensitive": false,
+  "main_keyword": "personalized snow day book",
+  "landing_page_slug": "books/snowman-who-wanted-cocoa",
+  "example": {
+    "name": "Hana",
+    "pronouns": "she",
+    "look": "light tan skin, straight black hair with bangs"
+  },
+  "tagline": "A snow day, a curious snowman, and a cozy idea that keeps everyone happy.",
+  "lesson_or_purpose": "Kindness can be clever: when a friend needs something different, we can find a way to share that works for them too.",
+  "tone": "Cozy, playful, gently funny, with wintry holiday warmth",
+  "reading_level": "Ages 2-6: short sentences, sound words and repetition for little ones, a simple problem-and-solution arc for older listeners",
+  "keywords": [
+    "personalized snow day book",
+    "snowman book for kids",
+    "personalized christmas book",
+    "winter picture book for toddlers",
+    "hot cocoa story for kids",
+    "personalized book with child as hero",
+    "snowman story"
+  ],
+  "illustration_guide": "Setting: a snowy backyard beside a cozy family house with a big frosted window, a small evergreen strung with warm Christmas lights, and soft snowbanks. Palette: snow whites and pale blues outdoors, warm cocoa browns, cream, cranberry red and golden lamp glow indoors. Recurring elements: Flurry the snowman with a red knitted scarf, a carrot nose, pebble smile and stick arms; the child's red mittens; two matching cocoa mugs, one white and one red; little marshmallows; gentle falling snowflakes; steam curls from warm cocoa shown as soft swirls. Style: rounded, friendly shapes, soft textured gouache look, uncluttered compositions with no words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Snow day morning: {name} wakes up, looks out the window and sees deep, sparkly snow covering the whole backyard. {name} pulls on boots and red mittens and hurries outside with Dad.",
+      "illustration_prompt": "The child in pajamas pressing hands to a frosty window, looking out at a deep white backyard with a small evergreen strung with glowing lights, snowflakes drifting down."
+    },
+    {
+      "beat": "{name} rolls a little snowball, then a bigger one, then the biggest one of all. {name} adds a carrot nose, a pebble smile and a red scarf, and names the snowman Flurry.",
+      "illustration_prompt": "The child in red mittens patting a red scarf onto a freshly built snowman with a carrot nose and pebble smile, Dad smiling nearby, three snowball tracks across the yard."
+    },
+    {
+      "beat": "Blink, blink! Flurry wakes up, wiggles the stick arms and says hello. {name} giggles, and the two new friends play: snow angels, snowflake catching and a gentle snowball toss.",
+      "illustration_prompt": "The snowman blinking awake with stick arms raised in a cheerful wave while the child laughs, both surrounded by swirling snowflakes and fresh snow angels."
+    },
+    {
+      "beat": "Mom calls {name} inside for a mug of warm cocoa. Flurry peeks through the window at the curly steam and the floating marshmallows and wonders what warm things taste like.",
+      "illustration_prompt": "Warm kitchen with the child holding a red mug of steaming cocoa topped with marshmallows, Mom nearby, and the snowman's curious face pressed to the frosty window outside."
+    },
+    {
+      "beat": "{name} carries the cocoa out to the porch. Flurry asks for a taste. {name} remembers that warm things melt snow and feels worried about the new friend.",
+      "illustration_prompt": "The child on a snowy porch holding the steaming red mug while the snowman leans in eagerly, the child's face thoughtful and a little worried."
+    },
+    {
+      "beat": "Flurry reaches out a stick finger and touches the warm mug. Drip, drip! A tiny bit of snow melts. {name} quickly pulls the mug back, and Flurry looks droopy and sad.",
+      "illustration_prompt": "A small drip falling from the snowman's snowy hand near the steaming mug, the child gently lifting the mug away, the snowman's scarf drooping and pebble smile turned down."
+    },
+    {
+      "beat": "{name} thinks and thinks, tapping a mitten against a chin. An idea arrives: if snow cools things down, the snow can make cocoa just right for a snowman.",
+      "illustration_prompt": "The child sitting in the snow with a mitten tapping the chin, eyes bright with an idea, the snowman watching hopefully, small snowflakes swirling like sparkles."
+    },
+    {
+      "beat": "{name} and Mom pour cocoa into the white mug and nestle it deep in a snowbank. They count together while they wait. {name} checks the cup with a mitten and finds it icy cold and frosty.",
+      "illustration_prompt": "The child and Mom kneeling by a snowbank where a white mug sits tucked in the snow, the child's mitten touching the frosty rim, the snowman leaning in to see."
+    },
+    {
+      "beat": "Flurry takes a sip of the frosty cocoa and smiles the biggest pebble smile ever. {name} sips warm cocoa from the red mug. Clink! The friends share cocoa together, each one just right.",
+      "illustration_prompt": "The child holding a steaming red mug and the snowman holding a frosty white mug, clinking them together, marshmallows bobbing, Mom and Dad smiling from the porch."
+    },
+    {
+      "beat": "As evening falls, the Christmas lights twinkle on the little tree. {name} waves from the cozy window, and Flurry waves back with a cocoa mustache, snug and frosty in the snow.",
+      "illustration_prompt": "Evening scene from outside: the child in pajamas waving through a warm glowing window, the snowman waving back with a little cocoa mustache beside a softly lit evergreen under a starry blue sky."
+    }
+  ],
+  "cover_scene": "The child in a cozy winter coat and red mittens stands in a snowy backyard beside a friendly snowman with a red scarf and carrot nose. The child holds a steaming red mug and the snowman holds a frosty white mug, the two clinking cups and smiling. A small evergreen with glowing lights sits to one side. The top third of the picture is calm, open pale blue winter sky with only a few soft drifting snowflakes.",
+  "sample_pages": [
+    {
+      "text": "Blink, blink! Wiggle, wiggle! The snowman wakes up! \"Hello! I am Flurry!\" {name} giggles and giggles. Snow angels! Snowflakes! What a snowy, happy day!",
+      "scene": "The snowman blinking awake with stick arms raised in a wave while the child laughs, both surrounded by swirling snowflakes and fresh snow angels in a white backyard."
+    },
+    {
+      "text": "Tap, tap, tap goes a red mitten. {name} thinks and thinks. Then, an idea! \"Snow makes things cold. Cold cocoa for a cold friend!\"",
+      "scene": "The child sitting in the snow with a red mitten tapping the chin, eyes bright with an idea, the snowman leaning close and watching hopefully as snowflakes sparkle around them."
+    }
+  ],
+  "h1": "Personalized Snow Day Book: Your Child and the Snowman Who Wanted Cocoa",
+  "meta_title": "Personalized Snow Day Snowman Book | StoryBloom",
+  "meta_description": "A personalized snow day book where your child shares cocoa with a curious snowman and finds a clever way to keep the snowman frosty.",
+  "promise": "Your child builds a snowman, makes a friend, and solves a cozy wintry puzzle with a kind idea.",
+  "story_summary": "It is a snow day, and your child builds a snowman named Flurry with a red scarf and a carrot nose. To everyone's delight, Flurry wakes up and the two new friends play all morning. When your child heads inside for warm cocoa, Flurry peeks through the window, curious about steamy, warm things. But warm cocoa and a snowman are a tricky mix, and your child will need to think hard to find a way to share.",
+  "why_parents": [
+    "Little ones are just learning that friends can need different things than they do. In this story your child notices that the warm treat they love could hurt their snowy friend, and instead of giving up, they work out a way to share that suits both of them. That is a gentle, concrete picture of thoughtful kindness.",
+    "Snow days and cocoa are some of the coziest memories of the season. This book captures that wintry magic with a playful snowman, twinkling lights and a simple problem young children can follow, making it a natural fit for reading by the window on a cold afternoon or curled up before bed in the holiday weeks."
+  ],
+  "for_grownups": [
+    "Ask your child: why couldn't Flurry drink the warm cocoa? What else do you think would melt a snowman?",
+    "Talk about a time a friend or family member needed something a little different. How did you help it work for everyone?",
+    "On your next cold day, set a cup of water or cocoa out in the snow and check it together to see how the snow cools it down, just like in the story."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a Christmas book or a snow day book?",
+      "answer": "It is a snow day story with gentle Christmas touches, like a little evergreen strung with twinkling lights. It works well for the whole winter season, from the first snowfall through the holidays and into January."
+    },
+    {
+      "question": "Is the snowman scary when it comes to life?",
+      "answer": "Not at all. Flurry is friendly and silly, blinking awake and waving with stick arms. The only worry in the story is a tiny drip of melting snow, which your child quickly solves."
+    },
+    {
+      "question": "Is the story right for a two-year-old?",
+      "answer": "Yes. The pages use short sentences, sound words like blink, drip and clink, and a simple problem with a clear, happy fix. Older children in the range can follow the cause and effect of warm cocoa and melting snow."
+    }
+  ],
+  "image_alt": "Personalized snow day book cover featuring an illustrated child as the hero sharing cocoa with a friendly snowman",
+  "feed_title": "Personalized Snow Day Book for Kids, Your Child Shares Cocoa with a Snowman",
+  "feed_description": "A cozy personalized snow day picture book for ages 2 to 6. Your child becomes the illustrated hero who builds a snowman named Flurry with a red scarf and carrot nose. When Flurry wakes up, the two friends play in the snow, and then Flurry grows curious about the warm cocoa your child is sipping. Warm cocoa and a snowman are a tricky mix, so your child thinks hard and comes up with a clever, kind way to share. With twinkling holiday lights, marshmallows, playful sound words and a gentle lesson about finding ways to include a friend, this wintry story is a sweet pick for snowy days, Christmas stockings and cold evenings at home."
+}

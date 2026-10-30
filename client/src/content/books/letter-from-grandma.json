@@ -1,0 +1,117 @@
+{
+  "slug": "letter-from-grandma",
+  "status": "live",
+  "title_pattern": "Grandma's Letter to {name}",
+  "category": "gifts-from-grandparents",
+  "age_range": "2-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "gift from grandma to grandchild book",
+  "landing_page_slug": "books/letter-from-grandma",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "A letter from Grandma, a backyard full of clues, and a treasure waiting at the end.",
+  "lesson_or_purpose": "Shows a child, in Grandma's own voice, the specific things Grandma treasures about them, and celebrates patience and not giving up when a clue goes missing.",
+  "tone": "Warm, playful, gently adventurous, with a cozy letter-from-Grandma voice",
+  "reading_level": "Read-aloud for ages 2-8: short rhythmic lines for little ones, with simple clues older children can solve along with the hero",
+  "keywords": [
+    "gift from grandma to grandchild book",
+    "personalized grandma book",
+    "book from grandma",
+    "grandparent gift for grandchild",
+    "grandma letter book",
+    "personalized treasure hunt book",
+    "keepsake book from grandma",
+    "grandchild picture book"
+  ],
+  "illustration_guide": "Setting is a sunny family backyard in late spring: a rope swing on an old oak, a flower bed of daisies and tulips, a wooden bird feeder on a post, a tall grassy patch by a rosebush, and a small green garden shed with a watering can. Palette of soft butter yellow, leaf green, sky blue and warm rose, with cream paper tones for the notes. Recurring elements on every page: cream envelopes tied with a red ribbon, a friendly robin that appears at each stop, and a little dotted path of pressed flowers leading from clue to clue. Grandma appears only in warm imagined inset vignettes until the final page. Soft watercolor texture, rounded shapes, gentle afternoon light.",
+  "page_outline": [
+    {
+      "beat": "The mail arrives with a cream envelope tied in red ribbon, addressed in Grandma's loopy handwriting. {name} opens it to find a letter from Grandma announcing a treasure hunt in the backyard, with the first clue: look where you fly high.",
+      "illustration_prompt": "The child at the front door holding a cream envelope tied with a red ribbon, eyes wide with excitement, a robin perched on the porch rail, sunny morning light."
+    },
+    {
+      "beat": "{name} races to the rope swing and finds a note tucked under the seat. Grandma's note says Grandma treasures {name}'s big belly laugh, the kind that fills a whole room, and sends the hunt on to the flowers.",
+      "illustration_prompt": "The child kneeling by a rope swing on an old oak tree, pulling a cream note from under the wooden seat, a small dreamy inset showing Grandma laughing with the child."
+    },
+    {
+      "beat": "In the flower bed, a note peeks out between the tulips. Grandma treasures all the curious questions {name} asks, like why the sky is blue and where bees go at night. The next clue points to the place where birds eat.",
+      "illustration_prompt": "The child crouched among daisies and tulips, reading a note, a bumblebee buzzing nearby, the robin hopping along the dotted flower path."
+    },
+    {
+      "beat": "At the bird feeder, {name} finds the next note. Grandma remembers how gently {name} once scattered seeds for the sparrows and waited quietly so they would not be scared. The note says the next clue is waiting by the roses.",
+      "illustration_prompt": "The child on tiptoe beside a wooden bird feeder, holding a note, sparrows pecking seeds on the grass, an inset of the child and Grandma feeding birds together."
+    },
+    {
+      "beat": "Just as {name} reaches for the next note, a gust of wind whooshes through the yard and snatches it away, tumbling it into the tall grass. The yard suddenly looks very big, and {name} worries the treasure hunt is over.",
+      "illustration_prompt": "A playful gust of wind lifting a cream note into the air over tall grass, the child reaching up with a surprised, worried face, leaves swirling, the robin fluttering."
+    },
+    {
+      "beat": "{name} takes a deep breath and remembers what Grandma always says when something is lost: look low, look slow. Crouching down, {name} searches the grass bit by bit, follows the robin, and spots the note caught on the rosebush.",
+      "illustration_prompt": "The child crouched low in tall grass, parting the blades carefully, the robin perched on a rosebush where a cream note is snagged on a branch, determined expression."
+    },
+    {
+      "beat": "The rescued note says Grandma treasures how {name} keeps trying, even when things get tricky. The last clue is a riddle: find the one who gives the garden a drink. {name} thinks hard and figures it out: the watering can by the shed!",
+      "illustration_prompt": "The child standing by the rosebush holding the note, finger on chin, thinking, a thought bubble showing a watering can, the green garden shed in the background."
+    },
+    {
+      "beat": "Behind the watering can sits a little tin box. Inside, {name} finds a packet of flower seeds, a small round mirror, and Grandma's final note: look in the mirror to see my greatest treasure of all. {name} peeks and sees a smiling face looking back.",
+      "illustration_prompt": "The child sitting by the garden shed with an open tin box on the lap, holding a small round mirror that reflects the child's own happy face, seed packet beside the box."
+    },
+    {
+      "beat": "{name} decides Grandma deserves a treasure hunt too. With crayons and paper, {name} draws clues of favorite things about Grandma and hides them around the yard, saving the seeds for something special.",
+      "illustration_prompt": "The child at a garden table drawing pictures on paper with crayons, a stack of folded notes and a red ribbon nearby, the robin watching from the table edge."
+    },
+    {
+      "beat": "When Grandma comes to visit, {name} hands over the first clue and leads Grandma from stop to stop. At the end, the two of them plant the seeds side by side, and {name} knows the best treasure is the two of them together.",
+      "illustration_prompt": "The child and Grandma kneeling together in the flower bed planting seeds, soil on their hands, folded drawings scattered nearby, the robin on the fence, golden afternoon light."
+    }
+  ],
+  "cover_scene": "The child stands in the middle of a sunny backyard holding an open cream letter tied with a red ribbon, a rope swing on an old oak to one side and a dotted path of pressed flowers winding toward a little green shed, a robin perched on the child's shoulder. The top third of the picture is calm, soft blue sky with a few faint wisps of cloud, open for the title.",
+  "sample_pages": [
+    {
+      "text": "Under the swing, a note for {name}! \"I love your laugh, so big and bright. It fills my house with sunny light. Now hop along, don't take it slow, and find the place where flowers grow.\" Love, Grandma",
+      "scene": "The child kneeling by a rope swing on an old oak tree, pulling a cream note from under the wooden seat, a robin on a nearby branch, and a small dreamy inset showing Grandma laughing with the child."
+    },
+    {
+      "text": "{name} took a breath. What would Grandma say? \"Look low, look slow.\" So {name} looked low. {name} looked slow. And there, on the rosebush, was the note!",
+      "scene": "The child crouched low in tall grass, carefully parting the blades, the robin perched on a rosebush where a cream note is snagged on a thorny branch."
+    }
+  ],
+  "h1": "Personalized Gift from Grandma to Grandchild Book: Grandma's Letter",
+  "meta_title": "Grandma's Letter Personalized Book | StoryBloom",
+  "meta_description": "A personalized book from Grandma: a letter leads your grandchild on a backyard treasure hunt full of things Grandma treasures about them.",
+  "promise": "Your grandchild follows Grandma's letter clue by clue through the backyard, and every stop says something real you treasure about them.",
+  "story_summary": "A cream envelope tied with red ribbon arrives with a letter from Grandma and the first clue of a backyard treasure hunt. Each stop, from the rope swing to the bird feeder, holds a note about something Grandma treasures, like a big belly laugh or a gentle way with birds. Then a gust of wind snatches a clue away, and your grandchild has to remember Grandma's advice to keep the hunt going. A riddle, a little tin box and one more surprise are still waiting.",
+  "why_parents": [
+    "Young children feel loved through specific words, not general ones. Hearing Grandma name a real laugh, a real question or a real moment with the birds helps a child understand that Grandma notices them. This book gives that message a shape a child can hold, page by page, in Grandma's own voice.",
+    "The treasure hunt also gives the story a small, honest challenge. When the wind steals a clue, the hero uses something Grandma taught, look low, look slow, to fix it. It is a gentle way to show a child that patience pays off and that the things grandparents say stay with them, whether Grandma lives next door or far away."
+  ],
+  "for_grownups": [
+    "After reading, ask your grandchild what they would put in a note for Grandma, then write or draw it together.",
+    "Set up a tiny treasure hunt of your own at home or in the yard with two or three easy clues, just like the one in the book.",
+    "Practice Grandma's saying, look low, look slow, the next time a toy or shoe goes missing."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book read as if Grandma wrote it?",
+      "answer": "Yes. The notes at each stop are written in Grandma's voice, so it feels like a letter from Grandma to the child, set inside a picture book adventure."
+    },
+    {
+      "question": "Is the story a good fit for both toddlers and early readers?",
+      "answer": "The notes are short and rhythmic for little listeners, and the clues and riddle give older children something to solve along with the hero."
+    },
+    {
+      "question": "Does it work if Grandma lives far away?",
+      "answer": "It does. The hunt happens in the child's own backyard through Grandma's letter, and the ending shows a visit, which makes it a sweet book to read on video calls or before a trip to see Grandma."
+    }
+  ],
+  "image_alt": "Personalized gift from grandma book cover featuring an illustrated child holding Grandma's letter in a sunny backyard",
+  "feed_title": "Personalized Gift from Grandma to Grandchild Book, Backyard Treasure Hunt Story",
+  "feed_description": "Grandma's Letter is a personalized picture book written as a gift from Grandma to a grandchild. A letter tied with a red ribbon starts a backyard treasure hunt, and each stop, from the rope swing to the flower bed to the bird feeder, holds a note in Grandma's voice about something she treasures about the child. When the wind blows a clue away, the young hero remembers Grandma's advice to look low and look slow, then solves a final riddle to find a little tin box with a sweet surprise inside. Your grandchild is illustrated as the hero on every page. Gentle rhythm suits ages 2 to 8."
+}

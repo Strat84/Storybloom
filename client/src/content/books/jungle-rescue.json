@@ -1,0 +1,117 @@
+{
+  "slug": "jungle-rescue",
+  "status": "live",
+  "title_pattern": "{name}'s Jungle Rescue",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized jungle animals book",
+  "landing_page_slug": "books/jungle-rescue",
+  "example": {
+    "name": "Mateo",
+    "pronouns": "he",
+    "look": "tan skin, wavy dark brown hair"
+  },
+  "tagline": "A lost baby elephant, a jungle full of new friends, and one brave helper who finds the way home.",
+  "lesson_or_purpose": "Kindness and careful noticing can solve big problems. Your child learns real details about jungle animals and uses what they learn to help a lost baby elephant get home.",
+  "tone": "Warm, playful and gently adventurous, with lively animal moments and a cozy, reassuring finish.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, animal sounds to join in on, and a few simple facts woven into the story.",
+  "keywords": [
+    "personalized jungle animals book",
+    "jungle adventure book for kids",
+    "personalized elephant book",
+    "custom animal picture book",
+    "kids book with child as hero",
+    "jungle rescue story",
+    "personalized adventure book for kids",
+    "animal book for preschoolers"
+  ],
+  "illustration_guide": "Setting: a lush Asian rainforest with tall trees, hanging vines, giant leaves, a winding muddy trail and a slow brown river. Palette: deep emerald and leaf greens, warm golden sunlight in dappled patches, earthy browns, with bright accents from birds and flowers (orange, magenta, turquoise). Recurring elements: the small gray baby elephant with a curly trunk and floppy ears who stays close to the child; the child in comfortable explorer clothes with a small canvas backpack; round elephant footprints in the mud that appear across pages; soft light rays through the canopy. Animals are friendly, expressive and realistic in shape, never scary. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "On a sunny morning, {name} follows a trail of butterflies into the edge of a green, buzzing jungle. Everything is new and exciting, and {name} wants to see every animal there is.",
+      "illustration_prompt": "The child steps onto a sunlit jungle path, backpack on, gazing up at towering trees and vines while bright butterflies flutter ahead."
+    },
+    {
+      "beat": "{name} hears a small, sad trumpet sound and finds a baby elephant alone beside a fallen log, its ears drooping. The baby has lost its herd. {name} kneels down and promises to help.",
+      "illustration_prompt": "The child kneels beside a small gray baby elephant with drooping ears next to a mossy fallen log, gently reaching out a hand."
+    },
+    {
+      "beat": "{name} and the baby elephant set off together. {name} notices big round footprints in the mud, much bigger than the baby's, and wonders if they belong to the herd.",
+      "illustration_prompt": "The child and the baby elephant walk side by side along a muddy trail, both looking down at large round footprints pressed into the mud."
+    },
+    {
+      "beat": "A great hornbill with a huge curved beak swoops down to a branch. It tells {name} that from the treetops it can see far, and it saw tall gray shapes heading toward the river. {name} thanks the bird and chooses the river path.",
+      "illustration_prompt": "A large hornbill with a bright yellow and orange beak perches on a high branch above the child and baby elephant, wings half open."
+    },
+    {
+      "beat": "In the branches, a family of gibbons swings past, whooping loud songs to call to each other. {name} laughs and joins in, and {she/he} notices how the gibbons use their voices to stay together.",
+      "illustration_prompt": "Gibbons with long arms swing between vines overhead while the child cups hands to mouth and the baby elephant lifts its trunk happily."
+    },
+    {
+      "beat": "At the river, the footprints disappear into the water. Two playful otters splash nearby, but they have not seen the herd. The baby elephant sits down, tired and worried, and {name} feels stuck too.",
+      "illustration_prompt": "The child stands at a wide brown riverbank where footprints end at the water, two otters splashing nearby, the baby elephant sitting down looking sad."
+    },
+    {
+      "beat": "{name} thinks hard about everything {she/he} has seen today. The gibbons called to find each other. Then {name} remembers an old tortoise on the trail saying elephants talk with deep, low rumbles that travel a very long way.",
+      "illustration_prompt": "The child sits on a smooth rock with chin in hand, thinking, while a small memory bubble shows a wise old tortoise and swinging gibbons, the baby elephant leaning close."
+    },
+    {
+      "beat": "{name} has an idea. {She/He} shows the baby elephant how to stand tall, take a big breath and make the deepest rumble it can. {name} rumbles too, and they stomp their feet together on the soft ground.",
+      "illustration_prompt": "The child and the baby elephant stand tall together, the child with puffed cheeks and stomping feet, the baby with trunk raised, soft ripples drawn in the air around them."
+    },
+    {
+      "beat": "Far across the river, a low rumble answers back. The leaves part and a whole herd of elephants wades through the shallow water. {name} cheers as the baby splashes toward its mother.",
+      "illustration_prompt": "A family of elephants wades through shallow golden river water toward the bank, a large mother elephant in front, the baby elephant running to meet her as the child cheers."
+    },
+    {
+      "beat": "The mother elephant wraps her trunk gently around the baby, then touches {name}'s shoulder in thanks. As the sun sets, {name} heads home, already dreaming of the jungle friends {she/he} met along the way.",
+      "illustration_prompt": "In warm sunset light, the mother elephant rests her trunk on the child's shoulder while the baby nuzzles close, the hornbill, gibbons and otters watching from around the river."
+    }
+  ],
+  "cover_scene": "The child stands on a mossy log in a sunlit jungle clearing, one hand resting on the head of a happy baby elephant whose trunk curls upward. A hornbill perches on a nearby branch and a gibbon hangs from a vine at the side. Giant leaves frame the lower edges, and the top third of the picture is a calm, softly glowing canopy opening with pale golden light and open sky, free of detail.",
+  "sample_pages": [
+    {
+      "text": "Toot... toot... A tiny sad sound! {name} peeked behind a log. There sat a baby elephant, all alone. \"Are you lost?\" asked {name}. \"Don't worry. I will help you find your family.\"",
+      "scene": "The child kneels beside a small gray baby elephant with drooping ears next to a mossy fallen log, gently reaching out a hand, dappled sunlight falling through the leaves."
+    },
+    {
+      "text": "Whoop! Whoop! The gibbons swung high in the trees, calling to each other. {name} whooped too! \"They sing so they don't get lost,\" {she/he} said. The baby elephant waved its trunk.",
+      "scene": "Gibbons with long arms swing between vines overhead while the child cups hands to mouth, calling up to them, and the baby elephant lifts its trunk happily on the trail below."
+    }
+  ],
+  "h1": "Personalized Jungle Animals Book: Your Child Leads a Baby Elephant Home",
+  "meta_title": "Personalized Jungle Animals Book | StoryBloom",
+  "meta_description": "A personalized jungle animals book where your child helps a lost baby elephant find its herd, meeting hornbills, gibbons and otters on the way.",
+  "promise": "Your child becomes the brave, clever helper who guides a lost baby elephant through the jungle and back to its family.",
+  "story_summary": "A trail of butterflies leads your child into a bright green jungle, where a tiny, worried trumpet sound leads to a lost baby elephant. Together they set off to find the herd, following giant footprints through the mud. Along the way they meet a far-seeing hornbill, a family of singing gibbons and a pair of splashy otters, and each new friend shares something about how jungle animals live. When the trail goes cold at the river, it is up to your child to remember what they have learned and come up with a plan.",
+  "why_parents": [
+    "Children between three and eight are fascinated by animals, and they love knowing real things about them: which bird has the giant beak, which animal sings from the treetops, how elephants talk to each other. This story tucks those details into an adventure, so the facts feel like clues rather than lessons.",
+    "Helping someone smaller is a big feeling at this age. Here your child is the one who notices the lost baby, stays calm when things get hard, and solves the problem by paying attention. It is a gentle way to celebrate kindness, patience and the satisfaction of figuring something out."
+  ],
+  "for_grownups": [
+    "Try the animal sounds together while you read: the baby elephant's toot, the gibbons' whoop and the deep elephant rumble. Ask your child which sound they think would travel the farthest and why.",
+    "Pause at the river page, before the solution, and ask, \"What do you remember from the trail that might help?\" Let your child guess before you turn the page.",
+    "Talk about a time your child helped someone or felt lost themselves. What helped them feel better, and who did they look for?"
+  ],
+  "faqs": [
+    {
+      "question": "Which jungle animals appear in the story?",
+      "answer": "Your child meets a baby elephant and its herd, a great hornbill, a family of gibbons, two river otters and a wise old tortoise. All of them live in Asian rainforests, so they belong together in the same jungle."
+    },
+    {
+      "question": "Is the story scary for younger children?",
+      "answer": "No. The baby elephant is lost for a while and the river moment is a little worrying, but every animal is friendly and the herd is found safely. The ending is warm and cozy, which makes it a good bedtime read."
+    },
+    {
+      "question": "Does the book teach real facts about animals?",
+      "answer": "Yes, a few simple ones are woven into the plot, like hornbills seeing far from high branches, gibbons calling to stay together, and elephants communicating with deep rumbles. Your child uses those details to solve the problem."
+    }
+  ],
+  "image_alt": "Personalized jungle animals book cover featuring an illustrated child as the hero beside a baby elephant in a sunlit rainforest",
+  "feed_title": "Personalized Jungle Animals Book for Kids, Your Child Rescues a Baby Elephant",
+  "feed_description": "A personalized picture book where your child becomes the hero of a jungle rescue. When a baby elephant is lost in the rainforest, your child sets off to help it find its herd, following giant footprints through the mud. Along the way they meet a far-seeing hornbill, a family of singing gibbons, playful river otters and a wise old tortoise, and each friend shares a real detail about how jungle animals live. When the trail ends at the river, your child remembers what they learned and finds a clever way to call the herd home. Bright, friendly illustrations show your child exploring a lush green jungle. A warm read-aloud adventure for ages 3 to 8 with animal sounds to join in on."
+}

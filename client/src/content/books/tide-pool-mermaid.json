@@ -1,0 +1,116 @@
+{
+  "slug": "tide-pool-mermaid",
+  "status": "live",
+  "title_pattern": "{name} and the Tide Pool Mermaid",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized mermaid book",
+  "landing_page_slug": "books/tide-pool-mermaid",
+  "example": {
+    "name": "Theo",
+    "pronouns": "he",
+    "look": "light skin, curly auburn hair, uses a wheelchair"
+  },
+  "tagline": "A tiny mermaid, a shrinking tide pool, and one brave helper racing the tide.",
+  "lesson_or_purpose": "Helping a new friend with patience and clever thinking, while discovering how tides work and how to treat sea creatures gently.",
+  "tone": "Sunny, gently suspenseful, curious and warm",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, playful sounds, simple sea facts.",
+  "keywords": [
+    "personalized mermaid book",
+    "mermaid book for kids",
+    "tide pool picture book",
+    "ocean adventure book for children",
+    "personalized beach book",
+    "sea creature story for kids",
+    "custom mermaid storybook"
+  ],
+  "illustration_guide": "Setting: a rocky seashore at low tide, with shallow tide pools among smooth gray and sandy rocks, wet sand, seaweed and a distant line of gentle waves. Light moves from bright late-morning sun to golden sunset across the story. Palette: sea-glass greens, aqua and turquoise, sandy creams, coral pinks and soft lavender, warming to peach and gold near the end. Recurring elements: the child in a sun hat and rain boots carrying a small blue bucket; Pearl, a mermaid no bigger than a teacup, with a shimmering silver-pink tail and seaweed in long dark curls; a friendly hermit crab in a spiral shell; pink sea anemones, orange starfish and tiny darting fish; Dad nearby on the rocks in a striped shirt. Watercolor textures, soft edges, sparkling water highlights. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "At low tide, {name} explores the rocky beach with Dad, carrying a little blue bucket and peeking into the shining tide pools left behind by the sea.",
+      "illustration_prompt": "The child in a sun hat and rain boots walks across smooth rocks on a sunny shore, holding a small blue bucket, peering into a sparkling tide pool while Dad watches from a nearby rock. Waves glimmer far away."
+    },
+    {
+      "beat": "A splash catches the attention of {name}, who finds a teacup-sized mermaid named Pearl in a small pool. Pearl explains that the tide went out and left Pearl behind, and the sea will not come back until high tide at sunset.",
+      "illustration_prompt": "The child kneels beside a tiny rock pool, eyes wide with wonder, as a teacup-sized mermaid with a silver-pink tail and seaweed curls peeks up from the water."
+    },
+    {
+      "beat": "Pearl's little pool is shrinking in the warm sun, and the sea is too far away for Pearl to reach alone. {name} decides to help and gently scoops Pearl, with plenty of seawater, into the blue bucket.",
+      "illustration_prompt": "The child carefully lowers a small blue bucket into a shallow, sun-warmed pool as the tiny mermaid swims into it, water sparkling. The pool's edges look dry and pale."
+    },
+    {
+      "beat": "A hermit crab scuttles by and offers to show the way to a bigger pool. As {name} follows, the crab explains that the moon tugs on the sea, pulling the water out and pushing it back in twice a day.",
+      "illustration_prompt": "The child walks carefully across the rocks holding the bucket with the mermaid peeking out, following a friendly hermit crab in a spiral shell. A pale daytime moon hangs faintly in the sky."
+    },
+    {
+      "beat": "{name} reaches a big pool full of pink sea anemones and tiny fish. {name} touches an anemone with one gentle finger and watches it close up, learning that sea creatures like a soft, careful hello.",
+      "illustration_prompt": "The child crouches by a wide tide pool full of pink anemones, orange starfish and darting fish, touching one anemone with a single fingertip as it curls closed. The mermaid watches from the bucket."
+    },
+    {
+      "beat": "{name} lowers Pearl into the big pool, but the water is still low and the sea is not here yet. A wall of rocks sits between the pool and the place where the waves will come in, and Pearl worries about getting home.",
+      "illustration_prompt": "The tiny mermaid floats in a large tide pool looking worried, while the child kneels at the edge looking toward a ridge of rocks that separates the pool from the distant waves."
+    },
+    {
+      "beat": "{name} has an idea: make a path for the water. With Dad's okay, {name} moves small stones and digs through the wet sand to open a little channel from the pool toward the sea, while a starfish points out the lowest spot.",
+      "illustration_prompt": "The child digs happily in wet sand and lifts small stones aside, forming a narrow channel leading away from the tide pool. An orange starfish rests nearby and Dad smiles from a rock."
+    },
+    {
+      "beat": "The sun sinks lower and the waves creep closer. {name} waits patiently beside Pearl, splashing cool water over the pool's edge and counting each wave as it rolls a little nearer.",
+      "illustration_prompt": "Golden late-afternoon light. The child sits beside the tide pool, cupping water in both hands, as gentle waves roll closer up the shore toward the dug channel. The mermaid looks hopeful."
+    },
+    {
+      "beat": "At sunset the tide rushes up the channel {name} made and fills the big pool. Pearl swims through the opening and leaps into the open sea with a happy flip, and {name} cheers.",
+      "illustration_prompt": "Sunset waves flow up a sandy channel into the tide pool. The tiny mermaid leaps from the foamy water in a sparkling arc while the child throws both arms up in joy."
+    },
+    {
+      "beat": "Pearl pops up one last time to give {name} a shimmering shell. Walking home with Dad, {name} holds the shell close and promises to always be gentle with the creatures of the sea.",
+      "illustration_prompt": "Peach and gold evening sky. The child walks along the shore beside Dad, holding a shimmering pink shell, as a tiny mermaid tail flicks in the calm waves behind them."
+    }
+  ],
+  "cover_scene": "The child kneels on smooth, wet rocks at the edge of a glowing tide pool, smiling down at a teacup-sized mermaid with a silver-pink tail who waves up from the water. Pink anemones, an orange starfish and a hermit crab surround the pool. The blue bucket sits beside the child. Gentle waves sparkle in the distance, and the top third of the picture is a calm, open aqua and soft peach sky with no clouds or objects, leaving space for a title.",
+  "sample_pages": [
+    {
+      "text": "Splish! Splash! {name} peeked into a little pool. A tiny mermaid with a silver tail looked up. \"Hello! I'm Pearl,\" said the mermaid. \"The tide went out and left me behind. The sea won't come back until sunset!\"",
+      "scene": "The child kneels beside a small rock pool, eyes wide, as a teacup-sized mermaid with a silver-pink tail and seaweed curls peeks up and waves. Sunlight sparkles on the water."
+    },
+    {
+      "text": "The big pool was full of pink anemones, soft as flowers. {name} touched one with just one finger. Squish! It closed up tight. \"Sea friends like a gentle hello,\" said Pearl. So {name} said hello very, very gently.",
+      "scene": "The child crouches by a wide tide pool full of pink anemones, orange starfish and tiny fish, touching one anemone with a fingertip as it curls closed. The tiny mermaid watches from the blue bucket."
+    }
+  ],
+  "h1": "Personalized Mermaid Book: Your Child Rescues a Tiny Mermaid Before the Tide Comes In",
+  "meta_title": "Personalized Mermaid Book: Tide Pool Rescue | StoryBloom",
+  "meta_description": "A personalized mermaid book where your child helps a tiny mermaid get home before high tide and learns about tide pools along the way.",
+  "promise": "Your child becomes the helper who keeps a teacup-sized mermaid safe and finds a clever way to get her back to the sea.",
+  "story_summary": "On a sunny morning at low tide, your child explores the rocky shore and discovers Pearl, a mermaid no bigger than a teacup, stuck in a shrinking tide pool. The sea will not return until sunset, so your child carries Pearl in a little blue bucket, following a chatty hermit crab who explains how the moon pulls the tides. Along the way your child meets anemones, starfish and darting fish and learns that sea creatures like a gentle touch. But even the big pool is cut off from the waves, and your child will need a smart plan and plenty of patience to beat the clock.",
+  "why_parents": [
+    "Between three and eight, children are hungry for real facts about the world, and the beach is full of them. This story weaves in simple ideas about tides, the moon and tide pool creatures through an adventure, so your child picks up the why behind the waves while rooting for a tiny friend.",
+    "It is also a story about helping with care. Your child moves Pearl gently, touches the anemones softly, comes up with a plan, checks with Dad, and then waits for the tide. That mix of kindness, problem solving and patience is something young children are practicing every day, and seeing themselves do it on the page makes it feel within reach."
+  ],
+  "for_grownups": [
+    "Ask your child why the tide pool was shrinking and what the moon has to do with the sea. If you live near a coast, look up a tide chart together and plan a low-tide visit.",
+    "Talk about gentle hands: how did the anemone react to a soft touch? Practice the one-finger hello and agree on a rule for visiting real tide pools, like looking more than touching and putting rocks back where you found them.",
+    "Waiting was the hardest part of the rescue. Ask your child about a time they had to wait for something and what helped the time pass."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book teach real facts about the ocean?",
+      "answer": "Yes, gently. Through the story your child learns that the moon pulls the tides in and out, that tide pools form at low tide, and that creatures like anemones close up when touched, all told simply for young listeners."
+    },
+    {
+      "question": "Is the story too suspenseful for a three-year-old?",
+      "answer": "The suspense is soft and short. Pearl is never in danger beyond a worried moment, and the story always shows your child calmly taking the next helpful step until the happy sunset ending."
+    },
+    {
+      "question": "Does a grown-up appear in the story?",
+      "answer": "Dad is on the beach throughout, watching from nearby and giving the okay before your child digs the channel. Your child still makes the plan and does the rescuing."
+    }
+  ],
+  "image_alt": "Personalized mermaid book cover featuring an illustrated child kneeling by a tide pool with a tiny mermaid",
+  "feed_title": "Personalized Mermaid Book for Kids, Your Child Rescues a Tiny Tide Pool Mermaid",
+  "feed_description": "A personalized picture book for ages 3 to 8 where your child becomes the hero of a seaside rescue. At low tide, your child finds Pearl, a teacup-sized mermaid stuck in a shrinking tide pool, and has until high tide at sunset to help her home. Carrying Pearl in a little blue bucket, your child follows a friendly hermit crab, learns how the moon moves the tides, meets anemones, starfish and tiny fish, and discovers that sea creatures like a gentle touch. When the big pool is cut off from the waves, your child comes up with a clever plan and waits patiently for the tide. Soft watercolor illustrations in sea-glass greens, coral pinks and sunset gold make this a warm bedtime read for little ocean lovers."
+}

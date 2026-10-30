@@ -1,0 +1,117 @@
+{
+  "slug": "worry-backpack",
+  "status": "live",
+  "title_pattern": "{name}'s Worry Backpack",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about anxiety worry for kids",
+  "landing_page_slug": "books/worry-backpack",
+  "example": {
+    "name": "Hana",
+    "pronouns": "she",
+    "look": "light tan skin, straight black hair with bangs"
+  },
+  "tagline": "Every worry feels lighter once it is shared.",
+  "lesson_or_purpose": "Worries can feel heavy when we carry them alone, and telling a trusted friend or grown-up about them can make them feel lighter. Children learn they can name a worry out loud and ask for someone to listen.",
+  "tone": "Gentle, warm and reassuring, with a touch of whimsy in how worries look and feel",
+  "reading_level": "Read-aloud for ages 4-6, early independent reading for ages 6-8; short sentences with a few repeated phrases",
+  "keywords": [
+    "book about anxiety worry for kids",
+    "personalized worry book",
+    "children's book about worries",
+    "book about sharing feelings",
+    "starting school worries book",
+    "feelings book for kids",
+    "personalized life lessons book",
+    "worry book ages 4-8"
+  ],
+  "illustration_guide": "Setting moves through one ordinary day: a cozy bedroom, a sidewalk to school, a bright classroom, a playground with swings, the school lunch area, and home at dusk. Soft watercolor style with warm creams, peach, sky blue and leafy green. The child wears a sunny yellow backpack on every page until the final scenes, where it hangs on a hook. Each worry appears as a smooth grey pebble with a faint swirl on it; the pebbles visibly fill and stretch the backpack as the day goes on, and the child's shoulders droop under the weight. When a worry is shared, its pebble turns into a pale green leaf that drifts up and away. A small classmate with a red scarf appears from the playground onward. Dad wears a blue sweater. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "Morning. {name} gets ready for school and slips on a favorite yellow backpack. As {name} thinks about the day, a first worry pops up (what if the new reading group is hard?) and a small grey pebble drops into the backpack. Keep it light and curious.",
+      "illustration_prompt": "A cozy sunlit bedroom; the child stands by the bed putting on a sunny yellow backpack while a small smooth grey pebble with a faint swirl tumbles gently into the open top."
+    },
+    {
+      "beat": "On the walk to school, more worries arrive: what if it rains at recess, what if {name} forgets where to hang {her/his} coat. Each one becomes another pebble, clink, clink. {name} notices the backpack is getting a little heavier. Use a repeating sound like 'clink'.",
+      "illustration_prompt": "A leafy sidewalk in the morning; the child walks beside a parent's hand, and several grey pebbles float down into the yellow backpack, which is starting to bulge slightly."
+    },
+    {
+      "beat": "In the classroom, {name} sits down and the backpack thumps to the floor. During reading time, {name} keeps thinking about the pebbles instead of the story. Show that worries can take up a lot of room in your mind.",
+      "illustration_prompt": "A bright classroom with a reading rug; the child sits at a small table looking toward the bulging yellow backpack on the floor beside the chair, while other children listen to a teacher holding a picture book."
+    },
+    {
+      "beat": "Recess. {name} wants to swing, but the backpack is so heavy now that {she/he} can only shuffle. A new worry (what if nobody plays with me?) adds one more pebble. This is the low point: {name} sits on the edge of the playground feeling heavy and small.",
+      "illustration_prompt": "A sunny playground with swings and a slide; the child sits alone on a low bench, shoulders drooping under a very full yellow backpack, while other children play in the distance."
+    },
+    {
+      "beat": "{name} notices a classmate with a red scarf sitting nearby, also hunched over and dragging a lumpy backpack. {name} wonders if that classmate might be carrying worries too. Show {name} paying attention to someone else.",
+      "illustration_prompt": "The same playground; the child on the bench turns to look at a small classmate in a red scarf a few steps away, who is also hunched under a heavy, lumpy backpack."
+    },
+    {
+      "beat": "{name} makes a brave choice: {she/he} scoots over and says, 'My backpack is full of worries. Want to hear one?' {name} tells the classmate about the reading group worry. As soon as the words are out, one pebble turns into a pale green leaf and floats up and away. This is the child's key action.",
+      "illustration_prompt": "The child and the classmate in the red scarf sit side by side on the bench; above the child's yellow backpack, a pale green leaf drifts upward into the blue sky."
+    },
+    {
+      "beat": "The classmate shares a worry too, and {name} listens carefully. Together they find that some worries are the same. Their backpacks both feel a little lighter, and {name} and the classmate run to the swings together. Show joy and lightness.",
+      "illustration_prompt": "The child and the classmate in the red scarf swinging high side by side, smiling; two pale green leaves float above them and their backpacks rest flatter on the grass below."
+    },
+    {
+      "beat": "After school, Dad picks {name} up. One big pebble is still left, the heaviest one: a worry about something at home or tomorrow. {name} decides on {her/his} own to tell Dad. Dad stops, kneels down and really listens.",
+      "illustration_prompt": "Outside the school at afternoon light; Dad in a blue sweater kneels at the child's level, listening closely, as the child speaks with a hand on the strap of the yellow backpack."
+    },
+    {
+      "beat": "As {name} finishes talking, the last big pebble turns into a leaf and drifts away. Dad gives a hug and they walk home. {name} feels light enough to skip. Reinforce that grown-ups are there to listen.",
+      "illustration_prompt": "A golden sidewalk at dusk; the child skips beside Dad in the blue sweater, the yellow backpack flat and light, with a single large green leaf floating up toward the pink sky."
+    },
+    {
+      "beat": "Bedtime. {name} hangs the light yellow backpack on its hook. {name} knows new worries might come someday, and now {she/he} knows what to do: find someone to tell. End warm and calm, with a gentle echo of the 'clink' line turned around.",
+      "illustration_prompt": "A cozy bedroom lit by a warm lamp; the child snuggles in bed smiling while the empty yellow backpack hangs on a hook by the door, a few green leaves resting on the windowsill."
+    }
+  ],
+  "cover_scene": "The child stands confidently on a gently rolling green path wearing a sunny yellow backpack, smiling and looking up as several pale green leaves float out of the open backpack and drift upward. Soft watercolor style, warm peach and leafy green tones, with a wide calm sky-blue background filling the top third of the picture, open and uncluttered for a title.",
+  "sample_pages": [
+    {
+      "text": "On the way to school, a worry came. What if it rains at recess? Clink! Then another. What if I forget my coat hook? Clink! {name}'s backpack grew a little heavier.",
+      "scene": "A leafy sidewalk in the morning; the child walks beside a parent's hand, and several smooth grey pebbles float down into the sunny yellow backpack, which is starting to bulge."
+    },
+    {
+      "text": "{name} took a deep breath and scooted closer. \"My backpack is full of worries. Want to hear one?\" The words came out, and a pebble turned into a little green leaf. Up, up, away it floated.",
+      "scene": "The child and a classmate in a red scarf sit side by side on a playground bench; above the child's yellow backpack, a pale green leaf drifts upward into a bright blue sky."
+    }
+  ],
+  "h1": "Personalized Worry Book for Kids: Your Child's Worry Backpack",
+  "meta_title": "Personalized Worry Book for Kids | StoryBloom",
+  "meta_description": "A personalized picture book where your child carries a backpack of worries and learns that sharing them makes the load lighter. Ages 4-8.",
+  "promise": "A gentle story that shows your child worries feel lighter when they are shared with someone who listens.",
+  "story_summary": "Your child heads off to school with a sunny yellow backpack, and each worry that pops up drops in as a small grey pebble. By recess the backpack is so heavy that swinging and playing feel out of reach. Then your child notices a classmate who seems to be carrying a heavy load too. What happens next depends on one brave choice your child makes on that playground bench.",
+  "why_parents": [
+    "Between ages 4 and 8, children meet a lot of new things: classrooms, reading groups, friendships, changes at home. Small worries are a normal part of that, but young children often do not have words for the heavy, distracted feeling those worries bring. Picturing worries as pebbles in a backpack gives your child a simple, concrete way to describe what is going on inside.",
+    "This story does not promise that worries disappear forever. Instead, it shows your child doing something real: noticing a worry, saying it out loud, and choosing someone to tell. Seeing themselves make that choice, first with a friend and then with a grown-up, can make it feel more natural to come to you the next time a pebble drops in."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: \"If you had a worry backpack today, what pebbles would be in it?\" Listen without rushing to fix, just as Dad does in the story.",
+    "Make a small family ritual, like a 'pebble check' at dinner or bedtime, where everyone, grown-ups included, can share one worry and one good thing from the day.",
+    "Everyday worries are common at this age. If worries seem to be getting in the way of sleep, school or play for a long stretch, it can help to talk with your pediatrician or school counselor."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a book about anxiety disorders?",
+      "answer": "No. It is a gentle picture book about the everyday worries young children have, like a new reading group or recess plans. It makes no medical claims and is meant to open conversations at home."
+    },
+    {
+      "question": "Who does my child share worries with in the story?",
+      "answer": "Your child first shares a worry with a classmate on the playground, then tells Dad about the biggest worry after school. The story shows that both friends and trusted grown-ups can be good listeners."
+    },
+    {
+      "question": "Does the story work for a child who has not started school yet?",
+      "answer": "The story is set during a school day, which fits many children ages 4-8. Younger children who attend preschool or child care usually connect easily with the classroom and playground scenes."
+    }
+  ],
+  "image_alt": "Personalized worry book cover featuring an illustrated child as the hero with a yellow backpack and green leaves floating up",
+  "feed_title": "Personalized Book About Worries for Kids Ages 4-8, Your Child Is the Hero",
+  "feed_description": "A personalized picture book about everyday worries, starring your child. In this story your child sets off for school wearing a sunny yellow backpack, and every worry that pops up drops in as a small grey pebble. By recess the backpack is heavy and playing feels hard. Then your child notices a classmate carrying a heavy load too and makes a brave choice to share a worry out loud. Each worry that is shared turns into a green leaf and floats away. Soft watercolor illustrations follow one ordinary day from bedroom to classroom to playground and home. A warm, gentle read for ages 4-8 that gives families an easy way to talk about worries, listening and asking for help."
+}

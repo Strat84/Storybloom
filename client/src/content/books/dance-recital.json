@@ -1,0 +1,117 @@
+{
+  "slug": "dance-recital",
+  "status": "live",
+  "title_pattern": "{name} Takes the Stage",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized dance book",
+  "landing_page_slug": "books/dance-recital",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "Butterflies in the tummy, a broken wing backstage, and a brave little dancer who steps into the light anyway.",
+  "lesson_or_purpose": "Courage is feeling nervous and doing the thing you love anyway. When something goes wrong, you can adapt, because the dance lives inside you, not in the costume.",
+  "tone": "Warm, lively and gently suspenseful, with a bouncy rhythm in the dance scenes and a calm, reassuring hush in the nervous moments.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, repeated dance-step refrains, two to four sentences per page.",
+  "keywords": [
+    "personalized dance book",
+    "dance recital book for kids",
+    "personalized ballet book",
+    "stage fright book for children",
+    "first recital gift",
+    "dance class gift for kids",
+    "book about being brave",
+    "personalized book for dancers"
+  ],
+  "illustration_guide": "Setting moves from a cozy family kitchen and hallway to a bright neighborhood dance studio with wooden floors and a long mirror, then to the backstage wings and stage of a small community theater. The recital theme is a night garden: painted paper moon, tall cardboard flowers, deep blue backdrop with tiny star lights. Palette: warm honey yellows and soft peach at home, sunny pale wood in the studio, then twilight blues, violets and glowing golden light for the recital. Recurring elements: the child's firefly costume with two shimmering golden wings on elastic straps, the child's striped practice socks, a small group of classmates in matching firefly costumes, the kind dance teacher in a soft gray cardigan, and a little glowing firefly motif that appears somewhere on each page. Soft, rounded painterly style with gentle light effects; no words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name}, who dances everywhere: sliding in socks across the kitchen, twirling down the hallway, hopping to the beat of the washing machine. Dad claps along while {name} takes a big bow by the fridge.",
+      "illustration_prompt": "A cozy sunlit kitchen with honey-colored walls. The child in striped socks mid-twirl on the wooden floor, arms spread wide, while Dad sits at the table clapping and smiling. A small glowing firefly decoration hangs in the window."
+    },
+    {
+      "beat": "At dance class, the teacher announces the spring recital, a Night Garden show. {name} learns {she/he} will be a firefly with shimmering golden wings, and {name} bounces with excitement.",
+      "illustration_prompt": "A bright dance studio with pale wooden floors and a long mirror. The kind teacher in a gray cardigan holds up a pair of shimmering golden wings while the child and several classmates sit in a circle, the child bouncing on their knees with delight."
+    },
+    {
+      "beat": "{name} practices the firefly dance again and again: tiptoe, tiptoe, spin and flutter. At home, {name} practices in pajamas with no wings at all, fluttering {her/his} arms instead.",
+      "illustration_prompt": "Split feeling of practice: the child in pajamas in the warm kitchen at night, arms out like wings, rising on tiptoes. A soft lamp glows, and Grandma watches from a chair with a cup of tea. A paper firefly sits on the windowsill."
+    },
+    {
+      "beat": "Recital day arrives. {name} wears the firefly costume, but peeks through the curtain at the big crowd and bright lights, and feels fluttery butterflies in {her/his} tummy.",
+      "illustration_prompt": "Backstage at a small theater, deep blue curtains. The child in the firefly costume with golden wings peeks through a gap in the curtain at rows of seated families under warm stage lights, one hand pressed to their tummy, eyes wide."
+    },
+    {
+      "beat": "Backstage, as {name} tightens a strap, it snaps with a twang. One golden wing droops sideways, and {name} feels tears sting {her/his} eyes.",
+      "illustration_prompt": "In the dim backstage wings, the child looks over their shoulder at one golden wing hanging crooked from a broken elastic strap. Classmates in firefly costumes gather nearby with worried faces. Soft twilight blue light."
+    },
+    {
+      "beat": "The music for the firefly dance is about to begin, and there is no time to fix the wing. The teacher kneels and gently says {name} can choose to sit this one out or dance. {name} has to decide.",
+      "illustration_prompt": "The teacher in her gray cardigan kneels to eye level with the child backstage, holding the child's hands. The broken wing hangs loose. Glowing stage light spills in from the side, and classmates line up near the curtain."
+    },
+    {
+      "beat": "{name} remembers dancing in the kitchen with no wings at all. {She/He} breathes the way Grandma taught: smell the flowers, blow out the candles. The butterflies settle, and {name} decides to dance.",
+      "illustration_prompt": "Close view of the child backstage with eyes closed, taking a slow breath. A soft dreamy glow above shows a gentle memory picture of the child dancing in pajamas in the warm kitchen. A tiny firefly light floats nearby."
+    },
+    {
+      "beat": "{name} slips off the broken wings and, with a clever idea, holds one golden wing in each hand like glowing fans. Then {name} steps out onto the stage with the other fireflies.",
+      "illustration_prompt": "The child walks onto a stage decorated as a night garden with a paper moon and tall cardboard flowers, holding a golden wing in each raised hand like shining fans. Classmates in full firefly costumes walk beside them under blue and gold lights."
+    },
+    {
+      "beat": "The music plays and {name} dances: tiptoe, tiptoe, spin and flutter. {name} sweeps the golden wings through the air, and they catch the light and sparkle like real fireflies across the stage.",
+      "illustration_prompt": "The child mid-spin center stage, arms sweeping two golden wings through the air, leaving soft sparkling trails of light. The night garden backdrop glows with tiny star lights. Families in the audience are shadowed shapes with delighted faces."
+    },
+    {
+      "beat": "The crowd claps and cheers, and {name} takes a big bow. Afterward Dad and Grandma wrap {her/him} in a hug, and {name} says the dance was in {her/his} feet all along. That night, {name} twirls in the kitchen once more.",
+      "illustration_prompt": "Two moments in warm light: the child bowing on stage with wings in hand as the audience applauds, then the child back in the cozy kitchen at night in striped socks, twirling while Dad and Grandma smile, the mended firefly wings resting on a chair."
+    }
+  ],
+  "cover_scene": "The child in a firefly costume stands center stage on a night garden set, mid-twirl on tiptoe, holding a shimmering golden wing in each raised hand like glowing fans, with sparkling trails of light swirling around them. Tall cardboard flowers and a soft paper moon frame the lower edges, and a warm spotlight falls on the child. The top third of the picture is calm, open deep twilight blue with only a few faint, tiny stars, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "At last it was recital day! {name} wore the firefly wings. {She/He} peeked past the big blue curtain. So many people. So many lights. Flutter, flutter went the butterflies in {her/his} tummy.",
+      "scene": "Backstage at a small theater. The child in a firefly costume with golden wings peeks through a gap in a deep blue curtain at rows of families under warm stage lights, one hand resting on their tummy, eyes wide and curious."
+    },
+    {
+      "text": "{name} closed {her/his} eyes. {She/He} remembered dancing in the kitchen, with no wings at all. Smell the flowers. Blow out the candles. The butterflies grew quiet. \"I can still dance,\" said {name}.",
+      "scene": "The child stands backstage with eyes closed, taking a slow, calm breath, the broken wing hanging loose. A soft glowing memory above shows the child dancing in pajamas in a warm kitchen. A tiny firefly light floats beside them."
+    }
+  ],
+  "h1": "Personalized Dance Book: Your Child Takes the Stage at the Big Recital",
+  "meta_title": "Personalized Dance Recital Book for Kids | StoryBloom",
+  "meta_description": "A personalized dance book where your child faces recital nerves and a broken costume, then steps onstage anyway. For ages 3 to 8.",
+  "promise": "Your child becomes the firefly dancer who feels the nerves, fixes the moment with a clever idea, and dances anyway.",
+  "story_summary": "Your child dances everywhere, from the kitchen floor to the hallway, so landing a role as a firefly in the Night Garden recital feels like a dream. Weeks of practice follow: tiptoe, tiptoe, spin and flutter. But on the big day, the bright lights and full seats bring a swarm of butterflies, and then a costume strap snaps backstage just before the music starts. With one golden wing drooping and no time to fix it, your child has a choice to make.",
+  "why_parents": [
+    "A first recital is a big deal for a small dancer. There is the excitement of a costume and an audience, and also real nerves that can surprise children who dance freely at home. A story that names those tummy butterflies and shows a child moving through them can help your child feel that nervous is normal, not a sign that something is wrong.",
+    "Things rarely go exactly to plan on stage, and this book gently shows that a mishap does not have to end the moment. Your child sees their own character pause, breathe, remember why they love to dance, and come up with a creative fix. It makes a thoughtful gift before a first recital, after a big performance, or for any child who loves to move."
+  ],
+  "for_grownups": [
+    "Try the breathing from the story together before a performance or any nervous moment: smell the flowers by breathing in through the nose, then blow out the candles with a slow breath out.",
+    "Ask your child what they would have done if their wing broke. Talk about other ways the firefly could have kept dancing, so they practice thinking flexibly when plans change.",
+    "Share a time you felt nervous before something you cared about and what helped you, so your child hears that grown-ups get butterflies too."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child need to take ballet for this book to fit?",
+      "answer": "No. The recital is a general dance class show with a firefly theme, and the steps are simple tiptoes, spins and flutters. It suits children who take any style of dance or who simply love to dance at home."
+    },
+    {
+      "question": "Is the stage fright part too scary for a young child?",
+      "answer": "The nervous moments are gentle and brief, described as butterflies in the tummy and a broken wing. A kind teacher, a calming breath and a supportive family are always close by, and the tone stays warm throughout."
+    },
+    {
+      "question": "When is a good time to give this book?",
+      "answer": "Many families read it in the weeks before a first recital or performance, or give it afterward as a keepsake of the big day. It also works year-round for any child who dances around the kitchen."
+    }
+  ],
+  "image_alt": "Personalized dance book cover featuring an illustrated child as a firefly dancer twirling on stage with golden wings",
+  "feed_title": "Personalized Dance Recital Book for Kids Ages 3-8, Your Child Is the Firefly Dancer Hero",
+  "feed_description": "A personalized picture book for young dancers. Your child stars as a firefly in the Night Garden recital, practicing tiptoes, spins and flutters at dance class and at home. On recital day, bright lights and a big crowd bring tummy butterflies, and then a costume strap snaps backstage just before the music begins. Your child pauses, breathes slowly, remembers dancing in the kitchen with no wings at all, and finds a clever way to step onstage anyway. Warm twilight illustrations, gentle suspense and a repeating dance refrain make it a lovely read-aloud for ages 3 to 5 and an easy early reader for ages 6 to 8. A thoughtful gift before a first recital, after a big performance, or for any child who loves to dance."
+}

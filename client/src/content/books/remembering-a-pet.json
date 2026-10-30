@@ -1,0 +1,117 @@
+{
+  "slug": "remembering-a-pet",
+  "status": "live",
+  "title_pattern": "Remembering {name}'s Friend",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book about death of a pet for kids",
+  "landing_page_slug": "books/remembering-a-pet",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "Plain, gentle words about a pet who died, and a memory box made with love.",
+  "lesson_or_purpose": "Helps a young child understand in plain, honest words that a beloved pet has died, that death means the body has stopped working and the pet will not come back, that sad, angry and confused feelings are all okay, and that making a memory box is one way to keep loving memories close.",
+  "tone": "Gentle, honest, warm and steady. Quiet sadness balanced with tender, happy memories and a hopeful close.",
+  "reading_level": "Read-aloud for ages 3-8. Short sentences, simple concrete words, a few lines per page, with plain language about death and no euphemisms.",
+  "keywords": [
+    "book about death of a pet for kids",
+    "pet loss book for children",
+    "personalized pet memorial book",
+    "dog died book for kids",
+    "memory box for kids",
+    "explaining pet death to a child",
+    "grief picture book for kids",
+    "personalized book about losing a pet"
+  ],
+  "illustration_guide": "Setting: a cozy family home with a sunny backyard garden, shown across several days. Palette: soft watercolor style with warm honey yellows, muted sage greens, dusty blues and gentle peach tones; quieter, cooler blues on the sad pages, warming back to golden light by the end. Recurring elements: Pepper, a scruffy medium-sized brown and white dog with one floppy ear and a red collar; Pepper's plaid dog bed by the window; a well-chewed green tennis ball; a small wooden memory box that the child decorates with painted stars and paw prints; a framed photo of the child hugging Pepper. Grown-ups (Mom and Dad) appear warm and close, often kneeling at the child's level. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and Pepper, the family dog, on happy ordinary days: chasing the green tennis ball in the backyard, curling up together for stories, Pepper waiting by the door when {name} comes home. Show how much they love each other.",
+      "illustration_prompt": "The child laughing in a sunny backyard as a scruffy brown and white dog with a red collar leaps for a green tennis ball, flowers along the fence, warm golden light."
+    },
+    {
+      "beat": "Pepper is getting old and slow and sleeps more than before. Mom and Dad take Pepper to the vet. {name} learns that Pepper is very sick and the vet cannot make Pepper's body better.",
+      "illustration_prompt": "An older brown and white dog resting in a plaid dog bed by a window while the child sits beside it, gently stroking its fur, Mom kneeling nearby with a soft, worried face, muted afternoon light."
+    },
+    {
+      "beat": "Mom and Dad sit close to {name} and use plain words: Pepper died. Pepper's body stopped working. Pepper cannot breathe, eat, run or feel any hurt anymore, and Pepper will not come back. Mom and Dad say they feel very sad too.",
+      "illustration_prompt": "Mom and Dad sitting on a couch with the child snuggled between them, Dad's arm around the child, Mom holding the child's hand, quiet cool blue tones, the empty plaid dog bed visible in the background."
+    },
+    {
+      "beat": "{name} has big feelings: sad, then mad, then mixed up. {name} asks questions, like whether Pepper is cold or whether it was anyone's fault. The grown-ups answer simply and honestly: Pepper cannot feel cold or pain, and nobody did anything wrong.",
+      "illustration_prompt": "The child sitting cross-legged on the floor with a frowning, teary face, arms crossed, Dad kneeling at eye level and listening closely, soft blue and grey tones with a small warm lamp glow."
+    },
+    {
+      "beat": "The house feels too quiet. {name} sees Pepper's empty bed and the leash on its hook, and cries. Dad hugs {name} and says crying is okay, and that missing Pepper shows how much {name} loved Pepper.",
+      "illustration_prompt": "The child and Dad sitting together on the floor beside the empty plaid dog bed, Dad hugging the child close, a leash hanging on a hook by the door, gentle dusk light through the window."
+    },
+    {
+      "beat": "{name} finds Pepper's old red collar under the couch and holds it tight. Then {name} has an idea: make a special box to keep Pepper memories safe, so they can be visited any time.",
+      "illustration_prompt": "The child on hands and knees peeking under a couch, holding up a red dog collar with a thoughtful, brightening expression, a ray of warm light falling across the room."
+    },
+    {
+      "beat": "{name} goes around the house gathering treasures for the box: the red collar, the chewed green tennis ball, a photo of {name} hugging Pepper, and a tuft of soft fur from the brush. Mom helps but lets {name} choose.",
+      "illustration_prompt": "The child carrying a small wooden box through the house, the red collar and green tennis ball inside, Mom handing over a framed photo of the child hugging the brown and white dog, warm honey tones returning."
+    },
+    {
+      "beat": "At the kitchen table, {name} paints the box with stars and paw prints and draws a picture of Pepper to put inside. The family shares favorite Pepper stories, and {name} laughs and cries at the same time, which is okay.",
+      "illustration_prompt": "The child at a kitchen table painting stars and paw prints on a wooden box, a crayon drawing of a dog beside it, Mom and Dad smiling with damp eyes, paint pots and brushes scattered, golden evening light."
+    },
+    {
+      "beat": "The family has a small goodbye in the backyard. {name} chooses a flower to plant by Pepper's favorite sunny spot and says a few words: thank you for being my friend, Pepper.",
+      "illustration_prompt": "The child kneeling in the backyard garden pressing soil around a small yellow flower, Mom and Dad standing close behind, the green tennis ball resting on the grass nearby, soft morning sunshine."
+    },
+    {
+      "beat": "The memory box sits on {name}'s shelf. Whenever {name} misses Pepper, the box can be opened and the memories visited. Pepper is gone, and that is still sad, but the love and the memories stay.",
+      "illustration_prompt": "The child sitting on a bedroom floor with the open painted memory box on the lap, holding the green tennis ball and smiling softly at the photo of the dog, warm golden light filling the room, the yellow flower visible through the window."
+    }
+  ],
+  "cover_scene": "The child sitting in a sunny backyard garden, gently holding a small wooden memory box painted with stars and paw prints, a red dog collar and green tennis ball peeking out, with a soft watercolor memory of a scruffy brown and white dog curled beside the child. Calm, open pale blue sky with a few soft clouds fills the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Mom and Dad sat close to {name}. \"Pepper died,\" Mom said softly. \"Pepper's body stopped working. Pepper can't breathe or eat or feel any hurt anymore. Pepper won't come back. We are very sad too.\"",
+      "scene": "Mom and Dad sitting on a couch with the child snuggled between them, Dad's arm around the child, Mom holding the child's hand, quiet cool blue tones, the empty plaid dog bed visible in the background."
+    },
+    {
+      "text": "{name} found Pepper's old red collar under the couch. {name} held it tight. Then came an idea. \"Let's make a box,\" said {name}. \"A box to keep all our Pepper memories safe.\"",
+      "scene": "The child on hands and knees beside a couch, holding up a red dog collar with a thoughtful, brightening expression, a ray of warm light falling across the living room."
+    }
+  ],
+  "h1": "Personalized Book About the Death of a Pet for Kids",
+  "meta_title": "Personalized Book About a Pet Dying | StoryBloom",
+  "meta_description": "A personalized picture book that uses plain, gentle words to help your child understand a pet's death and make a memory box together.",
+  "promise": "A gentle, honest story where your child learns what it means that a pet died, feels every feeling, and makes a memory box to keep the love close.",
+  "story_summary": "Your child and Pepper, a scruffy family dog with one floppy ear, share sunny days of ball games and bedtime cuddles. When Pepper grows old and very sick, Mom and Dad explain in plain words that Pepper has died and will not come back. Your child feels sad, mad and mixed up, and the grown-ups answer every question honestly. Then your child finds Pepper's old red collar and has an idea of their own, a way to keep Pepper's memories safe.",
+  "why_parents": [
+    "Losing a pet is often a child's first real experience of death, and young children understand it best through clear, concrete words. Phrases like \"put to sleep\" or \"we lost Pepper\" can confuse a three- or four-year-old or even make bedtime feel scary. This story says \"died\" plainly and explains what it means in terms a child can hold onto: the body stopped working, there is no more hurting, and the pet will not come back.",
+    "Children grieve in waves, swinging from tears to play to angry questions in a single afternoon. Seeing themselves on the page feeling sad, mad and mixed up shows that all of it is allowed. The memory box gives small hands something to do with big feelings, and it becomes a place your family can return to whenever the missing comes back."
+  ],
+  "for_grownups": [
+    "After reading, ask your child which memory of your own pet they would put in a memory box, then gather a few real treasures together, like a collar, a toy or a favorite photo.",
+    "Expect the same questions again and again, and answer them simply each time. It is fine to say \"I don't know\" or \"I feel sad too.\"",
+    "If your child's sadness, sleep or worries about death seem to linger or grow, consider checking in with your pediatrician or a school counselor for support."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book use the word \"died\"?",
+      "answer": "Yes. The story uses plain words on purpose, saying that Pepper died, that Pepper's body stopped working, and that Pepper will not come back. It avoids phrases like \"went to sleep\" that can confuse young children."
+    },
+    {
+      "question": "What kind of pet is in the story?",
+      "answer": "The story features Pepper, a scruffy brown and white family dog. The feelings, questions and memory box idea fit many kinds of pet loss, and many families talk through how their own pet was similar or different."
+    },
+    {
+      "question": "Is this book right for a child whose pet died suddenly?",
+      "answer": "In the story Pepper grows old and sick before dying, but most of the book focuses on what death means, the feelings that follow and making a memory box. You know your child best, so reading it yourself first can help you decide on timing."
+    }
+  ],
+  "image_alt": "Personalized pet loss book cover featuring an illustrated child holding a painted memory box in a sunny garden",
+  "feed_title": "Personalized Book About the Death of a Pet for Kids, Your Child Makes a Memory Box",
+  "feed_description": "A gentle personalized picture book for children ages 3 to 8 who are facing the death of a beloved pet. Your child becomes the illustrated hero alongside Pepper, a scruffy family dog. When Pepper grows old and very sick, Mom and Dad explain in plain, honest words that Pepper has died, what that means, and that Pepper will not come back. The story makes room for sadness, anger and confusion, answers common questions simply, and shows that crying is okay. Your child then comes up with the idea of a memory box, gathering a collar, a tennis ball, a photo and a drawing, and shares favorite stories with family. Soft watercolor illustrations move from quiet blues to warm golden light, ending with a hopeful message that love and memories stay."
+}

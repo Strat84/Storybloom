@@ -1,0 +1,116 @@
+{
+  "slug": "confidence-can",
+  "status": "live",
+  "title_pattern": "{name} Can",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "confidence book for kids personalized",
+  "landing_page_slug": "books/confidence-can",
+  "example": {
+    "name": "Amara",
+    "pronouns": "she",
+    "look": "deep brown skin, short coily black hair"
+  },
+  "tagline": "A hard day, a list of everything your child can do, and a friend who needs exactly that.",
+  "lesson_or_purpose": "Everyone has hard days and things they cannot do yet. Noticing what you can do, and using it to help someone else, is a real and steady kind of confidence.",
+  "tone": "Warm, honest and gently uplifting, with quiet humor and a satisfying turn when the child's own skill saves the day.",
+  "reading_level": "Ages 4-8: short sentences, a repeating 'I can' refrain, simple vocabulary with a few fun action words. Read aloud for younger children, independent reading for older ones.",
+  "keywords": [
+    "confidence book for kids personalized",
+    "personalized self-esteem book",
+    "growth mindset picture book",
+    "book about trying again",
+    "kindness and helping friends book",
+    "personalized book for a hard day",
+    "I can book for kids"
+  ],
+  "illustration_guide": "Setting: a friendly primary school with a bright gym and a cozy classroom, plus the child's warm family home with a kitchen table and bedroom wall. Palette: soft rainy blues and greys on the hard day, warming to sunny yellows, tomato reds and leafy greens as confidence grows. Recurring elements: the child's hand-drawn 'can' list (shown only as little doodles: a floppy-eared dog, a block tower, socks, a music note, a laughing baby), a wooden block bridge with a small red toy train, the child's yellow raincoat, and the friend Leo with curly hair and a striped sweater. The child keeps a consistent look and outfit throughout. No words, letters or signs in any picture.",
+  "page_outline": [
+    {
+      "beat": "In the school gym, everyone is practicing cartwheels. {name} tries hard, but {she/he} tumbles sideways onto the mat while a few classmates giggle. {name} sits up with hot cheeks and thinks, I can't do anything right.",
+      "illustration_prompt": "A bright school gym with blue mats; the child sits on a mat after a sideways tumble, cheeks pink, while other children cartwheel in the background and two classmates cover small giggles."
+    },
+    {
+      "beat": "On the rainy walk home, {name} stomps through puddles in {her/his} yellow raincoat and tells Dad it was the worst day. {She/He} says, 'I can't do cartwheels. I can't do anything.'",
+      "illustration_prompt": "A grey rainy sidewalk; the child in a yellow raincoat stomps a puddle with a frown while Dad walks beside holding an umbrella and listening kindly."
+    },
+    {
+      "beat": "At the kitchen table, Dad hands {name} a big sheet of paper and crayons and asks {her/him} to draw everything {she/he} CAN do. {name} stares at the empty page and can't think of a single thing.",
+      "illustration_prompt": "A cozy kitchen table with a big blank sheet of paper and a box of crayons; the child rests chin on hands looking unsure while Dad sits nearby with a mug, smiling encouragingly."
+    },
+    {
+      "beat": "Then one idea pops up: {name} can draw a dog with floppy ears. Another follows: {she/he} can whistle. Then {name} remembers {she/he} can build block towers taller than {her/his} knees, by making the bottom wide and strong.",
+      "illustration_prompt": "The child leans over the paper drawing a floppy-eared dog doodle, lips puckered in a whistle, with a small block tower with a wide base standing on the table beside the paper."
+    },
+    {
+      "beat": "The list keeps growing: {name} can match all the socks, make {her/his} baby cousin laugh, and sing every word of a favorite song. Soon the paper is full of doodles, and {name} tapes it to {her/his} bedroom wall before bed.",
+      "illustration_prompt": "A warm bedroom at night; the child stands on tiptoe taping a paper covered in little doodles (dog, tower, socks, music notes, a laughing baby) to the wall, a soft lamp glowing."
+    },
+    {
+      "beat": "The next morning, {name} finds {her/his} friend Leo upset in the classroom. The block bridge the class is building for the little red toy train keeps crashing down, and families are coming to see it after lunch.",
+      "illustration_prompt": "A sunny classroom; a pile of fallen wooden blocks and a small red toy train on its side, the friend Leo with curly hair and a striped sweater looking upset, and the child walking over with concern."
+    },
+    {
+      "beat": "{name} wants to help, but {she/he} worries: what if it falls for me too? Then {name} pictures the list on {her/his} wall, with the tall block tower drawn right in the middle.",
+      "illustration_prompt": "The child pauses beside the fallen blocks, thinking, with a soft dreamy thought cloud above showing the doodled list on the bedroom wall and the block tower doodle glowing."
+    },
+    {
+      "beat": "{name} kneels down and shows Leo the wide-bottom trick. Together they lay the strong blocks first and build up slowly, and {name} counts each block out loud so nobody rushes.",
+      "illustration_prompt": "The child and Leo kneel side by side carefully placing wooden blocks, a wide sturdy base taking shape; the child points to show the trick while Leo watches closely."
+    },
+    {
+      "beat": "When the families arrive, {name} gently rolls the little red train across the bridge. It holds. The class cheers, and Leo throws his arms up and grins at {name}.",
+      "illustration_prompt": "A finished wooden block bridge spanning two desks, the small red train crossing it, the child's hand guiding it, classmates and grown-ups clapping, and Leo cheering with arms raised."
+    },
+    {
+      "beat": "Leo offers to help {name} practice cartwheels at recess. That night, {name} adds one more doodle to {her/his} list for helping a friend, and smiles: {she/he} can't do a cartwheel yet, but {she/he} can keep trying.",
+      "illustration_prompt": "Split warm scene: on the left, the child and Leo practicing cartwheels on sunny grass at recess; on the right, the child at home adding a new doodle of two holding hands to the list on the bedroom wall, smiling."
+    }
+  ],
+  "cover_scene": "The child stands proudly beside a tall, sturdy wooden block bridge with a little red toy train on top, one hand resting on the bridge and the other raised in a happy wave. Colorful doodles of a floppy-eared dog, socks, music notes and a block tower float playfully around the child. The background is a soft, warm golden classroom glow that fades into calm, open pale sky-blue across the top third of the picture, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Dad slid a big white paper across the table. \"Draw everything you CAN do,\" he said. {name} held a crayon and looked and looked. The paper looked very big. {name} couldn't think of one single thing.",
+      "scene": "A cozy kitchen table with a large blank sheet of paper and an open box of crayons; the child holds a crayon in the air looking unsure while Dad sits close by with a mug and a kind smile."
+    },
+    {
+      "text": "{name} wanted to help. But what if the bridge fell down again? What if it fell for {her/him} too? Then {name} thought of the list on {her/his} wall. Right in the middle was a tall, strong tower. I can do that, thought {name}.",
+      "scene": "The child stands beside a pile of fallen wooden blocks in a sunny classroom, thinking, with a soft thought cloud above showing the doodle list on the bedroom wall and the block tower doodle glowing warmly."
+    }
+  ],
+  "h1": "Personalized Confidence Book for Kids: Your Child Can",
+  "meta_title": "Personalized Confidence Book for Kids | StoryBloom",
+  "meta_description": "A personalized confidence book where your child turns a hard day into a list of things they can do, then uses one to help a friend.",
+  "promise": "A gentle, honest story for the days when your child feels like they can't do anything, showing them all they can do and how much it matters to someone else.",
+  "story_summary": "It starts with a wobbly cartwheel in gym class, a few giggles, and a rainy walk home where your child declares they can't do anything. At the kitchen table, Dad hands over a big sheet of paper and asks for a list of everything your child can do, and slowly the page fills with floppy-eared dogs, block towers, matched socks and favorite songs. The next morning, a friend is upset because the class block bridge keeps crashing down just before families arrive to see it. Your child has to decide whether to step in, even with a worry that it might fall again.",
+  "why_parents": [
+    "Between four and eight, children start comparing themselves with classmates, and one stumble in front of others can feel like proof they are no good at anything. This story meets that feeling honestly. It doesn't pretend the hard day didn't happen; it lets your child sit with it, then gently turns their attention to the many ordinary things they really can do.",
+    "The heart of the book is that a skill matters most when it is shared. Your child's knack for building strong towers isn't just something to feel good about, it's exactly what a friend needs. And the cartwheel stays unfinished, with a friend offering to help, so the story leaves room for 'not yet' alongside 'I can.'"
+  ],
+  "for_grownups": [
+    "After reading, make your own 'can' list together with drawings instead of words. Include small everyday things like pouring cereal or remembering a friend's birthday.",
+    "Ask your child about a time they helped someone with something they were good at, and how it felt for both of them.",
+    "When your child says 'I can't,' try adding the word 'yet' together, just like the hero does with the cartwheel at the end."
+  ],
+  "faqs": [
+    {
+      "question": "What is the hard day in the story about?",
+      "answer": "Your child tumbles while trying a cartwheel in gym class and a few classmates giggle. It's a small, relatable moment, and nobody is cruel, which keeps the story gentle for sensitive readers."
+    },
+    {
+      "question": "Does the story say your child should be good at everything?",
+      "answer": "No. Your child still can't do a cartwheel at the end, and a friend offers to help them practice. The message is that everyone has things they can do and things they are still working on."
+    },
+    {
+      "question": "Is this a good book to read after my child has had a rough day?",
+      "answer": "Yes, it was written with those evenings in mind. The family scenes at the kitchen table and bedtime make it a natural, cozy read when your child needs a little encouragement."
+    }
+  ],
+  "image_alt": "Personalized confidence book cover featuring an illustrated child as the hero beside a block bridge with a toy train",
+  "feed_title": "Personalized Confidence Book for Kids Ages 4-8, Your Child Is the Hero Who Helps a Friend",
+  "feed_description": "A personalized picture book about confidence, kindness and not giving up, starring your child as the hero. After a wobbly cartwheel and a few giggles in gym class, your child walks home in the rain feeling like they can't do anything. Dad hands over a big sheet of paper, and slowly it fills with doodles of everything your child can do, from drawing floppy-eared dogs to building strong block towers. The next day a friend is upset because the class block bridge keeps falling before families arrive, and your child must decide whether to help. A warm, honest story for ages 4-8 about noticing your own strengths, sharing them with others, and saying not yet."
+}

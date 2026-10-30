@@ -1,0 +1,116 @@
+{
+  "slug": "christmas-with-grandparents",
+  "status": "live",
+  "title_pattern": "{name}'s Christmas at Grandma and Grandpa's",
+  "category": "christmas",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Dec",
+  "sensitive": false,
+  "main_keyword": "christmas gift for grandchild personalized book",
+  "landing_page_slug": "books/christmas-with-grandparents",
+  "example": {
+    "name": "Elijah",
+    "pronouns": "he",
+    "look": "dark brown skin, short black curls, round glasses"
+  },
+  "tagline": "A Christmas visit, a box of old ornaments, and a trail of clues that leads your child to a family tradition.",
+  "lesson_or_purpose": "Celebrates the bond between grandparents and grandchildren and shows how family traditions are passed down and how a child can help carry them forward.",
+  "tone": "Cozy, playful and warm, with a gentle mystery and the glow of a snowy Christmas Eve.",
+  "reading_level": "Read-aloud for ages 3-7, with short sentences, simple riddles and repeated phrases that early readers can join in on.",
+  "keywords": [
+    "christmas gift for grandchild personalized book",
+    "personalized christmas book for kids",
+    "christmas at grandma and grandpa's book",
+    "grandparents christmas gift",
+    "personalized book from grandparents",
+    "family tradition christmas story",
+    "christmas ornament story for children"
+  ],
+  "illustration_guide": "Setting: a snug old farmhouse-style home belonging to the grandparents, decorated for Christmas, with snow falling outside every window. Rooms include a front hall with a wooden boot bench, a warm kitchen with a cookie tin and flour-dusted table, a living room with a tall pine tree, a frosty window with a deep sill, and a cedar chest by the tree. Palette: deep evergreen, cranberry red, warm gold candlelight, creamy white snow, and soft wood browns. Recurring elements: a worn cardboard box of vintage ornaments, small rolled paper clue scrolls tied with red string, Grandma's knitted cardigan, Grandpa's plaid flannel shirt and big snow boots, a sleepy orange cat who follows the child from room to room, and twinkling string lights. Style: soft textured watercolor with gentle lighting and rosy cheeks.",
+  "page_outline": [
+    {
+      "beat": "On a snowy Christmas Eve, {name} arrives at Grandma and Grandpa's house. Big hugs at the door, the smell of pine, and twinkling lights welcome {name} inside.",
+      "illustration_prompt": "The child being hugged at the open front door by smiling grandparents, snow falling outside, a glowing decorated house and warm golden light spilling onto the porch."
+    },
+    {
+      "beat": "Grandma brings out a dusty box of old ornaments for the tree. As {name} unwraps a glass bell, a tiny rolled paper tied with red string falls out. It is a riddle: where do cold toes go to get warm?",
+      "illustration_prompt": "The child sitting on a rug beside an open box of vintage ornaments, holding a glass bell, with a small rolled paper scroll tied in red string resting in an open palm, Grandma leaning in curiously, the orange cat nearby."
+    },
+    {
+      "beat": "{name} thinks hard, then races to the boot bench by the front door. Tucked inside one of Grandpa's big snow boots, {name} finds a felt mitten ornament with another clue inside.",
+      "illustration_prompt": "The child kneeling at a wooden boot bench, pulling a small red felt mitten ornament from a large snow boot, a rolled scroll peeking out of the mitten, the orange cat sniffing the boots."
+    },
+    {
+      "beat": "The next riddle points to where sweet things wait. {name} hurries to the kitchen and peeks into the cookie tin. Beneath the gingerbread sits a wooden gingerbread ornament and a new clue.",
+      "illustration_prompt": "The child standing on a step stool in a cozy kitchen, lifting the lid of a round cookie tin, discovering a small wooden gingerbread ornament among cookies, Grandpa smiling by the oven."
+    },
+    {
+      "beat": "This clue is tricky: what watches the snow but never feels cold? {name} searches the fridge, the closet and under the couch. Nothing! {name} feels stuck, and Grandpa says to look slowly and think about the words.",
+      "illustration_prompt": "The child with a puzzled face standing in the living room holding a scroll, a closet door open and couch cushions slightly askew, Grandpa crouching beside the child with a kind, encouraging expression."
+    },
+    {
+      "beat": "{name} takes a deep breath and looks around slowly. Through the frosty window, snow is falling. On the windowsill, {name} spots a tiny snowman ornament gazing outside. The clue is solved!",
+      "illustration_prompt": "The child at a frosty window with a delighted expression, reaching for a small snowman ornament on a deep windowsill, snowflakes drifting outside, soft blue and gold light."
+    },
+    {
+      "beat": "The snowman holds the last clue, which leads {name} to the old cedar chest by the tree. Inside is a small wooden box holding a handmade ornament that Mom made as a little girl, and a note explaining the family tradition: every child makes an ornament and hides clues for the next Christmas hunt.",
+      "illustration_prompt": "The child kneeling at an open cedar chest beside the Christmas tree, holding a simple handmade clay ornament with wonder, both grandparents sitting close, a small wooden keepsake box open on the rug."
+    },
+    {
+      "beat": "{name} decides to join the tradition. At the kitchen table, {name} makes a brand-new ornament, shaping and painting it with care while Grandma and Grandpa help, then chooses secret hiding spots for next year's clues.",
+      "illustration_prompt": "The child at a flour-dusted kitchen table painting a homemade ornament with bright colors, paint pots and brushes spread out, Grandma and Grandpa leaning in to help, the orange cat watching from a chair."
+    },
+    {
+      "beat": "Every found ornament goes on the tree, with {name}'s new one in a special spot. Grandpa lifts {name} up high to place the golden star on top, and the whole tree sparkles.",
+      "illustration_prompt": "Grandpa lifting the child up high to place a golden star on top of a glowing Christmas tree, the mitten, gingerbread, snowman and handmade ornaments hanging among the branches, Grandma clapping."
+    },
+    {
+      "beat": "Snuggled under a quilt by the fire, {name} listens to snow tapping the window and smiles. Next Christmas, a new hunt will begin, and this time {name} wrote the clues.",
+      "illustration_prompt": "The child cozy under a patchwork quilt on the couch between the grandparents, firelight glowing, the decorated tree twinkling, the orange cat curled up asleep, snow falling softly outside."
+    }
+  ],
+  "cover_scene": "The child standing in front of a glowing Christmas tree in the grandparents' living room, holding up a small felt mitten ornament with a red-string clue scroll, Grandma and Grandpa smiling on either side, a box of vintage ornaments at their feet and the orange cat curled beside it. The top third of the picture is soft, calm, warm-toned wall and gentle bokeh of string lights, open and uncluttered.",
+  "sample_pages": [
+    {
+      "text": "Where do cold toes go to get warm? {name} thought and thought. Then {she/he} ran to the boot bench! Inside Grandpa's big boot was a little red mitten, and inside the mitten was another clue.",
+      "scene": "The child kneeling at a wooden boot bench by the front door, pulling a small red felt mitten ornament from a large snow boot, a rolled scroll tied with red string peeking out, the orange cat sniffing nearby."
+    },
+    {
+      "text": "What watches the snow but never feels cold? {name} looked in the fridge. {name} looked in the closet. {name} looked under the couch. No clue anywhere! \"Look slowly,\" said Grandpa with a wink.",
+      "scene": "The child with a puzzled face in the living room holding a paper scroll, a closet door open and couch cushions tumbled, Grandpa crouching beside the child with a kind, encouraging smile."
+    }
+  ],
+  "h1": "Personalized Christmas Book for Your Grandchild: Christmas at Grandma and Grandpa's",
+  "meta_title": "Personalized Christmas at Grandma's Book | StoryBloom",
+  "meta_description": "A personalized Christmas book where your grandchild follows ornament clues at Grandma and Grandpa's house to discover a family tradition.",
+  "promise": "Your child follows a trail of riddles hidden in old ornaments around Grandma and Grandpa's house and discovers a family tradition that is now theirs to carry on.",
+  "story_summary": "It is Christmas Eve at Grandma and Grandpa's house, and a box of old ornaments holds a surprise: a tiny rolled-up riddle tucked inside a glass bell. Your child sets off on a hunt through the house, checking Grandpa's snow boots, the cookie tin and every cozy corner for the next clue. One riddle is so tricky that your child has to slow down and think it through. Each clue leads closer to something the family has kept for a very long time.",
+  "why_parents": [
+    "Children between three and seven are starting to understand that families have stories older than they are. A visit to the grandparents' house at Christmas is often where those stories live, in the ornaments, the recipes and the way things have always been done. This book turns that feeling into an adventure your child gets to lead.",
+    "The story also gives your child a role, not just a seat at the table. By solving the clues and then making an ornament of their own for next year, your child becomes part of the tradition instead of only hearing about it. It makes a meaningful gift from grandparents, or a sweet way to get ready for a holiday visit."
+  ],
+  "for_grownups": [
+    "Pull out a few of your own old ornaments and share where each one came from. Ask your child which one they would pick to start a story about.",
+    "Try a simple clue hunt at home or at the grandparents' house: write two or three easy riddles that lead to a small ornament or treat.",
+    "Make a handmade ornament together and talk about who might find it on the tree years from now."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a good gift from grandparents?",
+      "answer": "Yes. The story centers on time with Grandma and Grandpa and a tradition they share with your child, so it works well as a gift from grandparents or as a book to read together during a Christmas visit."
+    },
+    {
+      "question": "Are the riddles too hard for young children?",
+      "answer": "The riddles are short and playful, like where cold toes go to get warm. Younger children can guess along with the reader, and older children enjoy solving them before turning the page."
+    },
+    {
+      "question": "Does the story include Santa?",
+      "answer": "No. The story focuses on family, the grandparents' home and the ornament clue hunt, so it fits families however they celebrate the season."
+    }
+  ],
+  "image_alt": "Personalized Christmas at Grandma and Grandpa's book cover featuring an illustrated child holding an ornament beside a glowing tree with the grandparents",
+  "feed_title": "Personalized Christmas Book for Grandchild, Your Child Is the Hero at Grandma and Grandpa's",
+  "feed_description": "A personalized Christmas picture book for ages 3 to 7 where your child is the illustrated hero of a cozy holiday visit to Grandma and Grandpa's house. While unpacking a box of old ornaments, your child finds a tiny riddle tucked inside a glass bell and follows a trail of clues through the house, from Grandpa's snow boots to the kitchen cookie tin to a frosty windowsill. One riddle is tricky enough that your child has to slow down and think it through. The hunt leads to a family keepsake and a tradition your child gets to carry on by making an ornament of their own. A warm gift from grandparents or a sweet read before a holiday visit."
+}

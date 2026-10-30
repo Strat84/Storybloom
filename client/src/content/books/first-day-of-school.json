@@ -1,0 +1,117 @@
+{
+  "slug": "first-day-of-school",
+  "status": "live",
+  "title_pattern": "{name}'s First Day of School",
+  "category": "milestones",
+  "age_range": "4-6",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": "Jul-Sep",
+  "sensitive": false,
+  "main_keyword": "first day of school book personalized",
+  "landing_page_slug": "books/first-day-of-school",
+  "example": {
+    "name": "Mateo",
+    "pronouns": "he",
+    "look": "tan skin, wavy dark brown hair"
+  },
+  "tagline": "Backpack nerves, a missing lunchbox, and the brave little choice that turns a scary day into a happy one.",
+  "lesson_or_purpose": "Nervous feelings are normal on a first day, and taking a deep breath, asking for help, and being kind to someone else who feels the same way can make a new place feel like your own.",
+  "tone": "Warm, gentle and reassuring, with small moments of suspense and a cheerful, cozy ending.",
+  "reading_level": "Ages 4-6: short sentences, simple everyday words, a little repetition of the fluttery tummy feeling, and one or two lines of dialogue per page.",
+  "keywords": [
+    "first day of school book personalized",
+    "personalized first day of school book",
+    "first day of kindergarten book",
+    "back to school book for kids",
+    "starting school nerves book",
+    "personalized book for kindergartener",
+    "preschool first day story",
+    "new school friend book"
+  ],
+  "illustration_guide": "Setting: a friendly neighborhood on a bright late-summer morning, then a cheerful classroom with low cubbies, coat hooks, a reading rug, an art corner with easels, and a sunny playground. Palette: warm golds, soft tomato red, leafy greens and sky blue, with gentle peach light indoors. Recurring elements on every page: the child's red backpack with a small yellow star keychain, and a blue lunchbox with a yellow star sticker. Tiny pale butterflies float near the child when the child feels nervous; there are many early on, fewer as the day goes on, and they turn into a few golden butterflies of happiness at the end. The nervous classmate, a boy named Theo, always holds a small worn gray stuffed rabbit. The teacher, Ms. Rivera, wears a mustard cardigan and round glasses. Style: soft painterly picture-book look with rounded shapes and expressive faces. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "Morning at home. {name} wakes up and sees the brand new red backpack waiting by the door. It is the first day of school. {name} feels a fluttery feeling in {her/his} tummy, like tiny butterflies, and isn't sure if it is excited or scared.",
+      "illustration_prompt": "A cozy bedroom in warm morning light. The child sits up in bed in pajamas, looking at a red backpack with a yellow star keychain propped by the bedroom door. A few tiny pale butterflies float near the child's tummy."
+    },
+    {
+      "beat": "Walking to school with Mom and Dad. The school looks very big, and {name} holds on tight. {She/He} says the backpack feels heavy, even though it only has a lunchbox inside. Dad says that when the butterflies come, a big slow breath can help them settle.",
+      "illustration_prompt": "A sunny sidewalk lined with green trees. The child walks between Mom and Dad, holding Dad's hand, red backpack on, looking up at a large friendly brick school ahead. Several pale butterflies flutter around the child."
+    },
+    {
+      "beat": "In the classroom, kind Ms. Rivera says hello. {name} finds a cubby, hangs up the red backpack and tucks the blue lunchbox with the star sticker inside. Mom and Dad give a hug goodbye, and {name} waves bravely.",
+      "illustration_prompt": "A bright classroom with low wooden cubbies. The child places a blue lunchbox with a yellow star sticker into a cubby beside the red backpack. A teacher in a mustard cardigan and round glasses smiles warmly. Mom and Dad wave from the doorway."
+    },
+    {
+      "beat": "Morning fun: circle time on the rug and painting at the easels. {name} paints a big yellow sun. While painting, {name} notices a boy named Theo sitting alone by the window, squeezing a small gray stuffed rabbit and looking just as fluttery as {she/he} feels.",
+      "illustration_prompt": "An art corner with easels. The child, in a paint smock, paints a big yellow sun. In the background, a boy holding a small gray stuffed rabbit sits alone by a sunny window, looking shy. A few pale butterflies near the child."
+    },
+    {
+      "beat": "The lunch bell rings. {name} hurries to the cubby, but the blue lunchbox is gone! The butterflies flutter faster than ever, and {name} feels like crying.",
+      "illustration_prompt": "The cubbies, with the red backpack hanging in the child's cubby but no lunchbox. The child stares with wide, worried eyes. Many pale butterflies swirl around the child. Other children walk toward the lunch tables in the background."
+    },
+    {
+      "beat": "{name} remembers Dad's tip and takes one big, slow breath. The butterflies settle a little. {name} decides to tell Ms. Rivera and to think hard about where {she/he} has been all morning.",
+      "illustration_prompt": "The child stands with eyes closed and cheeks puffed, taking a big slow breath. Ms. Rivera kneels down to listen kindly. The butterflies around the child have drifted farther away and look calmer."
+    },
+    {
+      "beat": "{name} retraces {her/his} steps: the rug, the cubbies, the art corner. There, tucked under the easel next to the yellow sun painting, is the blue lunchbox with the star sticker! {name} had carried it over without noticing. {She/He} found it all by {her/him}self.",
+      "illustration_prompt": "The art corner. The child crouches and pulls a blue lunchbox with a yellow star sticker out from under an easel holding a painting of a big yellow sun. The child's face is lit with a proud, relieved smile."
+    },
+    {
+      "beat": "Back at the lunch tables, {name} sees Theo sitting alone, holding his rabbit, looking the way {name} felt a minute ago. {name} could sit anywhere, but {she/he} walks over and sits right next to Theo. {She/He} says, \"I was nervous today too.\"",
+      "illustration_prompt": "A cheerful lunchroom corner. The child, holding the blue lunchbox, sits down beside the shy boy with the gray stuffed rabbit at the end of a table. The boy looks up, surprised and hopeful."
+    },
+    {
+      "beat": "Theo smiles and says he was nervous all morning. {name} shares apple slices, Theo shows off his rabbit, and at recess they race to the slide together. {name} notices the fluttery butterflies have turned into happy ones.",
+      "illustration_prompt": "A sunny playground. The child and the boy run side by side toward a bright slide, laughing. The gray rabbit pokes out of the boy's pocket. A few small golden butterflies float happily around the child."
+    },
+    {
+      "beat": "At pickup, {name} runs to Mom and Dad with the red backpack bouncing. It feels light now. {She/He} tells them about the lost lunchbox, the deep breath, and a new friend named Theo, then asks, \"Can I come back tomorrow?\"",
+      "illustration_prompt": "The school front steps in golden afternoon light. The child runs into Mom and Dad's open arms, red backpack bouncing. In the background the boy with the gray rabbit waves goodbye. Golden butterflies drift up into the sky."
+    }
+  ],
+  "cover_scene": "The child stands proudly on the front walk of a friendly brick school on a bright late-summer morning, wearing a red backpack with a yellow star keychain and holding a blue lunchbox with a yellow star sticker. The child smiles with a brave, excited look. A few small golden butterflies float nearby. The top third of the picture is calm, open soft blue sky with a few gentle clouds, leaving room for a title. No words, signs or lettering.",
+  "sample_pages": [
+    {
+      "text": "The new red backpack waited by the door. Today was {name}'s very first day of school! Flutter, flutter, went {her/his} tummy. Was it excited? Was it scared? {name} wasn't sure.",
+      "scene": "A cozy bedroom in warm morning light. The child sits up in bed in pajamas, looking toward a red backpack with a yellow star keychain by the door. A few tiny pale butterflies float near the child's tummy."
+    },
+    {
+      "text": "Ring, ring! Lunchtime! {name} ran to the cubby. The red backpack was there. But the blue lunchbox was gone! Flutter, flutter, flutter, went the butterflies, faster and faster.",
+      "scene": "The classroom cubbies. The red backpack hangs in the child's cubby but the lunchbox spot is empty. The child stares with wide, worried eyes as many pale butterflies swirl around. Other children head toward lunch tables in the background."
+    }
+  ],
+  "h1": "Personalized First Day of School Book Starring Your Child",
+  "meta_title": "Personalized First Day of School Book | StoryBloom",
+  "meta_description": "A personalized first day of school book where your child calms backpack nerves, finds a lost lunchbox, and makes a new friend.",
+  "promise": "A gentle first-day story that shows your child feeling nervous, staying brave, and finding a friend who felt the same way.",
+  "story_summary": "It is the first day of school, and your child wakes up with a fluttery tummy and a brand new red backpack by the door. At school there is a kind teacher, a paint easel, and a quiet boy by the window clutching a stuffed rabbit. Then the lunch bell rings and your child's lunchbox is nowhere to be found. With one big breath and some careful thinking, your child sets out to solve the problem and makes a choice that changes the whole day.",
+  "why_parents": [
+    "Starting school is one of the biggest changes in a young child's life, and the nerves are real even for kids who seem excited. Seeing themselves in a story where the butterflies show up, a small thing goes wrong, and they handle it anyway gives children a picture of the day before it happens.",
+    "This story also gently points your child outward. Many children assume they are the only nervous one in the room. Noticing a classmate who feels the same, and choosing to sit beside him, is a simple, doable act of kindness a four to six year old can carry into their own first week."
+  ],
+  "for_grownups": [
+    "Ask your child where the butterflies might show up on their own first day, and practice Dad's big slow breath together before you head out the door.",
+    "Talk through a 'lost lunchbox' plan: who could your child tell, and how could they think back to where they have been?",
+    "After the first day, ask whether anyone looked like Theo, a little quiet or unsure, and what your child might say to them tomorrow."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book work for preschool as well as kindergarten?",
+      "answer": "Yes. The story simply says school and shows a classroom with cubbies, circle time and a playground, so it fits a first day of preschool, pre-K or kindergarten."
+    },
+    {
+      "question": "Is the story too scary for a child who is already anxious about school?",
+      "answer": "The tension is small and quickly resolved: a missing lunchbox that your child finds by staying calm and thinking it through. The book names the nervous feeling and shows it fading, ending with a happy pickup and a new friend."
+    },
+    {
+      "question": "When is a good time to read it?",
+      "answer": "Many families read it in the weeks leading up to the first day so the routine feels familiar, then again after school to talk about how the real day went."
+    }
+  ],
+  "image_alt": "Personalized first day of school book cover featuring an illustrated child with a red backpack in front of a school",
+  "feed_title": "Personalized First Day of School Book for Kids Ages 4-6, Your Child Is the Hero",
+  "feed_description": "A personalized picture book about the first day of school, starring your child. Your child wakes up with a fluttery tummy and a new red backpack, says goodbye to Mom and Dad, and meets a kind teacher and a classroom full of new things. When the lunch bell rings, the lunchbox is missing. Your child takes a big slow breath, asks for help, retraces each step and finds it. Then comes the bravest part: spotting a nervous classmate sitting alone and choosing to sit beside him. A warm, reassuring story for preschool, pre-K or kindergarten starters that names first-day nerves, shows a calm way through them, and ends with a new friend and a happy pickup."
+}

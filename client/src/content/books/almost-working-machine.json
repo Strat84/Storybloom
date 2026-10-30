@@ -1,0 +1,116 @@
+{
+  "slug": "almost-working-machine",
+  "status": "live",
+  "title_pattern": "{name} and the Almost-Working Machine",
+  "category": "adventures",
+  "age_range": "5-9",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized science book for kids",
+  "landing_page_slug": "books/almost-working-machine",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "Five tries, five clues, and one very determined inventor.",
+  "lesson_or_purpose": "Failure is information. Each thing that goes wrong shows what to change next, and sticking with a problem is how inventors and scientists get things to work.",
+  "tone": "Playful, curious and encouraging, with comic mishaps and a satisfying build toward success.",
+  "reading_level": "Ages 5-9: short paragraphs of 2-4 sentences, simple cause-and-effect language, a few fun building words like ramp, pulley and funnel explained through the pictures.",
+  "keywords": [
+    "personalized science book for kids",
+    "STEM picture book",
+    "inventor book for kids",
+    "growth mindset story",
+    "learning from mistakes book",
+    "engineering book for children",
+    "personalized adventure book"
+  ],
+  "illustration_guide": "Setting: a sunny family home with a cluttered, cheerful back porch workshop that opens onto a small garden. A single sunflower seedling in a terracotta pot sits at the porch edge and grows a little taller across the book. Palette: warm yellows, sky blues, leafy greens and cardboard browns, with bright accents of red tape and blue string. Recurring elements: the child's spiral notebook full of sketches (shown as drawings only, no readable writing), a red toy marble, a yellow plastic cup, a roll of tape, a ball of string, cardboard tubes and a curious orange cat who watches every test. Each version of the machine looks slightly different so readers can spot the changes. Grandma appears in an apron with gardening gloves, kind and patient. Style: soft, textured picture-book illustration with clear, readable machine parts and expressive faces.",
+  "page_outline": [
+    {
+      "beat": "Every morning the family rushes out the door, and {name}'s little sunflower seedling on the back porch keeps drooping because nobody remembers to water it. {name} looks at the thirsty plant and decides {she/he} will build a machine to water it automatically.",
+      "illustration_prompt": "A sunny back porch with a small drooping sunflower seedling in a terracotta pot. The child kneels beside it with a thoughtful, determined face while an orange cat watches from a step. Morning light, family shoes and bags visible by the door."
+    },
+    {
+      "beat": "{name} grabs a spiral notebook and sketches a plan: a marble rolls down a ramp, pulls a string, and tips a cup of water onto the plant. Grandma helps {her/him} gather cardboard tubes, tape, string, a yellow cup and a red marble.",
+      "illustration_prompt": "The child sits cross-legged on the porch floor drawing in a spiral notebook, surrounded by cardboard tubes, tape, string, a yellow cup and a red marble. Grandma in an apron sets down a box of supplies, smiling."
+    },
+    {
+      "beat": "Version One is ready. {name} drops the marble, but the ramp is so steep the marble flies right off and bounces into the garden. {name} laughs, writes down 'ramp too steep,' and props the ramp lower.",
+      "illustration_prompt": "A tall, steep cardboard ramp on the porch. The red marble sails through the air off the end toward the garden while the child watches with wide eyes and open mouth. The cat leaps back in surprise."
+    },
+    {
+      "beat": "Version Two rolls nicely down the gentler ramp, but when the marble tugs the string, the thin string snaps. {name} examines the broken ends and decides {she/he} needs thicker string, so {she/he} swaps in a sturdy blue cord.",
+      "illustration_prompt": "The child holds two broken ends of thin string close to their face, studying them like a detective. The lower cardboard ramp and the marble sit nearby. A ball of thick blue cord waits on the floor."
+    },
+    {
+      "beat": "Version Three pulls the cup, but it tips too early and splashes the cat instead of the plant. {name} apologizes to the soggy cat and adds a clothespin to hold the cup steady until the right moment.",
+      "illustration_prompt": "Water splashing from the yellow cup onto the surprised orange cat, which is mid-jump with fur puffed out. The child covers their mouth, half giggling and half sorry. The sunflower pot sits dry just out of reach."
+    },
+    {
+      "beat": "Version Four holds the cup perfectly, but by the time it tips, most of the water has dribbled out of a crack in the bottom. {name} finds the crack, patches it with red tape, and fills the cup again, feeling a little tired.",
+      "illustration_prompt": "The child holds the yellow cup up to the light, finding a thin crack with water dripping out. A small puddle forms on the porch boards. The machine stands behind them with the clothespin and blue cord in place."
+    },
+    {
+      "beat": "Version Five works from start to finish, but the water pours onto the porch floor right beside the plant. {name} slumps down and tells Grandma {she/he} wants to give up because the machine will never work.",
+      "illustration_prompt": "The full machine stands complete, but water splashes onto the floor beside the sunflower pot. The child sits slumped against the wall with chin in hands. Grandma kneels close by with a gentle, understanding look."
+    },
+    {
+      "beat": "Grandma asks {name} to read the notebook out loud. {name} sees the list: too steep, string too thin, tipped too early, leaking cup. Each mistake fixed one problem. {She/He} realizes the last mistake is just one more clue, so {she/he} measures the distance and adds a funnel to aim the water.",
+      "illustration_prompt": "The child and Grandma sit side by side looking at the open notebook filled with small drawings of each machine version, with no readable words. The child's face is brightening with an idea. A cardboard funnel and a measuring tape lie nearby."
+    },
+    {
+      "beat": "The whole family gathers on the porch for Version Six. {name} drops the red marble, and everyone holds their breath as it rolls, pulls, releases, tips, and pours water through the funnel right onto the sunflower. {name} cheers and the family cheers with {her/him}.",
+      "illustration_prompt": "The finished machine in action: the marble at the bottom of the ramp, the blue cord pulled, the cup tipped, and a neat stream of water flowing through a funnel into the sunflower pot. The child jumps with arms raised while Mom, Dad and Grandma clap. The cat watches calmly from a safe distance."
+    },
+    {
+      "beat": "Weeks later the sunflower stands taller than {name}. {name} flips through the notebook and smiles at every crossed-out idea, because each one helped. Then {she/he} turns to a fresh page and starts sketching the next machine.",
+      "illustration_prompt": "A tall, bright sunflower in full bloom next to the porch machine. The child stands beside it, shorter than the flower, smiling and drawing on a fresh notebook page. Warm late-afternoon light, the cat curled up in a sunny spot."
+    }
+  ],
+  "cover_scene": "The child stands proudly on a sunny back porch beside a colorful homemade machine made of cardboard ramps, blue cord, a yellow cup and a funnel, holding a red marble up high. A sunflower in a terracotta pot glows beside them and an orange cat peeks around the machine. The top third of the picture is a calm, open pale blue sky with soft light and no clutter.",
+  "sample_pages": [
+    {
+      "text": "Version One was ready! {name} held the red marble at the top of the ramp. \"Here goes!\" {She/He} let go. The marble zoomed down, faster and faster, then flew right off the end and bounced into the garden. {name} laughed and wrote in {her/his} notebook: Too steep. Then {she/he} made the ramp lower.",
+      "scene": "A tall, steep cardboard ramp on a sunny porch. The red marble flies through the air toward the garden while the child watches with wide eyes and a big grin. The orange cat jumps back in surprise."
+    },
+    {
+      "text": "Version Five rolled, pulled, tipped and poured. Splash! The water landed on the floor, right next to the plant. {name} sat down hard. \"It's never going to work,\" {she/he} said. Grandma sat down too. \"Never?\" she asked softly. \"After five tries, you've gotten so close.\"",
+      "scene": "The complete machine has just poured water onto the porch boards beside the sunflower pot. The child sits slumped against the wall with chin in hands, and Grandma kneels beside them with a warm, patient expression."
+    }
+  ],
+  "h1": "Personalized Science Book for Kids: The Almost-Working Machine",
+  "meta_title": "Personalized Science Book for Kids | StoryBloom",
+  "meta_description": "A personalized science book for kids: your child builds a plant-watering machine, fails five times, and learns from every try.",
+  "promise": "Your child becomes the inventor who keeps going, turning every flop into the clue that makes the machine finally work.",
+  "story_summary": "A little sunflower on the back porch keeps drooping because the family is always rushing out the door, so your child decides to build a machine to water it. With a notebook, a red marble, cardboard ramps and a yellow cup, the first version is ready to test. Then things start going wrong in the funniest ways: flying marbles, snapped string, and a very wet cat. After each mishap your child figures out what to change, but by the fifth try, giving up starts to sound tempting.",
+  "why_parents": [
+    "Kids between five and nine are building more ambitious things, from block towers to craft projects, and they are also starting to notice when something does not turn out the way they pictured. That gap can feel huge. This story shows a child who meets that frustration over and over and discovers that each thing that went wrong was actually telling them what to try next.",
+    "It is also a gentle introduction to how real inventing and science work: you make a plan, test it, notice what happened, and adjust. Seeing your child as the one who writes down each clue and finally gets the water to land is a fun way to show that sticking with a problem is part of the process, not a sign that something is wrong."
+  ],
+  "for_grownups": [
+    "Pause before the last test and ask your child what they would change about the machine. There is no wrong answer, and guessing ahead is part of the fun.",
+    "Share a time something you made or tried did not work at first, and what you learned from it.",
+    "Try a mini version together with a toy car, a ramp and a cup, and keep a little notebook of what happens with each try."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child need to know about science to enjoy this book?",
+      "answer": "Not at all. The machine is built from everyday things like cardboard, string, a cup and a marble, and the pictures show exactly how each part works."
+    },
+    {
+      "question": "Is the story sad or discouraging since the machine keeps failing?",
+      "answer": "The mishaps are playful and often funny, like the marble flying into the garden and a cat getting splashed. Your child does feel frustrated for a moment, which makes the moment it finally works feel even better."
+    },
+    {
+      "question": "Could we build the machine from the book at home?",
+      "answer": "The machine is simple enough to inspire a home version with a ramp, a marble and a cup. A grown-up can help set it up outdoors or somewhere a little water spill is no trouble."
+    }
+  ],
+  "image_alt": "Personalized science book cover featuring an illustrated child as the hero beside a homemade cardboard watering machine and a sunflower",
+  "feed_title": "Personalized Science Book for Kids, Your Child Is the Inventor Who Never Gives Up",
+  "feed_description": "A personalized picture book for ages 5 to 9 where your child becomes the inventor. When a little sunflower on the back porch keeps drooping, your child sketches a plan and builds a machine from cardboard ramps, string, a yellow cup and a red marble to water it. The first try sends the marble flying into the garden. Then the string snaps, the cup splashes the cat, and water leaks everywhere. Each mishap becomes a clue written in a notebook, and your child keeps adjusting until the machine works. A playful story about testing ideas, learning from mistakes and sticking with a problem, with warm illustrations that show every version of the machine."
+}

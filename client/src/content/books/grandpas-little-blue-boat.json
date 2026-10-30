@@ -1,0 +1,117 @@
+{
+  "slug": "grandpas-little-blue-boat",
+  "status": "live",
+  "title_pattern": "{name} and Grandpa's Little Blue Boat",
+  "category": "gifts-from-grandparents",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book from grandpa to grandchild",
+  "landing_page_slug": "books/grandpas-little-blue-boat",
+  "example": {
+    "name": "Theo",
+    "pronouns": "he",
+    "look": "light skin, curly auburn hair, uses a wheelchair"
+  },
+  "tagline": "A day on the lake with Grandpa, a lost duckling, and a rescue only your child can lead.",
+  "lesson_or_purpose": "Shows that patience, quiet listening and gentle care can solve a real problem, and that the stories grandparents share connect generations.",
+  "tone": "Warm, gentle, lightly funny, with a calm and cozy lakeside feel",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, simple dialogue and a few sound words.",
+  "keywords": [
+    "book from grandpa to grandchild",
+    "personalized grandpa book",
+    "grandpa and me book",
+    "gift from grandfather to grandson",
+    "gift from grandfather to granddaughter",
+    "boat book for kids",
+    "duckling rescue story",
+    "grandparent keepsake book"
+  ],
+  "illustration_guide": "Setting: a quiet freshwater lake with reeds, lily pads, a small wooden dock and pine-dotted shores. The same small, slightly weathered blue rowboat with two wooden oars appears on every page. Palette: soft lake blues and greens, warm morning gold, creamy whites, a sunset of peach and rose at the end. Recurring elements: the child in a bright orange life jacket, Grandpa in a canvas hat and rolled sleeves, a tin picnic box, a fluffy yellow-brown duckling, gentle ripples and dragonflies. Grandpa's memories appear as soft, sepia-tinted vignette bubbles showing a young boy in the same blue boat. Style: painterly, rounded shapes, friendly faces, lots of open water and sky.",
+  "page_outline": [
+    {
+      "beat": "Early morning at the lake, {name} runs down the dock to meet Grandpa, who shows off the little blue boat that Grandpa painted long ago. {name} buckles on a bright life jacket, ready for a big day on the water.",
+      "illustration_prompt": "Misty golden morning at a calm lake, the child in an orange life jacket running along a wooden dock toward a smiling grandfather in a canvas hat, a small blue rowboat tied at the end of the dock."
+    },
+    {
+      "beat": "They push off and Grandpa lets {name} hold one oar. As {name} tries to row, Grandpa laughs and recalls being a small boy who rowed in circles all summer. {name} giggles, keeps trying, and soon makes the boat glide straight.",
+      "illustration_prompt": "The child gripping one oar in the blue rowboat as it spins in a gentle circle, grandfather laughing; a sepia memory bubble above shows a young boy in the same boat going round in circles."
+    },
+    {
+      "beat": "Out in the middle of the lake, everything is still. Grandpa opens the picnic tin and tells a funny tale of the day young Grandpa fished all morning and caught only an old boot. While {name} laughs, a tiny peep drifts over from the reeds, and {name} sits up to listen.",
+      "illustration_prompt": "The blue boat resting on glassy water, the child and grandfather sharing sandwiches from a tin box, a sepia memory bubble of a boy holding up a dripping boot, the child turning toward distant reeds."
+    },
+    {
+      "beat": "{name} points to the reeds, where a fluffy duckling paddles all alone, peeping. There is no mother duck anywhere. {name} feels a worried flutter and knows this little one needs help.",
+      "illustration_prompt": "Close view of tall green reeds and lily pads with a small fluffy duckling alone in the water, the blue boat at a respectful distance with the child leaning forward, concerned."
+    },
+    {
+      "beat": "Grandpa asks what {name} thinks they should do. {name} wants to scoop the duckling up, then stops and decides the best help is finding the duckling's family. Grandpa nods proudly at {name}'s careful choice.",
+      "illustration_prompt": "The child sitting thoughtfully in the boat, hands folded in lap, grandfather nodding warmly, the duckling peeping nearby on calm water."
+    },
+    {
+      "beat": "They row slowly along the shore, searching. Grandpa remembers getting lost at a busy summer fair as a small boy, and how scary it felt until a kind helper came along. {name} decides to be that kind helper today.",
+      "illustration_prompt": "The blue boat gliding along a pine-lined shore, the child scanning the water, a sepia memory bubble of a small boy at a fair being helped by a kind adult, the duckling paddling behind the boat."
+    },
+    {
+      "beat": "No ducks anywhere. Then {name} has an idea: stop the oars and listen. Grandpa rests the oars, and in the quiet {name} hears faint quacking from across the cove.",
+      "illustration_prompt": "Perfectly still water, oars resting across the boat, the child with a hand cupped to an ear and eyes wide, grandfather holding still, faint ripples far across a sheltered cove."
+    },
+    {
+      "beat": "{name} guides the way, telling Grandpa to row slow and steady so the duckling can follow without fear. Bit by bit, {name} leads the little one across the cove, never rushing.",
+      "illustration_prompt": "The blue boat moving gently across the cove, the child pointing the direction, grandfather rowing softly, the duckling following in the wake with small ripples."
+    },
+    {
+      "beat": "Around the bend waits a mother duck with a row of ducklings. The lost duckling peeps and races to join them. {name} and Grandpa cheer in soft whispers so the duck family is not startled.",
+      "illustration_prompt": "A mother duck and a line of ducklings near the shore, the lost duckling swimming to join them, the child and grandfather in the boat at a distance, both beaming with hands raised in quiet celebration."
+    },
+    {
+      "beat": "At sunset, {name} rows the little blue boat back to the dock with Grandpa's help. Grandpa says that today {name} made a story worth telling for years to come, and {name} cannot wait to tell it.",
+      "illustration_prompt": "Peach and rose sunset over the lake, the child and grandfather rowing together toward the dock, the duck family silhouetted in the distance, warm light on both smiling faces."
+    }
+  ],
+  "cover_scene": "The child in an orange life jacket sits proudly at the oars of a small blue rowboat on a calm, shining lake, with Grandpa in a canvas hat smiling beside the child and a fluffy duckling paddling alongside. Reeds and a pine-lined shore frame the lower edges, and a wide, calm pale-blue morning sky with soft wisps of cloud fills the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "{name} held one big oar. Splash! The boat went round and round. \"When I was little,\" said Grandpa, \"I rowed in circles all summer long!\" {name} giggled and pulled again. This time, the little blue boat went straight.",
+      "scene": "The child gripping one oar in the blue rowboat, grandfather laughing, a sepia memory bubble above showing a young boy spinning in circles in the same boat."
+    },
+    {
+      "text": "\"Shh,\" said {name}. \"Let's be still and listen.\" Grandpa rested the oars. The water went quiet. Then, far across the cove... quack, quack! {name}'s eyes went wide.",
+      "scene": "Glassy still water, oars resting across the boat, the child with a hand cupped to one ear and wide eyes, grandfather holding very still, the duckling nearby."
+    }
+  ],
+  "h1": "Personalized Book from Grandpa to Grandchild: A Day on the Little Blue Boat",
+  "meta_title": "Personalized Grandpa Boat Book | StoryBloom",
+  "meta_description": "A personalized book from grandpa to grandchild: a lake day in a little blue boat, a lost duckling, and your child leading the gentle rescue.",
+  "promise": "Your child and Grandpa share a day on the water, swap stories across the years, and help a lost duckling find its way home.",
+  "story_summary": "Your child spends a bright morning at the lake with Grandpa in a little blue rowboat Grandpa painted long ago. Between rowing lessons and picnic snacks, Grandpa shares funny memories of being small in that very same boat. Then a tiny peep from the reeds reveals a duckling paddling all alone. Your child decides how to help, and the quiet search across the lake becomes an adventure they will both remember.",
+  "why_parents": [
+    "Young children love hearing that grown-ups were once small, clumsy and learning too. Grandpa's memories of rowing in circles and catching an old boot make him relatable, and they turn a simple outing into a bridge between generations.",
+    "The duckling rescue gives your child a real choice to make. Instead of grabbing the duckling, your child chooses patience, listens closely and leads gently, which is a lovely picture of what kindness looks like in action at this age."
+  ],
+  "for_grownups": [
+    "Ask your child why it was better to find the duckling's family than to scoop it up. Talk about how some animals are best helped from a little distance.",
+    "Share a true story from when you or Grandpa were small, especially a time something went wrong and turned out funny.",
+    "Try the quiet listening game from the story: sit still together for one minute and name every sound you hear."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a good gift from a grandpa who lives far away?",
+      "answer": "Yes. The story is full of Grandpa's memories and shared moments, so it can feel like a visit on the page and makes a nice starting point for a video call or a letter."
+    },
+    {
+      "question": "Does the story teach anything about wildlife?",
+      "answer": "In a gentle way. Your child chooses not to grab the duckling and instead helps it find its mother from a respectful distance, keeping quiet so the duck family is not startled."
+    },
+    {
+      "question": "Is the boating safe and calm for little readers?",
+      "answer": "Yes. Your child wears a life jacket the whole time, Grandpa is always there, and the lake stays calm from morning to sunset. There are no scary moments beyond a short worry for the lost duckling."
+    }
+  ],
+  "image_alt": "Personalized grandpa book cover featuring an illustrated child rowing a little blue boat with Grandpa and a duckling on a calm lake",
+  "feed_title": "Personalized Book from Grandpa to Grandchild, Your Child Rescues a Duckling in Grandpa's Blue Boat",
+  "feed_description": "A personalized picture book from grandpa to grandchild for ages 3 to 8. Your child spends a day on a calm lake with Grandpa in a little blue rowboat Grandpa painted long ago. While learning to row and sharing a picnic, your child hears funny stories of Grandpa as a small boy, from rowing in circles to fishing up an old boot. Then a lost duckling appears in the reeds, and your child chooses to help it find its family through patience, quiet listening and gentle guidance. Soft lakeside illustrations, warm humor and a sunset ending make this a heartfelt keepsake gift from a grandfather to a grandson or granddaughter."
+}

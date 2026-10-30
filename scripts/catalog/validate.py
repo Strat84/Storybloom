@@ -112,8 +112,9 @@ def check_book(b):
             if "{" in r or "}" in r:
                 p.append(f"unresolved token in: {s[:80]}")
                 break
-        # A bare pronoun right after the child's name usually means a missed token.
-        if re.search(r"\{name\}[^.?!]{0,40}\b(she|he|her|him|his)\b", s, re.I):
+        # Other characters may use ordinary pronouns, so only the unmistakable case is caught here;
+        # generate_content.py has Claude read the whole story for the rest.
+        if re.search(r"\{name\}\s+\w+\s+(his|her)\s+(own\s+)?(hands?|eyes?|head|arms?|feet|mittens|backpack|bed|room|shoes|nose|face|cheeks?)\b", s, re.I):
             p.append(f"bare pronoun about the child; use a pair token: {s[:90]}")
     pics = " ".join([x["illustration_prompt"] for x in b["page_outline"]] + [x["scene"] for x in b["sample_pages"]] + [b["cover_scene"]])
     if "{name}" in pics:

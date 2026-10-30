@@ -1,0 +1,117 @@
+{
+  "slug": "kitten-on-the-roof",
+  "status": "live",
+  "title_pattern": "{name} and the Kitten on the Roof",
+  "category": "animals",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized cat book for kids",
+  "landing_page_slug": "books/kitten-on-the-roof",
+  "example": {
+    "name": "Sophie",
+    "pronouns": "she",
+    "look": "fair skin, long red hair in a braid"
+  },
+  "tagline": "A scared kitten, a quiet yard, and a child who learns that waiting can work wonders.",
+  "lesson_or_purpose": "Patience and gentleness work better than force. The child notices how the kitten feels and chooses calm, quiet waiting over grabbing and shouting.",
+  "tone": "Warm, gentle and a little suspenseful, with soft humor and a cozy, satisfying ending.",
+  "reading_level": "Ages 3-7: short sentences, simple words, some gentle repetition for read-aloud rhythm.",
+  "keywords": [
+    "personalized cat book for kids",
+    "personalized kitten book",
+    "cat picture book with child's name",
+    "book about patience for kids",
+    "personalized animal book",
+    "kitten story for preschoolers",
+    "gentle story about kindness to animals",
+    "custom children's book cat"
+  ],
+  "illustration_guide": "Setting: a cozy backyard with soft green grass, a small wooden garden shed with a gently sloped moss-green roof, a white climbing trellis with pink roses against the shed, a blue rain barrel, and a low wooden fence to the neighbor's yard. The kitten is a small orange tabby with white paws, big amber eyes and a little blue collar, drawn the same on every page. Mom wears a yellow cardigan. The neighbor, Mrs. Alder, is an older woman with silver hair in a bun and a green gardening apron. A woven basket with a soft patchwork blanket appears from the middle of the story onward. Time moves from bright afternoon to warm golden hour, ending in a soft blue dusk. Palette: warm oranges, rose pinks, soft greens and sky blue, with gentle watercolor textures and rounded, friendly shapes. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "On a sunny afternoon, {name} is playing with a ball in the backyard while Mom waters the flowers. Suddenly {name} stops: {she/he} hears a tiny, wobbly mew coming from somewhere above.",
+      "illustration_prompt": "A bright backyard in afternoon sun. The child holds a red ball and tilts their head, listening. Mom in a yellow cardigan waters roses near a small wooden shed in the background."
+    },
+    {
+      "beat": "{name} looks up and spots a little orange kitten perched on the sloped shed roof, its tail puffed and its white paws clinging tight. The kitten is stuck and does not know how to get down.",
+      "illustration_prompt": "Low angle view from the grass looking up at a small orange tabby kitten with white paws and a blue collar clinging to the moss-green shed roof. The child stands below, pointing up with wide eyes."
+    },
+    {
+      "beat": "{name} wants to help right away, so {she/he} calls loudly, waves both arms and jumps up and down. But the noise frightens the kitten, and it scoots farther back across the roof.",
+      "illustration_prompt": "The child jumps with arms waving and mouth open in a big call. On the roof, the kitten flattens its ears and backs toward the far corner, tail puffed."
+    },
+    {
+      "beat": "{name} reaches for the rain barrel to climb, but Mom gently says that roofs are not for children to climb. Mom tries reaching from a step stool, yet the kitten only hides farther away. 'Maybe it needs time,' Mom says, and {name} frowns.",
+      "illustration_prompt": "Mom stands on a short step stool stretching a hand toward the roof edge while the kitten hides at the far corner. The child stands beside the blue rain barrel with a disappointed frown."
+    },
+    {
+      "beat": "{name} stomps one foot and crosses {her/his} arms. Then {she/he} takes a slow breath and really looks at the kitten. It is shaking. {name} remembers how it feels to be scared and how loud noises make it worse.",
+      "illustration_prompt": "Close view of the child, arms crossed, then softening as they look up thoughtfully. Above, the small kitten trembles with big worried amber eyes."
+    },
+    {
+      "beat": "{name} makes a choice: no more shouting and no more grabbing. {She/He} sits down very still on the grass, speaks in a tiny whisper, and hums a soft little tune.",
+      "illustration_prompt": "The child sits cross-legged on the grass, hands resting in their lap, eyes gentle, humming quietly. The kitten peeks out from the roof corner, ears turning forward."
+    },
+    {
+      "beat": "{name} tiptoes inside and returns with a woven basket lined with a soft patchwork blanket and a small dish of water. {She/He} sets them at the bottom of the rose trellis, then steps back and waits, and waits.",
+      "illustration_prompt": "The child carefully places a woven basket with a patchwork blanket and a little water dish at the base of the white rose trellis against the shed. The light turns golden."
+    },
+    {
+      "beat": "Slowly, the kitten creeps to the roof edge. One paw, then another, it climbs down the trellis while {name} stays as still as a stone and whispers, 'You can do it.' With a little hop, the kitten lands in the basket.",
+      "illustration_prompt": "Golden hour light. The kitten climbs down the rose trellis paw by paw. The child kneels a few steps away, perfectly still, hands clasped and smiling with hope."
+    },
+    {
+      "beat": "Just then a voice calls from over the fence. It is Mrs. Alder from next door, searching for her kitten, Pip. {name} lifts the basket with both hands and carries it slowly and gently to the fence.",
+      "illustration_prompt": "The child carries the basket with the kitten curled on the blanket toward the low wooden fence. An older woman with a silver bun and green gardening apron leans over the fence, relieved."
+    },
+    {
+      "beat": "Mrs. Alder hugs Pip and thanks {name} for being so patient and kind, and she invites {her/him} to visit Pip any time. That night, as the stars come out, {name} hears a happy little mew from next door and smiles, knowing that quiet waiting helped a scared kitten come home.",
+      "illustration_prompt": "Soft blue dusk. The child looks out a bedroom window toward the neighbor's lit window, where the orange kitten sits on the sill. Stars twinkle in the sky."
+    }
+  ],
+  "cover_scene": "The child stands on soft green grass in a cozy backyard, looking up with a gentle, hopeful smile at a small orange tabby kitten with white paws and a blue collar peeking over the edge of a moss-green garden shed roof. A white trellis with pink roses climbs the shed and a woven basket sits on the grass. Warm golden afternoon light. The top third of the picture is calm, open pale blue sky with a few faint soft clouds, free of detail.",
+  "sample_pages": [
+    {
+      "text": "{name} looked up, up, up. There on the shed roof was a tiny orange kitten. Mew! said the kitten. It was stuck!",
+      "scene": "Low angle view from the grass up to a small orange tabby kitten clinging to the moss-green shed roof. The child stands below with wide eyes, pointing up."
+    },
+    {
+      "text": "No more shouting. No more grabbing. {name} sat down on the grass, still as a stone. {She/He} hummed a soft little song. Hum, hum, hum.",
+      "scene": "The child sits cross-legged on the grass with calm hands and gentle eyes, humming. On the roof, the kitten peeks out from the corner, ears turning forward with curiosity."
+    }
+  ],
+  "h1": "Personalized Cat Book for Kids: Your Child and the Kitten on the Roof",
+  "meta_title": "Personalized Cat Book for Kids | StoryBloom",
+  "meta_description": "A personalized cat book where your child helps a scared kitten off a roof by staying calm, quiet and patient. A gentle story for ages 3-7.",
+  "promise": "Your child becomes the calm, clever hero who helps a frightened kitten find its way down and back home.",
+  "story_summary": "On an ordinary sunny afternoon, your child hears a tiny mew and discovers a little orange kitten stuck on the backyard shed roof. Your child's first idea is to call and wave, but the noise only makes the kitten more frightened. With Mom nearby, and roofs off limits for climbing, your child has to think of a different way to help. What happens next depends on a choice your child makes about being loud or being still.",
+  "why_parents": [
+    "Young children feel big urges to fix things right now, especially when an animal seems to need them. This story gives that eager, caring energy a gentle place to go, showing a child who slows down, notices how the kitten feels, and finds that calm can do what grabbing cannot.",
+    "For many kids ages 3 to 7, cats are irresistible, and learning to approach animals softly is a useful everyday skill. Seeing themselves sit still, whisper and wait gives children a picture of patience they can recognize the next time they meet a neighbor's pet or feel frustrated waiting for something."
+  ],
+  "for_grownups": [
+    "Pause when the kitten backs away and ask, \"Why do you think the kitten is scared? What could help it feel safe?\"",
+    "Talk about safety: in the story Mom says roofs are not for children to climb. Remind your child to always get a grown-up when an animal is stuck somewhere high.",
+    "Practice being as still as a stone together. Take a slow breath, hum softly, and talk about a time waiting quietly worked better than rushing."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story encourage children to climb to reach animals?",
+      "answer": "No. When your child reaches for the rain barrel, Mom gently explains that roofs are not for children to climb. Your child solves the problem from the ground by staying calm and setting out a cozy basket."
+    },
+    {
+      "question": "Is the kitten ever hurt or in real danger?",
+      "answer": "The kitten is stuck and nervous, which creates gentle suspense, but nothing scary happens. It climbs down safely and is happily reunited with its owner next door."
+    },
+    {
+      "question": "Does our family need to have a cat for this book to fit?",
+      "answer": "Not at all. The kitten belongs to a neighbor, so the story works for any child who loves animals, whether or not there is a pet at home."
+    }
+  ],
+  "image_alt": "Personalized cat book cover featuring an illustrated child looking up at an orange kitten on a garden shed roof",
+  "feed_title": "Personalized Cat Book for Kids, Your Child Helps a Kitten Down From the Roof",
+  "feed_description": "A personalized picture book for ages 3 to 7 in which your child is the hero who helps a stuck kitten. While playing in the backyard, your child hears a tiny mew and finds a little orange kitten perched on the garden shed roof. Calling and waving only frighten it, and climbing is not allowed, so your child must find another way. By sitting still, humming softly and setting out a cozy basket, your child shows that patience and gentleness can work better than force. Warm watercolor style illustrations follow the afternoon from bright sun to golden hour to a starry evening. A gentle read-aloud story about kindness to animals, staying calm and waiting, with simple text and a cozy ending that suits bedtime."
+}

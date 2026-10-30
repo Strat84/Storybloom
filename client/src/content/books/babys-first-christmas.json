@@ -1,0 +1,116 @@
+{
+  "slug": "babys-first-christmas",
+  "status": "live",
+  "title_pattern": "{name}'s First Christmas",
+  "category": "christmas",
+  "age_range": "0-3",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Dec",
+  "sensitive": false,
+  "main_keyword": "baby's first christmas book personalized",
+  "landing_page_slug": "books/babys-first-christmas",
+  "example": {
+    "name": "Mateo",
+    "pronouns": "he",
+    "look": "tan skin, wavy dark brown hair"
+  },
+  "tagline": "Twinkle lights, a little stocking, and the coziest arms of all.",
+  "lesson_or_purpose": "A gentle, rhythmic celebration of a baby's first Christmas that names the sights, sounds and cuddles of the season, with the little one helping find the missing star for the tree.",
+  "tone": "Soft, cozy, rhythmic and playful, like a lullaby with a giggle in it.",
+  "reading_level": "Read-aloud for ages 0-3. Short rhyming lines of 4 to 10 words per page, with repeated sounds like blink, crinkle and peek.",
+  "keywords": [
+    "baby's first christmas book personalized",
+    "personalized first christmas book",
+    "baby's first christmas gift",
+    "personalized christmas book for toddlers",
+    "first christmas keepsake book",
+    "christmas board story for babies",
+    "personalized baby book christmas"
+  ],
+  "illustration_guide": "A warm family living room on Christmas Eve and Christmas morning: a tall green tree with soft glowing lights, a fireplace hung with plain stockings including one very small red stocking, a snowy window showing gentle falling snow. Palette of deep pine green, cranberry red, warm gold and creamy white, with soft amber light. Recurring elements on every page: the twinkling tree lights, a small gold star with rounded points (missing from the tree until page 7), a fluffy cream blanket, and a little knit cap with a pompom worn by the child. Rounded shapes, soft textures, low clutter and big simple forms suited to babies. The child is a baby or young toddler, always safe and close to a grown-up. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Christmas Eve begins. Snow falls softly outside the window as {name} wakes up snug in a blanket. Keep it to a short rhyme announcing that this is {name}'s very first Christmas.",
+      "illustration_prompt": "The child, wrapped in a fluffy cream blanket and wearing a knit cap with a pompom, is cuddled by a grown-up beside a frosty window with gentle snow falling outside, a softly glowing tree in the background."
+    },
+    {
+      "beat": "The tree lights blink on. {name} reaches toward the twinkling lights and giggles. Use repetition like blink, blink, twinkle.",
+      "illustration_prompt": "The child sits on a soft rug in front of the tall green tree, one small hand reaching toward glowing gold and red lights, face lit up with delight."
+    },
+    {
+      "beat": "Stockings hang by the fireplace, big ones for the grown-ups and one tiny stocking just for {name}. A soft rhyme about one stocking being small and new.",
+      "illustration_prompt": "A cozy fireplace with plain stockings in a row and one very small red stocking at the end; the child points at it from a grown-up's lap."
+    },
+    {
+      "beat": "A small problem: the gold star for the top of the tree is missing. Mom, Dad and Grandma look all around. {name} watches and wonders. Simple repeated question: Where is the star?",
+      "illustration_prompt": "Grown-ups peek behind cushions and under the tree with puzzled, gentle expressions, while the child sits on the rug watching with wide curious eyes; the treetop is bare."
+    },
+    {
+      "beat": "{name} crawls or scoots across the floor to help, peeking under ribbons and piles of crinkly wrapping paper. Use peek, peek, peek.",
+      "illustration_prompt": "The child crawls happily among soft piles of red and gold wrapping paper and loose ribbons near the tree, peeking under a fold of paper."
+    },
+    {
+      "beat": "{name} finds the star tucked inside the crinkly paper and holds it up high. Everyone cheers. A joyful short rhyme about the found star.",
+      "illustration_prompt": "The child sits up holding the small gold star with rounded points above a nest of crinkled paper, beaming, as the grown-ups clap in the background."
+    },
+    {
+      "beat": "Dad lifts {name} up gently, and together they place the star on top of the tree. The whole tree shines. Repeat a word like shine.",
+      "illustration_prompt": "Dad holds the child up safely near the treetop as the child's small hands set the gold star in place, the star glowing warmly and the tree lights sparkling."
+    },
+    {
+      "beat": "Christmas morning arrives. Presents wait under the tree, and {name} loves the crinkle and rip of the wrapping paper and the empty box most of all. Use crinkle, crinkle, rip.",
+      "illustration_prompt": "Morning light fills the room; the child sits in an open cardboard box surrounded by torn red and gold paper, laughing, while grown-ups smile nearby."
+    },
+    {
+      "beat": "The family gathers close by the tree. Mom, Dad and Grandma take turns holding {name} and singing a soft carol. The warmest gift is being held close.",
+      "illustration_prompt": "The family sits together on a sofa by the glowing tree, the child snuggled in a grown-up's arms, everyone singing softly with relaxed, happy faces."
+    },
+    {
+      "beat": "Night falls again. The star {name} found glows on top of the tree as {name} drifts to sleep, held close. End with a gentle repeating line about a first Christmas full of love.",
+      "illustration_prompt": "A dim, cozy room lit by the glowing gold star and soft tree lights; the child sleeps peacefully in a grown-up's arms under the fluffy cream blanket, snow falling outside the window."
+    }
+  ],
+  "cover_scene": "The child, in a knit cap with a pompom, sits on a soft rug in front of a tall glowing Christmas tree, holding up a small gold star with rounded points and smiling. Wrapping paper and a tiny red stocking sit nearby. The top third of the picture is a calm, softly blurred deep green and warm gold background with gentle falling snow beyond a window, open and uncluttered for a title.",
+  "sample_pages": [
+    {
+      "text": "Blink, blink, twinkle! Lights so bright. {name} reaches for the light.",
+      "scene": "The child sits on a soft rug in front of the tall green tree, one small hand reaching toward glowing gold and red lights, face lit up with delight."
+    },
+    {
+      "text": "Where's the star? Peek, peek, peek! Under paper, {name} will seek.",
+      "scene": "The child crawls happily among soft piles of red and gold wrapping paper and loose ribbons near the tree, peeking under a fold of paper."
+    }
+  ],
+  "h1": "Personalized Baby's First Christmas Book",
+  "meta_title": "Personalized Baby's First Christmas Book | StoryBloom",
+  "meta_description": "A personalized baby's first Christmas book: gentle rhymes about lights, stockings, wrapping paper and cuddles, with your child as the hero.",
+  "promise": "A soft, rhyming keepsake of your little one's very first Christmas, from twinkling lights to the cozy arms that hold them close.",
+  "story_summary": "It's Christmas Eve, the snow is falling, and your child is waking up to a first Christmas. The tree lights blink, a tiny stocking hangs by the fire, and everything feels new. Then the family discovers the gold star for the top of the tree has gone missing. Your little one sets off across the floor, peeking under ribbons and crinkly paper, ready to help.",
+  "why_parents": [
+    "A first Christmas goes by in a blur of lights, visits and wrapping paper, and babies take it all in through their senses. A book that names those exact things, the blink of the tree, the crinkle of paper, the warmth of being held, gives you a simple way to share the moment while it's happening and to look back on it later.",
+    "For babies and toddlers, short rhymes and repeated sounds are a joy to hear in a familiar voice. This story keeps the words few and the rhythm gentle, and it gives your little one a small, proud part in the family's Christmas by finding the missing star."
+  ],
+  "for_grownups": [
+    "As you read, make the sounds together: blink, crinkle, peek. Pause and let your child pat the page or babble back.",
+    "Point out the same things in your own home, like the lights on your tree or a stocking by the window, so the pages connect to what your child sees.",
+    "Read it again on future Christmases and talk about how small your child was the year the star went missing."
+  ],
+  "faqs": [
+    {
+      "question": "My baby isn't crawling yet. Does the story still fit?",
+      "answer": "Yes. The words are written for reading aloud to the youngest listeners, and the star hunt is told through gentle peeking and reaching, so it suits newborns and busy toddlers alike."
+    },
+    {
+      "question": "Is this a religious Christmas book?",
+      "answer": "It celebrates warm family Christmas traditions: the tree, the star, stockings, presents and singing a carol together. It does not retell the Nativity story, so it fits comfortably alongside the way your family keeps the holiday."
+    },
+    {
+      "question": "Will it still feel right if we read it after Christmas?",
+      "answer": "Absolutely. Many families keep it as a first Christmas keepsake and bring it out each December, and the cozy, sleepy ending makes it a sweet bedtime read any time of year."
+    }
+  ],
+  "image_alt": "Personalized baby's first Christmas book cover featuring an illustrated baby holding a gold star in front of a glowing Christmas tree",
+  "feed_title": "Personalized Baby's First Christmas Book for Babies and Toddlers, Your Child Is the Hero",
+  "feed_description": "A gentle rhyming picture book about a baby's first Christmas, made for your child. On a snowy Christmas Eve, the tree lights blink, a tiny stocking hangs by the fire, and the gold star for the top of the tree has gone missing. Your little one peeks under ribbons and crinkly wrapping paper to find it, then helps place it on the tree. Christmas morning brings paper to crinkle, a box to sit in, and a family carol sung close together. Written for ages 0 to 3 with very few words, soft rhythm and repeated sounds like blink, crinkle and peek. Warm pine green, cranberry and gold illustrations show your child as the hero on every page. A cozy keepsake for a first Christmas."
+}

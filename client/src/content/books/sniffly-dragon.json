@@ -1,0 +1,117 @@
+{
+  "slug": "sniffly-dragon",
+  "status": "live",
+  "title_pattern": "{Dame/Sir} {name} and the Sniffly Dragon",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized knight and dragon book",
+  "landing_page_slug": "books/sniffly-dragon",
+  "example": {
+    "name": "Kai",
+    "pronouns": "he",
+    "look": "light tan skin, straight dark hair, gap-toothed smile"
+  },
+  "tagline": "A young knight rides out to chase off a dragon and finds out it just needs a tissue, some soup, and a whole village of helpers.",
+  "lesson_or_purpose": "Looking closer before deciding someone is a threat, choosing kindness over fighting, and discovering that a big problem gets smaller when everyone pitches in.",
+  "tone": "Playful, warm and gently funny, with big sneezes and a cozy, caring ending.",
+  "reading_level": "Read-aloud for ages 3-8: short sentences, repeated patterns, and sound words like ah-choo for little listeners, with enough story for early readers to follow on their own.",
+  "keywords": [
+    "personalized knight and dragon book",
+    "personalized dragon book for kids",
+    "knight book with child's name",
+    "kindness picture book",
+    "personalized adventure book",
+    "dragon story for preschoolers",
+    "custom knight storybook",
+    "teamwork book for kids"
+  ],
+  "illustration_guide": "Setting: Thistledown, a cheerful hilltop village of round stone cottages with mossy thatched roofs, crooked chimneys and flower boxes, with a misty green mountain and a dragon cave above it. Palette: meadow greens, warm honey yellows, soft sky blues and cottage reds, with the dragon in a gentle sea-green and a bright cherry-red nose. Recurring elements on every page where they fit: the child in a simple knight's tunic with a small round wooden shield painted with a sun, a dented silver helmet a little too big, and a dappled gray pony named by role only as the pony; the dragon's red nose and little puffs of gray-white smoke; a checked red-and-white handkerchief. Style: soft watercolor with ink outlines, rounded friendly shapes, expressive faces, nothing sharp or menacing. No words, signs or lettering in any image.",
+  "page_outline": [
+    {
+      "beat": "Morning in the hilltop village of Thistledown. {Dame/Sir} {name}, the village's youngest knight, is polishing {her/his} wooden sun shield when a huge BOOM rolls down from the mountain. Windows rattle, hats fly off, and puffs of smoke drift over the rooftops. The villagers are worried.",
+      "illustration_prompt": "A cheerful village of round stone cottages on a hill, villagers clutching their hats as a gust and gray smoke puffs roll down from a misty green mountain; the child in a knight's tunic and too-big silver helmet looks up from polishing a small wooden shield painted with a sun."
+    },
+    {
+      "beat": "The village elder asks {name} to ride up the mountain and chase the dragon away. {name} feels a wobble of nerves but says yes. Mom packs {her/his} bag with a lantern, an apple, and one red checked handkerchief, and {name} sets off on the pony.",
+      "illustration_prompt": "The child sits proudly on a dappled gray pony at the village gate, holding the sun shield, while a kindly white-haired elder points toward the mountain and a mom tucks a red checked handkerchief into the child's saddlebag; villagers wave from doorways."
+    },
+    {
+      "beat": "The path gets steeper and stranger. Trees are bent sideways, the grass is dusted with soot, and every so often the ground shakes with another BOOM. {name} counts {her/his} steps out loud to stay brave and keeps climbing.",
+      "illustration_prompt": "The child leads the pony up a winding mountain path past trees bent sideways by wind, soot speckling the grass, a dark round cave opening ahead with a puff of smoke drifting out; the child's face is determined but a little nervous."
+    },
+    {
+      "beat": "At the cave, a giant sound: Ah... ah... AH-CHOO! A blast of warm smoke sends {name}'s helmet spinning into a bush. Out peers an enormous dragon with teary eyes and a bright red, runny nose. It is not fierce at all. It is sniffly.",
+      "illustration_prompt": "At the mouth of a mossy cave, a huge sea-green dragon with watery eyes and a cherry-red nose mid-sneeze, a cloud of gray smoke billowing out; the child's silver helmet tumbles through the air toward a bush while the child stands with surprised wide eyes and windblown hair."
+    },
+    {
+      "beat": "{name} lowers the shield and asks the dragon what is wrong. The dragon explains, between sniffles, that it has the worst cold of its life and is very sorry about the village windows. {name} decides a good knight does not chase away someone who is sick. {She/He} offers to help.",
+      "illustration_prompt": "The child sits on a rock with the sun shield resting on the ground, leaning toward the droopy dragon, who rests its big chin on its claws looking sorry and sniffly; soft afternoon light and small smoke puffs float around them."
+    },
+    {
+      "beat": "{name} hands over the red checked handkerchief. It is the size of a postage stamp next to the dragon's nose. The dragon sneezes, and the handkerchief flutters away. {name} thinks hard, and then {her/his} face lights up with an idea: one knight is not enough for a cold this big, but a whole village might be.",
+      "illustration_prompt": "The dragon holds a tiny red checked handkerchief between two enormous claws, comically small against its giant red nose, as the child laughs and then taps their chin thinking, eyes bright with an idea; the handkerchief floats off on a puff of smoke."
+    },
+    {
+      "beat": "{name} gallops back to Thistledown and gathers everyone in the square. Some villagers are doubtful. {name} explains that the dragon is not mean, just sick and sorry, and asks for their help. One by one, the baker, the weaver, the beekeeper and the children say yes.",
+      "illustration_prompt": "The child stands on the edge of the village well in the square, arms open wide as if explaining, surrounded by villagers: a floury baker, a weaver holding yarn, a beekeeper in a straw hat, and small children, some looking doubtful and some already nodding."
+    },
+    {
+      "beat": "The whole village gets to work. The weaver stitches bedsheets into a giant handkerchief, the baker stirs a cauldron of soup, the beekeeper brings honey, and the children gather every spare blanket. {name} organizes the helpers and leads a long, cheerful parade up the mountain with a creaking cart.",
+      "illustration_prompt": "A busy, happy parade winds up the mountain path: the child on the pony in front, followed by a cart carrying a huge steaming soup pot, a jar of golden honey, a stack of patchwork blankets, and an enormous red checked handkerchief sewn from bedsheets, with villagers and children helping push."
+    },
+    {
+      "beat": "At the cave, everyone helps at once. The giant handkerchief catches a mighty sneeze. Blankets are tucked around the dragon, soup is ladled out with a shovel-sized spoon, and honey tea goes down warm. {name} sits beside the dragon and hums a soft song until its sneezes get smaller and smaller and it falls asleep.",
+      "illustration_prompt": "Evening glow at the cave: the dragon curled up under a patchwork of quilts, a giant red checked handkerchief draped over its claws, villagers holding a huge ladle and honey jar; the child sits close against the dragon's side humming, as tiny gentle smoke rings drift up."
+    },
+    {
+      "beat": "In the morning, the dragon wakes up with a clear nose and a happy rumble. It thanks {Dame/Sir} {name} and the village with a gentle warm breath that lights every cottage hearth for the chilly season ahead. The village cheers for {name}, the knight who solved the dragon problem with kindness, and the dragon becomes Thistledown's biggest friend.",
+      "illustration_prompt": "Sunrise over the village, the healthy dragon resting on the hillside breathing a soft warm glow toward cottage chimneys that begin to puff cozy smoke; villagers cheer below and the child stands on the dragon's outstretched paw, holding up the sun shield with a big smile."
+    }
+  ],
+  "cover_scene": "The child in a knight's tunic and slightly too-big silver helmet stands on a grassy mountainside, holding a small wooden sun shield in one hand and offering an enormous red checked handkerchief with the other to a huge, friendly sea-green dragon with a cherry-red nose who is about to sneeze, small puffs of smoke curling from its nostrils. The dappled gray pony peeks out from behind the child, and the little village of Thistledown sits far below. The top third of the picture is calm open pale blue sky with soft, wispy clouds and plenty of clear space for a title. No words or lettering.",
+  "sample_pages": [
+    {
+      "text": "The cave was dark. The cave was deep. Then out came a sound: \"Ah... ah... AH-CHOO!\" A puff of warm smoke sent {Dame/Sir} {name}'s helmet spinning into a bush. Two big, teary eyes blinked down at {her/him}. The dragon's nose was red. The dragon's nose was runny. This dragon was not fierce at all. This dragon was sniffly.",
+      "scene": "At the mouth of a mossy cave, a huge sea-green dragon with watery eyes and a bright cherry-red nose finishes a giant sneeze, gray smoke billowing; the child's silver helmet spins through the air toward a bush, and the child stands with windblown hair and wide, surprised eyes, sun shield still in hand."
+    },
+    {
+      "text": "{name} galloped back to Thistledown. \"The dragon isn't mean,\" {she/he} told everyone. \"It has a terrible cold, and it's sorry about the windows. One knight can't fix a cold that big. But a whole village can!\" The baker wiped her floury hands. The weaver put down his yarn. \"Then tell us what to do, {Dame/Sir} {name},\" they said.",
+      "scene": "In the village square, the child stands on the stone rim of the well with arms spread wide, explaining, while villagers gather close: a baker dusting flour from her hands, a weaver setting down a basket of yarn, a beekeeper in a straw hat, and small children leaning in to listen."
+    }
+  ],
+  "h1": "Personalized Knight and Dragon Book: Your Child and the Sniffly Dragon",
+  "meta_title": "Personalized Knight and Dragon Book | StoryBloom",
+  "meta_description": "A personalized knight and dragon book: your child rides out to face a dragon, finds it has a cold, and rallies the whole village to help.",
+  "promise": "Your child becomes the brave young knight of a hilltop village who discovers the scary dragon is really a sniffly one, and solves the problem with kindness, a clever plan and a lot of soup.",
+  "story_summary": "Strange booms and puffs of smoke are rattling the windows of the hilltop village of Thistledown, and its youngest knight, your child, is sent up the mountain to chase the dragon away. But at the cave, the roar turns out to be a sneeze, and the fearsome beast has teary eyes and the reddest nose in the kingdom. One small handkerchief is no match for a dragon-sized cold, so your child has to come up with a bigger plan. Back in the village, there are doubtful faces to win over before anyone will follow a young knight up the mountain with a pot of soup.",
+  "why_parents": [
+    "Between three and eight, children are full of big ideas about monsters, villains and who is scary. This story keeps all the fun of a knight-and-dragon adventure, the helmet, the pony, the climb to the cave, and then turns it on its head: the thing everyone feared just feels awful and needs help. It is a gentle, funny way to show that looking closer and asking what is wrong can be braver than charging in.",
+    "It also gives your child a satisfying kind of heroism. Your child does not win with a sword; your child wins by noticing, deciding to help, and then persuading a whole village to join in. Kids this age are learning that some problems are too big for one person, and seeing their own illustrated self lead the soup parade up the mountain makes teamwork feel like something heroes do."
+  ],
+  "for_grownups": [
+    "Pause at the cave page and ask: Everyone thought the dragon was being scary. What was really happening? Can you think of a time someone seemed grumpy or loud but was actually feeling bad?",
+    "Talk about the moment the village was doubtful. Ask your child how the knight convinced them, and what they might say to get friends to help with something.",
+    "Next time someone in the family has a cold, borrow from the book: let your child plan a small care kit with tissues, a blanket and a warm drink, just like Thistledown did for the dragon."
+  ],
+  "faqs": [
+    {
+      "question": "Is the dragon scary for younger children?",
+      "answer": "Not at all. The booms and smoke build a little suspense on the climb, but the dragon is revealed as soft, sorry and sniffly, and the rest of the story is about taking care of it."
+    },
+    {
+      "question": "Does the knight's title change for girls and boys?",
+      "answer": "Yes. The title and story read Dame for a girl and Sir for a boy, so your child is addressed as a proper knight throughout."
+    },
+    {
+      "question": "Is there any fighting in this knight story?",
+      "answer": "No. Your child carries a shield and rides a pony, but the problem is solved with kindness, a clever idea and help from the whole village rather than any battle."
+    }
+  ],
+  "image_alt": "Personalized knight and dragon book cover featuring an illustrated child as a young knight offering a giant handkerchief to a friendly sneezing dragon",
+  "feed_title": "Personalized Knight and Dragon Book for Kids, Your Child Is the Brave Knight Hero",
+  "feed_description": "A personalized picture book adventure for ages 3 to 8 in which your child is the youngest knight of a hilltop village. When booms and smoke roll down from the mountain, your child rides up on a pony to chase off the dragon, only to find it has a terrible cold, teary eyes and a bright red runny nose. One small handkerchief is not enough, so your child comes up with a plan, wins over a doubtful village, and leads a parade of soup, honey, blankets and a giant handkerchief up the mountain. A funny, warm story about looking closer, choosing kindness over fighting, and how a big problem gets smaller when everyone helps. Soft watercolor illustrations with your child as the hero on every page.\n"
+}

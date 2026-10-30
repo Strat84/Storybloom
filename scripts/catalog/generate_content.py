@@ -134,6 +134,28 @@ def one_call(client, user):
     return json.loads(text), cost
 
 
+AUDIT_SCHEMA = {
+    "type": "object", "additionalProperties": False, "required": ["problems"],
+    "properties": {"problems": {"type": "array", "items": {"type": "string"}}},
+}
+
+
+def pronoun_audit(client, book):
+    """Claude reads the story: other characters may use ordinary pronouns, so a pattern can't tell them apart."""
+    story = [x["beat"] for x in book["page_outline"]] + [x["text"] for x in book["sample_pages"]]
+    user = ("This children's story template works for a girl or a boy. {name} is the child. Pronouns about the child must be written as "
+            "{she/he}, {her/him} or {her/his} pairs. Ordinary she/he/her/him/his about other characters (Grandma, a dragon, a friend) are correct.\n\n"
+            "List each place where a plain she, he, her, him, his, girl, boy, son or daughter refers to the child, quoting the phrase. "
+            "An empty list if there are none.\n\n" + "\n".join(story))
+    resp = client.messages.create(
+        model=MODEL, max_tokens=4000, output_config={"effort": "low", "format": {"type": "json_schema", "schema": AUDIT_SCHEMA}},
+        messages=[{"role": "user", "content": user}],
+    )
+    u = resp.usage
+    cost = u.input_tokens * PRICE_IN + u.output_tokens * PRICE_OUT
+    return [f"bare pronoun about the child; use a pair token: {x}" for x in json.loads("".join(b.text for b in resp.content if b.type == "text"))["problems"]], cost
+
+
 def generate(client, seed):
     user = (
         f"Book: {seed['title_pattern']}\nHub: {seed['hub']}\nAges: {seed['age_range']}\nMain search phrase: {seed['main_keyword']}\n"
@@ -152,6 +174,9 @@ def generate(client, seed):
             "example": example_for(seed), **data,
         }
         problems = check_book(book)
+        if not problems:
+            problems, cost = pronoun_audit(client, book)
+            total += cost
         if not problems:
             return book, total, []
     return book, total, problems

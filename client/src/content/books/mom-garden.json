@@ -1,0 +1,117 @@
+{
+  "slug": "mom-garden",
+  "status": "live",
+  "title_pattern": "{name} and Mom Grow Something Wonderful",
+  "category": "gifts-from-family",
+  "age_range": "2-7",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book from mom to child personalized",
+  "landing_page_slug": "books/mom-garden",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "One mystery seed, one stormy week, and a whole lot of love growing in a little clay pot.",
+  "lesson_or_purpose": "Patience and being loved: good things grow slowly with care, and a mom's love stays steady through every storm while it waits.",
+  "tone": "Warm, cozy and gently rhythmic, with soft suspense about what the seed will become and a joyful, tender reveal.",
+  "reading_level": "Read-aloud for ages 2-7: short sentences, playful sound words and repetition for little ones, with simple dialogue older children can follow on their own.",
+  "keywords": [
+    "book from mom to child personalized",
+    "personalized book from mom",
+    "mom and child gardening book",
+    "mother and child picture book",
+    "patience book for kids",
+    "personalized gift from mom",
+    "mystery seed story",
+    "children's book about waiting"
+  ],
+  "illustration_guide": "Setting: a small family home with a wooden back porch, a kitchen windowsill and a sunny backyard garden. Palette: soft sage greens, warm terracotta, butter yellow and cream, shifting to cool slate blues and rainy grays for the storm pages, then back to golden light. Recurring elements: the same round terracotta pot with a small chipped rim, a little green watering can, Mom's striped knit scarf, a friendly robin that appears on most pages, and a tiny row of pebbles the child places around the pot. Mom is warm and expressive, often kneeling at the child's level. Soft watercolor textures, rounded shapes, gentle light. No words, signs or lettering anywhere in the art.",
+  "page_outline": [
+    {
+      "beat": "Mom hands {name} a tiny bundle tied with string. Inside is one wrinkly brown mystery seed. Mom says nobody knows what it will become, so {name} and Mom will find out together.",
+      "illustration_prompt": "Mom kneeling in a cozy kitchen, opening her palm to show the child a single wrinkly seed resting on a small cloth bundle with loose string, the child leaning in with wide curious eyes, morning sunlight through the window."
+    },
+    {
+      "beat": "On the back porch, {name} scoops soil into a round clay pot, presses the seed into the dirt and pats it flat. Mom shows {name} how to sprinkle water gently: scoop, scoop, pat, pat, sprinkle.",
+      "illustration_prompt": "The child on a wooden back porch pressing soil into a round terracotta pot with small hands, Mom beside the child tilting a little green watering can, a robin watching from the porch railing."
+    },
+    {
+      "beat": "The next morning {name} runs outside to look. Nothing! Not one green speck. Mom explains that seeds do their first work hiding in the dark, and {name} sighs a big impatient sigh.",
+      "illustration_prompt": "The child in pajamas peering closely at the plain dirt in the terracotta pot with a puzzled frown, Mom in the doorway holding a mug and smiling gently."
+    },
+    {
+      "beat": "Dark clouds roll in. Thunder rumbles and the wind starts to shake the porch. {name} looks at the little pot and worries the seed will be scared and cold.",
+      "illustration_prompt": "Slate gray clouds over the backyard, trees bending in the wind, the child at the porch door looking out at the small terracotta pot with a worried face, Mom's hand resting on the child's shoulder."
+    },
+    {
+      "beat": "{name} has an idea. {name} scoops up the pot, carries it inside while Mom holds the door, and sets it on the kitchen windowsill, tucking a ring of pebbles around it to keep it cozy.",
+      "illustration_prompt": "The child carrying the terracotta pot carefully through an open door held by Mom, rain slanting outside, then the pot on a kitchen windowsill circled by small pebbles."
+    },
+    {
+      "beat": "The storm stays for days. Every morning {name} checks the pot, gives one small sprinkle and hums a song to it. Mom and {name} wait together with books and blankets, and on the third rainy day a tiny green sprout pokes up.",
+      "illustration_prompt": "Rain streaking the window, the child and Mom snuggled under a blanket near the windowsill with picture books, the child pointing in delight at a tiny green sprout in the terracotta pot."
+    },
+    {
+      "beat": "The storm ends and the sun comes back. {name} carries the pot out to the garden. Each day the plant grows a little taller, and {name} measures it against a small hand.",
+      "illustration_prompt": "Bright golden sunshine over a fresh green garden, puddles sparkling, the child holding a flat hand beside a taller leafy plant in the terracotta pot, the robin on the fence."
+    },
+    {
+      "beat": "Waiting is still hard. {name} asks Mom how anyone can wait so long. Mom says waiting for something you love is a kind of loving, and Mom has loved watching {name} grow every single day.",
+      "illustration_prompt": "The child and Mom sitting side by side on the porch step at sunset, Mom's arm around the child, both looking at the tall leafy plant with one closed green bud on top."
+    },
+    {
+      "beat": "One bright morning, {name} finds the bud slowly opening. Petal by petal, a giant golden flower unfolds and turns its round face toward {name}, as if saying hello.",
+      "illustration_prompt": "The child gasping with joy, hands on cheeks, in front of a tall plant whose huge golden sunflower bloom opens toward the child, Mom laughing nearby, sunlight streaming through the petals."
+    },
+    {
+      "beat": "{name} and Mom sit beneath the big flower. {name} gathers a few seeds from its center to plant together next spring, and Mom gives {name} a long, warm hug: the best things grow with time, care and love.",
+      "illustration_prompt": "The child and Mom sitting close in the grass under the tall golden flower, the child holding a few seeds in cupped hands, Mom hugging the child, the robin perched on a leaf, warm late afternoon light."
+    }
+  ],
+  "cover_scene": "The child kneels in a sunny backyard garden beside Mom, both smiling at a tall golden flower rising from a round terracotta pot, a little green watering can in the grass and a robin on a leaf, with a wide calm pale blue sky and soft wisps of cloud filling the top third of the picture, no words or lettering.",
+  "sample_pages": [
+    {
+      "text": "Scoop, scoop. Pat, pat. {name} tucks the little seed into its soft brown bed. \"Sprinkle, sprinkle,\" says Mom. \"Just a little drink.\"",
+      "scene": "The child on a wooden back porch pressing soil into a round terracotta pot with small hands, Mom kneeling beside the child tilting a little green watering can, a robin watching from the railing, warm morning light."
+    },
+    {
+      "text": "BOOM went the thunder! WHOOSH went the wind! {name} scoops up the pot. \"Come inside, little seed. I will keep you safe.\" Mom holds the door wide.",
+      "scene": "Rain slanting across the backyard, the child hurrying through an open doorway hugging the terracotta pot, Mom holding the door with a proud smile, slate gray clouds behind them."
+    }
+  ],
+  "h1": "Personalized Book from Mom to Child: Grow Something Wonderful Together",
+  "meta_title": "Personalized Book from Mom to Child | StoryBloom",
+  "meta_description": "A personalized book from mom to child: you and your little one plant a mystery seed, wait out a storm, and watch a surprise bloom.",
+  "promise": "A gentle story your child and you can read side by side, about planting something together, waiting through hard days, and discovering that love keeps growing.",
+  "story_summary": "Mom gives your child a tiny wrinkly seed, and nobody knows what it will become. Together they plant it in a clay pot on the back porch and check on it every morning, even when there is nothing to see. Then a big storm rolls in, and your child has to decide how to protect the little seed. Through rainy days of blankets, books and humming songs, mother and child learn what it means to wait for something you love.",
+  "why_parents": [
+    "Between ages two and seven, waiting feels enormous. A week can seem endless, and an empty pot of dirt can be a real disappointment. This story gives that feeling a shape your child can see: a seed that needs time, a storm that has to pass, and a mom who stays right there through all of it.",
+    "It is also a quiet way for a mom to say something that is hard to put into words: I have been watching you grow every day, and I love it. Reading it together gives you a cozy moment to talk about patience, caring for living things, and the steady kind of love that does not need anything to happen in order to be there."
+  ],
+  "for_grownups": [
+    "After reading, ask your child what they think the seed might have become if it were a different seed. Wild answers welcome.",
+    "Talk about a time your child had to wait for something. What helped the waiting feel easier, like the books and blankets in the story?",
+    "Try planting a fast-growing seed such as a bean together in a cup, and check on it each morning, just like the book."
+  ],
+  "faqs": [
+    {
+      "question": "What kind of flower grows from the mystery seed?",
+      "answer": "The seed grows into a tall golden flower that turns toward the child. We keep the surprise gentle and bright so the reveal feels like a reward for all that patient care."
+    },
+    {
+      "question": "Is the storm scary for little ones?",
+      "answer": "The storm is shown with cozy energy rather than fear. The child brings the pot inside, and the rainy days are spent snuggled up with Mom, so the storm becomes a safe, shared moment."
+    },
+    {
+      "question": "Does this work as a gift from Mom for a specific occasion?",
+      "answer": "It suits any time of year, from a spring planting day to a birthday or a simple just-because surprise. Because the story is about mother and child together, it also makes a sweet keepsake for Mother's Day reading."
+    }
+  ],
+  "image_alt": "Personalized book from mom to child cover featuring an illustrated child and Mom beside a tall golden flower in a garden",
+  "feed_title": "Personalized Book from Mom to Child, Your Child Plants a Mystery Seed with Mom",
+  "feed_description": "A personalized picture book from mom to child where your little one is the illustrated hero. Mom and child plant a wrinkly mystery seed in a clay pot on the back porch and check on it every morning. When a stormy week rolls in, your child carries the pot inside to keep it safe, and mother and child wait together with books, blankets and songs until a tiny sprout appears. When the sun returns, a wonderful surprise blooms. A warm read-aloud for ages 2 to 7 about patience, caring for living things and a mom's steady love, with soft watercolor style illustrations of a cozy home and garden."
+}

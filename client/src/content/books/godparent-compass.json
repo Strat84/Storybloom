@@ -1,0 +1,119 @@
+{
+  "slug": "godparent-compass",
+  "status": "live",
+  "title_pattern": "{name} and the Godparent's Compass",
+  "category": "gifts-from-family",
+  "age_range": "2-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "godchild gift book personalized",
+  "landing_page_slug": "books/godparent-compass",
+  "example": {
+    "name": "Diego",
+    "pronouns": "he",
+    "look": "tan skin, thick black hair"
+  },
+  "tagline": "A little compass, a big promise, and a camping trip where your child leads the way home.",
+  "lesson_or_purpose": "Shows a child that a godparent's promise to help is real and lasting, and that the support a loving grown-up gives can become the child's own courage and know-how when it matters.",
+  "tone": "Warm, cozy and gently adventurous, with a calm sense of safety even in the tricky moment.",
+  "reading_level": "Read-aloud for ages 2-8: short sentences, a repeated promise line for little listeners, and enough story for older children to follow the compass clues.",
+  "keywords": [
+    "godchild gift book personalized",
+    "personalized godparent book",
+    "gift from godmother",
+    "gift from godfather",
+    "godchild keepsake book",
+    "personalized compass story",
+    "christening gift book for kids",
+    "baptism gift from godparent",
+    "camping picture book personalized",
+    "godparent promise book"
+  ],
+  "illustration_guide": "Setting moves from a sunny family living room to a pine forest campsite beside a still blue lake. Palette: warm brass and honey gold for the compass, deep pine greens, soft lake blues, sunset peach and lantern amber, ending in an indigo starry night. Recurring elements on every page where possible: the small round brass compass on a red cord, the godparent's green checked scarf, the child's yellow backpack, and the orange dome tent. The godparent is shown as a kind, steady adult figure in an outdoor jacket and the green scarf. Soft painterly textures, rounded shapes, friendly expressions, no scary darkness; the woods stay gentle and inviting. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "{name}'s godparent arrives for a visit carrying a tiny wrapped box. Inside, {name} finds a shiny brass compass on a red cord. The godparent kneels down and makes a promise: wherever {name} goes, I will always help you find your way.",
+      "illustration_prompt": "A sunny living room. The child opens a small box and lifts out a round brass compass on a red cord, eyes wide with delight. A kind adult in a green checked scarf kneels beside the child, smiling warmly."
+    },
+    {
+      "beat": "The godparent shows {name} how the little needle always swings to point north. {name} practices around the house, turning in circles and laughing as the needle settles back the same way every time, then finds north in the kitchen and the garden.",
+      "illustration_prompt": "The child spins happily in a garden holding the brass compass, the red cord swinging. The adult in the green scarf crouches nearby, pointing gently at the compass face. Flowers and a small wooden fence in the background."
+    },
+    {
+      "beat": "The godparent invites {name} on a camping trip. Together they set up an orange tent right beside a sparkling lake. The godparent shows {name} a clue to remember: the lake is to the north of the forest, so north always leads back to camp.",
+      "illustration_prompt": "A pine forest campsite beside a still blue lake. The child helps hold up a pole of an orange dome tent, yellow backpack on the ground. The adult in the green scarf holds the other side. The brass compass hangs around the child's neck."
+    },
+    {
+      "beat": "In the late afternoon, {name} and the godparent follow a winding path into the woods to pick blueberries. The path twists and curls, and {name} fills a little tin with berries, happy and busy.",
+      "illustration_prompt": "A winding forest path among tall pines in golden afternoon light. The child crouches by a blueberry bush, dropping berries into a small tin. The adult in the green scarf picks berries nearby, both smiling."
+    },
+    {
+      "beat": "When it is time to go back, every tree looks the same. The path has curled so much that even the godparent is not sure which way camp is. {name} feels a wobble of worry and holds the compass tight.",
+      "illustration_prompt": "A ring of similar-looking pine trees in soft peach evening light. The child stands holding the brass compass close with a worried but brave face. The adult in the green scarf looks around thoughtfully, one hand resting on the child's shoulder."
+    },
+    {
+      "beat": "The godparent smiles and says, I promised to help you find your way, and I gave you something to help. {name} remembers the clue: the lake is north. {name} turns slowly until the needle points ahead and says, This way!",
+      "illustration_prompt": "The child holds the compass out flat with both hands, turning to face forward with a determined look. The adult in the green scarf watches proudly, kneeling at the child's level. Gentle evening light through the pines."
+    },
+    {
+      "beat": "{name} leads the way, holding the godparent's hand. At a fork in the path, {name} checks the compass again and chooses the path that heads north. Soon they hear ducks quacking ahead.",
+      "illustration_prompt": "A fork in a forest path. The child, compass in one hand and the godparent's hand in the other, steps confidently onto the right-hand path. A pair of ducks peeks through the trees in the distance where blue water glimmers."
+    },
+    {
+      "beat": "The trees open up and there is the sparkling lake with the orange tent waiting beside it. {name} and the godparent cheer and do a little happy dance by the shore.",
+      "illustration_prompt": "The forest opens onto a shining blue lake at sunset. The orange dome tent sits on the shore. The child and the adult in the green scarf dance happily together, the brass compass bouncing on its red cord."
+    },
+    {
+      "beat": "By the crackling campfire, they share the blueberries. The godparent tells {name}: You found the way, and I was right beside you. That is what my promise means. {name} decides to make a promise back: I will help you find your way too.",
+      "illustration_prompt": "A cozy campfire glowing amber by the lake at dusk. The child and the adult in the green scarf sit on a log sharing berries from the tin. The child holds up the compass, and the adult leans close with a gentle smile."
+    },
+    {
+      "beat": "Snuggled in the tent, {name} looks up through the open flap at the stars, the compass tucked close. {name} falls asleep knowing that wherever {she/he} goes, {she/he} will never have to find the way alone.",
+      "illustration_prompt": "Inside the orange tent at night, the flap open to an indigo sky full of stars over the lake. The child sleeps peacefully in a sleeping bag, the brass compass resting by the pillow. The adult in the green scarf sits nearby, tucking in the blanket."
+    }
+  ],
+  "cover_scene": "The child stands on a gentle rise at the edge of a pine forest beside a calm blue lake, holding a brass compass on a red cord out in front with a proud, curious smile and a yellow backpack on. The adult in a green checked scarf stands just behind, a hand on the child's shoulder, and an orange tent sits by the shore below. The top third of the picture is open, calm peach and soft blue evening sky with no clutter, leaving space for a title.",
+  "sample_pages": [
+    {
+      "text": "Round and round, {name} spins. Wobble, wobble, swing! The little needle settles down and points the same way every time. \"That is north,\" says Godparent. \"It always knows the way.\"",
+      "scene": "The child spins happily in a garden holding the brass compass on its red cord. The adult in the green scarf crouches nearby, pointing gently at the compass face. Flowers and a small wooden fence in the background."
+    },
+    {
+      "text": "{name} holds the compass flat and still. The lake is north. North leads home. Slowly, slowly, {name} turns until the needle points straight ahead. \"This way!\" {she/he} says, and Godparent smiles. \"I knew you could.\"",
+      "scene": "Among tall pines in soft evening light, the child holds the compass out flat with both hands, facing forward with a determined look. The adult in the green scarf kneels at the child's level, watching proudly."
+    }
+  ],
+  "h1": "Personalized Godchild Gift Book: The Godparent's Compass",
+  "meta_title": "Personalized Godchild Gift Book | StoryBloom",
+  "meta_description": "A personalized godchild gift book: a godparent's compass, a camping trip, and your child leading the way home through the woods.",
+  "promise": "A godparent's promise to always help, told as a cozy camping adventure where your child gets to be the brave one who finds the way.",
+  "story_summary": "When a godparent visits with a tiny wrapped box, your child discovers a brass compass and a promise: wherever you go, I will always help you find your way. The two of them practice finding north at home, then pack up for a camping trip beside a sparkling lake. On a twisty walk to pick blueberries, every tree starts to look the same and even the grown-up is not sure which way camp is. Now your child has to remember the clue and decide what the little needle is trying to say.",
+  "why_parents": [
+    "Young children often hear that a godparent is someone special without quite knowing what that means. This story turns a big, grown-up promise into something a child can hold in one hand: a compass, a clue, and a person who stays right beside them while they work things out.",
+    "The story also shows support the way children actually experience it best. The godparent does not swoop in with the answer; the godparent gives a tool, shares a clue, and trusts your child to lead. That makes it a natural keepsake for a christening, baptism, birthday or simply a visit, and a lovely book for a godparent to read aloud together."
+  ],
+  "for_grownups": [
+    "Ask your child: When the trees all looked the same, what did the godparent do? Talk about how helping can mean standing beside someone, not doing it for them.",
+    "Find north together at home or on a walk, using a real compass or a phone, and pick a landmark that always points the way back.",
+    "Invite your child to name a promise they could make to someone they love, the way the child in the story promises to help the godparent too."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book say godmother or godfather?",
+      "answer": "The story calls the grown-up the godparent, so it works for a godmother or a godfather. The godparent is illustrated as a kind adult in a green checked scarf."
+    },
+    {
+      "question": "Is this a religious book?",
+      "answer": "It is a warm story about the godparent relationship and a promise to help, without religious teaching, so it suits a christening or baptism gift as well as birthdays and everyday visits."
+    },
+    {
+      "question": "Will the lost-in-the-woods part be scary for a two-year-old?",
+      "answer": "The tricky moment is short and gentle: the godparent stays right there, holding your child's shoulder, and the light stays soft and golden. Your child quickly finds the way back to the tent."
+    }
+  ],
+  "image_alt": "Personalized godchild book cover featuring an illustrated child holding a brass compass beside a lake and tent",
+  "feed_title": "Personalized Godchild Gift Book for Kids, Your Child Leads a Camping Adventure with Their Godparent",
+  "feed_description": "A personalized picture book for a godchild, made as a gift from a godmother or godfather. Your child becomes the illustrated hero who receives a small brass compass and a promise from their godparent: wherever you go, I will always help you find your way. The two practice finding north at home, then set off on a camping trip beside a sparkling lake. When a twisty blueberry walk leaves every tree looking the same, your child remembers the clue, reads the compass and leads the way back to the tent. A cozy campfire ending shows the promise works both ways. Gentle read-aloud text suits ages 2 to 8, making it a thoughtful christening, baptism, birthday or visit keepsake."
+}

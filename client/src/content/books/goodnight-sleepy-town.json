@@ -1,0 +1,117 @@
+{
+  "slug": "goodnight-sleepy-town",
+  "status": "live",
+  "title_pattern": "Goodnight, {name}",
+  "category": "bedtime",
+  "age_range": "1-5",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized bedtime book for toddlers",
+  "landing_page_slug": "books/goodnight-sleepy-town",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "The moon tucks in the whole town, one window at a time, and saves the coziest window for last.",
+  "lesson_or_purpose": "A calming wind-down story that helps a toddler move from busy evening to sleep, showing that getting ready for bed is something the child can do for themselves: lights low, curtains open to the moon, toys tucked in.",
+  "tone": "Hushed, rhythmic, gentle and cozy, with a repeating refrain that slows down as the story goes on.",
+  "reading_level": "Read-aloud for ages 1-5. Very short lines, soft repetition, one simple idea per page.",
+  "keywords": [
+    "personalized bedtime book for toddlers",
+    "personalized goodnight book",
+    "bedtime story with child's name",
+    "toddler bedtime routine book",
+    "moon bedtime book",
+    "custom baby bedtime book",
+    "personalized board book alternative",
+    "gift for toddler"
+  ],
+  "illustration_guide": "A small, sleepy hillside town at dusk turning to night: rounded rooftops, a bakery, a little farm, a harbor with two small boats, Grandma's cottage, and the child's house at the end of a winding lane. Palette moves page by page from soft lavender and peach dusk to deep navy and silver moonlight, with warm golden window glows that dim one by one. Recurring elements: a round, gentle moon with a soft silver glow that drifts across the sky from page to page; a ribbon of moonlight that touches each window it visits; the child's plush bear; a small sleepy cat that appears in several scenes. Soft textured gouache look, rounded shapes, nothing sharp or scary. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "The sky over the little town turns lavender. {name} is in cozy pajamas at the window, watching the round moon rise over the hills. Introduce the soft refrain: hush now, hush now, the moon is on its way.",
+      "illustration_prompt": "A small hillside town at dusk under a lavender and peach sky, a round glowing moon rising over the hills; in the foreground the child in pajamas kneels at a bedroom window holding a plush bear, looking out."
+    },
+    {
+      "beat": "The moon floats first to the bakery. Its silver light slips through the window, and the baker yawns and blows out the last lamp. {name} watches from far away and whispers the refrain.",
+      "illustration_prompt": "A cozy bakery at dusk with one warm window, a ribbon of moonlight touching the glass, a round baker in an apron stretching and yawning beside cooling loaves; the moon glows softly above the roof."
+    },
+    {
+      "beat": "The moon drifts over the little farm. The cow folds her legs, the lamb snuggles close, the hens fluff up on their perch. {name} yawns a tiny yawn too.",
+      "illustration_prompt": "A small farm under a deepening blue sky, a cow lying down in the grass, a lamb curled beside a ewe, hens fluffed on a perch inside an open barn, moonlight spilling across the hay."
+    },
+    {
+      "beat": "The moon glides down to the harbor. The two little boats stop bobbing and rest on the still, silver water. Back home, {name} rubs {her/his} eyes.",
+      "illustration_prompt": "A quiet harbor at night with two small rounded boats resting on calm water, the moon reflected as a silver path across the waves, a few gentle stars appearing."
+    },
+    {
+      "beat": "The moon stops at Grandma's cottage. Grandma sets down her knitting, the sleepy cat curls into a ball, and the window glow fades. {name} knows the moon is getting close now.",
+      "illustration_prompt": "A small cottage with a rose bush by the door, through the window Grandma in a rocking chair setting down knitting, a cat curled on a cushion, moonlight touching the windowsill, the sky now navy."
+    },
+    {
+      "beat": "The moon reaches {name}'s lane, but {name}'s window is still bright with lamplight and the curtains are drawn tight. The moon's silver ribbon cannot find the way in. The moon waits, patient and quiet.",
+      "illustration_prompt": "The child's house at the end of a winding lane, one window glowing bright yellow with curtains closed, the moon hovering just above with its ribbon of light resting against the closed curtains, all other houses in the town dark and sleepy."
+    },
+    {
+      "beat": "{name} has an idea. {She/He} clicks off the bright lamp all by {her/him}self, then tiptoes to the window and pulls the curtains open wide so the moon can find the way.",
+      "illustration_prompt": "Inside a dim bedroom, the child on tiptoe pulling soft curtains open, a just-switched-off lamp on a small table, the moon outside the window glowing brighter as if pleased."
+    },
+    {
+      "beat": "{name} tucks the plush bear under a tiny blanket and pats the other toys goodnight, one soft pat each. Then {name} climbs into bed and snuggles down to wait.",
+      "illustration_prompt": "The child kneeling by a toy shelf in soft moonlight, tucking a plush bear under a small blanket, other stuffed toys lined up beside it; the bed nearby turned down and waiting."
+    },
+    {
+      "beat": "The moon's silver ribbon slides through the open window and settles across {name}'s blanket like a soft quilt. Mom and Dad peek in for one last kiss for their {daughter/son}.",
+      "illustration_prompt": "The child snuggled in bed with a plush bear, a band of silver moonlight lying across the blanket, a mom and dad leaning in from the doorway in a warm dim glow, the moon framed in the open window."
+    },
+    {
+      "beat": "{name}'s eyes grow heavy and close. The refrain is whispered one last time, slower and softer. High above, the moon keeps watch over the whole sleeping town and ends with a gentle goodnight to {name}.",
+      "illustration_prompt": "A wide night view of the whole town asleep, every window dark except a faint silver glow at the child's window, the child visible inside sleeping peacefully, the moon high above among soft stars."
+    }
+  ],
+  "cover_scene": "The child in cozy pajamas sits on a windowsill cushion hugging a plush bear, gazing up and smiling softly, with the little hillside town and its glowing windows spread out below. The top third of the picture is calm, open navy sky with a gentle round moon to one side and a few faint stars, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "The moon floats to the bakery.\nThe baker gives a yawn.\nThe last lamp flickers, then it's gone.\n\nHush now, hush now, {name},\nthe moon is on its way.",
+      "scene": "A cozy bakery at dusk, a ribbon of silver moonlight touching the window, a round baker yawning beside cooling loaves as the last lamp goes out, the moon glowing softly above the rooftop."
+    },
+    {
+      "text": "{name} clicks off the lamp.\nClick.\n{She/He} pulls the curtains wide.\nSwish.\n\nCome in, moon. Come in.",
+      "scene": "A dim bedroom where the child stands on tiptoe pulling soft curtains open, a switched-off lamp on a small table, the round moon outside glowing brighter in the navy sky."
+    }
+  ],
+  "h1": "Personalized Bedtime Book for Toddlers: Goodnight, Starring Your Child",
+  "meta_title": "Personalized Bedtime Book for Toddlers | StoryBloom",
+  "meta_description": "A personalized bedtime book for toddlers: the moon tucks in a sleepy town, one window at a time, until it reaches your child's window.",
+  "promise": "A soft, slow bedtime story where your child helps the moon find the way to their window, then drifts off to sleep.",
+  "story_summary": "As evening settles over a little hillside town, the round moon begins its nightly rounds. It drifts from the bakery to the farm, the harbor and Grandma's cottage, and every window it touches grows quiet and sleepy. Your child watches from home as the moon comes closer and closer. But when it finally reaches your child's lane, the lamp is still bright and the curtains are shut tight, and your child has to decide what to do.",
+  "why_parents": [
+    "Toddlers often resist bedtime because the day still feels full and exciting. A story that slowly dims the world, one window at a time, gives them a picture of everyone else settling down too, from the baker to the farm animals to Grandma, so sleep feels like something the whole world shares.",
+    "Little ones also like to be in charge of something. In this story your child is the one who turns off the lamp, opens the curtains and tucks in the toys, which mirrors the small steps of a real bedtime routine and lets them feel capable at the end of the day."
+  ],
+  "for_grownups": [
+    "Read the refrain a little slower and softer each time it comes around, and let your child whisper it with you by the last page.",
+    "After reading, act out the ending together: switch off the lamp, peek at the sky to look for the moon, and say goodnight to one or two favorite toys.",
+    "On cloudy nights, talk about how the moon is still up there keeping watch even when you cannot see it."
+  ],
+  "faqs": [
+    {
+      "question": "Is this story too long for a one-year-old?",
+      "answer": "Each page has only a few short lines and a repeating refrain, so it works as a quick, soothing read for young toddlers. Older preschoolers often enjoy pointing out the moon and the sleepy cat on each page."
+    },
+    {
+      "question": "Does the story include parents or grandparents?",
+      "answer": "Yes. Grandma appears at her cottage as the moon stops by, and Mom and Dad peek in for a goodnight kiss near the end."
+    },
+    {
+      "question": "What happens in the story's small challenge?",
+      "answer": "When the moon reaches your child's house, the lamp is on and the curtains are closed, so the moonlight cannot get in. Your child gently fixes it with a few simple bedtime steps, nothing scary or loud."
+    }
+  ],
+  "image_alt": "Personalized bedtime book cover featuring an illustrated child in pajamas at a window under a glowing moon",
+  "feed_title": "Personalized Bedtime Book for Toddlers, Goodnight Story Starring Your Child and the Moon",
+  "feed_description": "Goodnight is a gentle personalized bedtime picture book for ages 1 to 5. As evening falls over a little hillside town, the moon drifts from window to window, tucking in the baker, the farm animals, the boats in the harbor and Grandma in her cottage. When it finally reaches your child's house, the lamp is still bright and the curtains are closed, so your child turns off the light, opens the curtains and tucks in the toys to help the moonlight find the way. Short rhythmic lines and a soft repeating refrain make it an easy wind-down read, and the illustrations move from lavender dusk to silver moonlight. Your child appears as the illustrated hero throughout."
+}

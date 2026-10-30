@@ -1,0 +1,116 @@
+{
+  "slug": "firefighter-rescue",
+  "status": "live",
+  "title_pattern": "Firefighter {name} to the Rescue",
+  "category": "careers",
+  "age_range": "2-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized firefighter book",
+  "landing_page_slug": "books/firefighter-rescue",
+  "example": {
+    "name": "Hana",
+    "pronouns": "she",
+    "look": "light tan skin, straight black hair with bangs"
+  },
+  "tagline": "A day at the station, a frightened kitten, and a brave plan only your child could make.",
+  "lesson_or_purpose": "Helping takes calm thinking as well as courage, and simple fire safety steps (get low, get out, stay out, meet at your family spot, stop drop and roll) are things every child can learn and share.",
+  "tone": "Warm, upbeat and gently exciting, with friendly sounds and a reassuring, never scary, rescue.",
+  "reading_level": "Read-aloud for ages 2-7: short sentences, repeated sound words, and simple safety phrases a child can join in on.",
+  "keywords": [
+    "personalized firefighter book",
+    "firefighter book for kids",
+    "personalized fire safety book",
+    "firefighter gift for toddler",
+    "kitten rescue picture book",
+    "fire truck book with child's name",
+    "career book for preschoolers"
+  ],
+  "illustration_guide": "Setting moves from a cheerful brick fire station with a big open garage door, to a sunny neighborhood park with one tall leafy oak tree, then back to the station and finally a cozy family home at dusk. Palette: bright fire-engine red, sunny yellow, sky blue and leafy green, warmed by soft orange evening light near the end. Recurring elements on every page where it fits: the shiny red fire truck with a silver ladder, the child's child-sized yellow helmet and tan turnout coat with reflective stripes, a friendly spotted firehouse dog who follows the child everywhere, and a small gray striped kitten with a white chest. The Captain is a kind, smiling adult firefighter with a red helmet. Keep flames out of the story entirely; safety ideas are shown with calm pretend practice. No words, signs or lettering anywhere in the art.",
+  "page_outline": [
+    {
+      "beat": "Morning at the fire station. {name} arrives, pulls on big boots, a coat with shiny stripes and a yellow helmet. The kind Captain smiles and welcomes {name} to the crew. Use a repeated sound line like stomp, zip, click.",
+      "illustration_prompt": "The child standing proudly in the open garage of a brick fire station, wearing a yellow helmet, tan coat with reflective stripes and big boots, while a smiling Captain in a red helmet gives a thumbs up and a spotted dog wags beside them, red fire truck gleaming behind."
+    },
+    {
+      "beat": "Station chores. {name} helps wash the big red truck, checks that the hoses are rolled up neatly, and fills the water bowl for the spotted firehouse dog. Show that firefighters take care of their tools and each other.",
+      "illustration_prompt": "The child scrubbing the side of the red fire truck with a big soapy sponge, bubbles floating, a neatly coiled hose nearby, and the spotted dog drinking from a full water bowl."
+    },
+    {
+      "beat": "The station bell rings, ding ding ding. A neighbor needs help: a little kitten is stuck high in a tree at the park. {name} and the crew hurry to the truck. This is the call to adventure.",
+      "illustration_prompt": "The child turning toward a ringing brass bell on the station wall, eyes wide and ready, as the Captain points to the fire truck and the spotted dog jumps up excitedly."
+    },
+    {
+      "beat": "The ride to the park. {name} buckles in and rides in the fire truck, lights flashing, siren singing wee-ooo. Cars pull over to let them pass. Keep it joyful and rhythmic.",
+      "illustration_prompt": "The red fire truck driving down a sunny tree-lined street with lights flashing, the child smiling through the window in a yellow helmet, the dog's head peeking out, cars pulled neatly to the side."
+    },
+    {
+      "beat": "The challenge. At the park, the tiny gray kitten is very high in the oak tree. Every time the siren wails or the crew calls out loudly, the kitten climbs higher and shivers. The neighbor is worried. {name} watches closely and wonders what the kitten needs.",
+      "illustration_prompt": "A tall leafy oak tree in a park with a small gray striped kitten clinging to a high branch, the child looking up thoughtfully, the Captain and a worried neighbor standing nearby beside the parked fire truck."
+    },
+    {
+      "beat": "{name} has an idea. {She/He} asks the crew to turn off the siren and speak in soft, quiet voices, because loud sounds are scaring the kitten. Everyone listens to {name}'s plan and gets very still.",
+      "illustration_prompt": "The child holding a finger to lips and gesturing gently, the Captain nodding and reaching to switch off the truck's lights, the dog sitting quietly, the whole scene calm and hushed under the big tree."
+    },
+    {
+      "beat": "The careful climb. The Captain holds the ladder steady and {name} climbs up slowly, one rung at a time. {name} speaks softly and holds out a cozy blanket, waiting patiently for the kitten to come close on its own.",
+      "illustration_prompt": "The child partway up the silver ladder resting against the oak tree, holding out a soft blanket toward the gray kitten on a nearby branch, while the Captain firmly holds the ladder below and the dog watches."
+    },
+    {
+      "beat": "The rescue. The kitten creeps forward and snuggles into the blanket in {name}'s arms. Together they climb down safely. The neighbor hugs the kitten, and the crew cheers quietly. The kitten gives {name} a tiny purr thank-you.",
+      "illustration_prompt": "The child at the bottom of the ladder handing the gray kitten wrapped in a blanket to a happy neighbor, the Captain clapping softly, the dog wagging, golden afternoon sunlight through the leaves."
+    },
+    {
+      "beat": "Back at the station, a group of children comes to visit and {name} teaches them how to stay safe: get low and go, get out and stay out, meet your family at your outside spot, never hide, and if your clothes ever catch fire, stop, drop and roll. {name} shows each step and everyone practices together.",
+      "illustration_prompt": "The child in a yellow helmet leading a small group of visiting children in practicing stop, drop and roll on a soft mat inside the fire station, the Captain smiling beside the red truck and the dog joining in."
+    },
+    {
+      "beat": "Evening at home. {name} shows Mom and Dad the family meeting spot by the big tree out front and helps Dad press the test button on the smoke alarm, beep beep. Then {name} hangs up the yellow helmet and drifts off to sleep, a brave and careful helper.",
+      "illustration_prompt": "A cozy bedroom in warm evening light with the child tucked into bed smiling, a yellow helmet hanging on a hook, a small toy fire truck on the shelf, and the window showing a tree in the front yard under a dusky sky."
+    }
+  ],
+  "cover_scene": "The child stands proudly in front of a shiny red fire truck, wearing a yellow helmet and tan coat with reflective stripes, gently holding a small gray striped kitten in both arms. The spotted firehouse dog sits at the child's side, and a tall leafy oak tree rises at one edge. The top third of the picture is calm, open bright blue sky with a few soft clouds, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Stomp go the boots. Zip goes the coat. Click goes the yellow helmet! \"Welcome to the crew, Firefighter {name}!\" says the Captain with a big smile.",
+      "scene": "The child standing proudly in the open garage of a brick fire station, wearing a yellow helmet, tan coat with reflective stripes and big boots, while a smiling Captain in a red helmet gives a thumbs up and a spotted dog wags beside them, red fire truck gleaming behind."
+    },
+    {
+      "text": "The kitten shivers and climbs up high. {name} looks and listens. \"Shh,\" {she/he} whispers. \"Loud sounds are scary. Let's be quiet and slow.\" So the siren stops. The crew gets still. Everyone listens to {name}.",
+      "scene": "The child holding a finger to lips and gesturing gently beneath a tall oak tree, a small gray kitten on a high branch, the Captain nodding and reaching toward the parked fire truck, the dog sitting quietly, the whole scene calm and hushed."
+    }
+  ],
+  "h1": "Personalized Firefighter Book: Your Child Joins the Crew and Rescues a Kitten",
+  "meta_title": "Personalized Firefighter Book for Kids | StoryBloom",
+  "meta_description": "A personalized firefighter book where your child joins the station crew, rescues a frightened kitten, and shares simple fire safety tips.",
+  "promise": "Your child spends a day as a real member of the fire station crew, solves a tricky kitten rescue with a calm, clever plan, and comes home ready to share how to stay safe.",
+  "story_summary": "Your child pulls on big boots and a yellow helmet and joins the crew at a busy, cheerful fire station. After washing the red truck and caring for the firehouse dog, the station bell rings: a tiny kitten is stuck high in a park tree. When the crew arrives, the noise only sends the frightened kitten climbing higher. Now it is up to your child to notice what the kitten really needs and come up with a gentler way to help.",
+  "why_parents": [
+    "Little ones are often fascinated by fire trucks, flashing lights and the helpers who ride them. This story meets that excitement head on, then shows that the bravest part of the job is thinking calmly and paying attention, which is exactly what your child does to bring the kitten down safely.",
+    "The day also folds in the fire safety basics that families are encouraged to talk about at home: get low, get out and stay out, never hide, meet at your outside spot, and stop, drop and roll. There are no flames or scary moments, so even young listeners can enjoy the story while hearing those steps in a friendly, repeatable way."
+  ],
+  "for_grownups": [
+    "After reading, choose your own family meeting spot outside, like a mailbox or a tree, and walk there together just as the family does at the end of the book.",
+    "Practice stop, drop and roll on a soft rug, and talk about why we never hide under a bed or in a closet if an alarm goes off, so firefighters can find us.",
+    "Ask your child why the kitten climbed higher at first and what helped it feel safe. It is a gentle way to talk about noticing how others feel."
+  ],
+  "faqs": [
+    {
+      "question": "Is there a fire in this story?",
+      "answer": "No. The emergency is a kitten stuck in a tree, and the safety lessons are shown through calm practice at the station and at home, so there are no flames or frightening scenes."
+    },
+    {
+      "question": "What fire safety tips does the book include?",
+      "answer": "Your child teaches visiting kids to get low and go, get out and stay out, never hide, meet at a family outside spot, and stop, drop and roll. At home, your child also helps test a smoke alarm with a grown-up."
+    },
+    {
+      "question": "Will it work for a 2-year-old as well as a 6-year-old?",
+      "answer": "Yes. Toddlers enjoy the repeated sounds like stomp, zip and wee-ooo, while older children can follow the rescue plan and practice the safety steps along with the story."
+    }
+  ],
+  "image_alt": "Personalized firefighter book cover featuring an illustrated child in a yellow helmet holding a rescued kitten beside a red fire truck",
+  "feed_title": "Personalized Firefighter Book for Kids, Your Child Is the Hero of a Kitten Rescue",
+  "feed_description": "A personalized children's picture book in which your child becomes a firefighter for the day. Your child suits up in boots, coat and a yellow helmet, helps wash the red fire truck, cares for the friendly firehouse dog, and then rides to the park when a tiny kitten gets stuck high in a tree. When loud noises only frighten the kitten, your child comes up with a calm, quiet plan and makes the careful climb with the Captain holding the ladder. Back at the station, your child shows visiting kids simple fire safety steps like get low and go, stop drop and roll, and meeting at a family spot. Gentle, upbeat and free of scary scenes, it suits children ages 2 to 7 who love fire trucks and helpers."
+}

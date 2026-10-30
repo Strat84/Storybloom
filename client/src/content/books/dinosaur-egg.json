@@ -1,0 +1,116 @@
+{
+  "slug": "dinosaur-egg",
+  "status": "live",
+  "title_pattern": "{name} and the Dinosaur Egg",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized dinosaur book for kids",
+  "landing_page_slug": "books/dinosaur-egg",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "A warm egg, a tiny dinosaur, and one brave helper who knows the way home.",
+  "lesson_or_purpose": "Kindness and responsibility: caring for someone small, noticing clues, and doing the brave, helpful thing even when it means saying goodbye.",
+  "tone": "Warm, playful and gently adventurous, with moments of wonder and a cozy, satisfying ending.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, a repeated call-and-answer sound, and vivid action words.",
+  "keywords": [
+    "personalized dinosaur book for kids",
+    "dinosaur egg story",
+    "custom dinosaur picture book",
+    "personalized adventure book",
+    "dinosaur book with child's name",
+    "kindness picture book",
+    "personalized gift for dinosaur lovers"
+  ],
+  "illustration_guide": "Setting moves from a cheerful suburban backyard with a hedge, garden gate and clothesline, across a wildflower meadow and a pine forest with a rushing stream, into a hidden green valley of giant ferns, mossy boulders and a misty waterfall. Palette: leafy greens, warm sunshine yellows, sky blues and soft terracotta, shifting to golden orange at sunset. Recurring elements: the cream egg with teal speckles, the small round teal dinosaur Pip with a cream belly and stubby tail, the child's red scarf, a trail of three-toed footprints, and curled fern fronds. Style: soft painterly picture-book art with rounded shapes and friendly expressions; dinosaurs are gentle and never scary.",
+  "page_outline": [
+    {
+      "beat": "After a stormy night, {name} steps into the backyard and finds a warm, speckled egg nestled under the hedge. {name} kneels down and feels it gently wobble.",
+      "illustration_prompt": "Morning backyard with dewy grass and a green hedge; the child kneels in wonder beside a large cream egg with teal speckles tucked among leaves, sunlight breaking through clouds."
+    },
+    {
+      "beat": "{name} wraps the egg in a soft red scarf and keeps it cozy, humming to it all morning. The egg rocks, taps, and a tiny crack appears.",
+      "illustration_prompt": "The child sits cross-legged on the grass hugging the speckled egg wrapped in a red scarf, a small zigzag crack on top, a curious robin watching from the clothesline."
+    },
+    {
+      "beat": "Crack! Out pops a small, round, teal dinosaur named Pip. Pip sniffs {name}, sneezes, then looks around and gives a sad, homesick peep.",
+      "illustration_prompt": "A tiny round teal dinosaur with a cream belly bursts from the eggshell, blinking at the child, who laughs with delight; shell pieces scattered on the red scarf."
+    },
+    {
+      "beat": "{name} spots clues: a curly fern leaf stuck to the shell and big three-toed footprints leading past the garden gate. {name} decides to take Pip home.",
+      "illustration_prompt": "The child crouches, pointing at a trail of large three-toed footprints leading through an open garden gate toward a sunny hill, the little teal dinosaur peeking at a fern leaf."
+    },
+    {
+      "beat": "{name} packs a snack bag and leads Pip across a wildflower meadow. When Pip gets tired and hungry, {name} shares a handful of berries.",
+      "illustration_prompt": "Bright meadow of wildflowers; the child sits beside the small teal dinosaur sharing berries from an open snack bag, butterflies drifting overhead, footprints continuing toward a pine forest."
+    },
+    {
+      "beat": "A wide, rushing stream blocks the trail and Pip is afraid of the water. {name} rolls flat stones into a row and makes a stepping-stone path.",
+      "illustration_prompt": "Pine forest stream with splashing water; the child pushes a flat stone into place to finish a stepping-stone path while the little teal dinosaur waits nervously on the bank."
+    },
+    {
+      "beat": "Deep in the forest, thick mist hides the footprints. {name} has a clever idea: {name} asks Pip to call out loudly, and from far away a big, deep call answers.",
+      "illustration_prompt": "Misty pine forest in soft blue tones; the child kneels beside the little teal dinosaur, which tips its head back to call, while the child cups a hand to listen toward a faint glow beyond the trees."
+    },
+    {
+      "beat": "{name} and Pip climb over a mossy ridge and see a hidden valley full of giant ferns, a waterfall, and gentle dinosaurs. Pip hides, suddenly shy, and {name} gives a brave, encouraging smile.",
+      "illustration_prompt": "Wide view of a lush green valley with giant ferns, a misty waterfall and peaceful long-necked dinosaurs; the child stands on a mossy ridge with the small teal dinosaur peeking from behind the child's legs."
+    },
+    {
+      "beat": "A big teal mother dinosaur hurries over, and Pip runs to her with happy peeps. She lowers her head to {name}, and Pip gives {name} a goodbye nuzzle and a smooth piece of speckled shell.",
+      "illustration_prompt": "A large gentle teal dinosaur bends her long neck down to the child; the little teal dinosaur nuzzles the child's hand as the child holds a speckled shell piece, ferns glowing in warm light."
+    },
+    {
+      "beat": "At sunset {name} is back in the backyard. {name} sets the speckled shell on the windowsill and smiles, proud of helping a small friend find home.",
+      "illustration_prompt": "Golden sunset bedroom window overlooking the backyard; the child places a speckled shell piece on the windowsill, a faint silhouette of dinosaurs on a distant hill."
+    }
+  ],
+  "cover_scene": "The child stands on a mossy ridge at the edge of a lush hidden valley, holding the small round teal dinosaur, both smiling, a red scarf around the child's neck. Below are giant ferns and a misty waterfall with peaceful dinosaurs in the distance. The top third of the picture is calm, open pale blue sky with soft clouds.",
+  "sample_pages": [
+    {
+      "text": "{name} found a scarf, soft and red. \"Stay warm, little egg,\" {name} said. Hum, hum, hum. Wobble, wobble. Tap!",
+      "scene": "The child sits cross-legged on the grass hugging the speckled egg wrapped in a red scarf, a tiny crack on top, a robin watching from the clothesline."
+    },
+    {
+      "text": "The water rushed. Whoosh! Pip backed away. \"I can fix this,\" said {name}. One stone, two stones, three stones. Hop, hop, hop!",
+      "scene": "Pine forest stream; the child sets the last flat stone into a stepping-stone path as the little teal dinosaur waits nervously on the bank."
+    }
+  ],
+  "h1": "Personalized Dinosaur Book for Kids: Your Child and the Dinosaur Egg",
+  "meta_title": "Personalized Dinosaur Book for Kids | StoryBloom",
+  "meta_description": "A personalized dinosaur book where your child finds a warm egg, meets a baby dinosaur, and leads it home to a hidden valley.",
+  "promise": "Your child becomes the brave, kind helper who hatches a baby dinosaur and finds the way to bring it home.",
+  "story_summary": "One morning after a storm, your child discovers a warm, speckled egg hiding under the backyard hedge. With a little care and a lot of humming, it hatches into Pip, a small teal dinosaur who clearly misses its family. Following giant footprints, your child leads Pip across a meadow, over a rushing stream and through a misty forest. Along the way your child shares snacks, builds a path, and comes up with a clever plan when the trail disappears.",
+  "why_parents": [
+    "Children from three to eight are fascinated by dinosaurs, and they are also learning what it means to look after someone smaller. This story puts those two things together: your child cares for a baby dinosaur, notices when it feels homesick, and chooses to help, which gives kindness a real, exciting shape.",
+    "The adventure is full of small problems your child solves: reading footprint clues, crossing a stream, finding the way in fog. Letting go of a new friend so it can be with its family is a gentle, meaningful moment that sparks good talks about caring and doing the right thing."
+  ],
+  "for_grownups": [
+    "Ask your child how Pip might have felt when it woke up far from its family, and what helps them feel better when they miss someone.",
+    "Pause at the stream and the misty forest and ask, \"What would you do here?\" before turning the page.",
+    "After reading, go on a backyard or park clue hunt for leaves, footprints or stones, just like the trail to the valley."
+  ],
+  "faqs": [
+    {
+      "question": "Are the dinosaurs scary for younger children?",
+      "answer": "No. Every dinosaur is drawn round, soft and friendly, and the mother dinosaur is gentle and welcoming. The biggest challenges are a splashy stream and some fog, and both are solved calmly."
+    },
+    {
+      "question": "Does the story work for a child who is not a big dinosaur fan?",
+      "answer": "Yes. At its heart it is a story about caring for a little friend and helping it get home, with plenty of outdoor adventure. Many children enjoy it simply for the hatching moment and the journey."
+    },
+    {
+      "question": "Is the ending sad because Pip goes home?",
+      "answer": "The goodbye is warm rather than sad. Pip is happily reunited with its mother and gives your child a piece of speckled shell to keep, and the book ends with your child feeling proud at sunset."
+    }
+  ],
+  "image_alt": "Personalized dinosaur book cover featuring an illustrated child holding a baby dinosaur above a green valley",
+  "feed_title": "Personalized Dinosaur Book for Kids, Your Child Hatches a Baby Dinosaur and Leads It Home",
+  "feed_description": "A personalized dinosaur picture book for ages 3 to 8 in which your child is the hero. After a stormy night, your child finds a warm speckled egg in the backyard, keeps it cozy, and watches it hatch into Pip, a small and friendly teal dinosaur who misses its family. Your child follows giant footprints across a wildflower meadow, builds a stepping-stone path over a rushing stream, and finds a clever way through a misty forest to reach a hidden valley of ferns and gentle dinosaurs. Soft, colorful illustrations and playful read-aloud sounds make it a cozy bedtime adventure about kindness, courage and helping a friend find home. A thoughtful gift for dinosaur lovers."
+}

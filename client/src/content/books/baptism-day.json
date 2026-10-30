@@ -1,0 +1,117 @@
+{
+  "slug": "baptism-day",
+  "status": "live",
+  "title_pattern": "{name}'s Baptism Day",
+  "category": "faith",
+  "age_range": "0-6",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "baptism gift book personalized",
+  "landing_page_slug": "books/baptism-day",
+  "example": {
+    "name": "Elijah",
+    "pronouns": "he",
+    "look": "dark brown skin, short black curls, round glasses"
+  },
+  "tagline": "A gentle story of water, blessing and a family gathered close, with your child at the center.",
+  "lesson_or_purpose": "To celebrate a child's baptism as a joyful welcome into God's family, showing that they are deeply loved by their family, their church and God.",
+  "tone": "Gentle, warm, reverent and joyful, with soft rhythm and repetition suited to reading aloud to little ones.",
+  "reading_level": "Read-aloud for ages 0-6: short lines, gentle repetition, simple words, one or two sentences per page.",
+  "keywords": [
+    "baptism gift book personalized",
+    "personalized baptism book",
+    "baptism book for baby",
+    "christening gift book",
+    "godchild baptism gift",
+    "personalized faith book for kids",
+    "baptism keepsake book",
+    "christian baby gift book"
+  ],
+  "illustration_guide": "Soft watercolor style with rounded shapes and gentle light. Palette of cream, white, pale gold, soft sky blue and warm rose, with touches of sage green. Setting moves from a cozy family home on a bright morning, to a welcoming stone church with tall colored-glass windows casting rainbow light, to a garden celebration, and back home at night. Recurring elements: the child's soft white baptism outfit, a small white candle with a gentle flame, a stone baptismal font with sparkling water, a white dove motif that appears softly in corners or in window light, and the same family members (Mom, Dad, Grandma, Grandpa, two godparents) on every group page. Faces are kind and smiling; light always feels warm and safe. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "Morning light fills the house. Mom and Dad dress {name} in soft white clothes and tell {her/him} that today is a special day: {name}'s baptism day.",
+      "illustration_prompt": "A sunny bedroom in soft morning light, Mom and Dad smiling as they gently dress the child in a soft white outfit, a small white dove shape in the sunlight on the wall."
+    },
+    {
+      "beat": "The family gathers at the church doors. Grandma, Grandpa and {name}'s two godparents wrap {her/him} in hugs and say how happy they are to be together.",
+      "illustration_prompt": "Outside a welcoming stone church with spring flowers, the child held in a loving circle of family: Mom, Dad, Grandma, Grandpa and two godparents, everyone smiling and leaning in for a hug."
+    },
+    {
+      "beat": "Inside, the church is big and very quiet, with tall windows full of colored light. {name} feels small and unsure and holds on tight to Mom.",
+      "illustration_prompt": "A tall, peaceful church interior with rainbow light streaming through colored-glass windows, the child looking up with wide eyes, holding close to Mom."
+    },
+    {
+      "beat": "A soft song begins. Dad whispers that everyone here loves {name}. {name} looks around and sees Grandma waving, Grandpa smiling and the godparents nodding kindly.",
+      "illustration_prompt": "The child peeking over Mom's shoulder at rows of smiling family and friends, Grandma giving a little wave, warm golden light filling the church."
+    },
+    {
+      "beat": "The minister stands by the stone font of sparkling water and holds out welcoming hands. {name} pauses, then makes a brave choice: {she/he} gives a small smile and reaches toward the shining water.",
+      "illustration_prompt": "A kind minister beside a stone baptismal font of sparkling water, the child reaching one small hand toward the water with a brave little smile, Mom and Dad close beside."
+    },
+    {
+      "beat": "The minister gently pours water on {name}'s forehead three times, saying {name} is baptized in the name of the Father, and of the Son, and of the Holy Spirit. The cool drops make {her/him} blink, then giggle.",
+      "illustration_prompt": "Gentle drops of water falling from a shell onto the child's forehead above the font, the child blinking and beginning to giggle, a soft dove shape glowing in the window light behind."
+    },
+    {
+      "beat": "The minister blesses {name} and says God loves {her/him} and {she/he} is part of God's family. A godparent lights a small white candle as a sign of God's light.",
+      "illustration_prompt": "A godparent holding a small white candle with a gentle flame near the child, the minister's hand raised in blessing, warm light spreading around the family."
+    },
+    {
+      "beat": "The whole church smiles in welcome. {name} claps {her/his} little hands, and everyone claps along, glad to welcome {her/him}.",
+      "illustration_prompt": "The child clapping happily in Dad's arms while family and friends in the pews smile and clap, colored-glass light dancing across the room."
+    },
+    {
+      "beat": "Back home there is a garden party with cake and flowers. {name} gives Grandma and Grandpa big hugs and shares a happy, sticky smile with everyone.",
+      "illustration_prompt": "A sunny garden celebration with a white cake, flowers and a long table, the child hugging Grandma and Grandpa while the family laughs together."
+    },
+    {
+      "beat": "At bedtime the little candle rests on the shelf. Mom and Dad tuck {name} in and whisper the day's blessing, and {name} falls asleep knowing {she/he} is loved by family and by God.",
+      "illustration_prompt": "A cozy nighttime bedroom with the child asleep under a soft blanket, Mom and Dad leaning in gently, the small white candle on a shelf and stars outside the window."
+    }
+  ],
+  "cover_scene": "The child in a soft white baptism outfit, smiling beside a stone font of sparkling water inside a peaceful church, colored-glass light falling in gentle rainbows, a small white candle glowing nearby. The top third of the picture is calm, open pale-gold light high in the church arches with a faint soft dove shape, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "The church is big. The church is still. Colored light falls on the window sill. {name} feels small, so small today, and holds on tight to Mom.",
+      "scene": "A tall, quiet church with rainbow light pouring through colored-glass windows, the child looking up with wide eyes and holding close to Mom."
+    },
+    {
+      "text": "Drip, drop, one. Drip, drop, two. Drip, drop, three, cool and new. In the name of the Father, the Son and the Holy Spirit. {name} blinks, then giggles too!",
+      "scene": "Gentle drops of water falling from a shell onto the child's forehead above a stone font, the child blinking into a giggle, family smiling close by."
+    }
+  ],
+  "h1": "Personalized Baptism Gift Book Starring Your Child",
+  "meta_title": "Personalized Baptism Gift Book for Kids | StoryBloom",
+  "meta_description": "A personalized baptism gift book: your child is the hero of a gentle story of family, water and blessing on their special day.",
+  "promise": "A gentle, reverent keepsake of your child's baptism day, from the first quiet moment in church to the blessing, the candle and the family celebration.",
+  "story_summary": "On a bright morning your child is dressed in soft white clothes and taken to church, where Grandma, Grandpa and the godparents are waiting with hugs. Inside, the big quiet church feels new and a little overwhelming, and your child holds on tight. Familiar smiling faces and a gentle song help your child find the courage to reach toward the sparkling water at the font. What follows is a day of water, blessing, candlelight and a warm welcome from a whole family gathered in love.",
+  "why_parents": [
+    "A baptism is one of the first big moments in a child's life of faith, yet the child is often too young to remember it. A story that walks through the day, the gathered family, the water and the words of blessing, gives your child a way to return to it again and again and to hear that they were welcomed with joy.",
+    "Little ones also notice when a place feels big and unfamiliar. This book gently shows a child feeling unsure in church, then finding comfort in the faces of people who love them and choosing to reach out. It is a simple, reassuring picture of belonging: to a family, to a church community and to God."
+  ],
+  "for_grownups": [
+    "On the anniversary of the baptism, light the baptism candle (or any small candle) together and read the book, then share one thing you remember about the day.",
+    "Point to the godparents in the pictures and talk about the real people who made promises for your child. A photo of them tucked inside the cover makes a sweet connection.",
+    "For older children, ask what they think the water and the candle mean, and share in simple words what your family believes about God's love and light."
+  ],
+  "faqs": [
+    {
+      "question": "Is this baptism book tied to a particular church or denomination?",
+      "answer": "No. The story uses widely shared Christian elements such as water poured at a font, the words Father, Son and Holy Spirit, a blessing, godparents and a candle, without details specific to one denomination."
+    },
+    {
+      "question": "Does the story work for a baby and for an older child being baptized?",
+      "answer": "Yes. The rhythmic, simple text reads aloud well for babies and toddlers, and the gentle moment of feeling unsure and choosing to be brave speaks to preschoolers too."
+    },
+    {
+      "question": "Would this make a good gift from a godparent or grandparent?",
+      "answer": "It is written with that in mind. Godparents and grandparents appear throughout the story, hugging, blessing and celebrating, so it feels like a natural gift from family who were there."
+    }
+  ],
+  "image_alt": "Personalized baptism book cover featuring an illustrated child in white beside a church font with candlelight",
+  "feed_title": "Personalized Baptism Gift Book for Babies and Kids, Your Child Is the Hero",
+  "feed_description": "A gentle personalized picture book that tells the story of your child's baptism day. Your child is dressed in soft white clothes, greeted at church by Grandma, Grandpa and godparents, and carried into a big, quiet church full of colored light. Feeling a little unsure at first, your child finds comfort in familiar smiling faces and bravely reaches toward the sparkling water. The story includes water poured gently at the font, the words of baptism in the name of the Father, the Son and the Holy Spirit, a blessing, a small white candle and a happy family celebration. Christian and warm without being tied to one denomination. Written for read-aloud with ages 0 to 6 and made as a keepsake gift for baptisms and christenings."
+}

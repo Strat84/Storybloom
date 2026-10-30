@@ -1,0 +1,117 @@
+{
+  "slug": "wiggly-tooth",
+  "status": "live",
+  "title_pattern": "{name} and the Wiggly Tooth",
+  "category": "milestones",
+  "age_range": "4-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "losing first tooth book personalized",
+  "landing_page_slug": "books/wiggly-tooth",
+  "example": {
+    "name": "Sophie",
+    "pronouns": "she",
+    "look": "fair skin, long red hair in a braid"
+  },
+  "tagline": "One wiggly tooth, one very long week, and one big search before bedtime.",
+  "lesson_or_purpose": "Losing a first tooth can feel strange and a little worrying. This story shows a child staying patient while a tooth takes its time, then staying calm and thinking clearly to solve a problem on their own when the tooth goes missing.",
+  "tone": "Playful, cozy and gently suspenseful, with a proud, warm ending.",
+  "reading_level": "Read-aloud for ages 4-7, short sentences with fun sound words that early readers can join in on.",
+  "keywords": [
+    "losing first tooth book personalized",
+    "first tooth book",
+    "loose tooth story for kids",
+    "tooth fairy book personalized",
+    "personalized milestone book",
+    "wiggly tooth picture book",
+    "first lost tooth gift",
+    "personalized book for kids ages 4-7"
+  ],
+  "illustration_guide": "Setting moves through one ordinary week in a cozy family home and a bright kindergarten classroom, ending in the child's bedroom at night and the next morning. Palette: soft mint, warm peach, buttery yellow and creamy white by day; deep blueberry and lavender with silver sparkles at night. Recurring elements: a small round wooden keepsake box with a star carved on the lid, a calendar-like row of seven painted pebbles on the windowsill that the child turns over one per day (no writing), a friendly floppy-eared family dog, and a pillow with a little pocket stitched on the front. The child's loose tooth is shown with tiny curved motion lines whenever it wiggles. After the tooth comes out, the child has a clear, cheerful gap in the smile on every page.",
+  "page_outline": [
+    {
+      "beat": "On Monday morning, {name} bites into toast and feels something new: a tooth that wiggles. {She/He} runs to the mirror, wiggles it with a tongue, and announces the big news to Mom and Dad.",
+      "illustration_prompt": "The child in pajamas at a sunny bathroom mirror, mouth open wide, pointing at a front tooth with tiny motion lines around it, a half-eaten slice of toast on the counter, the floppy-eared dog looking up curiously."
+    },
+    {
+      "beat": "{name} wants the tooth out right away. On Tuesday {she/he} tries crunchy apples, wobbly jumping and big silly faces, but the tooth just wiggles and stays put. Dad says teeth come out when they are ready.",
+      "illustration_prompt": "The child mid-bite on a big red apple at the kitchen table, cheeks puffed, while Dad smiles beside a bowl of fruit; the row of seven painted pebbles on the windowsill behind them with two turned over."
+    },
+    {
+      "beat": "On Wednesday and Thursday, {name} shows the wiggly tooth to friends at school. Everyone has advice, and {name} practices being patient, counting wiggles instead of yanking.",
+      "illustration_prompt": "A bright classroom with the child sitting on a rug surrounded by curious classmates leaning in to look at the loose tooth, the child holding up fingers as if counting."
+    },
+    {
+      "beat": "On Friday at dinner, {name} takes a bite of corn on the cob and, pop, the tooth is out. {She/He} cheers, shows the gap, and Mom helps place the tiny tooth safely in the wooden keepsake box with the star on the lid.",
+      "illustration_prompt": "The family at a warm dinner table, the child grinning to show a new gap, holding up a tiny white tooth, Mom holding open the small round wooden box with a carved star, an ear of corn on the plate."
+    },
+    {
+      "beat": "Excited, {name} races around the house to show the box to Grandma on the couch, to the dog, and to the bedroom window. When it is time to put the tooth under the pillow, {name} opens the box and finds it empty.",
+      "illustration_prompt": "The child standing in the bedroom at dusk, holding the open empty wooden box, eyes wide with surprise, the pillow with a stitched pocket on the bed and lavender light through the window."
+    },
+    {
+      "beat": "{name} feels a wobble of worry in {her/his} tummy. Instead of crying, {she/he} takes a deep breath and decides to think like a detective: where did the tooth go today?",
+      "illustration_prompt": "The child sitting on the edge of the bed taking a big calm breath, one hand on chest, the open box on the blanket, the dog resting its chin on the child's knee."
+    },
+    {
+      "beat": "With a flashlight, {name} retraces every step: the dinner table, the hallway, the bedroom window. {She/He} checks under chairs and behind curtains, looking carefully and slowly.",
+      "illustration_prompt": "A dim, cozy hallway lit by the beam of a flashlight held by the child crouching low to peek under a chair, the dog following closely with its nose to the floor."
+    },
+    {
+      "beat": "{name} remembers sitting with Grandma on the couch and opening the box to show her. {She/He} lifts the cushion, and there, beside the dog's squeaky toy, is the tiny tooth.",
+      "illustration_prompt": "The child lifting a couch cushion in a lamp-lit living room, flashlight beam shining on a tiny white tooth next to a squeaky dog toy, Grandma leaning forward with a delighted smile."
+    },
+    {
+      "beat": "Proud and relieved, {name} tucks the tooth into the pillow pocket and draws a picture of the big search for the Tooth Fairy. {She/He} snuggles down to sleep with a gappy smile.",
+      "illustration_prompt": "Nighttime bedroom in blueberry and lavender tones, the child asleep with a small smile, a crayon drawing of a flashlight and couch resting on the nightstand, faint silver sparkles drifting near the window."
+    },
+    {
+      "beat": "In the morning, {name} finds a shiny coin and a tiny sparkly feather in the pillow pocket. {She/He} grins at the mirror, gap and all, ready for the next wiggly tooth.",
+      "illustration_prompt": "Sunny morning bedroom, the child sitting up in bed holding a shiny coin and a tiny silver feather, beaming to show the gap in the smile, the seven painted pebbles on the windowsill all turned over."
+    }
+  ],
+  "cover_scene": "The child stands in a cozy bedroom at twilight beside a bed with a pocketed pillow, holding a small round wooden box with a carved star and grinning to show a wiggly front tooth with tiny motion lines. The floppy-eared dog sits at the child's feet. A large window behind them opens onto a calm lavender and deep blue evening sky with a few soft silver sparkles, filling the top third of the picture with open space.",
+  "sample_pages": [
+    {
+      "text": "On Tuesday, {name} tried a crunchy apple. CRUNCH! {She/He} tried a jumpy jump. BOING! The tooth went wiggle, wiggle, wiggle... and stayed right where it was. \"Teeth come out when they are ready,\" said Dad.",
+      "scene": "The child mid-bite on a big red apple at the kitchen table, cheeks puffed and eyes squeezed in effort, Dad smiling nearby beside a fruit bowl, the floppy-eared dog watching, two of seven painted pebbles turned over on the sunny windowsill."
+    },
+    {
+      "text": "{name}'s tummy felt wobbly, just like the tooth had been. But {she/he} took a big, slow breath. \"I can figure this out,\" {she/he} said. \"Where did I go today?\"",
+      "scene": "The child sitting on the edge of the bed in lavender evening light, taking a calm deep breath with one hand on chest, the empty wooden box with a carved star on the blanket, the dog resting its chin on the child's knee."
+    }
+  ],
+  "h1": "Personalized Losing First Tooth Book: Your Child and the Wiggly Tooth",
+  "meta_title": "Personalized Losing First Tooth Book | StoryBloom",
+  "meta_description": "A personalized first tooth book: your child wiggles a loose tooth all week, then hunts for it before the Tooth Fairy visits.",
+  "promise": "A cozy, funny week-long adventure where your child waits out a stubborn wiggly tooth, then keeps calm and solves the mystery of the missing tooth before bedtime.",
+  "story_summary": "On Monday morning, your child discovers a tooth that wiggles, and it is very big news. All week long, your child tries crunchy apples, jumping and silly faces, but the tooth refuses to budge. When it finally pops out at dinner, your child tucks it into a special box and races around the house to show everyone. Then, right before bedtime, the box turns out to be empty, and your child has to decide what to do next.",
+  "why_parents": [
+    "A first loose tooth is one of those small moments that feels enormous to a young child. It is exciting, a little odd, and sometimes worrying, and it often takes far longer to come out than anyone expects. This story mirrors that slow wait, so your child can laugh at the wiggling and feel that their own impatience is completely normal.",
+    "The twist of a missing tooth gives the book a gentle problem to solve. Instead of panicking, your child takes a breath, thinks back through the day and searches carefully. It is a cozy way to show a young reader that a scary-feeling moment can be handled step by step, and it makes the Tooth Fairy's visit feel well earned."
+  ],
+  "for_grownups": [
+    "Ask your child how the wiggly tooth feels and whether it is exciting, funny or a bit strange. All of those feelings are fine to share.",
+    "When the tooth goes missing in the story, pause and ask, \"Where would you look?\" Then talk about retracing steps as a trick for any lost thing.",
+    "Choose a special spot together ahead of time for keeping a tooth safe once it comes out, like the keepsake box in the book."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book a good fit if my child has not lost a tooth yet?",
+      "answer": "Yes. Many families read it when the first tooth starts to wiggle, or even before, so the whole experience feels familiar and fun when it happens."
+    },
+    {
+      "question": "Is the missing tooth part scary for young kids?",
+      "answer": "No. The worry lasts only a page or two, and the focus is on your child staying calm and searching like a detective, with Grandma and the family dog close by."
+    },
+    {
+      "question": "Does the Tooth Fairy appear in the story?",
+      "answer": "The Tooth Fairy is never shown directly. Your child wakes to a coin and a tiny sparkly feather, which leaves room for your own family's traditions."
+    }
+  ],
+  "image_alt": "Personalized losing first tooth book cover featuring an illustrated child holding a keepsake box and showing a wiggly tooth at bedtime",
+  "feed_title": "Personalized Losing First Tooth Book for Kids Ages 4-7, Your Child Is the Hero",
+  "feed_description": "A personalized picture book about a first loose tooth, starring your child as the hero. On Monday the tooth starts to wiggle, and all week your child tries apples, jumping and silly faces while learning that teeth come out when they are ready. When the tooth finally pops out at dinner, it goes into a special keepsake box, until bedtime arrives and the box is empty. Your child takes a deep breath, grabs a flashlight and retraces the day to find it before the Tooth Fairy visits. Warm, playful illustrations follow one cozy week at home and school, with a friendly family dog along for the search. A gentle, funny story for ages 4-7 that celebrates a real milestone and shows a child solving a problem calmly."
+}

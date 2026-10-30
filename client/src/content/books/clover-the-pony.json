@@ -1,0 +1,117 @@
+{
+  "slug": "clover-the-pony",
+  "status": "live",
+  "title_pattern": "{name} and Clover the Pony",
+  "category": "animals",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized horse book for kids",
+  "landing_page_slug": "books/clover-the-pony",
+  "example": {
+    "name": "Arjun",
+    "pronouns": "he",
+    "look": "medium brown skin, neat black hair"
+  },
+  "tagline": "A shy pony, a patient friend, and a trust that grows one quiet morning at a time.",
+  "lesson_or_purpose": "Patience and gentleness build trust. Real friendship with a nervous animal, or a nervous person, comes from showing up calmly again and again, not from rushing.",
+  "tone": "Gentle, warm and quietly hopeful, with soft morning stillness and a small surge of courage in the middle.",
+  "reading_level": "Read-aloud for ages 4-6, early independent reading for ages 7-9. Short paragraphs of 2-4 sentences with simple, sensory language.",
+  "keywords": [
+    "personalized horse book for kids",
+    "personalized pony book",
+    "horse book with child's name",
+    "pony story for kids",
+    "custom horse picture book",
+    "gift for horse loving child",
+    "book about patience for kids",
+    "animal friendship book"
+  ],
+  "illustration_guide": "Setting: a small family stable at the edge of a rolling meadow, with a weathered barn-red barn, wooden stalls, split-rail paddock fences and a gravel path. Most scenes take place in early morning light, with soft golden sunrise, dew on the grass and gentle mist over the meadow; one stormy scene uses cool slate blues and grays before warming again. Palette: honey gold, sage green, soft barn red, cream, warm hay yellow, with dapple gray for the pony. Recurring elements on every page where possible: Clover, a small dapple-gray pony with a white blaze down her nose and a fluffy cream mane that falls over her eyes; an upturned sky-blue bucket the child sits on; bright orange carrots with leafy tops; a patch of three-leaf clover growing by Clover's stall door; a barn swallow that watches from the rafters. The stable keeper is a kind older woman in a green barn coat and rubber boots. Grandma wears a yellow scarf. Soft, textured, painterly style with rounded shapes and expressive but calm faces. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} arrives at a little stable with Grandma on a misty morning. The friendly ponies trot to the fence, but {name} notices one small dapple-gray pony hiding at the back of the very last stall. The stable keeper says her name is Clover, and she is very shy.",
+      "illustration_prompt": "The child and Grandma in a yellow scarf walk up a gravel path toward a barn-red stable in morning mist. Two friendly ponies lean over a fence, while far back in a dim stall a small dapple-gray pony with a white blaze and fluffy cream mane peeks out nervously. Clover patch by the stall door, barn swallow in the rafters."
+    },
+    {
+      "beat": "Excited, {name} hurries straight to Clover's stall with arms out, calling hello. Clover snorts and backs into the corner, ears flat. {name} stops, feeling a sinking disappointment, and wonders why the pony doesn't want to be friends.",
+      "illustration_prompt": "The child rushing toward a stall with arms stretched out, a happy open-mouthed face. Inside, the dapple-gray pony presses into the far corner with ears pinned back and eyes wide. Straw scattered, morning light slanting through the barn door."
+    },
+    {
+      "beat": "The stable keeper kneels beside {name} and explains that shy ponies feel safe with quiet, slow friends, and that trust is something you earn bit by bit. {name} thinks hard, then makes a plan: come back every morning, be calm, and let Clover decide when she is ready.",
+      "illustration_prompt": "An older woman in a green barn coat and rubber boots kneels next to the child near the stall, speaking gently. The child looks thoughtful, one finger on chin. In the background the pony watches from the shadows, one ear turned toward them."
+    },
+    {
+      "beat": "On the first quiet morning, {name} turns a blue bucket upside down a few steps from the stall and sits very still, humming a soft little tune. {name} sets one carrot on the stall ledge and walks away. Later, peeking back, the carrot is gone.",
+      "illustration_prompt": "Golden sunrise inside the barn. The child sits on an upturned sky-blue bucket a short distance from the stall, hands in lap, eyes half closed as if humming. A single orange carrot rests on the wooden stall ledge. The pony's nose just visible reaching toward it."
+    },
+    {
+      "beat": "Morning after morning, {name} returns. Each day {name} scoots the bucket a little closer, reads picture books aloud, and learns Clover's signals: ears forward means curious, a soft blow through the nose means calm. Clover starts waiting at the stall door.",
+      "illustration_prompt": "A gentle sequence feel in one scene: the child sitting on the blue bucket closer to the stall, reading a picture book aloud with no visible words. The pony stands near the stall door now, ears pointed forward, nose stretched slightly toward the child. Sunlight, floating dust motes, barn swallow watching."
+    },
+    {
+      "beat": "One morning a storm rolls in. Wind rattles the barn doors, rain drums on the roof, and a group of visiting kids runs in shouting and laughing. Clover spins in her stall, frightened, and presses into the corner again. {name} has to decide what to do.",
+      "illustration_prompt": "Stormy cool slate-blue light, rain streaking past the open barn door, wind tossing hay. A cluster of excited children rushing in with wet raincoats. The dapple-gray pony wide-eyed in the corner of her stall. The child stands still in the middle, looking from the pony to the children with a determined face."
+    },
+    {
+      "beat": "{name} turns to the other kids and asks them, kindly but clearly, to use quiet voices because Clover is scared. Then {name} sits low on the blue bucket and hums the same soft tune from every morning. One by one, the kids sit down too, and Clover's ears slowly turn toward the familiar song.",
+      "illustration_prompt": "The child with a finger raised gently to lips, facing a group of children who are starting to sit down on hay bales. Then the child seated low on the blue bucket by the stall, humming. The pony's ears swivel forward, body beginning to relax. Storm light softening at the door."
+    },
+    {
+      "beat": "Clover takes one careful step, then another. {name} holds out a carrot on a flat, open hand, just like the stable keeper showed. Clover lowers her soft nose and gently takes it, whiskers tickling. {name} doesn't move a muscle, but inside {she/he} is glowing.",
+      "illustration_prompt": "Close, warm scene: the pony stretching her white-blazed nose over the stall door to take a carrot from the child's flat open palm. The child's face shows a huge held-in smile and bright eyes. Behind, the other children and the stable keeper watch quietly. Rain easing outside."
+    },
+    {
+      "beat": "The storm passes. With the stable keeper beside them, {name} brushes Clover's fluffy cream mane, and Clover leans into the brush with a happy sigh. Then {name} walks Clover out to the sparkling wet paddock, the pony following close at {her/his} shoulder.",
+      "illustration_prompt": "Fresh after-rain light, puddles reflecting a clearing sky. The child brushing the pony's cream mane with a soft brush while the stable keeper stands nearby. Then the child leading the pony on a lead rope across a dewy green paddock, the pony's head close to the child's shoulder. A faint rainbow over the meadow."
+    },
+    {
+      "beat": "The next morning, Clover trots to the fence the moment {name} arrives, nickering hello. Grandma smiles. {name} gives Clover one carrot and one gentle pat and knows that the best friendships grow slowly, one quiet morning at a time. {She/He} promises to come back tomorrow.",
+      "illustration_prompt": "Glowing sunrise over the meadow. The dapple-gray pony trotting eagerly to the split-rail fence toward the child, who holds a carrot. Grandma in her yellow scarf watches from the path, smiling. Clover patch at the fence post, barn swallow swooping overhead."
+    }
+  ],
+  "cover_scene": "The child stands at a split-rail paddock fence in a dewy green meadow, one hand resting gently on the neck of Clover, a small dapple-gray pony with a white blaze and fluffy cream mane, who leans her head affectionately toward the child. A barn-red stable sits softly in the background on one side, a sky-blue bucket and a few orange carrots rest by the fence post near a clover patch. The top third of the picture is a calm, open sunrise sky in pale honey gold fading to soft cream, with only a tiny barn swallow far off, leaving clear space for the title.",
+  "sample_pages": [
+    {
+      "text": "{name} ran to the last stall. \"Hi, Clover! Want to be friends?\" But Clover snorted and backed into the corner. Her ears went flat. {name} stopped. Why was she hiding?",
+      "scene": "The child rushing toward a wooden stall with arms stretched out and an eager smile. Inside, a small dapple-gray pony with a white blaze presses into the far corner, ears pinned back, eyes wide. Straw on the floor, morning light slanting through the barn door."
+    },
+    {
+      "text": "Every morning, {name} came back. Every morning, the blue bucket moved a little closer. {name} read stories out loud and learned what Clover's ears were saying. Ears forward meant, \"I'm curious.\" And one morning, Clover was waiting at the door.",
+      "scene": "The child sitting on an upturned sky-blue bucket near the stall, reading a picture book aloud with no visible words. The dapple-gray pony stands at the stall door with ears pointed forward, nose stretched toward the child. Golden sunlight, floating dust, a barn swallow watching from the rafters."
+    }
+  ],
+  "h1": "Personalized Horse Book for Kids: Your Child Earns the Trust of a Shy Pony",
+  "meta_title": "Personalized Horse Book for Kids | StoryBloom",
+  "meta_description": "A personalized horse book where your child earns the trust of a shy pony named Clover, one carrot and one quiet morning at a time.",
+  "promise": "Your child becomes the patient, gentle hero who turns a frightened pony into a true friend, and stays calm when it matters most.",
+  "story_summary": "On a misty visit to a little stable, your child spots Clover, a shy dapple-gray pony hiding at the back of her stall. A rushed hello sends her backing into the corner, so your child makes a quiet plan: come back every morning, sit still, hum a soft tune and leave a single carrot. Day by day, the bucket moves a little closer and your child learns what Clover's ears are saying. Then a stormy morning and a crowd of noisy visitors put all that careful trust to the test.",
+  "why_parents": [
+    "Children between four and nine often love animals with their whole hearts, and they also want that love returned right away. This story gently shows what happens when eagerness meets a creature who needs more time, and how patience, quiet and consistency can turn a no into a yes.",
+    "The same skills that win over Clover help with shy classmates, new siblings, nervous pets and even a child's own big feelings. Watching your child stay calm during the storm, speak up kindly to the other kids and wait for Clover to choose gives young readers a picture of quiet courage that feels just as heroic as any gallop."
+  ],
+  "for_grownups": [
+    "Ask your child: Why do you think Clover backed away at first? Have you ever needed a little time before you felt comfortable with someone new?",
+    "Talk about Clover's ear signals and other ways animals and people show how they feel without words. Try guessing feelings from faces and body language together.",
+    "If your child will be around real horses or pets, use the book to practice the calm habits shown: moving slowly, using a quiet voice, offering a flat hand and always having a grown-up nearby."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child need to know about horses to enjoy this book?",
+      "answer": "Not at all. The story explains everything a young reader needs, like what a pony's ears mean, through the gentle advice of the stable keeper. It works equally well for horse-crazy kids and those who have never been near a barn."
+    },
+    {
+      "question": "Is this a riding story?",
+      "answer": "No, it is a friendship story about earning trust on the ground. Your child feeds, brushes and leads Clover with a grown-up nearby, which keeps the focus on patience and gentleness rather than riding."
+    },
+    {
+      "question": "Is the stormy part scary for younger children?",
+      "answer": "The storm is brief and handled softly. It creates a moment where your child chooses to stay calm and help, and it resolves quickly into a sunny, rainbow-lit ending scene in the paddock."
+    }
+  ],
+  "image_alt": "Personalized horse book cover featuring an illustrated child at a paddock fence with a shy dapple-gray pony at sunrise",
+  "feed_title": "Personalized Horse Book for Kids, Your Child Befriends a Shy Pony Named Clover",
+  "feed_description": "A personalized picture book for ages 4 to 9 in which your child becomes the hero who earns the trust of Clover, a shy dapple-gray pony at a little family stable. After a too-quick hello sends Clover into the corner, your child makes a patient plan: return each quiet morning, sit still on a blue bucket, hum a soft tune and leave a single carrot. Day by day your child learns to read Clover's ears and moves a little closer. When a storm and a crowd of noisy visitors frighten the pony, your child stays calm, speaks up kindly and helps Clover feel safe again. Warm, painterly illustrations of misty mornings, meadows and a cozy barn make this a gentle gift for horse-loving kids and a lovely story about patience and kindness."
+}

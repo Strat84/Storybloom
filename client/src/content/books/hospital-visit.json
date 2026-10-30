@@ -1,0 +1,117 @@
+{
+  "slug": "hospital-visit",
+  "status": "live",
+  "title_pattern": "{name}'s Hospital Visit",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book about going to the hospital for kids",
+  "landing_page_slug": "books/hospital-visit",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "A gentle, honest look at a hospital stay, with your child asking the questions and finding the brave answers.",
+  "lesson_or_purpose": "To help children know what to expect during a hospital stay or surgery: who the helpers are, what the machines do, and how asking questions and naming feelings can make new things feel less scary.",
+  "tone": "Calm, honest and reassuring, with small moments of curiosity and humor. Never frightening, never sugarcoated.",
+  "reading_level": "Ages 3-8. Short sentences and concrete words for younger listeners, with a few simple explanations that older children can read along with a grown-up.",
+  "keywords": [
+    "book about going to the hospital for kids",
+    "hospital stay book for children",
+    "surgery book for kids",
+    "personalized hospital book",
+    "preparing child for hospital",
+    "kids book about doctors and nurses",
+    "what to expect at the hospital",
+    "personalized picture book"
+  ],
+  "illustration_guide": "Setting: a bright, friendly children's hospital with soft rounded shapes, wide windows, a cozy patient room, a playroom, a hallway with painted wall murals of clouds and birds, and the child's home at the start and end. Palette: soft sky blue, mint green, warm butter yellow and gentle peach, with cream whites; nothing cold or clinical. Recurring elements: the child's floppy-eared stuffed bunny (same toy on every page), a colorful hospital wristband on the child's wrist from arrival until home, a small window showing the sky and changing time of day, and the same kind nurse with a cheerful patterned top. Machines are drawn simply and friendly, with soft glowing lights. Grown-ups are warm and close by. No words, signs, lettering or numbers anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "At home, Mom and Dad sit with {name} and explain that {she/he} will stay at the hospital for a little while so the doctors can help {her/his} body. {name} feels a wobbly, unsure feeling and chooses what to pack, starting with {her/his} floppy-eared bunny.",
+      "illustration_prompt": "A cozy living room in soft morning light. The child sits on a couch between two parents, holding a floppy-eared stuffed bunny and looking thoughtful. A small open backpack on the floor holds pajamas and a picture book."
+    },
+    {
+      "beat": "{name} arrives at the hospital and walks through big sliding doors. A friendly helper at the front desk snaps a colorful wristband onto {her/his} wrist so everyone knows exactly who {name} is.",
+      "illustration_prompt": "A bright, airy hospital entrance with tall glass doors and potted plants. A smiling helper behind a rounded desk fastens a colorful wristband onto the child's wrist while a parent stands nearby holding the backpack."
+    },
+    {
+      "beat": "In {her/his} room, {name} meets the nurse, changes into a soft gown with snaps, and discovers the bed has buttons. With the nurse's help, {name} makes the bed go up and down and giggles.",
+      "illustration_prompt": "A cheerful patient room with a big window and a mint green wall. The child in a patterned hospital gown sits on an adjustable bed, pressing a remote while the bed tilts upward. A nurse in a bright patterned top laughs beside the bed, and the bunny sits on the pillow."
+    },
+    {
+      "beat": "The nurse shows {name} the checking tools: a thermometer, a cuff that squeezes the arm like a tight hug, and a little clip with a red glow that rests on a finger. {name} tries each one on the bunny first.",
+      "illustration_prompt": "Close view of the child sitting cross-legged on the bed, carefully placing a tiny glowing finger clip on the stuffed bunny's paw. A soft blood pressure cuff rests on the child's own arm, and the nurse kneels beside, watching kindly."
+    },
+    {
+      "beat": "That evening the machines beep, footsteps pass in the hallway, and the room feels strange. {name} pulls the blanket up high and holds the bunny tight, feeling scared and far from home.",
+      "illustration_prompt": "The patient room at dusk with a deep blue window and a soft lamp glow. The child is curled under a blanket, only eyes and the bunny's ears peeking out, looking toward a small monitor with gentle colored lights. A parent sits in a nearby chair."
+    },
+    {
+      "beat": "{name} decides to be brave in {her/his} own way: by asking. {She/He} calls the nurse and asks what the beeping machine does. The nurse explains it is just talking to the nurses, and {name} makes a plan to ask about every new thing.",
+      "illustration_prompt": "The child sits up in bed, pointing at the friendly monitor with curiosity, while the nurse leans in to explain. The bunny is tucked under the child's arm. The room glows warm and calm."
+    },
+    {
+      "beat": "On the day of the operation, the doctor and the special sleep doctor visit {name} and explain that {she/he} will have a deep, special sleep while the doctors work. {name} asks {her/his} questions, holds Mom's hand, and counts slowly with the bunny tucked close.",
+      "illustration_prompt": "A bright pre-operation room with soft curtains. The child lies on a rolling bed wearing a fabric cap, holding a parent's hand and the bunny. Two doctors in caps and gowns smile gently at the bedside."
+    },
+    {
+      "beat": "{name} wakes up feeling sleepy and a little sore, with a bandage and Dad right there. The nurse asks how {she/he} feels, and {name} uses {her/his} words to say exactly what feels okay and what does not.",
+      "illustration_prompt": "A quiet recovery area with soft light. The child rests on a pillow looking drowsy, a small bandage visible, the bunny beside the cheek. A parent holds the child's hand while the nurse kneels to listen closely."
+    },
+    {
+      "beat": "Over the next days, {name} walks the hallway, plays in the playroom, and meets a younger child who is frightened by the beeping machines. {name} explains what {she/he} learned and shares the bunny for a hug.",
+      "illustration_prompt": "A colorful hospital playroom with soft mats, blocks and a painted cloud mural. The child, wearing the wristband, kneels beside a younger child and gently offers the stuffed bunny while pointing toward a friendly monitor in the doorway."
+    },
+    {
+      "beat": "At last it is time to go home. The nurse snips off the wristband, and {name} waves goodbye to all the helpers, then tells the family at home all about the hospital and how {she/he} asked {her/his} questions.",
+      "illustration_prompt": "The child's cozy home in warm afternoon light. The child sits on the couch with the bunny, arms spread wide as if telling a big story, while family members listen with smiles. A small wristband rests on the table beside a get-well card with no writing."
+    }
+  ],
+  "cover_scene": "The child stands confidently in front of a bright, friendly children's hospital entrance with rounded glass doors and potted plants, holding a floppy-eared stuffed bunny in one arm and showing a colorful wristband on the other. A kind nurse in a patterned top waves from the doorway. The top third of the picture is calm, open soft blue sky with a few gentle clouds and a small bird, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "The nurse showed {name} a squeezy cuff and a little light clip. \"They help us check on you,\" she said. {name} tried them on Bunny first. Squeeze, squeeze. Glow, glow. \"Bunny is just fine,\" said {name}.",
+      "scene": "The child sits cross-legged on a hospital bed in a patterned gown, carefully placing a tiny softly glowing finger clip on a floppy-eared stuffed bunny's paw. A soft cuff rests on the child's arm. A nurse in a bright patterned top kneels beside the bed, smiling. A big window shows a sunny sky."
+    },
+    {
+      "text": "Beep, beep, went the machine. {name} peeked out from the blanket. Then {she/he} took a big breath and pressed the call button. \"What does that machine do?\" {she/he} asked. \"It talks to us nurses,\" said the nurse. \"It tells us you are resting.\" {name} smiled. Asking helped.",
+      "scene": "The patient room in the evening with warm lamp light. The child sits up in bed holding the bunny, pointing at a small monitor with gentle colored lights. The nurse leans in, explaining with an open hand. A parent dozes in a chair nearby, and the window shows a deep blue sky with a few stars."
+    }
+  ],
+  "h1": "Personalized Book About Going to the Hospital for Kids",
+  "meta_title": "Hospital Visit Book for Kids, Personalized | StoryBloom",
+  "meta_description": "A personalized picture book showing your child what a hospital stay is like, from wristbands to beeping machines.",
+  "promise": "Your child sees themselves walking through the hospital doors, meeting the helpers and learning what each machine does, so the real visit feels a little more familiar.",
+  "story_summary": "Your child is going to stay at the hospital, and a wobbly, unsure feeling comes along for the ride. With a favorite stuffed bunny in hand, your child gets a wristband, meets a kind nurse, tries out the bed with buttons and learns about the squeezy cuff and the little glowing clip. When the beeping machines make the first night feel strange, your child finds a way to be brave that fits just right: asking questions about everything. From the special sleep on operation day to the playroom down the hall, your child discovers that new things feel less scary once you understand them.",
+  "why_parents": [
+    "Young children fill in the unknown with their imaginations, and a hospital is full of unfamiliar sounds, people and equipment. Seeing a hospital stay in a story, step by step, gives your child a picture of what is coming: the wristband, the nurse, the bed that moves, the beeps at night. When the real moment arrives, some of it may already feel familiar.",
+    "This book also shows your child that it is fine to feel scared, and that asking questions and saying how you feel are brave things to do. Those are skills your child can carry into the hospital and into any new experience, and they give you natural openings to talk about what your family's own visit will look like."
+  ],
+  "for_grownups": [
+    "Every hospital stay is different. Read the book ahead of time and point out where your child's visit might look the same or different, and check with your child's doctor, nurses or care team about what to expect. Many hospitals have staff who help prepare children and can answer questions.",
+    "Invite your child to make a question list, just like in the story. Ask: \"What are you wondering about the hospital?\" and bring the list along so your child can ask the nurses.",
+    "Practice naming feelings together. Try: \"Can you show me with your hands how big your worried feeling is today?\" and remind your child that telling grown-ups how something feels is always okay."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book include surgery, or just a hospital stay?",
+      "answer": "It covers both. The story follows a short hospital stay that includes an operation, with the special sleep, waking up with a bandage, and the days afterward, described gently and in simple words."
+    },
+    {
+      "question": "Is the story about a specific illness or procedure?",
+      "answer": "No. The reason for the visit is kept general so the book fits many situations. It focuses on the people, the room, the machines and the feelings that are common to most hospital stays."
+    },
+    {
+      "question": "Is this a good book for a child who is nervous about the hospital?",
+      "answer": "It was written with nervous children in mind. The story shows the scary moment honestly and then shows your child using questions and words to feel braver, which can be a helpful starting point for your own conversations alongside guidance from your child's care team."
+    }
+  ],
+  "image_alt": "Personalized hospital visit book cover featuring an illustrated child holding a stuffed bunny outside a friendly hospital",
+  "feed_title": "Personalized Hospital Visit Book for Kids, Your Child Is the Hero of a Gentle Hospital Story",
+  "feed_description": "A personalized picture book about going to the hospital, made for children ages 3 to 8. Your child becomes the illustrated hero who walks through the hospital doors, gets a colorful wristband, meets a kind nurse and discovers a bed with buttons. Along the way your child learns what the checking tools and beeping machines are for, faces a scary first night, and finds courage by asking questions. The story gently walks through a special sleep for an operation, waking up with a bandage, and playing in the hospital playroom before heading home. Calm, honest text and soft, friendly illustrations make it a warm way to talk with your child about an upcoming hospital stay or surgery."
+}

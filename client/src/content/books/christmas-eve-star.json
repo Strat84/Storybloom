@@ -1,0 +1,117 @@
+{
+  "slug": "christmas-eve-star",
+  "status": "live",
+  "title_pattern": "{name} and the Christmas Eve Star",
+  "category": "christmas",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Dec",
+  "sensitive": false,
+  "main_keyword": "personalized christmas eve book",
+  "landing_page_slug": "books/christmas-eve-star",
+  "example": {
+    "name": "Amara",
+    "pronouns": "she",
+    "look": "deep brown skin, short coily black hair"
+  },
+  "tagline": "One small star, one big night, and your child is the only one who can carry it home.",
+  "lesson_or_purpose": "Kindness and a warm heart can light the way, even on a dark, snowy night. The child learns that being brave and thinking of others are part of the Christmas spirit.",
+  "tone": "Cozy, magical and gently suspenseful, with a glowing, peaceful ending.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, simple words and some playful sound words.",
+  "keywords": [
+    "personalized christmas eve book",
+    "christmas eve story for kids",
+    "personalized christmas book",
+    "christmas star book for children",
+    "christmas eve box book",
+    "bedtime christmas story",
+    "custom christmas picture book",
+    "christmas book with child's name"
+  ],
+  "illustration_guide": "Setting: a cozy family living room with a decorated Christmas tree, then a snowy backyard, a quiet snow-covered town with glowing windows, and a gentle hill under a deep night sky. Palette: midnight blues and soft violets for the sky, warm golds and ambers for the star and lit windows, crisp whites for snow, touches of pine green and berry red. Recurring elements: the small five-pointed gold star whose glow grows brighter through the story, the child in a cozy red coat, knit hat and boots, a small round robin who joins after being helped, the town clock tower visible in the distance, and gentle falling snowflakes. Soft, painterly storybook style with glowing light effects. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "It is Christmas Eve and the house is quiet. {name} is tucked in bed but hears a soft tinkle from the living room. {name} tiptoes out and finds the gold star from the top of the tree lying on the rug, blinking faintly.",
+      "illustration_prompt": "A cozy dim living room on Christmas Eve, a decorated tree with an empty top, the child in pajamas peeking around a doorway at a small gold star glowing faintly on the rug."
+    },
+    {
+      "beat": "The star speaks in a tiny voice. It explains that tree stars remind people of the bright star in the first Christmas story, and once a year one must return to the sky before midnight to shine over every home. It needs a helper with a warm heart, and it has chosen {name}.",
+      "illustration_prompt": "The child kneeling on the rug holding the small gold star in cupped hands, the star glowing softly and looking up hopefully, twinkling tree lights behind."
+    },
+    {
+      "beat": "{name} pulls on a warm coat, hat and boots and carries the star out into the snowy yard. The star's glow is weak, and it whispers that it gets brighter with every kind thing that happens tonight. {name} promises to help.",
+      "illustration_prompt": "The child in a red coat and knit hat stepping into a snowy backyard at night, holding the dim gold star close, snowflakes drifting under a deep blue sky."
+    },
+    {
+      "beat": "On the path, {name} finds a little robin shivering on a fence post. {name} gently tucks the bird into a coat pocket to keep it warm. The star glows a little brighter, and the robin chirps a thank you and decides to come along.",
+      "illustration_prompt": "The child gently lifting a small fluffy robin from a snowy fence post, the gold star shining a bit brighter in the child's other hand."
+    },
+    {
+      "beat": "The way to the tall hill goes through the sleeping town. Suddenly the wind picks up and swirling snow hides the path. {name} cannot see where to go, and the clock tower shows midnight is getting close.",
+      "illustration_prompt": "A snowy town street at night with swirling snow, glowing windows, a distant clock tower, the child holding the star while the robin peeks from a coat pocket."
+    },
+    {
+      "beat": "{name} has an idea and holds the star up high. Together the star and the lit windows of the town make a trail of golden light. Step by step, {name} follows the glow and finds the path again.",
+      "illustration_prompt": "The child holding the gold star high above, a trail of warm light falling across the snow toward the base of a gentle hill, the robin peeking out happily."
+    },
+    {
+      "beat": "At last {name} reaches the top of the hill. Far below, the town clock is almost at midnight. The star tries to rise, but it is tired and drifts back down into the child's hands. It is not bright enough yet.",
+      "illustration_prompt": "The child standing on a snowy hilltop under a huge starry sky, the small star hovering just above the child's open hands, the town glowing far below."
+    },
+    {
+      "beat": "{name} remembers what the star said about warm hearts. Instead of wishing for presents, {name} wishes that every family in town will be warm and happy tonight, and softly sings a Christmas carol. The robin sings along, and the star begins to blaze with golden light.",
+      "illustration_prompt": "The child on the hilltop with eyes closed and a gentle smile, holding the star which shines brilliantly, the robin perched on the child's shoulder, warm golden light spreading over the snow."
+    },
+    {
+      "beat": "Just as the town bells ring midnight, {name} lifts the star with both arms. It floats up and up until it takes its place in the sky, shining over every rooftop. {name} waves goodbye as the robin flutters happily.",
+      "illustration_prompt": "The child reaching both arms up as the gold star rises into the night sky, glowing brightly above the snowy rooftops of the town, the robin flying beside."
+    },
+    {
+      "beat": "{name} walks home under the bright starlight and finds a new little gold star sparkling on top of the tree. Snuggled back in bed, {name} looks out the window at the brightest star in the sky, which twinkles back, and falls asleep smiling on Christmas Eve.",
+      "illustration_prompt": "The child snuggled in bed under a cozy quilt, looking out a frosty window at one brilliant star in the sky, the decorated tree with a new glowing star visible through the open doorway."
+    }
+  ],
+  "cover_scene": "The child in a red coat and knit hat stands on a snowy hilltop holding a glowing gold star in both hands, a small robin perched on the child's shoulder, the warm lights of a sleeping town below. The top third of the picture is calm, open midnight-blue sky with a few soft scattered stars and gentle snowflakes, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "{name} tiptoed to the tree. There on the rug lay the little gold star, blinking softly. \"Please help me,\" it whispered. \"I must get back to the sky before midnight!\"",
+      "scene": "A cozy dim living room on Christmas Eve, the child in pajamas kneeling beside a decorated tree with an empty top, gazing at a small gold star glowing on the rug."
+    },
+    {
+      "text": "Whoosh! The wind blew. The snow swirled. The path was gone! {name} held the star up high. \"Shine with me,\" said {name}. Step by step, they found the way.",
+      "scene": "The child in a red coat holding a gold star high above in a swirl of snow, warm light spilling onto a snowy town street, a small robin peeking from the child's coat pocket."
+    }
+  ],
+  "h1": "Personalized Christmas Eve Book: Your Child Carries the Star Home",
+  "meta_title": "Personalized Christmas Eve Book | StoryBloom",
+  "meta_description": "A personalized Christmas Eve book where your child helps a fallen tree star return to the sky before midnight. Cozy and magical.",
+  "promise": "A glowing Christmas Eve adventure where your child's kindness and courage help a little star find its way back to the sky.",
+  "story_summary": "On Christmas Eve, your child hears a tinkle in the quiet house and finds the star from the top of the tree lying on the rug. The tiny star explains it must return to the sky before midnight, and it has chosen your child as its warm-hearted helper. Bundled up against the snow, your child sets off through a sleeping town with the star and a little robin, but the wind whips up and the clock keeps ticking. Can your child find a way to help the star shine bright enough to rise?",
+  "why_parents": [
+    "Christmas Eve is full of waiting, and a calm, magical story helps that excited energy settle into something cozy. This book turns the night before Christmas into a gentle adventure that still ends snuggled in bed, which makes it a natural part of a Christmas Eve bedtime.",
+    "At this age, children are just starting to notice that Christmas is about more than gifts. In this story your child chooses to help a cold little bird and wishes for every family to be warm and happy, and that is what makes the star shine. It gives you an easy way to talk about kindness and giving during the busiest week of the year."
+  ],
+  "for_grownups": [
+    "Ask your child what the star needed to shine brighter, and talk about a kind thing you could do together this Christmas.",
+    "Before bed on Christmas Eve, step outside or look out a window together and find the brightest star in the sky.",
+    "Invite your child to make a wish for someone else, just like in the story, and share your own."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a good book to read on Christmas Eve night?",
+      "answer": "Yes. The adventure takes place on Christmas Eve and ends with the child snuggled in bed, so it works nicely as a calm bedtime read on the night itself or tucked into a Christmas Eve box."
+    },
+    {
+      "question": "Does the story include religious content?",
+      "answer": "It is mainly a cozy, magical winter story. The star briefly mentions that tree stars remind people of the bright star in the first Christmas story, a gentle nod families of many traditions can enjoy."
+    },
+    {
+      "question": "Will the story feel scary for a 3-year-old?",
+      "answer": "The suspense is gentle: a snowy wind and a ticking clock. Your child solves the problem with kindness and a song, and the ending is warm and peaceful."
+    }
+  ],
+  "image_alt": "Personalized Christmas Eve book cover featuring an illustrated child holding a glowing gold star on a snowy hilltop",
+  "feed_title": "Personalized Christmas Eve Book for Kids, Your Child Helps the Star Return to the Sky",
+  "feed_description": "A personalized Christmas Eve picture book for ages 3 to 8 where your child becomes the illustrated hero. On Christmas Eve, the gold star falls from the top of the tree and asks your child for help getting back to the sky before midnight. Bundled in a warm coat, your child carries the little star through a snowy sleeping town, helps a shivering robin, and finds the way when the wind hides the path. On a moonlit hilltop, a wish for others and a softly sung carol make the star shine bright. With glowing golds, midnight blues and cozy snow scenes, it makes a calm, magical bedtime story for Christmas Eve or a sweet addition to a Christmas Eve box."
+}

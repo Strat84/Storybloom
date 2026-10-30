@@ -1,0 +1,117 @@
+{
+  "slug": "bedtime-prayer",
+  "status": "live",
+  "title_pattern": "{name}'s Bedtime Prayer",
+  "category": "faith",
+  "age_range": "1-6",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "bedtime prayer book personalized",
+  "landing_page_slug": "books/bedtime-prayer",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "A gentle goodnight prayer where your child thanks God for the day's small gifts and the people they love.",
+  "lesson_or_purpose": "Shows a young child that prayer is a simple, comforting way to talk to God at bedtime: giving thanks for ordinary gifts, remembering loved ones, saying sorry, and resting in calm.",
+  "tone": "Soft, hushed, cozy and reverent, with a gentle repeating refrain suited to being read aloud at lights-out.",
+  "reading_level": "Read-aloud for ages 1-6: very short lines, gentle rhythm, a repeating 'Thank you, God' refrain, and simple everyday words.",
+  "keywords": [
+    "bedtime prayer book personalized",
+    "personalized prayer book for kids",
+    "bedtime prayer book for toddlers",
+    "christian bedtime story personalized",
+    "thank you God book for children",
+    "personalized faith book for kids",
+    "goodnight prayer picture book",
+    "gratitude prayer book for kids"
+  ],
+  "illustration_guide": "Setting: a child's cozy bedroom at dusk and into night, with brief remembered daytime moments shown as soft dreamy vignettes (a sunny garden with puddles, a kitchen table, family hugs). Palette: warm lamplight golds and peach early on, shifting to calm dusky lavender, deep soft blue and silver moonlight as the night deepens. Recurring elements: a round window showing the moon and stars that grow brighter page by page, a well-loved stuffed lamb on the bed, a patchwork quilt, the child's small hands folded in prayer, a gentle glow around the remembered gifts. Style: rounded shapes, soft watercolor textures, no harsh shadows, nothing frightening even in the dark.",
+  "page_outline": [
+    {
+      "beat": "The sun slips low and the sky turns pink and gold. {name} waves goodnight to the day from the window, already in cozy pajamas, stuffed lamb tucked under one arm.",
+      "illustration_prompt": "The child in soft pajamas stands at a round bedroom window holding a stuffed lamb, waving at a pink and gold sunset, warm lamplight glowing in the cozy room behind."
+    },
+    {
+      "beat": "Bath bubbles, brushed teeth, one favorite story. Mom tucks {name} under the patchwork quilt, kisses {her/his} forehead, and turns down the lamp. Keep it rhythmic and short.",
+      "illustration_prompt": "A mother gently tucks the child into bed under a patchwork quilt, the stuffed lamb on the pillow, a picture book on the nightstand, a lamp glowing low."
+    },
+    {
+      "beat": "The light clicks off. The room feels big and very quiet. {name} wiggles and wiggles, eyes wide open, too full of wiggly thoughts to sleep. This is the small challenge.",
+      "illustration_prompt": "The child lies awake in bed in a dim, blue-toned bedroom, eyes wide, quilt rumpled from wiggling, the moon peeking through the round window, the room still soft and safe looking."
+    },
+    {
+      "beat": "{name} remembers what Grandma said: you can talk to God anytime, even in the dark. {name} decides to try, sits up, and folds two small hands. Make clear this is the child's own choice.",
+      "illustration_prompt": "The child sits up in bed with hands folded, a soft dreamy vignette above showing a grandmother smiling and folding her hands too, moonlight brightening slightly in the window."
+    },
+    {
+      "beat": "{name} begins the prayer with the refrain 'Thank you, God,' giving thanks for the yellow sun and for splashing in puddles today.",
+      "illustration_prompt": "The child with folded hands and closed eyes, a glowing dreamy vignette nearby showing the child in rain boots jumping in sunny garden puddles, droplets sparkling."
+    },
+    {
+      "beat": "'Thank you, God,' {name} whispers again, for warm soup, a crunchy red apple, and a full tummy. Repeat the refrain.",
+      "illustration_prompt": "The child smiling with folded hands, beside a soft vignette of a family kitchen table with bowls of steaming soup and a shiny red apple."
+    },
+    {
+      "beat": "{name} thanks God for the people {she/he} loves: Mom and Dad, Grandma, and a best friend, naming each one with a hug in mind. Ask God to keep them safe tonight.",
+      "illustration_prompt": "The child praying with a peaceful face, surrounded by gentle glowing vignettes of a mother, a father, a grandmother and a small friend, each smiling warmly."
+    },
+    {
+      "beat": "{name} remembers grabbing a toy from a friend today. {She/He} quietly tells God sorry and asks for help to be kind tomorrow. Keep it gentle and reassuring, never heavy.",
+      "illustration_prompt": "The child with head slightly bowed and hands folded, a soft vignette showing the child handing a toy truck back to a smiling friend, warm light around them."
+    },
+    {
+      "beat": "{name} thanks God for the silver moon and the twinkling stars that watch over the house, and for the cozy bed and stuffed lamb. The room no longer feels big; it feels warm and close.",
+      "illustration_prompt": "The child gazes up at the round window full of a bright silver moon and many twinkling stars, hugging the stuffed lamb, the bedroom now glowing in calm lavender and silver light."
+    },
+    {
+      "beat": "'Amen,' says {name}, and snuggles down under the quilt. Thoughts are calm, eyes grow heavy, and {she/he} drifts off to sleep, safe and loved. End softly with the refrain one last time.",
+      "illustration_prompt": "The child sleeping peacefully under the patchwork quilt with the stuffed lamb, a gentle smile, moonlight and starlight softly washing over the bed."
+    }
+  ],
+  "cover_scene": "The child kneels on a bed under a patchwork quilt beside a round window, hands folded and eyes gently closed, a stuffed lamb at the child's side. Through and above the window a calm, wide expanse of deep soft blue night sky with a few faint stars fills the top third of the picture, open and uncluttered. Warm lamplight glows on the child's face, soft watercolor style.",
+  "sample_pages": [
+    {
+      "text": "Click goes the light. The room is big. The room is quiet. {name} wiggles. {name} wiggles some more. Eyes open wide, wide, wide.",
+      "scene": "The child lies awake in a dim, blue-toned bedroom, eyes wide open, quilt rumpled, stuffed lamb nearby, the moon peeking softly through a round window."
+    },
+    {
+      "text": "{name} folds two small hands. \"Thank you, God, for the yellow sun. Thank you, God, for puddles. Splash, splash, splash!\"",
+      "scene": "The child sits in bed with hands folded and eyes closed, a glowing dreamy vignette beside showing the child in rain boots jumping in sunny garden puddles."
+    }
+  ],
+  "h1": "Personalized Bedtime Prayer Book Starring Your Child",
+  "meta_title": "Personalized Bedtime Prayer Book | StoryBloom",
+  "meta_description": "A personalized bedtime prayer book where your child thanks God for the day's small gifts and the people they love, then drifts off to sleep.",
+  "promise": "A soft, simple prayer your child can make their own, for winding down and giving thanks at the end of every day.",
+  "story_summary": "The day is done, the quilt is tucked, and the light clicks off, but your child is still full of wiggles and the room feels very big. Then your child remembers something Grandma said: you can talk to God anytime, even in the dark. Folding two small hands, your child begins a gentle prayer, giving thanks for puddles and sunshine, warm soup, and the people they love most. Along the way there is a quiet sorry and a hope to be kind tomorrow.",
+  "why_parents": [
+    "Little ones often hit a burst of energy or a flutter of worry right when the lights go out. A short, familiar prayer gives that moment a shape: a pause, a few thank-yous, and a reminder that they are cared for. This book models that rhythm in words a toddler can echo and a preschooler can start saying on their own.",
+    "Giving thanks for small, concrete things like an apple or a puddle helps young children notice the good in an ordinary day. Seeing themselves fold their hands and pray in the pictures can make prayer feel like something they do, not only something grown-ups do, and it gives your family an easy bedtime ritual to return to night after night."
+  ],
+  "for_grownups": [
+    "After reading, ask your child to name one thing from today they want to thank God for, and add it to the prayer together.",
+    "Invite your child to name the people they love by name, the way the child in the story does. Grandparents, cousins and friends can all be included.",
+    "If your child wants to say sorry for something from the day, keep it light and reassuring, and end with a hug and a hope for tomorrow."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book tied to a particular church or denomination?",
+      "answer": "The prayer is simple and centered on thanking God, praying for loved ones, and asking for help to be kind, so it fits comfortably in many Christian homes. It does not include denomination-specific prayers or practices."
+    },
+    {
+      "question": "Will it work for a one-year-old as well as a six-year-old?",
+      "answer": "Yes. The lines are short with a repeating 'Thank you, God' refrain that babies enjoy hearing, while older children can learn the words and start leading the prayer themselves."
+    },
+    {
+      "question": "Is the story calming enough for the very end of bedtime?",
+      "answer": "It is written to wind down. The pictures shift from warm lamplight to soft moonlight, the words grow quieter, and the story ends with your child saying amen and falling asleep."
+    }
+  ],
+  "image_alt": "Personalized bedtime prayer book cover featuring an illustrated child kneeling in bed with folded hands beneath a starry night window",
+  "feed_title": "Personalized Bedtime Prayer Book for Kids, Your Child Says a Goodnight Prayer to God",
+  "feed_description": "A gentle personalized bedtime prayer picture book for ages 1 to 6. When the lights go out and the wiggles will not stop, your child remembers that they can talk to God anytime. With small hands folded, your child gives thanks for sunshine and puddles, warm soup and a crunchy apple, and the people they love, then says a quiet sorry and asks for help to be kind tomorrow. A soft repeating refrain makes it easy for little ones to join in. Illustrations move from warm lamplight to calm silver moonlight, ending with your child safe and asleep. A cozy way to build a simple prayer into your nightly routine."
+}

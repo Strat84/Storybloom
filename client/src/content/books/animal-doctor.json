@@ -1,0 +1,117 @@
+{
+  "slug": "animal-doctor",
+  "status": "live",
+  "title_pattern": "{name} the Animal Doctor",
+  "category": "careers",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "vet book for kids personalized",
+  "landing_page_slug": "books/animal-doctor",
+  "example": {
+    "name": "Amara",
+    "pronouns": "she",
+    "look": "deep brown skin, short coily black hair"
+  },
+  "tagline": "A day at the animal clinic, and one shy rabbit who needs a patient friend.",
+  "lesson_or_purpose": "Caring for animals means gentle hands, quiet patience and noticing how others feel. The child learns that kindness and calm can help a frightened creature feel safe.",
+  "tone": "Warm, gentle and curious, with soft humor from wiggly patients and a quiet, tender turning point.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, simple vet words like scale, stethoscope and bandage, with light repetition.",
+  "keywords": [
+    "vet book for kids personalized",
+    "personalized vet book",
+    "animal doctor book for kids",
+    "veterinarian picture book",
+    "personalized career book for kids",
+    "book for kids who love animals",
+    "rabbit picture book",
+    "kindness to animals book"
+  ],
+  "illustration_guide": "Setting: a small, cozy neighborhood animal clinic with a sunny waiting room, a bright exam room with a padded table, a weighing scale, shelves of colorful towels and bandage rolls, and a big window looking onto a leafy garden. Palette: soft mint green, warm cream, sunny butter yellow, gentle coral and sky blue, with honey-colored wood floors. Recurring elements: the child wears a small mint-green helper coat with a toy stethoscope around the neck; Dr. Rosa is a friendly vet with curly gray-streaked hair, round glasses and a matching mint coat; Clover is a small brown-and-white rabbit with one floppy ear and a pink nose; a striped orange clinic cat naps somewhere in many scenes. Light is soft and natural, the mood is calm and safe. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} arrives at a little neighborhood animal clinic for a very special day as Dr. Rosa's helper. Dr. Rosa hands {name} a small green coat and a stethoscope, and {she/he} buttons it up proudly, ready to care for animals.",
+      "illustration_prompt": "A sunny clinic waiting room with honey wood floors and a big leafy window. The child, beaming, slips on a small mint-green helper coat while a friendly vet with curly gray-streaked hair and round glasses holds out a toy stethoscope. A striped orange cat naps on a cushioned bench."
+    },
+    {
+      "beat": "The first patient is a wiggly puppy who will not sit still on the scale. {name} kneels down, counts slowly with the puppy, and helps it settle long enough for Dr. Rosa to read its weight.",
+      "illustration_prompt": "A bright exam room. The child kneels beside a low weighing scale where a fluffy cream puppy wiggles with its tongue out, tail a blur. The vet leans in, smiling. Soft mint and yellow tones, towels stacked on a shelf."
+    },
+    {
+      "beat": "Next comes a sleepy gray cat with an itchy ear. {name} holds a small flashlight steady while Dr. Rosa takes a look, and {name} learns that gentle, slow hands help animals stay calm.",
+      "illustration_prompt": "The child carefully holds a small flashlight, its gentle beam pointed at the ear of a relaxed gray cat on a padded exam table. The vet peers through round glasses. Warm, calm lighting and a cozy feel."
+    },
+    {
+      "beat": "The clinic door opens and a girl named Maya comes in holding a cardboard carrier. Inside is Clover, a small rabbit with a sore back paw. {name} peeks in and sees two wide, worried eyes in the dark corner.",
+      "illustration_prompt": "A young girl holds a cardboard pet carrier with air holes in the waiting room. The child leans close, peeking through the open flap at a small brown-and-white rabbit with one floppy ear, huddled in the corner with wide eyes."
+    },
+    {
+      "beat": "Dr. Rosa tries to lift Clover out, but the rabbit presses flat and trembles. The room is busy and bright, a phone rings and a dog barks. {name} notices Clover's ears tucked tight against {her/his} little back and feels worried too.",
+      "illustration_prompt": "The exam room feels busy: a dog in the doorway mid-bark, bright overhead light, the vet reaching gently toward the carrier. Inside, the rabbit presses low with ears flat. The child stands nearby with a thoughtful, concerned face."
+    },
+    {
+      "beat": "{name} remembers how it feels to be shy in a new place, when everything seems too big and too loud. {She/He} has an idea and whispers it to Dr. Rosa: make the room quiet, dim, and slow.",
+      "illustration_prompt": "The child cups a hand and whispers into the ear of the vet, who has crouched down to listen with a warm, interested smile. Behind them, the carrier sits on the floor. A soft thought-like glow surrounds the child."
+    },
+    {
+      "beat": "Dr. Rosa closes the door and turns down the light. {name} sits low on the floor, sets a fresh green leaf near the carrier, and waits. {She/He} speaks in a soft voice and stays very, very still.",
+      "illustration_prompt": "The exam room now in soft, dim golden light. The child sits cross-legged on the floor, calm and patient, a bright green leaf placed in front of the open carrier. The vet and the young girl sit quietly in the background."
+    },
+    {
+      "beat": "A pink nose twitches. One floppy ear rises. Slowly, Clover hops out, nibbles the leaf, and comes right up to {name}. {name} keeps still and lets Clover sniff {her/his} hand before giving one gentle stroke.",
+      "illustration_prompt": "The small brown-and-white rabbit hops out of the carrier toward the child, nibbling a green leaf. The child holds out an open, still hand and smiles softly. Warm, gentle light falls across them both."
+    },
+    {
+      "beat": "With Clover calm and wrapped in a soft towel, {name} helps hold the rabbit snug while Dr. Rosa finds a tiny thorn in the paw, cleans it, and wraps it with a little coral bandage.",
+      "illustration_prompt": "The child cradles the rabbit, wrapped in a soft striped towel, on the exam table. The vet gently wraps a small coral bandage around the rabbit's back paw. The rabbit looks relaxed, ears up. The young girl watches with clasped hands."
+    },
+    {
+      "beat": "Clover goes home with Maya, hopping happily in the carrier. Dr. Rosa tells {name} that an animal doctor's most important tools are patience and kindness, and {name} already has both. At the end of the day, {she/he} heads home dreaming of all the animals still to help.",
+      "illustration_prompt": "Golden late-afternoon light at the clinic doorway. The young girl waves goodbye holding the carrier, the bandaged rabbit peeking out. The vet rests a proud hand on the child's shoulder. The child, still in the mint coat, waves back with a big smile while the orange cat stretches nearby."
+    }
+  ],
+  "cover_scene": "The child stands proudly in a small mint-green helper coat with a toy stethoscope around the neck, gently holding a small brown-and-white rabbit with one floppy ear and a tiny coral bandage on its paw. They stand in a sunny garden just outside a cozy cottage-style animal clinic, with a fluffy puppy and a striped orange cat sitting at the child's feet. The top third of the picture is calm, open soft blue sky with a few faint clouds, leaving clear space for a title. Warm mint, cream and butter-yellow palette, soft natural light, no lettering.",
+  "sample_pages": [
+    {
+      "text": "Wiggle, wiggle, wag! The puppy will not sit still. {name} kneels down low. \"Let's count together,\" {she/he} says. One... two... three. The puppy sits. \"Good dog!\" says Dr. Rosa.",
+      "scene": "A bright exam room. The child kneels beside a low weighing scale where a fluffy cream puppy finally sits, tongue out and tail mid-wag. The vet smiles warmly. Soft mint and yellow tones, towels stacked on a shelf."
+    },
+    {
+      "text": "{name} turns the light down low. {She/He} sits on the floor and puts a green leaf by the box. Then {she/he} waits. Quiet, quiet. Still, still. \"It's okay, Clover,\" {name} whispers. \"I'm right here.\"",
+      "scene": "The exam room in soft, dim golden light. The child sits cross-legged on the floor, calm and patient, a bright green leaf placed in front of an open cardboard carrier where a small rabbit's pink nose just peeks out. The vet and a young girl sit quietly in the background."
+    }
+  ],
+  "h1": "Personalized Vet Book for Kids: Your Child Becomes the Animal Doctor",
+  "meta_title": "Personalized Vet Book for Kids | StoryBloom",
+  "meta_description": "A personalized vet book for kids: your child helps at an animal clinic and gently cares for a shy rabbit with a sore paw.",
+  "promise": "Your child spends a day as a vet's helper and discovers that patience and gentle kindness can help a frightened animal feel safe.",
+  "story_summary": "Your child pulls on a little green coat and spends the day as Dr. Rosa's helper at a cozy neighborhood animal clinic. There is a wiggly puppy to weigh and a sleepy cat with an itchy ear to check. Then a girl named Maya arrives with Clover, a shy rabbit with a sore paw who is too scared to come out of her box. When the busy, noisy clinic only makes Clover hide deeper, your child has to think about what a frightened animal really needs.",
+  "why_parents": [
+    "Children who love animals often want to help them right away, with big hugs and lots of excitement. This story shows another side of caring: slowing down, getting low, using a soft voice and waiting. Those are real habits your child can bring to the family pet, a neighbor's dog or a bunny at the petting farm.",
+    "The turning point comes when your child remembers what it feels like to be shy in a new place. Connecting their own feelings to an animal's fear is a lovely bridge to empathy at this age, and the vet setting gives little ones a friendly, hands-on picture of what animal doctors actually do all day."
+  ],
+  "for_grownups": [
+    "Ask your child why they think Clover hid in the box, and what helped her feel brave enough to come out. Talk about times your child has felt shy and what helped them.",
+    "Practice being a calm animal helper together: sit low, hold out a still hand, use a whisper voice. You can try it with a stuffed animal or, with permission, a friendly pet.",
+    "If your child is curious about vets, play animal clinic at home with a towel, a toy stethoscope and some bandages, and take turns being the doctor and the worried pet owner."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book a good fit for a child who wants to be a vet when they grow up?",
+      "answer": "Yes. Your child gets to weigh a puppy, help check a cat's ear and assist with a rabbit's bandage, all in a friendly clinic setting. It celebrates that dream while showing the gentle side of caring for animals."
+    },
+    {
+      "question": "Is anything scary or sad in the story?",
+      "answer": "No. Clover has a small thorn in her paw, which is cleaned and bandaged, and she goes home happy. The only tension is a shy rabbit who needs some patience."
+    },
+    {
+      "question": "Will this work for a child who is shy themselves?",
+      "answer": "It can be a gentle fit. Your child solves the problem by remembering how it feels to be shy, which treats shyness as something to understand rather than fix, and shows quiet kindness as a real strength."
+    }
+  ],
+  "image_alt": "Personalized vet book cover featuring an illustrated child in a helper coat holding a bandaged rabbit outside an animal clinic",
+  "feed_title": "Personalized Vet Book for Kids, Your Child Is the Animal Doctor Hero",
+  "feed_description": "A personalized picture book for ages 3 to 8 where your child becomes a helper at a cozy neighborhood animal clinic. Wearing a little green coat and stethoscope, your child weighs a wiggly puppy, holds the flashlight for a cat's ear check and meets Clover, a shy rabbit with a sore paw who is too frightened to come out of her box. When the busy clinic only makes Clover hide, your child finds a quiet, patient way to help her feel safe. A warm story about gentle hands, empathy and the real work of caring for animals, with soft mint and sunny illustrations. A thoughtful gift for animal lovers and young future vets."
+}

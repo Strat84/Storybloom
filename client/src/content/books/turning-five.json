@@ -1,0 +1,116 @@
+{
+  "slug": "turning-five",
+  "status": "live",
+  "title_pattern": "{name}'s Five-Candle Quest",
+  "category": "birthday",
+  "age_range": "5-6",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "5th birthday book personalized",
+  "landing_page_slug": "books/turning-five",
+  "example": {
+    "name": "Amara",
+    "pronouns": "she",
+    "look": "deep brown skin, short coily black hair"
+  },
+  "tagline": "Five missing candles, five brave moments, one very proud five-year-old.",
+  "lesson_or_purpose": "Turning five means you can do brave things, like facing the dark, speaking up, trying something hard and helping someone smaller. Courage comes in everyday sizes.",
+  "tone": "Playful, adventurous and warm, with a gentle mystery that builds to a happy birthday reveal.",
+  "reading_level": "Ages 5-6: short read-aloud sentences, simple vocabulary, a repeating counting pattern (one candle, two candles...) that early readers can join in on.",
+  "keywords": [
+    "5th birthday book personalized",
+    "personalized birthday book for 5 year old",
+    "turning five book",
+    "fifth birthday gift",
+    "birthday candle story",
+    "brave kids book",
+    "personalized picture book birthday"
+  ],
+  "illustration_guide": "Bright, cheerful picture-book style with soft rounded shapes. Settings: a cozy family home decorated for a birthday (paper streamers, balloons), a friendly neighbor's front porch, a sunny neighborhood park with a climbing frame and sandbox. Palette: sunny yellow, candy pink, sky blue and fresh grass green, with warm golden light inside the house. Recurring elements: a round frosted birthday cake with five empty candle holes, five striped birthday candles each in a different color (red, orange, green, blue, purple), a small picture-clue card showing simple drawings only, and the child's growing handful of found candles. Each found candle gives a small sparkle of light. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "On the morning of {name}'s fifth birthday, {name} hurries to the kitchen to see the cake. It is perfect, except the five candles are gone, leaving five empty little holes in the frosting. Next to the cake sits a small card covered in picture clues.",
+      "illustration_prompt": "A sunny kitchen decorated with balloons and streamers. The child in pajamas leans over a round frosted birthday cake with five empty candle holes, looking surprised. A small card with simple picture drawings rests beside the cake."
+    },
+    {
+      "beat": "{name} studies the picture clues: a dark closet, a front porch, a climbing frame, a sandbox and a party. {She/He} decides that a five-year-old can find five candles, puts on {her/his} sneakers, and grabs a flashlight to begin the quest.",
+      "illustration_prompt": "The child sits on the kitchen floor tying sneakers, holding a picture-clue card showing tiny drawings of a closet, porch, climbing frame, sandbox and balloons. A flashlight sits ready nearby. Determined expression."
+    },
+    {
+      "beat": "The first clue leads to the hall closet, which is very dark inside. {name} feels a wobble in {her/his} tummy, then switches on the flashlight and steps in anyway. Behind the winter boots, the red candle glows. One candle found.",
+      "illustration_prompt": "The child stands in a dark hall closet among coats and boots, a flashlight beam cutting through the shadows. A red striped birthday candle sparkles on the floor behind a pair of boots. The child looks brave and a little amazed."
+    },
+    {
+      "beat": "The second clue shows the front porch of the neighbor next door. {name} has never knocked on that door alone. With Dad waving from the sidewalk, {name} knocks and says a clear hello. The smiling neighbor hands over the orange candle. Two candles found.",
+      "illustration_prompt": "A friendly front porch with potted flowers. The child stands at the door greeting a smiling older neighbor who holds out an orange striped candle. A dad waves encouragingly from the sidewalk in the background."
+    },
+    {
+      "beat": "At the park, the third clue points to the very top of the tall climbing frame. {name} usually stops halfway. This time {she/he} climbs one careful step at a time, holding on tight, all the way up, where the green candle is tucked by the flag pole. Three candles found.",
+      "illustration_prompt": "A sunny park with a tall climbing frame. The child reaches the top platform, holding the rail with one hand and a green striped candle in the other, beaming. Trees and blue sky behind."
+    },
+    {
+      "beat": "In the sandbox, a little child is crying because a bucket is stuck under a heavy pile of wet sand. {name} kneels down, says gently that it will be okay, and helps dig the bucket out. Underneath it lies the blue candle. Being kind to someone smaller is brave too. Four candles found.",
+      "illustration_prompt": "A sandbox in the park. The child kneels beside a smaller crying toddler, both digging with hands to free a bright bucket. A blue striped candle peeks out of the sand beneath it. Warm, gentle mood."
+    },
+    {
+      "beat": "Back home, guests are arriving with presents and balloons, but the last clue shows only the party itself. {name} searches under cushions and behind curtains and cannot find the purple candle anywhere. {She/He} feels like giving up.",
+      "illustration_prompt": "A living room filling with smiling party guests holding gifts and balloons. The child stands to one side holding four colorful candles, looking under a sofa cushion with a worried, disappointed face."
+    },
+    {
+      "beat": "{name} takes a big breath. Asking a whole room of people for help feels scarier than any closet. Still, {name} climbs onto a sturdy step stool and says in a loud, clear voice, \"Has anyone seen my last candle?\"",
+      "illustration_prompt": "The child stands on a small step stool in the middle of the living room, speaking out to a circle of guests who turn to listen with kind faces. The child holds four candles close."
+    },
+    {
+      "beat": "Grandma smiles and pulls the purple candle from her pocket. She and Dad planned the whole quest, with one brave thing for every year of {name}'s life. The last candle was waiting for {name} to speak up. Five candles found!",
+      "illustration_prompt": "A grandma kneels and offers a purple striped candle to the child, while a dad stands beside her grinning. The child's face lights up with joy. Guests clap in the background."
+    },
+    {
+      "beat": "{name} places all five candles in the cake, one for each brave thing. The candles are lit, everyone sings, and {name} blows them out in one big breath, feeling every bit of five.",
+      "illustration_prompt": "The birthday cake glows with five lit candles in red, orange, green, blue and purple. The child leans forward to blow them out, surrounded by family and guests singing. Warm golden party light, balloons overhead."
+    }
+  ],
+  "cover_scene": "The child stands proudly in a sunny park on the morning of the party, holding up five striped birthday candles in red, orange, green, blue and purple, each giving a small sparkle. A frosted birthday cake sits on a picnic blanket nearby, and a few balloons drift low at the sides. The top third of the picture is calm, open soft-blue sky with a few faint wisps of cloud.",
+  "sample_pages": [
+    {
+      "text": "The closet was very, very dark. {name}'s tummy did a little wobble. Click! went the flashlight, and in {she/he} stepped. Behind the boots, something glowed red. One candle found!",
+      "scene": "The child stands in a dark hall closet among coats and boots, a flashlight beam cutting through the shadows. A red striped birthday candle sparkles on the floor behind a pair of boots. The child looks brave and a little amazed."
+    },
+    {
+      "text": "Guests were coming in with balloons and presents. But where was the last candle? {name} looked under cushions. {name} looked behind curtains. No purple candle anywhere. Maybe five was too many, {she/he} thought.",
+      "scene": "A living room filling with smiling party guests holding gifts and balloons. The child stands to one side holding four colorful candles, looking under a sofa cushion with a worried, disappointed face."
+    }
+  ],
+  "h1": "Personalized 5th Birthday Book: Your Child's Five-Candle Quest",
+  "meta_title": "Personalized 5th Birthday Book: Candle Quest | StoryBloom",
+  "meta_description": "A personalized 5th birthday book where your child finds five missing cake candles by doing five brave things. Made for turning five.",
+  "promise": "A birthday mystery where your child finds every missing candle by being brave in five small, real ways.",
+  "story_summary": "On the morning of your child's fifth birthday, the cake is ready but all five candles have vanished. A card of picture clues sends your child on a quest through a dark closet, to a neighbor's front porch, up a tall climbing frame and into the park sandbox. Each candle turns up only after your child does something a little bit brave. With guests arriving and one candle still missing, your child has to find a new kind of courage to finish the quest.",
+  "why_parents": [
+    "Five is an age of big leaps. Kids this age are starting school, trying things on their own and often bumping into small fears: the dark, new people, heights, speaking up in a group. This story treats those moments as the real adventures they are and shows your child that brave does not mean not feeling scared.",
+    "Each candle matches one year of your child's life, so the book turns a birthday into a celebration of how much they have grown. It also quietly includes kindness as a form of courage, which gives you an easy way to talk about helping younger kids and asking for help yourself."
+  ],
+  "for_grownups": [
+    "After reading, ask your child which of the five brave things felt the hardest and why. Share a time you felt nervous and did something anyway.",
+    "Try a mini candle quest at home: hide five small objects and attach a simple brave or kind task to each, like saying hello to a neighbor or helping set the table.",
+    "Talk about the last candle. Ask your child who they could go to when they need help, and practice saying it out loud together."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book only for a fifth birthday?",
+      "answer": "It is written around turning five, with one candle for each year, so it fits a fifth birthday best. It also works as a gift in the weeks around the birthday or for a child who is excited about being five."
+    },
+    {
+      "question": "What kinds of brave things does the child do?",
+      "answer": "Everyday, age-appropriate ones: stepping into a dark closet with a flashlight, saying hello to a neighbor, climbing higher than usual at the park, helping a smaller child and speaking up in front of party guests. Nothing in the story is dangerous or frightening."
+    },
+    {
+      "question": "Who hid the candles in the story?",
+      "answer": "Grandma and Dad turn out to be the planners behind the quest. Their role is revealed near the end, which makes for a sweet family moment at the party."
+    }
+  ],
+  "image_alt": "Personalized 5th birthday book cover featuring an illustrated child holding five colorful birthday candles in a sunny park",
+  "feed_title": "Personalized 5th Birthday Book for Kids, Your Child Finds Five Missing Birthday Candles",
+  "feed_description": "A personalized picture book for a child turning five. On birthday morning, all five candles have disappeared from the cake, and a card of picture clues starts a quest. Your child, illustrated as the hero, finds each candle by doing something brave: stepping into a dark closet, greeting a neighbor, climbing to the top of the climbing frame, helping a smaller child at the park and finally speaking up in front of the party guests. Each candle stands for one year of growing up. The story is written for ages 5 to 6 with short, lively sentences and a counting pattern kids can join in on. Bright, cheerful illustrations follow your child from home to the park and back to a happy birthday party."
+}

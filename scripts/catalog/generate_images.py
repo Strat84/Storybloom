@@ -57,7 +57,11 @@ def gemini_key():
     for line in (ROOT.parent / "storybloom-outreach/.env").read_text(encoding="utf-8").splitlines():
         if line.startswith("GEMINI_API_KEY="):
             return line.split("=", 1)[1].strip().strip("\"'")
-    raise SystemExit("Add GEMINI_API_KEY=... to storybloom-outreach/.env first.")
+    # The app's own key, the one its image generation uses. Never printed.
+    aws = r"C:\Program Files\Amazon\AWSCLIV2\aws.exe"
+    out = subprocess.run([aws, "--profile", "storybloom", "ssm", "get-parameter", "--region", "us-east-1", "--name", "/storybloom/prod/GEMINI_API_KEY",
+                          "--with-decryption", "--query", "Parameter.Value", "--output", "text"], capture_output=True, text=True, check=True)
+    return out.stdout.strip()
 
 
 def draw(key, parts):

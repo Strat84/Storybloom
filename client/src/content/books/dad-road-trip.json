@@ -1,0 +1,117 @@
+{
+  "slug": "dad-road-trip",
+  "status": "live",
+  "title_pattern": "{name} and Dad's Big Road Trip",
+  "category": "gifts-from-family",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book from dad to son or daughter personalized",
+  "landing_page_slug": "books/dad-road-trip",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "A flat tire, a slow back road, and the day a detour became the adventure.",
+  "lesson_or_purpose": "When plans go wrong, a calm helper and a curious eye can turn a setback into something special. The story also celebrates time alone together with Dad.",
+  "tone": "Warm, funny, adventurous, with cozy moments between a parent and child",
+  "reading_level": "Ages 3-8: short read-aloud sentences, simple dialogue, gentle humor, a few fun sound words",
+  "keywords": [
+    "book from dad to son or daughter personalized",
+    "personalized dad book",
+    "road trip book for kids",
+    "father and child picture book",
+    "gift from dad",
+    "personalized book from father",
+    "dad and me book",
+    "family road trip story"
+  ],
+  "illustration_guide": "Setting: a sunny day drive from a leafy hometown toward blue mountains, with winding highways, quiet country back roads, sunflower fields, a red barn, a duck pond, and a small town with a friendly tire shop and a diner. Palette: warm golden yellows, sky blues, soft greens, and a cheerful teal family car that appears on every outdoor page. Recurring elements: a striped snack bag, a paper map the child draws on with crayons through the trip, a small spare tire after the flat, and the mountains always visible somewhere on the horizon, growing closer page by page. Dad wears a plaid shirt and a baseball cap throughout. Soft storybook lighting moving from morning to golden sunset.",
+  "page_outline": [
+    {
+      "beat": "Early morning. {name} and Dad pack the teal car for a trip to the mountains: snacks, a blanket, crayons, and a big paper map. {name} cannot wait to see the tall peaks Dad keeps talking about.",
+      "illustration_prompt": "The child and Dad loading a teal car in a driveway at sunrise, the child holding a striped snack bag and a rolled paper map, distant blue mountains faint on the horizon."
+    },
+    {
+      "beat": "On the highway, {name} and Dad sing silly songs, count trucks, and share crackers. Dad points ahead to the mountains, still small and blue. {name} draws the road on the map with a crayon.",
+      "illustration_prompt": "Inside the car, the child in a car seat drawing on a paper map with crayons while Dad drives and laughs, sunny highway and small blue mountains through the windshield."
+    },
+    {
+      "beat": "THUMP, flap, flap, flap! The car wobbles. Dad pulls over safely onto the grass. A tire is flat as a pancake. Dad sighs, and {name} sees Dad looking worried.",
+      "illustration_prompt": "The teal car parked on a grassy roadside with a flat front tire, Dad crouching to look at it with a worried face, the child peeking out the open car door."
+    },
+    {
+      "beat": "{name} wants to help. Dad gives {name} an important job: hold the shiny bolts safe in a cup and pass Dad each tool. Together they put on the little spare tire.",
+      "illustration_prompt": "Dad kneeling beside the car changing a tire while the child proudly holds a cup of shiny bolts and hands over a wrench, tools laid on a blanket on the grass."
+    },
+    {
+      "beat": "The spare tire is small, so Dad explains that the car must go slowly on quiet back roads to find a tire shop. The mountains will have to wait. {name} notices Dad still looks a little sad about the plan.",
+      "illustration_prompt": "The teal car with a small spare tire driving slowly onto a winding country road, Dad looking a bit glum at the wheel, the child in back gazing out the window at fields."
+    },
+    {
+      "beat": "{name} has an idea. \"Let's call this the Explorer Road!\" {name} says, and turns the map over to start a brand new drawing of everything they find on the slow way.",
+      "illustration_prompt": "The child holding up a blank side of the paper map with a big excited grin, Dad glancing back in the mirror and starting to smile, sunflower fields outside."
+    },
+    {
+      "beat": "On the Explorer Road, {name} spots a field of giant sunflowers, a red barn with a goat on the roof, and a pond full of ducks. {name} asks Dad to stop, and they feed the ducks and draw every one on the map.",
+      "illustration_prompt": "The child and Dad standing at the edge of a sparkling pond tossing seeds to a crowd of ducks, a red barn with a goat on its roof and tall sunflowers in the background."
+    },
+    {
+      "beat": "In a tiny town, a friendly mechanic fixes the tire. While they wait, {name} and Dad share a slice of berry pie at a little diner, and {name} shows the Explorer Map to the mechanic, who adds a star for the town.",
+      "illustration_prompt": "The child and Dad sitting at a cozy diner booth sharing berry pie, the paper map spread on the table covered in crayon drawings of ducks, sunflowers, and a barn."
+    },
+    {
+      "beat": "With a brand new tire, the teal car zooms up the winding road. {name} and Dad reach the mountains just as the sky turns gold and pink. The peaks are even bigger than {name} imagined.",
+      "illustration_prompt": "The child and Dad standing at a mountain lookout at sunset, tall peaks glowing gold and pink, the teal car parked behind them with a shiny new tire."
+    },
+    {
+      "beat": "Wrapped in the blanket, Dad asks {name} to name a favorite part of the whole trip. {name} grins and points to the Explorer Map: the flat tire and the slow road, because that is where the adventure began. Dad hugs {name} and agrees.",
+      "illustration_prompt": "The child and Dad snuggled in a blanket on a rock under a twilight sky, the child pointing at the crayon map in Dad's lap, mountains and first stars behind them."
+    }
+  ],
+  "cover_scene": "The child leans happily out the window of a cheerful teal car driving along a winding country road beside sunflower fields, Dad smiling at the wheel in a plaid shirt and cap, a small spare tire visible on one wheel, blue mountains in the distance, and a wide calm open sky with a few soft clouds filling the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Zoom went the car. Dad sang a silly song. {name} counted trucks: one, two, three! The mountains were still far away, small and blue. {name} drew the road on the map with a green crayon.",
+      "scene": "Inside the teal car, the child in a car seat drawing a green line on a paper map while Dad drives and sings, a sunny highway and tiny blue mountains seen through the windshield."
+    },
+    {
+      "text": "Dad looked at the long, slow road and sighed. Then {name} had an idea. \"This isn't the slow way,\" {name} said. \"This is the Explorer Road!\" {name} flipped the map over. Time to draw something new.",
+      "scene": "The child in the back seat holding up the blank side of a paper map with a huge grin, Dad catching the child's eye in the mirror and beginning to smile, sunflower fields rolling past the window."
+    }
+  ],
+  "h1": "Personalized Book from Dad to Son or Daughter: A Big Road Trip Adventure",
+  "meta_title": "Personalized Dad Road Trip Book for Kids | StoryBloom",
+  "meta_description": "A personalized book from Dad to your son or daughter: a mountain road trip, a flat tire, and a detour your child turns into an adventure.",
+  "promise": "Your child and Dad set off for the mountains, and when a flat tire sends them down a slow back road, your child is the one who turns it into the best part of the day.",
+  "story_summary": "Your child and Dad pack the car with snacks, crayons, and a big paper map for a drive to the mountains. Halfway there, a loud THUMP brings a flat tire, and your child helps Dad put on the little spare. The small tire means a slow detour on quiet country roads, and Dad is not happy about the change of plans. That is when your child has an idea that changes the whole trip.",
+  "why_parents": [
+    "Young children notice how grown-ups react when things go wrong. A story where a plan falls apart and the trip gets better anyway gives your child a gentle, funny picture of bouncing back, staying curious, and finding something good in a surprise.",
+    "It is also simply a book about time with Dad. Car songs, shared pie, feeding ducks, and a crayon map are the small moments kids remember, and seeing themselves as Dad's helper and idea-maker makes this a warm keepsake gift from Dad to a son or daughter."
+  ],
+  "for_grownups": [
+    "Ask your child: what would you put on your own Explorer Map? Draw one together after your next drive or walk.",
+    "Share a time a plan of yours went wrong and turned out fine, or even better.",
+    "On your next car trip, play the Explorer Road game: everyone looks for one surprising thing to add to a list or drawing."
+  ],
+  "faqs": [
+    {
+      "question": "Is this a good gift from Dad to a son or daughter?",
+      "answer": "Yes. The story is written so it works for any child, and Dad is a central, loving character, which makes it a natural gift for a birthday, Father's Day, or just because."
+    },
+    {
+      "question": "Is the flat tire scary for young kids?",
+      "answer": "No. Dad pulls over safely, stays calm, and gives your child a helpful job. The moment is played as a funny bump in the road that leads to fun."
+    },
+    {
+      "question": "Does this book work for kids who have never been on a road trip?",
+      "answer": "Yes. The adventures are everyday ones like singing in the car, feeding ducks, and sharing pie, so any child can picture them, and it may spark ideas for your own outing together."
+    }
+  ],
+  "image_alt": "Personalized dad and child road trip book cover featuring an illustrated child as the hero riding in a teal car toward the mountains",
+  "feed_title": "Personalized Book from Dad to Son or Daughter, Road Trip Adventure Starring Your Child",
+  "feed_description": "A personalized picture book where your child and Dad take a big road trip to the mountains. Along the way a flat tire sends them down a slow country detour, and your child helps change the tire, names it the Explorer Road, and fills a crayon map with sunflowers, a goat on a barn roof, ducks, and berry pie at a tiny diner. Gentle humor and cozy moments show how a change of plans can become the best part of a day. Written for ages 3 to 8 with short read-aloud sentences and bright storybook illustrations. A warm keepsake gift from Dad to a son or daughter for birthdays, Father's Day, or any day spent together."
+}

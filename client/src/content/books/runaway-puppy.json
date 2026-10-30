@@ -1,0 +1,117 @@
+{
+  "slug": "runaway-puppy",
+  "status": "live",
+  "title_pattern": "{name} and the Puppy Who Ran Away",
+  "category": "animals",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized dog book for kids",
+  "landing_page_slug": "books/runaway-puppy",
+  "example": {
+    "name": "Elijah",
+    "pronouns": "he",
+    "look": "dark brown skin, short black curls, round glasses"
+  },
+  "tagline": "A runaway puppy, a quiet neighborhood search, and a child who learns what a scared friend really needs.",
+  "lesson_or_purpose": "Caring for a pet means noticing how it feels. A frightened animal needs calm, patience and something familiar, not chasing or shouting. The child discovers that gentleness is a kind of bravery.",
+  "tone": "Warm, gently suspenseful, cozy, with a hopeful and tender resolution.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, simple vocabulary, a little repetition of the puppy's name and soft sound words.",
+  "keywords": [
+    "personalized dog book for kids",
+    "personalized puppy book",
+    "new puppy book for children",
+    "book about getting a dog",
+    "pet care story for kids",
+    "personalized animal book",
+    "lost puppy picture book",
+    "gift for child with new puppy"
+  ],
+  "illustration_guide": "Setting: a friendly small-town neighborhood with a fenced backyard, a leafy park with a duck pond, a sidewalk lined with gardens, and a corner bakery with a striped awning. Palette: warm morning golds, soft greens, sky blues and creamy whites, shifting to cozy amber and lavender for the evening pages. Recurring elements: Biscuit, a small fluffy puppy with honey-colored fur, one floppy ear and a red collar; a worn blue blanket with white stars that belongs to Biscuit; a little paw-print trail that appears on several pages; the backyard gate with a loose board. The child wears the same outfit throughout with a jacket that has a front pocket. Art style is soft, rounded and textured, like gouache, with expressive faces and plenty of breathing room.",
+  "page_outline": [
+    {
+      "beat": "{name} welcomes a new puppy named Biscuit home. {name} is so excited that {she/he} bounces, claps and calls Biscuit to play, wrapping the puppy in a soft blue star blanket at bedtime.",
+      "illustration_prompt": "A cheerful living room. The child kneels on the rug beside a small honey-colored puppy with one floppy ear and a red collar, a blue blanket with white stars nearby, the child grinning with arms wide."
+    },
+    {
+      "beat": "The next morning a big garbage truck rumbles and clangs down the street. Biscuit jumps in fright, squeezes through a loose board in the backyard gate and runs away. {name} sees the empty yard and gasps.",
+      "illustration_prompt": "A sunny backyard with a wooden fence. A loose board hangs open and the puppy's tail disappears through the gap, while the child stands on the back steps with hands on cheeks and a large truck blurs past beyond the fence."
+    },
+    {
+      "beat": "{name} runs to tell Mom and Dad, and they set off together to look. {name} spots tiny muddy paw prints on the sidewalk and leads the way, following the trail.",
+      "illustration_prompt": "A tree-lined sidewalk in morning light. The child crouches pointing at a trail of small muddy paw prints while Mom and Dad walk close behind, looking hopeful."
+    },
+    {
+      "beat": "At the park, {name} sees Biscuit by the duck pond and rushes forward, shouting the puppy's name. Biscuit startles and dashes into the bushes. {name} stops and wonders why Biscuit ran from {her/him}.",
+      "illustration_prompt": "A green park with a duck pond. The child mid-run with one arm outstretched, ducks flapping up, and the puppy darting into leafy bushes, the child's face shifting from excitement to puzzlement."
+    },
+    {
+      "beat": "A kind neighbor kneeling in her garden tells {name} she saw a little puppy trot toward the bakery. She says frightened dogs feel safer with quiet voices and slow moves. {name} listens carefully and nods.",
+      "illustration_prompt": "A colorful front garden by the sidewalk. An older neighbor in a sun hat kneels among flowers, gently speaking to the child, who listens thoughtfully, with a bakery with a striped awning visible down the street."
+    },
+    {
+      "beat": "Near the bakery, {name} finds Biscuit hiding under a bench, shaking. {name} remembers how {she/he} feels when something is scary: a soft voice and something familiar help most. {name} reaches into {her/his} pocket.",
+      "illustration_prompt": "A quiet street corner beside a bakery with a striped awning. The small puppy curls under a wooden bench, trembling, while the child stands a few steps away, hand reaching into a jacket pocket, face calm and thoughtful."
+    },
+    {
+      "beat": "{name} sits down low on the ground, keeps very still and pulls out a corner of Biscuit's blue star blanket. In a whisper, {name} says the puppy's name and waits patiently.",
+      "illustration_prompt": "The child sits cross-legged on the sidewalk near the bench, holding out a blue blanket with white stars, body still and gentle, while the puppy peeks out with one floppy ear lifted."
+    },
+    {
+      "beat": "Slowly, Biscuit creeps out, sniffs the blanket, wags a tiny wag and climbs into {name}'s lap. {name} holds the puppy close and feels the shaking stop.",
+      "illustration_prompt": "Warm golden light. The puppy snuggles into the child's lap wrapped in the starry blanket, tail wagging, the child hugging softly with eyes closed and a peaceful smile, Mom and Dad arriving in the background."
+    },
+    {
+      "beat": "They walk home slowly and quietly. {name} helps Dad fix the loose board in the gate, then makes Biscuit a cozy corner with the blanket, a water bowl and a soft bed.",
+      "illustration_prompt": "Split moment in the backyard and a cozy corner indoors. The child holds a board steady while Dad hammers the gate, and nearby a snug dog bed sits with the starry blanket and a water bowl, the puppy watching contentedly."
+    },
+    {
+      "beat": "At bedtime, {name} kneels by Biscuit's bed and whispers a promise to always be gentle and help the puppy feel safe. Biscuit sighs and falls asleep, and {name} smiles.",
+      "illustration_prompt": "A softly lit bedroom in amber and lavender tones. The child kneels beside a small dog bed where the puppy sleeps curled in the starry blanket, moonlight through the window, the child smiling tenderly."
+    }
+  ],
+  "cover_scene": "The child kneels on a leafy sidewalk in warm morning light, gently holding a small honey-colored puppy with one floppy ear and a red collar wrapped in a blue blanket with white stars. Behind them a friendly neighborhood of gardens and a bakery awning sits low in the picture, a faint trail of paw prints leading toward them. The top third is calm open pale-blue sky with a few soft clouds.",
+  "sample_pages": [
+    {
+      "text": "RUMBLE! CLANG! A big truck roared down the street. Biscuit jumped. Biscuit wiggled through the gap in the gate. And Biscuit ran away! {name} looked at the empty yard. \"Oh no!\" {she/he} gasped.",
+      "scene": "A sunny backyard with a wooden fence. A loose board hangs open and the puppy's tail disappears through the gap, while the child stands on the back steps with hands on cheeks and a large truck blurs past beyond the fence."
+    },
+    {
+      "text": "There was Biscuit, under the bench, shaking like a leaf. {name} did not run. {name} did not shout. {She/He} thought, \"When I am scared, a soft voice helps me.\" Slowly, {name} reached into {her/his} pocket.",
+      "scene": "A quiet street corner beside a bakery with a striped awning. The small puppy curls under a wooden bench, trembling, while the child stands a few steps away, hand reaching into a jacket pocket, face calm and thoughtful."
+    }
+  ],
+  "h1": "Personalized Dog Book for Kids: Your Child and the Puppy Who Ran Away",
+  "meta_title": "Personalized Dog Book for Kids | StoryBloom",
+  "meta_description": "A personalized dog book for kids: your child follows a runaway puppy through the neighborhood and learns what a new pet needs to feel safe.",
+  "promise": "Your child becomes the hero who finds a frightened new puppy and brings it home with patience, a quiet voice and a familiar blanket.",
+  "story_summary": "Your child has just welcomed a fluffy new puppy named Biscuit, and every moment feels like play. Then a loud truck rumbles past, Biscuit squeezes through a gap in the gate, and the yard is suddenly empty. With Mom and Dad close behind, your child follows a trail of tiny paw prints past the duck pond, a neighbor's garden and the corner bakery. Along the way your child discovers that chasing and calling only makes a scared puppy run farther, and starts to wonder what Biscuit really needs.",
+  "why_parents": [
+    "A new puppy is one of the biggest thrills of early childhood, and young children often show their love with hugs, squeals and running games. This story gently shows that animals have feelings too, and that a puppy who is new to a home can be easily startled. It gives children a picture of what calm, patient care looks like, told through an adventure rather than a list of rules.",
+    "Children ages 3 to 8 are learning to imagine how someone else feels. Watching themselves notice a frightened puppy, remember what comforts them when they are scared, and choose a quiet, gentle approach gives them a way to think about empathy in their own words. It is a sweet fit for families with a new dog, families thinking about getting one, or any child who adores animals."
+  ],
+  "for_grownups": [
+    "Ask your child what helps them feel better when they are scared, then talk about which of those things might help a puppy too, like a soft voice or a favorite blanket.",
+    "If you have a dog, practice the story's approach together: sit low, stay still, and let the dog come to you. Talk about why loud noises and chasing can worry animals.",
+    "Look around your own home or yard for anything a pet might slip through, like the loose gate board in the story, and let your child help make a safe space."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book a good fit if we just brought home a new puppy?",
+      "answer": "Yes. The story begins with a puppy's first days in a new home and shows your child practicing calm, gentle ways to help a pet feel settled and safe."
+    },
+    {
+      "question": "Will the runaway part be too scary for a young child?",
+      "answer": "The suspense is mild and cozy. Mom and Dad are with your child the whole time, a kind neighbor helps, and the puppy is found safe and happy."
+    },
+    {
+      "question": "Can I use this book if we do not own a dog?",
+      "answer": "Absolutely. Children who love animals or who are hoping for a pet one day will enjoy the adventure, and the lessons about patience and kindness toward animals apply anywhere."
+    }
+  ],
+  "image_alt": "Personalized dog book cover featuring an illustrated child as the hero holding a fluffy puppy in a starry blanket on a neighborhood sidewalk",
+  "feed_title": "Personalized Dog Book for Kids, Your Child Finds a Runaway Puppy",
+  "feed_description": "A personalized picture book for ages 3 to 8 where your child becomes the hero of a gentle neighborhood adventure. When a loud truck startles a brand new puppy named Biscuit, the pup slips through the backyard gate and runs off. Your child follows a trail of tiny paw prints past a duck pond, a neighbor's garden and the corner bakery, and learns that chasing and shouting only frighten a scared puppy. Using a quiet voice, a familiar blanket and lots of patience, your child finds a calm way to help Biscuit feel safe. Soft, warm illustrations and a cozy ending make this a thoughtful gift for families with a new dog or any child who loves animals."
+}

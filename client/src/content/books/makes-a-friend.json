@@ -1,0 +1,117 @@
+{
+  "slug": "makes-a-friend",
+  "status": "live",
+  "title_pattern": "{name} Makes a Friend",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about friendship for kids personalized",
+  "landing_page_slug": "books/makes-a-friend",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "A playground, a quiet new kid, and one brave hello.",
+  "lesson_or_purpose": "Making a friend can start with noticing someone who is alone, finding something to share, and taking a deep breath to say hello, even when it feels a little scary.",
+  "tone": "Warm, gentle and encouraging, with a small flutter of nerves that turns into quiet pride.",
+  "reading_level": "Read-aloud for ages 3-7, short sentences with simple dialogue and a little repetition",
+  "keywords": [
+    "book about friendship for kids personalized",
+    "personalized friendship book",
+    "making friends book for kids",
+    "how to say hello book",
+    "new kid at the playground story",
+    "kindness book for preschoolers",
+    "personalized book about sharing",
+    "social skills picture book"
+  ],
+  "illustration_guide": "Setting is a sunny neighborhood playground with a red slide, wooden swings, a big oak tree, a sandbox and a green bench beside it. Palette of soft sky blue, leafy greens, warm sand yellow and cheerful red accents, with gentle afternoon light. Recurring elements: the child's yellow bucket and blue shovel, the new boy Theo (short curly dark hair, orange sweater) with his small green toy dump truck, a friendly robin that hops near the sandbox on most pages, and the child's mom in a striped shirt watching from a picnic blanket. Soft rounded shapes, expressive faces, and the child's feelings shown clearly through posture. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} skips into the playground on a bright afternoon with Mom, swinging {her/his} yellow bucket and blue shovel. {name} loves the swings, the red slide and the big sandbox most of all.",
+      "illustration_prompt": "The child skipping through the playground gate holding a yellow bucket and blue shovel, Mom with a picnic blanket behind, red slide, swings, oak tree and sandbox in sunny afternoon light."
+    },
+    {
+      "beat": "From the top of the slide, {name} spots a boy {she/he} has never seen before. He sits alone on the green bench by the sandbox, holding a little green truck and looking at his shoes.",
+      "illustration_prompt": "View from the top of the red slide with the child peering down at a boy in an orange sweater sitting alone on a green bench, holding a small green toy truck, robin hopping nearby."
+    },
+    {
+      "beat": "{name} wants to say hello, but {her/his} tummy feels fluttery and {her/his} feet feel stuck. {name} zooms down the slide instead, but keeps peeking over at the bench.",
+      "illustration_prompt": "The child at the bottom of the slide, hands on tummy, looking shyly toward the boy on the bench, butterflies suggested by soft swirls around the child."
+    },
+    {
+      "beat": "{name} tries a wave from far away by the swings. The boy doesn't see, and he lets out a small sigh. {name} decides a faraway wave is not quite enough.",
+      "illustration_prompt": "The child standing by the swings waving across the playground while the boy on the bench looks down at his truck, a gentle distance between them."
+    },
+    {
+      "beat": "{name} sits on the picnic blanket and thinks hard. Mom asks what might help if {name} were the new one, and {she/he} remembers how lonely it felt on {her/his} first day somewhere new.",
+      "illustration_prompt": "The child sitting on a picnic blanket beside Mom, chin on hand, thinking, with a soft dreamy memory bubble showing the child standing alone in a new place."
+    },
+    {
+      "beat": "{name} looks at the boy's little green truck, then at {her/his} own bucket and shovel. A truck needs a road, and a road needs digging! {name} has an idea.",
+      "illustration_prompt": "Close view of the child holding up the yellow bucket and blue shovel with a bright, excited face, the boy's green truck visible on the bench in the background."
+    },
+    {
+      "beat": "{name} takes one big breath, walks right up to the bench and says hello, telling the boy {her/his} name and asking if his truck would like a sand road.",
+      "illustration_prompt": "The child standing in front of the green bench, holding out the blue shovel with a hopeful smile, the boy looking up in surprise, robin watching from the sandbox edge."
+    },
+    {
+      "beat": "The boy is quiet for a moment, then nods with a small smile. He says his name is Theo. {name} and Theo dig a long, curvy road across the sandbox together.",
+      "illustration_prompt": "The child and the boy kneeling in the sandbox digging a curvy road, the green truck parked at the start, both smiling, sand flying gently."
+    },
+    {
+      "beat": "When the road crumbles under the truck, Theo looks worried. {name} laughs and says they can build it stronger, and soon Theo is laughing too as they pat the sand down side by side.",
+      "illustration_prompt": "The child and the boy laughing together beside a collapsed bit of sand road, patting it back into shape, the truck tipped on its side, robin hopping close."
+    },
+    {
+      "beat": "As the sun sinks low, Mom calls that it is time to go. {name} and Theo wave big waves and plan to dig again tomorrow. {name} walks home feeling warm and proud, because today {she/he} made a friend.",
+      "illustration_prompt": "The child walking out of the playground gate with Mom in golden evening light, turning back to wave at the boy, who waves back from the sandbox holding his green truck."
+    }
+  ],
+  "cover_scene": "The child kneeling in a sunny sandbox beside a smiling curly-haired boy in an orange sweater, both holding a blue shovel and a small green toy truck on a curvy sand road, red slide and oak tree behind them, a robin on the sandbox edge, with calm open blue sky and a few soft clouds filling the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "{name} wanted to say hello. But {her/his} tummy went flutter, flutter. {Her/His} feet felt stuck like glue. So {name} zoomed down the slide instead... and peeked at the bench again.",
+      "scene": "The child at the bottom of the red slide with hands on tummy, peeking shyly toward a boy in an orange sweater sitting alone on a green bench with a small green truck."
+    },
+    {
+      "text": "{name} took one big breath. In... and out. Then {she/he} walked right up to the bench. \"Hi! I'm {name}. Does your truck want a road?\"",
+      "scene": "The child standing in front of the green bench, holding out a blue shovel with a hopeful smile while the boy looks up in surprise, a robin watching from the sandbox."
+    }
+  ],
+  "h1": "Personalized Friendship Book for Kids: Your Child Makes a Friend",
+  "meta_title": "Personalized Friendship Book for Kids | StoryBloom",
+  "meta_description": "A personalized friendship book where your child spots a lonely new kid at the playground and finds a brave way to say hello. For ages 3-7.",
+  "promise": "A gentle story that shows your child how a friendship can start with noticing, sharing and one brave hello.",
+  "story_summary": "Your child heads to the playground on a sunny afternoon, bucket and shovel in hand, ready for the slide and the sandbox. Then your child notices a new boy sitting all alone on the bench, holding a little green truck. Saying hello sounds simple, but tummy flutters and stuck feet make it feel very big. Your child tries a faraway wave, remembers what it feels like to be new, and starts working out a plan of their own.",
+  "why_parents": [
+    "Between three and seven, children are figuring out how to join in and how to let others in. Many feel that same flutter of shyness, whether they are the new kid or the one watching. A story where your child notices someone alone and decides what to do gives words and pictures to a moment they will meet again and again.",
+    "This book doesn't pretend saying hello is easy. Your child feels nervous, tries something that doesn't work, and then finds a real way in: something to share and a simple question. Seeing themselves take that brave step on the page can make the next playground hello feel a little more familiar."
+  ],
+  "for_grownups": [
+    "Ask your child what their tummy feels like when they want to talk to someone new, and share a time you felt that way too.",
+    "Practice a few easy openers together, like telling your name and asking a question about a toy or game the other child is playing.",
+    "Next time you are at the park, play a noticing game: is anyone sitting alone, and what could you share or invite them to do?"
+  ],
+  "faqs": [
+    {
+      "question": "Is this book good for a child who is shy?",
+      "answer": "Yes. Your child feels nervous in the story and even tries a faraway wave first, so a shy child will see that nerves are normal and that a small, brave step still works."
+    },
+    {
+      "question": "Does it help a child who is the new kid somewhere?",
+      "answer": "It can be a nice conversation starter. The story shows the new boy's side too, so you can talk about how it feels to be new and what kind of hello might feel good."
+    },
+    {
+      "question": "Who is the new friend in the story?",
+      "answer": "He is Theo, a quiet boy with a little green toy truck who is new to the playground. Your child and Theo build a sand road together, which gives the story a simple, sharing-centered way to become friends."
+    }
+  ],
+  "image_alt": "Personalized friendship book cover featuring an illustrated child as the hero digging a sand road with a new friend at the playground",
+  "feed_title": "Personalized Friendship Book for Kids Ages 3-7, Your Child Is the Hero Who Makes a New Friend",
+  "feed_description": "A personalized picture book about making friends, starring your child as the hero. On a sunny afternoon at the playground, your child notices a new boy sitting alone on a bench with a little green truck. Saying hello feels big, with tummy flutters and stuck feet, and a faraway wave does not quite work. Your child remembers what it feels like to be new, comes up with a plan to share a bucket and shovel, and takes one big breath to walk over. A warm, gentle read-aloud for ages 3-7 that shows how friendship can begin with noticing someone, finding something to share, and being brave enough to say hello. Includes soft, colorful playground illustrations and simple dialogue young children can follow."
+}

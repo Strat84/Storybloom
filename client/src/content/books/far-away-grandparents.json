@@ -1,0 +1,116 @@
+{
+  "slug": "far-away-grandparents",
+  "status": "live",
+  "title_pattern": "Over the Hills to {name}",
+  "category": "gifts-from-grandparents",
+  "age_range": "2-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "long distance grandparent book",
+  "landing_page_slug": "books/far-away-grandparents",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "A paper bird carries a grandparent's love over hills and cities, and your child sends one flying back.",
+  "lesson_or_purpose": "Love stays strong across many miles, and children can send their own love back to faraway grandparents through small, creative acts.",
+  "tone": "Warm, gentle and lyrical, with a soft rhythm and a repeating refrain that is cozy enough for bedtime.",
+  "reading_level": "Read-aloud picture book for ages 2-8, with short rhythmic lines and a simple repeating refrain that younger listeners can join in on.",
+  "keywords": [
+    "long distance grandparent book",
+    "personalized grandparent book",
+    "gift from grandma and grandpa",
+    "grandparents far away book",
+    "missing grandparents book for kids",
+    "personalized book from grandparents",
+    "paper bird picture book"
+  ],
+  "illustration_guide": "Two homes linked by one long journey: the grandparents' cottage with a round window on a far green hill, and the child's home with a garden and a tall maple tree. Between them, rolling patchwork hills, a winding blue river, and a city of rooftops and bridges. Palette of soft sky blues, meadow greens, warm cream and gentle sunset peach, with the paper bird always a bright folded red so it is easy to find on every page. Recurring elements: the red paper bird, a dotted flight path drawn as little sparkles across the sky, the grandparents' round window, and the child's maple tree. Painterly watercolor textures, rounded friendly shapes, no words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "At home, {name} looks out the window toward the far hills and misses Grandma and Grandpa, who live a long, long way away. {name} wonders if they are thinking of {her/him} too.",
+      "illustration_prompt": "The child kneels on a window seat at home, chin in hands, gazing out at distant rolling hills under a soft blue sky, a maple tree in the garden below."
+    },
+    {
+      "beat": "Far over the hills, Grandma and Grandpa fold a bright red paper bird, whisper a little love into its wings, and send it out their round window toward {name}. Introduce the refrain: over the hills and far away, love is flying {name}'s way.",
+      "illustration_prompt": "An older couple at a round cottage window on a green hill gently releasing a bright red paper bird into a peach morning sky, a sparkly trail behind it."
+    },
+    {
+      "beat": "The paper bird soars over patchwork hills, sleepy sheep and a winding blue river, carrying its love toward {name}. Repeat the refrain.",
+      "illustration_prompt": "The red paper bird glides high above patchwork fields, fluffy sheep and a winding blue river, a dotted sparkle trail curving across the sky."
+    },
+    {
+      "beat": "The bird flies over a busy city of rooftops and bridges, but a gusty wind tumbles it off course and it lands tangled in the tall maple tree in {name}'s garden.",
+      "illustration_prompt": "Wind swirling leaves around the red paper bird as it tumbles toward a tall maple tree in a garden, city rooftops and bridges fading in the background."
+    },
+    {
+      "beat": "{name} spots a flash of red in the maple tree. {She/He} thinks hard, then fetches a long garden broom and a step stool, and with Dad holding the stool steady, {name} gently nudges the bird free.",
+      "illustration_prompt": "The child standing on a step stool beneath the maple tree, reaching up carefully with a long broom toward a red paper bird caught in the branches, a dad steadying the stool."
+    },
+    {
+      "beat": "{name} unfolds the paper bird and finds a drawing inside: Grandma and Grandpa holding hands with {name}, all three smiling, surrounded by hearts. {name} feels warm all the way through.",
+      "illustration_prompt": "The child sitting on the grass holding open a sheet of red paper showing a simple crayon-style picture of two grandparents and a child holding hands with hearts around them, no writing."
+    },
+    {
+      "beat": "{name} wants to send a bird back, but folding is tricky. {Her/His} first bird is lopsided and flops straight to the floor. {name} frowns, then decides to try again.",
+      "illustration_prompt": "The child at a kitchen table covered in paper scraps, looking at a crumpled lopsided paper bird lying on the floor, a determined expression forming."
+    },
+    {
+      "beat": "{name} unfolds the red paper and studies every crease of Grandma and Grandpa's bird. Slowly and carefully, {she/he} draws {her/his} own picture inside, then folds a new bird, crease by crease, until its wings stand proud.",
+      "illustration_prompt": "The child carefully folding a new bright paper bird at the table, tongue poking out in concentration, crayons and a finished drawing nearby, warm lamp light."
+    },
+    {
+      "beat": "{name} climbs to the top of the garden hill, whispers a little love into the wings, and sends the bird flying back over the city, the river and the hills. {name} says the refrain in reverse: over the hills and far away, love is flying Grandma's way.",
+      "illustration_prompt": "The child on a grassy hilltop at sunset with arms raised, releasing a red paper bird that sails toward distant hills, a sparkle trail stretching across the peach sky."
+    },
+    {
+      "beat": "In the round cottage window, Grandma and Grandpa catch the bird and unfold {name}'s picture with big smiles. Far apart but close at heart, {name} snuggles into bed knowing love can always find its way across the miles.",
+      "illustration_prompt": "Split scene: on one side the grandparents at their round window smiling at a child's drawing, on the other the child tucked into bed smiling, one shared starry sky arching over both homes."
+    }
+  ],
+  "cover_scene": "The child stands on a sunny green hilltop with arms lifted, a bright red paper bird soaring just above, its sparkly flight path curving away toward distant rolling hills where a tiny cottage with a round window sits. The top third of the picture is calm, open soft blue sky with a few faint wisps of cloud, leaving space for the title.",
+  "sample_pages": [
+    {
+      "text": "Far, far away, on a hill so green, Grandma and Grandpa fold a bird of red. They whisper, \"We love you, {name},\" into its wings, and off it flies. Over the hills and far away, love is flying {name}'s way!",
+      "scene": "An older couple at a round cottage window on a green hill releasing a bright red paper bird into a peach morning sky, a sparkly trail behind it."
+    },
+    {
+      "text": "{name} folds and folds. But {her/his} bird is wobbly. Flop! It lands on the floor. {name} takes a big breath. \"I will try again,\" {she/he} says.",
+      "scene": "The child at a kitchen table scattered with paper scraps, looking down at a lopsided paper bird on the floor, a determined little smile beginning."
+    }
+  ],
+  "h1": "Personalized Long Distance Grandparent Book: Over the Hills to Your Child",
+  "meta_title": "Personalized Long Distance Grandparent Book | StoryBloom",
+  "meta_description": "A personalized long distance grandparent book: a paper bird flies over hills and cities from faraway grandparents to your child.",
+  "promise": "A story that shows your child how a grandparent's love travels every mile between you, and how they can send their own love flying back.",
+  "story_summary": "Your child is missing Grandma and Grandpa, who live far beyond the hills. One morning, the grandparents fold a bright red paper bird, whisper their love into its wings, and send it on a journey over meadows, rivers and city rooftops. When a gusty wind tangles the bird in a tree, your child has to figure out how to rescue it, and then discovers a surprise folded inside. Inspired, your child sets out to make a bird of their own, even when the first try flops.",
+  "why_parents": [
+    "For young children, a grandparent who lives far away can feel like someone who exists only on a screen or during rare visits. A story where love literally travels over hills and cities gives your child a picture to hold onto: the miles are real, but so is the connection, and it moves in both directions.",
+    "Children this age also love to be helpers, not just receivers. In this book your child rescues the bird, keeps trying when folding gets hard, and sends love back on their own. That small sense of agency can make missing someone feel a little less helpless and a lot more hopeful."
+  ],
+  "for_grownups": [
+    "After reading, fold a simple paper bird together, draw a picture inside, and mail it to the grandparents so your child can send real love over the hills.",
+    "Pull up a map and trace the path the bird might fly from the grandparents' home to yours, naming the hills, rivers or cities along the way.",
+    "Ask your child, 'What would you whisper into the bird's wings for Grandma and Grandpa?' and share the answer on your next call."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book work if only one grandparent is giving it?",
+      "answer": "The story features Grandma and Grandpa folding the bird together, and it reads naturally as a gift from either or both. You can add a dedication in your own words to make it clear who it is from."
+    },
+    {
+      "question": "Is it suitable for a two-year-old as well as an older child?",
+      "answer": "Yes. The lines are short with a repeating refrain that little ones can join in on, while older children can follow the rescue and the challenge of folding their own bird."
+    },
+    {
+      "question": "Is this a sad book about missing someone?",
+      "answer": "No. It opens with a gentle feeling of missing the grandparents, then turns into a cheerful journey and a creative project, ending with everyone feeling close despite the distance."
+    }
+  ],
+  "image_alt": "Personalized long distance grandparent book cover featuring an illustrated child on a hilltop with a red paper bird flying overhead",
+  "feed_title": "Personalized Long Distance Grandparent Book for Kids, Your Child Is the Hero",
+  "feed_description": "Over the Hills is a personalized picture book for children ages 2 to 8 who have grandparents living far away. In the story, Grandma and Grandpa fold a bright red paper bird, whisper their love into its wings, and send it flying over hills, rivers and city rooftops to your child. When the wind tangles the bird in a tree, your child figures out how to rescue it, finds a loving drawing folded inside, and works hard to fold a bird of their own to send back. With a gentle repeating refrain and soft watercolor illustrations, it is a warm read-aloud and a thoughtful gift from grandparents who want their grandchild to feel close across the miles."
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "helps-noah",
+  "status": "live",
+  "title_pattern": "{name} Helps Noah",
+  "category": "faith",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized bible story book",
+  "landing_page_slug": "books/helps-noah",
+  "example": {
+    "name": "Arjun",
+    "pronouns": "he",
+    "look": "medium brown skin, neat black hair"
+  },
+  "tagline": "Two by two up the ramp, and one small helper who makes the scared ones brave.",
+  "lesson_or_purpose": "Retells the account of Noah's ark from Genesis 6 to 9 faithfully while showing that courage grows when we trust God's care and stay close to someone who is afraid. Children see that God keeps His promises and that they can help others feel safe.",
+  "tone": "Warm, gentle and reverent, with rhythmic read-aloud moments and cozy reassurance during the storm.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, simple repetition such as \"two by two\" and \"pitter, patter, still we're safe.\"",
+  "keywords": [
+    "personalized bible story book",
+    "personalized Noah's ark book",
+    "Noah's ark book for kids",
+    "christian children's book personalized",
+    "bible story book with child's name",
+    "faith book for toddlers",
+    "rainbow promise story",
+    "personalized gift for baptism or Sunday school"
+  ],
+  "illustration_guide": "Setting: an ancient Near Eastern landscape of rolling hills, olive trees and a huge wooden ark built of honey-colored gopher wood planks, with one door on its side, a long ramp and a window strip along the top. Inside the ark: warm lantern light, straw-filled stalls, wooden beams, baskets of grain and hay. Palette: soft earthy browns, sage greens and warm golds for the ark; deep slate blues and silvery grays for the storm; fresh greens, sky blue and a full gentle rainbow for the ending. Recurring elements on every page: the two small brown rabbits who start out frightened (one with a white tail tip, one with a floppy ear), Noah as a kind elderly man with a long white beard and simple robes, his family in simple tunics, and the child dressed in a simple sand-colored tunic with a woven sash so the child fits the setting. A white dove appears from the storm onward. Animals are friendly, rounded and gently stylized. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} climbs a grassy hill and discovers an enormous wooden boat standing on dry land. Noah, an old man with a kind face, explains that God has told him to build this ark because a great flood is coming, and God has promised to keep Noah's family and the animals safe inside. Noah smiles and asks {name} if {she/he} would like to help.",
+      "illustration_prompt": "The child standing at the top of a green hill with olive trees, looking up in wonder at a gigantic wooden ark on dry ground. Noah, an elderly man with a long white beard and simple robe, waves warmly from the base of the long ramp. Bright clear sky, warm morning light."
+    },
+    {
+      "beat": "The animals begin to arrive two by two, just as God said. {name} helps guide them up the ramp: two tall giraffes, two swaying elephants, two shaggy lions, two waddling ducks. {name} counts each pair out loud and cheers them inside.",
+      "illustration_prompt": "The child standing beside the ark's ramp, arm stretched out cheerfully, as pairs of animals walk up in a line: giraffes, elephants, lions, ducks and sheep. Noah's family helps at the door. Golden light, gentle hills in the background."
+    },
+    {
+      "beat": "Clouds gather and the sky rumbles. At the bottom of the ramp, {name} spots two small rabbits huddled together in the grass, trembling. They will not move. The ark looks so big and dark inside, and the thunder sounds so loud.",
+      "illustration_prompt": "Two small brown rabbits, one with a white tail tip and one with a floppy ear, pressed close together in the grass at the foot of the ramp, ears flat. Above, gray clouds begin to roll in. The child notices them from partway up the ramp, looking concerned."
+    },
+    {
+      "beat": "{name} walks back down and kneels beside the rabbits. {She/He} remembers times {she/he} has felt scared too, and speaks softly. The rabbits whisper that they are afraid of the dark and the noise and of leaving the only home they know.",
+      "illustration_prompt": "The child kneeling low in the grass, face close to the two rabbits, one hand gently resting near them. The rabbits look up at the child with wide eyes. Soft gray sky, the great ark rising behind them."
+    },
+    {
+      "beat": "{name} has an idea. {She/He} tells the rabbits that God asked Noah to build this ark to keep them safe, and God always takes care of what He makes. {name} promises to stay right beside them, then walks with them one small hop at a time up the ramp and shows them a cozy straw corner glowing with lantern light. Once everyone is inside, God shuts the door.",
+      "illustration_prompt": "Inside the ark, the child crouching beside a warm straw-filled corner lit by a hanging lantern, the two rabbits peeking in curiously. Behind them, the large wooden door is closed. Other animals rest in stalls nearby. Warm golden interior light."
+    },
+    {
+      "beat": "The rain begins: pitter, patter, then pouring down for forty days and forty nights. The thunder booms and the ark rocks on the water. The rabbits shiver, so {name} sits close and sings a soft song about God's care until the rabbits snuggle in and hum along.",
+      "illustration_prompt": "The child sitting in the straw with the two rabbits tucked against the child's side, eyes calm, mouth open in a gentle song. Through the high window strip, dark rain streaks across a slate-blue sky. Lantern light keeps the corner cozy. Nearby animals rest peacefully."
+    },
+    {
+      "beat": "Day after day, {name} helps Noah's family feed the animals, carrying hay, grain and water. Little by little the rabbits grow brave. Soon they hop beside {name} on every round, nudging the sleepy sheep and greeting the giant elephants.",
+      "illustration_prompt": "The child carrying a bundle of hay along a wooden walkway inside the ark, the two rabbits hopping happily alongside. Noah's family members fill feed baskets. Elephants, sheep and giraffes lean out of their stalls. Warm, busy, cheerful scene."
+    },
+    {
+      "beat": "At last the rain stops and the ark comes to rest on the mountains. Noah sends out a dove. {name} and the rabbits wait at the window, and when the dove flies back with a fresh olive leaf in its beak, {name} knows the land is drying.",
+      "illustration_prompt": "At the open window of the ark, Noah gently holds out his hands as a white dove returns carrying a green olive leaf. The child and the two rabbits lean in beside him, delighted. Outside, calm water and mountaintops beneath a clearing sky."
+    },
+    {
+      "beat": "God tells Noah it is time to come out. The great door opens wide. The two rabbits who once would not climb the ramp are the very first to hop down onto the new green grass, and {name} laughs as {she/he} follows them out into the sunshine.",
+      "illustration_prompt": "The ark's large door open wide, ramp resting on lush green ground. The two rabbits leaping joyfully down the ramp, the child right behind them with arms open. Animals line up to follow. Fresh, bright morning light and sparkling wet grass."
+    },
+    {
+      "beat": "Noah and his family give thanks to God, and God places a rainbow in the sky as His promise never again to flood the whole earth. Noah thanks {name} for helping the animals find their courage. {name} sits in the grass with the rabbits, looking at the rainbow, knowing God keeps His promises.",
+      "illustration_prompt": "A full, gentle rainbow arching across a clear blue sky above green hills. The child sitting in the grass with the two rabbits snuggled close, all gazing upward. Noah and his family stand nearby with hands lifted in thanks. The ark rests in the background with animals spreading across the meadow."
+    }
+  ],
+  "cover_scene": "The child stands halfway up the long wooden ramp of a huge honey-colored ark, smiling and holding out a hand to two small brown rabbits who hop bravely up beside the child. Behind them, pairs of animals (giraffes, elephants, sheep) wait their turn on gentle green hills with olive trees. The top third of the picture is a calm, open soft-blue sky with a few light clouds, leaving clear space for the title.",
+  "sample_pages": [
+    {
+      "text": "Rumble, rumble went the sky. At the bottom of the ramp, {name} saw two little rabbits, shaking in the grass. \"It's so big,\" whispered one. \"It's so dark,\" whispered the other. They would not take one single hop.",
+      "scene": "Two small brown rabbits huddled close at the foot of the ark's ramp, ears flat and eyes wide, as gray clouds roll in overhead. The child pauses partway up the ramp, looking back at them with a caring expression."
+    },
+    {
+      "text": "Pitter, patter, down came the rain, for forty days and forty nights. Boom went the thunder! The rabbits shivered, so {name} sat close and sang, \"God is near, we're safe in here.\" Soon two little noses were humming along.",
+      "scene": "The child sitting in a lantern-lit straw corner inside the ark, the two rabbits snuggled against the child's side. Rain streaks past the high window against a slate-blue sky, while nearby animals rest calmly."
+    }
+  ],
+  "h1": "Personalized Bible Story Book: Your Child Helps Noah Fill the Ark",
+  "meta_title": "Personalized Noah's Ark Bible Story Book | StoryBloom",
+  "meta_description": "A personalized Bible story book where your child helps Noah load the ark and gives two frightened rabbits courage through the flood.",
+  "promise": "Your child steps into the story of Noah's ark, helps the animals board two by two, and learns that trusting God can make a scared heart brave.",
+  "story_summary": "Your child climbs a grassy hill and finds Noah finishing the enormous ark God asked him to build. As the animals arrive two by two, your child helps guide giraffes, elephants and lions up the ramp. Then the sky starts to rumble, and two tiny rabbits are too frightened to climb aboard. Your child has to find a gentle way to help them feel safe before the rain begins.",
+  "why_parents": [
+    "Noah's ark is often one of the first Bible stories children fall in love with, full of animals, a giant boat and a rainbow at the end. This retelling keeps the heart of Genesis intact: God's instructions, the animals two by two, the forty days of rain, the dove with the olive leaf and the rainbow promise, while giving your child a small, meaningful role inside it.",
+    "Young children know what it feels like to be scared of the dark or a loud storm. Watching themselves comfort two frightened rabbits helps them see that courage can come from trusting God and from having someone stay close. It is a gentle way to talk about fear, kindness and the idea that God keeps His promises."
+  ],
+  "for_grownups": [
+    "After reading, ask your child what helped the rabbits feel brave. Talk about what helps your child feel safe during a storm or at bedtime.",
+    "Read Genesis 9:12-16 together and talk about what a promise is. Next time you see a rainbow, remind each other that God keeps His promises.",
+    "Try singing the soft song from the book together on a stormy or restless night, or make up your own short prayer of trust."
+  ],
+  "faqs": [
+    {
+      "question": "Does the book stay true to the Bible's account of Noah?",
+      "answer": "Yes. The key events from Genesis 6 to 9 are all there, including God's command to build the ark, the animals entering two by two, God shutting the door, forty days and nights of rain, the dove with the olive leaf and the rainbow covenant. Your child is added as a helper without changing what happens in Scripture."
+    },
+    {
+      "question": "Is the flood too scary for a three-year-old?",
+      "answer": "The storm is shown from inside the warm, lantern-lit ark, with your child singing and snuggling the rabbits. The focus stays on safety, trust and comfort rather than danger outside."
+    },
+    {
+      "question": "Would this suit a baptism, Easter basket or Sunday school gift?",
+      "answer": "It is an evergreen faith story that fits many moments, from a baptism or dedication to a birthday or a reward for Sunday school attendance. The rainbow promise ending makes it a lovely keepsake for any time of year."
+    }
+  ],
+  "image_alt": "Personalized Noah's ark Bible story book cover featuring an illustrated child helping two rabbits up the ark's ramp",
+  "feed_title": "Personalized Noah's Ark Bible Story Book for Kids, Your Child Helps Noah and the Animals",
+  "feed_description": "A personalized Bible story picture book for ages 3 to 8 in which your child becomes Noah's helper. Your child guides the animals up the ramp two by two, then notices two little rabbits too frightened of the dark and the thunder to come aboard. With gentle words and a promise to stay close, your child helps them find courage and comforts them through forty days and nights of rain. The retelling stays faithful to Genesis, including the dove returning with an olive leaf and the rainbow as God's promise. Warm illustrations show a lantern-lit ark full of friendly animals. A thoughtful gift for baptisms, birthdays, Easter or Sunday school, and a cozy bedtime read about trusting God when you feel afraid."
+}

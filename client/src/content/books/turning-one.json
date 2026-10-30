@@ -1,0 +1,117 @@
+{
+  "slug": "turning-one",
+  "status": "live",
+  "title_pattern": "{name} Turns One",
+  "category": "birthday",
+  "age_range": "0-2",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "first birthday book personalized",
+  "landing_page_slug": "books/turning-one",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "A gentle rhyming look at a whole first year, ending with balloons, wobbly steps and cake on the nose.",
+  "lesson_or_purpose": "Celebrates a baby's first year of growing and marks the first birthday as a joyful family milestone, with a small brave moment of first steps at its heart.",
+  "tone": "Soft, rhythmic, cozy and celebratory, written to be read aloud with lots of gentle repetition.",
+  "reading_level": "Read-aloud for ages 0-2: very short rhyming lines, simple repeated words, one small idea per page.",
+  "keywords": [
+    "first birthday book personalized",
+    "personalized first birthday book",
+    "baby's first birthday gift",
+    "1st birthday book for baby",
+    "first year keepsake book",
+    "rhyming birthday book for toddlers",
+    "first steps book",
+    "personalized baby book"
+  ],
+  "illustration_guide": "Setting is a warm, sunny family home: a nursery with a wooden crib, a living room with a soft sofa, a big window, a high chair and a simple birthday table. Palette of soft creams, butter yellow, peach, pale sky blue and a single cheerful red for the child's favorite balloon, which appears from the party pages onward as the recurring visual thread. Plain fabric bunting in pastel triangles, a small round cake with one candle, and a soft stuffed bunny that the child keeps nearby on most pages. Rounded shapes, gentle light, uncluttered compositions with the child large and central. Grown-ups appear as kind, welcoming family figures. No words, signs, numbers or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Morning sun peeks into the nursery as {name} wakes up in the crib on a very special day. Today {name} is one whole year old. Open with a soft, rhyming welcome to the day.",
+      "illustration_prompt": "A cozy nursery at sunrise, golden light through a big window, the child standing up in a wooden crib holding the rail and smiling, a soft stuffed bunny beside them, pastel walls."
+    },
+    {
+      "beat": "Look back to one year ago, when {name} was brand new and tiny, with tiny fingers and tiny toes, held close and snug by family. Keep it tender and simple.",
+      "illustration_prompt": "A dreamy, softly faded memory scene of a newborn wrapped in a cream blanket, cradled in a parent's arms in a rocking chair, warm lamp light, a gentle glow around the edges."
+    },
+    {
+      "beat": "Show the year of growing in quick, repeating rhyme: {name} smiles, then giggles, then rolls, then crawls. Repeat a gentle refrain about how {name} grows.",
+      "illustration_prompt": "A playful sequence-style picture on one spread: the child smiling on a play mat, rolling over, then crawling happily across a soft rug toward the stuffed bunny, warm sunny living room."
+    },
+    {
+      "beat": "Party time: the family hangs bunting and balloons. {name} claps and bounces with delight at the bright red balloon tied near {her/his} high chair.",
+      "illustration_prompt": "A bright living room being decorated, pastel bunting along the wall, a bunch of soft-colored balloons, one bright red balloon tied to a high chair, the child seated and clapping with joy while family members smile."
+    },
+    {
+      "beat": "Uh oh! The red balloon slips its ribbon and floats away across the room, bobbing up by the sofa near the window. {name} reaches and wants it back.",
+      "illustration_prompt": "The red balloon drifting across the room toward a sofa by the window, its ribbon trailing, the child on the floor reaching both arms out with a surprised, determined face, family watching gently from the side."
+    },
+    {
+      "beat": "{name} crawls to the sofa, but the balloon string dangles just a little too far. So {name} grabs the cushion and pulls up to stand, wobbly and brave.",
+      "illustration_prompt": "The child pulling up to stand at the edge of a soft sofa, little knees wobbling, looking toward the red balloon string hanging just out of reach a few steps away, sunlight on the floor."
+    },
+    {
+      "beat": "{name} lets go of the sofa and takes first steps all on {her/his} own: one, two, three! The family holds their breath and watches. Use counting and rhythm.",
+      "illustration_prompt": "The child mid-step with arms out for balance, taking wobbly first steps across a sunny rug toward the red balloon string, family members kneeling nearby with delighted, hopeful faces."
+    },
+    {
+      "beat": "{name} catches the ribbon and plops down with a happy bump. Everyone cheers and claps for {her/his} very first steps, the best birthday surprise of all.",
+      "illustration_prompt": "The child sitting on the rug holding the red balloon ribbon high, beaming, while family members clap and cheer around them, the stuffed bunny tumbled happily beside the child."
+    },
+    {
+      "beat": "Cake time! A single candle glows, the family sings softly, and {name} dives in with both hands. Cake on the fingers, cake on the cheeks, cake on the nose, and lots of giggles.",
+      "illustration_prompt": "The child in a high chair with a small round frosted cake, one glowing candle just blown out, frosting on the child's nose and cheeks, laughing, red balloon floating nearby, family gathered around smiling."
+    },
+    {
+      "beat": "Evening comes and sleepy {name} is tucked in with the bunny while the red balloon rests in the corner of the room. Family whispers a happy first birthday and many more years of love to come.",
+      "illustration_prompt": "A calm nursery at dusk with soft lamp light and a starry window, the child asleep in the crib cuddling the stuffed bunny, the red balloon resting quietly in a far corner, a parent leaning in tenderly."
+    }
+  ],
+  "cover_scene": "The child stands proudly on a soft rug in a sunny living room, holding the ribbon of a bright red balloon, with pastel bunting and a small cake with one candle on a low table beside them. The top third of the picture is calm, open pale sky-blue wall and soft window light, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "First a smile, then a giggle, then a roll and then a wiggle. Crawl, crawl, crawl across the floor. Look how {name} grows more and more!",
+      "scene": "The child on a soft rug in a sunny living room, shown smiling on a play mat, rolling over, and crawling happily toward a stuffed bunny, warm cream and peach tones."
+    },
+    {
+      "text": "One wobbly step. Then two. Then three! Look at {name}, as brave as can be! Toddle, toddle, on tiny toes, toward that red balloon {she/he} goes!",
+      "scene": "The child taking first wobbly steps with arms out across a sunny rug toward a dangling red balloon ribbon, family members kneeling nearby with delighted faces."
+    }
+  ],
+  "h1": "Personalized First Birthday Book for Your Baby",
+  "meta_title": "Personalized First Birthday Book | StoryBloom",
+  "meta_description": "A personalized first birthday book in soft rhyme: a year of growing, a runaway balloon, first steps and cake on the nose.",
+  "promise": "A soft, rhyming read-aloud that celebrates your child's first year and turns their first birthday into a keepsake story starring them.",
+  "story_summary": "On the morning of their first birthday, your child wakes up one whole year old. The story looks back in gentle rhyme at a year of tiny toes, first smiles, giggles, rolls and crawls. Then the party begins, with bunting, balloons and a bright red balloon that has other plans. When it floats away across the room, your little one has to find a brand new way to go after it.",
+  "why_parents": [
+    "A first birthday is as much a milestone for the grown-ups as it is for the baby. This book gathers the small moments of that year, the first smile, the first crawl, the cake-smeared grin, into one cozy story you can read together now and return to later.",
+    "At this age, little ones respond to rhythm, repetition and their own face on the page. Short rhyming lines and a simple, satisfying moment of trying something new make it easy to read again and again, long after the party balloons are gone."
+  ],
+  "for_grownups": [
+    "As you read the growing pages, add your own memories: tell your child what their first laugh sounded like or where they first crawled.",
+    "Pause on the first steps page and count out loud together, clapping on each number, whether your child is walking yet or not.",
+    "Tuck a photo from the party or a short note on the back page so the book becomes a record of this exact birthday."
+  ],
+  "faqs": [
+    {
+      "question": "Does the story work if my child isn't walking yet?",
+      "answer": "Yes. The first steps are a sweet, hopeful moment in the story, and many families enjoy reading it as something to look forward to. The rest of the book celebrates smiling, crawling and the party itself."
+    },
+    {
+      "question": "Is the text short enough for a one-year-old?",
+      "answer": "Each page has just a few rhyming lines with gentle repetition, written to be read aloud. It is designed for little listeners who like rhythm and pictures more than long sentences."
+    },
+    {
+      "question": "Who appears in the illustrations besides my child?",
+      "answer": "Warm, welcoming family figures appear in the party and cake scenes alongside your child. The red balloon and a soft stuffed bunny show up as friendly recurring details throughout the book."
+    }
+  ],
+  "image_alt": "Personalized first birthday book cover featuring an illustrated child holding a red balloon beside a birthday cake with one candle",
+  "feed_title": "Personalized First Birthday Book for Baby, Rhyming Keepsake Where Your Child Is the Hero",
+  "feed_description": "A soft, rhyming first birthday picture book made for your child, who appears as the illustrated hero on every page. The story begins on the morning of their first birthday and looks back at a year of tiny toes, first smiles, giggles, rolling and crawling. At the party, a bright red balloon floats away across the room, and your little one pulls up, lets go and takes wobbly first steps to catch it. Then comes the cake, with one glowing candle and frosting on the nose. Short, rhythmic lines with gentle repetition make it a cozy read-aloud for ages 0 to 2 and a keepsake of a first birthday to revisit for years."
+}

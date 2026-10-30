@@ -1,0 +1,117 @@
+{
+  "slug": "morning-on-the-farm",
+  "status": "live",
+  "title_pattern": "{name}'s Morning on the Farm",
+  "category": "adventures",
+  "age_range": "2-5",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized farm animals book",
+  "landing_page_slug": "books/morning-on-the-farm",
+  "example": {
+    "name": "Hana",
+    "pronouns": "she",
+    "look": "light tan skin, straight black hair with bangs"
+  },
+  "tagline": "The rooster overslept, so your child gets the whole farm going.",
+  "lesson_or_purpose": "A gentle helping adventure: when the morning goes wrong, a small child can notice what each animal needs and lend a hand, kindly and patiently.",
+  "tone": "Cheerful, cozy and rhythmic, with animal sounds to join in on and a soft, funny twist when the sleepy rooster is found.",
+  "reading_level": "Read-aloud for ages 2-5: short lines, repeated animal sounds, simple predictable patterns.",
+  "keywords": [
+    "personalized farm animals book",
+    "farm book for toddlers",
+    "personalized book for 2 year old",
+    "farm animal sounds book",
+    "rooster picture book",
+    "personalized preschool book",
+    "helping story for kids",
+    "custom farm storybook"
+  ],
+  "illustration_guide": "Setting: a small family farm in early morning, with a red barn, white wooden fence, a little hen house, a muddy pig pen, a green meadow on a gentle hill and a round duck pond, all seen near a cozy farmhouse. Palette: soft sunrise peach and gold in the sky, warm barn red, fresh meadow greens, creamy whites and muddy browns, with a gentle morning haze. Recurring elements: the child in bright yellow rubber boots; a plump red and gold rooster with a floppy comb; a calm brown and white cow with a bell; three speckled hens; two pink piglets; a woolly flock of four sheep; a mother duck with three ducklings; a small orange barn cat who follows the child on every page as a quiet sidekick; the rising sun climbing a little higher in each scene. Style: rounded shapes, soft textures, friendly expressive animal faces, uncluttered compositions suitable for very young readers. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "{name} wakes up in the farmhouse. Sunshine is already peeking through the window, but something is missing: there was no cock-a-doodle-doo this morning. {name} sits up and listens to the quiet.",
+      "illustration_prompt": "A cozy farmhouse bedroom with a patchwork quilt, golden sunlight streaming through a small window, the child sitting up in bed with a curious, listening expression, the orange barn cat stretching at the foot of the bed, the red barn visible outside the window."
+    },
+    {
+      "beat": "{name} pulls on {her/his} yellow boots and steps outside. The farm is in a muddle: the hens are still shut in, the cow is mooing at the gate, the sheep are bumping into each other and the ducks are going round and round. {name} decides to help.",
+      "illustration_prompt": "Wide view of the farmyard at sunrise, the child in yellow boots standing on the farmhouse step with hands on hips, a closed hen house with hens peeking out, a cow at a closed gate, sheep in a confused cluster and ducks circling, the orange cat beside the child."
+    },
+    {
+      "beat": "First stop, the hen house. Cluck, cluck, the hens are stuck! {name} lifts the wooden latch and the speckled hens hop out, fluffing their feathers. One hen leaves {name} a warm brown egg as a thank you.",
+      "illustration_prompt": "The child opening the latch of a little hen house as three speckled hens hop out happily, one hen beside a fresh brown egg in the straw, the child smiling with delight, the orange cat watching from a fence post."
+    },
+    {
+      "beat": "Moo, moo, the cow is waiting too! Daisy the cow wants to get to the meadow. {name} swings open the big gate and walks beside her, step by step, all the way to the sweet green grass.",
+      "illustration_prompt": "The child walking beside a calm brown and white cow with a bell along a path toward a green meadow, the gate swung open behind them, the sun a little higher in a peach and gold sky, the orange cat trotting behind."
+    },
+    {
+      "beat": "Oink, oink, the piglets are hungry! Dad has the breakfast bucket, and {name} helps carry it to the pen. Together they pour, and the two pink piglets wiggle with joy. {name} laughs as they slurp.",
+      "illustration_prompt": "The child and Dad carrying a bucket together to a muddy pig pen, two pink piglets wiggling excitedly at the trough, small splashes of mud, the child laughing, the orange cat perched safely on the fence away from the mud."
+    },
+    {
+      "beat": "Baa, baa, the sheep don't know where to go! They are huddled in a corner, waiting for the rooster's call. {name} has an idea and leads the way, saying baa, baa, until the whole woolly flock follows {her/him} up the hill.",
+      "illustration_prompt": "The child walking up a gentle green hill with arms swinging, a line of four woolly sheep following happily behind, the morning sun shining over the hilltop, the orange cat leading at the front."
+    },
+    {
+      "beat": "Quack, quack, the ducks are going round and round! Mother Duck and her ducklings are waiting for their wake-up call to swim. {name} points to the pond and gives a little hop, and splash, in they go. {name} claps from the bank.",
+      "illustration_prompt": "The child at the edge of a round duck pond clapping, a mother duck and three ducklings splashing into the water with little ripples, reeds and lily pads, the orange cat peering curiously at the water."
+    },
+    {
+      "beat": "Everyone is busy now, but {name} still wonders where the rooster is. {name} peeks behind the tractor, under the wheelbarrow and into the barn. Up on a soft hay bale is Rufus the rooster, fast asleep and snoring.",
+      "illustration_prompt": "Inside the warm red barn with sunbeams slanting through the slats, the child peeking around a stall door with a surprised, amused face, a plump red and gold rooster asleep on a hay bale with his floppy comb drooping, the orange cat tiptoeing beside the child."
+    },
+    {
+      "beat": "{name} could shout, but {she/he} chooses to be gentle instead. {name} tickles Rufus with a soft feather and whispers a tiny cock-a-doodle-doo. Rufus blinks awake, worried he has spoiled the morning. {name} tells him every animal is fine and invites him to crow together.",
+      "illustration_prompt": "Close view in the barn of the child kneeling beside the hay bale holding a soft feather near the rooster, the rooster blinking awake with a sheepish expression, warm golden light, the orange cat sitting nearby looking pleased."
+    },
+    {
+      "beat": "{name} and Rufus climb onto the fence and crow together: cock-a-doodle-doo! The hens cluck, the cow moos, the piglets oink, the sheep baa and the ducks quack. Then {name} heads in for breakfast with a warm egg, and Rufus promises to be up bright and early tomorrow.",
+      "illustration_prompt": "The child standing beside the fence with the rooster perched on top, both with heads tipped back mid-crow, all the farm animals gathered around joyfully in the sunny farmyard, the farmhouse with a welcoming open door in the background, the orange cat curled on the fence post."
+    }
+  ],
+  "cover_scene": "The child in yellow rubber boots stands proudly in a sunny farmyard, with the plump red and gold rooster perched on the white fence beside them, a speckled hen, a brown and white cow, a pink piglet, a woolly sheep and a duck gathered close, and the orange barn cat at the child's feet. The red barn sits low in the background. The top third of the picture is a calm, open sunrise sky in soft peach and gold with no clutter.",
+  "sample_pages": [
+    {
+      "text": "Cluck, cluck! The hens are stuck! {name} lifts the latch. Hop, hop, hop! Out they come. And look, a warm brown egg, just for {her/him}.",
+      "scene": "The child opening the latch of a little hen house as three speckled hens hop out happily, one hen beside a fresh brown egg in the straw, the child smiling with delight, the orange cat watching from a fence post."
+    },
+    {
+      "text": "Where is Rufus? Not by the tractor. Not under the wheelbarrow. {name} peeks in the barn. There he is, up on the hay. Snore, snore, snore!",
+      "scene": "Inside the warm red barn with sunbeams slanting through the slats, the child peeking around a stall door with a surprised, amused face, a plump red and gold rooster asleep on a hay bale with his floppy comb drooping, the orange cat tiptoeing beside the child."
+    }
+  ],
+  "h1": "Personalized Farm Animals Book: Your Child Saves the Morning When the Rooster Oversleeps",
+  "meta_title": "Personalized Farm Animals Book for Kids | StoryBloom",
+  "meta_description": "A personalized farm animals book for ages 2-5. Your child helps the hens, cow, piglets, sheep and ducks when the rooster oversleeps.",
+  "promise": "Your child pulls on yellow boots and gets a sleepy farm moving, one moo, oink and quack at a time.",
+  "story_summary": "One morning the sun comes up but the farm stays strangely quiet, because Rufus the rooster has overslept. Your child steps outside to find the hens shut in, the cow waiting at the gate, the sheep in a huddle and the ducks going round in circles. Animal by animal, your child figures out what each one needs and helps them start their day. But there is still one big question: where is Rufus, and how do you wake a rooster kindly?",
+  "why_parents": [
+    "Farm animals are often among the first things little ones name, and their sounds are some of the first they love to copy. This story is built around that joy, with a moo, oink, baa and quack on nearly every page so your child can join in long before they can read the words.",
+    "Children this age also love to be the helper. Here your child is the one who notices that something is off and quietly sets it right, from lifting the hen house latch to choosing a gentle way to wake the sleepy rooster. It is a cozy, funny way to celebrate how capable small hands can be."
+  ],
+  "for_grownups": [
+    "Make the animal sounds together on each page, then try pausing so your child can fill in the next one.",
+    "Ask what your child would do to help an animal on the farm, or how they like to be woken up in the morning.",
+    "Talk about the moment with Rufus: why might a gentle feather be kinder than a loud shout when someone is sleepy?"
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for a 2 year old?",
+      "answer": "Yes. The pages use short lines, repeated animal sounds and a simple pattern that toddlers can follow and join in on, while older preschoolers enjoy the search for the missing rooster."
+    },
+    {
+      "question": "Which farm animals appear in the story?",
+      "answer": "Your child helps speckled hens, a cow named Daisy, two piglets, a flock of sheep and a mother duck with her ducklings, with Rufus the rooster and a little orange barn cat along for the whole morning."
+    },
+    {
+      "question": "Does Rufus get in trouble for oversleeping?",
+      "answer": "No. When your child finds him snoozing, they wake him gently and reassure him that everyone is fine, and the two of them crow together to finish the morning on a happy note."
+    }
+  ],
+  "image_alt": "Personalized farm animals book cover featuring an illustrated child as the hero with a rooster, cow, hen, piglet, sheep and duck",
+  "feed_title": "Personalized Farm Animals Book for Toddlers and Preschoolers, Your Child Is the Hero",
+  "feed_description": "A personalized farm animals picture book for ages 2 to 5 where your child becomes the illustrated hero of a busy farm morning. Rufus the rooster has overslept, and without his wake-up call the whole farm is in a muddle. Your child pulls on yellow boots and helps each animal in turn: opening the hen house, walking Daisy the cow to the meadow, feeding the hungry piglets with Dad, leading the sheep up the hill and showing the ducks to the pond. Then comes the big search for the missing rooster and a gentle, funny way to wake him. Short rhythmic lines and animal sounds on nearly every page make it a cozy read-aloud for toddlers and preschoolers."
+}

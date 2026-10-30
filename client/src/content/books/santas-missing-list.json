@@ -1,0 +1,117 @@
+{
+  "slug": "santas-missing-list",
+  "status": "live",
+  "title_pattern": "{name} and Santa's Missing List",
+  "category": "christmas",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Dec",
+  "sensitive": false,
+  "main_keyword": "personalized christmas book for kids",
+  "landing_page_slug": "books/santas-missing-list",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "One windy week before Christmas, your child follows Santa's runaway list through a snowy town and helps every neighbor along the way.",
+  "lesson_or_purpose": "Kindness and helpfulness matter most when you do them for others without expecting anything back, especially at Christmas.",
+  "tone": "Cozy, gently suspenseful, warm and festive",
+  "reading_level": "Read-aloud for ages 3-7: short sentences, simple words, a little gentle repetition as each page is found.",
+  "keywords": [
+    "personalized christmas book for kids",
+    "christmas book with child's name",
+    "santa story for kids",
+    "personalized santa book",
+    "christmas kindness story",
+    "custom christmas picture book",
+    "christmas gift for kids",
+    "snowy town christmas book"
+  ],
+  "illustration_guide": "A small, cozy snowy town in the week before Christmas: a brick bakery with steamy windows, a row of snowy houses with wreaths, a park with tall pines and a snowman, a warm stone library, and a town square with a big red mailbox and a decorated tree. Palette of deep evergreen, cranberry red, warm gold light and soft snowy blues and whites. Recurring elements: Santa's list pages, cream paper with a gold edge that flutter and glow faintly; the child in a bright red scarf and mittens; gently falling snowflakes; Dad nearby in a green knit hat; warm lamp light growing as evenings fall. Soft, rounded storybook style with gentle textures and friendly faces.",
+  "page_outline": [
+    {
+      "beat": "One week before Christmas, a big gust of wind swirls through town. {name} is playing in the snowy yard when a cream page with a shiny gold edge lands right at {her/his} boots.",
+      "illustration_prompt": "The child in a red scarf and mittens in a snowy front yard, looking down in surprise at a cream page with a glowing gold edge resting in the snow, swirling wind and snowflakes, cozy houses with wreaths behind."
+    },
+    {
+      "beat": "{name} reads the page with Dad. It is part of Santa's list, with a little note from Santa asking for help: the wind blew his list away, and the pages must reach the big mailbox in the town square by Christmas Eve. {name} pulls on {her/his} hat and decides to find every page.",
+      "illustration_prompt": "The child and Dad in a green knit hat crouched together on a snowy porch, studying the gold-edged page with wide, excited eyes, more pages faintly visible blowing far off down the snowy street."
+    },
+    {
+      "beat": "At the bakery, {name} spots a page stuck to the steamy window. Inside, the baker is juggling too many trays of gingerbread, so {name} helps carry boxes to the counter, and the grateful baker peels the page free for {her/him}.",
+      "illustration_prompt": "Inside a warm bakery with steamy windows, the child carefully carrying a stack of ribbon-tied boxes while a smiling baker balances trays of gingerbread, a gold-edged page pressed against the window glass."
+    },
+    {
+      "beat": "Down the street, old Mr. Abbott is trying to clear his icy steps. {name} grabs a broom and sweeps away the snow beside him, and there under the doormat is another page of Santa's list.",
+      "illustration_prompt": "The child sweeping snow from front steps beside a smiling elderly neighbor in a plaid coat leaning on a shovel, a gold-edged page peeking out from under a snowy doormat, warm porch light glowing."
+    },
+    {
+      "beat": "In the park, a little neighbor is crying because a mitten is lost. {name} searches high and low and finds the mitten on the snowman's stick arm, with a page of the list tucked right beside it. {name} hands back the mitten first.",
+      "illustration_prompt": "The child reaching up to a cheerful snowman in a snowy park, a small mitten and a gold-edged page caught on its stick arm, a smaller child nearby with a hopeful, teary smile, tall pines in the background."
+    },
+    {
+      "beat": "At the library, the librarian needs help hanging paper snowflakes in the window. {name} holds the ladder steady and passes up snowflakes, and when they are done, {she/he} spots a page fluttering on top of the book return.",
+      "illustration_prompt": "Inside a cozy stone library, the child holding a step stool steady while a librarian hangs paper snowflakes in a tall window, shelves of books glowing in lamp light, a gold-edged page resting on top of a book return bin."
+    },
+    {
+      "beat": "As the sun sets, {name} counts the pages. One is still missing, and it is the page where {her/his} own name would be. {name} looks everywhere, but it is nowhere to be found.",
+      "illustration_prompt": "The child sitting on a snowy bench at sunset holding a small stack of gold-edged pages, looking thoughtful and a little sad, Dad kneeling beside with a comforting hand, pink and gold sky behind bare trees."
+    },
+    {
+      "beat": "{name} thinks about all the other children whose names are on these pages. {She/He} decides the list must go to Santa right away, even without {her/his} page, and walks to the town square to drop the pages into the big red mailbox.",
+      "illustration_prompt": "The child standing on tiptoe at a big red mailbox in a snowy town square, gently sliding a stack of gold-edged pages inside, a tall decorated Christmas tree and twinkling lights behind, Dad smiling proudly."
+    },
+    {
+      "beat": "The baker, Mr. Abbott, the little neighbor and the librarian gather in the square to thank {name}. The big tree lights up, snow begins to fall, and {name} feels warm all the way through.",
+      "illustration_prompt": "The child surrounded by smiling neighbors, a baker, an elderly man in plaid, a small child with mittens and a librarian, all in the snowy town square as the big Christmas tree glows with golden lights and snow falls softly."
+    },
+    {
+      "beat": "On Christmas morning, {name} finds the missing page tucked beside a present under the tree. Next to {her/his} name is a shining gold star and a note from Santa that says {name} was the kindest helper in town.",
+      "illustration_prompt": "The child in pajamas beside a glowing Christmas tree on Christmas morning, holding a gold-edged page with a big shining star on it, a wrapped present nearby, soft morning light through a frosty window."
+    }
+  ],
+  "cover_scene": "The child in a red scarf and mittens running joyfully down a snowy, lamp-lit town street, reaching for a gold-edged page fluttering just ahead, more pages swirling on the breeze, cozy shops with wreaths and warm windows on either side, a calm deep blue evening sky with soft falling snow filling the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "The bakery window was foggy and warm. And there, stuck to the glass, was a page of Santa's list! Inside, the baker had too many trays. \"I can help!\" said {name}. {She/He} carried box after box, one, two, three. \"Thank you,\" said the baker, and peeled the page free.",
+      "scene": "Inside a warm bakery with steamy windows, the child carefully carrying a stack of ribbon-tied boxes while a smiling baker balances trays of gingerbread, a gold-edged page pressed against the window glass."
+    },
+    {
+      "text": "The sun went down, pink and gold. {name} counted the pages. One, two, three, four. But one page was still missing. It was the page with {her/his} own name. {name} looked under benches and behind trees. The page was gone.",
+      "scene": "The child sitting on a snowy bench at sunset holding a small stack of gold-edged pages, looking thoughtful and a little sad, Dad kneeling beside with a comforting hand, pink and gold sky behind bare trees."
+    }
+  ],
+  "h1": "Personalized Christmas Book for Kids: Santa's Missing List",
+  "meta_title": "Personalized Christmas Book for Kids | StoryBloom",
+  "meta_description": "A personalized Christmas book where your child tracks Santa's lost list through a snowy town, helping neighbors on every page.",
+  "promise": "Your child becomes the helper Santa needs, chasing his runaway list through a twinkly snowy town and discovering how good it feels to help others.",
+  "story_summary": "One week before Christmas, a gust of wind scatters Santa's list all over town, and a gold-edged page lands right at your child's feet. With Dad by their side, your child sets out to find every page before Christmas Eve. The trail leads to a busy bakery, an icy front porch, a snowy park and a cozy library, and at every stop a neighbor needs a hand. But when the sun goes down, your child discovers that one very special page is still missing and has to decide what to do next.",
+  "why_parents": [
+    "The week before Christmas is full of wish lists and excitement about what is coming, and young children are naturally focused on their own hopes. This story gently turns that excitement outward, showing your child that the fun of the season can come from helping the baker, the neighbor, the little friend and the librarian.",
+    "At this age, children are learning that their small actions really count. Seeing themselves carry boxes, sweep steps and find a lost mitten, then choose to send off Santa's list even when their own page is missing, gives them a picture of generosity they can try out in real life during the holidays."
+  ],
+  "for_grownups": [
+    "Ask your child which neighbor they would most like to help, and why. Then pick one small kind thing your family can do for someone nearby this week.",
+    "Talk about the moment the page with their name is missing. Ask how they would feel and what they would choose to do, and share a time you helped someone even when it was hard.",
+    "Make your own helper list together: little jobs your child can do before Christmas, and check them off with a gold star."
+  ],
+  "faqs": [
+    {
+      "question": "Is Santa shown in this book?",
+      "answer": "Santa appears through his list and his notes rather than in person, which keeps the magic gentle and lets your child be the main hero of the story. His thank-you note on Christmas morning is the warm payoff."
+    },
+    {
+      "question": "Is this story right for a 3-year-old as well as a 7-year-old?",
+      "answer": "Yes. The sentences are short and the search for each page gives little ones a simple pattern to follow, while older children will enjoy the suspense of the missing page and the choice your child makes."
+    },
+    {
+      "question": "When is a good time to read it?",
+      "answer": "It works well any time in the weeks before Christmas, and it makes a cozy story for Christmas Eve since the plot leads right up to Christmas morning. Many families like to read it after writing their own letters to Santa."
+    }
+  ],
+  "image_alt": "Personalized Christmas book cover featuring an illustrated child chasing Santa's flying list pages down a snowy town street",
+  "feed_title": "Personalized Christmas Book for Kids, Your Child Helps Santa Find His Missing List",
+  "feed_description": "A personalized Christmas picture book for ages 3 to 7 where your child becomes the hero of a cozy holiday adventure. One week before Christmas, the wind blows Santa's list all over a snowy town. Your child follows the gold-edged pages to a busy bakery, an icy porch, a park with a snowman and a warm library, helping a neighbor at every stop. When one special page turns up missing, your child makes a generous choice that leads to a heartwarming Christmas morning surprise. Soft, festive illustrations in evergreen, cranberry and gold show your child in every scene. A gentle story about kindness and giving that makes a thoughtful gift for the holiday season or a Christmas Eve read-aloud."
+}

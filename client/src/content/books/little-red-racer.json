@@ -1,0 +1,117 @@
+{
+  "slug": "little-red-racer",
+  "status": "live",
+  "title_pattern": "{name} and the Little Red Racer",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized race car book",
+  "landing_page_slug": "books/little-red-racer",
+  "example": {
+    "name": "Diego",
+    "pronouns": "he",
+    "look": "tan skin, thick black hair"
+  },
+  "tagline": "A tiny car, a big race, and a pit crew chief who knows how to keep going.",
+  "lesson_or_purpose": "Finishing what you start, helping others along the way, and being a good teammate matter more than coming in first.",
+  "tone": "Upbeat, zippy and warm, with engine sounds, cheering crowds and a gentle heart at the center.",
+  "reading_level": "Read-aloud for ages 3-5, early independent reading for ages 6-8. Short sentences, playful sound words like vroom and honk, and a few repeated phrases.",
+  "keywords": [
+    "personalized race car book",
+    "race car book for kids",
+    "personalized car book",
+    "pit crew story for kids",
+    "book about not giving up",
+    "sportsmanship book for kids",
+    "personalized book for car lovers",
+    "race car gift for boys and girls"
+  ],
+  "illustration_guide": "Setting: Sunny Hill Speedway, a cheerful countryside racetrack that winds through green hills, sunflower fields, a rocky stretch, a muddy dip and a big finish arch made of balloons. Little Red Racer is a small, rounded, bright red race car with big friendly headlight eyes, a smiling front grille and a white stripe down the hood, with no numbers or lettering. The child wears a simple crew outfit: a red cap and a small tool belt. Other cars are big, shiny and colorful (orange, green, purple), plus a sturdy blue farm truck. Palette: cherry red, sunflower yellow, grass green and sky blue, with warm golden light. Recurring elements: the child's toolbox, a polishing rag, a thumbs-up signal between the child and the car, and checkered flags drawn as patterns only, with no words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "At the edge of Sunny Hill Speedway, {name} hears a small, sad honk and finds Little Red Racer, the smallest car on the track. Racer dreams of driving in the Big Hill Race, but every racer needs a pit crew, and Racer has none. {name} tells Racer {she/he} would like to help.",
+      "illustration_prompt": "The child kneels beside a small, round red race car with big headlight eyes at the edge of a sunny countryside racetrack, green hills and sunflower fields behind them, big shiny cars parked in the distance."
+    },
+    {
+      "beat": "{name} becomes the crew chief. {She/He} gathers everything a pit crew needs: a toolbox, a wrench, a spare tire, a water can and a soft rag to make Racer shine.",
+      "illustration_prompt": "The child in a red cap and tool belt proudly carries a toolbox and spare tire toward the little red car, who sparkles after being polished, a garage area with tools hanging neatly in the background."
+    },
+    {
+      "beat": "Practice day! {name} watches Racer zoom around the track and teaches a trick for the twisty bend: slow down going in, speed up coming out. {name} and Racer invent a secret thumbs-up signal that means 'You've got this.'",
+      "illustration_prompt": "The little red car leans into a curvy bend of the racetrack while the child stands by the fence giving a big thumbs-up, dust puffs and motion lines behind the car."
+    },
+    {
+      "beat": "On race day, the big cars rumble and roar, and Racer feels very small. {name} pats Racer's hood, gives the thumbs-up signal and reminds Racer of all their practice.",
+      "illustration_prompt": "At a starting line marked with a checkered pattern, the little red car sits nervously between huge shiny orange, green and purple race cars, while the child pats its hood with a gentle smile and crowds cheer in colorful stands."
+    },
+    {
+      "beat": "The flag waves and the race begins! Racer zips past sunflowers and takes the twisty bend just the way {name} taught. From the pit area, {name} jumps and cheers.",
+      "illustration_prompt": "The little red car races happily through a curve beside sunflower fields, passing a big green car, while the child jumps with both arms raised in the pit area nearby."
+    },
+    {
+      "beat": "Bump, thump, hiss! On the rocky stretch, Racer gets a flat tire and rolls to a stop. The big cars whoosh by, and Racer whispers that maybe it is time to quit. {name} grabs the toolbox and runs.",
+      "illustration_prompt": "The little red car sits tilted on a rocky part of the track with one flat tire and a worried face, other cars speeding past, while the child runs toward it carrying a toolbox and spare tire."
+    },
+    {
+      "beat": "{name} works fast and careful: off with the flat, on with the spare, twist, twist, twist with the wrench. Racer is ready to roll again, but says sadly that they cannot win now. {name} answers that they started this race together, and they can finish it together.",
+      "illustration_prompt": "The child kneels beside the little red car, tightening a new tire with a wrench, tongue poking out in concentration, while the car watches with hopeful eyes."
+    },
+    {
+      "beat": "Racer rolls on, and near the muddy dip they find a big blue farm truck stuck and spinning its wheels. {name} has a choice to make, and {she/he} decides they should stop and help. Together {name} and Racer push and pull until the truck pops free.",
+      "illustration_prompt": "In a muddy dip on the track, the child and the little red car work together to help a sturdy blue farm truck out of the mud, splashes flying, everyone smiling with effort."
+    },
+    {
+      "beat": "With the blue truck rumbling behind, Racer climbs the last big hill. {name} runs alongside the fence giving the thumbs-up signal, and Racer gives a happy honk-honk back.",
+      "illustration_prompt": "The little red car climbs a grassy hill with the blue truck following, the child running alongside a white fence with a thumbs-up, the balloon finish arch visible at the top of the hill."
+    },
+    {
+      "beat": "Racer crosses the finish line last, and the crowd gives the biggest cheer of the day. The other cars honk for the little car that never gave up and stopped to help a friend. Racer tells {name} it was the best race ever, because {she/he} was the best pit crew a car could have.",
+      "illustration_prompt": "Under a colorful balloon finish arch, the child hugs the little red car's hood while the crowd cheers, confetti falls and the big cars and blue truck gather around honking happily in golden evening light."
+    }
+  ],
+  "cover_scene": "The child stands proudly beside the little red race car on a winding countryside racetrack, wearing a red cap and tool belt and giving a big thumbs-up, the car smiling with bright headlight eyes. Sunflower fields and rolling green hills stretch behind them, with a balloon finish arch small in the distance. The top third of the picture is calm, open blue sky with a few soft clouds for the title.",
+  "sample_pages": [
+    {
+      "text": "{name} was the crew chief now! {She/He} packed a toolbox, a wrench, a spare tire and a soft rag. Rub, rub, rub! Little Red Racer sparkled. \"Ready, Racer?\" asked {name}. \"Ready!\" honked Racer.",
+      "scene": "The child in a red cap and tool belt polishes the little red race car with a soft rag until it sparkles, a toolbox and spare tire on the ground nearby, a cozy garage with neatly hung tools behind them."
+    },
+    {
+      "text": "Bump! Thump! Hisssss! Racer's tire went flat. The big cars went whoosh, whoosh, whoosh. \"Maybe I should stop,\" whispered Racer. But {name} grabbed the toolbox and ran as fast as {she/he} could.",
+      "scene": "On a rocky stretch of the racetrack, the little red car sits tilted with a flat tire and a worried face as big colorful cars speed past, while the child races toward it holding a toolbox and spare tire."
+    }
+  ],
+  "h1": "Personalized Race Car Book: Your Child Leads the Pit Crew for Little Red Racer",
+  "meta_title": "Personalized Race Car Book for Kids | StoryBloom",
+  "meta_description": "A personalized race car book where your child leads a little red car's pit crew and learns why finishing the race matters. Ages 3-8.",
+  "promise": "Your child becomes crew chief for the smallest car at the speedway and helps it finish the race with heart.",
+  "story_summary": "At Sunny Hill Speedway, your child meets Little Red Racer, a tiny car with a giant dream and no pit crew. Your child steps up as crew chief, polishing, practicing and inventing a secret thumbs-up signal for race day. When the big cars roar off the starting line, Racer zooms with everything it has, until a flat tire on the rocky stretch changes the whole race. Now your child has to decide what a good crew chief does when winning is no longer the point.",
+  "why_parents": [
+    "Between ages 3 and 8, kids are discovering competition for the first time, in races at the park, board games and team sports. Losing can feel enormous. This story gives them a hero who finishes last and still gets the biggest cheer, which opens up a different idea of what a good race looks like.",
+    "It also puts your child in the role of helper and teammate rather than just a fan. Fixing the tire, encouraging a friend who wants to quit and stopping to help a stuck truck are all choices your child makes in the story, and they are the same small choices kids face on the playground every day."
+  ],
+  "for_grownups": [
+    "After reading, ask: why do you think the crowd cheered so loudly for Racer, even though Racer came in last?",
+    "Talk about a time your child wanted to quit something, like a puzzle, a bike ride or a game. What helped them keep going, or what might help next time?",
+    "Make up your own family thumbs-up signal that means 'You've got this' and use it before tricky moments like a first practice or a new class."
+  ],
+  "faqs": [
+    {
+      "question": "Does Little Red Racer win the race?",
+      "answer": "Not in the usual way. The story is about finishing, being a good teammate and helping others, and the ending celebrates those things in a way kids find very satisfying."
+    },
+    {
+      "question": "Is this book only for kids who love cars?",
+      "answer": "Car fans will enjoy the engine sounds and racetrack, but the heart of the story is about not giving up and being kind, so it works for any child who has ever felt small or wanted to quit."
+    },
+    {
+      "question": "Is the race scary for younger children?",
+      "answer": "No. The flat tire and the stuck truck are gentle bumps in the road, nobody gets hurt, and every problem is solved with teamwork and a happy ending."
+    }
+  ],
+  "image_alt": "Personalized race car book cover featuring an illustrated child as pit crew chief beside a little red race car on a sunny racetrack",
+  "feed_title": "Personalized Race Car Book for Kids Ages 3-8, Your Child Leads the Pit Crew",
+  "feed_description": "A personalized picture book where your child becomes crew chief for Little Red Racer, the smallest car at Sunny Hill Speedway. Together they polish, practice the twisty bend and invent a secret thumbs-up signal for race day. When a flat tire leaves Racer far behind and ready to quit, your child grabs the toolbox, fixes the tire and makes a choice about what really matters in a race. Along the way they stop to help a big blue farm truck stuck in the mud. A cheerful, fast-moving story about finishing what you start, being a good teammate and kindness on the road, with bright countryside illustrations and fun sound words for reading aloud. Made for kids ages 3 to 8."
+}

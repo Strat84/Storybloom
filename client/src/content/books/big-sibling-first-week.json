@@ -1,0 +1,117 @@
+{
+  "slug": "big-sibling-first-week",
+  "status": "live",
+  "title_pattern": "{name}'s First Week as a Big {Sister/Brother}",
+  "category": "new-baby",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "big sister book personalized",
+  "landing_page_slug": "books/big-sibling-first-week",
+  "example": {
+    "name": "Elijah",
+    "pronouns": "he",
+    "look": "dark brown skin, short black curls, round glasses"
+  },
+  "tagline": "Seven days, seven new jobs, and one big heart learning to make room.",
+  "lesson_or_purpose": "Helps a young child understand that big, mixed feelings about a new baby are normal and can be said out loud, that the child has a real and helpful place in the family, and that the child is still loved just as much as before.",
+  "tone": "Gentle, warm and honest, with a soft daily rhythm and a cozy, reassuring ending.",
+  "reading_level": "Read-aloud for ages 2-6. Short sentences, a repeating day-by-day pattern, and one simple feeling word per page.",
+  "keywords": [
+    "big sister book personalized",
+    "personalized big brother book",
+    "new baby book for siblings",
+    "becoming a big sister",
+    "first week with new baby",
+    "sibling feelings book",
+    "new sibling gift",
+    "big sister gift for toddler"
+  ],
+  "illustration_guide": "Setting: a cozy, lived-in family home across seven days: front door, living room with a soft rug, nursery with a crib, kitchen, and the child's own bedroom. Palette: warm creams, soft peach, sage green and dusty blue, with golden window light that shifts from morning to evening. Recurring elements on every page: the child's small, well-loved stuffed rabbit; the newborn wrapped in a pale yellow blanket; and a row of seven round paper circles on the fridge or wall, with one more colored in each day (no numbers or writing). Mom and Dad appear as kind, tired, loving grown-ups. Expressions are clear and readable so young children can name the feeling on each page. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Day one. Mom and Dad come home carrying the new baby, and {name} holds the front door wide open, the first big job. {She/He} peeks into the blanket and feels curious about the tiny, wrinkly baby.",
+      "illustration_prompt": "The child holding the front door open with both hands as Mom and Dad step in carrying a newborn in a pale yellow blanket, the child on tiptoe peeking at the baby with wide curious eyes, stuffed rabbit tucked under one arm, warm afternoon light."
+    },
+    {
+      "beat": "Day two. Dad asks for help, and {name} fetches a clean diaper and the soft wipes, running fast and careful. {name} feels proud to be needed.",
+      "illustration_prompt": "The child walking carefully across the nursery holding a folded diaper and a pack of wipes up high, Dad at the changing table smiling over his shoulder, the baby kicking tiny feet, one more paper circle colored on the wall."
+    },
+    {
+      "beat": "Day three. The baby cries and cries, so loud that {name} covers {her/his} ears. {name} feels grumpy and says so, and Mom nods and says that is a real feeling.",
+      "illustration_prompt": "The child sitting on the rug with hands over ears and a scrunched, grumpy face, stuffed rabbit on the floor, Mom on the sofa rocking the crying baby and looking kindly toward the child."
+    },
+    {
+      "beat": "Day four. Visitors come to see the baby and bring baby presents, and nobody seems to notice {name}. {She/He} sits alone on the stairs and feels left out.",
+      "illustration_prompt": "The child sitting alone on the bottom stair hugging the stuffed rabbit, looking at a group of smiling grown-ups crowded around the baby in the living room, soft muted light on the child's side of the picture."
+    },
+    {
+      "beat": "Day five. {name} feels sad and misses how things used to be. {She/He} makes a brave choice, climbs into Mom's lap, and says the honest words: I miss you.",
+      "illustration_prompt": "The child climbing into Mom's lap on a big armchair while the baby sleeps in a bassinet nearby, Mom wrapping both arms around the child, the child's face tearful but relieved."
+    },
+    {
+      "beat": "Day six. The baby is fussy, and Mom and Dad are too tired to calm the crying. {name} has an idea and tries {her/his} own plan: making silly faces and humming a little made-up tune.",
+      "illustration_prompt": "The child leaning close to the bassinet making a big silly face with puffed cheeks, Mom and Dad slumped tiredly on the sofa behind, the baby mid-cry, evening light through the window."
+    },
+    {
+      "beat": "Day six, a moment later. The baby stops crying and stares up at {name}, then gives a tiny sleepy sigh. {name} feels surprised and proud, and Dad says only a big {sister/brother} could have done that.",
+      "illustration_prompt": "The child standing beside the bassinet with a delighted, surprised face, the baby calm and gazing up at the child, Mom and Dad sitting up with amazed, grateful smiles."
+    },
+    {
+      "beat": "Day seven. In the morning {name} feels two things at once: loving the baby and wanting a turn for {herself/himself}. {She/He} tells Dad both feelings, and Dad says both are allowed.",
+      "illustration_prompt": "The child at the kitchen table in pajamas holding the stuffed rabbit, Dad kneeling to eye level and listening, the baby asleep in a carrier on the counter, seven paper circles nearly all colored on the fridge."
+    },
+    {
+      "beat": "Day seven, evening. The baby is asleep, and Mom and Dad build a blanket fort just for {name}, with a flashlight, a favorite book and no baby jobs at all.",
+      "illustration_prompt": "A glowing blanket fort in the child's bedroom made of quilts and chairs, the child crawling inside with the stuffed rabbit, Mom and Dad holding a flashlight and a picture book, soft dusk light outside the window."
+    },
+    {
+      "beat": "Inside the fort, Mom and Dad whisper that {name} is still their very first sweetheart, always. {name} snuggles in, then chooses to tiptoe out and whisper goodnight to the baby, a big {sister/brother} all the way.",
+      "illustration_prompt": "The child tiptoeing beside the crib in the dim nursery, gently waving goodnight to the sleeping baby, Mom and Dad watching from the doorway with warm smiles, all seven paper circles colored on the wall behind."
+    }
+  ],
+  "cover_scene": "The child sitting on a soft rug in a cozy, sunlit living room, gently holding the newborn in a pale yellow blanket with Mom's hand nearby for support, the child's stuffed rabbit leaning against one knee and a proud, tender smile on the child's face. Warm cream and peach tones, with a calm open wall and soft window light filling the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Day three. WAAAH! The baby cries and cries. {name} covers {her/his} ears. \"I feel grumpy!\" Mom nods. \"That is a real feeling, {name}.\"",
+      "scene": "The child sitting on the rug with hands over ears and a scrunched, grumpy face, stuffed rabbit on the floor, Mom on the sofa rocking the crying baby and looking kindly toward the child."
+    },
+    {
+      "text": "Day five. {name} feels sad inside. {She/He} climbs up into Mom's lap. \"I miss you,\" {she/he} whispers. Mom hugs tight. \"I miss you too. I am right here.\"",
+      "scene": "The child climbing into Mom's lap on a big armchair while the baby sleeps in a bassinet nearby, Mom wrapping both arms around the child, the child's face tearful but relieved."
+    }
+  ],
+  "h1": "Personalized Big Sister Book: Your Child's First Week Home with the New Baby",
+  "meta_title": "Personalized Big Sister Book: First Week | StoryBloom",
+  "meta_description": "A personalized big sister book that follows your child through the first week home with a new baby: a new job and an honest feeling each day.",
+  "promise": "Your child becomes the big sister or big brother who holds the door, calms the crying baby, and learns that every feeling is allowed.",
+  "story_summary": "The new baby is home, and your child is a big sister or big brother now. Day by day, your child takes on a real job, from holding the front door to fetching diapers, and meets a new feeling along the way: curious, proud, grumpy, left out, sad. When the baby will not stop crying and the grown-ups are worn out, your child tries a plan of their own. And at the end of the week, something quiet is waiting just for your child.",
+  "why_parents": [
+    "The first days with a new baby can turn a small child's world upside down. Routines shift, visitors fuss over someone else, and feelings like jealousy or sadness show up even in children who were excited for months. This book gives those feelings a name, one per day, so your child can see them on the page and know they are ordinary.",
+    "Young children also want to matter. Each day in this story gives your child a real job and a real part in caring for the baby, and the ending makes room for one-on-one time with Mom and Dad. It is a gentle way to say what you hope your child hears this week: you are needed, and you are still loved just as much."
+  ],
+  "for_grownups": [
+    "After each day's page, ask your child to point to the face that shows the feeling, then ask, \"Have you ever felt like that?\" There is no wrong answer.",
+    "When your child says something hard, like \"I miss you,\" try reflecting it back the way the parents in the book do: \"That is a real feeling, and I am right here.\"",
+    "Consider making your own row of seven paper circles at home and coloring one in each day, along with a small job your child chose to help with."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book for big brothers too?",
+      "answer": "Yes. The story is written so it works for either a big sister or a big brother, and the words on every page match your child."
+    },
+    {
+      "question": "Should we read it before the baby arrives or after?",
+      "answer": "Both work. Read before the birth, it previews what the first week may feel like; read during the first weeks home, it helps your child name feelings as they come up."
+    },
+    {
+      "question": "Does the book show the older child being jealous or sad?",
+      "answer": "Yes, gently. Your child feels grumpy, left out and sad on different days, says those feelings out loud, and is met with hugs and calm words from Mom and Dad, never scolding."
+    }
+  ],
+  "image_alt": "Personalized big sister book cover featuring an illustrated child as the hero gently holding a newborn baby in a cozy living room",
+  "feed_title": "Personalized Big Sister Book for Kids, First Week Home with a New Baby, Your Child Is the Hero",
+  "feed_description": "A personalized picture book for a new big sister or big brother, ages 2 to 6. Your child is the illustrated hero of a story that follows the first seven days home with a new baby. Each day brings one new job, like holding the door or fetching a diaper, and one honest feeling, like proud, grumpy, left out or sad. When the baby will not stop crying and Mom and Dad are tired, your child comes up with a plan to help. The week ends with a quiet, cozy moment made just for the older child. Short read-aloud sentences, warm illustrations and a gentle day-by-day rhythm make it a thoughtful new sibling gift for the weeks around a birth."
+}

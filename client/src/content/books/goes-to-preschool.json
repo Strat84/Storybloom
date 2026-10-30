@@ -1,0 +1,117 @@
+{
+  "slug": "goes-to-preschool",
+  "status": "live",
+  "title_pattern": "{name} Goes to Preschool",
+  "category": "milestones",
+  "age_range": "2-4",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": "Jul-Sep",
+  "sensitive": false,
+  "main_keyword": "starting preschool book personalized",
+  "landing_page_slug": "books/goes-to-preschool",
+  "example": {
+    "name": "Hana",
+    "pronouns": "she",
+    "look": "light tan skin, straight black hair with bangs"
+  },
+  "tagline": "A gentle first goodbye, a brave little wave, and a grown-up who always comes back.",
+  "lesson_or_purpose": "Helps toddlers and preschoolers rehearse a first drop-off: big feelings are okay, a goodbye routine can help, and grown-ups always come back.",
+  "tone": "Gentle, cozy, reassuring, with soft rhythm and simple repetition",
+  "reading_level": "Ages 2-4: very short lines, repeated phrases, read-aloud rhythm",
+  "keywords": [
+    "starting preschool book personalized",
+    "first day of preschool book",
+    "preschool separation anxiety book",
+    "toddler drop-off book",
+    "personalized preschool book",
+    "back to school book for toddlers",
+    "grown-ups come back book",
+    "first day of school gift for toddler"
+  ],
+  "illustration_guide": "Setting: a small, cozy preschool classroom with low wooden shelves, a cubby wall, a rug for circle time, a block corner, an easel, and a big window by the front door. Opening pages show the child's sunny home and a short walk to a preschool with a round-topped door. Palette: warm butter yellow, soft sage green, peach, sky blue and cream, with rounded shapes and gentle light. Recurring elements: the child's small backpack with a star patch, the child's cubby with a little star, the big window where goodbyes and hellos happen, a friendly teacher with a cardigan, and another small child in a striped shirt who becomes a friend. The child's grown-up appears at the start and end only. Faces are expressive but never frightening; tears are small and soft. No words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Morning at home. {name} wakes up and learns today is preschool day. Use a rhythmic, repeating line as {name} gets ready: shoes on, coat on, backpack on.",
+      "illustration_prompt": "A sunny bedroom morning; the child sits on the floor pulling on small shoes, a little backpack with a star patch waiting nearby, warm golden light through the curtains."
+    },
+    {
+      "beat": "{name} and {her/his} grown-up walk to preschool hand in hand. {name} sees the round door and feels a wobbly, fluttery tummy, and holds the grown-up's hand extra tight.",
+      "illustration_prompt": "The child and a grown-up walking hand in hand along a leafy path toward a small preschool with a round-topped door; the child looks up at the building, slightly unsure."
+    },
+    {
+      "beat": "Inside, a kind teacher says hello. {name} finds a cubby with a little star just for {her/him}, and sees blocks, paints and a cozy rug. So many new things.",
+      "illustration_prompt": "A bright, cozy classroom; a smiling teacher in a cardigan kneels to greet the child, who peeks out from beside the grown-up's leg toward a cubby wall with a star on one cubby."
+    },
+    {
+      "beat": "Goodbye time comes, and {name} does not want to let go. The grown-up kneels down and teaches {name} a special goodbye: squeeze, squeeze, boop on the nose, and the words 'I always come back.'",
+      "illustration_prompt": "The grown-up kneeling at eye level, gently booping the child's nose, the child holding both of the grown-up's hands, near the classroom door."
+    },
+    {
+      "beat": "{name} chooses to be brave. {She/He} does the squeeze, squeeze, boop, then runs to the big window to wave. A small tear comes, and that is okay. {name} waves anyway.",
+      "illustration_prompt": "The child standing at a big low window, one hand waving, one small tear on a cheek, the grown-up visible outside waving back with a warm smile."
+    },
+    {
+      "beat": "{name} looks around the room and decides to try one thing. {She/He} picks up a block, then another, and builds a tall tower. Repeat the rhythm: one block, two blocks, up, up, up.",
+      "illustration_prompt": "The child kneeling on the rug in the block corner, carefully stacking a tall colorful tower, concentrating with a small proud smile."
+    },
+    {
+      "beat": "The door opens and a new child in a striped shirt arrives, crying and holding on tight to a parent. {name} notices and remembers how {her/his} own tummy felt this morning.",
+      "illustration_prompt": "Near the classroom door, a small child in a striped shirt clings to a parent's leg with a sad face; across the room, the child looks over from the block tower with a thoughtful expression."
+    },
+    {
+      "beat": "{name} walks over and shows the new friend the special goodbye: squeeze, squeeze, boop. {name} says, 'Grown-ups come back.' The new friend tries it, waves at the window, then joins {name} to build.",
+      "illustration_prompt": "The child gently squeezing the hands of the child in the striped shirt, both smiling a little; behind them the block tower and the big window with soft light."
+    },
+    {
+      "beat": "The preschool day rolls on in a happy rhythm: snack time, song time, story time on the rug. {name} sits beside {her/his} new friend and sings along.",
+      "illustration_prompt": "Children sitting in a cozy circle on a round rug with the teacher holding up a picture book; the child and the friend in the striped shirt sit side by side, smiling and clapping."
+    },
+    {
+      "beat": "Pickup time. The door opens and there is {name}'s grown-up, just like promised. {name} runs for a big hug and shares the whole day: blocks, a new friend, the special goodbye. Close with 'Grown-ups always come back' and a happy wave goodbye to preschool until next time.",
+      "illustration_prompt": "The child running into the arms of the grown-up at the round door in warm afternoon light, the friend in the striped shirt waving in the background, the teacher smiling."
+    }
+  ],
+  "cover_scene": "The child stands in front of a small, friendly preschool with a round-topped door, wearing a little backpack with a star patch, smiling and waving one hand. Soft sage and butter-yellow tones, a few leafy trees on either side, a winding path at the child's feet. The top third of the picture is calm, open pale-blue sky with a couple of soft clouds, left clear for the title.",
+  "sample_pages": [
+    {
+      "text": "Time to say goodbye. {name} holds on tight. Squeeze, squeeze, boop! \"I always come back,\" says {her/his} grown-up.",
+      "scene": "The grown-up kneeling at eye level by the classroom door, gently booping the child's nose while the child holds both of the grown-up's hands, soft morning light from the big window."
+    },
+    {
+      "text": "A new friend is sad. {name} knows that feeling. Squeeze, squeeze, boop! \"Grown-ups come back,\" says {name}.",
+      "scene": "The child gently holding the hands of a small child in a striped shirt near the classroom door, both beginning to smile, a colorful block tower on the rug behind them."
+    }
+  ],
+  "h1": "Personalized Starting Preschool Book: Your Child's Brave First Drop-Off",
+  "meta_title": "Personalized Starting Preschool Book | StoryBloom",
+  "meta_description": "A personalized starting preschool book for ages 2-4. Your child braves a first drop-off and learns that grown-ups always come back.",
+  "promise": "A soft, rhythmic story that walks your child through a first preschool morning, from wobbly tummy to brave wave, and ends with the hug that proves grown-ups always come back.",
+  "story_summary": "It is preschool day, and your child is getting ready: shoes on, coat on, backpack on. At the round blue-sky door, a wobbly tummy and a tight hand-hold give way to a kind teacher, a cubby with a star, and a room full of blocks. When goodbye time comes, your child learns a special goodbye routine and decides to give it a try. Later, a new classmate arrives in tears, and your child knows exactly how that feels.",
+  "why_parents": [
+    "Between two and four, children are just beginning to understand that people still exist and still care about them when they are out of sight. A first drop-off can feel enormous at this age, even for a child who is excited about blocks and paint. Hearing a story where the feelings are named, a small tear is fine, and the grown-up really does return gives your child a picture to hold onto before the day arrives.",
+    "This book also gives your child a job. Instead of only being comforted, your child uses the goodbye routine, chooses something to play with, and then helps a new friend through the same moment. That small turn from worried to helpful is a kind thing to see yourself do, and it can make the real classroom door feel a little more familiar."
+  ],
+  "for_grownups": [
+    "Practice the squeeze, squeeze, boop goodbye at home for a few days before preschool starts, then use the same routine at real drop-off so it feels familiar.",
+    "Ask your child, 'How did the new friend feel? What helped?' to give words to worried feelings and to the ways we can help each other.",
+    "Keep goodbyes short and warm, and tell your child when you will be back in terms they understand, like 'after snack and story time.'"
+  ],
+  "faqs": [
+    {
+      "question": "Does the story show the child feeling sad or crying?",
+      "answer": "Yes, gently. At the window goodbye your child has one small tear, and the story says that is okay before your child waves and goes to play."
+    },
+    {
+      "question": "Who drops the child off in the story?",
+      "answer": "The story uses the word 'grown-up,' so it fits whoever does drop-off in your family, whether that is a mom, a dad or a grandparent. The same grown-up returns at pickup."
+    },
+    {
+      "question": "When is a good time to start reading it?",
+      "answer": "Many families read it in the weeks before preschool begins so the routine and the classroom feel familiar. It also works well during the first weeks, when goodbyes can still feel wobbly."
+    }
+  ],
+  "image_alt": "Personalized starting preschool book cover featuring an illustrated child with a backpack waving in front of a cozy preschool",
+  "feed_title": "Personalized Starting Preschool Book for Toddlers, Your Child Is the Hero of the First Day",
+  "feed_description": "A personalized picture book for ages 2 to 4 about the first day of preschool. Your child is the illustrated hero who gets ready with a rhythmic morning routine, walks to a cozy preschool, meets a kind teacher and finds a cubby with a star. At goodbye time, your child learns a special goodbye of squeeze, squeeze, boop and the words I always come back, then bravely waves from the window. Later your child helps a crying new classmate with the same routine and makes a friend. Short, repeating lines suit toddlers, and the gentle ending shows that grown-ups always come back. A thoughtful gift for the start of preschool or daycare."
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "everyday-superhero",
+  "status": "live",
+  "title_pattern": "{name}, the Everyday Superhero",
+  "category": "adventures",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized superhero book",
+  "landing_page_slug": "books/everyday-superhero",
+  "example": {
+    "name": "Arjun",
+    "pronouns": "he",
+    "look": "medium brown skin, neat black hair"
+  },
+  "tagline": "No flying required. Just noticing, listening and helping.",
+  "lesson_or_purpose": "Real heroism is made of small, everyday actions: paying attention, listening carefully and helping others, and these powers belong to the child whether or not a cape is on.",
+  "tone": "Playful, warm and gently suspenseful, with comic-book energy that settles into a cozy ending.",
+  "reading_level": "Read-aloud for ages 3-5, with short sentences and simple words that newer readers ages 6-8 can try on their own.",
+  "keywords": [
+    "personalized superhero book",
+    "superhero book for kids",
+    "personalized book about helping others",
+    "kids kindness book",
+    "everyday hero picture book",
+    "personalized cape story",
+    "superhero gift for kids",
+    "book about being helpful"
+  ],
+  "illustration_guide": "A bright, friendly neighborhood: a cozy family home with a laundry room, a sunny backyard, a tree-lined street and a city park with a curly slide, benches and a duck pond. Palette of cherry red, sunshine yellow, sky blue and leafy green, with soft cream backgrounds. The child wears a simple red cape with a yellow star patch on the corner on every page from beat 1 through beat 9. Small comic-book touches appear around the child's powers: gentle sparkle lines when noticing, soft ripple circles when listening, little glowing hearts when helping. A man in a bright yellow hat appears in the background of the park scenes. No lettering, sound-effect words or signs anywhere.",
+  "page_outline": [
+    {
+      "beat": "On laundry day, {name} digs through the warm basket and pulls out a soft red cape with a yellow star on the corner. Mom smiles and says it must be from the old dress-up box. {name} ties it on and stands tall, wondering what powers a cape like this might bring.",
+      "illustration_prompt": "A sunny laundry room with a wicker basket of tumbled clothes. The child holds up a red cape with a yellow star patch, eyes wide with delight, while Mom folds towels nearby and smiles."
+    },
+    {
+      "beat": "{name} tests {her/his} first power: Super Noticing. Grandma is searching everywhere for her glasses, and {name} looks closely and spots them perched right on top of Grandma's head. They both laugh.",
+      "illustration_prompt": "A cozy living room. Grandma looks under a cushion, puzzled, with glasses resting on top of her head. The child in the red cape points up at them, gentle sparkle lines around the child's eyes."
+    },
+    {
+      "beat": "Next comes Super Listening. In the backyard, {name} hears tiny chirps and follows the sound to an empty birdbath. {name} fills it with the watering can, and the little birds splash happily.",
+      "illustration_prompt": "A green backyard. The child in the red cape tips a watering can into a stone birdbath while three small birds wait on the rim. Soft ripple circles float near the child's ear."
+    },
+    {
+      "beat": "Then {name} tries Super Helping. The neighbor, Mrs. Alvarez, has too many grocery bags, so {name} carries the bread and the oranges right to her door. Mrs. Alvarez calls {name} a true helper.",
+      "illustration_prompt": "A tree-lined sidewalk. The child in the red cape carries a small paper bag with bread and oranges, walking beside an older neighbor holding larger bags. Little glowing hearts float above them."
+    },
+    {
+      "beat": "In the afternoon, Mom takes {name} to the park. Using Super Noticing, {name} spots all kinds of things: a red kite, a dog in a raincoat, and a man in a bright yellow hat feeding the ducks. {name} tucks each one away in {her/his} memory.",
+      "illustration_prompt": "A lively city park with a curly slide, a duck pond and benches. The child in the red cape walks with Mom, looking around happily. A red kite flies, a small dog wears a raincoat, and a man in a bright yellow hat feeds ducks by the pond."
+    },
+    {
+      "beat": "Near the slide, {name} hears crying. A little boy named Theo is standing all alone, holding a blue balloon, and he cannot find his dad. This is a real problem, and {name} knows it needs a real hero.",
+      "illustration_prompt": "Beside the curly slide, a small boy with a blue balloon cries with his hands near his face. The child in the red cape stops and looks at him with a concerned, caring expression, Mom close behind."
+    },
+    {
+      "beat": "{name} feels nervous. The cape cannot make {her/him} fly. But {name} remembers Super Listening, holds Mom's hand, kneels down, and asks Theo what his dad looks like. Theo sniffles that his dad wears a yellow hat.",
+      "illustration_prompt": "The child in the red cape kneels at eye level with the small boy, holding Mom's hand. Mom crouches beside them. Soft ripple circles float around the child as the child listens carefully."
+    },
+    {
+      "beat": "A yellow hat! {name} uses Super Noticing and remembers the ducks. With Mom holding {her/him} steady on a bench, {name} looks across the park and spots the bright yellow hat by the pond.",
+      "illustration_prompt": "The child in the red cape stands on a park bench with Mom's hands steadying the child, pointing far across the park. In the distance, a bright yellow hat is visible beside the duck pond. Sparkle lines glow around the child's pointing hand."
+    },
+    {
+      "beat": "Now for Super Helping. {name}, Mom and Theo walk together to the pond, and Theo runs into his dad's arms. Theo's dad thanks {name} for listening, noticing and staying with his son.",
+      "illustration_prompt": "By the duck pond, the man in the yellow hat kneels and hugs the small boy, whose blue balloon floats above them. The child in the red cape stands beside Mom, beaming. Little glowing hearts float in the air."
+    },
+    {
+      "beat": "At home, {name} folds the cape and places it back on the laundry basket. Mom says the powers were never in the cape. {name} smiles, because {she/he} knows {her/his} noticing eyes, listening ears and helping hands will be ready tomorrow.",
+      "illustration_prompt": "A warm bedroom at dusk. The child in pajamas places the folded red cape on top of the laundry basket, smiling. Mom sits on the bed nearby. Through the window, the sky glows soft orange and purple."
+    }
+  ],
+  "cover_scene": "The child stands proudly on a grassy hill at the edge of a sunny park, hands on hips, red cape with a yellow star patch fluttering in the breeze. Below, a curly slide, a duck pond and tiny birds suggest the day's adventures, with little sparkles and floating hearts around the child. The top third of the picture is calm, open sky blue with a few soft clouds, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Grandma looked under the cushions. Grandma looked under the rug. \"Where are my glasses?\" she sighed. {name} looked closely. Super Noticing! \"Grandma,\" said {name}, \"they're on your head!\"",
+      "scene": "A cozy living room. Grandma looks under a sofa cushion, puzzled, with her glasses resting on top of her head. The child in a red cape with a yellow star patch points up at them, gentle sparkle lines around the child's eyes."
+    },
+    {
+      "text": "{name}'s tummy felt wobbly. The cape could not fly. But {name} could listen. {She/He} held Mom's hand and knelt down low. \"What does your dad look like?\" Theo sniffled. \"He has a yellow hat.\"",
+      "scene": "Beside a curly park slide, the child in a red cape kneels at eye level with a small boy holding a blue balloon, while holding Mom's hand. Mom crouches beside them. Soft ripple circles float around the child as the child listens."
+    }
+  ],
+  "h1": "Personalized Superhero Book: Your Child Becomes the Everyday Hero",
+  "meta_title": "Personalized Superhero Book: Everyday Hero | StoryBloom",
+  "meta_description": "A personalized superhero book where your child finds a cape and uses noticing, listening and helping to solve a real problem at the park.",
+  "promise": "Your child pulls a red cape out of the laundry and discovers that the best superpowers are the ones they already have.",
+  "story_summary": "On laundry day, your child finds a red cape with a yellow star tucked in the basket and decides to test its powers. Super Noticing finds Grandma's missing glasses, Super Listening leads to some thirsty birds, and Super Helping gets a neighbor's groceries home. Then, at the park, your child hears a little boy crying because he can't find his dad. With no way to fly, your child has to figure out which powers will help when it really counts.",
+  "why_parents": [
+    "Young children adore superheroes, but the powers in most stories are things they can never actually do. This book keeps all the fun of the cape while showing that paying attention, listening and pitching in are real abilities your child can use today, at home and on the playground.",
+    "The park scene also gives you a gentle way to talk about what to do when someone is lost or upset. Your child stays with Mom the whole time, asks a kind question and uses what they noticed earlier, which models helping while keeping a trusted grown-up close."
+  ],
+  "for_grownups": [
+    "After reading, play a round of Super Noticing on your next walk: take turns spotting one small detail each, like a red door or a dog in a sweater.",
+    "Ask your child, \"Who could use a helper in our house today?\" and let them choose one small job to do with their pretend cape on or off.",
+    "Use Theo's moment to practice a simple plan: if your child ever gets separated from you, what should they do and which grown-ups can they ask for help?"
+  ],
+  "faqs": [
+    {
+      "question": "Is this based on a famous superhero?",
+      "answer": "No. The hero is your child, wearing a simple red cape with a yellow star, and every power in the story is an everyday skill like noticing, listening and helping."
+    },
+    {
+      "question": "Is the lost-child part of the story scary?",
+      "answer": "It's gentle. Theo is only briefly upset, your child holds Mom's hand the whole time, and the scene moves quickly to a happy reunion by the duck pond."
+    },
+    {
+      "question": "Will it work for both a 3-year-old and an 8-year-old?",
+      "answer": "Yes. Younger listeners enjoy the cape, the funny glasses moment and the repeated power names, while older kids can read the short sentences themselves and follow the clues to the yellow hat."
+    }
+  ],
+  "image_alt": "Personalized superhero book cover featuring an illustrated child in a red cape as the hero on a sunny park hill",
+  "feed_title": "Personalized Superhero Book for Kids, Your Child Is the Everyday Hero in a Red Cape",
+  "feed_description": "A personalized superhero picture book for ages 3 to 8 that stars your child. On laundry day, your child finds a red cape with a yellow star and spends the day testing everyday powers. Super Noticing finds Grandma's missing glasses, Super Listening leads to thirsty birds in the backyard, and Super Helping carries a neighbor's groceries home. Then, at the park, a little boy can't find his dad, and your child must use those same powers to help, all while holding Mom's hand. Bright, playful illustrations show your child as the hero on every page. An original story with no licensed characters, it celebrates kindness, attention and helping others in a way young kids can actually practice."
+}

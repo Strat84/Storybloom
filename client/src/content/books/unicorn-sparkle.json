@@ -1,0 +1,115 @@
+{
+  "slug": "unicorn-sparkle",
+  "status": "live",
+  "title_pattern": "{name} and the Unicorn Who Lost Her Sparkle",
+  "category": "adventures",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized unicorn book",
+  "landing_page_slug": "books/unicorn-sparkle",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "A little unicorn has lost her sparkle, and your child helps her find where it really comes from.",
+  "lesson_or_purpose": "Kindness makes us shine. The unicorn learns that her sparkle comes from what she does for others, and the child is the one who notices it and shows her.",
+  "tone": "Gentle, magical and warm, with soft humor and a cozy, glowing ending.",
+  "reading_level": "Read-aloud for ages 3-7: short sentences, simple dialogue and a few repeated phrases for early readers to join in.",
+  "keywords": [
+    "personalized unicorn book",
+    "unicorn book for kids",
+    "personalized kindness book",
+    "custom unicorn story",
+    "unicorn picture book with child's name",
+    "magical adventure book for kids"
+  ],
+  "illustration_guide": "Setting: a hidden meadow just past the child's back garden, reached through a gap in tall sunflowers, with clover fields, a small rainbow waterfall, a hill of star-shaped flowers and a cozy bramble path. Palette: soft pastels of lavender, mint, peach and sky blue, with warm golden light. Lumi the unicorn starts pale grey-white with a dull silvery mane and gradually gains a shimmering pastel glow and twinkling sparkles in her mane and tail as the story goes on. Recurring elements: tiny floating sparkle motes that appear whenever a kind act happens, the sunflower gap leading home, and a small round hedgehog who reappears as a friend. The child wears the same everyday play clothes throughout. Rounded, friendly shapes, no words, signs or lettering anywhere.",
+  "page_outline": [
+    {
+      "beat": "Playing in the back garden, {name} slips through a gap in the tall sunflowers and finds a hidden clover meadow. There {name} hears a sniffle and discovers a small, pale unicorn named Lumi sitting alone, her mane dull and grey.",
+      "illustration_prompt": "The child peeking through a gap in tall sunflowers into a pastel clover meadow, where a small pale grey-white unicorn with a dull mane sits alone in the grass, looking sad."
+    },
+    {
+      "beat": "Lumi explains that she used to sparkle brighter than the stars, but one morning her sparkle was simply gone. {name} kneels beside Lumi and promises to help find it.",
+      "illustration_prompt": "The child kneeling in the clover beside the pale unicorn, gently patting her neck, with the unicorn looking up hopefully. Soft morning light."
+    },
+    {
+      "beat": "{name} and Lumi search the meadow together: behind the rainbow waterfall and under the star-shaped flowers on the hill. {name} looks everywhere, but there is no sparkle to be found.",
+      "illustration_prompt": "The child and the pale unicorn peering behind a small rainbow waterfall, the child lifting a curtain of mist with one hand, a hill of star-shaped flowers in the background."
+    },
+    {
+      "beat": "Lumi droops and says maybe the sparkle is gone forever. {name} gives Lumi a hug and says they will not give up yet, and the two keep walking down the bramble path.",
+      "illustration_prompt": "The child hugging the drooping pale unicorn on a winding path lined with soft brambles, the unicorn's head low, the child smiling encouragingly."
+    },
+    {
+      "beat": "On the path, {name} spots a little hedgehog tangled in a prickly bramble. Lumi wants to hurry on to keep searching, but {name} stops and says the hedgehog needs help first.",
+      "illustration_prompt": "A small round hedgehog caught in a prickly bramble beside the path, the child crouching toward it with a caring look, the pale unicorn pausing behind, half turned away."
+    },
+    {
+      "beat": "{name} shows Lumi how to lift the brambles gently with her horn while {name} eases the hedgehog free. As the hedgehog scampers off happy, {name} notices a tiny glimmer appear in Lumi's mane.",
+      "illustration_prompt": "The pale unicorn lifting a bramble with her horn while the child gently frees the hedgehog, a few tiny sparkle motes beginning to twinkle in the unicorn's mane."
+    },
+    {
+      "beat": "{name} has an idea and leads Lumi to look for more friends who need help. Together they lift a fallen bird's nest back onto a branch and guide a lost bunny home to its burrow.",
+      "illustration_prompt": "The child standing on tiptoe and the unicorn using her horn to place a small nest back onto a low branch, a mother bird fluttering nearby, a little bunny peeking from tall grass."
+    },
+    {
+      "beat": "With every kind act, Lumi glows a little brighter, and {name} points out each new shimmer. Lumi's mane begins to twinkle with pastel colors, and {name} laughs with delight.",
+      "illustration_prompt": "The unicorn now softly glowing in pastel colors with sparkles in her mane and tail, the child laughing and pointing at the shimmer, the bunny and hedgehog watching happily."
+    },
+    {
+      "beat": "{name} explains what {she/he} has figured out: Lumi's sparkle never left. It shines whenever Lumi is kind. Lumi glows so brightly that the whole meadow lights up gold and lavender.",
+      "illustration_prompt": "The unicorn fully shining and radiant in the center of the meadow, light spilling across clover and flowers, the child standing beside her with arms open wide in wonder, animal friends gathered around."
+    },
+    {
+      "beat": "Lumi thanks {name} and touches {her/his} hand with her horn, leaving a tiny sparkle. Back home, {name} helps Dad carry the groceries and sees the same little sparkle twinkle on {her/his} own hand.",
+      "illustration_prompt": "The child at home in a cozy kitchen helping Dad carry a bag of groceries, a tiny twinkle glowing on the child's hand, and through the window a faint glow of the unicorn waiting in the sunflowers."
+    }
+  ],
+  "cover_scene": "The child stands in a pastel clover meadow beside a softly glowing unicorn with sparkles drifting from her mane and tail, the child's hand resting on the unicorn's neck. Tall sunflowers frame the sides, and a calm, open lavender and peach sky fills the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Behind {name}'s garden, past the tall sunflowers, {name} heard a tiny sniffle. A little unicorn sat in the clover, pale as a cloud. \"My sparkle is gone,\" sniffed Lumi.",
+      "scene": "The child stepping through tall sunflowers into a pastel clover meadow, finding a small pale grey-white unicorn with a dull mane sitting alone and sniffling."
+    },
+    {
+      "text": "Lumi wanted to hurry on. But {name} stopped. A little hedgehog was stuck in a prickly bramble. \"Wait,\" said {name}. \"The hedgehog needs help. Let's help it first.\"",
+      "scene": "The child crouching beside a small hedgehog caught in a prickly bramble on a winding path, while the pale unicorn pauses behind, half turned to go."
+    }
+  ],
+  "h1": "Personalized Unicorn Book: The Unicorn Who Lost Her Sparkle",
+  "meta_title": "Personalized Unicorn Book for Kids | StoryBloom",
+  "meta_description": "A personalized unicorn book where your child helps a little unicorn find her lost sparkle and discovers that kindness makes us shine.",
+  "promise": "Your child becomes the hero who helps a sad little unicorn find her sparkle, and learns along the way that kindness is what makes us glow.",
+  "story_summary": "Just past the sunflowers at the end of the garden, your child finds a hidden meadow and a little unicorn named Lumi whose sparkle has faded away. Together they search behind a rainbow waterfall and across a hill of star-shaped flowers, but the sparkle is nowhere to be found. When they come across a hedgehog tangled in the brambles, your child makes a choice that changes everything. A tiny glimmer appears, and your child starts to wonder where Lumi's sparkle really comes from.",
+  "why_parents": [
+    "Between three and seven, children are figuring out how their actions affect the people and creatures around them. A story where the hero stops to help, even when hurrying would be easier, gives them a gentle picture of what kindness looks like in a real moment.",
+    "Lumi's glow is a simple, visible way to talk about something invisible: the good feeling that comes from helping. Seeing your child be the one who notices and explains it lets them try on the idea that they can make someone else's day brighter."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: when did Lumi's sparkle start to come back? What did your child do in the story that helped?",
+    "Look for little 'sparkle moments' together during the week, like sharing a toy or helping set the table, and name them out loud.",
+    "Talk about a time someone was kind to your child. How did it feel? You might ask whether that person had a sparkle too."
+  ],
+  "faqs": [
+    {
+      "question": "Is this unicorn book only for girls?",
+      "answer": "Not at all. The story works for any child who loves magic and animals, and the text adjusts to your child. The hero is your child, and Lumi the unicorn is the friend they help."
+    },
+    {
+      "question": "Is there anything scary in the story?",
+      "answer": "No. The only problem is that Lumi feels sad about her lost sparkle, and a hedgehog gets gently stuck in some brambles. Everything is soft, cozy and resolved with kindness."
+    },
+    {
+      "question": "What does my child learn from the story?",
+      "answer": "The story shows that helping others makes us shine. Your child is the one who stops to help the hedgehog and then figures out where Lumi's sparkle comes from."
+    }
+  ],
+  "image_alt": "Personalized unicorn book cover featuring an illustrated child as the hero beside a glowing unicorn in a pastel meadow",
+  "feed_title": "Personalized Unicorn Book for Kids, Your Child Helps a Unicorn Find Her Sparkle",
+  "feed_description": "A personalized unicorn picture book for ages 3 to 7 in which your child is the illustrated hero. Past the sunflowers at the end of the garden, your child discovers a hidden meadow and a little unicorn named Lumi who has lost her sparkle. Together they search behind a rainbow waterfall and across a hill of star-shaped flowers. When your child stops to free a hedgehog caught in the brambles, a tiny glimmer appears, and a gentle adventure unfolds about kindness and helping others. Soft pastel illustrations, simple read-aloud text and a cozy ending make it a sweet bedtime story and a thoughtful gift for birthdays or any day."
+}

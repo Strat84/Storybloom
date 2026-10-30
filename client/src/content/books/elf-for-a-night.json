@@ -1,0 +1,117 @@
+{
+  "slug": "elf-for-a-night",
+  "status": "live",
+  "title_pattern": "{name}, Elf for One Night",
+  "category": "christmas",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": "Nov-Dec",
+  "sensitive": false,
+  "main_keyword": "personalized elf book for kids",
+  "landing_page_slug": "books/elf-for-a-night",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "One sneezy elf, one empty workbench, and one small helper with just the right idea.",
+  "lesson_or_purpose": "Shows young children that careful looking, patience and small hands can solve problems bigger helpers miss, and that helping others is part of the joy of Christmas.",
+  "tone": "Cozy, playful and twinkly, with gentle suspense and a warm Christmas Eve glow.",
+  "reading_level": "Read-aloud for ages 3-7; short sentences, a repeating sneeze sound, and a few new words like workshop and gears.",
+  "keywords": [
+    "personalized elf book for kids",
+    "personalized Christmas book",
+    "elf workshop story",
+    "Christmas Eve picture book",
+    "custom Christmas gift for kids",
+    "child as elf book",
+    "holiday helper story",
+    "toy workshop book"
+  ],
+  "illustration_guide": "Setting: a snowy North Pole toy workshop at night, with long wooden workbenches, shelves of half-built toys, spools of ribbon, and round windows showing falling snow and green northern lights. Palette: deep evening blue, cranberry red, pine green, warm candlelight gold, and creamy snow white. Recurring elements: the child wears a green elf hat with a small brass bell and a striped apron with pockets; Pip, a small round-cheeked elf with a red scarf, a pink nose and a polka-dot handkerchief; a little wind-up music box shaped like a carousel with three tiny reindeer; drifting puffs of glitter from Pip's sneezes; a fluffy white workshop cat who appears on several pages. Soft, rounded shapes and warm lighting throughout. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "On a snowy night close to Christmas, {name} is tucked in bed when a tiny jingle sounds at the window. A small elf named Pip is outside, sniffling, with a red scarf and a very pink nose, and {she/he} sits up to see.",
+      "illustration_prompt": "A cozy child's bedroom at night with snow falling outside the window; the child sits up in bed looking toward the window where a small elf with a red scarf and a pink nose waves, holding a polka-dot handkerchief."
+    },
+    {
+      "beat": "Pip explains, between big glittery sneezes, that a cold has made it impossible to work at the toy workshop tonight. Pip asks {name} to take the empty seat at the workbench for just one night, and {name} says yes.",
+      "illustration_prompt": "The elf mid-sneeze, a puff of sparkly glitter bursting from the handkerchief, while the child in pajamas nods eagerly beside the bed."
+    },
+    {
+      "beat": "Pip hands {name} a green elf hat with a small brass bell and a striped apron. {She/He} puts them on, and with a swirl of snowflakes, the bedroom fades into the glowing workshop.",
+      "illustration_prompt": "The child wearing a green elf hat with a brass bell and a striped apron, spinning in a swirl of snowflakes as the bedroom melts into a warm golden workshop."
+    },
+    {
+      "beat": "The workshop is busy and bright. {name} tries painting wooden trains, wrapping boxes and tying bows, and {she/he} gets a little ribbon tangled, but the other elves laugh kindly and show {her/him} how.",
+      "illustration_prompt": "A busy workshop with elves at long benches; the child happily tangled in red ribbon while a friendly elf helps, wooden trains drying nearby and a white cat batting at a ribbon end."
+    },
+    {
+      "beat": "In the corner sits a carousel music box with three tiny reindeer that will not play or spin. The elves say they have tried everything, and the toy is due on a sleigh before midnight. {name} looks at it closely.",
+      "illustration_prompt": "A small carousel music box with three tiny reindeer on a workbench, several elves scratching their heads around it, and the child leaning in with curious eyes."
+    },
+    {
+      "beat": "{name} turns the key, but nothing happens. Instead of giving up, {she/he} holds the music box up to {her/his} ear and listens very carefully. Somewhere deep inside, {she/he} hears a tiny click and a stuck little rattle.",
+      "illustration_prompt": "The child holding the music box up to one ear with eyes closed in concentration, elves around the bench leaning in and holding very still, candlelight glowing."
+    },
+    {
+      "beat": "{name} peeks through a little door in the bottom of the box. Wedged between the gears is a shiny bead, too small for big elf fingers to reach. {She/He} has an idea and asks for a pair of tiny tweezers.",
+      "illustration_prompt": "A close view of the child peering into a tiny opening under the music box, small golden gears visible inside with a shiny bead caught between them, an elf passing over small tweezers."
+    },
+    {
+      "beat": "Slowly and gently, {name} reaches in with the tweezers, and with one careful wiggle, out pops the bead. {She/He} turns the key again and holds {her/his} breath.",
+      "illustration_prompt": "The child carefully lifting a tiny bead out of the music box with tweezers, tongue poking out in focus, elves crowding close with clasped hands."
+    },
+    {
+      "beat": "The carousel spins and a sweet tune fills the workshop. The elves cheer, Pip claps from a cozy chair under a blanket, and {name} gently tucks the music box onto the last sleigh just in time.",
+      "illustration_prompt": "The music box spinning with musical sparkle in the air, elves cheering and tossing hats, the sniffly elf wrapped in a blanket clapping, and the child placing the box into a sleigh full of gifts under green northern lights."
+    },
+    {
+      "beat": "With a yawn and a swirl of snow, {name} is back in bed. On Christmas morning {she/he} finds a tiny brass bell on {her/his} pillow and smiles, remembering the night {she/he} was an elf.",
+      "illustration_prompt": "The child in pajamas on Christmas morning sitting in bed, holding a tiny brass bell in an open palm and smiling, pale morning light and snow on the windowsill."
+    }
+  ],
+  "cover_scene": "The child as an elf helper, wearing a green elf hat with a brass bell and a striped apron, stands proudly at a wooden workbench holding up a small carousel music box with three tiny reindeer. A round-cheeked elf with a red scarf peeks from behind with a handkerchief, and a white cat sits on the bench. The top third of the picture is a calm, open deep-blue night sky with soft falling snow and a faint green glow of northern lights, leaving clear space above the scene.",
+  "sample_pages": [
+    {
+      "text": "\"Ah... ah... ACHOO!\" Out puffed a cloud of glitter. \"I'm too sneezy to make toys tonight,\" sniffed Pip. \"Will you take my seat at the workbench, {name}?\" {name} grinned. \"Yes!\"",
+      "scene": "The small elf with a red scarf sneezing a sparkly glitter puff into a polka-dot handkerchief, while the child in pajamas sits on the bed nodding with a big smile, snow falling outside the window."
+    },
+    {
+      "text": "{name} turned the key. Nothing. So {she/he} held the music box close and listened. Tick... tick... rattle. \"Something is stuck in there,\" {she/he} whispered.",
+      "scene": "The child in an elf hat and striped apron holding a carousel music box to one ear, eyes closed, as a circle of elves leans in silently around the workbench in warm candlelight."
+    }
+  ],
+  "h1": "Personalized Elf Book for Kids: Your Child Saves a Christmas Toy",
+  "meta_title": "Personalized Elf Book for Kids | StoryBloom",
+  "meta_description": "A personalized elf book for kids: your child fills in at the toy workshop on a snowy night and fixes the one toy no elf could mend.",
+  "promise": "Your child puts on an elf hat, steps into the toy workshop, and becomes the helper who saves a Christmas toy.",
+  "story_summary": "When a little elf named Pip catches a glittery sneezing cold, there is an empty seat at the toy workshop and only one night to fill it. Pip taps on your child's window with a big request. Soon your child is wearing an elf hat, painting trains and tangling ribbon alongside the elves. Then comes a carousel music box that will not play, and the sleigh leaves at midnight.",
+  "why_parents": [
+    "Between three and seven, children want to be real helpers, not just watchers. This story hands your child an important job during the most exciting season of the year and lets them figure out the tricky part on their own, by slowing down, listening and looking closely.",
+    "Christmas can feel like a season of getting. Here the magic comes from making and fixing something for another child, and from helping a friend who is under the weather. It is a cozy way to talk about giving while keeping all the sparkle of elves and sleighs."
+  ],
+  "for_grownups": [
+    "Ask your child what they noticed that helped fix the music box. Talk about times when going slowly and listening carefully helped them solve something at home.",
+    "Pip had a cold and needed help. Ask who your child could help this week, like setting the table or making a card for someone who feels poorly.",
+    "Try a little workshop of your own: wrap a small gift together or mend a favorite toy, and let your child be the elf in charge."
+  ],
+  "faqs": [
+    {
+      "question": "Is this story connected to any elf toy or tradition we already have?",
+      "answer": "No. It is an original story with its own elf, Pip, and works on its own alongside any family Christmas traditions."
+    },
+    {
+      "question": "Is the sneezing cold scary for little ones?",
+      "answer": "Not at all. Pip's sneezes come out as puffs of glitter, and Pip spends the busy part of the night resting in a cozy chair, cheering everyone on."
+    },
+    {
+      "question": "When is a good time to read it?",
+      "answer": "It makes a sweet read in the weeks before Christmas or as a Christmas Eve bedtime story, since the adventure ends with a small surprise on Christmas morning."
+    }
+  ],
+  "image_alt": "Personalized elf book cover featuring an illustrated child in an elf hat holding a music box in a snowy toy workshop",
+  "feed_title": "Personalized Elf Book for Kids, Your Child Helps in the Christmas Toy Workshop",
+  "feed_description": "A personalized Christmas picture book for ages 3 to 7 in which your child becomes an elf for one snowy night. When a little elf named Pip catches a glittery sneezing cold, your child is invited to take the empty seat at the toy workshop. They put on an elf hat and apron, try painting, wrapping and tying bows, and then face a big problem: a carousel music box that will not play, with the sleigh leaving at midnight. By listening closely and using small, careful hands, your child finds a way to save the toy. A cozy, twinkly story about helping a friend, being patient and the joy of making something for someone else, ending with a little surprise on Christmas morning."
+}

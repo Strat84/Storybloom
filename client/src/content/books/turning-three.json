@@ -1,0 +1,115 @@
+{
+  "slug": "turning-three",
+  "status": "live",
+  "title_pattern": "{name} Is Three Today",
+  "category": "birthday",
+  "age_range": "3-4",
+  "page_count": 10,
+  "priority": "P0",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "3rd birthday book for child personalized",
+  "landing_page_slug": "books/turning-three",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "Three years old, three brand-new skills, and one birthday party that needs a helper.",
+  "lesson_or_purpose": "Turning three brings new independence. Small everyday skills, like putting on shoes or pouring a drink, are real ways a child can help the people they love.",
+  "tone": "Bright, bouncy and proud, with playful sound words and a gentle sense of suspense at each party mishap.",
+  "reading_level": "Read-aloud for ages 3-4: short sentences, repetition, counting to three, and sound words like whoosh and click.",
+  "keywords": [
+    "3rd birthday book for child personalized",
+    "personalized third birthday book",
+    "birthday book for 3 year old",
+    "personalized birthday gift for toddler",
+    "book about turning three",
+    "custom birthday picture book"
+  ],
+  "illustration_guide": "Setting: a cozy family home and a sunny backyard decorated for a birthday party, with a white picket fence, a wooden garden gate with a simple latch, and a picnic table. Palette: warm sunshine yellow, balloon red, sky blue, mint green and soft cream, with rounded shapes and soft shading. Recurring elements on every page: three bright balloons (red, blue, yellow), the number three appearing visually as three stars, three flowers or three candles, a small striped party hat, and a friendly family dog that follows the child. Mom, Dad and Grandma appear as warm, smiling adults. No words, signs or lettering anywhere in the pictures.",
+  "page_outline": [
+    {
+      "beat": "{name} wakes up on birthday morning and remembers: today {she/he} is three! {name} holds up three fingers and bounces on the bed.",
+      "illustration_prompt": "The child sits up in bed in a sunny bedroom, holding up three fingers with a huge smile, three balloons tied to the bedpost, the family dog wagging at the bedside."
+    },
+    {
+      "beat": "Mom and Dad hug {name} and explain that the birthday party will be in the backyard this afternoon, with friends, juice and a big cake. {name} feels proud and ready to help.",
+      "illustration_prompt": "Mom and Dad kneel in a cheerful kitchen hugging the child, a window behind them showing the backyard with streamers on the fence."
+    },
+    {
+      "beat": "A gust of wind tugs the party balloons loose from the fence, and they start to float away. Mom is busy, and {name} spots a pair of shoes by the door. {name} decides to put them on alone: left foot, right foot, rip, stick.",
+      "illustration_prompt": "The child sits by the back door pulling on sneakers with hook-and-loop straps, while through the open door three balloons lift away on the wind."
+    },
+    {
+      "beat": "Shoes on, {name} dashes into the yard and grabs the balloon strings just in time. {name} hands them to Mom, who ties them tight. That is new thing number one!",
+      "illustration_prompt": "The child runs across green grass on tiptoe, reaching up to catch three balloon strings, the dog leaping alongside, Mom smiling nearby."
+    },
+    {
+      "beat": "Friends will arrive soon, but the cups on the picnic table are empty and Grandma's hands are full of sandwiches. {name} remembers practicing with the little pitcher and offers to pour.",
+      "illustration_prompt": "Grandma holds a big tray of sandwiches while the child points to a row of empty paper cups and a small pitcher of juice on the picnic table."
+    },
+    {
+      "beat": "Slowly and carefully, {name} pours juice into each cup. There is one tiny drip, so {name} wipes it up with a napkin. Grandma claps. That is new thing number two!",
+      "illustration_prompt": "The child concentrates, tongue peeking out, pouring juice from a small pitcher into a paper cup, a napkin nearby, Grandma clapping in the background."
+    },
+    {
+      "beat": "Dad comes around the house carrying the big birthday cake, but the garden gate is latched shut and Dad's arms are full. The cake wobbles. {name} sees the problem right away.",
+      "illustration_prompt": "Dad stands at a closed wooden garden gate holding a tall frosted cake with both arms, the cake tilting slightly, the child looking on from the yard."
+    },
+    {
+      "beat": "{name} stretches up on tiptoe, lifts the latch with a click, and swings the gate wide open. The cake makes it safely to the table. That is new thing number three!",
+      "illustration_prompt": "The child stands on tiptoe lifting a simple gate latch, the gate swinging open, Dad stepping through with the cake held steady and a grateful grin."
+    },
+    {
+      "beat": "Friends arrive, everyone sings, and three candles glow on the cake. {name} takes one big breath and blows them all out while everyone cheers.",
+      "illustration_prompt": "The child in a striped party hat leans toward a cake with three glowing candles, cheeks puffed, surrounded by smiling friends, family and the three balloons."
+    },
+    {
+      "beat": "At bedtime, {name} snuggles under the covers and counts on {her/his} fingers: shoes, cups, gate. Three new things for three years old. Being three feels big and wonderful to {name}.",
+      "illustration_prompt": "The child tucked into bed in soft moonlight, holding up three fingers and smiling sleepily, the three balloons floating by the bedpost and the dog curled at the foot of the bed."
+    }
+  ],
+  "cover_scene": "The child stands proudly in a sunny backyard wearing a striped party hat, holding the strings of three bright balloons in red, blue and yellow, with a picnic table and frosted cake with three candles beside them and the friendly dog at their feet. The top third of the picture is calm, open blue sky with a few soft clouds, leaving clear space for a title.",
+  "sample_pages": [
+    {
+      "text": "Whoosh! The wind tugs the balloons. Up, up, away! {name} looks at the shoes by the door. \"I am three. I can do it myself!\" Left foot, right foot. Rip, stick!",
+      "scene": "The child sits by the back door pulling on sneakers with hook-and-loop straps, while through the open doorway three balloons lift into the sky on the wind."
+    },
+    {
+      "text": "Pour, pour. Slow, slow. One cup, two cups, three cups, more! A tiny drip? {name} wipes it up. Grandma claps. \"What a helper!\"",
+      "scene": "The child carefully pours juice from a small pitcher into a row of paper cups on a picnic table, a napkin close by, Grandma clapping with a tray of sandwiches."
+    }
+  ],
+  "h1": "Personalized 3rd Birthday Book Where Your Child Saves the Party",
+  "meta_title": "Personalized 3rd Birthday Book | StoryBloom",
+  "meta_description": "A personalized 3rd birthday book: your child turns three and uses three new skills to save the backyard birthday party.",
+  "promise": "Your child wakes up three and discovers that new grown-up skills, like putting on shoes and pouring juice, can rescue a birthday party.",
+  "story_summary": "It is birthday morning, and your child has just turned three. A backyard party is planned, but things start going wrong: the wind steals the balloons, the cups sit empty, and the cake gets stuck at a latched gate. Each time, your child tries something new all by themselves. Will three new skills be enough to keep the party on track?",
+  "why_parents": [
+    "Three is the age of \"I can do it myself.\" Children this age are eager to buckle their own shoes, pour their own drink and open doors, and they glow when those efforts are noticed. A story that turns these everyday skills into heroic moments tells your child that their growing independence matters.",
+    "A birthday is also a natural moment to look back and see how much has changed. This book gives you a simple way to celebrate turning three, not just with cake and candles, but with pride in the real things your child can now do to help the family."
+  ],
+  "for_grownups": [
+    "After reading, ask your child to name three things they can do by themselves now. Write them down and save the list for next birthday.",
+    "Pick one skill from the book, like pouring water from a small pitcher, and practice it together this week, celebrating spills as part of learning.",
+    "Talk about a time your child helped someone at home and how it made that person feel."
+  ],
+  "faqs": [
+    {
+      "question": "What three skills does the child learn in this story?",
+      "answer": "Your child puts on shoes alone, carefully pours juice into cups, and lifts a garden gate latch. Each one helps fix a problem at the birthday party."
+    },
+    {
+      "question": "Is this book only for a child's actual third birthday?",
+      "answer": "It is written for turning three, so it makes a natural gift on or around the birthday. Many families also keep reading it through the year as a reminder of how much their child can do."
+    },
+    {
+      "question": "Who else appears in the story?",
+      "answer": "Mom, Dad and Grandma help get the party ready, along with friends who come to celebrate and a friendly family dog."
+    }
+  ],
+  "image_alt": "Personalized 3rd birthday book cover featuring an illustrated child holding three balloons beside a birthday cake",
+  "feed_title": "Personalized 3rd Birthday Book for Kids, Your Child Turns Three and Saves the Party",
+  "feed_description": "A personalized picture book for a child turning three. On birthday morning, your child wakes up three years old and gets ready for a backyard party with Mom, Dad and Grandma. When the wind carries off the balloons, the cups sit empty, and the cake gets stuck at a latched gate, your child steps up and tries three new things alone: putting on shoes, pouring juice, and opening the gate. Bright, bouncy illustrations show your child as the hero, with three balloons, a striped party hat and a friendly dog on every page. Short, rhythmic sentences and counting to three make it a cozy read-aloud for ages 3 to 4 and a warm keepsake of the year your child turned three."
+}

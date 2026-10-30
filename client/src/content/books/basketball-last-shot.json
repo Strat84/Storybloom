@@ -1,0 +1,117 @@
+{
+  "slug": "basketball-last-shot",
+  "status": "live",
+  "title_pattern": "{name} and the Last Shot",
+  "category": "adventures",
+  "age_range": "5-9",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized basketball book",
+  "landing_page_slug": "books/basketball-last-shot",
+  "example": {
+    "name": "Theo",
+    "pronouns": "he",
+    "look": "light skin, curly auburn hair, uses a wheelchair"
+  },
+  "tagline": "One missed shot, one patient neighbor, and the courage to step up again.",
+  "lesson_or_purpose": "Missing is part of playing. Courage means trying again after a disappointment, and practice with someone who believes in you makes the next try feel possible.",
+  "tone": "Warm, energetic and encouraging, with the bounce of a basketball game and quiet, tender moments of practice",
+  "reading_level": "Ages 5-9: short paragraphs of 2-4 sentences, lively sound words like swish and thump, simple dialogue",
+  "keywords": [
+    "personalized basketball book",
+    "basketball book for kids",
+    "sports book about trying again",
+    "book about missing a shot",
+    "personalized sports book",
+    "courage book for kids",
+    "basketball gift for kids",
+    "book about practice and perseverance"
+  ],
+  "illustration_guide": "Setting moves between a bright neighborhood rec center gym with wooden floors and a blue-painted key, and a sunny suburban driveway with a slightly faded hoop on a garage, a chalk line drawn on the concrete, and a small porch next door. Palette: warm orange basketball tones, sky blues, sunset golds and soft driveway grays. Recurring elements: the child's orange basketball with a small scuff mark, the child's teal jersey with a star on the chest, the neighbor Ms. Della with silver hair in a ponytail, a whistle on a cord and a red cardigan, her old sneakers, and a little sparrow that perches on the hoop during practices. No words, numbers, logos or lettering on jerseys, signs or scoreboards.",
+  "page_outline": [
+    {
+      "beat": "{name} loves basketball and plays on a weekend team at the rec center. Show {name} dribbling with joy and setting up the world of the game, the teal jersey and the scuffed orange ball.",
+      "illustration_prompt": "The child in a teal jersey with a star dribbles an orange basketball across a bright wooden gym floor, teammates cheering from the bench, warm light through high windows."
+    },
+    {
+      "beat": "In the final seconds of a close game, the ball comes to {name}. {She/He} takes the last shot, and it bounces off the rim. The other team wins, and {name} feels a heavy, hot sting of disappointment.",
+      "illustration_prompt": "The ball bouncing off the rim above the child's outstretched hands, the child's face tense and hopeful, a crowd of parents in the bleachers leaning forward."
+    },
+    {
+      "beat": "At home, {name} tucks the basketball under the bed and says {she/he} never wants to take a last shot again. A grown-up listens and gives a hug, but {name} still feels stuck.",
+      "illustration_prompt": "The child sitting on a bedroom floor with knees pulled up, the orange basketball half hidden under the bed, a parent sitting beside the child with an arm around the child's shoulders."
+    },
+    {
+      "beat": "The next afternoon, {name} hears a thump, thump, swish from next door. Ms. Della, the neighbor with silver hair and an old whistle, is shooting hoops in her driveway and invites {name} to join.",
+      "illustration_prompt": "Over a low fence, an older woman with a silver ponytail and red cardigan shoots at a faded garage hoop while the child peeks curiously from the neighboring yard, a sparrow on the hoop."
+    },
+    {
+      "beat": "Ms. Della tells {name} she once missed a big shot too, long ago, and then she kept playing. She teaches {name} to plant {her/his} feet, bend the knees and breathe out before shooting.",
+      "illustration_prompt": "The neighbor kneeling to show the child how to set their feet on a chalk line drawn on the driveway, the child copying with bent knees and the orange ball held high."
+    },
+    {
+      "beat": "{name} practices day after day. {She/He} misses a lot, sometimes more than {she/he} makes. Ms. Della cheers just as loudly for a good try as for a basket, and slowly {name} starts to laugh at the misses.",
+      "illustration_prompt": "A sequence feeling: the child shooting in the driveway as the light changes from morning sun to golden evening, balls rolling away, the neighbor clapping on her porch step, the sparrow watching."
+    },
+    {
+      "beat": "On a windy evening, {name} misses five shots in a row and wants to quit. This time, {name} decides on {her/his} own to take one more breath, plant {her/his} feet and try again.",
+      "illustration_prompt": "The child standing alone on the chalk line in the breezy dusk, leaves swirling, eyes closed and shoulders relaxed as the child takes a deep breath, the ball held steady."
+    },
+    {
+      "beat": "Back at the rec center, the next game is close again. In the last seconds, a teammate looks for someone to pass to, and {name} raises a hand and calls for the ball, even though {her/his} heart is pounding.",
+      "illustration_prompt": "In the gym, the child in the teal jersey with one hand raised high calling for the ball, a teammate turning to pass, the neighbor in a red cardigan watching from the bleachers."
+    },
+    {
+      "beat": "{name} plants {her/his} feet, bends the knees, breathes out and shoots, just like in the driveway. The ball circles the rim, around and around, and drops through with a swish.",
+      "illustration_prompt": "The orange ball spinning around the rim in a dramatic close-up, the child below in perfect shooting form with arm extended, teammates and the crowd leaning in."
+    },
+    {
+      "beat": "The team cheers, but what {name} feels proudest of is stepping up to try. That evening, {name} brings the scuffed ball to Ms. Della's driveway, and they shoot together under the porch light, ready for whatever the next shot brings.",
+      "illustration_prompt": "Evening in the driveway under a warm porch light, the child and the neighbor laughing as they shoot together, the sparrow settling onto the hoop, stars appearing in a deep blue sky."
+    }
+  ],
+  "cover_scene": "The child in a teal jersey with a star leaps toward a faded driveway hoop, orange basketball raised high for a shot, with the neighbor in a red cardigan cheering from her porch and a sparrow perched on the rim. A wide, calm sunset sky in soft gold and blue fills the top third of the picture, open and uncluttered.",
+  "sample_pages": [
+    {
+      "text": "Thump. Thump. Swish!\n\nThe sound came from next door. {name} peeked over the fence. Ms. Della, with her silver ponytail and her old whistle, was shooting hoops at her garage.\n\n\"Want to shoot with me?\" she called.",
+      "scene": "Over a low fence, an older woman with a silver ponytail and red cardigan shoots at a faded garage hoop while the child peeks curiously from the neighboring yard, a sparrow on the hoop."
+    },
+    {
+      "text": "Miss. Miss. Miss. Miss. Miss.\n\nThe wind blew, and {name} wanted to go inside. Then {she/he} stopped. {She/He} planted {her/his} feet. {She/He} took a big breath and let it out slowly.\n\nOne more try.",
+      "scene": "The child standing alone on the chalk line in the breezy dusk, leaves swirling, eyes closed and shoulders relaxed as the child takes a deep breath, the ball held steady."
+    }
+  ],
+  "h1": "Personalized Basketball Book: Your Child and the Last Shot",
+  "meta_title": "Personalized Basketball Book for Kids | StoryBloom",
+  "meta_description": "A personalized basketball book where your child misses a big shot, practices with a kind neighbor and finds the courage to try again.",
+  "promise": "A story about missing, practicing and stepping up again, with your child holding the ball.",
+  "story_summary": "Your child loves basketball, until the last shot of a close game bounces off the rim. Feeling stung, your child hides the ball away and decides never to take that shot again. Then a thump, thump, swish from next door leads to Ms. Della, a neighbor with an old whistle and a story of her own big miss. Through windy evenings and many missed shots in the driveway, your child learns to breathe, plant both feet and keep going, right up to the moment a new chance arrives.",
+  "why_parents": [
+    "Between five and nine, many kids start playing on teams and feel the weight of a big moment for the first time. A missed shot can feel huge, and some children respond by deciding they never want to try again. This story names that sting honestly and shows a child working through it rather than skipping past it.",
+    "The heart of the book is the driveway, not the scoreboard. Your child practices with a patient neighbor who cheers for good tries as loudly as baskets, and the turning point is your child choosing to take one more shot on a hard evening. It is a gentle way to talk about effort, disappointment and courage with a child who loves the game."
+  ],
+  "for_grownups": [
+    "Ask your child about a time something did not go the way they hoped. What did it feel like, and what helped afterward?",
+    "Talk about Ms. Della's story of missing a big shot. You might share a time you made a mistake and kept going.",
+    "Try the book's routine together before something nerve-racking: plant your feet, take a slow breath out, then try."
+  ],
+  "faqs": [
+    {
+      "question": "Does my child need to play basketball to enjoy this book?",
+      "answer": "Not at all. The game is the setting, but the story is about feeling disappointed and finding the courage to try again, which any child can relate to. Kids who shoot hoops in the driveway or are just curious about the sport will feel right at home."
+    },
+    {
+      "question": "Is the story only about winning the big game?",
+      "answer": "No. The emotional high point comes when your child decides to try one more time on a hard practice evening and later calls for the ball. The ending celebrates stepping up to try, not just the result."
+    },
+    {
+      "question": "Who is Ms. Della?",
+      "answer": "She is a kind older neighbor who once missed a big shot herself. She practices with your child in her driveway, teaches a simple breathing and footwork routine, and cheers for every good try."
+    }
+  ],
+  "image_alt": "Personalized basketball book cover featuring an illustrated child as the hero leaping toward a driveway hoop at sunset",
+  "feed_title": "Personalized Basketball Book for Kids Ages 5-9, Your Child Takes the Last Shot",
+  "feed_description": "A personalized picture book for basketball fans ages 5 to 9. Your child becomes the illustrated hero of a story about missing a big shot and finding the courage to try again. After the ball bounces off the rim at the end of a close game, your child hides the basketball away. Then a kind neighbor named Ms. Della invites your child to shoot hoops in her driveway. Together they practice footwork and a calm breathing routine, cheer for good tries and laugh at the misses. On a windy evening your child chooses to take one more shot, and when the next game comes down to the final seconds, your child raises a hand and calls for the ball. A warm story about practice, patience and stepping up, illustrated with sunny driveways and a bright rec center gym."
+}

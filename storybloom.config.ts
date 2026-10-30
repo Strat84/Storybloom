@@ -117,15 +117,10 @@ const config = {
     rewardFirstAt: 5,
     rewardEvery: 10,
     /**
-     * Where "Apply" goes. Set to the Referralful signup link once the program is set up; until then
-     * applications come in by email.
+     * Where "Join" goes. Switch to https://referralful.com/join/story-bloom/default once that page
+     * accepts sign-ups (it says "isn't live yet" until setup is finished); until then, by email.
      */
     applyUrl: "mailto:support@storybloom.ai?subject=StoryBloom%20partner%20application",
-    /**
-     * Referralful account slug (Dashboard -> Settings -> Tracking snippet, the data-account value).
-     * Empty = no tracking snippet; partner codes still work, partner links don't get credit.
-     */
-    referralfulAccount: "",
   },
 
   /** Feature flags. Flip to true only when the feature is actually live. */

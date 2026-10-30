@@ -1,11 +1,9 @@
 import { createRoot, hydrateRoot } from "react-dom/client";
 import App from "./App";
 import { captureAttribution } from "./lib/track";
-import { loadReferralTracking } from "./lib/referral";
 import "./index.css";
 
 captureAttribution();
-loadReferralTracking();
 
 const root = document.getElementById("root")!;
 const path = window.location.pathname.replace(/\/+$/, "") || "/";

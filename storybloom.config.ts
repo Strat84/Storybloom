@@ -117,10 +117,9 @@ const config = {
     rewardFirstAt: 5,
     rewardEvery: 10,
     /**
-     * Where "Join" goes. Switch to https://referralful.com/join/story-bloom/default once that page
-     * accepts sign-ups (it says "isn't live yet" until setup is finished); until then, by email.
+     * Where "Join" goes: the Referralful partner portal (sign-up and partner dashboard).
      */
-    applyUrl: "mailto:support@storybloom.ai?subject=StoryBloom%20partner%20application",
+    applyUrl: "https://story-bloom.referralful.com",
   },
 
   /** Feature flags. Flip to true only when the feature is actually live. */

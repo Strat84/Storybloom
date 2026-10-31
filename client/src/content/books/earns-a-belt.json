@@ -1,0 +1,115 @@
+{
+  "slug": "earns-a-belt",
+  "status": "live",
+  "title_pattern": "{name} Earns a Belt",
+  "category": "adventures",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized karate book",
+  "landing_page_slug": "books/earns-a-belt",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "Your child's first karate belt is a story of focus and respect.",
+  "lesson_or_purpose": "To understand the meaning of respect and focus in martial arts, and the satisfaction of earning a goal through dedication.",
+  "tone": "Encouraging, disciplined, celebratory.",
+  "reading_level": "Ages 4-9",
+  "keywords": [
+    "personalized karate book",
+    "karate kids book",
+    "martial arts book for kids",
+    "first belt book",
+    "respect book for kids",
+    "focus book for children"
+  ],
+  "illustration_guide": "A bright and clean dojo setting with light wooden floors, white walls, and traditional Japanese calligraphy details. The palette is bright and primary, with pops of the belt colors (white, yellow, orange, green, blue, purple, brown, black). Characters wear traditional karate gis. Sensei is a kind, encouraging older adult. Recurring elements include the dojo's logo, a bow in greeting, and the different colored belts.",
+  "page_outline": [
+    {
+      "beat": "{name} loved going to the dojo. {She/He} loved the strong 'Kiyap!' and learning new moves. Today, Sensei had a special announcement for all the students, and {name} listened carefully.",
+      "illustration_prompt": "The child in a white gi, looking excited, standing with other children in a clean dojo, facing Sensei."
+    },
+    {
+      "beat": "Sensei announced it was time for the first belt test! All the white belts would have a chance to earn a yellow belt. {name} felt a flutter of excitement in {her/his} tummy. A yellow belt for {name}!",
+      "illustration_prompt": "Sensei, a kind older adult, stands at the front of the dojo, holding up a bright yellow belt. The child and other students look on with anticipation."
+    },
+    {
+      "beat": "Sensei explained that earning a belt was more than just doing moves. It was about showing respect and focus. {name} practiced {her/his} front kicks and blocks, but Sensei reminded everyone that true karate begins with the heart.",
+      "illustration_prompt": "The child practices a front kick. Sensei stands nearby, demonstrating proper form, with a thoughtful expression."
+    },
+    {
+      "beat": "What did respect mean, exactly? {name} watched the older students. They bowed carefully, listened to Sensei's words, and waited patiently for their turn. {name} understood that respecting others meant showing you cared.",
+      "illustration_prompt": "The child observes an older student bowing respectfully to Sensei. Other children are waiting their turn quietly."
+    },
+    {
+      "beat": "And focus? Sometimes {name}'s mind would wander. Sensei asked everyone to watch a falling feather. {name} watched as the feather floated down, down, down. {She/He} practiced keeping {her/his} eyes and mind steady.",
+      "illustration_prompt": "The child sits cross-legged on the dojo floor, eyes fixed on a single white feather slowly drifting down from the top of the frame. Sensei watches gently."
+    },
+    {
+      "beat": "The day of the test arrived. {name} wore {her/his} clean white gi and felt a little nervous, but also very ready. {She/He} remembered Sensei's words: 'Breathe. Be present. Be you, {name}.'",
+      "illustration_prompt": "The child stands tall in a clean gi, looking determined yet a little nervous. The dojo entrance is visible behind the child."
+    },
+    {
+      "beat": "{name} began the test with a deep bow, showing respect to Sensei and to the dojo. {She/He} listened closely to every instruction, waiting for the signal before starting each move.",
+      "illustration_prompt": "The child bows deeply to Sensei, who returns the bow. Other children are lined up in the background, ready for their turn."
+    },
+    {
+      "beat": "When it was time for forms, {name} focused. Every punch was strong, every block was firm. {She/He} remembered the feather and kept {her/his} mind clear, moving with all {her/his} might.",
+      "illustration_prompt": "The child executes a karate form (a series of moves). Their expression shows concentration and determination."
+    },
+    {
+      "beat": "Finally, all the students gathered. Sensei smiled. 'You have all shown effort and spirit. And {name}, you have shown great understanding of focus and respect.'",
+      "illustration_prompt": "Sensei stands in front of the group of children, smiling warmly, making a gesture of appreciation towards the child."
+    },
+    {
+      "beat": "{name}'s heart swelled with pride as Sensei tied the bright yellow belt around {her/his} waist. It wasn't just a belt; it was a reminder of all the hard work, respect, and focus {name} had put in. {She/He} had earned it!",
+      "illustration_prompt": "Sensei kneels slightly, tying a new yellow belt around the child's waist. The child looks down at the belt with a joyful, proud smile."
+    }
+  ],
+  "cover_scene": "The child, wearing a white karate gi, proudly holds a yellow belt with both hands, smiling. Behind the child is a calm, bright dojo setting with open space across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Sensei explained that earning a belt was more than just doing moves. It was about showing respect and focus. {name} practiced {her/his} front kicks and blocks, but Sensei reminded everyone that true karate begins with the heart.",
+      "scene": "The child practices a front kick. Sensei stands nearby, demonstrating proper form, with a thoughtful expression."
+    },
+    {
+      "text": "When it was time for forms, {name} focused. Every punch was strong, every block was firm. {She/He} remembered the feather and kept {her/his} mind clear, moving with all {her/his} might.",
+      "scene": "The child executes a karate form (a series of moves). Their expression shows concentration and determination."
+    }
+  ],
+  "h1": "Personalized Karate Book: Your Child Earns a Belt",
+  "meta_title": "Personalized Karate Book for Kids | StoryBloom",
+  "meta_description": "Celebrate your child's first karate belt test with this personalized story. Your child is the hero who learns about focus and respect.",
+  "promise": "Watch your child become the hero of their own karate journey, learning about focus, respect, and the joy of achievement.",
+  "story_summary": "This inspiring story follows your child as they prepare for their first karate belt test. Under the guidance of their Sensei, your child discovers that earning a belt is not just about mastering moves, but also about understanding the deeper values of respect and focus. Your child trains, observes, and practices these important qualities, leading up to the big day. It's a tale of determination and growth.",
+  "why_parents": [
+    "Introducing martial arts can teach important principles beyond just physical techniques. This book helps reinforce the core tenets of karate, such as respect for instructors and peers, and the mental discipline of focus, which are crucial qualities that benefit your child in all areas of life.",
+    "Children often feel immense pride in their achievements, especially when they earn something through hard work. This story validates your child's efforts and commitment in a meaningful way, showing them that dedication leads to fulfilling rewards, like earning their first karate belt."
+  ],
+  "for_grownups": [
+    "Talk about what respect means outside the dojo. How can your child show respect to family, teachers, and friends?",
+    "Discuss moments when your child has shown great focus. What helps them concentrate when they are doing something important or challenging?",
+    "Celebrate your child's accomplishments, big or small. Ask them about a time they worked hard to achieve something they cared about."
+  ],
+  "faqs": [
+    {
+      "question": "What age is this personalized karate book suitable for?",
+      "answer": "This book is crafted for children aged 4-9, making it perfect for young readers who are just starting their martial arts journey or are already familiar with the basics of karate."
+    },
+    {
+      "question": "Does this book teach specific karate moves?",
+      "answer": "While the story mentions practicing kicks and forms, its primary focus is on the character-building aspects of karate: understanding respect, developing focus, and the joy of earning a belt through dedication, rather than teaching specific techniques."
+    },
+    {
+      "question": "Can I include details about a specific martial arts style?",
+      "answer": "The story is written to be generally applicable to various martial arts disciplines that involve belt testing, focusing on universal values like respect and focus. It does not reference specific styles like Taekwondo, Judo, or others, ensuring it fits broadly."
+    }
+  ],
+  "image_alt": "Personalized karate book cover featuring an illustrated child proudly holding a yellow belt with a dojo background.",
+  "feed_title": "Personalized Karate Book for Kids: Your Child Earns a Belt",
+  "feed_description": "Celebrate your child's journey into martial arts with this unique personalized karate book from StoryBloom. Your child becomes the main character, learning the true meaning of discipline, respect, and focus as they prepare for their first belt test. Guided by their Sensei, your child will discover that earning a yellow belt is about more than just mastering physical movements; it's about embodying inner strength and good character. This uplifting story is perfect for young martial artists aged 4-9, inspiring them to embrace challenges and take pride in their hard work. Each page features beautiful illustrations that bring your child's adventure to life, making them feel truly special as they see themselves as the hero of their own dojo story. It's a wonderful way to reinforce positive values and celebrate a significant milestone in their martial arts training."
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "festival-of-lights",
+  "status": "live",
+  "title_pattern": "{name} and the Festival of Lights",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Oct-Nov",
+  "sensitive": false,
+  "main_keyword": "personalized diwali book",
+  "landing_page_slug": "books/festival-of-lights",
+  "example": {
+    "name": "Priya",
+    "pronouns": "she",
+    "look": "medium brown skin, long black braid"
+  },
+  "tagline": "A sparkling tale of light, love, and sharing for Diwali.",
+  "lesson_or_purpose": "To introduce the traditions of Diwali and highlight the joy of community and sharing during the Festival of Lights.",
+  "tone": "Joyful, celebratory, warm, and gentle.",
+  "reading_level": "3-8",
+  "keywords": [
+    "Diwali",
+    "Festival of Lights",
+    "India",
+    "Hindu",
+    "holiday",
+    "celebration",
+    "sharing",
+    "kindness"
+  ],
+  "illustration_guide": "The setting is a warm, inviting home and immediate neighborhood during dusk and night. The art style features Indian-inspired architectural elements and decor, kept simple and child-friendly. The color palette is rich and warm, featuring golds, oranges, deep reds, magentas, emerald greens, and blues. The glow of oil lamps (diyas) is a central visual element, creating a shimmering, twinkling atmosphere. Rangoli patterns are vibrantly depicted. Characters wear simple, comfortable festive clothing. Recurring motifs include lit diyas, colorful rangoli, and subtle festive decorations.",
+  "page_outline": [
+    {
+      "beat": "{name} is so excited! Diwali, the Festival of Lights, is here. {She/He} sees family busy making everything special.",
+      "illustration_prompt": "The child excitedly looks around a vibrant living room where family members are beginning to decorate for Diwali. Diyas and decorations are visible."
+    },
+    {
+      "beat": "First, {name} helps clean the house. Then, {she/he} carefully helps spread colorful powders to make a beautiful rangoli pattern on the floor. What a good helper {name} is!",
+      "illustration_prompt": "The child, kneeling, carefully helps a parent sprinkle colored powder to create a beautiful rangoli design on the floor. Bright colors are everywhere."
+    },
+    {
+      "beat": "Next, delicious smells fill the air. Grandma and Mom are cooking festive treats, and {name} helps stir a bowl, making sure everything is just right.",
+      "illustration_prompt": "The child stands on a stool, stirring a bowl of ingredients on a kitchen counter with a parent and grandparent smiling nearby. Pots and pans are on the stove."
+    },
+    {
+      "beat": "As the sun begins to set, the most exciting part arrives: lighting the diyas! {name} carefully carries a tray of unlit clay lamps, ready for their glow.",
+      "illustration_prompt": "The child carefully carries a small tray of unlit clay diyas (oil lamps) to an outdoor porch or window sill, with the sky turning orange and purple at dusk."
+    },
+    {
+      "beat": "One by one, the family lights the lamps, placing them all around the home. But as {name} looks across the street, {she/he} notices a neighbor's house that looks dark and quiet.",
+      "illustration_prompt": "The child places a lit diya on a window ledge, looking out with a thoughtful expression towards a neighboring house that appears dark, contrasting with the child's brightly lit home."
+    },
+    {
+      "beat": "A little bit of sadness touches {name}'s heart. Everyone should have light during Diwali, {she/he} thinks. How can {name} help make the neighbor's home feel bright?",
+      "illustration_prompt": "The child stands by a window, a single lit diya nearby, looking concerned towards the dark neighbor's house. The child's face shows thoughtful empathy."
+    },
+    {
+      "beat": "{name} has a wonderful idea! {She/He} knows exactly what to do. {She/He} wants to share some of their family's bright, shining diyas with the neighbor.",
+      "illustration_prompt": "The child's face brightens with an idea, a gentle smile appearing. The child holds a small, unlit diya in one hand, looking determined."
+    },
+    {
+      "beat": "{name} finds Dad and tells {him/her} the plan. Dad smiles, proud of {name}'s kind heart, and agrees that sharing light is the best Diwali gift.",
+      "illustration_prompt": "The child talks to Dad, pointing towards the neighbor's house. Dad listens, a warm, approving smile on his face, a few lit diyas glowing in the background."
+    },
+    {
+      "beat": "With Dad's help, {name} carefully carries a few glowing diyas across the path. {She/He} places them gently on the neighbor's doorstep, bringing a little light to their night.",
+      "illustration_prompt": "The child, holding a small tray with 2-3 lit diyas, walks carefully towards a neighbor's door, with a parent close by. The pathway is softly lit by the diyas."
+    },
+    {
+      "beat": "The neighbor opens the door and is so happy to see the lights from {name}! The neighbor thanks {name}, and {he/she} returns to {her/his} own family, feeling the warmth of true Diwali joy, knowing {name} made the festival even brighter.",
+      "illustration_prompt": "The child smiles brightly as the neighbor, looking happy and grateful, accepts the diyas. The child then walks back towards their own brightly lit home, feeling joyful."
+    }
+  ],
+  "cover_scene": "The child, dressed in festive attire, stands smiling on a porch or near a window, holding a lit diya. Behind the child, the sky is a warm, twilight blend of orange and deep blue, with more lit diyas twinkling around a festive home entrance. Rangoli patterns are visible on the ground.",
+  "sample_pages": [
+    {
+      "text": "First, {name} helps clean the house. Then, {she/he} carefully helps spread colorful powders to make a beautiful rangoli pattern on the floor. What a good helper {name} is!",
+      "scene": "The child, kneeling, carefully helps a parent sprinkle colored powder to create a beautiful rangoli design on the floor. Bright colors are everywhere."
+    },
+    {
+      "text": "{name} has a wonderful idea! {She/He} knows exactly what to do. {She/He} wants to share some of their family's bright, shining diyas with the neighbor.",
+      "scene": "The child's face brightens with an idea, a gentle smile appearing. The child holds a small, unlit diya in one hand, looking determined."
+    }
+  ],
+  "h1": "Personalized Diwali Book for Kids",
+  "meta_title": "Personalized Diwali Book | Celebrate Lights | StoryBloom",
+  "meta_description": "Celebrate the Festival of Lights! Your child is the hero of this personalized Diwali book, learning about diyas, rangoli, and sharing.",
+  "promise": "Illuminate your child's Diwali celebration with a personalized story that places them at the heart of the Festival of Lights, emphasizing the joy of giving.",
+  "story_summary": "In this personalized story, your child is excited for Diwali, helping their family prepare for the Festival of Lights by cleaning, making rangoli, and lighting diyas. When your child notices a neighbor's home is dark, they come up with a kind idea to share some of their family's festive glow. This gentle tale shows your child actively bringing light and joy to others, making their own Diwali even more special.",
+  "why_parents": [
+    "Diwali is a vibrant and meaningful festival, and this book offers a wonderful way to introduce your child to its traditions like lighting diyas and creating rangoli. It helps them understand the cultural significance of the Festival of Lights, fostering an appreciation for different celebrations.",
+    "Beyond the traditions, this story emphasizes the universal values of kindness and community. Your child will see themselves as an active participant who makes a difference by choosing to share, highlighting that even small acts of generosity can spread joy and light to others."
+  ],
+  "for_grownups": [
+    "Talk about the different elements of Diwali: 'Which part of Diwali do you think is the most exciting?' or 'What do the diyas symbolize to you?'",
+    "Discuss the idea of sharing and community: 'How did your act of sharing make the neighbor feel?' and 'What other ways can we share joy with others in our community?'",
+    "Encourage your child to participate in your own family's Diwali preparations, from helping with decorations to sharing festive treats."
+  ],
+  "faqs": [
+    {
+      "question": "What Diwali traditions are featured in this book?",
+      "answer": "This personalized story gently introduces your child to key Diwali traditions, including cleaning the home, creating colorful rangoli patterns, and lighting beautiful oil lamps called diyas. It also emphasizes the spirit of family and community during the celebration."
+    },
+    {
+      "question": "Is this book suitable for children who are not Hindu?",
+      "answer": "Absolutely! This book is crafted to be inclusive and respectful, focusing on the universal themes of light, family, and sharing. It's a wonderful way to introduce children of all backgrounds to the joy and cultural richness of the Festival of Lights."
+    },
+    {
+      "question": "How does my child become the hero of the story?",
+      "answer": "Your child's name is woven throughout the narrative, and their photo is used to create a unique illustrated character who stars in every page of the book. Your child is actively involved in the story's events, making the choices and solving the small challenge."
+    }
+  ],
+  "image_alt": "Personalized Diwali book cover featuring an illustrated child as the hero holding a lit diya, with festive lights and rangoli.",
+  "feed_title": "Personalized Diwali Book for Kids, Your Child Is the Hero",
+  "feed_description": "Celebrate the Festival of Lights with a personalized Diwali book where your child is the star! Your little one will help their family prepare for this joyous holiday, from cleaning the house to creating beautiful rangoli patterns. They'll also carefully light traditional diyas, experiencing every festive moment. This story introduces the vibrant traditions of Diwali through your child's active participation. When your child notices a neighbor's house is dark, they extend the spirit of Diwali by sharing some of their family's glowing diyas. This thoughtful act brings joy to a neighbor and makes your child's own Diwali even brighter. It's a perfect way to engage your child with the cultural significance of Diwali while fostering empathy and community. Your child will love seeing themselves as the hero who spreads light and happiness, creating a treasured keepsake for holiday traditions."
+}

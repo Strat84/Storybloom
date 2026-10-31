@@ -1,0 +1,116 @@
+{
+  "slug": "sugar-bugs",
+  "status": "live",
+  "title_pattern": "{name} and the Sugar Bugs",
+  "category": "life-lessons",
+  "age_range": "2-5",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "brushing teeth book for toddlers",
+  "landing_page_slug": "books/sugar-bugs",
+  "example": {
+    "name": "Diego",
+    "pronouns": "he",
+    "look": "tan skin, thick black hair"
+  },
+  "tagline": "A fun story about brushing away mischievous sugar bugs for sparkling clean teeth!",
+  "lesson_or_purpose": "Encouraging a positive and consistent tooth-brushing routine for young children.",
+  "tone": "Playful, encouraging, adventurous",
+  "reading_level": "Ages 2-5",
+  "keywords": [
+    "brushing teeth",
+    "toddler",
+    "preschooler",
+    "dental hygiene",
+    "bedtime routine",
+    "personalized book",
+    "sugar bugs"
+  ],
+  "illustration_guide": "Bright, cheerful colors with a warm and inviting atmosphere. The sugar bugs are small, cartoonish, and mischievous, never scary or gross. They can be depicted with funny shapes and bright colors like green, purple, and orange. Recurring elements include a child's bathroom, a colorful toothbrush, and toothpaste. Focus on soft, rounded shapes.",
+  "page_outline": [
+    {
+      "beat": "{name} is having a wonderful day, playing and laughing, but soon it's time for bed. Before drifting off, {name} has an important job to do!",
+      "illustration_prompt": "The child is playing happily in their bedroom, maybe with a favorite toy, looking energetic and joyful. The setting transitions towards evening."
+    },
+    {
+      "beat": "Grandma calls, \"Time to get ready for bed, {name}!\" {She/He} gently reminds {name} that brushing teeth is next on the list.",
+      "illustration_prompt": "The child is being gently led by Grandma towards a bathroom doorway, looking a little thoughtful but compliant. Grandma smiles warmly."
+    },
+    {
+      "beat": "In the bathroom mirror, {name} peeks and sees tiny, sneaky sugar bugs starting to gather on {her/his} teeth. Oh dear, they look like they're ready to party!",
+      "illustration_prompt": "The child looks into a bathroom mirror, a surprised and slightly concerned expression on their face. Tiny, cartoonish, friendly-looking 'sugar bugs' are dancing on the reflections of the child's front teeth."
+    },
+    {
+      "beat": "Mom or Dad explains, \"Those sugar bugs love to hide and make little sticky messes. We need a hero, {name}, to brush them all away!\"",
+      "illustration_prompt": "A parent (Mom or Dad) kneels beside the child, gently pointing towards the child's open mouth in the mirror. The child listens intently, looking at the parent and the mirror."
+    },
+    {
+      "beat": "{name} feels a little flutter of bravery. \"I can do it!\" {She/He} declares, grabbing {her/his} special toothbrush, ready for a tooth-saving mission.",
+      "illustration_prompt": "The child stands tall, holding a brightly colored toothbrush firmly, looking determined and courageous. The sugar bugs in the mirror appear a little apprehensive."
+    },
+    {
+      "beat": "With a careful squeeze, {name} puts a small, perfect dot of toothpaste on the bristles. Ready, set, let's go!",
+      "illustration_prompt": "Close-up of the child carefully squeezing toothpaste onto their toothbrush. Their tongue might be poking out slightly in concentration."
+    },
+    {
+      "beat": "{name} starts brushing the top teeth, back and forth, back and forth! The sugar bugs scatter and run, trying to find new places to hide from {her/him}.",
+      "illustration_prompt": "The child energetically brushes their top teeth with the toothbrush. Some small, cartoonish sugar bugs are shown scurrying away from the bristles, looking surprised."
+    },
+    {
+      "beat": "Then {name} brushes the bottom teeth, up and down, up and down! More sugar bugs giggle and vanish as {she/he} scrubs with all {her/his} might.",
+      "illustration_prompt": "The child continues brushing, now focusing on their bottom teeth. More sugar bugs are shown disappearing into sparkles or shrinking away."
+    },
+    {
+      "beat": "Swish and spit! All the sugar bugs are gone, gone, gone! {name}'s teeth feel so smooth and look so wonderfully shiny!",
+      "illustration_prompt": "The child is swishing water in their mouth or spitting into the sink. The mirror shows perfectly clean, sparkling teeth. A few lingering sugar bugs wave goodbye or look defeated."
+    },
+    {
+      "beat": "{name} beams a big, bright smile, proud of {her/his} sparkling clean teeth. What a super tooth hero {she/he} is, ready for sweet dreams!",
+      "illustration_prompt": "The child is smiling widely, showing off their clean, sparkling teeth. They look happy and accomplished. The background is soft and calming, ready for bedtime."
+    }
+  ],
+  "cover_scene": "The child, holding a colorful toothbrush like a hero's sword, stands confidently in a bright, clean bathroom. Their teeth are sparkling. A few small, friendly sugar bugs are peeking out from behind a sink or a towel, looking a bit mischievous but not scary. Open sky or soft colored background across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "In the bathroom mirror, {name} peeks and sees tiny, sneaky sugar bugs starting to gather on {her/his} teeth. Oh dear, they look like they're ready to party!",
+      "scene": "The child looks into a bathroom mirror, a surprised and slightly concerned expression on their face. Tiny, cartoonish, friendly-looking 'sugar bugs' are dancing on the reflections of the child's front teeth."
+    },
+    {
+      "text": "{name} starts brushing the top teeth, back and forth, back and forth! The sugar bugs scatter and run, trying to find new places to hide from {her/him}.",
+      "scene": "The child energetically brushes their top teeth with the toothbrush. Some small, cartoonish sugar bugs are shown scurrying away from the bristles, looking surprised."
+    }
+  ],
+  "h1": "Personalized Brushing Teeth Book for Toddlers",
+  "meta_title": "Personalized Brushing Teeth Book for Kids | StoryBloom",
+  "meta_description": "Make brushing fun! Your child is the hero in this personalized book, chasing away mischievous sugar bugs for sparkling clean teeth. Get yours today!",
+  "promise": "Turn daily tooth brushing into a fun adventure for your child, encouraging good hygiene habits with a personalized story.",
+  "story_summary": "Your child is the star of this sweet story, transforming the daily task of brushing teeth into an exciting adventure. When mischievous 'sugar bugs' try to make a mess on their teeth, your child bravely grabs their toothbrush and toothpaste to save the day. It's a fun and specific tale about making teeth sparkling clean before bedtime. This personalized book helps turn a routine into a celebrated accomplishment.",
+  "why_parents": [
+    "Learning to brush teeth can be a big step, and sometimes it feels like a daily battle. This book helps make the routine enjoyable by turning it into a special mission, where your child is the brave hero who keeps their smile healthy and bright. It frames brushing as an important, empowering activity.",
+    "Children thrive on routine and positive reinforcement. By seeing themselves as the active character in a story about dental hygiene, your child can develop a more positive association with brushing. It's a gentle, playful way to teach healthy habits and empower them to take care of their own bodies."
+  ],
+  "for_grownups": [
+    "Ask your child: 'Where do you think the sugar bugs went after you brushed them away?'",
+    "After reading, brush your teeth together, making funny noises or singing a two-minute song to make the time fly by.",
+    "Discuss with your child what other healthy habits they do each day to take care of their body."
+  ],
+  "faqs": [
+    {
+      "question": "Are the 'sugar bugs' in the story scary?",
+      "answer": "No, the 'sugar bugs' are depicted as tiny, cartoonish, and mischievous characters, never scary or gross. They're designed to be playful rather than frightening, making the concept of brushing specific and understandable for young children."
+    },
+    {
+      "question": "Does this book teach proper brushing technique?",
+      "answer": "While the story highlights the actions of brushing top, bottom, front, and back teeth, its primary goal is to encourage a positive attitude towards the brushing routine. For detailed technique, always follow your dentist's recommendations."
+    },
+    {
+      "question": "Is this book only for bedtime brushing?",
+      "answer": "The story naturally fits into a bedtime routine as the final step before sleep. However, the fun message about keeping teeth clean can apply to morning brushing or any time your child needs encouragement to pick up their toothbrush."
+    }
+  ],
+  "image_alt": "Personalized brushing teeth book cover featuring an illustrated child as the hero holding a toothbrush.",
+  "feed_title": "Personalized Brushing Teeth Book for Kids, Your Child Is the Hero",
+  "feed_description": "Transform daily tooth brushing into an exciting adventure with this personalized children's book! Your child becomes the hero in 'Your Child and the Sugar Bugs,' embarking on a mission to brush away mischievous sugar bugs and achieve a sparkling smile. Designed for toddlers and preschoolers, this story makes dental hygiene an empowering and fun part of their daily routine. They'll love seeing themselves as the star, actively taking care of their teeth. The playful narrative and vibrant illustrations encourage good habits and a positive attitude towards self-care. It's a wonderful way to introduce dental health concepts, building confidence and making brushing a rewarding experience. This book turns a necessary chore into a celebrated accomplishment, helping to establish a lifetime of good oral hygiene."
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "teacher-for-a-day",
+  "status": "live",
+  "title_pattern": "Teacher {name}",
+  "category": "careers",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "when i grow up teacher book",
+  "landing_page_slug": "books/teacher-for-a-day",
+  "example": {
+    "name": "Mateo",
+    "pronouns": "he",
+    "look": "tan skin, wavy dark brown hair"
+  },
+  "tagline": "Explore the joy of teaching and the power of listening with your child as the star!",
+  "lesson_or_purpose": "To explore the role of a teacher and learn the importance of listening and patience.",
+  "tone": "Warm, encouraging, imaginative",
+  "reading_level": "Ages 3-7",
+  "keywords": [
+    "personalized teacher book",
+    "when i grow up book",
+    "career book for kids",
+    "role play book"
+  ],
+  "illustration_guide": "A bright, inviting home setting with soft, warm colors. The 'students' are a collection of diverse, friendly-looking stuffed animals (teddy bears, bunnies, elephants, etc.). Recurring elements include a small chalkboard or whiteboard, child-sized furniture, and colorful classroom supplies.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} at home, full of excitement about playing 'teacher'. {She/He} has gathered all {her/his} favorite stuffed animal friends for the class.",
+      "illustration_prompt": "The child, beaming with excitement, sits on the floor surrounded by an eager group of stuffed animals arranged neatly as students. A small chalkboard is behind the child."
+    },
+    {
+      "beat": "{name} sets up a 'classroom' in {her/his} room, carefully arranging chairs and a little table. This is going to be the best class ever, thinks {name}!",
+      "illustration_prompt": "The child is meticulously arranging tiny chairs or blocks for the stuffed animals. The room is colorful and bright."
+    },
+    {
+      "beat": "Time for the first lesson! {name} stands proudly in front of {her/his} stuffed animal students, ready to teach them about colors.",
+      "illustration_prompt": "The child stands in front of the seated stuffed animals, holding up a brightly colored block or drawing on a small board."
+    },
+    {
+      "beat": "But oh dear! One bear is napping, a bunny is playing with a block, and a mischievous monkey is tickling a giraffe. None of them seem to be listening to {name}.",
+      "illustration_prompt": "The stuffed animals are engaged in various playful activities, looking away from the child. One 'student' is snoozing, another is playing with a toy."
+    },
+    {
+      "beat": "{name} tries again, speaking a little louder. 'Listen, everyone!' {She/He} says, but the classroom is still a busy place with lots of wiggling and soft squeaks.",
+      "illustration_prompt": "The child looks a little frustrated, hands on hips, speaking to the distracted stuffed animals who are still not paying attention."
+    },
+    {
+      "beat": "{name} takes a deep breath and thinks. 'What if I tried something different?' {She/He} wonders, trying to understand why {her/his} students aren't paying attention.",
+      "illustration_prompt": "The child sits down among the stuffed animals, looking thoughtful, perhaps gently observing one of the 'students' playing."
+    },
+    {
+      "beat": "Then, {name} notices the little bunny trying to show {her/him} a colorful block. Instead of talking, {name} bends down and listens, really listens, to the bunny's quiet 'squeak'.",
+      "illustration_prompt": "The child is sitting on the floor, leaning in to 'listen' intently to a bunny stuffed animal holding up a colorful block. Other animals are still, curious."
+    },
+    {
+      "beat": "And when {name} truly listens to the bunny, {she/he} realizes the bunny wants to learn about *that* color! Slowly, the other animals quiet down, curious about what {name} is doing.",
+      "illustration_prompt": "The child points to the colorful block, smiling, as the bunny looks happy. The other stuffed animals are now looking at the child, their attention caught."
+    },
+    {
+      "beat": "Now, {name} knows! Being a good teacher means listening, too. {She/He} asks each stuffed animal what they want to learn, and the class becomes a happy hub of learning and sharing. What a smart teacher {name} is!",
+      "illustration_prompt": "The child is actively interacting with several stuffed animals, listening to their 'ideas' and responding with gestures and smiles. The classroom scene is now harmonious and engaged."
+    },
+    {
+      "beat": "At the end of the day, {name} gives all {her/his} wonderful students a gentle hug. {She/He} learned that listening makes teaching, and learning, so much fun for everyone!",
+      "illustration_prompt": "The child is giving a group hug to several stuffed animals, looking content and proud. The classroom is still tidy and inviting."
+    }
+  ],
+  "cover_scene": "The child, dressed in playful 'teacher' attire (maybe a small vest or glasses), stands confidently in front of a small chalkboard with a happy group of stuffed animal students. The background is a soft, light-filled room with open space for a title.",
+  "sample_pages": [
+    {
+      "text": "{name} sets up a 'classroom' in {her/his} room, carefully arranging chairs and a little table. This is going to be the best class ever, thinks {name}!",
+      "scene": "The child is meticulously arranging tiny chairs or blocks for the stuffed animals. The room is colorful and bright."
+    },
+    {
+      "text": "Then, {name} notices the little bunny trying to show {her/him} a colorful block. Instead of talking, {name} bends down and listens, really listens, to the bunny's quiet 'squeak'.",
+      "scene": "The child is sitting on the floor, leaning in to 'listen' intently to a bunny stuffed animal holding up a colorful block. Other animals are still, curious."
+    }
+  ],
+  "h1": "Personalized When I Grow Up: Teacher Book",
+  "meta_title": "Personalized Teacher Book for Kids | StoryBloom",
+  "meta_description": "Imagine your child as the star in a personalized book about being a teacher. Watch them discover the joy of teaching and the power of listening.",
+  "promise": "Your child will discover the fun and responsibility of being a teacher, learning the value of patience and listening.",
+  "story_summary": "This charming story invites your child into the role of a teacher, where they gather their favorite stuffed animals for a make-believe classroom. At first, teaching proves challenging when the 'students' don't seem to listen. Your child learns that being a good teacher also means being a good listener, making the classroom a happy place for everyone. It's a sweet exploration of empathy and the give-and-take of communication.",
+  "why_parents": [
+    "Learning about different careers sparks imagination and helps children understand the world around them. This book allows your child to step into the shoes of a teacher, exploring what that important role entails from an early age.",
+    "The story gently introduces the concept that effective communication goes both ways. Your child will see how listening to others, even their quietest 'squeaks,' can transform a challenging situation into a rewarding one, fostering empathy and patience."
+  ],
+  "for_grownups": [
+    "Ask your child: 'What did your child learn about being a good teacher?' This can lead to a discussion about listening.",
+    "Encourage your child to set up their own 'classroom' with stuffed animals after reading. Observe how they interact and listen to their 'students'.",
+    "Talk about a time when someone listened really well to your child, and how that felt."
+  ],
+  "faqs": [
+    {
+      "question": "What age is this personalized teacher book suitable for?",
+      "answer": "This book is designed for children aged 3 to 7 years old. The simple language and the story of your child teaching stuffed animals make it perfect for young readers and listeners."
+    },
+    {
+      "question": "Does the story teach children about specific school subjects?",
+      "answer": "While the story shows your child teaching about colors, the main lesson focuses on the experience of teaching and, more importantly, the skill of listening and understanding others, rather than academic subjects."
+    },
+    {
+      "question": "Is this book appropriate for children who are shy about school?",
+      "answer": "Absolutely. This book offers a playful and imaginative introduction to the idea of a classroom and the role of a teacher, which can help foster positive associations with learning and school in a comforting home setting."
+    }
+  ],
+  "image_alt": "Personalized teacher book cover featuring an illustrated child as the hero, standing in a playful classroom with stuffed animal students.",
+  "feed_title": "Personalized Teacher Book for Kids, Your Child Is the Hero",
+  "feed_description": "Ignite your child's imagination with this personalized 'When I Grow Up' book, where they become the star teacher! Your child will gather their beloved stuffed animals and embark on an exciting experience, learning what it takes to lead a classroom. The story tenderly explores the challenges of getting 'students' to listen and the ultimate triumph of understanding that being a great teacher also means being a great listener. With your child's name woven into every page, they'll see themselves as the capable and thoughtful hero who truly grasps the importance of empathy and communication. This book is a wonderful way to introduce the concept of different careers while nurturing important social-emotional understandings through active role-play. Perfect for ages 3-7, it's a story that celebrates patience, understanding, and the joy of teaching."
+}

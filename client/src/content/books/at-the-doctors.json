@@ -1,0 +1,116 @@
+{
+  "slug": "at-the-doctors",
+  "status": "live",
+  "title_pattern": "{name} at the Doctor's",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "going to the doctor book for kids",
+  "landing_page_slug": "books/at-the-doctors",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "A gentle, reassuring story about visiting the doctor for a checkup.",
+  "lesson_or_purpose": "To demystify a doctor's visit, explain common tools, and encourage bravery and cooperation.",
+  "tone": "Warm, reassuring, gentle, empowering",
+  "reading_level": "2-6 years (toddler to preschool)",
+  "keywords": [
+    "doctor visit",
+    "checkup",
+    "bravery",
+    "courage",
+    "healthcare",
+    "preschool",
+    "toddler"
+  ],
+  "illustration_guide": "Soft, friendly, and brightly colored illustrations. The setting is a clean, welcoming doctor's office with child-friendly decor. The color palette uses calming blues, greens, and yellows, with pops of brighter colors for doctor's tools. Recurring elements include a friendly doctor and a warm, supportive parent.",
+  "page_outline": [
+    {
+      "beat": "{name} and {her/his} grown-up arrive at the doctor's office. {name} might feel a little shy or curious.",
+      "illustration_prompt": "The child, holding a grown-up's hand, entering a cheerful waiting room with other friendly children and parents. The child looks a little unsure but curious."
+    },
+    {
+      "beat": "The doctor, a kind and friendly person, greets {name} with a smile and explains that it's time for a checkup. The doctor is a person of color.",
+      "illustration_prompt": "A warm-looking doctor with a friendly smile, greeting the child and a grown-up in the examination room. The room is tidy and bright."
+    },
+    {
+      "beat": "The doctor first asks {name} to stand on a scale. It makes a little beep! The doctor tells {name} how much {she/he} weighs.",
+      "illustration_prompt": "The child standing on a medical scale, looking down at the numbers with curiosity. The grown-up stands nearby, smiling. The doctor points to the scale."
+    },
+    {
+      "beat": "Next, the doctor measures {name}'s height with a tall ruler. Up, up, up! {name} is growing so big!",
+      "illustration_prompt": "The child standing against a height chart on the wall, looking up. The doctor gently places a headpiece on the child's head to measure. The grown-up watches."
+    },
+    {
+      "beat": "Then, the doctor uses a stethoscope. {She/He} asks {name} if {she/he} wants to hear {her/his} own heartbeat. Thump-thump, thump-thump!",
+      "illustration_prompt": "The child wearing a stethoscope, listening to their own chest with a surprised but happy expression. The doctor is smiling, holding the other end of the stethoscope near the child's chest."
+    },
+    {
+      "beat": "The doctor looks in {name}'s ears with a tiny light. It feels a little funny, but {name} holds still.",
+      "illustration_prompt": "The child sitting on the examination table, looking slightly to the side as the doctor gently looks into one of the child's ears with an otoscope. The child is holding still and looks calm."
+    },
+    {
+      "beat": "Now for the mouth! The doctor asks {name} to open wide and say 'Aah!' {name} takes a big breath and does it, brave and strong.",
+      "illustration_prompt": "The child opening their mouth wide, with the doctor looking inside with a tongue depressor and a small light. The child looks determined and brave."
+    },
+    {
+      "beat": "The doctor gives {name}'s knees a soft tap. A little tap, and {name}'s leg gives a tiny kick! All good!",
+      "illustration_prompt": "The child sitting on the examination table, giggling as the doctor gently taps their knee with a reflex hammer. The child's leg is kicking slightly."
+    },
+    {
+      "beat": "The doctor smiles at {name}. Everything looks perfectly healthy and strong! {name} feels very proud.",
+      "illustration_prompt": "The doctor giving a thumbs-up to the child, who is beaming with pride on the examination table. The grown-up is also smiling happily."
+    },
+    {
+      "beat": "As {name} leaves the office, {she/he} feels happy and brave. Going to the doctor can be fun when you know what to expect!",
+      "illustration_prompt": "The child happily skipping out of the doctor's office with the grown-up, perhaps holding a sticker or a small toy. The child looks confident and cheerful."
+    }
+  ],
+  "cover_scene": "The child, dressed in everyday clothes, is sitting on an examination table, smiling confidently as a friendly doctor listens to their heart with a stethoscope. The background is a soft, welcoming doctor's office with gentle light.",
+  "sample_pages": [
+    {
+      "text": "{name} and {her/his} grown-up arrive at the doctor's office. {name} might feel a little shy or curious.",
+      "scene": "The child, holding a grown-up's hand, entering a cheerful waiting room with other friendly children and parents. The child looks a little unsure but curious."
+    },
+    {
+      "text": "The doctor asks {name} to open wide and say 'Aah!' {name} takes a big breath and does it, brave and strong.",
+      "scene": "The child opening their mouth wide, with the doctor looking inside with a tongue depressor and a small light. The child looks determined and brave."
+    }
+  ],
+  "h1": "Personalized Going to the Doctor Book for Kids",
+  "meta_title": "Personalized Doctor Visit Book for Kids | StoryBloom",
+  "meta_description": "Prepare your child for a doctor's visit with a personalized book. Your child is the hero, learning about checkups and feeling brave.",
+  "promise": "Prepare your child for a doctor's visit with a reassuring and empowering story.",
+  "story_summary": "Visiting the doctor can be a big event for a little one. This personalized story follows your child through a routine checkup, explaining each step in a friendly and gentle way. From weighing and measuring to listening with a stethoscope, your child learns what to expect. This book shows your child being brave and cooperating, making the doctor's visit a positive experience.",
+  "why_parents": [
+    "A trip to the doctor can sometimes feel a little scary or unknown for young children. This book helps by demystifying the experience, explaining common tools and procedures in simple, reassuring language. When your child understands what's happening, it can ease their worries and make the visit smoother for everyone.",
+    "Empowering your child to be brave and cooperative during a checkup is a wonderful life skill. This story celebrates your child's actions, showing them making choices to be still, open wide, or hold still, reinforcing their agency and courage. It turns a potentially anxious situation into an opportunity for growth and pride."
+  ],
+  "for_grownups": [
+    "Before reading, talk with your child about their own doctor's office. 'What color is the waiting room? Have you seen a scale there?'",
+    "As you read, pause and ask your child, 'Which part do you think is the silliest?' or 'Which part do you think you would be extra brave for?'",
+    "After the story, practice being the doctor and patient at home. Use a spoon as a tongue depressor or a paper towel roll as a stethoscope to make it fun."
+  ],
+  "faqs": [
+    {
+      "question": "What does this book explain about a doctor's visit?",
+      "answer": "This book gently walks your child through a typical doctor's checkup, explaining common procedures like being weighed and measured, and the uses of tools like the stethoscope and otoscope. It aims to make the experience feel familiar and less daunting."
+    },
+    {
+      "question": "Is this book only for a child's very first doctor's visit?",
+      "answer": "Not at all! While it's perfect for a first visit, it's also wonderfully reassuring for any routine checkup. It helps reinforce positive feelings about healthcare and can become a familiar comfort before appointments."
+    },
+    {
+      "question": "How does this book help my child feel brave?",
+      "answer": "Your child is the active hero in the story, making choices to be brave and cooperative during the checkup. By seeing themselves successfully navigate the visit, and understanding what to expect, the book builds confidence and empowers your child to face their own appointments with courage."
+    }
+  ],
+  "image_alt": "Personalized going to the doctor book cover featuring an illustrated child as the hero getting their heart listened to by a friendly doctor.",
+  "feed_title": "Personalized Doctor Checkup Book for Kids, Your Child Is the Hero",
+  "feed_description": "Prepare your little one for their next healthcare adventure with a personalized storybook where your child is the star! This warm and reassuring book guides your child through a typical doctor's visit, explaining each step of a routine checkup in a gentle, easy-to-understand way. Your child will learn about the friendly tools the doctor uses, from the scale and measuring stick to the stethoscope. The story empowers your child by showing them making brave choices to be cooperative during the checkup, helping to ease any worries they might have. It's designed to make an unknown experience familiar and positive, building confidence and fostering a sense of pride in their courage. This story reinforces that healthcare visits are important and can even be an interesting experience when your child knows what to expect. Perfect for toddlers and preschoolers, it's a wonderful tool for parents to start conversations about health and well-being."
+}

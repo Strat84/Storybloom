@@ -1,0 +1,114 @@
+{
+  "slug": "balance-beam",
+  "status": "live",
+  "title_pattern": "{name} on the Balance Beam",
+  "category": "adventures",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized gymnastics book",
+  "landing_page_slug": "books/balance-beam",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "Wobble, fall, and find your balance again!",
+  "lesson_or_purpose": "Embracing perseverance and understanding that mistakes are part of learning.",
+  "tone": "Encouraging, active, and inspiring.",
+  "reading_level": "Ages 4-9",
+  "keywords": [
+    "personalized gymnastics book",
+    "balance beam",
+    "perseverance",
+    "practice",
+    "growth mindset"
+  ],
+  "illustration_guide": "A bright, clean gymnastics gym setting with colorful mats and equipment. The palette is vibrant with warm pastels and bright primary accents. The child is the recurring hero, wearing a comfortable gymnastics leotard or activewear, with expressions reflecting their journey from uncertainty to joy.",
+  "page_outline": [
+    {
+      "beat": "{name} loves to watch gymnasts twirl and leap. But the balance beam looks so high! {She/He} dreams of walking across it with grace.",
+      "illustration_prompt": "The child, dressed in activewear, stands at the edge of a gymnastics mat, looking up at a balance beam with a thoughtful expression. Other children are faintly visible practicing in the background."
+    },
+    {
+      "beat": "Today is the day! With a deep breath, {name} steps onto the long, narrow beam. It wobbles just a tiny bit, and {name} feels a jiggle in {her/his} knees.",
+      "illustration_prompt": "The child is carefully stepping onto a balance beam, one foot up, looking a little nervous but determined. A friendly adult (coach or parent) stands nearby, smiling encouragingly."
+    },
+    {
+      "beat": "Step, step, wobble... and whoosh! Down goes {name} onto the soft mat below. It happened so fast! {name} shrugs and stands up again.",
+      "illustration_prompt": "The child has just fallen off the beam onto a colorful mat, landing softly. {She/He} looks surprised but unharmed, starting to get up."
+    },
+    {
+      "beat": "{name} tries again, and again! Wobble, stumble, fall. It’s hard work, and {name} feels a little frustrated when {she/he} lands on the mat for the fifth time.",
+      "illustration_prompt": "The child is on the mat looking slightly frustrated, arms crossed. The balance beam is in the background, seeming challenging. Multiple instances of the child falling off the beam are subtly hinted at through motion lines or sequence."
+    },
+    {
+      "beat": "A kind coach watches {name}. \"Every fall is just practice, {name},\" the coach says. \"It's a chance to learn something new about balance.\"",
+      "illustration_prompt": "A friendly, encouraging adult (coach) kneels beside the child, gently gesturing towards the beam. The child looks thoughtful, listening."
+    },
+    {
+      "beat": "{name} thinks about this. Is falling really practice? Maybe every wobble tells {her/him} what to do next time. {name} begins to count the falls, not as mistakes, but as practice points.",
+      "illustration_prompt": "Close-up on the child's face, a lightbulb moment. {She/He} looks determined, a small smile forming. Numbers (1, 2, 3) float softly in the air around {her/him}, like 'practice points.'"
+    },
+    {
+      "beat": "Back on the beam, {name} is ready. Wobble one! \"Aha!\" thinks {name}. \"My foot needs to be flatter.\" {She/He} adjusts {her/his} position.",
+      "illustration_prompt": "The child is on the beam, wobbling slightly but with a focused, analytical expression. The child's foot is clearly visible, making an adjustment."
+    },
+    {
+      "beat": "Wobble two! \"My arms can help me stay steady, {name} remembers.\" Up go {her/his} arms, like wings, helping {her/him} keep balance for a moment longer.",
+      "illustration_prompt": "The child is walking on the beam, arms outstretched for balance, looking more confident. {She/He} is still focused but less anxious."
+    },
+    {
+      "beat": "Each step is a new lesson for {name}. {She/He} doesn't make it all the way across yet, but {name} walks further than before! And when {she/he} falls, it’s just another practice point.",
+      "illustration_prompt": "The child is successfully walking a significant distance along the beam, looking proud. The coach or parent in the background gives a thumbs-up. The mat is visible below, but the child is not falling."
+    },
+    {
+      "beat": "{name} smiles, proud of {her/his} hard work and all the practice points {she/he} earned today. The balance beam is still tricky, but {name} knows that with practice, {she/he} will shine!",
+      "illustration_prompt": "The child stands confidently beside the balance beam, beaming with pride and accomplishment, perhaps striking a happy pose. The gym is bright and inviting."
+    }
+  ],
+  "cover_scene": "The child, in a bright gymnastics leotard or activewear, is balancing on a low balance beam, arms outstretched with a confident and happy expression. The background is a blurred, cheerful gymnastics gym with open space at the top.",
+  "sample_pages": [
+    {
+      "text": "{name} tries again, and again! Wobble, stumble, fall. It’s hard work, and {name} feels a little frustrated when {she/he} lands on the mat for the fifth time.",
+      "scene": "The child is on the mat looking slightly frustrated, arms crossed. The balance beam is in the background, seeming challenging. Multiple instances of the child falling off the beam are subtly hinted at through motion lines or sequence."
+    },
+    {
+      "text": "Each step is a new lesson for {name}. {She/He} doesn't make it all the way across yet, but {name} walks further than before! And when {she/he} falls, it’s just another practice point.",
+      "scene": "The child is successfully walking a significant distance along the beam, looking proud. The coach or parent in the background gives a thumbs-up. The mat is visible below, but the child is not falling."
+    }
+  ],
+  "h1": "Personalized Gymnastics Book: Your Child on the Balance Beam",
+  "meta_title": "Personalized Gymnastics Book | StoryBloom",
+  "meta_description": "Inspire your child with a personalized gymnastics book where your child is the star learning that every fall is part of practice.",
+  "promise": "Watch your child learn the joy of perseverance and balance, making every fall a step toward success.",
+  "story_summary": "In this inspiring personalized story, your child steps onto the balance beam for the very first time. Despite repeated wobbles and falls, your child learns a new way to think about practice. With the help of a kind coach, your child discovers that every stumble is just another chance to learn and grow. This book celebrates the power of trying again.",
+  "why_parents": [
+    "Learning to embrace challenges and persist through them is a foundational lesson for any new activity. This book gently introduces the concept of a growth mindset, showing your child that wobbles and falls on the balance beam aren't failures but valuable steps in the learning process. It's about finding joy in the journey of building balance and confidence, not just the destination.",
+    "For children learning new physical activities, like balancing on a beam or even riding a bike, falling can be disheartening. This story offers a positive reframing, helping your child understand that mastering movement includes wobbles and getting back up. It empowers them to keep trying, fostering resilience and self-confidence as they develop their coordination."
+  ],
+  "for_grownups": [
+    "Talk about a time you tried something new and found it difficult. How did you keep trying? What did you learn from your 'falls' or mistakes?",
+    "When your child encounters a challenge, ask them: 'What practice points are you earning right now?' This helps shift their perspective from frustration to learning.",
+    "Emphasize that the most important part of the story is your child's willingness to keep trying, not whether they mastered the beam perfectly."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book teach actual gymnastics moves?",
+      "answer": "This book is a story of encouragement and perseverance, not a technical guide to gymnastics. It focuses on the emotional journey of learning to balance and the importance of practice, rather than specific gymnastic techniques."
+    },
+    {
+      "question": "Is the story only about gymnastics?",
+      "answer": "While the setting is a gymnastics gym and the challenge is the balance beam, the core message about counting falls as practice applies to any new endeavor your child might pursue, from drawing to reading to building with blocks."
+    },
+    {
+      "question": "Can I choose a different sport for my child?",
+      "answer": "This particular story is set in a gymnastics gym and features a balance beam. We have other personalized books that explore different activities, but this one is specifically about the gymnastics experience."
+    }
+  ],
+  "image_alt": "Personalized gymnastics book cover featuring an illustrated child hero balancing on a balance beam with a confident smile.",
+  "feed_title": "Personalized Gymnastics Book for Kids, Your Child Is the Hero on the Balance Beam",
+  "feed_description": "Step into a world of active fun with a personalized gymnastics book where your child is the star! In 'Your Child on the Balance Beam,' your child embarks on an exciting journey in a vibrant gymnastics gym. Like any new adventure, balancing on the beam presents its challenges. Your child will experience wobbles and tumbles, but with a supportive coach, they learn a powerful secret: every fall is just practice! This inspiring story encourages perseverance and teaches your child that mistakes are valuable steps toward mastering new movements. Watch as your child learns to embrace the process of learning, building resilience and confidence with every attempt. It's a joyful tale that celebrates trying again and discovering the power within to keep going. Perfect for encouraging a growth mindset and a love for active exploration, this personalized book makes your child the hero of their own inspiring tale."
+}

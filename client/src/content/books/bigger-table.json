@@ -1,0 +1,117 @@
+{
+  "slug": "bigger-table",
+  "status": "live",
+  "title_pattern": "{name}'s Bigger Table",
+  "category": "family-changes",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book about blended family stepfamily for kids",
+  "landing_page_slug": "books/bigger-table",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "A warm story of growing a family and making space for everyone.",
+  "lesson_or_purpose": "To help children navigate the feelings and practicalities of a blended family, emphasizing their active role in making it feel like home.",
+  "tone": "Gentle, empathetic, hopeful, empowering.",
+  "reading_level": "Ages 4-9",
+  "keywords": [
+    "blended family",
+    "stepfamily",
+    "new siblings",
+    "stepbrothers",
+    "stepsisters",
+    "family changes",
+    "remarriage",
+    "family book for kids"
+  ],
+  "illustration_guide": "Setting: A cozy, modern home. Focus on the dining room, kitchen, and living areas. Palette: Warm, inviting colors – soft yellows, gentle greens, sky blues, with pops of brighter, cheerful accents. Recurring Visual Elements: A large wooden dining table that initially looks too big/sparse, then gradually becomes adorned with more family items, food, and people. Boxes moving in at the start. Family photo frames appear on walls.",
+  "page_outline": [
+    {
+      "beat": "{name}'s house feels different. Mom's new partner and {her/his} children are moving in. {name} watches the boxes arrive, feeling a mix of excitement and nerves about this big change for {her/him}.",
+      "illustration_prompt": "The child watches from a doorway as adults carry moving boxes into a house. New children, slightly older or younger, stand curiously nearby. The child has a thoughtful expression."
+    },
+    {
+      "beat": "The first dinner together is a little quiet. Everyone sits at the big table, but no one quite knows what to say. {name} picks at {her/his} food, feeling a bit lost in all the new faces around the table.",
+      "illustration_prompt": "The child sits at a large dining table with new adults and children. All characters are looking down at their plates or politely at each other, with slight awkwardness. The child looks a little small in a big chair."
+    },
+    {
+      "beat": "{name} looks around and sees that the new siblings also seem a little shy, and Mom and Dad are trying hard to make everyone comfortable. {name} realizes it's new for everyone, not just for {her/him}.",
+      "illustration_prompt": "The child observes the new siblings across the table, who also look a bit reserved. The adults are smiling encouragingly, trying to facilitate conversation. The child has a moment of realization."
+    },
+    {
+      "beat": "During a quiet moment, {name} remembers a fun game {she/he} used to play at dinner. Maybe a little laughter could help? {name} thinks of something small {she/he} could do.",
+      "illustration_prompt": "The child is sitting alone for a moment, perhaps at the table or on a couch, deep in thought. A thought bubble or subtle visual cue shows a memory of a fun, familiar family game."
+    },
+    {
+      "beat": "{name} gathers {her/his} courage and suggests a 'silly sound' game for dessert. Everyone looks surprised, but then a new sister giggles, and a brother makes a funny noise for {name}.",
+      "illustration_prompt": "The child stands up slightly at the dinner table, looking a bit nervous but determined. Other family members, including the new siblings, look at the child with surprised but curious expressions. One new sibling starts to giggle."
+    },
+    {
+      "beat": "The game helps a little, but the next dinner is still a bit stiff. {name} sits next to a new sibling, feeling like there's still a big space between them, even if the table is full.",
+      "illustration_prompt": "The child and a new sibling are sitting side-by-side at the dining table. There's a subtle sense of distance or polite quiet between them, despite the table being full of food and other family members."
+    },
+    {
+      "beat": "{name} decides it's time to truly make more room. {She/He} asks Mom and Dad if they can all work together to make a special family cookbook, with recipes from everyone, including {name}'s favorite.",
+      "illustration_prompt": "The child approaches Mom and Dad, who are sitting together, with a hopeful and eager expression. The child is holding a drawing of a cookbook or pointing towards the kitchen, suggesting an activity."
+    },
+    {
+      "beat": "Everyone loves the idea! The new siblings excitedly shared their favorite dishes, and {name} helped them write down the ingredients. The kitchen filled with happy chatter.",
+      "illustration_prompt": "The child and new siblings are in a cheerful kitchen, gathered around a counter. The child holds a pen and paper, listening to a new sibling excitedly describe a recipe. Happy, engaged expressions on everyone's faces."
+    },
+    {
+      "beat": "The next dinner, they try a recipe from the new cookbook. It's not perfect, but everyone shares stories about their food traditions. {name} feels a warm feeling inside, like the table has grown bigger and brighter.",
+      "illustration_prompt": "The family is at the dinner table, eating a dish from the new cookbook. Some family members are smiling and talking, gesturing as they share stories. The child looks content and warm, feeling a strong connection."
+    },
+    {
+      "beat": "Now, dinner is a joyful time. {name} often laughs with {her/his} new siblings, sharing jokes and stories. {name} helped make this a real family home, where everyone belongs at the bigger, happier table.",
+      "illustration_prompt": "The family is happily gathered around the dinner table, full of food and decorations. The child is laughing openly with new siblings, their faces close together, sharing a joke. Everyone looks joyful and connected."
+    }
+  ],
+  "cover_scene": "The child as the hero, smiling and holding hands with two new siblings, standing in front of a warm, inviting house with a large, welcoming front door. Calm open sky across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "The first dinner was quiet. Everyone sat at the big table, but no one quite knew what to say. {name} picked at {her/his} food, feeling a bit lost in all the new faces.",
+      "scene": "The child sits at a large dining table with new adults and children. All characters are looking down at their plates or politely at each other, with slight awkwardness. The child looks a little small in a big chair."
+    },
+    {
+      "text": "Everyone loved the idea! The new siblings excitedly shared their favorite dishes, and {name} helped them write down the ingredients. The kitchen filled with happy chatter.",
+      "scene": "The child and new siblings are in a cheerful kitchen, gathering around a counter. The child holds a pen and paper, listening to a new sibling excitedly describe a recipe. Happy, engaged expressions on everyone's faces."
+    }
+  ],
+  "h1": "Personalized Blended Family Book for Your Child",
+  "meta_title": "Personalized Blended Family Book for Kids | StoryBloom",
+  "meta_description": "Help your child navigate new family structures with this personalized story where they become the hero building a new home.",
+  "promise": "Your child becomes the hero making a new blended family feel like home.",
+  "story_summary": "When your child's family grows with new siblings and a new parent, things can feel a little different at first. The house is full of new faces, and dinner is quiet. But your child realizes that everyone is adjusting, and a few thoughtful ideas can make a big difference. This story celebrates the journey of building a new, bigger family together.",
+  "why_parents": [
+    "Blending families is a significant life change for children, often bringing a mix of excitement, confusion, and uncertainty. This story provides a gentle way to explore these complex feelings, showing your child that it's normal to feel unsure while also empowering them to be an active participant in building their new family.",
+    "It's important for children to understand that they play a key role in adapting to new family dynamics. This book highlights how small actions and open communication can transform an unfamiliar situation into a warm and welcoming home for everyone, helping your child feel secure and valued in their new family structure."
+  ],
+  "for_grownups": [
+    "Talk with your child about what they might be feeling when new family members arrive. What excites them? What makes them feel a bit nervous?",
+    "Discuss how everyone in a new family, including the grown-ups, needs time to adjust and find their place. How can you all support each other through this process?",
+    "Ask your child what 'making space' means to them in your family. Are there new family traditions they'd like to suggest?"
+  ],
+  "faqs": [
+    {
+      "question": "How does this book address the challenges of a blended family?",
+      "answer": "The story gently acknowledges the initial awkwardness and adjustment period that can come with a blended family. It focuses on your child's proactive role in creating a welcoming and cohesive environment, helping them understand that their actions can positively impact the new family dynamic."
+    },
+    {
+      "question": "Is this book suitable if my child's parents divorced?",
+      "answer": "Yes, this book is designed to support children adapting to a new parent and new siblings, which often follows a divorce or separation. It focuses on the positive journey of creating a new family unit and helps your child feel secure in their evolving family structure."
+    },
+    {
+      "question": "Does this book offer solutions for specific blended family issues?",
+      "answer": "The book provides a narrative about belonging and active participation rather than prescriptive solutions. It aims to empower your child by showing them how their initiatives can foster connection and comfort within their new family."
+    }
+  ],
+  "image_alt": "Personalized blended family book cover featuring an illustrated child as the hero, sitting happily with new siblings and parents around a big dinner table.",
+  "feed_title": "Personalized Blended Family Book for Kids | Your Child Is the Hero",
+  "feed_description": "Help your child adjust to a new stepfamily with 'Your Child's Bigger Table,' a personalized picture book where your child is the star! This story gently explores the feelings that come with new siblings and a new parent joining the family. Your child watches as new boxes arrive, and the house fills with new faces. They experience the initial quiet and uncertainty at family dinners, then bravely decide to make a difference. From suggesting fun games to helping create a family cookbook, your child actively participates in turning a house into a warm, welcoming home for everyone. This book beautifully illustrates how small actions can create big connections, showing your child how valued and important they are in building a happy, blended family. It's a supportive tool for parents navigating family changes, offering a story of hope, acceptance, and the joy of a growing family."
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "spills-the-paint",
+  "status": "live",
+  "title_pattern": "{name} Spills the Paint",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about making mistakes for kids",
+  "landing_page_slug": "books/spills-the-paint",
+  "example": {
+    "name": "Elijah",
+    "pronouns": "he",
+    "look": "dark brown skin, short black curls, round glasses"
+  },
+  "tagline": "A little mistake can lead to a big, beautiful discovery!",
+  "lesson_or_purpose": "Helps children understand that mistakes are opportunities for new ideas and creative solutions, fostering resilience and flexible thinking.",
+  "tone": "Encouraging, creative, positive, gentle",
+  "reading_level": "3-7 years",
+  "keywords": [
+    "making mistakes",
+    "creativity",
+    "problem solving",
+    "art",
+    "resilience",
+    "learning from mistakes"
+  ],
+  "illustration_guide": "A bright, whimsical art studio setting with lots of art supplies. The color palette is vibrant and cheerful, with primary and secondary colors prominent. Recurring elements include art tools, canvases, and various splashes and drips of paint. The child's art project starts neat and becomes more abstract/mixed media.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} happily preparing to paint a beautiful picture, perhaps a favorite animal or scene, with a neat array of paint pots.",
+      "illustration_prompt": "The child sits at a brightly lit art table, smiling, holding a paintbrush over a pristine canvas, surrounded by neatly arranged paint pots."
+    },
+    {
+      "beat": "{name} carefully dips the brush into a vibrant blue, imagining the sky or water {she/he} will create.",
+      "illustration_prompt": "Close-up of the child's hand holding a paintbrush, dipping it into a pot of bright blue paint. The child's face is focused and happy in the background."
+    },
+    {
+      "beat": "Oops! A wobbly elbow, a tiny bump, and the blue paint pot tips over! A big splash of blue spreads across the table and drips onto {name}'s carefully started painting.",
+      "illustration_prompt": "A blue paint pot has tipped over. A large splash of blue paint spreads across the table and partially covers the child's canvas. The child looks surprised, eyes wide."
+    },
+    {
+      "beat": "{name} looks at the mess, and at {her/his} picture, feeling a little sad and disappointed that the painting is now ruined.",
+      "illustration_prompt": "The child looks down at the spilled paint and the now-messy canvas, with a slightly crestfallen expression. A few tears might be welling up in their eyes."
+    },
+    {
+      "beat": "A grown-up (Mom, Dad, Grandma) comes over, sees the spill, and instead of being upset, smiles. 'Oh, {name}, what a happy accident!'",
+      "illustration_prompt": "An adult (Mom/Dad/Grandma) kneels beside the child, gently touching their arm, smiling warmly at the spill. The child still looks a little sad."
+    },
+    {
+      "beat": "The grown-up suggests to {name} that maybe the blue splash isn't a mistake at all, but a brand new start, a cool new background!",
+      "illustration_prompt": "The adult points to the spilled paint on the canvas with an encouraging gesture, looking at the child. The child looks at the paint, starting to think."
+    },
+    {
+      "beat": "Inspired, {name} picks up another brush and begins to swirl the blue paint, turning the 'mistake' into flowing waves or fluffy clouds.",
+      "illustration_prompt": "The child now has a small smile, carefully using a brush to spread the blue paint on the canvas, incorporating the spill into a new design."
+    },
+    {
+      "beat": "{name} adds more colors, thinking creatively about how to make the blue spill part of a new, even more exciting picture.",
+      "illustration_prompt": "The child is actively painting, adding vibrant new colors over and around the original blue spill, transforming the picture into something abstract and lively."
+    },
+    {
+      "beat": "With every stroke, {name} feels happier, seeing how a 'whoops!' became a 'wow!' What a creative new way to use paint!",
+      "illustration_prompt": "The child's face is beaming with pride and concentration as they add final touches to a vibrant, abstract painting, which clearly incorporates the original blue spill."
+    },
+    {
+      "beat": "Finally, {name} holds up the finished painting, a unique masterpiece that started with a spill, proving that sometimes, the best art comes from unexpected places.",
+      "illustration_prompt": "The child proudly holds up a finished, colorful, and unique abstract painting. The art studio in the background is still a bit messy, but the child is triumphant."
+    }
+  ],
+  "cover_scene": "The child, paintbrush in hand, stands proudly next to a large, abstract painting on an easel, which prominently features a beautiful blue splash. The child is smiling, with a calm, open sky above. Art supplies are scattered playfully around.",
+  "sample_pages": [
+    {
+      "text": "Oops! A wobbly elbow, a tiny bump, and the blue paint pot tips over! A big splash of blue spreads across the table and drips onto {name}'s carefully started painting.",
+      "scene": "A blue paint pot has tipped over. A large splash of blue paint spreads across the table and partially covers the child's canvas. The child looks surprised, eyes wide."
+    },
+    {
+      "text": "Inspired, {name} picks up another brush and begins to swirl the blue paint, turning the 'mistake' into flowing waves or fluffy clouds.",
+      "scene": "The child now has a small smile, carefully using a brush to spread the blue paint on the canvas, incorporating the spill into a new design."
+    }
+  ],
+  "h1": "Personalized Book About Making Mistakes for Kids",
+  "meta_title": "Personalized Book on Mistakes & Creativity | StoryBloom",
+  "meta_description": "Turn a 'whoops!' into a 'wow!' in this personalized story about making mistakes and finding creative solutions. Your child is the hero!",
+  "promise": "Watch your child discover that mistakes are just opportunities for brand new, amazing ideas.",
+  "story_summary": "One sunny afternoon, your child is busy painting a beautiful picture. Suddenly, a little blue paint pot tips over, creating a big splash and making your child feel sad that their artwork is ruined. But with a grown-up's encouragement, your child learns that this 'mistake' can be a wonderful new beginning. See how your child uses creativity to transform the spill into something even more unique and beautiful.",
+  "why_parents": [
+    "Learning to cope with mistakes is a vital life skill for young children. This book gently shows your child that spills and errors aren't the end of a project, but rather a chance to think differently and create something new. It helps them build resilience when things don't go as planned.",
+    "This story encourages flexible thinking and creativity. By seeing their own image transform a 'problem' into an exciting new idea, your child will feel empowered to approach challenges with a positive mindset, understanding that sometimes the most unexpected moments lead to the best discoveries."
+  ],
+  "for_grownups": [
+    "After reading, ask your child, 'What happened when your child spilled the paint? How did your child transform the artwork?'",
+    "Encourage your child by saying, 'Mistakes happen to everyone, even grown-ups! What's a time you made a little mistake and found a new way to fix it or make something different?'",
+    "Try a similar activity: Give your child paper and paint, then deliberately make a small, colorful 'spill' yourself and ask, 'How can we turn this splash into part of a new picture?'"
+  ],
+  "faqs": [
+    {
+      "question": "What age is this book best for?",
+      "answer": "This book is designed for children aged 3-7 years. The simple, encouraging language and clear story arc make it accessible and captivating for preschoolers and early elementary children."
+    },
+    {
+      "question": "Does this book teach about art techniques?",
+      "answer": "While the story is set in an art studio and involves painting, its primary focus is on resilience and creative problem-solving rather than specific art techniques. It inspires an adventurous approach to art and life."
+    },
+    {
+      "question": "Can I choose the grown-up who helps my child in the story?",
+      "answer": "The story mentions 'a grown-up' (Mom, Dad, Grandma) who helps your child. The book does not allow customization of this character beyond the general role, ensuring the focus remains on your child's journey."
+    }
+  ],
+  "image_alt": "Personalized book about making mistakes for kids cover featuring an illustrated child as the hero proudly displaying a colorful, abstract painting.",
+  "feed_title": "Personalized Book About Making Mistakes & Creativity for Kids, Your Child Is the Hero",
+  "feed_description": "Discover a vibrant, personalized story where your child learns that 'whoops!' moments can lead to 'wow!' creations. In this book, your child is the star artist who encounters an unexpected paint spill. Instead of getting discouraged, your child bravely navigates this challenge, with encouragement, and transforms the 'mistake' into a unique and beautiful work of art. This story for ages 3-7 helps children understand that mistakes are opportunities for creative thinking and new beginnings. It builds resilience, fosters a positive attitude towards challenges, and celebrates imagination. Watch your child's confidence grow as they see themselves as the hero who solves a problem with cleverness and creativity. A wonderful gift for young artists and problem-solvers, this book shows that sometimes the best discoveries come from unexpected places."
+}

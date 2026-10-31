@@ -1,0 +1,118 @@
+{
+  "slug": "reads-from-the-torah",
+  "status": "live",
+  "title_pattern": "{name} Reads from the Torah",
+  "category": "faith",
+  "age_range": "9-13",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "bar mitzvah or bat mitzvah gift book personalized",
+  "landing_page_slug": "books/reads-from-the-torah",
+  "example": {
+    "name": "Eli",
+    "pronouns": "he",
+    "look": "light olive skin, curly dark hair"
+  },
+  "tagline": "Celebrate a sacred journey, a personal triumph, and a cherished community milestone.",
+  "lesson_or_purpose": "To celebrate and commemorate the significant journey and achievement of a child's Bar or Bat Mitzvah, emphasizing personal growth, commitment to tradition, and community connection.",
+  "tone": "Celebratory, respectful, encouraging, proud.",
+  "reading_level": "9-13",
+  "keywords": [
+    "bar mitzvah",
+    "bat mitzvah",
+    "personalized",
+    "Jewish",
+    "gift",
+    "Torah",
+    "tradition",
+    "celebration",
+    "milestone"
+  ],
+  "illustration_guide": "Setting: A welcoming, modern synagogue interior and a warm, inviting home. The celebration takes place in a community hall. Palette: Warm blues, soft golds, earthy browns, and natural greens, with touches of vibrant celebratory colors. Recurring visual elements: Subtle Jewish star motifs, stylized Hebrew script elements in books, warm lighting, community members with diverse ages and appearances. Torah scrolls are depicted respectfully and accurately.",
+  "page_outline": [
+    {
+      "beat": "The special day was coming! A Bar Mitzvah or Bat Mitzvah, a time for {name} to stand tall. {name} thought about all the history and family stories connected to this important moment.",
+      "illustration_prompt": "The child is sitting with a thoughtful expression, looking at a family photo or an old book, perhaps a subtle Jewish star or menorah in the background."
+    },
+    {
+      "beat": "The first step was learning. {name} began to study the sacred text, sometimes called Torah or Haftarah, with a kind teacher. Every new word was a step on {her/his} journey.",
+      "illustration_prompt": "The child is sitting at a table with a tutor (an adult figure), looking at an open book with Hebrew-like script. The child looks engaged."
+    },
+    {
+      "beat": "Day after day, {name} practiced chanting the ancient words. Sometimes {she/he} made a mistake, but {she/he} tried again, listening closely to the rhythm and melody. {name} was determined!",
+      "illustration_prompt": "The child is standing alone in a practice room, holding a printed sheet, eyes closed, concentrating on chanting. Music notes subtly float around."
+    },
+    {
+      "beat": "As the day grew closer, {name} felt a flutter of nerves. So many people would be there, listening! But then {name} remembered all the hard work and support {she/he} had received.",
+      "illustration_prompt": "The child is looking out a window at a synagogue in the distance, a slight look of apprehension mixed with excitement on their face."
+    },
+    {
+      "beat": "The morning of the big day arrived! {name} put on a special outfit, carefully chosen for this occasion. The air hummed with happy anticipation as {name} joined {her/his} family.",
+      "illustration_prompt": "The child is getting dressed with help from a parent (e.g., buttoning a shirt or adjusting a tie/bow), smiling."
+    },
+    {
+      "beat": "At the synagogue, {name} saw friends and family from near and far. Their warm smiles filled the room, making {name} feel loved and supported. The community was here for {her/him}.",
+      "illustration_prompt": "The child is walking through the synagogue foyer, greeting various family members (Grandma, Dad, etc.) with hugs and smiles. The space feels welcoming and full."
+    },
+    {
+      "beat": "Then it was time. {name} walked with {her/his} family towards the Bimah, the special platform. The whole congregation watched as {she/he} took {her/his} place.",
+      "illustration_prompt": "The child is walking up steps to a platform (Bimah) in a synagogue, holding hands with a parent on one side and perhaps a Rabbi on the other, looking towards the congregation."
+    },
+    {
+      "beat": "Taking a deep breath, {name} began to chant the sacred text. Each word, each note, flowed from {her/him}. {name} had done it! {She/He} shared the wisdom of generations.",
+      "illustration_prompt": "The child is standing confidently at the podium on the Bimah, hands resting on an open Torah scroll or a large book, chanting with an expression of focus and strength. The congregation is visible, respectfully listening."
+    },
+    {
+      "beat": "When {name} finished, a wave of pride washed over {her/him}. The room erupted in warm applause and joyful shouts of \"Mazel Tov!\" {name} smiled, feeling a deep sense of accomplishment.",
+      "illustration_prompt": "The child is beaming, surrounded by family and the Rabbi on the Bimah, receiving congratulations. Confetti or small flowers might be gently falling."
+    },
+    {
+      "beat": "Later, at the celebration, {name} felt the warmth of family and community surrounding {her/him}. This day marked a new beginning, a time for {name} to continue growing and learning.",
+      "illustration_prompt": "The child is at a festive party, surrounded by smiling friends and family, holding a celebratory drink (non-alcoholic) or a piece of cake. Decorations are visible."
+    }
+  ],
+  "cover_scene": "The child, dressed in their special Bar/Bat Mitzvah outfit, standing proudly with an open (stylized) Torah scroll on a reading stand (Bimah). The background is a soft, inviting synagogue interior with a large stained-glass window allowing for an open top third.",
+  "sample_pages": [
+    {
+      "text": "Day after day, {name} practiced chanting the ancient words. Sometimes {she/he} made a mistake, but {she/he} tried again, listening closely to the rhythm and melody. {name} was determined!",
+      "scene": "The child is standing alone in a practice room, holding a printed sheet, eyes closed, concentrating on chanting. Music notes subtly float around."
+    },
+    {
+      "text": "Taking a deep breath, {name} began to chant the sacred text. Each word, each note, flowed from {her/him}. {name} had done it! {She/He} shared the wisdom of generations.",
+      "scene": "The child is standing confidently at the podium on the Bimah, hands resting on an open Torah scroll or a large book, chanting with an expression of focus and strength. The congregation is visible, respectfully listening."
+    }
+  ],
+  "h1": "Personalized Bar or Bat Mitzvah Celebration Book",
+  "meta_title": "Personalized Bar/Bat Mitzvah Book | StoryBloom",
+  "meta_description": "Celebrate your child's Bar or Bat Mitzvah with this personalized story. Your child is the hero of this special Jewish milestone book.",
+  "promise": "A meaningful and lasting keepsake that honors your child's dedication and commitment to their faith and community.",
+  "story_summary": "This story beautifully captures the journey to your child's Bar or Bat Mitzvah. From dedicated study and quiet practice to the momentous day itself, your child is the hero. It's a powerful story of preparation, courage, and the joyous celebration shared with family and friends, honoring a significant Jewish milestone.",
+  "why_parents": [
+    "The Bar and Bat Mitzvah ceremonies are profoundly significant rites of passage, marking a child's transition to a new level of responsibility and connection within their Jewish community. This book honors the extensive preparation and personal commitment your child undertakes, making them the central figure in their own inspiring story of faith.",
+    "At this age, children are developing a deeper understanding of their identity and heritage. This personalized book reinforces the values of tradition, learning, and community, celebrating not just the event, but the months of effort and growth that lead up to this cherished milestone."
+  ],
+  "for_grownups": [
+    "Talk about the importance of the Torah or Haftarah portion your child read. What lessons does it teach that are relevant today?",
+    "Share stories of your own Bar or Bat Mitzvah, or those of other family members. How has this tradition connected your family through generations?",
+    "Discuss with your child what it means to be an adult in the Jewish community. What new responsibilities or opportunities do they feel are open to them now?"
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for both Bar Mitzvahs and Bat Mitzvahs?",
+      "answer": "Yes, this story is designed to celebrate both Bar Mitzvah and Bat Mitzvah ceremonies. It focuses on the universal themes of study, preparation, and community celebration for this special Jewish milestone."
+    },
+    {
+      "question": "Does the story accurately reflect the Jewish ceremony?",
+      "answer": "We have carefully crafted the story to be respectful and accurate in its depiction of the Bar or Bat Mitzvah journey, including the study of sacred texts, the ceremony on the Bimah, and the community's joyous celebration."
+    },
+    {
+      "question": "What is the main message of this personalized book?",
+      "answer": "The main message is one of personal accomplishment, commitment to faith, and the strength found in community. It celebrates your child's dedication and their significant step into adulthood within their Jewish tradition."
+    }
+  ],
+  "image_alt": "Personalized Bar or Bat Mitzvah book cover featuring an illustrated child proudly holding a Torah scroll.",
+  "feed_title": "Personalized Bar or Bat Mitzvah Book for Kids, Your Child Is the Hero",
+  "feed_description": "Celebrate your child's momentous journey to becoming a Bar or Bat Mitzvah with a truly unique and personalized book from StoryBloom. This story of dedication and triumph transforms your child into the hero, guiding them through the dedicated months of study, the excitement, and the anticipation leading up to their special day. Your child will see themselves on every page, bravely preparing to chant from the sacred texts, surrounded by the loving support of family and community. This book beautifully captures the essence of this significant Jewish milestone, emphasizing personal growth, commitment to tradition, and the joyous celebration. It's a wonderful way to honor their hard work, courage, and the deep connection they forge with their heritage. A cherished keepsake, it tells your child's individual story of triumph and tradition, created just for them."
+}

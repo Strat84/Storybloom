@@ -1,0 +1,117 @@
+{
+  "slug": "eid-morning",
+  "status": "live",
+  "title_pattern": "{name}'s Eid Morning",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "varies",
+  "sensitive": false,
+  "main_keyword": "personalized eid book for kids",
+  "landing_page_slug": "books/eid-morning",
+  "example": {
+    "name": "Yusuf",
+    "pronouns": "he",
+    "look": "medium tan skin, short dark curly hair"
+  },
+  "tagline": "A joyous and respectful personalized story celebrating Eid morning.",
+  "lesson_or_purpose": "To celebrate the joy and traditions of Eid al-Fitr or Eid al-Adha, emphasizing community, gratitude, and the spirit of giving.",
+  "tone": "Joyful, celebratory, respectful, wholesome.",
+  "reading_level": "Ages 3-8, simple sentences, clear actions.",
+  "keywords": [
+    "eid",
+    "muslim",
+    "holiday",
+    "celebration",
+    "islam",
+    "giving",
+    "family",
+    "personalized"
+  ],
+  "illustration_guide": "Bright, warm, inviting palette with rich greens, golds, and blues. Illustrations should depict diverse Muslim families and communities. Recurring elements include crescent moons and stars subtly woven into patterns, and traditional Islamic architectural motifs in backgrounds. Scenes are set in a modern home and community spaces like a mosque or park.",
+  "page_outline": [
+    {
+      "beat": "The story opens on Eid morning, with {name} waking up to a sun-drenched room, filled with excitement and the promise of a special day. {She/He} can hear gentle sounds of family preparing.",
+      "illustration_prompt": "The child waking up in bed, stretching with a happy expression. Sunlight streams through a window, illuminating a crescent moon decoration on a wall. A new outfit is neatly folded on a chair."
+    },
+    {
+      "beat": "{name} gets ready for the day, putting on beautiful new clothes. {She/He} feels special and joyful in {her/his} festive outfit, ready to celebrate Eid.",
+      "illustration_prompt": "The child, dressed in a vibrant, new Eid outfit, looking in a mirror and smiling. A parent (Mom or Dad) stands nearby, admiring the child. The room is tidy and bright."
+    },
+    {
+      "beat": "{name} and {her/his} family head out to the Eid prayer. The path is filled with other families, all dressed in their finest, greeting each other warmly.",
+      "illustration_prompt": "The child, holding a parent's hand, walking alongside a diverse group of other families towards a community building or park for Eid prayer. Everyone is dressed in festive clothes, smiling and greeting each other."
+    },
+    {
+      "beat": "After prayer, {name} exchanges heartfelt greetings with family and friends, saying 'Eid Mubarak!' and hugging loved ones. The air is full of happiness for {name}.",
+      "illustration_prompt": "The child hugging a grandparent or a close family friend, surrounded by other adults and children. Everyone is smiling and happy, with a 'Eid Mubarak' feeling in the air."
+    },
+    {
+      "beat": "Back home or at a family gathering, {name} enjoys a feast of delicious Eid treats: sweet dates, special cookies, and other festive foods. {She/He} savors each bite.",
+      "illustration_prompt": "The child sitting at a table laden with traditional Eid sweets and treats (e.g., dates, baklava, cookies). The child is happily picking a treat, surrounded by family enjoying the food."
+    },
+    {
+      "beat": "Then comes the joyful tradition of Eidi! {name} receives a special gift or some money from a grown-up, making {her/him} feel loved and cherished. {She/He} holds it carefully.",
+      "illustration_prompt": "A grown-up (Mom, Dad, or grandparent) handing the child a small, decorated envelope or a wrapped gift. The child's eyes are wide with delight, carefully accepting the Eidi."
+    },
+    {
+      "beat": "As {name} thinks about all the wonderful things received, {she/he} remembers that Eid is also a time for giving and sharing with others, especially those who might not have as much. This thought makes {name} pause.",
+      "illustration_prompt": "The child sitting quietly, perhaps holding their Eidi or a favorite treat, looking thoughtful. A subtle visual hint of community or others in the background (e.g., a window looking out onto a street)."
+    },
+    {
+      "beat": "{name} decides how {she/he} can share the joy of Eid. Maybe it's a piece of Eidi, a toy, or a kind gesture. It is an important choice for {name}.",
+      "illustration_prompt": "The child looking at a few options for sharing: perhaps a portion of their Eidi, a small toy, or a drawing. The child's expression shows thoughtful consideration."
+    },
+    {
+      "beat": "{name} performs {her/his} act of giving, sharing a piece of {her/his} Eid joy with someone else. It could be a donation, sharing with a friend, or helping a family member.",
+      "illustration_prompt": "The child actively giving. This could be placing a coin in a charity box, sharing a cookie with a friend, or helping a parent with a task for someone else. The act is clear and kind."
+    },
+    {
+      "beat": "With a heart full of gratitude and the warmth of giving, {name} reflects on a truly special Eid. The day was filled with family, faith, and the joy of sharing. {She/He} drifts off to sleep, feeling happy.",
+      "illustration_prompt": "The child in bed, tucked in, with a peaceful smile. The room is softly lit by moonlight, with the crescent moon decoration visible. A happy, content feeling pervades the scene."
+    }
+  ],
+  "cover_scene": "An excited child in a beautiful Eid outfit, smiling and holding a small, decorative lantern or a string of festive lights, against a backdrop of a warm, inviting community scene with subtle crescent moon motifs in the sky. Calm open sky across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "The sun peeks into {name}'s room. It's Eid! {She/He} bounces out of bed, excited for the special day. {Her/His} new Eid clothes are waiting.",
+      "scene": "The child waking up in bed, stretching with a happy expression. Sunlight streams through a window, illuminating a crescent moon decoration on a wall. A new outfit is neatly folded on a chair."
+    },
+    {
+      "text": "As {name} thinks about all the wonderful things received, {she/he} remembers that Eid is also a time for giving and sharing with others, especially those who might not have as much. This thought makes {name} pause.",
+      "scene": "The child sitting quietly, perhaps holding their Eidi or a favorite treat, looking thoughtful. A subtle visual hint of community or others in the background (e.g., a window looking out onto a street)."
+    }
+  ],
+  "h1": "Personalized Eid Book for Kids, Your Child is the Hero",
+  "meta_title": "Personalized Eid Book for Kids | StoryBloom",
+  "meta_description": "Celebrate Eid with a personalized story where your child is the hero! Discover the joy of new clothes, prayer, sweets, and giving to others.",
+  "promise": "A beautiful story that celebrates the traditions and joyful spirit of Eid, with your child as the star.",
+  "story_summary": "Join your child on a wonderful Eid morning adventure, from waking up excited to putting on new clothes and joining in festive prayers. Your child will celebrate with family and friends, enjoy delicious treats, and experience the joy of receiving Eidi. The story gently encourages thoughtful reflection on the true spirit of Eid, emphasizing the importance of community and giving to others.",
+  "why_parents": [
+    "Eid is a cherished time of year, filled with unique traditions, family gatherings, and deep spiritual meaning. This personalized book offers a beautiful way to introduce or reinforce the customs of Eid al-Fitr or Eid al-Adha, making your child feel seen and celebrated within their faith and culture.",
+    "Beyond the excitement of new clothes and sweets, Eid guides children toward understanding gratitude, community, and charity. This story thoughtfully includes a moment where your child considers how to share their blessings, gently encouraging empathy and finding delight in giving, making the celebration even more meaningful."
+  ],
+  "for_grownups": [
+    "Talk about your favorite Eid traditions. What do you look forward to most each year?",
+    "Discuss the meaning of 'Eid Mubarak.' What does it mean to you and your family?",
+    "Chat about ways your family helps others during Eid. How does giving make us feel?"
+  ],
+  "faqs": [
+    {
+      "question": "Which Eid celebration does this book focus on?",
+      "answer": "This book captures the general spirit and common traditions shared across both Eid al-Fitr and Eid al-Adha, allowing it to resonate with families celebrating either holiday. It highlights universal themes like new clothes, prayer, family, treats, and giving."
+    },
+    {
+      "question": "Are the Eid traditions accurately represented in the story?",
+      "answer": "Yes, we have carefully crafted the story to respectfully and accurately portray widely observed Eid traditions, including prayer, festive attire, exchanging greetings, enjoying special foods, receiving Eidi, and the emphasis on charity and sharing. It aims to be inclusive of diverse Muslim families."
+    },
+    {
+      "question": "Does the book explain the religious significance of Eid?",
+      "answer": "The book focuses on the celebratory aspects and universal values of Eid, such as family, community, gratitude, and giving. It highlights the joyous traditions and feelings associated with the holiday, providing a warm and inviting introduction for young children to the spirit of Eid."
+    }
+  ],
+  "image_alt": "Personalized Eid book cover featuring an illustrated child as the hero in a festive Eid outfit, holding a small lantern, with a mosque and family in the background.",
+  "feed_title": "Personalized Eid Book for Kids, Your Child Is the Hero, Muslim Holiday Celebration",
+  "feed_description": "Celebrate the joyous traditions of Eid with a unique personalized book where your child is the star! From the moment your child wakes up to a special Eid morning, they'll be immersed in a captivating story tailored just for them. Your child will experience the excitement of putting on new festive clothes, joining their family for Eid prayers, and exchanging warm 'Eid Mubarak' greetings with friends and loved ones. The adventure continues with delicious Eid treats and the cherished tradition of receiving Eidi. Most importantly, your child will discover the true spirit of Eid – the joy of sharing and giving to others. This beautifully illustrated book is a wonderful way to honor family customs and foster a sense of gratitude and community, making your child feel truly special during this important holiday. It's a treasured keepsake that celebrates faith, family, and the warmth of giving."
+}

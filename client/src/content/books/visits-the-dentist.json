@@ -1,0 +1,117 @@
+{
+  "slug": "visits-the-dentist",
+  "status": "live",
+  "title_pattern": "{name} Visits the Dentist",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "first dentist visit book",
+  "landing_page_slug": "books/visits-the-dentist",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "A gentle, reassuring story for your child's first dentist visit.",
+  "lesson_or_purpose": "To demystify the dental visit experience, reduce anxiety, and introduce basic concepts of oral hygiene in a positive, friendly way.",
+  "tone": "Reassuring, gentle, friendly, curious",
+  "reading_level": "Ages 2-6",
+  "keywords": [
+    "dentist",
+    "first visit",
+    "teeth",
+    "health",
+    "hygiene",
+    "checkup",
+    "doctor",
+    "smile"
+  ],
+  "illustration_guide": "Bright, clean, and friendly aesthetic. Soft pastel colors with pops of bright, cheerful accents. Settings include a cozy home bathroom, a welcoming dentist office with child-friendly decor, and a calm, bright examination room. Recurring visual elements: a toothbrush, a small dental mirror, a dental chair that moves. Characters are smiling and friendly. Focus on clear, simple illustrations of dental tools.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} brushing {her/his} teeth at home, thinking about how important it is to keep them clean and strong. Grandma or Grandpa reminds {name} that today is a special day for teeth.",
+      "illustration_prompt": "The child in a bright bathroom, happily brushing teeth with a big smile, a grandparent figure nearby smiling warmly."
+    },
+    {
+      "beat": "It's time for {name}'s first trip to the dentist! {She/He} gets ready, excited to learn all about keeping teeth healthy. Maybe {name} takes a favorite small toy along for comfort.",
+      "illustration_prompt": "The child, dressed and ready, holding a small toy, standing by the front door with a parent, a car visible outside."
+    },
+    {
+      "beat": "Arriving at the dentist's office, {name} sees a friendly waiting room with colorful pictures and a fish tank. {She/He} feels a little flutter of excitement and curiosity.",
+      "illustration_prompt": "The child looking with wide eyes at a bright, inviting dentist waiting room, with a colorful fish tank and toys. A parent is sitting nearby."
+    },
+    {
+      "beat": "The kind dentist, Dr. Maya, greets {name} with a big smile. Dr. Maya explains that {she/he} helps everyone keep their teeth shiny and strong.",
+      "illustration_prompt": "The child shaking hands with a friendly female dentist (Dr. Maya), who has a warm smile. A parent is beside the child."
+    },
+    {
+      "beat": "{name} gets to sit in a special big chair that goes up and down, like a fun ride! It feels safe and exciting for {name}.",
+      "illustration_prompt": "The child sitting comfortably in a large, adjustable dental chair, with the dentist demonstrating how it moves up and down. The child looks a little surprised but happy."
+    },
+    {
+      "beat": "Dr. Maya shows {name} her little mirror, a 'tooth detective' tool, and a tiny toothbrush. {She/He} learns that these tools help see and clean every tooth.",
+      "illustration_prompt": "The child looking curiously at a small dental mirror and a tiny toothbrush, held gently by the dentist. The child's mouth is slightly open."
+    },
+    {
+      "beat": "Time for a gentle tooth check! {name} opens {her/his} mouth wide so Dr. Maya can count all of {her/his} pearly whites. One, two, three...",
+      "illustration_prompt": "The child in the dental chair, mouth open wide, while the dentist gently examines their teeth with a small mirror. The child looks calm and cooperative."
+    },
+    {
+      "beat": "Next, Dr. Maya gives {name}'s teeth a quick, gentle cleaning, making them extra sparkly. {name}'s teeth feel so smooth!",
+      "illustration_prompt": "The child in the dental chair, a soft spinning brush or scaler near their teeth, looking relaxed as the dentist performs a gentle cleaning."
+    },
+    {
+      "beat": "All done! Dr. Maya tells {name} what a great job {she/he} did and offers {her/him} a special sticker or a little toy to choose.",
+      "illustration_prompt": "The child, out of the dental chair, happily choosing a sticker from a sheet or a small toy from a treasure chest, presented by the dentist."
+    },
+    {
+      "beat": "{name} leaves the dentist with a bright, clean smile, feeling proud and happy. {She/He} knows keeping teeth healthy is fun and easy, and can't wait for the next visit!",
+      "illustration_prompt": "The child walking out of the dentist's office with a big, sparkling smile, holding the chosen sticker or toy, with a parent next to them."
+    }
+  ],
+  "cover_scene": "The child, beaming with a bright smile, sitting confidently in a friendly, modern dental chair. A happy-looking toothbrush and a small dental mirror are on a tray next to the chair. Calm, light blue background with open sky across the top third.",
+  "sample_pages": [
+    {
+      "text": "It's time for {name}'s first trip to the dentist! {She/He} gets ready, excited to learn all about keeping teeth healthy. Maybe {name} takes a favorite small toy along for comfort.",
+      "scene": "The child, dressed and ready, holding a small toy, standing by the front door with a parent, a car visible outside."
+    },
+    {
+      "text": "{name} gets to sit in a special big chair that goes up and down, like a fun ride! It feels safe and exciting for {name}.",
+      "scene": "The child sitting comfortably in a large, adjustable dental chair, with the dentist demonstrating how it moves up and down. The child looks a little surprised but happy."
+    }
+  ],
+  "h1": "Personalized First Dentist Visit Book for Kids",
+  "meta_title": "Personalized First Dentist Visit Book | StoryBloom",
+  "meta_description": "Prepare your child for their first dental appointment with a personalized story. Your child is the hero in this gentle, reassuring book.",
+  "promise": "Give your child a positive and empowering introduction to their first dental visit, making it a happy, fearless adventure.",
+  "story_summary": "In this charming personalized story, your child embarks on their very first trip to the dentist. From meeting a friendly dentist to riding in the special dental chair, each step of the visit is explored with warmth and curiosity. Your child discovers the fascinating tools used to keep teeth sparkling clean and strong. It's a reassuring adventure that helps ease any worries about going to the dentist.",
+  "why_parents": [
+    "A child's first dental visit is a big milestone, and it's common for little ones (and sometimes parents!) to feel a bit anxious. This book helps prepare your child by showing them exactly what to expect in a friendly, step-by-step narrative. Seeing themselves as the brave hero makes the experience much less daunting.",
+    "Introducing dental care early and positively is key to lifelong oral health. This story normalizes the dentist as a kind helper and highlights the fun aspects of a visit, like the moving chair and picking a prize. It fosters a sense of empowerment and curiosity, encouraging your child to take an active role in their own dental hygiene."
+  ],
+  "for_grownups": [
+    "Before reading, talk about why we go to the dentist. Emphasize that it's to keep our teeth healthy and strong so we can eat and smile beautifully.",
+    "During reading, point out the pictures of the tools and discuss how they help the dentist. Ask your child what part of the dentist's visit they think looks most interesting.",
+    "After the book, role-play a dentist visit with your child. Use a flashlight and a toy mirror to 'check' their teeth or their dolls' teeth, making it a fun game."
+  ],
+  "faqs": [
+    {
+      "question": "What age is this personalized dentist book suitable for?",
+      "answer": "This book is designed for children ages 2-6 years old. The simple language and colorful, step-by-step illustrations are perfect for toddlers and preschoolers experiencing their first dental check-up."
+    },
+    {
+      "question": "How does this book help with dentist anxiety?",
+      "answer": "By making your child the hero of the story, the book allows them to 'practice' the dentist visit in a safe and fun way. It demystifies the process, introduces the tools, and emphasizes the friendly nature of the dentist, helping to build confidence and reduce fear."
+    },
+    {
+      "question": "Can I choose the gender of the dentist in the story?",
+      "answer": "The dentist character in this story is named Dr. Maya and is consistently portrayed as female. The focus is on her friendly and gentle approach to care, providing a positive role model for dental visits."
+    }
+  ],
+  "image_alt": "Personalized first dentist visit book cover featuring an illustrated child as the hero, smiling brightly in a dental chair with a friendly toothbrush.",
+  "feed_title": "Personalized First Dentist Visit Book for Kids, Your Child Is the Hero",
+  "feed_description": "Prepare your little one for their first trip to the dentist with this personalized storybook. In this gentle and reassuring adventure, your child becomes the main character, exploring every step of a dental check-up. From meeting a friendly dentist and riding in the special dental chair, to discovering the cool tools that make teeth shiny and strong, this book turns a potentially anxious experience into an exciting one.\n\nCrafted with simple, age-appropriate language and charming illustrations, it aims to demystify the dental office environment and promote good oral hygiene habits. Your child will feel brave and confident as they see themselves successfully navigating their very first dental appointment. This unique gift helps normalize the dentist as a friendly helper, ensuring your child looks forward to keeping their smile healthy and bright for years to come."
+}

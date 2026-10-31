@@ -1,0 +1,114 @@
+{
+  "slug": "thankful-table",
+  "status": "live",
+  "title_pattern": "{name}'s Thankful Table",
+  "category": "holidays",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Oct-Nov",
+  "sensitive": false,
+  "main_keyword": "personalized thanksgiving book for kids",
+  "landing_page_slug": "books/thankful-table",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "A story celebrating togetherness and gratitude, where your child reminds everyone what Thanksgiving is truly about.",
+  "lesson_or_purpose": "To highlight the importance of gratitude, family connection, and finding joy in togetherness, beyond material things.",
+  "tone": "Warm, comforting, celebratory, grateful.",
+  "reading_level": "Ages 3-7",
+  "keywords": [
+    "personalized Thanksgiving book",
+    "kids",
+    "thankful",
+    "gratitude",
+    "family story"
+  ],
+  "illustration_guide": "A cozy, welcoming home setting with warm, inviting colors, focusing on autumnal tones like oranges, reds, yellows, and deep browns. Family members are diverse and friendly. Recurring elements include a patterned tablecloth, decorative gourds, and autumn leaves visible through windows.",
+  "page_outline": [
+    {
+      "beat": "It's Thanksgiving morning, and the house is buzzing with exciting smells and sounds. {name} feels the special holiday joy.",
+      "illustration_prompt": "The child peeking into a bustling kitchen where a parent or grandparent is cooking. Warm light streams in. The child looks happy and curious."
+    },
+    {
+      "beat": "{name} helps get ready for the big feast. {She/He} carefully places napkins on the table, eager for family to arrive.",
+      "illustration_prompt": "The child carefully placing a napkin next to a plate on a festive dining table. The table is partly set with autumn decorations."
+    },
+    {
+      "beat": "A wonderful, savory smell drifts from the oven, making {name}'s tummy rumble. Everything seems perfect for the big meal.",
+      "illustration_prompt": "The child standing near the oven, sniffing the air with a happy, expectant expression. A parent or grandparent smiles in the background."
+    },
+    {
+      "beat": "Oh no! A parent looks at the turkey with a worried frown. {name} sees it's a little bit too brown, or perhaps not quite ready after all.",
+      "illustration_prompt": "A parent looking disheartened at a slightly overcooked turkey on a counter. The child observes the parent's worried expression from a distance."
+    },
+    {
+      "beat": "{name} sees the grown-ups looking sad. The special Thanksgiving meal might not be what they hoped for.",
+      "illustration_prompt": "The child standing a little apart, observing the grown-ups who are discussing the turkey with concerned faces. The child looks thoughtful."
+    },
+    {
+      "beat": "But {name} thinks, 'What is Thanksgiving really about?' It's not just the food; it's being together with family.",
+      "illustration_prompt": "A close-up of the child's face, looking contemplative. Maybe a thought bubble above their head with images of family members."
+    },
+    {
+      "beat": "{name} has an idea! {She/He} suggests focusing on all the other delicious side dishes and the joy of everyone being together.",
+      "illustration_prompt": "The child, with a bright idea in their eyes, talking to a parent or grandparent, gesturing towards other food on the table or an empty spot for family."
+    },
+    {
+      "beat": "{name} helps arrange the appetizers and other tasty treats. 'Look at all this yummy food!' {she/he} says with a smile.",
+      "illustration_prompt": "The child happily arranging a platter of rolls or a bowl of cranberries on the table, surrounded by other appealing side dishes."
+    },
+    {
+      "beat": "Soon, family arrives! Grandma, Grandpa, and cousins hug {name} tightly. Everyone is so happy just to see each other.",
+      "illustration_prompt": "The child embraced by family members (Grandma, Grandpa, etc.) at the doorway, with smiles all around. Autumn leaves are visible outside."
+    },
+    {
+      "beat": "Around {name}'s thankful table, everyone shares what they are grateful for. It was the best Thanksgiving because they were all together.",
+      "illustration_prompt": "The child sitting at the head of a full, happy dining table, surrounded by family members, all smiling and talking. The table is laden with food, even if the turkey isn't perfect."
+    }
+  ],
+  "cover_scene": "The child, smiling brightly, holds a small decorative gourd or a festive autumn leaf. Behind them, a cozy home interior with a glimpse of a warm, inviting dining table, framed by an open window showing a clear, calm blue sky.",
+  "sample_pages": [
+    {
+      "text": "{name} helps get ready for the big feast. {She/He} carefully places napkins on the table, eager for family to arrive.",
+      "scene": "The child carefully placing a napkin next to a plate on a festive dining table. The table is partly set with autumn decorations."
+    },
+    {
+      "text": "{name} has an idea! {She/He} suggests focusing on all the other delicious side dishes and the joy of everyone being together.",
+      "scene": "The child, with a bright idea in their eyes, talking to a parent or grandparent, gesturing towards other food on the table or an empty spot for family."
+    }
+  ],
+  "h1": "Personalized Thanksgiving Book: Your Child's Thankful Table",
+  "meta_title": "Personalized Thanksgiving Book for Kids | StoryBloom",
+  "meta_description": "Your child becomes the star of a personalized Thanksgiving story about gratitude and family. A unique gift for kids.",
+  "promise": "A personalized Thanksgiving story celebrating family, gratitude, and the joy of togetherness, where your child reminds everyone what truly matters.",
+  "story_summary": "Thanksgiving morning is filled with happy anticipation as your family prepares for a special meal. But when a small mishap threatens to spoil the feast, your child helps everyone remember what Thanksgiving is truly about. This story of family connection shows how focusing on gratitude and togetherness can make any day special.",
+  "why_parents": [
+    "Thanksgiving is a wonderful time to teach children about gratitude. This book gently shifts the focus from just the food to the deeper meaning of the holiday: appreciating family and the simple joy of being together.",
+    "Children sometimes worry when plans don't go perfectly. This story provides a comforting narrative where your child actively helps find the silver lining, reinforcing the idea that flexibility and a positive attitude can make any situation special."
+  ],
+  "for_grownups": [
+    "Ask your child: 'What are three things you are thankful for today?'",
+    "Talk about a time when plans changed, and how you found a new way to enjoy yourselves.",
+    "Share some of your favorite family Thanksgiving traditions, old and new."
+  ],
+  "faqs": [
+    {
+      "question": "What is the core message of this Thanksgiving story?",
+      "answer": "This story gently teaches that Thanksgiving is about more than just a perfect meal. It's about gratitude for family, togetherness, and finding joy in shared moments, even when little things go wrong."
+    },
+    {
+      "question": "Is this a religious holiday book?",
+      "answer": "No, this book focuses on the universal themes of gratitude, family, and togetherness that are central to Thanksgiving. It is not tied to any specific religious tradition or belief."
+    },
+    {
+      "question": "How does my child feature as a hero in the story?",
+      "answer": "When a small problem arises with the Thanksgiving meal, your child observes the grown-ups' concern and then takes the initiative to remind everyone what truly matters, shifting the focus to thankfulness and family joy."
+    }
+  ],
+  "image_alt": "Personalized Thanksgiving book cover featuring an illustrated child as the hero helping prepare a festive table with autumn decorations.",
+  "feed_title": "Personalized Thanksgiving Book for Kids: Your Child's Thankful Table",
+  "feed_description": "This Thanksgiving, give your child the gift of being the hero in their very own story with 'Your Child's Thankful Table.' In this beautiful personalized picture book, your child wakes up to a house full of exciting smells and holiday anticipation. As the family prepares for the big feast, a small mishap with the meal threatens to dampen spirits. But your child steps forward to remind everyone of the true meaning of Thanksgiving: gratitude, family, and the joy of simply being together. See your child's name and likeness woven into every page, making them the star of this uplifting holiday tale. They'll learn that love and togetherness are the most important ingredients for a happy celebration, no matter what happens in the kitchen. 'Your Child's Thankful Table' is a wonderful way to foster a spirit of gratitude and resilience in your little one, creating a cherished family memory for years to come."
+}

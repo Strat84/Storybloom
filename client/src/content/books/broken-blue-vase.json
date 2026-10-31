@@ -1,0 +1,117 @@
+{
+  "slug": "broken-blue-vase",
+  "status": "live",
+  "title_pattern": "{name} and the Broken Blue Vase",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about honesty for kids",
+  "landing_page_slug": "books/broken-blue-vase",
+  "example": {
+    "name": "Arjun",
+    "pronouns": "he",
+    "look": "medium brown skin, neat black hair"
+  },
+  "tagline": "A gentle story about the brave choice to tell the truth.",
+  "lesson_or_purpose": "To encourage honesty and show that telling the truth, even when it's hard, leads to a feeling of relief and trust.",
+  "tone": "Gentle, empathetic, reassuring.",
+  "reading_level": "Ages 4-8",
+  "keywords": [
+    "honesty",
+    "truth",
+    "telling the truth",
+    "courage",
+    "accident",
+    "mistake",
+    "feelings",
+    "responsibility"
+  ],
+  "illustration_guide": "The setting is a cozy, light-filled home, perhaps a living room or a child's play area, with soft, inviting colors. The palette uses warm yellows, soft blues, and greens, creating a safe and comforting atmosphere. The blue vase is a distinctive, decorative object, initially intact, then in pieces. A kind, understanding adult figure (Mom or Dad) is present towards the end.",
+  "page_outline": [
+    {
+      "beat": "{name} is playing happily in {her/his} favorite room, surrounded by toys and a special blue vase that sits on a shelf.",
+      "illustration_prompt": "The child is in a cheerful living room, playing with blocks or a soft toy. A beautiful blue vase sits safely on a distant shelf."
+    },
+    {
+      "beat": "Oops! As {name} reaches for a toy, {her/his} arm bumps the shelf. Suddenly the beautiful blue vase tumbles down. It shatters into many pieces on the floor.",
+      "illustration_prompt": "The child's arm is depicted bumping a shelf, causing a blue vase to fall and shatter. The child looks wide-eyed at the breaking vase."
+    },
+    {
+      "beat": "{name}'s heart goes thump-thump-thump. A big, worried feeling starts to grow inside {name} as {she/he} looks at the broken pieces.",
+      "illustration_prompt": "The child is standing still, looking down at the broken blue vase pieces on the floor. A worried expression is on the child's face, hands clasped together."
+    },
+    {
+      "beat": "{name} thinks about what to do. Maybe no one will notice? Maybe {she/he} can just hide the pieces? But that worried feeling stays with {name}.",
+      "illustration_prompt": "The child is looking around the room, contemplating, with a thought bubble showing the broken vase hidden under a blanket or behind furniture. The worried expression persists."
+    },
+    {
+      "beat": "Then, {name} remembers what Dad (or Mom) always says: 'The truth is brave.' A little spark of courage lights up inside {name}'s heart.",
+      "illustration_prompt": "Close-up on the child's face, showing a moment of decision. The worried expression softens slightly, replaced by a hint of determination. A faint glow around the child's chest."
+    },
+    {
+      "beat": "{name} takes a deep breath. It's hard to tell, but it feels like the right thing to do. {name} decides to be brave.",
+      "illustration_prompt": "The child takes a slow, steady breath. The child stands tall, eyes focused, ready to move, away from the broken vase."
+    },
+    {
+      "beat": "Walking slowly, {name} finds Dad (or Mom) in the kitchen. 'Dad (or Mom),' {name} begins, 'I have something to tell you.'",
+      "illustration_prompt": "The child approaches an adult (Mom or Dad, from behind) in a kitchen setting. The adult is perhaps doing dishes or reading, looking up as the child approaches."
+    },
+    {
+      "beat": "With a brave voice, {name} tells Dad (or Mom) all about the blue vase and how it broke. Dad (or Mom) listens carefully.",
+      "illustration_prompt": "The child is speaking to the adult, looking directly at them. The adult is kneeling or sitting, listening with a kind, understanding expression. The child's hands might be clasped or gesturing slightly."
+    },
+    {
+      "beat": "Dad (or Mom) gives {name} a big hug. 'Thank you for being honest, {name},' {he/she} says. 'I know that was hard.' Together, they carefully clean up the broken pieces.",
+      "illustration_prompt": "The adult is hugging the child tightly, both smiling with relief. In the background, the broken vase pieces are being carefully swept into a dustpan by the adult, with the child watching."
+    },
+    {
+      "beat": "The worried feeling in {name}'s heart is gone! It feels so much better to have told the truth. {name} learns that honesty is like a warm, sunny day inside.",
+      "illustration_prompt": "The child is smiling brightly, feeling light and happy. Perhaps the child is looking out a window at a sunny sky, or playing again, now with a sense of peace."
+    }
+  ],
+  "cover_scene": "The child is standing in a brightly lit living room, looking a little thoughtful, gently holding a small, unbroken decorative blue vase. The top third of the picture shows a calm, light blue sky through a window.",
+  "sample_pages": [
+    {
+      "text": "Oops! As {name} reaches for a toy, {her/his} arm bumps the shelf. Suddenly the beautiful blue vase tumbles down. It shatters into many pieces on the floor.\n{name}'s heart goes thump-thump-thump. A big, worried feeling starts to grow inside {name} as {she/he} looks at the broken pieces.",
+      "scene": "The child's arm is depicted bumping a shelf, causing a blue vase to fall and shatter. The child looks wide-eyed at the breaking vase, then stands still, looking down at the broken blue vase pieces on the floor with a worried expression, hands clasped together."
+    },
+    {
+      "text": "Dad (or Mom) gives {name} a big hug. 'Thank you for being honest, {name},' {he/she} says. 'I know that was hard.' Together, they carefully clean up the broken pieces.\nThe worried feeling in {name}'s heart is gone! It feels so much better to have told the truth. {name} learns that honesty is like a warm, sunny day inside.",
+      "scene": "The adult is hugging the child tightly, both smiling with relief. In the background, the broken vase pieces are being carefully swept into a dustpan by the adult, with the child watching. The child is smiling brightly, feeling light and happy. Perhaps the child is looking out a window at a sunny sky, or playing again, now with a sense of peace."
+    }
+  ],
+  "h1": "Personalized Honesty Book for Kids",
+  "meta_title": "Personalized Book About Honesty | StoryBloom",
+  "meta_description": "Help your child learn the value of truth with this personalized story about honesty. Your child is the hero!",
+  "promise": "Your child will discover the deep comfort and freedom that comes from choosing honesty, even when it feels difficult.",
+  "story_summary": "In this tender story, your child is playing at home when an unexpected accident causes a special blue vase to break. Faced with a difficult choice, your child experiences the worry of keeping a secret and the bravery it takes to speak the truth. This gentle narrative shows how choosing honesty, even when it's hard, brings relief and strengthens trust.",
+  "why_parents": [
+    "Learning to tell the truth, especially after making a mistake, is a foundational life skill for children aged 4-8. This book provides a safe space for your child to explore the feelings associated with accidents and honesty, helping them understand that everyone makes mistakes and the best path forward is always through truthfulness.",
+    "This story reinforces the idea that honesty is valued above all else, teaching your child that even when consequences exist, the relief of being truthful and the trust it builds with loved ones is profoundly comforting. It encourages open communication and provides a gentle model for navigating challenging situations."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: 'How did {name} feel when the vase broke? How did {she/he} feel after telling the truth?'",
+    "Discuss with your child: 'Why do you think it's sometimes hard to tell the truth? Why is it important to be honest?'",
+    "Share a time you made a mistake and told the truth, and how you felt afterward. This helps normalize the experience and models vulnerability."
+  ],
+  "faqs": [
+    {
+      "question": "How does this book teach my child about honesty?",
+      "answer": "This story gently guides your child through a relatable scenario where an accident occurs, prompting a choice between hiding the truth and speaking it. By seeing themselves as the hero who bravely chooses honesty, your child experiences the emotional journey from worry to relief, reinforcing the positive outcomes of telling the truth."
+    },
+    {
+      "question": "Is the situation in the book too scary for my child?",
+      "answer": "The story is crafted with a gentle, reassuring tone. While your child initially feels worried about breaking the vase, the focus quickly shifts to the brave decision to tell the truth and the loving, understanding reaction from a parent. The resolution emphasizes comfort and relief, making it a safe and positive experience."
+    },
+    {
+      "question": "What if my child breaks something important in real life?",
+      "answer": "This book provides a wonderful springboard for conversations about what to do when accidents happen. It teaches your child that honesty is always the best approach, and that grown-ups care more about the truth and their safety than about a broken item. It encourages them to come forward and talk about their mistakes."
+    }
+  ],
+  "image_alt": "Personalized honesty book cover featuring an illustrated child holding a blue vase.",
+  "feed_title": "Personalized Honesty Book for Kids, Your Child Learns About Truth",
+  "feed_description": "Discover a unique personalized children's book that makes your child the hero in a gentle story about honesty. This gentle narrative follows your child as they navigate the difficult feelings of making a mistake and the courageous choice to tell the truth about a broken blue vase. Your child will see themselves as the brave character who learns that speaking honestly, even when it's hard, brings a wonderful sense of relief and strengthens trust with family. Crafted for children aged 4-8, this book is designed to encourage open communication and illustrate the value of truthfulness in an empathetic and understandable way. It's more than just a story; it's a comforting journey that reinforces a vital life lesson. Help your child build confidence in their ability to be truthful and understand that mistakes are opportunities for growth and honesty."
+}

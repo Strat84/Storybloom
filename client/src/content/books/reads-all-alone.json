@@ -1,0 +1,114 @@
+{
+  "slug": "reads-all-alone",
+  "status": "live",
+  "title_pattern": "{name} Reads It All Alone",
+  "category": "learning",
+  "age_range": "4-6",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "learning to read book personalized",
+  "landing_page_slug": "books/reads-all-alone",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "Watch your child's confidence bloom as they discover the joy of reading!",
+  "lesson_or_purpose": "Encouraging the foundations of word recognition and early reading, celebrating this exciting milestone.",
+  "tone": "Encouraging, celebratory, warm.",
+  "reading_level": "Ages 4-6",
+  "keywords": [
+    "learning to read",
+    "early literacy",
+    "first reader",
+    "phonics",
+    "personalized reading book"
+  ],
+  "illustration_guide": "Setting: Sunny, friendly neighborhood street, park, and cozy living room. Palette: Bright, primary colors with warm pastels. Clear, inviting. Recurring elements: The child and their accompanying adult (Grandma/Mom/Dad), friendly neighborhood details, simple signs with clear, short words. A small, younger child or animal friend for the end.",
+  "page_outline": [
+    {
+      "beat": "{name} is excited to learn to read. {She/He} sees words everywhere but can't quite read them yet. {name} wonders what all those squiggles mean.",
+      "illustration_prompt": "The child, looking curious and a little bit puzzled, pointing at a simple street sign (e.g., 'STOP' or 'PARK') while walking with an adult. Sunny day with friendly houses."
+    },
+    {
+      "beat": "An adult (Grandma/Mom/Dad) points out a familiar sign and asks {name} if {she/he} knows what it says. {name} tries but struggles with the big word.",
+      "illustration_prompt": "The child and an adult standing by a bright red 'STOP' sign. The adult is pointing to the sign, and the child is looking intently at it, a slight frown of concentration on their face."
+    },
+    {
+      "beat": "The adult helps {name} sound out the first letter, then the whole short word. 'S-T-O-P! STOP!' {name} feels a little spark of understanding bloom inside {her/him}.",
+      "illustration_prompt": "Close up on the child's face, eyes wide with dawning recognition, next to the adult's hand pointing at the 'STOP' sign. The letters are clear and prominent."
+    },
+    {
+      "beat": "On their walk, {name} starts to notice other signs. {She/He} points to a sign for a 'PARK' and tries to read it all by {her/him}self, remembering the 'S' sound.",
+      "illustration_prompt": "The child confidently pointing to a green 'PARK' sign, standing on a sidewalk near some trees. The adult is smiling nearby, observing."
+    },
+    {
+      "beat": "{name} sounds out 'P-A-R-K! PARK!' {She/He} is so proud to read a word all alone! A happy bounce fills {her/his} step.",
+      "illustration_prompt": "The child, beaming with pride, standing in front of the 'PARK' sign. Their chest is puffed out slightly, showing their excitement."
+    },
+    {
+      "beat": "As {name} walks through the park, {she/he} spots a sign that says 'SLIDE.' {name} quickly reads it and runs towards the slide, eager to play.",
+      "illustration_prompt": "The child is running towards a playground slide, looking over their shoulder at a small 'SLIDE' sign the child just passed, a big smile on their face."
+    },
+    {
+      "beat": "{name} sees another sign, for 'SWINGS.' This time, no one helps {her/him}. {name} reads it all alone, {her/his} eyes tracing the letters.",
+      "illustration_prompt": "The child, alone for a moment (adult visible in background), pointing decisively at a 'SWINGS' sign near a colorful swing set."
+    },
+    {
+      "beat": "Later that day, {name} is at home. {name} finds a younger friend or sibling looking at a picture book, a little confused by the words.",
+      "illustration_prompt": "The child sitting on a cozy rug or floor, holding a simple picture book. A younger child or a cute stuffed animal is sitting opposite them, looking interested and a little puzzled."
+    },
+    {
+      "beat": "{name} remembers all the words {she/he} read today! {She/He} opens the book and reads a simple, familiar word on the first page to {her/his} friend. '{name} can read it!'",
+      "illustration_prompt": "The child is reading aloud from the picture book to the younger child/stuffed animal, pointing to a single word (e.g., 'BALL' or 'CAT') on the page with confidence and a happy expression."
+    },
+    {
+      "beat": "Now {name} knows a secret: words are everywhere, just waiting for {her/him} to read them. And {she/he} can! The world is full of stories for {name} to discover.",
+      "illustration_prompt": "The child, looking thoughtful and content, holding their picture book, surrounded by subtle, floating words (like 'read,' 'book,' 'fun') in the background, but not on actual signs."
+    }
+  ],
+  "cover_scene": "The child as hero, confidently pointing at a street sign (e.g., 'READ' or 'WORDS') on a sunny neighborhood street, with a clear blue sky across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Grandma pointed to a sign. \"What does that say, {name}?\" {She/He} tried, but the word was big.",
+      "scene": "The child and Grandma standing by a bright red 'STOP' sign. Grandma is pointing to the sign, and the child is looking intently at it, a slight frown of concentration on their face."
+    },
+    {
+      "text": "{name} remembered all the words! {She/He} opened the book. \"{name} can read it!\" {she/he} said to {her/his} friend.",
+      "scene": "The child is reading aloud from the picture book to a younger child, pointing to a single word (e.g., 'BALL' or 'CAT') on the page with confidence and a happy expression."
+    }
+  ],
+  "h1": "Personalized Learning to Read Book: Your Child's First Words",
+  "meta_title": "Personalized Learning to Read Book | StoryBloom",
+  "meta_description": "Spark your child's love for words with a personalized learning to read book. Your child is the hero who discovers the magic of reading!",
+  "promise": "This book celebrates your child's first steps into the world of reading, making them the star of their own literacy journey.",
+  "story_summary": "Join your child on a neighborhood adventure as they discover words all around them. From street signs to park notices, your child learns to recognize letters and sound out words, building confidence with every successful read. The story culminates in your child proudly reading a simple word to a younger friend, showcasing their amazing new ability to read.",
+  "why_parents": [
+    "Learning to read is one of the most exciting milestones in a young child's life. This personalized story gently introduces the concept of word recognition in everyday environments, reinforcing the joy of recognizing words in a relatable and encouraging way. It shows your child that words are everywhere and that they can unlock their meaning.",
+    "Witnessing your child's growing independence and confidence as they master new words is incredibly rewarding. This book provides a wonderful opportunity to celebrate their progress in reading, making them the active hero who discovers the magic of words and shares that joy with others. It's a perfect story to read together as your child begins their reading journey."
+  ],
+  "for_grownups": [
+    "As you read, point out words on signs or objects in your own environment and see if your child can recognize any letters or sounds.",
+    "Talk about the pride your child feels in the story when they read a word. Ask your child how it feels when they learn something new.",
+    "Encourage your child to \"read\" familiar picture books to a younger sibling or stuffed animal, even if they're just telling the story from the pictures."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for a child who hasn't started reading yet?",
+      "answer": "Yes, this book is designed to be inspiring for children who are just beginning their reading journey. It focuses on the excitement of recognizing simple words and letters, making it a wonderful motivator for early learners."
+    },
+    {
+      "question": "What kind of words will my child be reading in the story?",
+      "answer": "The story features very simple, common words found on signs like \"STOP,\" \"PARK,\" \"SLIDE,\" and \"SWINGS,\" building confidence with short, recognizable terms. The final word read to a friend is also a familiar, easy word."
+    },
+    {
+      "question": "Does this book use specific phonics methods?",
+      "answer": "This book gently introduces word recognition and sounding out initial letters in a story context, rather than teaching specific phonics methods. It aims to build enthusiasm and confidence in reading through relatable experiences."
+    }
+  ],
+  "image_alt": "Personalized learning to read book cover featuring an illustrated child confidently pointing at a street sign, with open blue sky for the title.",
+  "feed_title": "Personalized Learning to Read Book for Kids, Your Child Is the Hero",
+  "feed_description": "Celebrate your child's exciting journey into the world of words with this unique personalized story. In this book, your child becomes the hero who discovers how to read signs and simple words in their own neighborhood. From spotting \"STOP\" signs to recognizing \"PARK\" markers, they'll build confidence page by page. This encouraging story culminates with your child proudly reading a simple word to a younger friend, demonstrating their amazing new reading ability. This book is crafted to inspire early literacy, making the learning process a compelling and personal adventure. It's an ideal gift for preschoolers and early elementary children who are just beginning to explore the magic of reading. Watch their eyes light up as they see themselves on every page, mastering new words and developing a lifelong love for books. This story offers a gentle introduction to word recognition, perfect for encouraging curiosity and celebrating every small step in their reading development."
+}

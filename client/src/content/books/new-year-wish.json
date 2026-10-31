@@ -1,0 +1,115 @@
+{
+  "slug": "new-year-wish",
+  "status": "live",
+  "title_pattern": "{name}'s New Year Wish",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Dec-Jan",
+  "sensitive": false,
+  "main_keyword": "new year book for kids",
+  "landing_page_slug": "books/new-year-wish",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "Celebrate new beginnings and the joy of trying something new!",
+  "lesson_or_purpose": "To encourage children to embrace new experiences and the idea of setting positive intentions for the future.",
+  "tone": "Joyful, festive, encouraging, warm.",
+  "reading_level": "3-8",
+  "keywords": [
+    "new year",
+    "new year's eve",
+    "resolution",
+    "trying new things",
+    "holiday book",
+    "personalized story"
+  ],
+  "illustration_guide": "Cozy and warm home setting. Predominant colors: deep blues, golds, silvers, and sparkling white accents. Recurring elements: gentle glitter, twinkling lights, clocks, and festive, soft family interactions. The overall mood is one of quiet celebration and anticipation.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} on New Year's Eve, feeling excited about staying up late. {name} wonders what special things might happen.",
+      "illustration_prompt": "The child, dressed in festive pajamas, peeking out from behind a cozy blanket, looking towards a softly lit living room where a clock shows it's getting late. Twinkle lights are visible in the background."
+    },
+    {
+      "beat": "{name} joins {her/his} family in the living room, which is decorated with sparkling lights and soft blankets. Everyone is waiting together.",
+      "illustration_prompt": "The child sitting on a soft rug or cushion in a warm, decorated living room with family members (like Grandma, Mom, Dad) around. A clock on the wall shows a time close to midnight."
+    },
+    {
+      "beat": "The clock on the wall ticks slowly. {name} watches the minute hand move, feeling a special kind of excitement build for the countdown.",
+      "illustration_prompt": "Close-up on the child's face, looking up with wide, anticipatory eyes. A large grandfather clock or wall clock is partially visible, showing the time is almost midnight."
+    },
+    {
+      "beat": "Midnight arrives! The family celebrates with quiet cheers and hugs. Someone suggests everyone make a wish for the new year, and {name} thinks of {her/his} wish.",
+      "illustration_prompt": "The child is embraced by a parent or grandparent, with soft sparkles and confetti (or just light glints) around. The clock now shows exactly 12:00."
+    },
+    {
+      "beat": "Grandma explains that a New Year's wish is really a promise to *try* something new. {name} feels a little unsure, wondering what new thing {she/he} could possibly try.",
+      "illustration_prompt": "The child sits thoughtfully, perhaps with a slight frown of concentration. Grandma is smiling gently beside the child, gesturing with her hand as if explaining something. A notepad and pencil are nearby."
+    },
+    {
+      "beat": "{name} thinks of all sorts of new things: a new food, a new game, drawing a new picture, or learning a new word. So many choices!",
+      "illustration_prompt": "The child's imagination comes to life with thought bubbles showing various simple new activities: a bowl of colorful new food, a drawing of a funny animal, a child playing an unfamiliar game."
+    },
+    {
+      "beat": "After thinking carefully, {name} finally makes a decision. {name}'s New Year promise is to try one special new thing.",
+      "illustration_prompt": "The child points confidently to one of the thought bubbles from the previous page, indicating a clear choice. A bright, determined look on the child's face."
+    },
+    {
+      "beat": "The next day, {name} remembers {her/his} promise. {She/He} takes a first step towards trying that new thing, feeling a little brave.",
+      "illustration_prompt": "The child engaged in the chosen new activity (e.g., trying a small bite of a new vegetable, carefully drawing a new shape, attempting a new game move). The scene is bright, indicating daytime."
+    },
+    {
+      "beat": "{name} discovers that trying something new isn't so scary after all! In fact, it's quite interesting, and {she/he} feels good about the effort.",
+      "illustration_prompt": "The child smiles, enjoying the new activity. Perhaps showing a small achievement, like a colorful drawing or a happy expression while tasting the new food."
+    },
+    {
+      "beat": "With a happy heart, {name} knows the New Year is full of possibilities, and {her/his} special promise makes it even brighter.",
+      "illustration_prompt": "The child looking out a window at a bright, sunny New Year's day, with a hopeful and joyful expression. The window pane might show a faint, happy reflection of the child."
+    }
+  ],
+  "cover_scene": "The child, bundled in a warm sweater, joyfully holds a small, sparkling 'Happy New Year' sign or noisemaker. Gentle snowflakes or celebratory sparkles fall around, with a clear, calm night sky across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "The clock on the wall ticked slowly. {name} watched the minute hand move, feeling a special kind of excitement build for the countdown.",
+      "scene": "Close-up on the child's face, looking up with wide, anticipatory eyes. A large grandfather clock or wall clock is partially visible, showing the time is almost midnight."
+    },
+    {
+      "text": "After thinking carefully, {name} finally made a decision. {name}'s New Year promise was to try one special new thing.",
+      "scene": "The child points confidently to one of the thought bubbles from the previous page, indicating a clear choice. A bright, determined look on the child's face."
+    }
+  ],
+  "h1": "Personalized New Year Book for Kids",
+  "meta_title": "Personalized New Year Book for Kids | StoryBloom",
+  "meta_description": "Celebrate new beginnings with a personalized New Year book where your child makes a special promise to try something new.",
+  "promise": "Your child will be the hero of a sparkling New Year's story about trying new things.",
+  "story_summary": "Join your child as they celebrate New Year's Eve with their family, staying up late to welcome the new year. As the clock strikes midnight, a special tradition unfolds: making a promise to try one new thing. Your child thoughtfully chooses what exciting new adventure awaits them in the days ahead.",
+  "why_parents": [
+    "New Year's Eve is more than just a party; it's a wonderful opportunity to introduce children to the concept of fresh starts and setting intentions. This book helps your child understand that making a simple, positive goal can be a fun and empowering experience.",
+    "Encouraging curiosity and bravery in trying new things is a valuable life lesson. This story gently guides your child through the process of choosing something new, taking that first step, and discovering the joy of expanding their world, all while seeing themselves as the capable hero."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: 'What new thing did our hero try in the story? What is something new you would like to try this year?'",
+    "Share a simple 'new thing' you plan to try in the new year. This shows your child that even grown-ups continue to learn and grow.",
+    "Together, brainstorm a few small, achievable 'new things' your child could try. It could be a new food, a new game at the park, or a new way to draw a picture."
+  ],
+  "faqs": [
+    {
+      "question": "What kind of 'new thing' does my child try in the story?",
+      "answer": "The story intentionally keeps the 'new thing' open-ended, allowing for your child's imagination and personal experience to fill in the details. It could be a new food, a new game, or a new creative activity."
+    },
+    {
+      "question": "Is this book suitable for celebrating New Year's at any time of year?",
+      "answer": "While it captures the festive spirit of New Year's Eve, the core theme of trying new things and embracing fresh starts is timeless and relevant all year round. It makes a thoughtful gift anytime."
+    },
+    {
+      "question": "How does this book teach my child about New Year's traditions?",
+      "answer": "This story focuses on the joyous anticipation of midnight and introduces the tradition of making a 'New Year's wish' as a promise to try something new, emphasizing personal growth and positive intentions rather than specific cultural rituals."
+    }
+  ],
+  "image_alt": "Personalized New Year book cover featuring an illustrated child celebrating.",
+  "feed_title": "Personalized New Year Book for Kids, Your Child Is the Hero",
+  "feed_description": "Welcome the new year with a truly special gift: a personalized New Year's story where your child is the star! In 'Your Child's New Year Wish', your child celebrates New Year's Eve with their family, feeling the excitement build as midnight approaches. When the clock strikes twelve, a wonderful tradition begins: making a promise to try one new thing in the year ahead. Your child thoughtfully considers different possibilities, from trying a new food to learning a new game, before making their special choice. This sparkling tale gently teaches the value of curiosity, bravery, and embracing new experiences. It's a perfect way to inspire a love of discovery and the joy of fresh starts. Celebrate New Year's and the adventure of trying something new with a book that puts your child at the center of the story. Personalize with your child's name and photo to create a cherished holiday keepsake."
+}

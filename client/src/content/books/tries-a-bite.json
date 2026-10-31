@@ -1,0 +1,115 @@
+{
+  "slug": "tries-a-bite",
+  "status": "live",
+  "title_pattern": "{name} Tries a Bite",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "picky eater book personalized",
+  "landing_page_slug": "books/tries-a-bite",
+  "example": {
+    "name": "Sophie",
+    "pronouns": "she",
+    "look": "fair skin, long red hair in a braid"
+  },
+  "tagline": "A gentle story encouraging your little one to take a brave bite of something new.",
+  "lesson_or_purpose": "To encourage bravery in trying new foods and experiences, making it a positive and gentle adventure.",
+  "tone": "Warm, encouraging, positive, gentle.",
+  "reading_level": "Ages 2-6",
+  "keywords": [
+    "picky eater",
+    "personalized book",
+    "trying new food",
+    "market",
+    "bravery",
+    "grandparent"
+  ],
+  "illustration_guide": "The story takes place in a bright, bustling outdoor farmer's market, moving to a cozy home kitchen. The palette is warm and inviting, full of fresh greens, reds, yellows, and oranges, reflecting the vibrant produce. Recurring visual elements include colorful baskets of fruits and vegetables, friendly market vendors, and the comforting presence of a grandparent.",
+  "page_outline": [
+    {
+      "beat": "{name} often had just a few favorite foods. When it was time to eat, {she/he} would say, 'I only like THIS!' {name} was not so sure about new things.",
+      "illustration_prompt": "The child sits at a small kitchen table, looking at a plate with a few familiar foods. A slightly hesitant expression on the child's face. The kitchen is cozy and bright."
+    },
+    {
+      "beat": "One sunny morning, Grandma came to visit! 'What a beautiful day,' Grandma said to {name}. 'Shall we go on an adventure?'",
+      "illustration_prompt": "Grandma, with a kind smile, greets the child at the front door. The child looks up at Grandma, curious and happy. Sunlight streams in."
+    },
+    {
+      "beat": "Grandma had a wonderful idea. 'Let's go to the market, {name}! We can see all the colorful, yummy foods there.' {name} thought that sounded like fun.",
+      "illustration_prompt": "Grandma holds the child's hand, both looking excited. Behind them, a thought bubble or subtle imagery of a vibrant market scene."
+    },
+    {
+      "beat": "At the market, bright colors bloomed everywhere! Red apples, green lettuce, yellow lemons. {name}'s eyes were wide.",
+      "illustration_prompt": "The child and Grandma walk through a lively outdoor market. Stalls are overflowing with colorful fruits and vegetables. The child looks around in wonder."
+    },
+    {
+      "beat": "So many foods! Some looked round, some looked bumpy. Some smelled sweet, some smelled fresh. {name} saw things {she/he} had never seen before.",
+      "illustration_prompt": "Close-up of the child's face, looking curiously at a basket of unusual-looking vegetables or fruits, like romanesco broccoli or star fruit. Grandma smiles gently beside the child."
+    },
+    {
+      "beat": "Grandma pointed to a basket. 'Look, {name}! How about we pick just ONE new thing today? Just one brave bite!'",
+      "illustration_prompt": "Grandma kneels to the child's level, gently pointing to a vibrant display of produce. The child looks at the options, pondering."
+    },
+    {
+      "beat": "{name} looked and looked. 'Hmm,' {she/he} thought. After a moment, {name} chose a shiny, red strawberry. 'This one!' {she/he} said.",
+      "illustration_prompt": "The child proudly holds a single, ripe strawberry. Grandma smiles, holding a market basket. Other produce is blurred in the background."
+    },
+    {
+      "beat": "Back home, Grandma washed the strawberry. 'Ready for your brave bite, {name}?' {She/He} took a tiny nibble. A very, very tiny nibble.",
+      "illustration_prompt": "The child, sitting at the kitchen table, brings the strawberry to their mouth. Grandma watches with gentle encouragement."
+    },
+    {
+      "beat": "{name} chewed and thought. It tasted sweet! Even if {she/he} didn't love it, {name} felt so proud. 'I tried it!' {she/he} cheered.",
+      "illustration_prompt": "The child beams with pride, a small bite taken from the strawberry. Grandma gives the child a high-five or a hug, both smiling."
+    },
+    {
+      "beat": "From that day on, {name} knew that trying just one new thing could be a fun adventure. And who knew what other delicious things were out there for {her/him} to discover?",
+      "illustration_prompt": "The child, hand-in-hand with Grandma, walks away from the market, perhaps looking back with a confident smile. A basket of colorful produce is visible in the background."
+    }
+  ],
+  "cover_scene": "The child stands happily at a vibrant farmer's market stall, holding a colorful fruit (e.g., a strawberry or a small apple), looking curious and content. Baskets of produce are around, with a soft, sunny sky above.",
+  "sample_pages": [
+    {
+      "text": "Grandma had a wonderful idea. 'Let's go to the market, {name}! We can see all the colorful, yummy foods there.' {name} thought that sounded like fun.",
+      "scene": "Grandma holds the child's hand, both looking excited. Behind them, a thought bubble or subtle imagery of a vibrant market scene."
+    },
+    {
+      "text": "Back home, Grandma washed the strawberry. 'Ready for your brave bite, {name}?' {She/He} took a tiny nibble. A very, very tiny nibble.",
+      "scene": "The child, sitting at the kitchen table, brings the strawberry to their mouth. Grandma watches with gentle encouragement."
+    }
+  ],
+  "h1": "Personalized Picky Eater Book for Your Child",
+  "meta_title": "Personalized Picky Eater Book for Kids | StoryBloom",
+  "meta_description": "Encourage your child to try new foods with this personalized book where your child is the brave hero who takes one tiny bite. Fun and gentle.",
+  "promise": "Your child will feel brave and proud after trying something new in this sweet personalized story.",
+  "story_summary": "Join your child on an encouraging adventure to a bustling farmer's market with a beloved grandparent. Your child, who usually sticks to a few favorites, gets to explore a world of colorful new foods. With gentle encouragement, your child picks one new item and takes a brave, tiny bite, discovering the joy of trying something new.",
+  "why_parents": [
+    "Picky eating is a common phase for many young children, and it can be a source of daily frustration for parents. This story offers a positive, low-pressure approach, focusing on the child's agency and bravery rather than demanding they eat everything on their plate.",
+    "By making the child the hero of the story, parents can introduce the idea of trying new foods in a fun, imaginative way. It helps children understand that trying a tiny bite is a brave step, fostering a sense of accomplishment and gently broadening their comfort zone around food."
+  ],
+  "for_grownups": [
+    "Talk about the market after reading: 'What colorful foods did {name} see? What new food would you choose to try for a brave bite?'",
+    "Encourage your child to help with food preparation, like washing fruits or vegetables, even if they don't eat them. Involvement can build comfort.",
+    "Remember that 'one brave bite' is a big step! Celebrate the effort of trying, without focusing on whether they liked it or not."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book force my child to eat specific foods?",
+      "answer": "No, this story is designed to be gentle and encouraging, not prescriptive. It focuses on the adventure of exploring and the bravery of trying 'just one tiny bite' of something new, allowing your child to make their own choice."
+    },
+    {
+      "question": "Is the market experience realistic for young children?",
+      "answer": "Yes, the story captures the vibrant and exciting atmosphere of a farmer's market through a child's eyes, highlighting the colors and variety of fresh produce in an accessible way that sparks curiosity without being overwhelming."
+    },
+    {
+      "question": "How does this book help with picky eating?",
+      "answer": "This book helps by shifting the focus from 'eating everything' to 'trying something new.' It empowers your child as the decision-maker, building confidence and a positive association with food discovery, which can gently open the door to a wider palate over time."
+    }
+  ],
+  "image_alt": "Personalized picky eater book cover featuring an illustrated child holding a strawberry at a vibrant farmer's market with their grandparent.",
+  "feed_title": "Personalized Picky Eater Book for Kids, Your Child Tries New Food",
+  "feed_description": "Open up a world of culinary adventure for your little one with 'Your Child Tries a Bite,' a beautifully personalized story designed to gently encourage even the pickiest eaters. In this encouraging book, your child becomes the hero, joining a beloved grandparent on a fun trip to a bustling farmer's market. There, surrounded by vibrant fruits and vegetables, your child gets to choose just one new food to try. The story celebrates the bravery of taking a 'tiny bite,' focusing on the positive experience of discovery rather than the outcome of liking it. This book aims to reduce mealtime pressure, making food exploration a joyful and empowering journey. It's perfect for ages 2-6, helping to foster curiosity and confidence around new foods in an empowering, non-judgmental way. Watch your child beam with pride as they see themselves bravely trying something new on every page of this unique, customized book."
+}

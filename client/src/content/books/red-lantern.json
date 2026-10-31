@@ -1,0 +1,119 @@
+{
+  "slug": "red-lantern",
+  "status": "live",
+  "title_pattern": "{name} and the Red Lantern",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Jan-Feb",
+  "sensitive": false,
+  "main_keyword": "lunar new year book for kids personalized",
+  "landing_page_slug": "books/red-lantern",
+  "example": {
+    "name": "Mei",
+    "pronouns": "she",
+    "look": "light skin, straight black hair in two buns"
+  },
+  "tagline": "Celebrate new beginnings and vibrant traditions with your child.",
+  "lesson_or_purpose": "To introduce the joy and traditions of Lunar New Year through a child's active participation.",
+  "tone": "Joyful, celebratory, warm, respectful.",
+  "reading_level": "Ages 3-8",
+  "keywords": [
+    "Lunar New Year",
+    "Chinese New Year",
+    "personalized",
+    "kids book",
+    "celebration",
+    "tradition",
+    "family",
+    "lion dance",
+    "red envelopes",
+    "new year"
+  ],
+  "illustration_guide": "A vibrant and warm palette dominated by reds, golds, and oranges, with accents of jade green and royal blue. Settings include a cozy home decorated for the new year, a bustling kitchen, and a lively street scene. Recurring elements are red lanterns, paper cuttings, lucky knots, and festive food. The style is soft and inviting, suitable for young children.",
+  "page_outline": [
+    {
+      "beat": "{name} wakes up, it's Lunar New Year! Family is busy preparing for the special day, and {name} feels the excitement in the air.",
+      "illustration_prompt": "The child waking up in a cozy bedroom, sunlight streaming in, with festive red and gold decorations subtly visible in the background."
+    },
+    {
+      "beat": "Grandma shows {name} how to sweep away old luck, making space for new. With a tiny broom, {name} helps make the house sparkling clean.",
+      "illustration_prompt": "The child holding a small broom, giggling, next to Grandma who is sweeping a floor. Red decorations are starting to appear."
+    },
+    {
+      "beat": "Soon, the house is bright with red and gold! {name} helps hang festive lanterns and colorful banners, making the home feel extra special for the new year.",
+      "illustration_prompt": "The child reaching up to hang a bright red lantern or paper cutting, surrounded by more festive red and gold decorations."
+    },
+    {
+      "beat": "Then, a special gift for {name}! A shiny red envelope. Grandma explains it's for good luck and happy wishes, and {name} holds it with a big smile.",
+      "illustration_prompt": "Grandma handing a red envelope to the child, who is looking at it with wide eyes."
+    },
+    {
+      "beat": "Wonderful smells drift from the kitchen. Mom and Dad cook a big feast, and {name} helps prepare, perhaps stirring a bowl or setting the table.",
+      "illustration_prompt": "The child helping in the kitchen, maybe stirring a bowl or placing chopsticks on a festive table setting, with Mom and Dad busy cooking."
+    },
+    {
+      "beat": "At last, it's dinner time! The whole family gathers, and {name} enjoys delicious dishes, sharing laughter and stories.",
+      "illustration_prompt": "The child happily eating at a dinner table crowded with family members and traditional Lunar New Year dishes."
+    },
+    {
+      "beat": "Suddenly, a happy drumbeat booms from outside! *Boom-boom-CRASH!* What could it be? {name} listens, eyes wide with wonder.",
+      "illustration_prompt": "The child pausing during dinner or play, head cocked, listening to sounds coming from outside a window."
+    },
+    {
+      "beat": "Grandma takes {name}'s hand. Together, {she/he} rushes outside to see a vibrant lion dance! The colorful lion twirls and leaps with amazing grace.",
+      "illustration_prompt": "The child, holding Grandma's hand, watching a lion dance performance with drummers and cymbal players in a lively street. Confetti is in the air."
+    },
+    {
+      "beat": "The lion comes very close, making {name} giggle! The new year feels full of energy and cheer, and {name} feels part of something big and joyful.",
+      "illustration_prompt": "The child smiling widely, watching the lion dance up close, maybe reaching out a hand cautiously. Confetti in the air."
+    },
+    {
+      "beat": "Back inside, {name} snuggles close, remembering the bright red lanterns, the tasty food, and the booming drums. Happy New Year, {name}!",
+      "illustration_prompt": "The child snuggled on a couch with a parent or grandparent, looking out a window at a sky dotted with glowing red lanterns."
+    }
+  ],
+  "cover_scene": "The child, smiling happily, standing in front of a backdrop of a colorful lion dance head and glowing red lanterns, with a peaceful, clear blue sky across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "Grandma shows {name} how to sweep away old luck, making space for new. With a tiny broom, {name} helps make the house sparkling clean.",
+      "scene": "The child holding a small broom, giggling, next to Grandma who is sweeping a floor. Red decorations are starting to appear in the background."
+    },
+    {
+      "text": "Grandma takes {name}'s hand. Together, {she/he} rushes outside to see a vibrant lion dance! The colorful lion twirls and leaps with amazing grace.",
+      "scene": "The child, holding Grandma's hand, watching a lion dance performance with drummers and cymbal players in a lively street. Confetti is in the air."
+    }
+  ],
+  "h1": "Personalized Lunar New Year Book for Kids",
+  "meta_title": "Personalized Lunar New Year Story | StoryBloom",
+  "meta_description": "Celebrate traditions with a personalized Lunar New Year book where your child is the hero! Features lion dances, red envelopes, and family fun.",
+  "promise": "Your child becomes the star of a vibrant Lunar New Year adventure, learning about joyful traditions firsthand.",
+  "story_summary": "Join your child as they celebrate the vibrant traditions of Lunar New Year, from helping with festive cleaning to decorating the home with red and gold. Your child will experience the joy of a family feast, receive a special red envelope, and be captivated by a lively lion dance. It's a story that brings the energy and beauty of new beginnings and cultural celebration to life.",
+  "why_parents": [
+    "Introducing children to diverse cultural celebrations is a wonderful way to broaden their world and foster understanding. This book gently guides your child through the beautiful customs of Lunar New Year, highlighting the importance of family, good fortune, and shared joy. It's a vibrant way to explore new traditions together.",
+    "Family traditions, whether new or old, create lasting memories and a sense of belonging. This story puts your child at the heart of Lunar New Year preparations and celebrations, allowing them to experience the excitement of helping, the warmth of family gatherings, and the thrill of a lion dance, making the holiday come alive for them."
+  ],
+  "for_grownups": [
+    "\"What part of Lunar New Year in the story did you like the most?\"",
+    "\"Are there any special ways our family celebrates new beginnings?\"",
+    "\"What wishes do you have for the new year?\""
+  ],
+  "faqs": [
+    {
+      "question": "What Lunar New Year traditions are featured in this book?",
+      "answer": "This personalized story lovingly includes traditions like preparing the home for good luck, decorating with red and gold, receiving red envelopes, enjoying a family feast, and witnessing a vibrant lion dance performance."
+    },
+    {
+      "question": "Is this book suitable for children who are not celebrating Lunar New Year themselves?",
+      "answer": "Absolutely! This book is designed to introduce the joy and customs of Lunar New Year to all children, fostering cultural appreciation and understanding in a fun, immersive way, regardless of their own family traditions."
+    },
+    {
+      "question": "How does this book help my child understand cultural celebrations?",
+      "answer": "By placing your child directly into the story as the main character, they experience each tradition firsthand. This immersive approach helps them connect with the cultural activities and understand the meaning behind the Lunar New Year celebrations in a personal and memorable way."
+    }
+  ],
+  "image_alt": "Personalized Lunar New Year book cover featuring an illustrated child as the hero with a lion dance and lanterns.",
+  "feed_title": "Personalized Lunar New Year Book for Kids, Your Child Is the Hero",
+  "feed_description": "Embark on a joyful journey with your child as they celebrate Lunar New Year in this beautifully personalized picture book. Your child becomes the main character, actively participating in the vibrant traditions of this special holiday. From helping Grandma sweep away the old to decorating the home with bright red lanterns and golden banners, every page is an adventure. Your little one will experience the delight of receiving a lucky red envelope, join in a delicious family feast, and be mesmerized by the spectacular sights and sounds of a lion dance. This story vividly portrays the significance of new beginnings, family unity, and rich cultural heritage. Perfect for sharing the excitement of Lunar New Year, this book is a unique keepsake that celebrates your child's role in a festive tradition. It's an unforgettable way to make learning about other cultures personal and vibrant."
+}

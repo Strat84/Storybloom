@@ -1,0 +1,114 @@
+{
+  "slug": "looks-up",
+  "status": "live",
+  "title_pattern": "{name} Looks Up",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "screen time book for kids",
+  "landing_page_slug": "books/looks-up",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "Discover a world of wonder beyond the screen.",
+  "lesson_or_purpose": "Encourages children to explore activities beyond screens and find joy in the real world.",
+  "tone": "Warm, encouraging, playful, discovery-oriented.",
+  "reading_level": "Ages 4-8",
+  "keywords": [
+    "screen time book for kids",
+    "unplug",
+    "imagination",
+    "rainy day activities",
+    "personalized book"
+  ],
+  "illustration_guide": "A bright, inviting style with soft edges. Settings include a cozy, colorful home interior (living room, child's bedroom) and a glimpse of a cheerful outdoor scene. Palette leans towards warm, inviting pastels and bright primary accents. Recurring elements are a friendly stuffed animal companion and various simple, classic toys or art supplies.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and {her/his} love for screen time, especially on a rainy day. {She/He} often found comfort and fun in the glowing screen.",
+      "illustration_prompt": "The child, sitting cozily on a rug in a bright living room, engrossed in a tablet. Rain can be seen lightly falling outside a window."
+    },
+    {
+      "beat": "One particularly rainy morning, {name} reached for {her/his} favorite tablet, only to discover the battery was completely empty! What a surprise for {name}.",
+      "illustration_prompt": "The child holding a tablet with a blank screen, looking surprised or slightly puzzled. A charging cord lies nearby, unplugged."
+    },
+    {
+      "beat": "With the rain pouring outside, there were no sunny adventures to be had. {name} felt a tiny bit bored. What could {she/he} do inside?",
+      "illustration_prompt": "The child looking out a rain-streaked window, perhaps with a slight frown. The room still feels cozy but a bit quiet."
+    },
+    {
+      "beat": "{name} took a deep breath and looked around {her/his} room. So many toys, so many books! But where to start? There was a box {name} hadn't seen in ages.",
+      "illustration_prompt": "The child standing in the middle of a colorful bedroom, looking thoughtfully at different toys and a bookshelf, with an old, dusty box partially visible."
+    },
+    {
+      "beat": "{She/He} peeked inside the old box. Wow! Out popped colorful building blocks, some crayons, and a fuzzy puppet! {name} hadn't played with these in a long time.",
+      "illustration_prompt": "The child kneeling beside an open box, looking delighted as colorful building blocks, crayons, and a friendly-looking puppet spill out."
+    },
+    {
+      "beat": "First, {name} tried building a tall tower. It wobbled! Then {she/he} tried drawing a funny monster. It had silly eyes! {name} started to giggle.",
+      "illustration_prompt": "The child building a wobbly tower of blocks on one side, and drawing a funny monster with crayons on paper on the other. A small smile plays on the child's lips."
+    },
+    {
+      "beat": "The hours flew by. {name} made a whole city of blocks and gave the puppet a voice! {Her/His} imagination was having so much fun. Look what {name} created!",
+      "illustration_prompt": "The child deeply engaged, surrounded by a complex block city, with the puppet on one hand, making it 'talk'. The child's face is joyful and absorbed."
+    },
+    {
+      "beat": "Suddenly, Mom called, \"The rain has stopped, and your tablet is charged!\" {name} looked from {her/his} amazing creations to the shiny tablet.",
+      "illustration_prompt": "The child looks up from the block city and puppet towards an open door, where a parent (Mom) is visible, holding up the now charged tablet. Sunlight peeks through the window."
+    },
+    {
+      "beat": "{name} thought for a moment. {She/He} could go back to the screen, but {she/he} was having such a blast! A happy smile spread across {name}'s face as {she/he} made a choice.",
+      "illustration_prompt": "The child with a thoughtful, then happy expression, looking at the block city and puppet with renewed affection, making a decision."
+    },
+    {
+      "beat": "That day, {name} learned that sometimes the very best adventures are found when we look up from our screens and discover the wonderful world all around us!",
+      "illustration_prompt": "The child, now outside in a sunny garden, happily playing with the puppet and a small, colorful ball. A few of the blocks are playfully arranged nearby. The tablet is nowhere in sight."
+    }
+  ],
+  "cover_scene": "The child, eyes wide with curiosity, looking up from a cozy spot on the floor, surrounded by colorful building blocks and a friendly puppet. An open window shows a bright, clear sky.",
+  "sample_pages": [
+    {
+      "text": "One particularly rainy morning, {name} reached for {her/his} favorite tablet, only to discover the battery was completely empty! What a surprise for {name}.",
+      "scene": "The child holding a tablet with a blank screen, looking surprised or slightly puzzled. A charging cord lies nearby, unplugged."
+    },
+    {
+      "text": "The hours flew by. {name} made a whole city of blocks and gave the puppet a voice! {Her/His} imagination was having so much fun. Look what {name} created!",
+      "scene": "The child deeply engaged, surrounded by a complex block city, with the puppet on one hand, making it 'talk'. The child's face is joyful and absorbed."
+    }
+  ],
+  "h1": "Personalized Screen Time Book for Kids: Your Child Looks Up",
+  "meta_title": "Personalized Screen Time Book for Kids | StoryBloom",
+  "meta_description": "Encourage your child to look up from screens and discover real-world fun with this personalized story where your child is the hero.",
+  "promise": "Watch your child discover the joy of imagination and real-world play.",
+  "story_summary": "In this charming personalized story, your child starts a rainy day with a favorite screen that's out of battery. With no digital entertainment, your child must look around for something new to do. What begins as a moment of boredom quickly turns into an exciting adventure of discovery. Your child's creativity sparks as they explore forgotten toys and activities, leading to a day they wouldn't trade for anything.",
+  "why_parents": [
+    "It's a common challenge: balancing screen time with other enriching activities. This book offers a gentle, positive narrative, showing your child that unplugging can lead to unexpected and rewarding discoveries. It validates their feelings while guiding them towards imaginative play.",
+    "Children learn best through stories where they see themselves as the hero. By placing your child at the center of this tale, they experience the satisfaction of creative problem-solving and making choices that lead to genuine joy, reinforcing the idea that fun can be found anywhere, especially when they look up."
+  ],
+  "for_grownups": [
+    "Talk about your child's favorite non-screen activities. What do they love to do that doesn't involve a tablet or TV?",
+    "When your child has screen-free time, observe what they naturally gravitate towards. Sometimes boredom is the gateway to creativity.",
+    "Reflect on a time you 'unplugged' and discovered something new and fun. Share your experience with your child."
+  ],
+  "faqs": [
+    {
+      "question": "What is the main message of this book?",
+      "answer": "This personalized book gently encourages children to explore creative play and real-world activities when screens aren't available, highlighting the joy of discovery and imagination."
+    },
+    {
+      "question": "Is this book suitable for children who don't use screens much?",
+      "answer": "Yes, absolutely! While it touches on screen time, its core message is about the joy of imaginative play and looking for fun in everyday surroundings, which is beneficial for all children, regardless of their screen habits."
+    },
+    {
+      "question": "How does the story encourage imaginative play?",
+      "answer": "The story puts your child in a situation where they must find their own fun without screens. They discover old toys and use their creativity to build, draw, and play, showing the rich possibilities that come from within their own imagination."
+    }
+  ],
+  "image_alt": "Personalized screen time book cover featuring an illustrated child looking up from a pile of blocks and a puppet, with a bright, clear sky background.",
+  "feed_title": "Personalized Screen Time Book for Kids: Your Child Looks Up",
+  "feed_description": "Gift your child a unique personalized story that celebrates imagination and real-world discovery. In \"Your Child Looks Up,\" your child is the hero of an exciting adventure on a rainy day when their favorite screen is out of battery. This charming book gently guides children aged 4-8 through the fun of finding new ways to play without digital distractions. They'll explore forgotten toys, build amazing creations, and learn that the best adventures often happen when we look up from screens. This custom book is designed to spark creativity and encourage a love for imaginative play. It's a wonderful way to foster a healthy balance with screen time in a positive, uplifting narrative that celebrates creativity. Your child will feel seen and empowered as they make their own choices, discovering that the world around them is full of endless possibilities for fun. Customize this book with your child's name and photo to make them the star of their very own story about looking up and finding joy."
+}

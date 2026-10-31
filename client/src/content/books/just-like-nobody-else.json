@@ -1,0 +1,114 @@
+{
+  "slug": "just-like-nobody-else",
+  "status": "live",
+  "title_pattern": "{name}, Just Like Nobody Else",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "be yourself book for kids personalized",
+  "landing_page_slug": "books/just-like-nobody-else",
+  "example": {
+    "name": "Kai",
+    "pronouns": "he",
+    "look": "light tan skin, straight dark hair, gap-toothed smile"
+  },
+  "tagline": "Let your unique light shine.",
+  "lesson_or_purpose": "Self-acceptance, individuality, celebrating unique interests.",
+  "tone": "Encouraging, warm, playful.",
+  "reading_level": "Ages 4-8",
+  "keywords": [
+    "be yourself",
+    "individuality",
+    "unique",
+    "self-esteem",
+    "friendship"
+  ],
+  "illustration_guide": "Setting: Everyday environments like home, park, school, craft room. Palette: Bright, cheerful, varied colors, emphasizing distinct personal expressions (e.g., vibrant paintings, colorful blocks). Recurring elements: A subtle visual motif that represents the child's unique talent or interest (e.g., a small paintbrush, a tiny block, a musical note) that grows more prominent as the child embraces it. The friend also has a consistent visual element related to their interest.",
+  "page_outline": [
+    {
+      "beat": "{name} and {her/his} friend, Alex, loved to play together. Whatever Alex liked, {name} liked too! If Alex built a tall tower, {name} built one just like it. If Alex sang a silly song, {name} sang the very same one.",
+      "illustration_prompt": "The child and a friend (Alex) playing side-by-side, both building similar block towers. The child looks at Alex's tower."
+    },
+    {
+      "beat": "One sunny morning, Alex declared, \"I love drawing spaceships!\" Alex started sketching zooming rockets and swirling galaxies. {name} decided {she/he} loved spaceships too, just like Alex.",
+      "illustration_prompt": "Alex enthusiastically drawing spaceships with crayons on paper, looking very focused and happy. The child is holding a crayon, looking at Alex's drawing, perhaps starting to draw a spaceship, but with less enthusiasm."
+    },
+    {
+      "beat": "{name} tried to draw a spaceship, but it didn't feel quite right. {name}'s hand wanted to draw flowery vines or swirly patterns instead. But Alex loved spaceships! So {name} kept trying to make {her/his} spaceship look like Alex's.",
+      "illustration_prompt": "Close-up on the child's drawing, which is a somewhat wobbly spaceship, with faint, almost accidental, floral or swirly lines peeking through. Alex is in the background, engrossed in their own perfect spaceship drawing."
+    },
+    {
+      "beat": "Later, when Alex wanted to play soccer, {name} joined in. Alex kicked the ball with a big smile. {name} kicked the ball too, but secretly, {name} wished {she/he} was painting beautiful colors or listening to music.",
+      "illustration_prompt": "The child and Alex playing soccer in a park. Alex is gleefully kicking the ball. The child is kicking, but looks a little distracted, perhaps glancing towards a colorful flower patch or a distant bird."
+    },
+    {
+      "beat": "One afternoon, Alex wanted to build a robot with gears and wires. {name} tried to build a robot too, but {her/his} eyes kept drifting to the colorful paint pots and brushes on a nearby table. Building robots wasn't quite {name}'s favorite thing.",
+      "illustration_prompt": "Alex is intently building a detailed robot out of recycled materials. The child is holding a piece of cardboard for a robot, but their gaze is fixed on a set of bright paints and brushes on a craft table nearby."
+    },
+    {
+      "beat": "{name} took a deep breath. \"Maybe I don't love *everything* Alex loves,\" {name} thought. {She/He} looked at the paints, then at Alex, who was still busy with the robot. {name} decided to try something different, just for {her/himself}.",
+      "illustration_prompt": "The child is looking from Alex (still focused on the robot) to the colorful paint pots. A small, thoughtful smile begins to form on the child's face."
+    },
+    {
+      "beat": "With a happy sigh, {name} picked up a paintbrush. Splish, splash, went the colors! {name} painted a swirling, joyful picture, full of sunshine and bright flowers. It was completely different from spaceships or robots, and {name} felt so good.",
+      "illustration_prompt": "The child is happily painting a vibrant, abstract, or floral picture with great concentration and joy. Colors are bright and flowing."
+    },
+    {
+      "beat": "Alex looked up from the robot. \"Wow, {name}!\" said Alex. \"That painting is amazing! I wish I could paint like that.\" Alex sounded genuinely impressed by what {name} had created.",
+      "illustration_prompt": "Alex is looking admiringly at the child's painting. The child is beaming with pride, holding the paintbrush."
+    },
+    {
+      "beat": "\"It's fun!\" {name} said. {She/He} showed Alex the bright yellow sun and the big purple flower. {name} felt proud of {her/his} own art, and Alex liked it too!",
+      "illustration_prompt": "The child is holding up their painting, showing it to Alex. Alex has a big, appreciative smile."
+    },
+    {
+      "beat": "From that day on, {name} and Alex still played together. But sometimes Alex built rockets, and {name} painted flowers. Sometimes Alex played soccer, and {name} listened to music. They were friends, and they were also wonderfully, perfectly themselves.",
+      "illustration_prompt": "The child and Alex are playing in the same space, but engaged in different activities. Alex might be building a small rocket, while the child is painting a mini canvas or listening to headphones. Both look happy and content in their own activity, yet still together."
+    }
+  ],
+  "cover_scene": "The child, smiling confidently, holding a paintbrush and a small, colorful canvas with a unique abstract or floral design. Alex is nearby, smiling too, perhaps holding a small model rocket. A vibrant, cheerful park or creative space background. Calm open sky across the top third.",
+  "sample_pages": [
+    {
+      "text": "{name} tried to draw a spaceship, but it didn't feel quite right. {name}'s hand wanted to draw flowery vines or swirly patterns instead. But Alex loved spaceships! So {name} kept trying to make {her/his} spaceship look like Alex's.",
+      "scene": "Close-up on the child's drawing, which is a somewhat wobbly spaceship, with faint, almost accidental, floral or swirly lines peeking through. Alex is in the background, engrossed in their own perfect spaceship drawing."
+    },
+    {
+      "text": "With a happy sigh, {name} picked up a paintbrush. Splish, splash, went the colors! {name} painted a swirling, joyful picture, full of sunshine and bright flowers. It was completely different from spaceships or robots, and {name} felt so good.",
+      "scene": "The child is happily painting a vibrant, abstract, or floral picture with great concentration and joy. Colors are bright and flowing."
+    }
+  ],
+  "h1": "Personalized Be Yourself Book for Kids",
+  "meta_title": "Personalized Be Yourself Book | StoryBloom",
+  "meta_description": "Celebrate your child's unique self with a personalized story where they discover their own special talents and interests. Your child is the hero!",
+  "promise": "A beautiful story that shows your child the joy of being uniquely themselves.",
+  "story_summary": "In this inspiring story, your child loves playing with their friend, Alex, and often tries to do exactly what Alex does. But soon, your child notices a little tug in their heart, pointing towards different interests. With a brave choice, your child explores what truly makes them happy, discovering a wonderful talent all their own. It's a sweet adventure about finding your own light.",
+  "why_parents": [
+    "Children often look to their friends for cues on how to behave and what to like, which is a natural part of social development. This book gently explores the subtle ways children might try to fit in by copying others, even when their own preferences are different. It offers a kind look at navigating those early social experiences.",
+    "Encouraging individuality and self-expression is key to building a child's confidence and self-esteem. This story provides a lovely opportunity to discuss with your child that it's okay, and even wonderful, to have different interests from friends, and that true friendship celebrates what makes each person special."
+  ],
+  "for_grownups": [
+    "\"What do you love to do that's different from what your friends love?\"",
+    "\"What makes you feel most like YOU?\"",
+    "\"It's great to try new things with friends, and it's also great to try things that are just for you!\""
+  ],
+  "faqs": [
+    {
+      "question": "How does this book encourage my child to be themselves?",
+      "answer": "The story shows your child as the hero who discovers the joy of their unique interests after trying to copy a friend. It's a gentle narrative that reinforces the message that their individual passions are valuable and worth exploring."
+    },
+    {
+      "question": "Is the story suitable for all children, regardless of their current friendships?",
+      "answer": "Yes, this story is universally applicable. It's not about any specific friendship dynamic, but rather the general experience of finding one's own identity and preferences, which all children navigate as they grow."
+    },
+    {
+      "question": "Does the book emphasize competition between friends?",
+      "answer": "Not at all. The book celebrates friendship while highlighting the beauty of individual differences. The friend in the story reacts positively, showing that true friends appreciate and encourage each other's unique qualities."
+    }
+  ],
+  "image_alt": "Personalized be yourself book cover featuring an illustrated child as the hero, happily holding a paintbrush next to their friend.",
+  "feed_title": "Personalized Be Yourself Book for Kids, Your Child Is the Hero",
+  "feed_description": "Discover a personalized story where your child learns the joy of being uniquely themselves. In this book, your child finds out that while playing with friends is wonderful, it's also amazing to have their very own special interests. Your child will be the hero who discovers their unique talents and passions, like painting bright pictures or building unique creations, instead of just doing what everyone else does. This book encourages self-acceptance and celebrates the beauty of individuality in a gentle, inspiring way. It's a perfect gift to boost your child's confidence and remind them that their unique light is truly special. Watching your child see themselves as the hero who embraces their true self is a meaningful experience."
+}

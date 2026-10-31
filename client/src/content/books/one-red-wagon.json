@@ -1,0 +1,116 @@
+{
+  "slug": "one-red-wagon",
+  "status": "live",
+  "title_pattern": "{name} and the One Red Wagon",
+  "category": "life-lessons",
+  "age_range": "2-5",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "book about sharing toddler personalized",
+  "landing_page_slug": "books/one-red-wagon",
+  "example": {
+    "name": "Maya",
+    "pronouns": "she",
+    "look": "warm brown skin, curly black hair in two puffs"
+  },
+  "tagline": "A little red wagon, big adventures, and the joy of sharing.",
+  "lesson_or_purpose": "Learning to share and collaborate with others for a more enjoyable play experience.",
+  "tone": "Cheerful, warm, encouraging, simple.",
+  "reading_level": "2-5 (toddler/preschool)",
+  "keywords": [
+    "sharing",
+    "toddler",
+    "wagon",
+    "friendship",
+    "playing together",
+    "problem-solving",
+    "collaboration"
+  ],
+  "illustration_guide": "Vibrant, sunny outdoor setting, like a park or a spacious backyard, filled with lush green grass, cheerful flowers, and a clear blue sky. The palette should be bright and inviting, dominated by primary colors with soft pastels. The focal point of many scenes will be a classic, shiny red wagon. Characters (the child and a friend) should be drawn with soft, rounded edges, expressing joyful and thoughtful emotions clearly. Recurring elements include natural textures like grass, leaves, and gentle sunlight.",
+  "page_outline": [
+    {
+      "beat": "One sunny morning, {name} woke up ready for a day of fun. {She/He} looked outside and saw a bright red wagon, just waiting to be played with!",
+      "illustration_prompt": "The child peeking out a window, eyes wide with excitement, looking at a shiny red wagon parked in a sunny backyard."
+    },
+    {
+      "beat": "{name} ran right outside to the wagon. {She/He} carefully touched its smooth red side and imagined all the wonderful things {she/he} could do. Pulling it was so much fun for {name}!",
+      "illustration_prompt": "The child happily pulling the red wagon across a grassy lawn, a wide smile on their face."
+    },
+    {
+      "beat": "Soon, a friend arrived, ready to play too! The friend saw the wagon and smiled. \"Can I play with the wagon?\" the friend asked {name}.",
+      "illustration_prompt": "The child is next to the red wagon, looking at a friendly child character approaching, who is pointing at the wagon with a hopeful expression."
+    },
+    {
+      "beat": "{name} wanted to keep pulling the wagon. But the friend wanted to pull it too! They both held onto the handle, but for {name}, the wagon didn't budge!",
+      "illustration_prompt": "The child and the friend both holding onto the handle of the red wagon, each pulling in a slightly different direction, looking a little stuck or confused."
+    },
+    {
+      "beat": "\"Mine!\" said the friend. \"{Her/His}!\" said {name}. Oh dear! The wagon was red, and lovely, but only one wagon. What could {name} do?",
+      "illustration_prompt": "Close-up of the child and the friend's hands on the wagon handle, with the children's slightly frustrated but not angry faces visible in the background. The wagon is stationary."
+    },
+    {
+      "beat": "{name} sat down in the grass. {She/He} looked at the wagon, and then at {her/his} friend. {name} thought, \"What if... what if we play *together*?\"",
+      "illustration_prompt": "The child sitting on the grass next to the red wagon, looking thoughtfully at the friend, who is standing nearby looking a bit sad."
+    },
+    {
+      "beat": "{name} had a great idea! \"Let's make a train!\" {she/he} said. \"We can both pull the wagon, and put all our toys inside!\" {name} grinned.",
+      "illustration_prompt": "The child with a bright, enthusiastic expression, gesturing towards the wagon and the friend, suggesting an idea. The friend looks curious."
+    },
+    {
+      "beat": "The friend loved {name}'s idea! Together, {name} and {her/his} friend gathered all their favorite stuffed animals and blocks.",
+      "illustration_prompt": "The child and the friend working together, laughing, as they carefully place toys (stuffed animals, blocks) into the red wagon."
+    },
+    {
+      "beat": "One pulled the front, and the other pushed from the back. Zoom! The \"toy train\" moved all around the yard! {name} and {her/his} friend giggled and played.",
+      "illustration_prompt": "The child and the friend happily moving the red wagon, now filled with toys. One child is pulling from the front, the other is gently pushing from behind."
+    },
+    {
+      "beat": "Playing together was even more fun than playing alone! {name} learned that sharing the little red wagon made for the very best adventures.",
+      "illustration_prompt": "The child and the friend sitting side-by-side on the grass, looking at the toy-filled wagon. They are smiling warmly at each other, happy and content."
+    }
+  ],
+  "cover_scene": "The child is happily pulling the bright red wagon across a green, sunny lawn, with a few colorful toys peeking out of the wagon. The background is a clear, inviting blue sky with soft white clouds.",
+  "sample_pages": [
+    {
+      "text": "Soon, a friend arrived, ready to play too! The friend saw the wagon and smiled. \"Can I play with the wagon?\" the friend asked {name}.",
+      "scene": "The child is next to the red wagon, looking at a friendly child character approaching, who is pointing at the wagon with a hopeful expression."
+    },
+    {
+      "text": "{name} had a great idea! \"Let's make a train!\" {she/he} said. \"We can both pull the wagon, and put all our toys inside!\" {name} grinned.",
+      "scene": "The child with a bright, enthusiastic expression, gesturing towards the wagon and the friend, suggesting an idea. The friend looks curious."
+    }
+  ],
+  "h1": "Personalized Book About Sharing with Your Child as the Hero",
+  "meta_title": "Personalized Sharing Book for Toddlers | StoryBloom",
+  "meta_description": "Teach your child the joy of sharing with this personalized picture book. Your child is the hero of a sweet story about a red wagon.",
+  "promise": "Watch your child learn the joy of sharing and collaboration as they star in their own adventure with a little red wagon and a new friend.",
+  "story_summary": "Your child discovers a bright red wagon, perfect for a day of fun. But when a friend arrives and wants to play with the wagon too, a small problem emerges. Your child will use their creativity to find a solution, leading to an adventure where playing together is even better than playing alone.",
+  "why_parents": [
+    "At this age, toddlers are just beginning to navigate social interactions and understand the concept of \"mine\" versus \"ours.\" This story offers a gentle, relatable introduction to sharing, showing how it can lead to more fun and bigger adventures when everyone participates. It's a wonderful way to reinforce the value of kindness and cooperation in everyday play.",
+    "This book helps your child see themselves as an active problem-solver and a good friend. By illustrating a common scenario with a tangible object like a wagon, it provides a concrete example of how working together can transform a potential conflict into a shared success, making the lesson easy to grasp and remember."
+  ],
+  "for_grownups": [
+    "After reading, ask your child, \"What was your favorite part of playing with the wagon together?\"",
+    "Talk about other things your child enjoys sharing, like toys, snacks, or even stories.",
+    "Encourage your child to share their own ideas for playing together with friends, just like the hero in the story."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book only feature one child?",
+      "answer": "This story features your child as the main character, who then encounters one other friend character. The illustrations will show both children playing together."
+    },
+    {
+      "question": "Is the story just about giving things away?",
+      "answer": "No, the story focuses on the positive aspects of sharing, such as collaborating, taking turns, and finding creative ways to play together that make the experience better for everyone. It's about building something new and fun."
+    },
+    {
+      "question": "How does the book teach about sharing for young children?",
+      "answer": "The book uses a simple, relatable scenario involving a desired toy and a friend. Your child's character actively solves the problem by suggesting a way to play together, demonstrating that sharing can lead to more fun and bigger adventures, without explicitly stating \"you must share.\""
+    }
+  ],
+  "image_alt": "Personalized sharing book cover featuring an illustrated child as the hero pulling a red wagon with a friend.",
+  "feed_title": "Personalized Sharing Book for Toddlers, Your Child Is the Hero",
+  "feed_description": "Give your toddler a personalized book that brings the concept of sharing to life. In this imaginative adventure, your child finds a bright red wagon, ready for fun. When a friend joins the play, a playful challenge arises: how to share one special wagon? Your child creatively solves the problem, discovering that collaborating with a friend makes playtime even more exciting. This story of teamwork, designed for children aged 2-5, uses simple language and vibrant illustrations to show how cooperation and friendship lead to bigger, happier adventures. It's a thoughtful way to foster empathy, problem-solving, and cooperative play in your little one. Watch your child's name appear on every page and their photo become the hero, making this story a cherished keepsake and a gentle lesson in togetherness."
+}

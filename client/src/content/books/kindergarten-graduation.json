@@ -1,0 +1,116 @@
+{
+  "slug": "kindergarten-graduation",
+  "status": "live",
+  "title_pattern": "{name} Graduates",
+  "category": "milestones",
+  "age_range": "5-6",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "May-Jun",
+  "sensitive": false,
+  "main_keyword": "kindergarten graduation book",
+  "landing_page_slug": "books/kindergarten-graduation",
+  "example": {
+    "name": "Elijah",
+    "pronouns": "he",
+    "look": "dark brown skin, short black curls, round glasses"
+  },
+  "tagline": "Celebrate a year of learning and growing, personalized just for your child.",
+  "lesson_or_purpose": "To celebrate the achievement of kindergarten graduation and reflect on a year of learning and growth.",
+  "tone": "Celebratory, reflective, encouraging, joyful.",
+  "reading_level": "Ages 5-6 (Early Reader)",
+  "keywords": [
+    "kindergarten graduation",
+    "preschool graduation",
+    "end of school",
+    "moving up",
+    "first grade",
+    "school memories",
+    "achievement"
+  ],
+  "illustration_guide": "Bright, cheerful, and inviting. The setting is a vibrant kindergarten classroom and school playground, moving to an outdoor graduation ceremony. The color palette is warm and primary, with pops of secondary colors. Recurring elements include learning tools (blocks, crayons, books), friendly classmates, and the child's teacher. Focus on expressive faces and active scenes.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} on {her/his} last day of kindergarten, feeling a mix of excitement and a little bit wistful about leaving. The classroom is decorated for a small graduation celebration.",
+      "illustration_prompt": "The child stands in a brightly decorated kindergarten classroom, looking thoughtful but happy, with balloons and a 'Congratulations Graduates' banner visible. Other children are chatting happily in the background."
+    },
+    {
+      "beat": "{name} remembers the first day of kindergarten, feeling a bit shy or new, but ready to learn. Contrast this with how confident {name} feels now.",
+      "illustration_prompt": "A split image: one side shows the child looking small and a little shy on the first day in a big classroom. The other side shows the child confidently interacting with materials in the same classroom."
+    },
+    {
+      "beat": "Recall a favorite activity or lesson {name} learned, like building with blocks, painting, or counting. Show {name} actively engaged and proud of a creation.",
+      "illustration_prompt": "The child proudly holds up a colorful drawing or a tall block tower, surrounded by classmates who are also engaged in various classroom activities like painting or reading."
+    },
+    {
+      "beat": "{name} thinks about the letter sounds and words {she/he} learned to read. Emphasize the magic of recognizing letters and putting them together.",
+      "illustration_prompt": "The child sits with an open picture book, pointing at a word, with an expression of understanding. Illustrated letters float playfully around the child."
+    },
+    {
+      "beat": "Highlight a moment where {name} helped a friend or worked together on a project, demonstrating kindness and teamwork.",
+      "illustration_prompt": "The child and another child are happily collaborating on a puzzle or building a shared structure, smiling at each other."
+    },
+    {
+      "beat": "Show {name} on the playground, remembering fun times during recess and how {she/he} learned to share and play with others.",
+      "illustration_prompt": "The child is on a school playground, perhaps on a swing or slide, surrounded by other children playing joyfully."
+    },
+    {
+      "beat": "{name} reflects on a challenge {she/he} faced and overcame, perhaps a tricky drawing, a hard puzzle, or learning to tie shoes, showing persistence.",
+      "illustration_prompt": "The child looks determinedly at a shoe with untied laces, or a slightly challenging drawing, with a small hint of a prior struggle, but a clear path to success."
+    },
+    {
+      "beat": "The teacher gathers the class for the graduation ceremony. {name} feels a sense of accomplishment and anticipation.",
+      "illustration_prompt": "The teacher, a friendly adult, gathers the children, including the child, who are all wearing simple graduation caps or sashes, ready for the ceremony."
+    },
+    {
+      "beat": "{name} walks up to receive {her/his} 'diploma' or certificate, feeling tall and proud. The teacher smiles warmly at {name}.",
+      "illustration_prompt": "The child walks across a small stage or designated area, smiling brightly, reaching for a rolled-up certificate from the smiling teacher. Other children and parents are visible in the background, clapping."
+    },
+    {
+      "beat": "After the ceremony, {name} looks forward to first grade, knowing {she/he} has learned so much and is ready for new adventures. {name} waves goodbye to kindergarten.",
+      "illustration_prompt": "The child, holding the certificate, waves goodbye to the kindergarten classroom (seen in the background) and looks towards a bright horizon, symbolizing the future."
+    }
+  ],
+  "cover_scene": "The child, wearing a small graduation cap, stands confidently with a rolled-up 'diploma' in hand, in front of a colorful schoolhouse backdrop with a bright, clear sky above.",
+  "sample_pages": [
+    {
+      "text": "{name} walked into kindergarten on that very first day. The room was big, and new things waited to play! But now it was the last day, and {name} felt tall. \"I learned so much!\" thought {she/he}, \"I learned it all!\"",
+      "scene": "The child stands confidently in a brightly decorated kindergarten classroom, looking thoughtful but happy, with balloons and a 'Congratulations Graduates' banner visible. Other children are chatting happily in the background."
+    },
+    {
+      "text": "Remembering fun times, like building with blocks, or making new friends in the class, {name} learned so much! Even sharing was part of the fun. And now, all that learning was done!",
+      "scene": "The child and another child are happily collaborating on a puzzle or building a shared structure, smiling at each other."
+    }
+  ],
+  "h1": "Personalized Kindergarten Graduation Book: My Graduation Day",
+  "meta_title": "Personalized Kindergarten Graduation Book | StoryBloom",
+  "meta_description": "Celebrate your child's kindergarten graduation with a personalized storybook where your child is the hero of their own accomplishment. A unique gift!",
+  "promise": "A joyful, personalized story to celebrate your child's kindergarten graduation and reflect on all the wonderful things they learned and accomplished this year.",
+  "story_summary": "This personalized story celebrates your child's incredible journey through kindergarten, from their first hesitant steps to their confident graduation day. Your child reflects on favorite lessons, new friendships, and challenges overcome throughout the year. The book culminates in a special graduation ceremony, recognizing your child's growth and preparing them for their next big adventure.",
+  "why_parents": [
+    "Kindergarten graduation is a significant milestone, marking the end of early childhood learning and the beginning of more formal education. This personalized book offers a beautiful way to acknowledge your child's hard work, celebrate their achievements, and help them process this important transition with pride.",
+    "Children thrive on recognition for their efforts, and this book provides a lasting keepsake that reinforces the value of learning and growth. It helps your child recall specific memories from their school year, fostering a sense of accomplishment and encouraging them to look forward to new educational adventures with confidence."
+  ],
+  "for_grownups": [
+    "Talk with your child about their favorite memory from kindergarten. What was the most fun thing they did? What did they learn that surprised them?",
+    "Ask your child what they are most excited about for first grade. Are there new things they hope to learn or new friends they want to make?",
+    "Help your child write a thank you note or draw a picture for their kindergarten teacher, acknowledging the impact they had on your child's special year."
+  ],
+  "faqs": [
+    {
+      "question": "What age is this graduation book best for?",
+      "answer": "This book is specifically designed for children graduating from kindergarten, typically around ages 5-6. It celebrates their specific learning milestones and the transition to first grade."
+    },
+    {
+      "question": "Does this book mention specific school subjects?",
+      "answer": "The story touches on general learning experiences like reading letters, counting, building, and art, rather than specific curriculum subjects. It focuses more on the overall journey of learning and social growth in kindergarten."
+    },
+    {
+      "question": "Is this book suitable for preschool or pre-kindergarten graduates?",
+      "answer": "While the themes of finishing a school year and moving up are similar, this book is tailored for kindergarten graduates. We have other personalized books better suited for younger preschool or pre-K milestones."
+    }
+  ],
+  "image_alt": "Personalized kindergarten graduation book cover featuring an illustrated child wearing a graduation cap, holding a diploma, with a colorful schoolhouse in the background.",
+  "feed_title": "Personalized Kindergarten Graduation Book for Kids, Your Child's Journey",
+  "feed_description": "Celebrate your child's incredible journey from their first day to their kindergarten graduation day with this personalized storybook, designed to capture every milestone. Imagine their delight seeing themselves as the hero, reflecting on all the wonderful lessons learned, new friendships made, and challenges overcome throughout the school year. This unique keepsake captures the magic of their kindergarten experience, honoring their growth and accomplishments. Each page is a reminder of their hard work and the joy of learning, culminating in a special graduation ceremony where your child receives their diploma. This book is a perfect gift to mark this significant milestone, fostering a sense of pride and excitement for future adventures in first grade. It's more than just a book; it's a cherished memory of their kindergarten achievements, crafted specifically for your child."
+}

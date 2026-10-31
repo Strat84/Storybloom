@@ -1,0 +1,114 @@
+{
+  "slug": "backyard-home-run",
+  "status": "live",
+  "title_pattern": "{name} and the Backyard Home Run",
+  "category": "adventures",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized baseball book",
+  "landing_page_slug": "books/backyard-home-run",
+  "example": {
+    "name": "Kai",
+    "pronouns": "he",
+    "look": "light tan skin, straight dark hair, gap-toothed smile"
+  },
+  "tagline": "Personalized baseball adventures for your little slugger!",
+  "lesson_or_purpose": "Teaches responsibility, honesty, and finding unexpected friendships.",
+  "tone": "Encouraging, adventurous, and affirming of doing the right thing.",
+  "reading_level": "4-9",
+  "keywords": [
+    "personalized baseball book",
+    "custom sports story",
+    "honesty book for kids",
+    "responsibility story",
+    "backyard adventure"
+  ],
+  "illustration_guide": "The setting is a sunny, friendly suburban backyard and neighborhood. The palette is warm and inviting, using natural greens, blues, and browns, with pops of red for the baseball. Recurring visual elements include the baseball, a classic baseball glove, a slightly overgrown but charming garden, and Mr. Grumbles' cozy house.",
+  "page_outline": [
+    {
+      "beat": "{name} loves to play baseball in the backyard. {She/He} imagines hitting a ball far, far away, like a real baseball star. Every day, {name} practices and dreams of that perfect swing.",
+      "illustration_prompt": "The child, dressed in a baseball cap and t-shirt, stands in a sunny backyard, holding a baseball bat, looking up at the sky with a dreaming expression. A baseball glove is on the ground nearby."
+    },
+    {
+      "beat": "{name} steps up to the plate, a wobbly plastic tee. {She/He} grips the bat tightly, eyes focused on the ball. \"I can do this!\" thinks {name}, ready for a big hit.",
+      "illustration_prompt": "The child is in a batting stance, bat ready, focused on a baseball resting on a plastic tee in the backyard. Green grass and a fence are visible."
+    },
+    {
+      "beat": "THWACK! The ball soars through the air, higher and farther than ever before! But oh no, it's headed straight for Mr. Grumbles' window! Crash! The sound makes {name}'s heart thump-thump-thump.",
+      "illustration_prompt": "A baseball is mid-air, flying towards a window of a house. The child, bat still in hand, watches with a look of surprise and concern. A 'crack' pattern on the window."
+    },
+    {
+      "beat": "{name} drops the bat. \"Uh oh!\" {She/He} whispers, looking around quickly. No one saw! {name} feels a little fluttery in {her/his} tummy, wondering what to do.",
+      "illustration_prompt": "The child has dropped the bat and is looking back and forth nervously, peeking over a bush or fence, seeing the broken window in the distance. The child's facial expression shows worry."
+    },
+    {
+      "beat": "{name} peeks at the broken window. A little shard of glass glints in the sun. {name} knows deep down that {she/he} made a mistake, even if it was an accident.",
+      "illustration_prompt": "The child is peeking from behind a tree or fence, looking directly at Mr. Grumbles' house, where a broken window is clearly visible. The child's face shows realization."
+    },
+    {
+      "beat": "It would be easy for {name} to run inside and pretend nothing happened. But {name} thinks of the big, brave feeling that helps {her/him} do the right thing, even when it's hard.",
+      "illustration_prompt": "The child stands still in the backyard, hands clasped, looking thoughtful. A path to the child's own house is visible in one direction, and Mr. Grumbles' house in the other."
+    },
+    {
+      "beat": "{name} takes a deep breath. {She/He} walks inside and finds Dad. \"Dad,\" {name} says, \"I accidentally broke Mr. Grumbles' window.\" Dad listens carefully to {name}'s brave confession.",
+      "illustration_prompt": "The child is standing next to a kind-looking adult (Dad) inside their house. The child is looking up at the adult, who is listening attentively."
+    },
+    {
+      "beat": "Together, {name} and Dad go to Mr. Grumbles' house. Mr. Grumbles opens the door, looking quite grumpy. But when {name} honestly explains what happened, Mr. Grumbles' face softens a tiny bit. \"I used to play baseball too,\" he says.",
+      "illustration_prompt": "The child and Dad are standing at Mr. Grumbles' front door. Mr. Grumbles, an older man with a slightly gruff but softening expression, is listening to the child. The broken window is visible in the background."
+    },
+    {
+      "beat": "Mr. Grumbles looks at {name}'s bat. \"You've got a good swing, {name},\" he says. \"But you need to aim better! I could teach you to hit a real home run, far from any windows.\" {name}'s eyes light up!",
+      "illustration_prompt": "Mr. Grumbles, now smiling faintly, is holding a baseball bat and gesturing. The child stands beside him, looking excited and hopeful. Dad stands in the background, smiling."
+    },
+    {
+      "beat": "From that day on, {name} and Mr. Grumbles became the best of friends, practicing baseball in the park. {name} learned to hit soaring home runs safely, all thanks to being brave and honest.",
+      "illustration_prompt": "The child and Mr. Grumbles are laughing and playing baseball in a large, open park. The child is mid-swing, and Mr. Grumbles is watching proudly. No windows or houses are in the background."
+    }
+  ],
+  "cover_scene": "The child, wearing a baseball cap and holding a bat, stands proudly in a sunny green backyard with a baseball on the ground. A friendly suburban house is in the background, with a calm blue sky above the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "{name} steps up to the plate, a wobbly plastic tee. {She/He} grips the bat tightly, eyes focused on the ball. \"I can do this!\" thinks {name}, ready for a big hit.",
+      "scene": "The child is in a batting stance, bat ready, focused on a baseball resting on a plastic tee in the backyard. Green grass and a fence are visible."
+    },
+    {
+      "text": "Mr. Grumbles looks at {name}'s bat. \"You've got a good swing, {name},\" he says. \"But you need to aim better! I could teach you to hit a real home run, far from any windows.\" {name}'s eyes light up!",
+      "scene": "Mr. Grumbles, now smiling faintly, is holding a baseball bat and gesturing. The child stands beside him, looking excited and hopeful. Dad stands in the background, smiling."
+    }
+  ],
+  "h1": "Personalized Baseball Book: Your Child's Home Run Adventure",
+  "meta_title": "Personalized Baseball Book for Kids | StoryBloom",
+  "meta_description": "Your child is the hero of this personalized baseball book! Discover a story of backyard adventures, responsibility, and new friendships.",
+  "promise": "Your child will feel like the star of their own baseball story, discovering how honesty can lead to unexpected friendships.",
+  "story_summary": "Your child loves playing baseball in the backyard, dreaming of hitting a home run. One day, a powerful swing sends the ball where it shouldn't go, leading to a broken window. Your child must decide how to handle this unexpected challenge. This story is about owning up to mistakes and discovering that even grumpy neighbors can become friends.",
+  "why_parents": [
+    "Children are naturally curious and test boundaries. This book offers a gentle way to explore the importance of taking responsibility for actions, even when it feels scary. It shows your child that honesty can lead to positive outcomes and build trust.",
+    "Learning to apologize and make amends is a crucial social skill. This story provides a relatable scenario where your child actively chooses to do the right thing, demonstrating that courage in admitting mistakes can lead to unexpected and wonderful new connections."
+  ],
+  "for_grownups": [
+    "What did your child learn about being honest in this story?",
+    "What might you do if you accidentally broke something?",
+    "Sometimes it's hard to tell the truth. Why do you think your child's character decided to be brave?"
+  ],
+  "faqs": [
+    {
+      "question": "Is this book only about baseball?",
+      "answer": "While baseball is the setting, the core of the story is about honesty, responsibility, and finding friendship in unexpected places, making it appealing beyond just sports fans."
+    },
+    {
+      "question": "How does this book teach about responsibility?",
+      "answer": "Your child's character faces a dilemma after accidentally breaking a window. The story shows them making the brave choice to admit their mistake, which leads to a positive resolution and a new friendship."
+    },
+    {
+      "question": "Is the neighbor character scary?",
+      "answer": "The neighbor, Mr. Grumbles, starts out a bit gruff, but the story reveals a kind side and shows how your child's actions can transform a challenging situation into a positive relationship."
+    }
+  ],
+  "image_alt": "Personalized baseball book cover featuring an illustrated child as the hero, holding a baseball bat in a backyard.",
+  "feed_title": "Personalized Baseball Book for Kids, Your Child Is the Hero",
+  "feed_description": "Make your little slugger the star of their own personalized baseball book! This custom story puts your child at the center of a backyard adventure where they dream of hitting a home run. One exciting swing sends the ball soaring, but it accidentally breaks a neighbor's window. Your child then faces an important choice: what to do when they've made a mistake? This unique book gently explores the value of honesty and taking responsibility for actions, even when it feels a little scary. Watch as your child's brave decision leads to an unexpected friendship with Mr. Grumbles, who turns out to be a great coach. It's a powerful tale about owning up to mistakes, learning from them, and discovering how courage can lead to wonderful new connections. Perfect for young baseball fans and for parents wanting to share a story about character and friendship."
+}

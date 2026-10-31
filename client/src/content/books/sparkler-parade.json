@@ -1,0 +1,117 @@
+{
+  "slug": "sparkler-parade",
+  "status": "live",
+  "title_pattern": "{name} and the Sparkler Parade",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Jun-Jul",
+  "sensitive": false,
+  "main_keyword": "fourth of july book for kids personalized",
+  "landing_page_slug": "books/sparkler-parade",
+  "example": {
+    "name": "Diego",
+    "pronouns": "he",
+    "look": "tan skin, thick black hair"
+  },
+  "tagline": "Celebrate community and sparkle on the Fourth of July!",
+  "lesson_or_purpose": "Encouraging teamwork, community spirit, and the joy of contributing to a celebration.",
+  "tone": "Celebratory, warm, community-focused.",
+  "reading_level": "Ages 3-8",
+  "keywords": [
+    "Fourth of July",
+    "Independence Day",
+    "parade",
+    "patriotic",
+    "sparklers",
+    "community",
+    "personalized book",
+    "kids book"
+  ],
+  "illustration_guide": "A vibrant, cheerful palette with reds, whites, blues, and bright celebratory colors. Setting is a quaint small town with friendly neighbors, flags, bunting, and picnic areas. Recurring visual elements include small American flags, sparklers (safely depicted), stars, and a sense of bustling community activity. The float will be whimsical and child-friendly.",
+  "page_outline": [
+    {
+      "beat": "Fourth of July morning, full of anticipation for the parade. {name} can't wait.",
+      "illustration_prompt": "The child peeking out a window, looking at a street already decorated with flags and bunting. The child has a wide, excited smile."
+    },
+    {
+      "beat": "{name} watches neighbors setting up decorations, flags waving everywhere. {She/He} feels the excitement building.",
+      "illustration_prompt": "The child skipping down a sidewalk, past neighbors hanging flags and patriotic decorations on their houses. Sunlight shines brightly."
+    },
+    {
+      "beat": "A notice goes up: The Sparkler Parade needs one more float! A small town tradition is at stake, and {name} learns this news.",
+      "illustration_prompt": "The child standing with an adult (e.g., Grandma or Dad) in front of a community bulletin board, looking at a sign that clearly depicts a missing float in a parade lineup."
+    },
+    {
+      "beat": "{name} feels a little sad, but then an idea sparks. Maybe {she/he} can help!",
+      "illustration_prompt": "The child sitting thoughtfully on a porch step, looking a little down, then a bright idea bulb (symbolic, not real) appearing above their head, and a determined look on their face."
+    },
+    {
+      "beat": "{name} gathers colorful paper, shiny ribbons, and glue. Neighbors notice {her/his} determination.",
+      "illustration_prompt": "The child excitedly gathering craft supplies like colorful paper, glitter, ribbons, and glue from a craft bin or table. Friendly neighbors in the background smile, noticing the child's activity."
+    },
+    {
+      "beat": "Neighbors join in, helping {name} cut, paste, and decorate. Everyone works together on the 'Sparkle Wagon' float.",
+      "illustration_prompt": "The child and a few friendly neighbors (adults and maybe older children) working together on a small wagon, decorating it with paper, ribbons, and stars. Everyone is smiling and engaged."
+    },
+    {
+      "beat": "The float starts to take shape, brighter and more wonderful than {name} imagined.",
+      "illustration_prompt": "A close-up of the 'Sparkle Wagon' float, now mostly decorated and looking vibrant and festive with stars, streamers, and patriotic colors. The child looks on with awe and pride."
+    },
+    {
+      "beat": "Parade time! {name} stands proudly beside the new float, full of joy.",
+      "illustration_prompt": "The child, dressed in festive clothes, standing proudly beside the completed 'Sparkle Wagon' float on a parade street, surrounded by other floats and people waiting for the parade to start."
+    },
+    {
+      "beat": "The Sparkler Parade begins, and {name}'s float rolls by, sparkling with joy. Everyone cheers for {name}.",
+      "illustration_prompt": "The child happily riding or walking alongside their 'Sparkle Wagon' float as it rolls down the parade route, with excited onlookers cheering and waving small flags. The float has a subtle sparkling effect."
+    },
+    {
+      "beat": "At the end of the parade, {name} feels proud and happy. {Her/His} float made the Fourth of July extra special.",
+      "illustration_prompt": "The child, looking tired but incredibly happy and proud, standing next to their float at the end of the parade route, receiving a gentle high-five or hug from a supportive adult."
+    }
+  ],
+  "cover_scene": "The child, dressed in festive patriotic colors, stands proudly next to a beautifully decorated, sparkling 'Sparkle Wagon' float, ready for a Fourth of July parade. Cheerful small-town buildings and a clear blue sky are in the background.",
+  "sample_pages": [
+    {
+      "text": "Fourth of July morning, full of anticipation for the parade. {name} can't wait.",
+      "scene": "The child peeking out a window, looking at a street already decorated with flags and bunting. The child has a wide, excited smile."
+    },
+    {
+      "text": "Neighbors join in, helping {name} cut, paste, and decorate. Everyone works together on the 'Sparkle Wagon' float.",
+      "scene": "The child and a few friendly neighbors (adults and maybe older children) working together on a small wagon, decorating it with paper, ribbons, and stars. Everyone is smiling and engaged."
+    }
+  ],
+  "h1": "Personalized Fourth of July Parade Book for Kids",
+  "meta_title": "Personalized Fourth of July Book for Kids | StoryBloom",
+  "meta_description": "Your child becomes the hero in a personalized Fourth of July book! Help build a parade float and celebrate Independence Day with StoryBloom.",
+  "promise": "A sparkling story where your child helps bring the magic of the Fourth of July parade to life for their whole town.",
+  "story_summary": "It's the Fourth of July, and the whole town is buzzing with excitement for the annual Sparkler Parade. But oh no, something is missing! When your child learns the parade needs one more float, a brilliant idea sparks. Watch as your child gathers friends and neighbors to build the most sparkling float ever, saving the day and making the celebration truly special.",
+  "why_parents": [
+    "The Fourth of July is a wonderful time to teach children about community spirit and the joy of coming together. This story highlights how even small hands can make a big difference, showing your child how their ideas and efforts can contribute to a larger, joyful event.",
+    "It's also a perfect opportunity to introduce civic celebration and patriotism in a fun, memorable way. By seeing themselves as the hero who helps make the parade happen, your child will feel a personal connection to the holiday and understand the value of teamwork and shared celebrations."
+  ],
+  "for_grownups": [
+    "Talk about what the Fourth of July means to your family. Do you have any traditions?",
+    "Ask your child: 'If you could build a parade float, what would it look like and what would it celebrate?'",
+    "Discuss how helping others, like the neighbors helping your child, makes everyone feel good."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for all children?",
+      "answer": "Yes, this story is designed for children aged 3-8 and features a gender-neutral plot where any child can be the hero. The themes of community and celebration are universal."
+    },
+    {
+      "question": "Does the story mention specific historical events?",
+      "answer": "This book focuses on the festive and community aspects of the Fourth of July, rather than historical details. It celebrates the joy of shared traditions and local parades."
+    },
+    {
+      "question": "Can other family members be included in the story?",
+      "answer": "While the story centers on your child as the main hero, it includes friendly neighbors who help out, fostering a sense of community. Other family members are not explicitly named characters."
+    }
+  ],
+  "image_alt": "Personalized Fourth of July book cover featuring an illustrated child as the hero next to a festive parade float.",
+  "feed_title": "Personalized Fourth of July Book for Kids, Your Child Helps Build a Parade Float",
+  "feed_description": "Celebrate Independence Day with your child at the heart of the story! In this personalized Fourth of July book, your child discovers their town's annual Sparkler Parade needs one more spectacular float. With a burst of creativity and a helping hand from friendly neighbors, your child becomes the hero who designs and builds a dazzling float, bringing joy and sparkle to the entire community. This sparkling tale emphasizes teamwork, the joy of contribution, and the magic of shared celebrations. It's a wonderful way to introduce patriotic holidays and the spirit of community engagement to children aged 3-8. Every page features your child's name and likeness, making them the star of their very own holiday adventure. A truly unique gift that will be cherished year after year, fostering a love for reading and the spirit of giving back."
+}

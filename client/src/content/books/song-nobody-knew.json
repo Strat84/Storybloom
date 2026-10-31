@@ -1,0 +1,113 @@
+{
+  "slug": "song-nobody-knew",
+  "status": "live",
+  "title_pattern": "{name} and the Song Nobody Knew",
+  "category": "adventures",
+  "age_range": "4-9",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "personalized music book for kids",
+  "landing_page_slug": "books/song-nobody-knew",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "Your child turns a rainy day tune into a neighborhood song.",
+  "lesson_or_purpose": "Encouraging creativity, listening, and bringing communities together through shared joy.",
+  "tone": "Whimsical, joyful, gentle.",
+  "reading_level": "Ages 4-9",
+  "keywords": [
+    "personalized music book for kids",
+    "personalized creativity book",
+    "personalized neighborhood story",
+    "personalized song book"
+  ],
+  "illustration_guide": "A cozy, slightly old-fashioned neighborhood street with gentle, friendly houses. The palette should be warm and inviting, using soft blues, greens, and yellows for natural light, and deeper tones for rainy scenes. Musical notes or subtle rhythmic patterns could appear in the background of relevant scenes.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and {her/his} quiet street. It's often very calm, sometimes a bit too quiet.",
+      "illustration_prompt": "The child is looking out of a window onto a quiet, somewhat sleepy neighborhood street with a few houses and bare trees. The street is empty of people."
+    },
+    {
+      "beat": "One rainy afternoon, {name} is looking out the window, feeling a little bored. Drip-drop, drip-drop goes the rain. {name} starts to notice a pattern in the sound.",
+      "illustration_prompt": "The child is sitting by a window, looking out at the rain falling. The child's chin is resting on a hand, with a slightly bored but observant expression. Raindrops are visible on the windowpane."
+    },
+    {
+      "beat": "As {name} listened closely, {she/he} realized the rain wasn't just noise; it was making a rhythmic, melodic tune! {name} had never heard rain sound quite like this before.",
+      "illustration_prompt": "The child is looking out a window, pressing a hand to the glass. Raindrops are visible on the windowpane, and a few abstract musical notes are subtly swirling in the rain outside. The child's expression is one of wonder and discovery."
+    },
+    {
+      "beat": "A spark of an idea lights up in {name}'s mind. This rainy tune is inspiring {her/him} to create something beautiful, something new.",
+      "illustration_prompt": "The child is indoors, eyes wide with a sudden idea. A lightbulb or a musical note thought bubble appears above the child's head, with a gentle smile on the child's face. Rain is still visible outside the window in the background."
+    },
+    {
+      "beat": "{name} gathers some everyday items that can make sounds: a spoon and a pot, an empty box, perhaps even {her/his} voice. {name} is ready to make music!",
+      "illustration_prompt": "The child is on the floor or at a table, surrounded by various household items like an upside-down pot, a wooden spoon, an empty cereal box, and maybe a small bowl, all ready to be used as instruments."
+    },
+    {
+      "beat": "{name} hums the rainy tune, then taps and claps, trying to match the rhythm and melody {she/he} heard. It takes practice for {name} to get it just right.",
+      "illustration_prompt": "The child is experimenting with the homemade instruments, tapping the pot with the spoon, clapping hands, and humming. The child's expression shows concentration and enjoyment, with a few playful musical notes floating around."
+    },
+    {
+      "beat": "A neighbor, perhaps Mrs. Gable watering her indoor plants, hears a gentle, new sound floating from {name}'s window. She stops, curious about the happy melody {name} is creating.",
+      "illustration_prompt": "A kindly elderly woman (Mrs. Gable) is standing at her own window, watering an indoor plant. Her head is tilted slightly, listening intently, with a curious and pleasant expression, hearing the faint music coming from the child's house."
+    },
+    {
+      "beat": "Encouraged by the sound of music, Mrs. Gable steps outside, and {name} invites her to listen or even join in. Soon, another neighbor or two peek out, drawn by the joy {name} is creating.",
+      "illustration_prompt": "The child is happily tapping a spoon on a pot on their porch. Mrs. Gable, a kind elderly woman, is standing on her own porch smiling and swaying gently. Another neighbor is peeking out from behind a curtain in their window, also smiling."
+    },
+    {
+      "beat": "More neighbors come out, some tapping along, others humming or dancing gently. The quiet street is now filled with the cheerful, brand-new song {name} started.",
+      "illustration_prompt": "The street is now bustling with friendly neighbors, some gently tapping their feet, others humming, and a few dancing. The child is at the center, still playing a homemade instrument, surrounded by happy faces. Musical notes fill the air, and the rain has stopped."
+    },
+    {
+      "beat": "{name} watches everyone smiling and connecting through the music. {She/He} feels a warm glow, knowing {her/his} rainy day tune brought so much happiness to the street.",
+      "illustration_prompt": "The child looks around at the joyful, connected community on the street. Everyone is smiling and engaging with each other. The child has a contented, proud smile, feeling the warmth of having created this moment. The sun is now shining."
+    }
+  ],
+  "cover_scene": "The child, smiling, stands outside on a bright, sunny street. In one hand, the child holds a simple, homemade instrument (e.g., a decorated pot and spoon). A few musical notes float playfully around the child. Houses line the street in the background, with a calm, open blue sky above.",
+  "sample_pages": [
+    {
+      "text": "As {name} listened closely, {she/he} realized the rain wasn't just noise; it was making a rhythmic, melodic tune! {name} had never heard rain sound quite like this before.",
+      "scene": "The child is looking out a window, pressing a hand to the glass. Raindrops are visible on the windowpane, and a few abstract musical notes are subtly swirling in the rain outside. The child's expression is one of wonder and discovery."
+    },
+    {
+      "text": "Encouraged by the sound of music, Mrs. Gable steps outside, and {name} invites her to listen or even join in. Soon, another neighbor or two peek out, drawn by the joy {name} is creating.",
+      "scene": "The child is happily tapping a spoon on a pot on their porch. Mrs. Gable, a kind elderly woman, is standing on her own porch smiling and swaying gently. Another neighbor is peeking out from behind a curtain in their window, also smiling."
+    }
+  ],
+  "h1": "Personalized Music Book for Kids: Your Child's Song",
+  "meta_title": "Personalized Music Book for Kids | StoryBloom",
+  "meta_description": "Spark your child's creativity with this personalized music book! Your child hears a melody in the rain and brings a quiet street together with a new song.",
+  "promise": "Your child will discover the music all around us and the joy of sharing it with others.",
+  "story_summary": "One quiet, rainy afternoon, your child is looking out the window when a surprising sound catches their ear. It's the rain, but it's making a beautiful, rhythmic tune! Inspired by this unexpected melody, your child decides to turn it into a song. Soon, the new music begins to spread, bringing smiles and connection to the whole neighborhood.",
+  "why_parents": [
+    "This story beautifully shows how creativity can transform the ordinary into the extraordinary. It gently teaches your child the power of listening to the world around them, finding inspiration in unexpected places, and using their imagination to create something new and wonderful.",
+    "Children at this age are naturally curious and eager to express themselves. This book encourages them to explore sounds and rhythms, demonstrating how a simple idea can grow into a shared experience that connects people and makes a community feel a little brighter and more joyful."
+  ],
+  "for_grownups": [
+    "Talk with your child about what sounds they hear in the rain, the wind, or everyday activities. Can they find a rhythm or a tune?",
+    "Suggest creating some simple \"homemade instruments\" together using pots, spoons, boxes, or even just clapping and stomping.",
+    "Discuss how your child might share something they create, like a drawing or a song, with a neighbor or friend, and how that might make others feel."
+  ],
+  "faqs": [
+    {
+      "question": "Does this book focus on a specific instrument?",
+      "answer": "No, this story celebrates the idea of making music with whatever is at hand, from tapping a pot with a spoon to using your voice. It emphasizes creativity and rhythm over formal instruments."
+    },
+    {
+      "question": "Is this a calming story for bedtime?",
+      "answer": "While it's a joyful story, its gentle pace and focus on listening and creation make it a lovely choice for a calming read. It encourages peaceful observation and connection."
+    },
+    {
+      "question": "How does the book show the child's creativity?",
+      "answer": "Your child is shown actively listening to the rain, deciding to turn the sounds into a song, experimenting with different \"instruments,\" and then sharing their unique creation with the community. It highlights initiative and imagination."
+    }
+  ],
+  "image_alt": "Personalized music book cover featuring an illustrated child as the hero holding a homemade instrument on a sunny street.",
+  "feed_title": "Personalized Music Book for Kids, Your Child Creates a Song",
+  "feed_description": "Let your child be the hero of their own musical adventure! In this charming personalized book, your child discovers a special melody hidden in the sound of falling rain. Feeling inspired, your child uses everyday objects to compose a unique and joyful song. As the music fills the air, it draws out neighbors who are captivated by the charming tune. This story beautifully illustrates how one child's creativity can transform a quiet street into a vibrant, connected community, filled with smiles and shared happiness. It's a wonderful way to encourage your child to listen closely to the world, find inspiration in the ordinary, and understand the power of sharing their gifts. Perfect for sparking imagination and showing the positive impact of art and connection."
+}

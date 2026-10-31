@@ -1,0 +1,115 @@
+{
+  "slug": "seven-candles",
+  "status": "live",
+  "title_pattern": "{name} and the Seven Candles",
+  "category": "holidays",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Dec",
+  "sensitive": false,
+  "main_keyword": "personalized kwanzaa book",
+  "landing_page_slug": "books/seven-candles",
+  "example": {
+    "name": "Imani",
+    "pronouns": "she",
+    "look": "deep brown skin, black braids with beads"
+  },
+  "tagline": "Celebrate Kwanzaa with your child as the hero, learning the seven principles of joy and community!",
+  "lesson_or_purpose": "To introduce children to the meaning and celebration of Kwanzaa and its seven principles.",
+  "tone": "Warm, celebratory, educational, community-focused.",
+  "reading_level": "Ages 3-8",
+  "keywords": [
+    "Kwanzaa",
+    "personalized Kwanzaa book",
+    "Black History Month",
+    "African American celebration",
+    "holidays",
+    "cultural books"
+  ],
+  "illustration_guide": "Setting: A cozy family home decorated for Kwanzaa, with vibrant patterns and colors. The Kwanzaa setting (kinara with candles, mkeka mat, mazao fruits/vegetables, ear of corn/muhindi, unity cup/kikombe cha umoja) should be present and prominent where appropriate. Palette: Warm, rich earth tones, reds, blacks, and greens, reflecting the Kwanzaa colors. Recurring elements: The kinara with its candles, African textiles/patterns, family members, community members. The child should be expressive and engaged.",
+  "page_outline": [
+    {
+      "beat": "Kwanzaa had come! On the first night, {name} watched as the black candle of Umoja, or Unity, was lit. Everyone gathered close, and {name} felt the warmth of family.",
+      "illustration_prompt": "The child, surrounded by smiling family members (parents, grandparents), watching intently as a parent lights the central black candle in a kinara. The room is warmly lit, decorated with Kwanzaa symbols."
+    },
+    {
+      "beat": "The next day, it was time for Kujichagulia, Self-Determination. {name} helped decide how to arrange the colorful Kwanzaa mat, the mkeka, making choices for {her/him}self and the family.",
+      "illustration_prompt": "The child happily arranging a vibrant patterned mat (mkeka) on a table or floor, with fruits (mazao) and an ear of corn (muhindi) nearby. A parent gently guides or observes."
+    },
+    {
+      "beat": "Ujima, Collective Work and Responsibility, was next. {name} saw a neighbor struggling to carry a basket of groceries and offered to help. {She/He} knew working together made things easier!",
+      "illustration_prompt": "The child, with a kind expression, holding one handle of a grocery basket, helping a neighbor (an older person) carry it towards a house."
+    },
+    {
+      "beat": "Later, {name} worked alongside Grandma in the kitchen, preparing a special dish for the Karamu feast. {name} carefully stirred the ingredients, feeling like a big helper. This was Ujamaa, Cooperative Economics, sharing and growing together.",
+      "illustration_prompt": "The child standing on a stool beside Grandma at a kitchen counter, both stirring bowls. The kitchen is cozy, with a warm glow."
+    },
+    {
+      "beat": "As the days passed, {name} thought about Nia, or Purpose. {She/He} thought about how special {her/his} family was and what made their community strong. {name} felt a clear purpose in helping.",
+      "illustration_prompt": "The child sitting quietly, looking thoughtful, perhaps looking out a window at their community or at a family photo. Soft, reflective light."
+    },
+    {
+      "beat": "Then came Kuumba, Creativity! {name} decided to make a beautiful handmade card for a grandparent, drawing a picture with vibrant colors. {She/He} loved making something new for {her/his} family.",
+      "illustration_prompt": "The child engrossed in drawing on a piece of paper with crayons or markers, a colorful picture taking shape. A completed Kwanzaa decoration might be in the background."
+    },
+    {
+      "beat": "Kwanzaa was building! With help from Dad, {name} carefully placed the unity cup, the kikombe cha umoja, on the Kwanzaa table. {name} helped everyone gather and remember their roots.",
+      "illustration_prompt": "The child carefully placing the unity cup (kikombe cha umoja) onto the mkeka mat on a Kwanzaa table, with Dad's hand nearby, guiding. Candles (unlit or some lit) are visible in the kinara."
+    },
+    {
+      "beat": "On the sixth night, {name} listened as family members shared stories of their ancestors and strong traditions. {She/He} felt Imani, or Faith, growing in {her/his} heart for {her/his} people.",
+      "illustration_prompt": "The child sitting on a floor cushion, looking up at an adult (Mom or a family elder) who is speaking, surrounded by other family members. The atmosphere is warm and attentive."
+    },
+    {
+      "beat": "Finally, all seven candles in the kinara glowed brightly. {name} saw the red, black, and green light filling the room, a beautiful symbol of the journey {she/he} had taken all week.",
+      "illustration_prompt": "Close-up of the kinara with all seven candles lit, casting a warm glow. The child's face is illuminated by the candlelight, looking serene and happy."
+    },
+    {
+      "beat": "It was time for the Karamu feast! {name} smiled, surrounded by family, sharing food and laughter. {She/He} felt the joy of Kwanzaa in every bite and every hug.",
+      "illustration_prompt": "The child sitting at a large Kwanzaa feast table, filled with traditional foods and surrounded by many smiling family members, all celebrating together."
+    }
+  ],
+  "cover_scene": "The child as hero, joyfully looking at the viewer, surrounded by Kwanzaa symbols like a kinara with glowing candles, a vibrant mkeka mat, and traditional fruits (mazao). Calm open sky in the top third.",
+  "sample_pages": [
+    {
+      "text": "Kwanzaa had come! On the first night, {name} watched as the black candle of Umoja, or Unity, was lit. Everyone gathered close, and {name} felt the warmth of family.",
+      "scene": "The child, surrounded by smiling family members (parents, grandparents), watching intently as a parent lights the central black candle in a kinara. The room is warmly lit, decorated with Kwanzaa symbols."
+    },
+    {
+      "text": "Then came Kuumba, Creativity! {name} decided to make a beautiful handmade card for a grandparent, drawing a picture with vibrant colors. {She/He} loved making something new for {her/his} family.",
+      "scene": "The child engrossed in drawing on a piece of paper with crayons or markers, a colorful picture taking shape. A completed Kwanzaa decoration might be in the background."
+    }
+  ],
+  "h1": "Personalized Kwanzaa Book: Your Child and the Seven Candles",
+  "meta_title": "Personalized Kwanzaa Book for Kids | StoryBloom",
+  "meta_description": "Celebrate Kwanzaa with your child as the star! This personalized Kwanzaa book teaches the seven principles.",
+  "promise": "Your child will be the hero of their own Kwanzaa story, discovering the beauty of family, community, and the seven principles.",
+  "story_summary": "This story of discovery introduces your child to the vibrant celebration of Kwanzaa. As the special week unfolds, your child helps with preparations and learns about the seven principles: Unity, Self-Determination, Collective Work, Cooperative Economics, Purpose, Creativity, and Faith. Each day brings a new opportunity for your child to understand the values that strengthen family and community bonds, culminating in a joyful Karamu feast.",
+  "why_parents": [
+    "Kwanzaa is a beautiful, week-long celebration of family, community, and culture. This book offers a gentle and accessible way to introduce your child to its meaning and traditions. It provides a personalized narrative where they see themselves actively participating in the joy and learning of each day's principle.",
+    "Understanding Kwanzaa's principles like Umoja (Unity) and Kuumba (Creativity) can help children develop a strong sense of self and their place within a supportive community. This story emphasizes active participation and positive values, fostering a deeper appreciation for cultural heritage."
+  ],
+  "for_grownups": [
+    "Talk about each Kwanzaa principle as you read, asking your child how they see it in their own life or in the story.",
+    "Discuss family traditions and how they connect to Kwanzaa's message of unity and purpose.",
+    "Encourage your child to share their own ideas for creative projects (Kuumba) or ways to help family and neighbors (Ujima) throughout the year."
+  ],
+  "faqs": [
+    {
+      "question": "What age is this Kwanzaa book for?",
+      "answer": "This book is designed for children aged 3-8, with language and concepts that are presented in a joyful and clear way for early readers and those being read to."
+    },
+    {
+      "question": "Does this book explain all seven Kwanzaa principles?",
+      "answer": "Yes, the story subtly introduces and illustrates each of the seven Nguzo Saba (principles) through your child's actions and family interactions over the course of the Kwanzaa celebration."
+    },
+    {
+      "question": "Is this story culturally accurate and respectful?",
+      "answer": "Yes, this Kwanzaa story is crafted with care to be culturally accurate and respectful of the traditions and meaning of Kwanzaa, ensuring a true and positive representation."
+    }
+  ],
+  "image_alt": "Personalized Kwanzaa book cover featuring an illustrated child as the hero, surrounded by Kwanzaa symbols and a joyful family.",
+  "feed_title": "Personalized Kwanzaa Book for Kids, Your Child Is the Hero",
+  "feed_description": "Celebrate the beautiful tradition of Kwanzaa with a unique personalized book starring your child! In \"Your Child and the Seven Candles,\" your child experiences the meaning of Kwanzaa over seven special days. Your child becomes the hero, learning about the Nguzo Saba, the seven principles of Kwanzaa: Umoja (Unity), Kujichagulia (Self-Determination), Ujima (Collective Work and Responsibility), Ujamaa (Cooperative Economics), Nia (Purpose), Kuumba (Creativity), and Imani (Faith). This story vividly illustrates how these principles strengthen family bonds and build a thriving community. It's a respectful introduction to Kwanzaa, perfect for young readers aged 3-8. Give the gift of culture, showing your child they are a cherished part of their heritage and community. This book honors traditions and creates new memories."
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "counts-to-ten",
+  "status": "live",
+  "title_pattern": "{name} Counts to Ten",
+  "category": "learning",
+  "age_range": "1-4",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "counting book personalized toddler",
+  "landing_page_slug": "books/counts-to-ten",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "A personalized counting adventure from one sun to ten sleepy stars, just for your child.",
+  "lesson_or_purpose": "To introduce early counting and number recognition in a fun, personalized way, helping toddlers connect numbers with everyday objects.",
+  "tone": "Warm, gentle, rhythmic, and encouraging.",
+  "reading_level": "Baby and Toddler (Ages 1-4)",
+  "keywords": [
+    "counting book personalized toddler",
+    "personalized counting book",
+    "personalized numbers book",
+    "toddler math book",
+    "first numbers book",
+    "custom counting book"
+  ],
+  "illustration_guide": "A soft, whimsical art style with clear, simple shapes and a gentle color palette. Colors should transition subtly from bright, cheerful daytime hues to softer, calming evening and nighttime tones. Recurring elements include a friendly, smiling sun and moon, and consistent, inviting natural settings for the daytime scenes, transitioning to a cozy bedroom or night sky for the later pages. Objects are clearly delineated for easy counting.",
+  "page_outline": [
+    {
+      "beat": "Introduce the morning, with {name} waking up. Point out the single sun in the sky. Ask {name} to count 'one sun'.",
+      "illustration_prompt": "The child waking up in a cozy bed, a bright sun visible through the window. One sun shines in the sky. The child looks towards the sun."
+    },
+    {
+      "beat": "{name} is outside, seeing two ducks waddling by a pond. Encourage {her/him} to count 'two ducks'.",
+      "illustration_prompt": "The child standing near a small pond or puddle, pointing at two ducks waddling together. Lush green grass around."
+    },
+    {
+      "beat": "In a bright garden, {name} discovers three vibrant flowers blooming. Help {her/him} count 'three flowers'.",
+      "illustration_prompt": "The child in a colorful garden, looking at three distinct flowers. Butterflies flutter nearby."
+    },
+    {
+      "beat": "Four playful butterflies dance around {name}. Can {she/he} count 'four butterflies' as they flutter?",
+      "illustration_prompt": "The child smiling, surrounded by four colorful butterflies fluttering in the air. A gentle breeze."
+    },
+    {
+      "beat": "On a picnic blanket, {name} finds five delicious red apples. Count 'five apples' with {her/him}.",
+      "illustration_prompt": "The child sitting on a picnic blanket, reaching for five red apples arranged in a basket or on the blanket."
+    },
+    {
+      "beat": "It's story time! {name} sees six favorite books lined up on a shelf. Count 'six books' together.",
+      "illustration_prompt": "The child sitting on the floor, next to a low bookshelf with six colorful books neatly arranged. A cozy rug."
+    },
+    {
+      "beat": "Getting ready for bed, {name} notices seven fluffy pillows. Time to count 'seven pillows'.",
+      "illustration_prompt": "The child in a bedroom, pointing at a bed with seven soft, fluffy pillows stacked or arranged on it."
+    },
+    {
+      "beat": "Outside, the moon begins to rise. {name} sees eight big, round clouds drifting past the moon. Count 'eight clouds'.",
+      "illustration_prompt": "The child looking out a window at a darkening sky. A crescent moon is visible, with eight soft, puffy clouds floating near it."
+    },
+    {
+      "beat": "The night sky is beautiful. {name} spots nine twinkling stars. Count 'nine stars' shining brightly.",
+      "illustration_prompt": "The child looking up at the night sky from a window or a safe outdoor spot. Nine clearly visible, twinkling stars."
+    },
+    {
+      "beat": "Finally, {name} is sleepy. Ten little stars whisper goodnight. Count 'ten sleepy stars' as {she/he} drifts off.",
+      "illustration_prompt": "The child tucked into bed, eyes closing gently. Ten small, soft glowing stars are visible through the window, or as a dreamlike pattern above the bed."
+    }
+  ],
+  "cover_scene": "The child smiling and pointing up at the night sky, with a friendly moon and a few sparkling stars visible. The child is wearing pajamas and looks cozy, with a calm, open night sky across the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "The sun shines bright for {name}. Look, {name}, one sun!",
+      "scene": "The child waking up in a cozy bed, a bright sun visible through the window. One sun shines in the sky. The child looks towards the sun."
+    },
+    {
+      "text": "Getting ready for bed, {name} notices seven fluffy pillows. Time to count 'seven pillows'.",
+      "scene": "The child in a bedroom, pointing at a bed with seven soft, fluffy pillows stacked or arranged on it."
+    }
+  ],
+  "h1": "Personalized Counting Book for Toddlers: Your Child's First Numbers",
+  "meta_title": "Personalized Toddler Counting Book | StoryBloom",
+  "meta_description": "Teach your toddler numbers 1-10 with a personalized counting book. Your child is the hero in this fun, rhyming story from StoryBloom.",
+  "promise": "Watch your child's eyes light up as they count from one to ten, becoming the star of their very own, beautifully illustrated counting adventure.",
+  "story_summary": "This charming personalized book takes your child on a gentle journey through their day, counting familiar objects along the way. From one bright sun in the morning to ten sleepy stars at night, your child will meet and count playful ducks, colorful flowers, delicious apples, and cozy bedtime items. Each page features a new number, encouraging your little one to practice identifying and saying numbers.",
+  "why_parents": [
+    "Learning to count is a first step in understanding the world around them. This book makes the experience special and personal by placing your child right into the story, connecting abstract numbers to concrete, recognizable objects. It builds a positive association with numbers and makes counting a joyful, natural part of their world.",
+    "The rhythmic text and simple concepts are perfectly suited for toddlers and preschoolers, supporting number recognition and vocabulary development. As your child hears their own name and sees their photo throughout the pages, they will be captivated, fostering a love for reading and a sense of accomplishment as they master each number."
+  ],
+  "for_grownups": [
+    "Point to each object as you count it together on the page. You can even trace the numeral with your finger.",
+    "Extend the learning by counting everyday items around your home or during outings. How many spoons? How many trees? How many steps?",
+    "Ask your child to find and point out the number on the page, helping them connect the quantity with the written numeral."
+  ],
+  "faqs": [
+    {
+      "question": "What numbers does this book cover?",
+      "answer": "This personalized counting book teaches numbers from one to ten, with each page dedicated to a single number and corresponding objects."
+    },
+    {
+      "question": "Is this book suitable for a baby or a toddler?",
+      "answer": "Yes, this book is designed with simple text, repetition, and clear illustrations perfect for babies and toddlers aged 1-4, making it an ideal first counting book."
+    },
+    {
+      "question": "How does this book support my child in learning to count?",
+      "answer": "By featuring your child as the hero who counts familiar objects from 1 to 10, the book makes discovering numbers relatable and fun. The consistent visual representation and rhythmic text reinforce number recognition and the act of counting."
+    }
+  ],
+  "image_alt": "Personalized counting book cover featuring an illustrated child as the hero, looking at a friendly moon and stars in the night sky.",
+  "feed_title": "Personalized Counting Book for Toddlers, Your Child Is the Hero, Numbers 1-10",
+  "feed_description": "Introduce your little one to the wonderful world of numbers with a personalized counting book where your child is the star! From one cheerful sun to ten twinkling, sleepy stars, this charming story takes your child on a rhythmic adventure through their day, counting familiar objects and animals. Each page features a new number, helping your toddler connect abstract concepts with concrete, everyday items. With captivating illustrations and simple, clear text, this book is perfect for building early number recognition, vocabulary, and a love for reading. Watch your child's eyes light up as they see their own name and photo woven into a story all about them learning to count to ten. It's a wonderful way to make early education fun and meaningful."
+}

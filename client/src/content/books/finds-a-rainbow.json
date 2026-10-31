@@ -1,0 +1,119 @@
+{
+  "slug": "finds-a-rainbow",
+  "status": "live",
+  "title_pattern": "{name} Finds a Rainbow",
+  "category": "learning",
+  "age_range": "1-4",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "colors and shapes book personalized",
+  "landing_page_slug": "books/finds-a-rainbow",
+  "example": {
+    "name": "Theo",
+    "pronouns": "he",
+    "look": "light skin, curly auburn hair, uses a wheelchair"
+  },
+  "tagline": "Discover a rainbow of colors and shapes with your little explorer!",
+  "lesson_or_purpose": "Introduces young children to basic colors and shapes through everyday objects, encouraging observation and discovery.",
+  "tone": "Warm, curious, joyful, simple.",
+  "reading_level": "Ages 1-4, rhythmic, repetitive, very few words.",
+  "keywords": [
+    "colors",
+    "shapes",
+    "personalized",
+    "toddler",
+    "baby",
+    "picture book",
+    "learning",
+    "early education",
+    "preschool",
+    "kindergarten"
+  ],
+  "illustration_guide": "Bright, cheerful, and inviting illustrations with a soft, natural palette. Focus on everyday objects found in a cozy home and garden setting. The child character is consistent throughout.",
+  "page_outline": [
+    {
+      "beat": "{name} was ready to play. \"What fun can I find today?\" {She/He} wondered, looking around {her/his} cozy room.",
+      "illustration_prompt": "The child sitting on the floor in a bright, cozy bedroom, looking thoughtfully around, perhaps with a toy box nearby."
+    },
+    {
+      "beat": "First, {name} spotted something RED! A bright red ball bounced near {her/him}. Bounce, bounce, RED!",
+      "illustration_prompt": "The child playfully tapping a bright red bouncy ball in a sunlit room."
+    },
+    {
+      "beat": "Then, {name} peeked into the kitchen. An ORANGE orange sat in a bowl. Round, round, ORANGE!",
+      "illustration_prompt": "The child peeking into a kitchen with a warm, inviting feel, an orange fruit prominently displayed in a wooden bowl on a counter."
+    },
+    {
+      "beat": "Out in the sunny garden, {name} saw something YELLOW. A happy yellow flower waved at {her/him}. Wiggle, wiggle, YELLOW!",
+      "illustration_prompt": "The child kneeling in a cheerful garden, gently touching a vibrant yellow flower."
+    },
+    {
+      "beat": "Next to the flower, {name} found a GREEN leaf. Soft and smooth, like a little boat. Smooth, smooth, GREEN!",
+      "illustration_prompt": "The child examining a bright green leaf, held delicately in their hand, with other green plants around."
+    },
+    {
+      "beat": "Looking up at the sky, {name} saw something BLUE. The big, wide blue sky stretched high above {her/him}. Wide, wide, BLUE!",
+      "illustration_prompt": "The child looking up at a vast, clear blue sky, perhaps with a fluffy white cloud or a small bird."
+    },
+    {
+      "beat": "Near the mailbox, {name} found a PURPLE berry. Small and plump. Plump, plump, PURPLE! But {name} knew not to eat it.",
+      "illustration_prompt": "The child carefully observing small, plump purple berries on a bush in a garden, not touching them directly."
+    },
+    {
+      "beat": "{name} looked back at all the things {she/he} had found. For {name}, the RED ball was a circle. The ORANGE orange was a circle too! And the GREEN leaf was like a triangle.",
+      "illustration_prompt": "The child sitting happily surrounded by the red ball, orange fruit, green leaf, and other simple objects, pointing to their shapes (circle, triangle)."
+    },
+    {
+      "beat": "\"Look!\" giggled {name}. \"Red, orange, yellow, green, blue, purple! I found all the colors of the rainbow!\" And so many shapes!",
+      "illustration_prompt": "The child standing in a vibrant, colorful setting, hands out in an excited gesture, with a subtle rainbow arching in the background, subtly hinted at by the collected objects."
+    },
+    {
+      "beat": "What a clever {daughter/son} {name} was, to find such bright treasures everywhere! The world was full of colors and shapes for {her/him}.",
+      "illustration_prompt": "The child sitting comfortably with a grown-up (like a parent or grandparent) reading a book, with the colorful objects from the story playfully arranged nearby."
+    }
+  ],
+  "cover_scene": "The child surrounded by softly depicted colorful objects (a red ball, an orange, a yellow flower, a green leaf, a blue bird flying, purple berries). The child is pointing with a happy expression. Calm open sky across the top third.",
+  "sample_pages": [
+    {
+      "text": "First, {name} spotted something RED! A bright red ball bounced near {her/him}. Bounce, bounce, RED!",
+      "scene": "The child playfully tapping a bright red bouncy ball in a sunlit room."
+    },
+    {
+      "text": "{name} looked back at all the things {she/he} had found. For {name}, the RED ball was a circle. The ORANGE orange was a circle too! And the GREEN leaf was like a triangle.",
+      "scene": "The child sitting happily surrounded by the red ball, orange fruit, green leaf, and other simple objects, pointing to their shapes (circle, triangle)."
+    }
+  ],
+  "h1": "Personalized Colors and Shapes Book for Toddlers",
+  "meta_title": "Personalized Colors & Shapes Book | StoryBloom",
+  "meta_description": "Your child is the hero in this personalized book about discovering colors and shapes at home and in the garden. Perfect for ages 1-4.",
+  "promise": "Your child will eagerly seek out every color of the rainbow and point to simple shapes, transforming early learning into a shared adventure of discovery.",
+  "story_summary": "Your child embarks on an adventure of discovery, exploring familiar surroundings like their room, kitchen, and garden. As they search, they reveal a vibrant array of colors, from a bright red ball to a happy yellow flower. Along the way, your child also notices the simple shapes of the objects they find, making each discovery a moment of curiosity.",
+  "why_parents": [
+    "Learning to identify colors and shapes is a foundational step in early childhood development. This book makes that process interactive and fun, as your child actively \"finds\" these concepts in their own personalized story, building their ability to notice details and feel confident in their early learning.",
+    "Young children thrive on repetition and recognition of the familiar. By placing your child at the heart of this story, we encourage them to connect story elements with their own world, fostering a love for identifying new things and curiosity about the world around them."
+  ],
+  "for_grownups": [
+    "As you read, point to objects in the book and ask your child, \"What color is this?\" or \"What shape do you see?\"",
+    "Encourage your child to look for colors and shapes in their own home or outside, just like they do in the story.",
+    "Talk about the different objects your child finds. Are they soft, hard, bumpy, or smooth?"
+  ],
+  "faqs": [
+    {
+      "question": "How does this book teach colors and shapes?",
+      "answer": "In this story, your child actively discovers everyday objects that are clearly associated with a specific color or a simple shape. The repetition and clear visual cues help reinforce these early learning concepts."
+    },
+    {
+      "question": "Is this book suitable for very young children, like babies and toddlers?",
+      "answer": "Yes, it is designed specifically for ages 1-4. The language is simple and rhythmic, with very few words per page, making it perfect for short attention spans and early language development."
+    },
+    {
+      "question": "What kind of personalization is included?",
+      "answer": "Your child's name is woven throughout the story, making them the hero of the adventure. Their photo also appears on the cover and dedication page, bringing them fully into the world of colors and shapes."
+    }
+  ],
+  "image_alt": "Personalized colors and shapes book cover featuring an illustrated child joyfully pointing to colorful everyday objects.",
+  "feed_title": "Personalized Colors and Shapes Book for Kids, Your Child Is the Hero",
+  "feed_description": "Embark on a colorful adventure with your child in this unique personalized picture book! 'Your Child Finds a Rainbow' is designed for curious little learners aged 1-4, making the discovery of colors and shapes a lively expedition. Your child becomes the star of their own story, searching high and low in their room, kitchen, and garden for vibrant reds, cheerful yellows, and calming blues. Along the way, they'll not only identify a rainbow of hues but also recognize the simple shapes that make up their world. This book encourages your child to actively look for visual details and helps build a foundational understanding of basic concepts in a fun, interactive setting. The simple, rhythmic text is perfect for short attention spans, making it an ideal choice for bedtime stories or interactive playtime. Give your child the gift of discovery, where every page is a new opportunity to learn and grow alongside their personalized hero."
+}

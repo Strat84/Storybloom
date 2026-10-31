@@ -1,0 +1,114 @@
+{
+  "slug": "shy-little-ghost",
+  "status": "live",
+  "title_pattern": "{name} and the Shy Little Ghost",
+  "category": "holidays",
+  "age_range": "3-7",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Sep-Oct",
+  "sensitive": false,
+  "main_keyword": "personalized halloween book for kids",
+  "landing_page_slug": "books/shy-little-ghost",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "A gentle Halloween story about finding courage and making a new friend.",
+  "lesson_or_purpose": "To encourage empathy, kindness, and understanding towards those who might be feeling shy or scared, especially during a busy time like Halloween.",
+  "tone": "Warm, gentle, reassuring, friendly, slightly whimsical.",
+  "reading_level": "3-7",
+  "keywords": [
+    "personalized halloween book for kids",
+    "shy ghost story",
+    "kindness book",
+    "trick-or-treat book",
+    "children's halloween story"
+  ],
+  "illustration_guide": "The setting is a friendly, whimsical neighborhood on Halloween night. Houses are decorated with not-too-spooky pumpkins and spiderwebs. The palette is rich and autumnal with warm oranges, purples, deep blues, and glowing yellows from streetlights and jack-o'-lanterns. The ghost character is small, translucent white, with large, gentle eyes, never menacing. Recurring elements include gently falling autumn leaves, glowing jack-o'-lanterns, and the friendly, expressive little ghost who subtly changes from hiding to peeking out.",
+  "page_outline": [
+    {
+      "beat": "{name} is ready for Halloween night! {She/He} wears {her/his} favorite costume, excited for all the fun and treats. {name} can hardly wait to go trick-or-treating!",
+      "illustration_prompt": "The child, dressed in a fun Halloween costume, stands on a porch with a treat bucket, looking eager. The background shows a decorated house and a glowing jack-o'-lantern."
+    },
+    {
+      "beat": "Out on the street, kids laugh and call, their costumes bright under the streetlights. As {name} walks, {she/he} spots a tiny flicker of white behind a big oak tree.",
+      "illustration_prompt": "The child walks along a sidewalk lined with other costumed children (from behind or in the distance) and decorated houses. A small, translucent white ghost peeks shyly from behind a large oak tree."
+    },
+    {
+      "beat": "Is it a sheet? No, it's a little ghost, no bigger than a pumpkin! But this ghost isn't saying 'Boo!' It looks a little bit scared, hiding from the busy street where {name} is.",
+      "illustration_prompt": "The child stops, looking curiously at the small, shy ghost peeking from behind the tree. The ghost has wide, slightly nervous eyes. Other trick-or-treaters are visible but further away."
+    },
+    {
+      "beat": "{name} sees the ghost shiver a tiny bit as a group of loud pirates runs past. Oh dear, thinks {name}, this little ghost might be too shy for all this Halloween hustle and bustle!",
+      "illustration_prompt": "The child watches the small ghost shrink back further behind the tree as a few other children in pirate costumes run past, making playful noise. The ghost looks visibly timid."
+    },
+    {
+      "beat": "A big idea sparks in {name}'s mind. Maybe this little ghost just needs a quieter way to enjoy Halloween? {name} decides to try and help {her/him}.",
+      "illustration_prompt": "The child puts a thoughtful finger to their chin, looking determined. The shy ghost remains partially hidden, looking at the child with curiosity."
+    },
+    {
+      "beat": "Very slowly and softly, {name} takes a step closer. '{name} wants to make sure everyone has fun tonight, even a shy little ghost like you,' {she/he} whispers.",
+      "illustration_prompt": "The child takes a gentle step towards the tree, extending a hand slightly. The ghost peeks out a little more, its eyes focused on the child."
+    },
+    {
+      "beat": "{name} points to a quieter, darker street where fewer people are. 'How about we try over there?' {she/he} suggests. The little ghost nods ever so slightly.",
+      "illustration_prompt": "The child gestures towards a quieter, dimly lit street in the distance. The ghost has emerged a bit more from behind the tree, looking in the direction the child is pointing."
+    },
+    {
+      "beat": "Together, {name} and the little ghost walk down the quieter street. The ghost floats a little higher, a tiny smile starting to form on its wispy face. '{name} is such a kind friend!' it seems to say.",
+      "illustration_prompt": "The child walks confidently down the quieter street, their treat bucket in hand. The small ghost floats cheerfully beside the child, a faint smile on its face, looking less shy."
+    },
+    {
+      "beat": "After getting a few more treats, {name} shares a candy with the ghost. The ghost zips happily around {name}'s head, thrilled to be part of the fun! {name} smiles, knowing {she/he} made a new friend.",
+      "illustration_prompt": "The child holds out a piece of candy. The ghost zips playfully around the child's head, looking joyful and energetic. Candy wrappers are visible in the child's treat bucket."
+    },
+    {
+      "beat": "As the night ends, {name} waves goodbye to {her/his} new friend. {name} knows that being kind and helping others feel brave is the best Halloween treat of all. What a wonderful night!",
+      "illustration_prompt": "The child waves goodbye to the little ghost, who floats nearby, waving back with a tiny, translucent hand. The setting is the child's porch, lit by a warm lantern. The child looks happy and content."
+    }
+  ],
+  "cover_scene": "The child, dressed in a cheerful Halloween costume, stands next to a small, friendly, translucent ghost floating gently beside them. They are on a sidewalk in front of a subtly decorated house under a calm, twilight Halloween sky.",
+  "sample_pages": [
+    {
+      "text": "{name} is ready for Halloween night! {She/He} wears {her/his} favorite costume, excited for all the fun and treats. {name} can hardly wait to go trick-or-treating!",
+      "scene": "The child, dressed in a fun Halloween costume, stands on a porch with a treat bucket, looking eager. The background shows a decorated house and a glowing jack-o'-lantern."
+    },
+    {
+      "text": "Together, {name} and the little ghost walk down the quieter street. The ghost floats a little higher, a tiny smile starting to form on its wispy face. '{name} is such a kind friend!' it seems to say.",
+      "scene": "The child walks confidently down the quieter street, their treat bucket in hand. The small ghost floats cheerfully beside the child, a faint smile on its face, looking less shy."
+    }
+  ],
+  "h1": "Personalized Halloween Book for Kids: Your Child and the Shy Little Ghost",
+  "meta_title": "Personalized Halloween Book | StoryBloom",
+  "meta_description": "Celebrate Halloween with a personalized story where your child meets a shy ghost! A gentle, kind trick-or-treat adventure.",
+  "promise": "Watch your child become the hero of a kind Halloween adventure where they help a shy ghost find courage.",
+  "story_summary": "Your child is ready for a night of trick-or-treating fun. But as they explore the neighborhood, they notice a small, shy ghost who seems scared of all the Halloween excitement. Your child decides to help their new friend, gently guiding the ghost to a quieter street. Together, they share treats and make special memories.",
+  "why_parents": [
+    "Halloween can be a sensory overload for some children, with all the costumes, loud noises, and crowds. This story offers a gentle perspective, helping your child understand that not everyone experiences big events the same way, and that kindness can make a huge difference.",
+    "This book subtly teaches empathy and the joy of helping others. Your child actively makes a choice to be kind and considerate, showing them how their actions can positively impact a new friend, even a tiny ghost."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: 'How do you think the little ghost felt at the beginning of the story? How did your character help the ghost feel better?'",
+    "Talk about times your child might have felt shy or when they helped someone else who was shy. 'What did you do to feel brave? What did you do to help your friend?'",
+    "Discuss different ways to celebrate Halloween and how everyone enjoys things in their own way. 'What's your favorite part of Halloween? What might be someone else's favorite part?'"
+  ],
+  "faqs": [
+    {
+      "question": "Is this Halloween book scary?",
+      "answer": "No, this book is designed to be gentle and friendly, perfect for young children. The 'shy little ghost' is endearing and timid, never frightening, focusing on kindness and friendship instead of spooks."
+    },
+    {
+      "question": "How does the story include Halloween traditions?",
+      "answer": "The story features classic Halloween elements like costumes, trick-or-treating, jack-o'-lanterns, and decorated houses, all woven into a sweet narrative about your child's adventure and new friendship."
+    },
+    {
+      "question": "What age is this book best for?",
+      "answer": "This book is crafted for children ages 3-7, with simple language and a gentle plot focused on kindness that is captivating and easy to follow. It's a wonderful choice for introducing themes of empathy and bravery during Halloween."
+    }
+  ],
+  "image_alt": "Personalized Halloween book cover featuring an illustrated child in a costume alongside a friendly, shy white ghost on a decorated street.",
+  "feed_title": "Personalized Halloween Book for Kids - Your Child and the Shy Little Ghost | StoryBloom",
+  "feed_description": "Give your child a truly unique Halloween experience with this personalized picture book. Your child is the hero of their very own trick-or-treat adventure, where they meet a shy little ghost who is a bit overwhelmed by all the excitement. This gentle story focuses on kindness, empathy, and the joy of helping others feel brave. As your child makes a new friend, they discover that sometimes the best Halloween treat is sharing a moment of understanding. The vibrant illustrations capture the magic of Halloween night without being scary, making it perfect for young readers. It's an ideal gift to celebrate the season and encourage your child's caring spirit. Watch their face light up when they see themselves on every page, making a difference on a special Halloween night. A touching story for ages 3-7 about friendship and compassion."
+}

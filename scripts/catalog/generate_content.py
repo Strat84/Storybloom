@@ -3,6 +3,9 @@
 Usage (outreach venv has the SDK; the key comes from storybloom-outreach/.env):
   python scripts/catalog/generate_content.py --priority P0        # or --slugs a,b,c  [--force]
 
+--provider gemini writes with the model the app uses for stories instead (run with the system
+python, which has Pillow; the key is the app's own).
+
 Output: client/src/content/books/<slug>.json. Cost goes to research/cost_log.csv.
 """
 
@@ -14,6 +17,9 @@ import json
 import os
 import pathlib
 import sys
+import time
+import urllib.error
+import urllib.request
 
 import anthropic
 
@@ -115,7 +121,48 @@ def api_key():
     raise SystemExit("ANTHROPIC_API_KEY not found")
 
 
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_IN, GEMINI_OUT = 0.30 / 1e6, 2.50 / 1e6
+_gemini_key = None
+
+
+def gemini_schema(node):
+    """Gemini's schema format has no additionalProperties."""
+    if isinstance(node, dict):
+        return {k: gemini_schema(v) for k, v in node.items() if k != "additionalProperties"}
+    return node
+
+
+def gemini_json(system, user, schema):
+    global _gemini_key
+    if _gemini_key is None:
+        from generate_images import gemini_key
+        _gemini_key = gemini_key()
+    body = json.dumps({
+        "systemInstruction": {"parts": [{"text": system}]},
+        "contents": [{"role": "user", "parts": [{"text": user}]}],
+        "generationConfig": {"maxOutputTokens": 32000, "responseMimeType": "application/json", "responseSchema": gemini_schema(schema)},
+    }).encode()
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
+    for attempt in range(5):
+        try:
+            req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "x-goog-api-key": _gemini_key})
+            d = json.load(urllib.request.urlopen(req, timeout=240))
+            u = d.get("usageMetadata", {})
+            cost = u.get("promptTokenCount", 0) * GEMINI_IN + (u.get("candidatesTokenCount", 0) + u.get("thoughtsTokenCount", 0)) * GEMINI_OUT
+            return json.loads("".join(x.get("text", "") for x in d["candidates"][0]["content"]["parts"])), cost
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 500, 502, 503, 504) or attempt == 4:
+                raise RuntimeError(f"Gemini HTTP {e.code}") from None
+        except (json.JSONDecodeError, KeyError, IndexError):
+            if attempt == 4:
+                raise RuntimeError("Gemini returned no usable JSON") from None
+        time.sleep(8 * (attempt + 1))
+
+
 def one_call(client, user):
+    if client is None:
+        return gemini_json(SYSTEM, user, SCHEMA)
     resp = client.beta.messages.create(
         model=MODEL,
         max_tokens=16000,
@@ -147,6 +194,9 @@ def pronoun_audit(client, book):
             "{she/he}, {her/him} or {her/his} pairs. Ordinary she/he/her/him/his about other characters (Grandma, a dragon, a friend) are correct.\n\n"
             "List each place where a plain she, he, her, him, his, girl, boy, son or daughter refers to the child, quoting the phrase. "
             "An empty list if there are none.\n\n" + "\n".join(story))
+    if client is None:
+        data, cost = gemini_json("You check children's story templates. Answer only with the JSON requested.", user, AUDIT_SCHEMA)
+        return [f"bare pronoun about the child; use a pair token: {x}" for x in data["problems"]], cost
     resp = client.messages.create(
         model=MODEL, max_tokens=4000, output_config={"effort": "low", "format": {"type": "json_schema", "schema": AUDIT_SCHEMA}},
         messages=[{"role": "user", "content": user}],
@@ -156,16 +206,56 @@ def pronoun_audit(client, book):
     return [f"bare pronoun about the child; use a pair token: {x}" for x in json.loads("".join(b.text for b in resp.content if b.type == "text"))["problems"]], cost
 
 
+# Gemini needs these spelled out; the checks reject a draft that misses them.
+STRICT = """
+
+HARD REQUIREMENTS (a draft that misses any of these is rejected)
+- Every one of the 10 beats contains the exact lowercase token {name} at least once. Write {name}, never {Name}, never a sample name.
+- Gendered words about the child use exactly {she/he}, {She/He}, {her/him}, {her/his}. No other braces anywhere: not around quotes, punctuation or other words.
+- sample_pages text uses {name} and the pair tokens the same way.
+- Copy fields (h1, meta_title, meta_description, promise, tagline, story_summary, why_parents, faqs, feed_title, feed_description, image_alt) contain no braces. They say "your child".
+- feed_description is 400-800 characters. meta_title is under 60 characters and ends with "| StoryBloom". meta_description is under 150 characters. Both say "personalized".
+- Scene prompts say "the child", with no braces.
+- exactly 3 faqs, exactly 2 sample_pages, exactly 2 why_parents paragraphs."""
+
+
+# Stock phrases Gemini leans on: generic copy reads as mass-produced to parents and to Google.
+STOCK = ["magical time", "magical", "delightful", "heartwarming", "fundamental", "engaging", "laying the groundwork", "journey of discovery",
+         "valuable lesson", "wonder and", "captures that", "help my child learn", "helps your child learn", "skills"]
+
+
+def stock_phrases(book):
+    copy = " ".join([book["story_summary"], book["promise"], book["tagline"], book["feed_description"]] + book["why_parents"]
+                    + [f["question"] + " " + f["answer"] for f in book["faqs"]]).lower()
+    return [f'generic phrase "{w}": say something specific to this book\'s plot instead' for w in STOCK if w in copy]
+
+
+def normalize(data):
+    """{Name} at a sentence start is the only token slip that is safe to fix automatically."""
+    for x in data["page_outline"]:
+        x["beat"] = x["beat"].replace("{Name}", "{name}")
+    for x in data["sample_pages"]:
+        x["text"] = x["text"].replace("{Name}", "{name}")
+    return data
+
+
 def generate(client, seed):
     user = (
         f"Book: {seed['title_pattern']}\nHub: {seed['hub']}\nAges: {seed['age_range']}\nMain search phrase: {seed['main_keyword']}\n"
         f"Peak season: {seed['seasonal_peak'] or 'evergreen'}\nsensitive: {seed['sensitive'] == 'yes'}\nPremise: {seed['premise']}\n\n"
         "Write the template and page copy."
     )
-    total, problems = 0.0, []
-    for _ in range(3):
-        prompt = user + ("\n\nYour last attempt failed these checks. Fix every one:\n- " + "\n- ".join(problems) if problems else "")
+    if client is None:
+        user += STRICT
+    total, problems, data = 0.0, [], None
+    for _ in range(3 if client else 5):
+        prompt = user
+        if problems:
+            prompt += "\n\nYour last attempt failed these checks. Fix every one:\n- " + "\n- ".join(problems)
+            if client is None:
+                prompt += "\n\nYour last attempt, to correct and return in full:\n" + json.dumps(data, ensure_ascii=False)
         data, cost = one_call(client, prompt)
+        data = normalize(data)
         total += cost
         book = {
             "slug": seed["slug"], "status": "live", "title_pattern": seed["title_pattern"], "category": seed["hub"],
@@ -174,6 +264,8 @@ def generate(client, seed):
             "example": example_for(seed), **data,
         }
         problems = check_book(book)
+        if client is None:
+            problems += stock_phrases(book)
         if not problems:
             problems, cost = pronoun_audit(client, book)
             total += cost
@@ -187,6 +279,7 @@ def main():
     ap.add_argument("--priority")
     ap.add_argument("--slugs")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--provider", choices=["claude", "gemini"], default="claude")
     a = ap.parse_args()
     seeds = load_seed()
     if a.slugs:
@@ -196,7 +289,7 @@ def main():
         seeds = [s for s in seeds if s["priority"] == a.priority]
     OUT.mkdir(parents=True, exist_ok=True)
     seeds = [s for s in seeds if a.force or not (OUT / f"{s['slug']}.json").exists()]
-    client = anthropic.Anthropic(api_key=api_key(), max_retries=4)
+    client = None if a.provider == "gemini" else anthropic.Anthropic(api_key=api_key(), max_retries=4)
     spent, failed = 0.0, []
 
     def run(s):

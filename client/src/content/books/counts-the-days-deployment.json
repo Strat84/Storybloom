@@ -1,0 +1,115 @@
+{
+  "slug": "counts-the-days-deployment",
+  "status": "live",
+  "title_pattern": "{name} Counts the Days",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P1",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book for kids with deployed parent",
+  "landing_page_slug": "books/counts-the-days-deployment",
+  "example": {
+    "name": "Malik",
+    "pronouns": "he",
+    "look": "deep brown skin, short fade haircut"
+  },
+  "tagline": "A tender story for your child when a parent is away serving our country.",
+  "lesson_or_purpose": "To help children understand, express feelings, and find comfort when a parent is deployed, fostering resilience and pride.",
+  "tone": "Warm, reassuring, and empathetic.",
+  "reading_level": "3-8",
+  "keywords": [
+    "military family book",
+    "deployed parent book",
+    "parent deployment story",
+    "counting down book",
+    "personalized military book",
+    "coping with separation"
+  ],
+  "illustration_guide": "A warm, comforting palette with soft blues, greens, and earthy tones. Visual elements include a family photo, a world map, a calendar, and a 'comfort object' (e.g., a special blanket or stuffed animal) that recurs across pages. The parent in uniform should be depicted with dignity and kindness.",
+  "page_outline": [
+    {
+      "beat": "Introduce the parent who is preparing to leave for their service. Show {name} giving them a big hug goodbye, understanding that they will be gone for a while.",
+      "illustration_prompt": "The child, dressed in pajamas, is hugging a parent in military uniform goodbye. A suitcase is nearby. The other parent stands by with a gentle smile."
+    },
+    {
+      "beat": "Describe {name}'s feelings of missing the parent. Emphasize that it's okay to feel sad, and that big hugs are still felt across the miles.",
+      "illustration_prompt": "The child sits on a sofa, looking at a family photo and hugging a comfort object. A single tear might be visible. The sofa is cozy."
+    },
+    {
+      "beat": "{name} looks at a map with the other parent, learning about where the deployed parent is. {She/He} points to the location.",
+      "illustration_prompt": "The child and the other parent (or grandparent) stand in front of a large world map tacked to a wall, pointing to a faraway location. The child's comfort object is nearby."
+    },
+    {
+      "beat": "The other parent (or grandparent) helps {name} make a special calendar to mark off the days until the deployed parent's return. {name} eagerly marks the first day.",
+      "illustration_prompt": "The child holds a crayon and marks an 'X' on a large, colorful calendar hanging on the wall. The other parent smiles encouragingly."
+    },
+    {
+      "beat": "Show {name} during a video call with the deployed parent. Highlight the joy of seeing their face and sharing little stories, but also the difficulty of saying goodbye on screen.",
+      "illustration_prompt": "The child, holding a tablet or phone, is smiling and waving at the screen, which shows the deployed parent's face. The child's comfort object is on their lap."
+    },
+    {
+      "beat": "During a regular day, {name} experiences a moment where {she/he} wishes the deployed parent was there, perhaps during playtime or a meal.",
+      "illustration_prompt": "The child is playing with blocks or eating a snack, but their gaze is slightly off, a hint of wistfulness on their face, as if thinking of someone far away."
+    },
+    {
+      "beat": "{name} finds comfort in a special activity or object that reminds {her/him} of the parent, like drawing a picture to send or hugging the comfort object extra tight.",
+      "illustration_prompt": "The child is drawing a picture with crayons at a small table, depicting a person in uniform. The comfort object rests beside the drawing."
+    },
+    {
+      "beat": "The story acknowledges {name}'s growing understanding and pride in what the parent is doing. {She/He} understands the parent is helping others.",
+      "illustration_prompt": "The child looks up at a framed picture of the deployed parent in uniform, a thoughtful and proud expression on their face."
+    },
+    {
+      "beat": "The calendar is almost full of marks! {name} is bubbling with excitement as the days count down to single digits.",
+      "illustration_prompt": "The child points excitedly at the calendar, which has only a few empty squares left. The other parent is smiling, sharing the child's excitement."
+    },
+    {
+      "beat": "The big day arrives! The deployed parent is finally home or on their way, and {name} is full of joy for the reunion. A big hug is coming soon for {name}.",
+      "illustration_prompt": "The child is running towards the front door, arms open wide, with the deployed parent (partially visible, just entering) also with open arms. The other parent watches happily."
+    }
+  ],
+  "cover_scene": "The child, holding a comfort object, looks up at a world map on a wall, with a small framed photo of a parent in uniform nearby. Soft light filters in from a window.",
+  "sample_pages": [
+    {
+      "text": "{name} hugged {her/his} parent goodbye. \"I will miss you,\" said {name}. \"I will miss you too,\" said the parent. \"I will be back!\"",
+      "scene": "The child, dressed in pajamas, is hugging a parent in military uniform goodbye. A suitcase is nearby. The other parent stands by with a gentle smile."
+    },
+    {
+      "text": "The calendar was almost full of marks! Only a few days left. {name} giggled with joy. Soon, soon, soon, {name}'s parent would be home!",
+      "scene": "The child points excitedly at the calendar, which has only a few empty squares left. The other parent is smiling, sharing the child's excitement."
+    }
+  ],
+  "h1": "Personalized Military Parent Deployment Book for Kids",
+  "meta_title": "Personalized Military Parent Book | StoryBloom",
+  "meta_description": "A personalized book for your child with a deployed parent. Your child is the hero in this story of love and waiting.",
+  "promise": "Your child will feel seen, supported, and hopeful as they navigate a parent's military deployment, through a story made just for them.",
+  "story_summary": "This tender story helps your child navigate the feelings that come with a parent's military deployment. From the tearful goodbyes to the special video calls, your child sees themselves as the hero, actively coping with separation. With the help of family and a special countdown, your child learns to express big emotions and feel proud of their parent's service, all while anticipating the joyous reunion.",
+  "why_parents": [
+    "A parent's deployment is a significant event for any child, often bringing a mix of emotions from sadness and confusion to pride. This book provides a gentle and relatable narrative that helps children understand what's happening, process their feelings, and see how they can actively participate in the waiting process, turning a challenging time into a story of resilience.",
+    "Children thrive on routine and understanding. By featuring a personalized story about their own experience with deployment, including elements like video calls and countdowns, this book offers comfort and familiarity. It helps solidify the bond with the deployed parent and reassures your child that their family's love remains strong across any distance."
+  ],
+  "for_grownups": [
+    "Talk about the 'countdown calendar' in the book. You could create a similar one at home, letting your child mark off each day. This gives a tangible way to track time and anticipate return.",
+    "Discuss the deployed parent's role and why they are away, using simple, age-appropriate language. Emphasize the importance of their work and how much they love your child, reinforcing pride and connection.",
+    "Ask your child what they miss most about the deployed parent, and what they are looking forward to most upon their return. Acknowledging these feelings can be very helpful."
+  ],
+  "faqs": [
+    {
+      "question": "How does this book help my child understand deployment?",
+      "answer": "This story gently introduces the concept of a parent being away for military service, featuring elements like goodbyes, video calls, and counting down days. It frames the experience in a way that helps your child grasp the situation and validate their feelings."
+    },
+    {
+      "question": "Is the story suitable for all military branches and roles?",
+      "answer": "Yes, the story focuses on the emotional experience of separation and reunion, rather than specific military operations. It's designed to be universally relatable for any child with a parent in the Army, Navy, Air Force, Marines, Coast Guard, or Space Force."
+    },
+    {
+      "question": "What if my child feels sad reading about their parent being away?",
+      "answer": "It's normal for children to feel a range of emotions when a parent is deployed. This book acknowledges sadness as a valid feeling and provides comfort. Reading it together can open up conversations and help your child process their emotions in a safe space."
+    }
+  ],
+  "image_alt": "Personalized military parent deployment book cover featuring an illustrated child looking at a world map.",
+  "feed_title": "Personalized Deployed Parent Book for Kids, Your Child Is the Hero",
+  "feed_description": "Help your child navigate the unique emotions of a parent's military deployment with this personalized story, tailored just for them. In 'Personalized Military Parent Deployment Book for Kids,' your child becomes the hero, experiencing the journey from goodbye to reunion. This book sensitively addresses feelings of missing a parent, the joy of video calls, and the excitement of counting down the days until they return on a special calendar. It's a powerful tool to foster understanding, resilience, and pride in your child, assuring them that love bridges any distance. A unique and comforting gift for military families, this book makes a challenging time a little easier, creating a lasting memory of their strength and connection."
+}

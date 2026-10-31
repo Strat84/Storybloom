@@ -1,0 +1,116 @@
+{
+  "slug": "bye-bye-binky",
+  "status": "live",
+  "title_pattern": "{name} Says Bye-Bye Binky",
+  "category": "life-lessons",
+  "age_range": "2-3",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "giving up the pacifier book",
+  "landing_page_slug": "books/bye-bye-binky",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "A gentle story of generosity to help your child say bye-bye to their pacifier.",
+  "lesson_or_purpose": "Encouraging a child to willingly give up their pacifier, framing it as a thoughtful act of sharing with new babies.",
+  "tone": "Warm, reassuring, gentle, empowering.",
+  "reading_level": "2-3 years old",
+  "keywords": [
+    "pacifier",
+    "binky",
+    "soother",
+    "transition",
+    "sharing",
+    "toddler",
+    "babies"
+  ],
+  "illustration_guide": "The setting is cozy and familiar: the child's home, with warm, soft colors (creams, light blues, gentle greens). Recurring elements include the pacifier, baby bottles, blankets, and a crib. The overall style is soft, friendly, and inviting.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and {her/his} favorite binky, a constant companion throughout the day.",
+      "illustration_prompt": "The child happily holding a pacifier in one hand, perhaps during playtime or snuggled in a cozy spot at home."
+    },
+    {
+      "beat": "Show {name} enjoying the binky, perhaps during a quiet moment or at bedtime.",
+      "illustration_prompt": "The child lying down for a nap or in bed, pacifier in mouth, looking sleepy and content."
+    },
+    {
+      "beat": "Grandma comes to visit, bringing a gift for {name} and sharing news about new babies who are coming soon.",
+      "illustration_prompt": "Grandma smiling, hugging the child, and holding a small wrapped gift. The child looks curious."
+    },
+    {
+      "beat": "Grandma explains that tiny new babies need binkies, just like {name} once did.",
+      "illustration_prompt": "Grandma gently talking to the child, who is looking at a picture of a baby or a baby item, while holding their own pacifier."
+    },
+    {
+      "beat": "{name} thinks about the new babies and looks at {her/his} own binky, starting to understand.",
+      "illustration_prompt": "The child sitting thoughtfully, looking from their pacifier to a distant, gentle image or thought bubble of a baby. Maybe a soft toy baby is nearby."
+    },
+    {
+      "beat": "{name} makes a big decision: to give {her/his} binky to the new babies.",
+      "illustration_prompt": "The child holds out their pacifier, looking determined and a little proud, towards Grandma or an imagined baby."
+    },
+    {
+      "beat": "Together, {name} and Grandma carefully place the binky in a special box for the new babies.",
+      "illustration_prompt": "The child and Grandma gently placing the pacifier into a small, decorated box or basket."
+    },
+    {
+      "beat": "{name} feels a little different without the binky, but also proud of {her/his} grown-up choice.",
+      "illustration_prompt": "The child looking a little pensive but also with a small, proud smile, perhaps holding a new comfort toy instead of the pacifier."
+    },
+    {
+      "beat": "That night, {name} sleeps soundly, knowing {she/he} helped the new babies.",
+      "illustration_prompt": "The child sleeping peacefully in bed, with the special box (or a representation of it) visible nearby, maybe on a nightstand."
+    },
+    {
+      "beat": "{name} wakes up feeling happy and confident, a big {daughter/son} who said bye-bye binky!",
+      "illustration_prompt": "The child waking up, stretching happily, in a bright, sunny room, looking proud and grown-up."
+    }
+  ],
+  "cover_scene": "The child, smiling confidently, stands next to a small, open gift box containing a pacifier, perhaps waving goodbye to it. A soft, warm sky fills the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "This is {name}, and this is {her/his} binky! {name} loved {her/his} binky so very, very much. It went everywhere with {name}!",
+      "scene": "The child happily holding a pacifier in one hand, perhaps during playtime or snuggled in a cozy spot at home."
+    },
+    {
+      "text": "{name} thought about the tiny new babies. {She/He} looked at {her/his} own binky. Could it help a new baby, just like it helped {name}?",
+      "scene": "The child sitting thoughtfully, looking from their pacifier to a distant, gentle image or thought bubble of a baby. Maybe a soft toy baby is nearby."
+    }
+  ],
+  "h1": "Personalized Giving Up the Pacifier Book",
+  "meta_title": "Personalized Pacifier Book for Kids | StoryBloom",
+  "meta_description": "Help your child say bye-bye to their binky with this personalized story where your child is the hero who shares their pacifier with new babies.",
+  "promise": "Your child will feel empowered and proud as they decide to share their beloved pacifier with new babies, making this transition a positive milestone.",
+  "story_summary": "In this gentle story, your child learns about the arrival of new babies who need comforting. With the help of a loving grown-up, your child contemplates sharing their favorite pacifier. They make a thoughtful decision to give it away, understanding that it will bring comfort to another little one. The story celebrates your child's growth and generosity.",
+  "why_parents": [
+    "Saying goodbye to a pacifier is a significant developmental step for toddlers. This book helps make that transition a positive experience, focusing on your child's agency and generosity rather than a sense of loss. It frames giving up the pacifier as a kind and helpful act.",
+    "Children often thrive on stories that reflect their own experiences. By seeing themselves as the hero in this narrative, your child can better process the change, feel empowered by their choice, and feel proud of becoming a 'big kid' who can help others."
+  ],
+  "for_grownups": [
+    "Talk about the new babies who might need comfort and how your child's pacifier could help them. Emphasize how grown-up and kind it is to share.",
+    "Revisit the story and remind your child of their choice and how proud you are of them. Acknowledge any feelings of sadness while reinforcing their big decision.",
+    "Consider a small, new comfort item (like a special blanket or stuffed animal) to replace the pacifier, making the transition smoother."
+  ],
+  "faqs": [
+    {
+      "question": "How does this book help my child stop using a pacifier?",
+      "answer": "This personalized story gently guides your child through the process of giving up their pacifier by making them the hero of the story. They actively choose to give their pacifier to new babies, turning a potentially difficult transition into a positive act of generosity and growth."
+    },
+    {
+      "question": "Is this book suitable for all children who use pacifiers?",
+      "answer": "Yes, the story is designed to be universally applicable for toddlers transitioning away from a pacifier. It focuses on the child's personal decision and the positive feeling of sharing, making it a supportive read for any child ready for this step."
+    },
+    {
+      "question": "What if my child is sad about giving up their pacifier?",
+      "answer": "The book acknowledges that saying goodbye can be a bit different, but it emphasizes the pride and positive feelings associated with helping new babies. It's a gentle approach to encourage open conversation about feelings while celebrating your child's big-kid milestone."
+    }
+  ],
+  "image_alt": "Personalized giving up the pacifier book cover featuring an illustrated child smiling and waving goodbye to a pacifier in a gift box.",
+  "feed_title": "Personalized Pacifier Book for Kids, Your Child Says Bye-Bye Binky",
+  "feed_description": "Help your child transition away from their pacifier with this unique, personalized story where your child is the star! In 'Bye-Bye Binky,' your child learns about the new babies who need comfort and makes the generous choice to share their beloved pacifier. This beautifully illustrated book empowers your child by making them an active participant in the decision to give up their binky. It transforms a common toddler milestone into a positive and proud moment of generosity and growth. Perfect for ages 2-3, this book is a gentle tool for parents looking to support their child through this developmental step. Each page features your child's name and likeness, making the story uniquely theirs and reinforcing their role as the hero. It's a cherished keepsake that celebrates your child's kindness and big-kid achievement."
+}

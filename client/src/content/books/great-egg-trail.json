@@ -1,0 +1,114 @@
+{
+  "slug": "great-egg-trail",
+  "status": "live",
+  "title_pattern": "{name} and the Great Egg Trail",
+  "category": "holidays",
+  "age_range": "2-7",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Feb-Apr",
+  "sensitive": false,
+  "main_keyword": "personalized easter book for kids",
+  "landing_page_slug": "books/great-egg-trail",
+  "example": {
+    "name": "Nora",
+    "pronouns": "she",
+    "look": "fair skin, short blond bob"
+  },
+  "tagline": "Join a friendly bunny and help save the Easter egg hunt!",
+  "lesson_or_purpose": "Empathy, helpfulness, and problem-solving through a gentle adventure.",
+  "tone": "Warm, gentle, adventurous, joyful.",
+  "reading_level": "For young children.",
+  "keywords": [
+    "Easter book",
+    "bunny book",
+    "egg hunt",
+    "personalized Easter",
+    "spring book",
+    "helpful"
+  ],
+  "illustration_guide": "A soft, pastel color palette featuring spring greens, sky blues, and bright but gentle Easter egg colors. Settings include a sun-drenched spring garden with blooming flowers, tall grass, and a quaint, slightly wobbly wooden bridge over a tiny stream. Recurring visual elements are a friendly, slightly anxious bunny and colorful, uniquely patterned Easter eggs.",
+  "page_outline": [
+    {
+      "beat": "{name} was playing in the sunny garden when a little bunny hopped by with a big basket of colorful eggs. The bunny looked quite worried!",
+      "illustration_prompt": "The child happily playing in a vibrant spring garden, a small, slightly worried bunny approaches holding a large, overflowing basket of brightly colored Easter eggs."
+    },
+    {
+      "beat": "\"Oh dear!\" squeaked the bunny. \"These eggs are for the big Easter egg hunt, but they've all rolled down the hill!\" {name} saw a rainbow of eggs tumbling away in every direction.",
+      "illustration_prompt": "The child and the bunny looking down a gentle green hill where many colorful eggs are rolling in various directions. The bunny looks distressed, ears drooping slightly."
+    },
+    {
+      "beat": "{name}'s eyes grew wide. \"Don't worry, little bunny,\" {she/he} said, \"we can help find them!\" {name} knew how important the eggs were.",
+      "illustration_prompt": "Close up on the child's face, showing concern but also determination, looking at the bunny who is looking up at the child hopefully. The child's hand might be gently reaching out."
+    },
+    {
+      "beat": "The bunny explained that some eggs went into the flower patch, some rolled towards the tall grass, and some even bounced near the wobbly bridge! {name} decided to start with the flower patch.",
+      "illustration_prompt": "The child and the bunny pointing towards different areas of the garden: a bright flower patch, tall green grass, and a small wooden bridge over a tiny stream, all bathed in sunlight."
+    },
+    {
+      "beat": "Carefully, {name} peeked between the petals. \"Here's one!\" {she/he} cheered, spotting a sparkly blue egg nestled among the tulips. The bunny happily added it to a small recovery basket.",
+      "illustration_prompt": "The child gently parting colorful flower petals (like tulips or daffodils) to reveal a hidden, sparkly blue egg. The bunny holds a small woven basket, looking pleased."
+    },
+    {
+      "beat": "Next, {name} tiptoed through the tall, swaying grass. \"A stripey one!\" whispered {name}, finding a green and purple egg near a sleepy ladybug.",
+      "illustration_prompt": "The child tiptoeing carefully through tall, lush green grass, their eyes scanning the ground. They spot and point to a stripey green and purple egg. A small ladybug rests nearby on a blade of grass."
+    },
+    {
+      "beat": "The wobbly bridge looked a bit tricky, but {name} held the bunny's paw and stepped bravely across. On the other side, {she/he} found three more eggs hiding!",
+      "illustration_prompt": "The child carefully walking across a slightly wobbly wooden bridge, holding the bunny's paw. Three colorful eggs are visible on the far bank, partially hidden by reeds or small stones."
+    },
+    {
+      "beat": "One by one, {name} found all the colorful eggs. Red, yellow, pink, and polka-dotted ones! Every egg {name} found made the bunny wiggle with delight.",
+      "illustration_prompt": "The child and the bunny proudly looking at a growing pile of colorful eggs in their basket, which is now almost full. The sun shines brightly."
+    },
+    {
+      "beat": "With the basket full again, the bunny gave {name} a grateful hug. \"Thank you, {name}!\" it squeaked. \"Now the Easter egg hunt can happen!\"",
+      "illustration_prompt": "The bunny giving the child a warm, appreciative hug. The basket of eggs is completely full and sits between them. A sunny, happy atmosphere."
+    },
+    {
+      "beat": "{name} felt warm and happy inside, knowing {she/he} had helped a friend. What a wonderful Easter adventure for {name}!",
+      "illustration_prompt": "The child smiling contentedly, perhaps holding one of the recovered eggs or a small spring flower. The bunny waves goodbye in the background as the child looks out at the joyful garden."
+    }
+  ],
+  "cover_scene": "The child, smiling, stands in a vibrant spring garden, surrounded by blooming flowers and a few colorful Easter eggs. A friendly bunny is beside the child, looking up happily. Calm open blue sky with soft white clouds fills the top third of the picture.",
+  "sample_pages": [
+    {
+      "text": "{name} was playing in the sunny garden when a little bunny hopped by with a big basket of colorful eggs. The bunny looked quite worried!",
+      "scene": "The child happily playing in a vibrant spring garden, a small, slightly worried bunny approaches holding a large, overflowing basket of brightly colored Easter eggs."
+    },
+    {
+      "text": "Carefully, {name} peeked between the petals. \"Here's one!\" {she/he} cheered, spotting a sparkly blue egg nestled among the tulips. The bunny happily added it to a small recovery basket.",
+      "scene": "The child gently parting colorful flower petals (like tulips or daffodils) to reveal a hidden, sparkly blue egg. The bunny holds a small woven basket, looking pleased."
+    }
+  ],
+  "h1": "Personalized Easter Egg Hunt Book for Kids",
+  "meta_title": "Personalized Easter Book for Kids | StoryBloom",
+  "meta_description": "Make Easter extra special! Your child is the hero in this personalized book, helping a friendly bunny find lost eggs. A unique holiday gift.",
+  "promise": "Give your child a memorable Easter adventure where they are the helpful hero.",
+  "story_summary": "In this sweet Easter story, your child is enjoying a beautiful spring day when they meet a very worried bunny. All the bunny's colorful Easter eggs have rolled down a big hill! Your child steps up to help, embarking on a charming adventure to find every last egg and save the Easter egg hunt.",
+  "why_parents": [
+    "Easter is a time of joy and new beginnings. This book celebrates that feeling by making your child the star of a special spring adventure. It’s a wonderful way to connect your child directly to the excitement of the season and create a cherished memory.",
+    "This story subtly teaches the value of helpfulness and empathy. Your child sees a friend in need and actively chooses to assist, learning that small acts of kindness can make a big difference. It's an empowering tale that shows your child their actions can bring happiness to others."
+  ],
+  "for_grownups": [
+    "Talk about the story: \"What was your favorite part of helping the bunny find the eggs?\"",
+    "Ask about kindness: \"How did the bunny feel when you helped? How did you feel helping the bunny?\""
+  ],
+  "faqs": [
+    {
+      "question": "What is the main adventure in this book?",
+      "answer": "In this personalized Easter story, your child meets a friendly bunny who has accidentally lost all their colorful Easter eggs down a hill. Your child then becomes the hero, helping the bunny find all the missing eggs."
+    },
+    {
+      "question": "Is this book suitable for celebrating Easter?",
+      "answer": "Yes, this book is specifically designed to be a festive story for Easter. It captures the spirit of spring, new friendships, and the joy of an Easter egg hunt, making it a perfect holiday gift."
+    },
+    {
+      "question": "How does my child participate in the story?",
+      "answer": "Your child is the central character on every page! They actively decide to help the bunny, search for eggs in different locations like the flower patch and tall grass, and ultimately save the Easter egg hunt through their own helpful actions."
+    }
+  ],
+  "image_alt": "Personalized Easter book cover featuring an illustrated child as the hero with a bunny and colorful eggs in a spring garden.",
+  "feed_title": "Personalized Easter Egg Hunt Book for Kids, Your Child Helps a Bunny",
+  "feed_description": "Make this Easter special with a personalized storybook starring your child! In 'Your Child and the Great Egg Trail,' your child helps a worried bunny. A basket of colorful Easter eggs accidentally rolls down a hill, scattering them throughout the garden. Your little one springs into action, exploring vibrant spring settings. Your child will peek into flower patches, tiptoe through tall grass, and even cross a wobbly bridge to find every lost egg. This charming story celebrates the joy of Easter and highlights empathy, kindness, and problem-solving. It shows your child how their helpful actions can make a big difference and bring happiness to others. It's a perfect gift for your daughter or son, making them the hero of their own Easter story. The book features beautiful, soft, pastel illustrations, capturing the essence of springtime. Create a unique and memorable keepsake your family will cherish, celebrating generosity and friendship this Easter season."
+}

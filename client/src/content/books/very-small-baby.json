@@ -1,0 +1,119 @@
+{
+  "slug": "very-small-baby",
+  "status": "live",
+  "title_pattern": "{name} and the Very Small Baby",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": true,
+  "main_keyword": "book for sibling of a nicu baby",
+  "landing_page_slug": "books/very-small-baby",
+  "example": {
+    "name": "Leo",
+    "pronouns": "he",
+    "look": "light skin, messy sandy-blond hair, freckles"
+  },
+  "tagline": "A gentle story for the big sister or brother of a very small baby.",
+  "lesson_or_purpose": "To help an older sibling understand what it means when a new baby needs to stay in the hospital, validate their feelings, and show them how they can still connect and prepare for the baby's arrival home.",
+  "tone": "Warm, gentle, reassuring, empathetic.",
+  "reading_level": "Ages 3-8",
+  "keywords": [
+    "nicu baby",
+    "preemie",
+    "preemie baby",
+    "premature baby",
+    "hospital baby",
+    "new baby",
+    "big sister",
+    "big brother",
+    "sibling book",
+    "family changes"
+  ],
+  "illustration_guide": "A soft, comforting palette of pastels and gentle primary colors. Settings include a cozy home, a calm and clean hospital room (NICU can be depicted with soft light and a gentle, welcoming feel, showing the baby in an incubator or bassinet with monitors in the background, without being scary or overly medical), and a car journey. Recurring elements include a special blanket for the new baby, and a favorite toy or drawing supplies for the child.",
+  "page_outline": [
+    {
+      "beat": "Introduce the new baby's arrival, but note that the baby is very small and delicate. Show {name} meeting a parent who explains the baby needs extra care.",
+      "illustration_prompt": "The child is sitting on a sofa at home with a parent, who looks gentle and slightly tired but reassuring. The parent is holding a very tiny, wrapped baby, almost hidden from view. The child looks curious."
+    },
+    {
+      "beat": "Explain that the baby needs to stay at the hospital for a little while to get bigger and stronger. {name} listens carefully, perhaps with a slight furrow in {her/his} brow.",
+      "illustration_prompt": "The parent is kneeling down to the child's level, speaking gently. The child is looking at the parent with a thoughtful, slightly concerned expression. No baby is visible, implying the baby is at the hospital."
+    },
+    {
+      "beat": "{name} feels a mix of emotions: a little sad or confused that the baby isn't home, maybe a bit lonely, missing the baby {she/he} hasn't really met yet.",
+      "illustration_prompt": "The child is in their bedroom, looking out a window or at an empty crib/bassinet. A favorite toy is nearby, but the child looks pensive, perhaps with a small frown."
+    },
+    {
+      "beat": "A parent explains what the hospital 'special care nursery' (or NICU) is for: a warm, safe place where tiny babies grow strong. Reassure {name} that the baby is being looked after by kind doctors and nurses.",
+      "illustration_prompt": "A parent is showing the child a simple drawing or a picture of a smiling baby, while explaining with a warm smile. The child looks a little more understanding."
+    },
+    {
+      "beat": "{name} wonders what {she/he} can do for the very small baby. {She/He} wants to help and connect.",
+      "illustration_prompt": "The child is holding a small toy or blanket, looking thoughtful and determined. A thought bubble above the child's head might show a tiny, blurred baby."
+    },
+    {
+      "beat": "A parent suggests gentle ways {name} can connect with the baby: drawing a picture, singing a song, or making a special message. Emphasize that even small actions are meaningful for {name} and the baby.",
+      "illustration_prompt": "A parent is gently guiding the child's hand to draw on a piece of paper, both smiling. Art supplies are on a table."
+    },
+    {
+      "beat": "{name} chooses an action! Maybe {she/he} draws a colorful picture, or practices a soft lullaby, or picks a tiny, soft blanket to give to the baby.",
+      "illustration_prompt": "The child is intently focused on their chosen activity: drawing a vibrant picture, or holding a small, soft blanket, or singing softly to a teddy bear."
+    },
+    {
+      "beat": "{name} finally gets to visit the baby, perhaps looking at the baby in {her/his} incubator. {name} shares {her/his} special gift or song, feeling a growing connection and love for the tiny sibling.",
+      "illustration_prompt": "The child is at the hospital, looking into a clear incubator or bassinet where a very tiny baby is resting. The child holds up their drawing or special blanket, a gentle smile on their face. A parent is beside them, looking proud."
+    },
+    {
+      "beat": "A parent announces that the baby is getting bigger and stronger and will be coming home soon! {name} helps prepare the baby's room, excited for the big day.",
+      "illustration_prompt": "The child is helping a parent arrange a small, soft blanket or a tiny toy in a crib or bassinet at home. Both are smiling, anticipating the baby's arrival."
+    },
+    {
+      "beat": "The very small baby comes home! {name} feels proud and happy, realizing {she/he} is a wonderful big {sister/brother} to {her/his} new sibling.",
+      "illustration_prompt": "The child is sitting on the sofa next to a parent, who is holding the now home, tiny baby. The child is gently stroking the baby's foot or holding their hand, looking content and loving. The room feels warm and welcoming."
+    }
+  ],
+  "cover_scene": "The child, with a gentle, protective expression, is looking down at a tiny, swaddled baby in a small, cozy bassinet or basket, surrounded by soft light. The background is a soft, warm room.",
+  "sample_pages": [
+    {
+      "text": "The baby was very small. A tiny little baby. {name} saw the baby, so new. 'The baby needs extra care,' said Grandma, 'to grow big and strong.'",
+      "scene": "The child is sitting on a sofa at home with Grandma. Grandma is holding a very tiny, wrapped baby, almost hidden from view. The child looks curious and a little puzzled."
+    },
+    {
+      "text": "{name} chose a special job. {She/He} would draw a beautiful picture, full of bright, happy colors, just for the baby. 'This will help the baby grow strong too!' thought {name}.",
+      "scene": "The child is intently focused on drawing a vibrant picture with crayons and paper spread around them at a small table. Their tongue is poking out slightly in concentration."
+    }
+  ],
+  "h1": "Personalized Book for Siblings of NICU or Premature Babies",
+  "meta_title": "Personalized NICU Sibling Book | StoryBloom",
+  "meta_description": "A personalized picture book for your child who is waiting for a premature or NICU baby sibling to come home. Help them understand and connect.",
+  "promise": "Help your child understand and connect with their new sibling who needs extra care at the hospital, turning a challenging time into a story of love and anticipation.",
+  "story_summary": "When a new baby arrives early and needs to stay at the hospital for a little while, your child might have many questions and feelings. This gentle story helps your child understand why the very small baby needs extra care to grow big and strong. It validates their emotions and guides them to discover meaningful ways they can connect with their new sibling, even from afar. The book culminates in the joy of preparing for and welcoming the baby home.",
+  "why_parents": [
+    "Bringing home a new baby is always an adjustment, but when a baby needs to stay in the NICU, it can be a particularly confusing and emotional time for older siblings. Your child might feel left out, worried, or even a little jealous. This story offers a reassuring narrative that gently explains the situation in an age-appropriate way, helping your child process their feelings and understand that the baby is safe and loved.",
+    "This book empowers your child by showing them how they can actively participate in welcoming their new sibling. It provides concrete, gentle ideas for connecting with the baby, fostering a sense of involvement and love. By becoming the hero of this story, your child gains confidence and feels valued as a big brother or sister, transforming a challenging wait into a special journey of anticipation."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: 'How do you feel about the new baby needing to stay at the hospital? What part of the story made you feel happy or a little sad?'",
+    "Encourage your child to draw a picture or sing a song for their new sibling, just like in the story. You can even take a photo of their creation to share with the baby's care team or display it proudly at home.",
+    "Remember to validate all of your child's feelings during this time. It's okay for them to feel a mix of emotions, and acknowledging them openly helps build their emotional vocabulary. Where relevant, discussing any questions or feelings with your pediatrician, counselor, or the child's care team can be helpful."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for children experiencing a NICU stay?",
+      "answer": "Yes, this book is specifically designed to help older siblings understand and cope with a new baby needing extra care in the hospital, often referred to as the NICU. It uses gentle language to explain the situation and focuses on positive ways your child can feel connected."
+    },
+    {
+      "question": "How does this book address the emotions an older sibling might feel?",
+      "answer": "The story acknowledges feelings like sadness, confusion, and wanting to help, validating your child's experience. It then guides them towards positive actions they can take, fostering feelings of love, anticipation, and being an important part of the family."
+    },
+    {
+      "question": "Does this book include any medical terms or scary hospital imagery?",
+      "answer": "No, this book avoids scary imagery and complex medical terms. It focuses on reassuring language and comforting illustrations to explain that the baby is in a safe place, getting bigger and stronger, ensuring a gentle and positive experience for your child."
+    }
+  ],
+  "image_alt": "Personalized book cover for a child with a NICU sibling, featuring an illustrated child looking at a tiny baby.",
+  "feed_title": "Personalized NICU Sibling Book, Your Child is the Hero of This Premature Baby Story",
+  "feed_description": "Help your child navigate the arrival of a new sibling who needs extra care in the hospital with this personalized story from StoryBloom. This book stars your child as the brave big sister or brother, offering a gentle and reassuring narrative about a premature or NICU baby. When a baby is born early, older siblings can feel confused or worried. This story tenderly explains why the very small baby is staying at the hospital, validating your child's emotions. It then guides your child to discover meaningful ways to connect with their new sibling, from drawing special pictures to singing soft lullabies. Your child becomes an important part of the baby's journey home, fostering empathy and anticipation. Celebrate your child's loving role and prepare them for the joyous day their tiny sibling finally comes home. This StoryBloom book is carefully crafted for children aged 3-8, using comforting language and soft illustrations to explain this sensitive topic."
+}

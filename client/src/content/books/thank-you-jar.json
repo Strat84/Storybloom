@@ -1,0 +1,115 @@
+{
+  "slug": "thank-you-jar",
+  "status": "live",
+  "title_pattern": "{name}'s Thank-You Jar",
+  "category": "life-lessons",
+  "age_range": "3-8",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "gratitude book for kids",
+  "landing_page_slug": "books/thank-you-jar",
+  "example": {
+    "name": "Theo",
+    "pronouns": "he",
+    "look": "light skin, curly auburn hair, uses a wheelchair"
+  },
+  "tagline": "A personalized story of thankfulness, starring your child.",
+  "lesson_or_purpose": "To introduce the concept of gratitude and help children understand how acknowledging good things can brighten moods and strengthen family bonds.",
+  "tone": "Warm, uplifting, and encouraging.",
+  "reading_level": "Preschool to early elementary (ages 3-8)",
+  "keywords": [
+    "gratitude",
+    "thank you",
+    "thankfulness",
+    "family",
+    "happy",
+    "kindness"
+  ],
+  "illustration_guide": "A cozy, inviting home setting with warm, gentle colors (soft yellows, blues, greens). The family members are depicted with friendly, expressive faces. The gratitude jar should be a clear glass jar, decorated with simple, childlike drawings and brightly colored paper notes. Focus on showing interaction and emotional warmth.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and {her/his} family during a week where things feel a little bit grumpy or quiet. {name} notices the changed atmosphere.",
+      "illustration_prompt": "The child is sitting on a living room rug, observing a parent who looks a bit tired while doing an everyday task. The room feels a little subdued."
+    },
+    {
+      "beat": "Mom or Dad suggests they create a 'Thank-You Jar' to fill with notes about things they're grateful for. They explain to {name} how it works.",
+      "illustration_prompt": "A parent is holding up a clear, empty glass jar, smiling encouragingly at the child, who looks curious."
+    },
+    {
+      "beat": "{name} is excited to help decorate the jar with colorful stickers and drawings. {She/He} chooses {her/his} favorite colors.",
+      "illustration_prompt": "The child is happily decorating the glass jar with stickers, crayons, and glitter glue, focused on the task. Colorful art supplies are spread around."
+    },
+    {
+      "beat": "The grown-ups write the first few notes, and then {name} carefully dictates or draws {her/his} own first 'thank you' for something small, like a favorite toy or a sunny day.",
+      "illustration_prompt": "The child is carefully holding a small piece of paper with a drawing, about to place it into the newly decorated jar. A parent is smiling nearby."
+    },
+    {
+      "beat": "Over the next few days, other family members add notes to the jar. {name} loves watching the jar slowly fill up with colorful pieces of paper.",
+      "illustration_prompt": "Different family members (e.g., Grandma, Dad) are shown, one by one, adding notes into the increasingly full gratitude jar, as the child watches with interest."
+    },
+    {
+      "beat": "One particularly gloomy afternoon, a small problem arises (e.g., a planned outing is cancelled, a favorite game can't be found), and everyone feels a little down again. {name} especially feels the quiet sadness.",
+      "illustration_prompt": "The family is gathered indoors, looking a bit disappointed. Rain is visible outside a window. The child looks sad."
+    },
+    {
+      "beat": "{name} remembers the Thank-You Jar sitting on the shelf and has an idea. {She/He} goes to get it and suggests they open it up.",
+      "illustration_prompt": "The child, with a sudden spark of an idea, reaches for the gratitude jar on a shelf, looking determined."
+    },
+    {
+      "beat": "The family gathers around as {name} helps pull out the notes one by one. They take turns reading what everyone was grateful for.",
+      "illustration_prompt": "The family is seated together, with the child in the center. The child is holding a note pulled from the jar, while a parent reads it aloud, and other family members listen."
+    },
+    {
+      "beat": "As they read the notes, smiles slowly return to everyone's faces. They remember all the good things, and the gloomy feeling starts to lift. {name} feels proud {she/he} helped.",
+      "illustration_prompt": "The family members are now smiling and laughing together, surrounded by colorful notes. The child has a happy, proud expression."
+    },
+    {
+      "beat": "From that day on, the Thank-You Jar becomes a beloved family tradition, a reminder of all the blessings they share. {name} knows {she/he} helped start something wonderful.",
+      "illustration_prompt": "The gratitude jar, now full and overflowing with notes, is prominently displayed in the family home. The child is hugging a parent, both smiling, bathed in warm sunlight."
+    }
+  ],
+  "cover_scene": "The child, smiling, holding the decorated gratitude jar filled with colorful notes, set against a cozy living room background with a soft, warm glow.",
+  "sample_pages": [
+    {
+      "text": "Mom or Dad suggests they create a 'Thank-You Jar' to fill with notes about things they're grateful for. They explain to {name} how it works. \"We'll write down happy things!\" {she/he} cheers.",
+      "scene": "A parent is holding up a clear, empty glass jar, smiling encouragingly at the child, who looks curious and then excited."
+    },
+    {
+      "text": "The family gathers around as {name} helps pull out the notes one by one. They take turns reading what everyone was grateful for. \"A soft blanket!\" \"A funny joke!\"",
+      "scene": "The family is seated together, with the child in the center. The child is holding a note pulled from the jar, while a parent reads it aloud, and other family members listen."
+    }
+  ],
+  "h1": "Personalized Gratitude Book for Kids",
+  "meta_title": "Personalized Gratitude Book for Kids | StoryBloom",
+  "meta_description": "Teach your child the power of thankfulness with a personalized gratitude book starring them as the hero. Create a cherished family tradition.",
+  "promise": "Your child will discover the joy of gratitude and how it can brighten spirits, becoming the hero who helps their family find thankfulness.",
+  "story_summary": "This story of everyday family life shows your child's family having a quiet week. A parent suggests a clever idea: a 'Thank-You Jar' to fill with notes about all the good things in their lives. Your child helps decorate the jar and adds their own grateful thoughts. When a gloomy day arrives, it's your child who remembers the jar, sparking a beautiful moment of shared thankfulness that lifts everyone's spirits.",
+  "why_parents": [
+    "Cultivating gratitude is a wonderful practice for children, helping them appreciate the small joys in everyday life. This story gently introduces the idea of actively looking for things to be thankful for, fostering a positive outlook that can benefit your child through all their experiences.",
+    "This book shows how an act of gratitude can uplift an entire family. Your child will see themselves as an active participant in creating happiness, learning that their actions, even simple ones like suggesting a thank-you jar, can make a meaningful difference to those they love."
+  ],
+  "for_grownups": [
+    "After reading, consider starting your own family Thank-You Jar. Invite everyone to contribute notes regularly and set aside time to read them together.",
+    "Talk with your child about what they are grateful for each day. It could be something simple like a tasty snack, a favorite toy, or a hug from a loved one.",
+    "Point out moments of gratitude in your own life. \"I'm so thankful for this warm cup of tea!\" or \"I'm glad we get to spend this time together.\""
+  ],
+  "faqs": [
+    {
+      "question": "What is the main message of this story?",
+      "answer": "This story teaches your child about the power of gratitude. It shows how actively recognizing and appreciating the good things in life, even small ones, can create happiness and strengthen family bonds."
+    },
+    {
+      "question": "How does my child participate in the story?",
+      "answer": "Your child is the main character who helps create and utilize a 'Thank-You Jar.' They contribute ideas for notes, help decorate the jar, and ultimately inspire the family to use it to overcome a gloomy day."
+    },
+    {
+      "question": "Is this book suitable for younger children?",
+      "answer": "Yes, with its simple language, clear plot, and focus on warm family interactions, this book is perfect for preschool and early elementary children aged 3-8, making the concept of gratitude accessible and meaningful."
+    }
+  ],
+  "image_alt": "Personalized gratitude book cover featuring an illustrated child holding a thank-you jar, surrounded by happy family members.",
+  "feed_title": "Personalized Gratitude Book for Kids, Your Child Is the Hero",
+  "feed_description": "Give your child the gift of gratitude with this personalized picture book. Your child is the star hero, noticing a quiet, downcast week for their family. A grown-up suggests a 'Thank-You Jar' to fill with notes about all the good things they are grateful for. Your child eagerly helps decorate the jar and adds their first note, starting a new family tradition. When a gloomy afternoon arrives, your child remembers the special jar, inspiring everyone to gather and read the heartfelt notes. As they rediscover their blessings, smiles reappear, and the family's spirits are wonderfully lifted. This tale emphasizes the power of thankfulness, showing how recognizing joys can foster happiness and deepen family bonds. Nurture a positive outlook and encourage your child to appreciate the world around them as the hero of their own grateful adventure."
+}

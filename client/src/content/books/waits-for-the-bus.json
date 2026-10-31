@@ -1,0 +1,114 @@
+{
+  "slug": "waits-for-the-bus",
+  "status": "live",
+  "title_pattern": "{name} Waits for the Bus",
+  "category": "life-lessons",
+  "age_range": "2-5",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "patience book for kids",
+  "landing_page_slug": "books/waits-for-the-bus",
+  "example": {
+    "name": "Zoe",
+    "pronouns": "she",
+    "look": "medium brown skin, big curly brown hair, hearing aids"
+  },
+  "tagline": "A gentle story about finding wonder while you wait.",
+  "lesson_or_purpose": "Helps children practice patience and sharpen their ability to notice details by turning waiting into a game.",
+  "tone": "Warm, encouraging, observant",
+  "reading_level": "Ages 2-5",
+  "keywords": [
+    "patience book for kids",
+    "waiting book",
+    "bus story",
+    "preschool social emotional",
+    "observation skills"
+  ],
+  "illustration_guide": "The setting is a friendly, vibrant neighborhood bus stop during a sunny day. The color palette is bright and inviting, with warm yellows, soft blues, and cheerful greens. Recurring visual elements include friendly neighborhood details like houses, trees, and other people waiting or passing by, always depicted with a soft, rounded art style. The bus itself should be a friendly, generic public transit bus. Focus on clear, engaging expressions for the child and Grandma.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and Grandma waiting patiently at the bus stop. The bus stop is simple, maybe a bench and a sign. {name} is looking around, eager.",
+      "illustration_prompt": "The child and Grandma are sitting on a bench at a bus stop. The child is looking expectantly down the street. Grandma smiles gently at the child."
+    },
+    {
+      "beat": "Show a few minutes passing. {name} starts to feel a little antsy, asking Grandma, 'Is the bus here yet?' The bus is not yet in sight.",
+      "illustration_prompt": "The child is now wiggling slightly on the bench, looking at Grandma with a questioning expression. Grandma points to the street, indicating no bus yet."
+    },
+    {
+      "beat": "Grandma smiles and suggests a game: 'Let's see what {name} can spot while we wait!' {name} looks interested.",
+      "illustration_prompt": "Grandma is leaning closer to the child, a playful expression on her face, making a 'look around' gesture with her hand. The child's eyes light up with curiosity."
+    },
+    {
+      "beat": "{name} looks up, way up! What can {name} see? A little bird flying high in the sky. Maybe a fluffy cloud too.",
+      "illustration_prompt": "The child is looking up with wide, searching eyes. A small bird flies across the sky. A soft, cloud floats above."
+    },
+    {
+      "beat": "Now {name} looks down, way down! What can {name} spot? A tiny ladybug crawling on a leaf nearby. {name} points with a gentle finger.",
+      "illustration_prompt": "The child is crouched slightly, looking intently at a small red ladybug on a green leaf at the base of a bush near the bus stop. The child's finger is gently pointing."
+    },
+    {
+      "beat": "{name} looks all around! What can {name} find? A bright red car driving by, or a friendly dog walking with its owner. {name} giggles.",
+      "illustration_prompt": "The child is turned to the side, pointing excitedly at a bright red car driving past the bus stop. A happy dog on a leash is visible in the background."
+    },
+    {
+      "beat": "{name} is having fun! 'Look, Grandma!' says {she/he}. {name} points to a cloud shaped like a fluffy bunny, or a tree with a funny branch.",
+      "illustration_prompt": "The child is actively pointing to a whimsical cloud in the shape of an animal (like a rabbit or sheep). Grandma is smiling, watching the child's discovery."
+    },
+    {
+      "beat": "Waiting for the bus isn't so boring anymore! {name} finds another interesting thing, like a yellow flower or a patterned sidewalk.",
+      "illustration_prompt": "The child is still exploring, perhaps touching a yellow flower growing near the bus stop, or tracing a pattern on the sidewalk with a finger. The child looks engaged and happy."
+    },
+    {
+      "beat": "Just then, 'Here it comes!' says Grandma. The big yellow bus pulls up to the stop. {name} smiles wide, feeling proud and happy.",
+      "illustration_prompt": "A large, friendly yellow bus has just arrived at the bus stop, its doors opening. The child is looking at the bus with a big, joyful smile. Grandma is also smiling."
+    },
+    {
+      "beat": "{name} climbs onto the bus. As {name} finds a seat, {she/he} tells Grandma all about the things {she/he} saw. 'A bird! A ladybug! A bunny cloud!'",
+      "illustration_prompt": "The child and Grandma are sitting on the bus. The child is animatedly telling Grandma about discoveries, holding up fingers to count them. Grandma listens warmly."
+    }
+  ],
+  "cover_scene": "A cheerful child, wearing a light jacket and carrying a small backpack, stands at a bright bus stop with Grandma. The child is pointing up at a fluffy cloud in a calm blue sky. A friendly yellow bus is approaching in the distance.",
+  "sample_pages": [
+    {
+      "text": "Grandma smiles and suggests a game: 'Let's see what {name} can spot while we wait!' {name} looks interested.",
+      "scene": "Grandma is leaning closer to the child, a playful expression on her face, making a 'look around' gesture with her hand. The child's eyes light up with curiosity."
+    },
+    {
+      "text": "{name} is having fun! 'Look, Grandma!' says {she/he}. {name} points to a cloud shaped like a fluffy bunny, or a tree with a funny branch.",
+      "scene": "The child is actively pointing to a whimsical cloud in the shape of an animal (like a rabbit or sheep). Grandma is smiling, watching the child's discovery."
+    }
+  ],
+  "h1": "Personalized Patience Book for Kids: Your Child's Bus Stop Adventure",
+  "meta_title": "Personalized Patience Book for Kids | StoryBloom",
+  "meta_description": "Teach patience and keen noticing with a personalized book where your child is the hero waiting for the bus, turning waiting into a fun game of discovery.",
+  "promise": "Turn routine waiting into a fun game of discovery, helping your child develop patience and observation.",
+  "story_summary": "Waiting can be hard for little ones, but not for your child in this captivating story! When the bus is taking its time, Grandma introduces a clever game: noticing all the interesting things around them. Your child becomes the hero who discovers birds, ladybugs, and even cloud shapes, making the wait fly by. It's a sweet adventure in mindfulness and active looking.",
+  "why_parents": [
+    "Patience is one of the hardest abilities for young children to develop. This book offers a gentle, interactive way to introduce the idea that waiting doesn't have to be boring. By focusing on active noticing, it shifts your child's perspective from frustration to fascination, helping them find joy in the present moment.",
+    "Children are naturally curious, and this story encourages them to hone their ability to spot details. It shows your child that there's always something interesting to discover, even in everyday situations like waiting for the bus. This can spark a lifelong love for exploring the world around them."
+  ],
+  "for_grownups": [
+    "When waiting with your child, try playing a 'spotting game' just like in the book. Ask: 'What's something red you can see?' or 'Can you find a cloud shaped like an animal?'",
+    "Talk about a time you had to wait for something. Share how you made the waiting easier or more fun. Did you read a book, sing a song, or notice things around you?",
+    "After reading, ask your child: 'What was your favorite thing to spot in the story?' or 'What do you like to do when you have to wait?'"
+  ],
+  "faqs": [
+    {
+      "question": "What age is this book best for?",
+      "answer": "This book is designed for children aged 2-5, with simple language and repetitive elements that are perfect for toddlers and preschoolers. The story's themes of patience and observation are relevant and beneficial for this age group."
+    },
+    {
+      "question": "Does this book help my child notice details?",
+      "answer": "While not a formal lesson, the story gently encourages your child to use their senses to notice specific details in their environment. It models looking up, looking down, and looking all around, promoting active engagement with their surroundings."
+    },
+    {
+      "question": "Is the bus a real bus or a fantasy element?",
+      "answer": "The bus in the story is a friendly, everyday public transit bus, making the setting relatable to your child's experiences. The adventure comes from your child's imagination and observation, not from a fantastical element."
+    }
+  ],
+  "image_alt": "Personalized patience book cover featuring an illustrated child as the hero, happily pointing at the sky while waiting for a bus with Grandma.",
+  "feed_title": "Personalized Patience Book for Kids - Your Child Waits for the Bus",
+  "feed_description": "In this charming personalized story, your child is the star of a captivating adventure in patience! Join your child and Grandma at the bus stop, where a simple wait transforms into an exciting game of discovery. As the bus takes its time, your child learns to look closely at the world around them, spotting everything from flying birds to tiny ladybugs and fluffy clouds shaped like animals. This beautifully illustrated book gently teaches your child that waiting can be fun and filled with exciting surprises. It's an ideal way to encourage keen noticing abilities and a calm approach to patience, helping your little one embrace the joy of spotting small wonders in everyday moments. Create a unique gift that builds important social-emotional understanding and celebrates your child's natural curiosity."
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "rainbow-lunch",
+  "status": "live",
+  "title_pattern": "{name}'s Rainbow Lunch",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "healthy eating book for kids",
+  "landing_page_slug": "books/rainbow-lunch",
+  "example": {
+    "name": "Isla",
+    "pronouns": "she",
+    "look": "pale skin, straight dark brown hair, freckles"
+  },
+  "tagline": "Your child eats a rainbow of colorful foods!",
+  "lesson_or_purpose": "Encourages healthy eating and exploring different colors of food.",
+  "tone": "Playful, encouraging, positive.",
+  "reading_level": "Ages 2-6",
+  "keywords": [
+    "healthy eating",
+    "colorful food",
+    "picky eater",
+    "vegetables",
+    "fruits",
+    "toddler food",
+    "kid's book",
+    "personalized",
+    "custom"
+  ],
+  "illustration_guide": "Bright, vibrant, and cheerful watercolor style. Settings include a cozy kitchen, a bright sunny garden, and a dining room. The palette emphasizes all colors of the rainbow, with particular attention to food items looking appealing and fresh. Recurring elements: simple, friendly food illustrations; a subtle rainbow motif appearing throughout the book (e.g., as part of a pattern, a small decoration).",
+  "page_outline": [
+    {
+      "beat": "{name} wakes up and sees a beautiful, colorful rainbow outside {her/his} window, inspiring a bright idea.",
+      "illustration_prompt": "The child is looking out a window at a bright rainbow arcing across a blue sky. The child's face shows wonder and a budding idea."
+    },
+    {
+      "beat": "{name} has a bright idea: to eat a rainbow too! {She/He} tells a grown-up all about it.",
+      "illustration_prompt": "The child, eyes wide with excitement, tells a parent (Mom/Dad/Grandma) who is smiling. Colorful thought bubbles float above the child's head showing various colored foods."
+    },
+    {
+      "beat": "For breakfast, {name} finds something red and something orange on {her/his} plate. Yum!",
+      "illustration_prompt": "The child sits at a kitchen table, happily pointing at a bowl of red strawberries and orange melon slices. A parent is nearby, smiling."
+    },
+    {
+      "beat": "A yellow banana and a green cucumber slice make {name} giggle. So many colors to try!",
+      "illustration_prompt": "The child is holding a yellow banana slice and a green cucumber slice, giggling. The child's snack plate has other colorful bits."
+    },
+    {
+      "beat": "But wait! For {her/his} rainbow lunch, {name} needs purple. Where could that color be?",
+      "illustration_prompt": "The child stands in the kitchen, looking perplexed at an empty spot on a colorful lunch plate. Question marks float above the child's head, showing a missing purple food item."
+    },
+    {
+      "beat": "{name} decides to look for purple. {She/He} checks the fridge, then the fruit bowl, but no purple for {name} yet.",
+      "illustration_prompt": "The child is peeking inside an open refrigerator, then looking into a colorful fruit bowl on a counter, with a determined but slightly puzzled expression."
+    },
+    {
+      "beat": "Outside in the garden, {name} spots a tiny, hidden purple berry bush! What a find for {name}!",
+      "illustration_prompt": "The child points excitedly at a small, low berry bush with a few purple berries hidden among green leaves in a sunny garden. The child's face is happy and triumphant."
+    },
+    {
+      "beat": "At lunchtime, {name} sits down with a plate full of beautiful rainbow colors, all found by {name}!",
+      "illustration_prompt": "The child is sitting at a table with a plate piled high with various colorful fruits and vegetables, forming a rainbow. The child looks proud and ready to eat."
+    },
+    {
+      "beat": "Every colorful bite makes {name} feel super strong and happy. What a wonderful rainbow lunch!",
+      "illustration_prompt": "The child is taking a bite of a colorful food item, smiling broadly. Small stars or happy bubbles radiate from the child, showing energy and joy."
+    },
+    {
+      "beat": "{name} smiles. What rainbow colors will {name} find and try tomorrow?",
+      "illustration_prompt": "The child is drawing a simple rainbow with crayons on a piece of paper, smiling thoughtfully. The kitchen table is cleared, with a few colorful crumbs or peels remaining."
+    }
+  ],
+  "cover_scene": "The child stands happily in a vibrant, colorful kitchen, holding a plate piled high with various fruits and vegetables of different colors, smiling directly at the viewer. Soft natural light fills the scene.",
+  "sample_pages": [
+    {
+      "text": "{name} had a bright idea! A rainbow lunch, just for {her/him}!",
+      "scene": "The child, eyes wide with excitement, tells a parent who is smiling. Colorful thought bubbles float above the child's head showing various colored foods."
+    },
+    {
+      "text": "Outside, {name} looked! And there it was, a tiny purple berry! Yay, {name}!",
+      "scene": "The child points excitedly at a small, low berry bush with a few purple berries. The child's face is happy and triumphant."
+    }
+  ],
+  "h1": "Personalized Healthy Eating Book for Kids: Your Child's Rainbow Lunch",
+  "meta_title": "Personalized Healthy Eating Book for Kids | StoryBloom",
+  "meta_description": "Inspire your child to love colorful, healthy foods with this personalized book! Your child is the hero discovering the joy of a rainbow lunch.",
+  "promise": "Inspire your child to explore and enjoy a wide variety of colorful, healthy foods.",
+  "story_summary": "In this cheerful story, your child wakes up to discover a beautiful rainbow and decides to try eating one too! Your child searches for different colored foods throughout the day, discovering vibrant fruits and vegetables for breakfast, snacks, and a very special rainbow lunch. It's a cheerful adventure that celebrates healthy eating habits.",
+  "why_parents": [
+    "Introducing new foods and encouraging healthy eating habits can sometimes be a challenge. This personalized story gently guides your child through a fun exploration of colorful foods, making the idea of trying something new exciting and accessible.",
+    "Seeing colors linked to food is a key part of early childhood development. This book connects color recognition with nutrition, showing your child how many wonderful hues can be found on their plate, turning mealtime into a playful learning experience."
+  ],
+  "for_grownups": [
+    "After reading, ask your child: \"What colors did you eat today? Can we find any rainbow colors in our next meal?\"",
+    "Try building a \"rainbow plate\" together for a snack or meal, pointing out all the different colors your child has collected.",
+    "Encourage your child to help wash or prepare colorful fruits and vegetables, connecting them to the process of healthy eating."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for a child who is a picky eater?",
+      "answer": "Yes, this book is designed to gently encourage an interest in healthy eating by making colorful foods seem fun and exciting, without any pressure or specific dietary advice. It focuses on the joy of discovery."
+    },
+    {
+      "question": "Does the story mention specific types of food?",
+      "answer": "The story mentions general categories like \"red\" or \"purple berry\" but does not get specific about particular fruits or vegetables, making it broadly applicable and less prescriptive."
+    },
+    {
+      "question": "How does this book teach about colors?",
+      "answer": "Your child embarks on a quest to find different colored foods, reinforcing color recognition in a tangible, edible way throughout the day, from breakfast to a special rainbow lunch."
+    }
+  ],
+  "image_alt": "Personalized healthy eating book cover featuring an illustrated child as the hero, holding a plate of colorful fruits and vegetables.",
+  "feed_title": "Personalized Rainbow Lunch Book for Kids - Healthy Eating Story",
+  "feed_description": "Give your child the gift of a personalized story that celebrates healthy eating! In \"Your Child's Rainbow Lunch,\" your little one becomes the hero, embarking on an exciting quest to eat every color of the rainbow in one day. From vibrant red fruits at breakfast to a hidden purple berry for lunch, your child discovers the joy of trying a variety of colorful foods. This enchanting picture book is perfect for ages 2-6, gently encouraging healthy habits and making mealtimes fun. Your child will love seeing themselves illustrated as the main character, making their own choices and feeling strong and happy with every colorful bite. It's a wonderful way to introduce the idea of a balanced plate in a playful way, connecting colors with healthy choices. Inspire a love for fresh, wholesome foods and make healthy eating an exciting adventure for your little one."
+}

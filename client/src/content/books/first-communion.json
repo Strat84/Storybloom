@@ -1,0 +1,117 @@
+{
+  "slug": "first-communion",
+  "status": "live",
+  "title_pattern": "{name}'s First Communion",
+  "category": "faith",
+  "age_range": "6-9",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": "Mar-May",
+  "sensitive": false,
+  "main_keyword": "first communion gift book personalized",
+  "landing_page_slug": "books/first-communion",
+  "example": {
+    "name": "Sophie",
+    "pronouns": "she",
+    "look": "fair skin, long red hair in a braid"
+  },
+  "tagline": "Celebrate a sacred milestone. Your child's First Communion story, uniquely for your child.",
+  "lesson_or_purpose": "To help children understand, appreciate, and joyfully celebrate the Catholic sacrament of First Holy Communion, highlighting the spiritual significance and the role of family and community.",
+  "tone": "Reverent, joyful, warm, reassuring, educational.",
+  "reading_level": "Ages 6-9",
+  "keywords": [
+    "first communion",
+    "personalized",
+    "catholic",
+    "sacrament",
+    "gift",
+    "church",
+    "holy communion",
+    "eucharist"
+  ],
+  "illustration_guide": "The art style will be soft and warm, with gentle, inviting colors. Settings include a family home, a beautiful church interior with stained glass windows, and a community gathering. Recurring visual elements are symbols of First Communion like the chalice, host, candles, and rosary beads, all rendered with a respectful, comforting glow. Light is a key element, symbolizing grace and warmth.",
+  "page_outline": [
+    {
+      "beat": "Introduce {name} and the special time approaching, explaining that {she/he} is preparing for a very important day: First Communion. {name} is excited to learn more about this sacrament.",
+      "illustration_prompt": "The child, dressed in everyday clothes, sitting at a kitchen table with a parent (or Grandma/Grandpa) looking at a simple book about First Communion. Sunlight streams through a window, illuminating them gently."
+    },
+    {
+      "beat": "Show {name} at catechism class, listening intently as the teacher explains what the Eucharist means. {name} learns that Jesus is truly present in the bread and wine.",
+      "illustration_prompt": "The child sitting with other children in a classroom setting, listening to a kind adult teacher. A chalkboard or poster shows simple illustrations of a chalice and host. The child looks engaged and curious."
+    },
+    {
+      "beat": "Back at home, {name}'s family helps {her/him} prepare. Maybe {she/he} practices saying prayers, or helps set a special family meal, understanding the importance of family and faith.",
+      "illustration_prompt": "The child kneeling beside a parent (or both parents) by a bed, hands folded in prayer. A small cross or crucifix is on a nearby wall. The atmosphere is peaceful and loving."
+    },
+    {
+      "beat": "The big day draws closer! {name} visits the church with Dad or Mom and sees it being decorated with flowers and candles, creating a sense of anticipation for {her/his} special day.",
+      "illustration_prompt": "The child standing inside a beautiful church, looking up at a parent (or other family member) pointing to floral arrangements or candles being placed near the altar. The church feels grand yet welcoming."
+    },
+    {
+      "beat": "It's the morning of First Communion. {name} gets dressed in {her/his} special outfit, feeling a mix of nerves and great joy. {name} looks forward to this holy occasion.",
+      "illustration_prompt": "The child, dressed in a white dress or suit, looking at themselves in a mirror, a gentle smile on their face. A rosary or a small prayer book might be on a nearby dresser."
+    },
+    {
+      "beat": "{name} arrives at the church, greeted by other children and families. {She/He} joins the procession, walking reverently down the aisle, ready for the ceremony.",
+      "illustration_prompt": "The child walking in a line with other children, all dressed in First Communion attire, down a church aisle. Parents and family members are smiling from the pews. Soft light filters in."
+    },
+    {
+      "beat": "During the Mass, {name} listens to the readings and the homily, understanding the stories and feeling connected to the community. {name} participates in the prayers.",
+      "illustration_prompt": "The child sitting attentively in a pew with a parent, looking towards the altar where a priest is speaking. The stained glass windows cast colorful light into the church."
+    },
+    {
+      "beat": "The moment arrives for {name} to receive the Holy Eucharist for the very first time. {She/He} walks forward, hands folded, with a calm and open heart, to receive the Body of Christ.",
+      "illustration_prompt": "The child, hands folded respectfully, kneeling or standing at the altar rail (or in line), receiving the host from a priest. A gentle, reverent expression on the child's face. Soft, warm light surrounds them."
+    },
+    {
+      "beat": "After receiving, {name} returns to {her/his} seat, quietly reflecting on this sacred gift and feeling a deep sense of peace and gratitude for this special communion.",
+      "illustration_prompt": "The child sitting back in their pew, hands clasped, a thoughtful and peaceful expression on their face. The child is surrounded by a soft, ethereal glow, symbolizing grace."
+    },
+    {
+      "beat": "Later, {name} celebrates with family and friends, grateful for the wonderful day. {She/He} knows that {her/his} First Communion is just the beginning of a lifelong journey of faith.",
+      "illustration_prompt": "The child smiling and laughing, surrounded by family members (parents, grandparents) at a celebration, perhaps with a special cake or small gifts. The setting is warm and joyful."
+    }
+  ],
+  "cover_scene": "The child, dressed in a First Communion outfit (white dress or suit), standing reverently in front of a subtly stylized church entrance or a stained glass window, holding a rosary or prayer book. Open sky or soft church interior at the top third.",
+  "sample_pages": [
+    {
+      "text": "Soon, a very special day was coming for {name}. {She/He} was preparing for {her/his} First Communion. {name} was excited to learn more!",
+      "scene": "The child, dressed in everyday clothes, sitting at a kitchen table with a parent (or Grandma/Grandpa) looking at a simple book about First Communion. Sunlight streams through a window, illuminating them gently."
+    },
+    {
+      "text": "The moment arrived for {name} to receive the Holy Eucharist for the very first time. {She/He} walked forward, hands folded, with a calm and open heart.",
+      "scene": "The child, hands folded respectfully, kneeling or standing at the altar rail (or in line), receiving the host from a priest. A gentle, reverent expression on the child's face. Soft, warm light surrounds them."
+    }
+  ],
+  "h1": "Personalized First Communion Gift Book",
+  "meta_title": "Personalized First Communion Book | StoryBloom",
+  "meta_description": "Celebrate this sacred milestone with a personalized First Communion book. Your child is the hero of this Catholic faith story.",
+  "promise": "A personalized book that helps your child understand and cherish their First Holy Communion, making them the central figure in this important faith journey.",
+  "story_summary": "This gentle story takes your child on a journey of preparation and understanding for their First Holy Communion. From learning about the Eucharist in catechism to the special day itself, your child is an active participant. The narrative beautifully captures the reverence, joy, and community spirit of this sacred Catholic sacrament, concluding with a family celebration and a lasting memory of their special day.",
+  "why_parents": [
+    "First Communion is a profound and memorable step in a child's faith journey. This personalized book offers a unique way to solidify their understanding of the sacrament and make them feel truly special as the hero of their own story, deepening their connection to this sacred event and its significance within the Catholic tradition.",
+    "Children at this age are eager to learn and find meaning in big family and religious occasions. Having a book where your child's name and image appear helps them internalize the experience, making the abstract concepts of faith more tangible and personal. It becomes a beautiful keepsake that can be revisited for years to come."
+  ],
+  "for_grownups": [
+    "Discuss with your child what they remember most about their First Communion day. What did they learn about the Eucharist?",
+    "Talk about the feelings your child experienced during the Mass and when receiving Communion. Did they feel peaceful, happy, or something else?",
+    "Use this book as a starting point to talk about the ongoing journey of faith and how receiving Communion regularly will continue to nourish their spiritual life."
+  ],
+  "faqs": [
+    {
+      "question": "Is this book suitable for all Christian denominations?",
+      "answer": "This book is specifically crafted to respectfully reflect the Catholic tradition of First Holy Communion, including elements like catechism, the Mass, and receiving the Body of Christ in the form of the Eucharist. While all Christian traditions share common beliefs, the specifics of this book are tailored to the Catholic experience."
+    },
+    {
+      "question": "What age is this book designed for?",
+      "answer": "This story is written for children typically aged 6-9 years old, which aligns with the age children usually receive their First Communion. The language and concepts are presented in an age-appropriate way to engage young readers."
+    },
+    {
+      "question": "How does this book help my child understand First Communion?",
+      "answer": "By placing your child as the main character, the story walks them through the preparation, learning, and celebration of First Communion. It helps them understand the spiritual meaning of the Eucharist, the importance of family and community in faith, and the joy of this sacred milestone in a personal and memorable way."
+    }
+  ],
+  "image_alt": "Personalized First Communion book cover featuring an illustrated child in a white dress or suit, holding a rosary, with a church backdrop.",
+  "feed_title": "Personalized First Communion Book for Kids, Your Child is the Hero",
+  "feed_description": "Celebrate the cherished milestone of First Holy Communion with a personalized storybook where your child is the star. This unique keepsake beautifully narrates the journey of preparing for and receiving this sacred Catholic sacrament. From learning about the Eucharist in catechism class to getting dressed in their special outfit and walking down the aisle, every moment is brought to life through gentle illustrations and a heartfelt story. Your child will see their name and image woven into each page, making the experience deeply personal and memorable. The book respectfully captures the reverence, joy, and spiritual significance of this important occasion, emphasizing the role of family and community in their faith journey. It's a thoughtful gift that helps deepen their understanding and appreciation of their First Communion, creating a lasting memory of this special day."
+}

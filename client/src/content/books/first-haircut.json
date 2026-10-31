@@ -1,0 +1,114 @@
+{
+  "slug": "first-haircut",
+  "status": "live",
+  "title_pattern": "{name}'s First Haircut",
+  "category": "milestones",
+  "age_range": "1-4",
+  "page_count": 10,
+  "priority": "P2",
+  "seasonal_peak": null,
+  "sensitive": false,
+  "main_keyword": "first haircut book for toddlers",
+  "landing_page_slug": "books/first-haircut",
+  "example": {
+    "name": "Lucia",
+    "pronouns": "she",
+    "look": "olive skin, long wavy brown hair, red glasses"
+  },
+  "tagline": "A gentle, encouraging story for your child's first haircut.",
+  "lesson_or_purpose": "To make a child's first haircut a positive, brave, and fun experience.",
+  "tone": "Gentle, encouraging, reassuring, rhythmic.",
+  "reading_level": "Ages 1-4.",
+  "keywords": [
+    "first haircut book for toddlers",
+    "personalized haircut book",
+    "toddler bravery story",
+    "salon adventure book",
+    "personalized milestone book"
+  ],
+  "illustration_guide": "Setting: A clean, friendly, modern children's hair salon or barbershop, brightly lit, with fun, whimsical decor. Palette: Soft pastels with pops of bright, cheerful colors (aqua, lemon yellow, coral, sky blue). Recurring elements: The child's favorite stuffed animal, a friendly stylist, salon tools (safe, rounded scissors, wide combs). The child's hair length changing.",
+  "page_outline": [
+    {
+      "beat": "{name}'s hair, swish, swish, grew so long. Tickle, tickle, near {her/his} eyes!",
+      "illustration_prompt": "The child playing, with slightly long hair that's brushing their eyes or ears, looking a little messy but joyful."
+    },
+    {
+      "beat": "\"Time for a trim!\" said Grandma/Mom/Dad. {name} felt a little shy, a little quiet inside.",
+      "illustration_prompt": "The child standing at home, looking a little thoughtful or shy, with a grown-up gently pointing to the child's slightly long hair."
+    },
+    {
+      "beat": "{name} hugged {her/his} softest friend, Bear. \"Bear will come too!\" said {name}.",
+      "illustration_prompt": "The child hugging a beloved stuffed animal tightly, looking determined."
+    },
+    {
+      "beat": "To the bright salon they went! Snip, snip, went the scissors in {name}'s imagination.",
+      "illustration_prompt": "The child and a grown-up entering a brightly lit, cheerful hair salon. The child holds the stuffed animal and looks a bit wide-eyed."
+    },
+    {
+      "beat": "A big chair! Shiny combs! {name} held Bear tight, a little worried.",
+      "illustration_prompt": "The child, holding the stuffed animal, looking at a tall salon chair and shiny hairdressing tools (scissors, comb) with a hint of apprehension."
+    },
+    {
+      "beat": "{name} looked at Bear. Bear looked at {name}. A thought popped up for {name}!",
+      "illustration_prompt": "Close-up on the child's face, looking at the stuffed animal, with a small idea bubble or spark of inspiration above their head."
+    },
+    {
+      "beat": "\"Bear goes first!\" {name} told the kind stylist. Bear sat so still in the chair.",
+      "illustration_prompt": "The stuffed animal sitting in the salon chair, with the child proudly presenting it to a kind stylist who is smiling and holding pretend scissors."
+    },
+    {
+      "beat": "Snip, snip! The stylist pretended to cut Bear's fur. {name} giggled, \"See Bear!\"",
+      "illustration_prompt": "The stylist playfully pretending to 'cut' the stuffed animal's 'hair' with fingers or safe tools. The child is watching, giggling and pointing."
+    },
+    {
+      "beat": "Now {name}'s turn! {She/He} sat so tall. Bear watched from {her/his} lap.",
+      "illustration_prompt": "The child is sitting in the salon chair, looking up at the stylist with a small, brave smile. The stuffed animal is on the child's lap."
+    },
+    {
+      "beat": "Snip, snip! A lovely new cut for {name}! So happy, so proud, so neat!",
+      "illustration_prompt": "The child smiling brightly, admiring their new, neat haircut in a mirror held by the stylist, or looking at their reflection in a wall mirror. The stuffed animal is still with them."
+    }
+  ],
+  "cover_scene": "The child, smiling, sitting happily in a salon chair with a kind stylist standing behind them, holding a comb and child-safe scissors. The child's favorite stuffed animal is in their lap. The top third of the picture has open, brightly lit salon background.",
+  "sample_pages": [
+    {
+      "text": "\"Time for a trim!\" said Grandma/Mom/Dad. {name} felt a little shy, a little quiet inside.",
+      "scene": "The child standing at home, looking a little thoughtful or shy, with a grown-up gently pointing to the child's slightly long hair."
+    },
+    {
+      "text": "Now {name}'s turn! {She/He} sat so tall. Bear watched from {her/his} lap.",
+      "scene": "The child is sitting in the salon chair, looking up at the stylist with a small, brave smile. The stuffed animal is on the child's lap."
+    }
+  ],
+  "h1": "Personalized First Haircut Book for Your Toddler",
+  "meta_title": "Personalized First Haircut Book | StoryBloom",
+  "meta_description": "Make your child's first haircut a brave adventure with this personalized story where your child is the hero.",
+  "promise": "This sweet story transforms a milestone moment into a gentle, brave adventure for your child.",
+  "story_summary": "Your child's hair is getting long, and it's time for a very first haircut! A little nervous about the big chair and shiny scissors, your child brings a favorite stuffed friend along. When an idea sparks, your child bravely lets the stuffed animal go first, turning a tricky new experience into a moment of playful courage. Soon, it's your child's turn to sit tall and proud.",
+  "why_parents": [
+    "Your child's first haircut is a big milestone, often met with a mix of excitement and apprehension. This personalized book helps prepare your little one for the experience in a gentle and positive way, transforming potential nerves into a feeling of accomplishment.",
+    "Reading about new experiences helps children process them beforehand. Seeing themselves as the brave hero in this story empowers your child, building confidence as they approach this new step, making it a happy memory for both of you."
+  ],
+  "for_grownups": [
+    "Talk about the haircut beforehand: Show your child pictures of salons or barbershops and talk about what will happen.",
+    "Bring a comfort item: Just like in the story, bringing a favorite toy can provide reassurance for your child during the haircut.",
+    "Celebrate afterwards: Praise your child for their bravery and let them look in the mirror to admire their new look!"
+  ],
+  "faqs": [
+    {
+      "question": "What age is this book best for?",
+      "answer": "This story is designed for toddlers aged 1-4, with simple language, a gentle narrative, and rhythmic repetition perfect for young children navigating new experiences."
+    },
+    {
+      "question": "Does the book talk about going to a barber shop or a salon?",
+      "answer": "The story uses general terms like \"bright salon\" and \"kind stylist\" to be inclusive of either a barber shop or hair salon environment, focusing on the universal experience of a first haircut."
+    },
+    {
+      "question": "How does this book help with a child's first haircut?",
+      "answer": "By casting your child as the brave hero who helps their stuffed friend go first, the story normalizes the experience, builds anticipation, and shows them that a haircut can be a fun and rewarding adventure."
+    }
+  ],
+  "image_alt": "Personalized first haircut book cover featuring an illustrated child sitting in a salon chair with a stuffed animal, ready for a trim.",
+  "feed_title": "Personalized First Haircut Book for Toddlers, Your Child Is the Hero",
+  "feed_description": "Prepare your child for their very first haircut with this encouraging and playful personalized story. Your little one becomes the brave hero, navigating the new experience of a hair salon or barbershop with a special stuffed friend. This gentle tale follows your child as they feel a little shy about the big chair and shiny scissors, but then come up with a clever idea: their favorite stuffed animal can go first! Watching their fluffy friend get a pretend trim helps your child feel safe and brave enough to take their own turn. The story builds confidence and turns a common milestone into a moment of pride and adventure. With rhythmic text and a reassuring tone, it's perfect for ages 1-4. Beautiful illustrations weave your child's likeness into the art, making them truly the star of their own story and creating a positive memory around this important developmental step."
+}

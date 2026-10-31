@@ -9,12 +9,14 @@ import BookViewerDialog, { type ViewerStory } from "@/components/BookViewerDialo
 import PreviewWatermark from "@/components/PreviewWatermark";
 import PrintOrderDialog from "@/components/PrintOrderDialog";
 import { api, normalizePages, type StoryListItem, type StoryPage } from "@/lib/api";
-import { buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, pdfCreditFor, readPendingPurchase } from "@/lib/checkout";
+import { orderIdFor, buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, pdfCreditFor, readPendingPurchase } from "@/lib/checkout";
 import { picturesDone, type ImagesStatus } from "@/lib/createBook";
 import { digitalPrice, formatPrice, printPrice, printTierForStory } from "@/lib/pricing";
 import { likelyInUS } from "@/lib/region";
 import { cn } from "@/lib/utils";
 import { track } from "@/lib/track";
+import { useAuth } from "@/lib/auth";
+import { showReviewOptIn } from "@/lib/googleReviews";
 
 const IMAGES_POLL_MS = 5000;
 
@@ -109,6 +111,9 @@ export default function Book() {
   }, [storyId, loadBook, watchPictures, applyImagesStatus]);
 
   // Coming back from Stripe: wait for the payment to be confirmed.
+  const { user } = useAuth();
+  const buyerEmail = useRef(user?.email);
+  buyerEmail.current = user?.email;
   useEffect(() => {
     const pending = readPendingPurchase();
     const returned = new URLSearchParams(window.location.search).get("purchased") === "1";
@@ -117,7 +122,9 @@ export default function Book() {
     setBusy("confirming");
     confirmPendingPurchase((list) => setListItem(list.find((s) => s.storyId === storyId)))
       .then((ok) => {
-        if (ok) toast({ title: "Thank you! Your book is unlocked.", description: pending.downloadOption === "pdf_and_book" ? "Your printed book is on its way." : "Download it below any time." });
+        if (!ok) return;
+        toast({ title: "Thank you! Your book is unlocked.", description: pending.downloadOption === "pdf_and_book" ? "Your printed book is on its way." : "Download it below any time." });
+        showReviewOptIn(pending, orderIdFor(pending), buyerEmail.current);
       })
       .finally(() => {
         setBusy(null);

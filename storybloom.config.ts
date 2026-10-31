@@ -149,6 +149,8 @@ const config = {
   tracking: {
     /** Google Tag Manager container already on the live site. */
     gtmId: "GTM-TL24S7M7",
+    /** Google Merchant Center account, used by the Google Customer Reviews opt-in after checkout. */
+    googleMerchantId: 5893582530,
   },
 };
 

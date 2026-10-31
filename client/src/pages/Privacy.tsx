@@ -71,6 +71,11 @@ export default function Privacy() {
                 illustrations. These services process your story prompts according to their own privacy
                 policies.
               </p>
+              <p className="text-muted-foreground mt-2">
+                After you place an order, Google Customer Reviews may offer to email you a short survey about your purchase.
+                To show this offer, your email address, order number, country and estimated delivery date are given to Google.
+                Google sends the survey only if you choose to take part, and handles it under its own privacy policy.
+              </p>
             </section>
 
             <section>

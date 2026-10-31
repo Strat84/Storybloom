@@ -12,6 +12,8 @@ export interface PendingPurchase {
   storyId: string;
   downloadOption: DownloadOption;
   value?: number;
+  /** Printed books: the shipping method, for the estimated delivery date. */
+  shipping?: PrintOrder["shipping"];
   timestamp: number;
 }
 
@@ -64,7 +66,7 @@ async function startCheckout(
   storyId: string,
   path: "/stripe/story-download-session" | "/stripe/story-download-book",
   body: object,
-  pending: { downloadOption: DownloadOption; value: number },
+  pending: { downloadOption: DownloadOption; value: number; shipping?: PrintOrder["shipping"] },
 ) {
   track("begin_checkout", { value: pending.value, currency: config.pricing.currency, items: [{ item_id: pending.downloadOption }] });
   const referral = currentReferral();
@@ -106,14 +108,19 @@ export function buyPrint(order: PrintOrder) {
         phone: order.address.phone_number,
       },
     },
-    { downloadOption: "pdf_and_book", value: order.totalPrice },
+    { downloadOption: "pdf_and_book", value: order.totalPrice, shipping: order.shipping },
   );
+}
+
+/** A stable id for this purchase. */
+export function orderIdFor(pending: PendingPurchase) {
+  const sessionId = new URLSearchParams(window.location.search).get("session_id");
+  return sessionId ?? `${pending.storyId}:${pending.downloadOption}:${pending.timestamp}`;
 }
 
 /** Fire the purchase event once, with a deterministic id for server-side deduplication. */
 export function trackPurchase(pending: PendingPurchase) {
-  const sessionId = new URLSearchParams(window.location.search).get("session_id");
-  const eventId = sessionId ?? `${pending.storyId}:${pending.downloadOption}:${pending.timestamp}`;
+  const eventId = orderIdFor(pending);
   track("purchase", {
     event_id: eventId,
     transaction_id: eventId,

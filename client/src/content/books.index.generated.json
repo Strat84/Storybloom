@@ -1,1 +1,452 @@
-[]
+[
+ {
+  "slug": "santas-missing-list",
+  "title_pattern": "{name} and Santa's Missing List",
+  "category": "christmas",
+  "age_range": "3-7",
+  "tagline": "One windy week before Christmas, your child follows Santa's runaway list through a snowy town and helps every neighbor along the way.",
+  "meta_title": "Personalized Christmas Book for Kids | StoryBloom",
+  "meta_description": "A personalized Christmas book where your child tracks Santa's lost list through a snowy town, helping neighbors on every page.",
+  "image_alt": "Personalized Christmas book cover featuring an illustrated child chasing Santa's flying list pages down a snowy town street",
+  "h1": "Personalized Christmas Book for Kids: Santa's Missing List",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "elf-for-a-night",
+  "title_pattern": "{name}, Elf for One Night",
+  "category": "christmas",
+  "age_range": "3-7",
+  "tagline": "One sneezy elf, one empty workbench, and one small helper with just the right idea.",
+  "meta_title": "Personalized Elf Book for Kids | StoryBloom",
+  "meta_description": "A personalized elf book for kids: your child fills in at the toy workshop on a snowy night and fixes the one toy no elf could mend.",
+  "image_alt": "Personalized elf book cover featuring an illustrated child in an elf hat holding a music box in a snowy toy workshop",
+  "h1": "Personalized Elf Book for Kids: Your Child Saves a Christmas Toy",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "christmas-eve-star",
+  "title_pattern": "{name} and the Christmas Eve Star",
+  "category": "christmas",
+  "age_range": "3-8",
+  "tagline": "One small star, one big night, and your child is the only one who can carry it home.",
+  "meta_title": "Personalized Christmas Eve Book | StoryBloom",
+  "meta_description": "A personalized Christmas Eve book where your child helps a fallen tree star return to the sky before midnight. Cozy and magical.",
+  "image_alt": "Personalized Christmas Eve book cover featuring an illustrated child holding a glowing gold star on a snowy hilltop",
+  "h1": "Personalized Christmas Eve Book: Your Child Carries the Star Home",
+  "example": {
+   "name": "Amara",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "babys-first-christmas",
+  "title_pattern": "{name}'s First Christmas",
+  "category": "christmas",
+  "age_range": "0-3",
+  "tagline": "Twinkle lights, a little stocking, and the coziest arms of all.",
+  "meta_title": "Personalized Baby's First Christmas Book | StoryBloom",
+  "meta_description": "A personalized baby's first Christmas book: gentle rhymes about lights, stockings, wrapping paper and cuddles, with your child as the hero.",
+  "image_alt": "Personalized baby's first Christmas book cover featuring an illustrated baby holding a gold star in front of a glowing Christmas tree",
+  "h1": "Personalized Baby's First Christmas Book",
+  "example": {
+   "name": "Mateo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "snowman-who-wanted-cocoa",
+  "title_pattern": "{name} and the Snowman Who Wanted Cocoa",
+  "category": "christmas",
+  "age_range": "2-6",
+  "tagline": "A snow day, a curious snowman, and a cozy idea that keeps everyone happy.",
+  "meta_title": "Personalized Snow Day Snowman Book | StoryBloom",
+  "meta_description": "A personalized snow day book where your child shares cocoa with a curious snowman and finds a clever way to keep the snowman frosty.",
+  "image_alt": "Personalized snow day book cover featuring an illustrated child as the hero sharing cocoa with a friendly snowman",
+  "h1": "Personalized Snow Day Book: Your Child and the Snowman Who Wanted Cocoa",
+  "example": {
+   "name": "Hana",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "christmas-with-grandparents",
+  "title_pattern": "{name}'s Christmas at Grandma and Grandpa's",
+  "category": "christmas",
+  "age_range": "3-7",
+  "tagline": "A Christmas visit, a box of old ornaments, and a trail of clues that leads your child to a family tradition.",
+  "meta_title": "Personalized Christmas at Grandma's Book | StoryBloom",
+  "meta_description": "A personalized Christmas book where your grandchild follows ornament clues at Grandma and Grandpa's house to discover a family tradition.",
+  "image_alt": "Personalized Christmas at Grandma and Grandpa's book cover featuring an illustrated child holding an ornament beside a glowing tree with the grandparents",
+  "h1": "Personalized Christmas Book for Your Grandchild: Christmas at Grandma and Grandpa's",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "sleigh-school",
+  "title_pattern": "{name} Goes to Sleigh School",
+  "category": "christmas",
+  "age_range": "4-8",
+  "tagline": "Three young reindeer are scared to fly. Your child has a plan, and it starts with one small hop.",
+  "meta_title": "Personalized Santa Book: Sleigh School | StoryBloom",
+  "meta_description": "A personalized Santa book where your child trains shy young reindeer at the North Pole and learns how patience helps them fly.",
+  "image_alt": "Personalized Santa book cover featuring an illustrated child as the hero riding a small red sleigh pulled by three young reindeer under a starry night sky",
+  "h1": "Personalized Santa Book for Your Child: Sleigh School at the North Pole",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "eight-nights-of-light",
+  "title_pattern": "{name} and the Eight Nights of Light",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "Eight nights, eight small kindnesses, and a whole street that begins to glow.",
+  "meta_title": "Personalized Hanukkah Book for Kids | StoryBloom",
+  "meta_description": "A personalized Hanukkah book where your child does one small kindness each night and watches the light spread down the whole street.",
+  "image_alt": "Personalized Hanukkah book cover featuring an illustrated child as the hero on a snowy step with a glowing menorah in the window",
+  "h1": "Personalized Hanukkah Book: Your Child and the Eight Nights of Light",
+  "example": {
+   "name": "Noa",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "letter-from-grandma",
+  "title_pattern": "Grandma's Letter to {name}",
+  "category": "gifts-from-grandparents",
+  "age_range": "2-8",
+  "tagline": "A letter from Grandma, a backyard full of clues, and a treasure waiting at the end.",
+  "meta_title": "Grandma's Letter Personalized Book | StoryBloom",
+  "meta_description": "A personalized book from Grandma: a letter leads your grandchild on a backyard treasure hunt full of things Grandma treasures about them.",
+  "image_alt": "Personalized gift from grandma book cover featuring an illustrated child holding Grandma's letter in a sunny backyard",
+  "h1": "Personalized Gift from Grandma to Grandchild Book: Grandma's Letter",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "grandpas-little-blue-boat",
+  "title_pattern": "{name} and Grandpa's Little Blue Boat",
+  "category": "gifts-from-grandparents",
+  "age_range": "3-8",
+  "tagline": "A day on the lake with Grandpa, a lost duckling, and a rescue only your child can lead.",
+  "meta_title": "Personalized Grandpa Boat Book | StoryBloom",
+  "meta_description": "A personalized book from grandpa to grandchild: a lake day in a little blue boat, a lost duckling, and your child leading the gentle rescue.",
+  "image_alt": "Personalized grandpa book cover featuring an illustrated child rowing a little blue boat with Grandpa and a duckling on a calm lake",
+  "h1": "Personalized Book from Grandpa to Grandchild: A Day on the Little Blue Boat",
+  "example": {
+   "name": "Theo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "far-away-grandparents",
+  "title_pattern": "Over the Hills to {name}",
+  "category": "gifts-from-grandparents",
+  "age_range": "2-8",
+  "tagline": "A paper bird carries a grandparent's love over hills and cities, and your child sends one flying back.",
+  "meta_title": "Personalized Long Distance Grandparent Book | StoryBloom",
+  "meta_description": "A personalized long distance grandparent book: a paper bird flies over hills and cities from faraway grandparents to your child.",
+  "image_alt": "Personalized long distance grandparent book cover featuring an illustrated child on a hilltop with a red paper bird flying overhead",
+  "h1": "Personalized Long Distance Grandparent Book: Over the Hills to Your Child",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "baking-with-nana",
+  "title_pattern": "{name} Bakes with Nana",
+  "category": "gifts-from-grandparents",
+  "age_range": "3-7",
+  "tagline": "A recipe goes wonderfully wrong in Nana's kitchen, and your child turns the mess into a brand-new family tradition.",
+  "meta_title": "Personalized Nana Baking Book | StoryBloom",
+  "meta_description": "A personalized book from Nana: your child bakes with Nana, rescues a cookie mix-up, and starts a sweet new family tradition.",
+  "image_alt": "Personalized Nana baking book cover featuring an illustrated child and Nana holding a plate of decorated cookies",
+  "h1": "Personalized Nana Gift Book for Your Grandchild: Baking Day with Nana",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "dad-road-trip",
+  "title_pattern": "{name} and Dad's Big Road Trip",
+  "category": "gifts-from-family",
+  "age_range": "3-8",
+  "tagline": "A flat tire, a slow back road, and the day a detour became the adventure.",
+  "meta_title": "Personalized Dad Road Trip Book for Kids | StoryBloom",
+  "meta_description": "A personalized book from Dad to your son or daughter: a mountain road trip, a flat tire, and a detour your child turns into an adventure.",
+  "image_alt": "Personalized dad and child road trip book cover featuring an illustrated child as the hero riding in a teal car toward the mountains",
+  "h1": "Personalized Book from Dad to Son or Daughter: A Big Road Trip Adventure",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "mom-garden",
+  "title_pattern": "{name} and Mom Grow Something Wonderful",
+  "category": "gifts-from-family",
+  "age_range": "2-7",
+  "tagline": "One mystery seed, one stormy week, and a whole lot of love growing in a little clay pot.",
+  "meta_title": "Personalized Book from Mom to Child | StoryBloom",
+  "meta_description": "A personalized book from mom to child: you and your little one plant a mystery seed, wait out a storm, and watch a surprise bloom.",
+  "image_alt": "Personalized book from mom to child cover featuring an illustrated child and Mom beside a tall golden flower in a garden",
+  "h1": "Personalized Book from Mom to Child: Grow Something Wonderful Together",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "aunt-uncle-missions",
+  "title_pattern": "{name}'s Day of Secret Missions",
+  "category": "gifts-from-family",
+  "age_range": "3-8",
+  "tagline": "An ordinary day of errands becomes a top-secret adventure with a favorite aunt or uncle.",
+  "meta_title": "Personalized Book for a Niece or Nephew | StoryBloom",
+  "meta_description": "A personalized book where your child and a fun aunt or uncle turn everyday errands into silly secret missions. A gift from family.",
+  "image_alt": "Personalized niece or nephew book cover featuring an illustrated child and a favorite aunt or uncle as secret agents in a small town",
+  "h1": "Personalized Secret Missions Book: A Gift for Your Niece or Nephew",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "godparent-compass",
+  "title_pattern": "{name} and the Godparent's Compass",
+  "category": "gifts-from-family",
+  "age_range": "2-8",
+  "tagline": "A little compass, a big promise, and a camping trip where your child leads the way home.",
+  "meta_title": "Personalized Godchild Gift Book | StoryBloom",
+  "meta_description": "A personalized godchild gift book: a godparent's compass, a camping trip, and your child leading the way home through the woods.",
+  "image_alt": "Personalized godchild book cover featuring an illustrated child holding a brass compass beside a lake and tent",
+  "h1": "Personalized Godchild Gift Book: The Godparent's Compass",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "turning-one",
+  "title_pattern": "{name} Turns One",
+  "category": "birthday",
+  "age_range": "0-2",
+  "tagline": "A gentle rhyming look at a whole first year, ending with balloons, wobbly steps and cake on the nose.",
+  "meta_title": "Personalized First Birthday Book | StoryBloom",
+  "meta_description": "A personalized first birthday book in soft rhyme: a year of growing, a runaway balloon, first steps and cake on the nose.",
+  "image_alt": "Personalized first birthday book cover featuring an illustrated child holding a red balloon beside a birthday cake with one candle",
+  "h1": "Personalized First Birthday Book for Your Baby",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "turning-three",
+  "title_pattern": "{name} Is Three Today",
+  "category": "birthday",
+  "age_range": "3-4",
+  "tagline": "Three years old, three brand-new skills, and one birthday party that needs a helper.",
+  "meta_title": "Personalized 3rd Birthday Book | StoryBloom",
+  "meta_description": "A personalized 3rd birthday book: your child turns three and uses three new skills to save the backyard birthday party.",
+  "image_alt": "Personalized 3rd birthday book cover featuring an illustrated child holding three balloons beside a birthday cake",
+  "h1": "Personalized 3rd Birthday Book Where Your Child Saves the Party",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "turning-five",
+  "title_pattern": "{name}'s Five-Candle Quest",
+  "category": "birthday",
+  "age_range": "5-6",
+  "tagline": "Five missing candles, five brave moments, one very proud five-year-old.",
+  "meta_title": "Personalized 5th Birthday Book: Candle Quest | StoryBloom",
+  "meta_description": "A personalized 5th birthday book where your child finds five missing cake candles by doing five brave things. Made for turning five.",
+  "image_alt": "Personalized 5th birthday book cover featuring an illustrated child holding five colorful birthday candles in a sunny park",
+  "h1": "Personalized 5th Birthday Book: Your Child's Five-Candle Quest",
+  "example": {
+   "name": "Amara",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "welcome-little-one",
+  "title_pattern": "Hello, {name}",
+  "category": "new-baby",
+  "age_range": "0-2",
+  "tagline": "The moon, the trees and the whole family say hello to your newest little one.",
+  "meta_title": "Personalized New Baby Lullaby Book | StoryBloom",
+  "meta_description": "A personalized new baby book where the moon, the trees and the family each say hello to your little one. A gentle read-aloud keepsake.",
+  "image_alt": "Personalized new baby book cover featuring an illustrated swaddled baby under a glowing moon as the hero",
+  "h1": "Personalized New Baby Book: Hello, Little One",
+  "example": {
+   "name": "Hana",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "big-sibling-first-week",
+  "title_pattern": "{name}'s First Week as a Big {Sister/Brother}",
+  "category": "new-baby",
+  "age_range": "2-6",
+  "tagline": "Seven days, seven new jobs, and one big heart learning to make room.",
+  "meta_title": "Personalized Big Sister Book: First Week | StoryBloom",
+  "meta_description": "A personalized big sister book that follows your child through the first week home with a new baby: a new job and an honest feeling each day.",
+  "image_alt": "Personalized big sister book cover featuring an illustrated child as the hero gently holding a newborn baby in a cozy living room",
+  "h1": "Personalized Big Sister Book: Your Child's First Week Home with the New Baby",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "everyday-superhero",
+  "title_pattern": "{name}, the Everyday Superhero",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "No flying required. Just noticing, listening and helping.",
+  "meta_title": "Personalized Superhero Book: Everyday Hero | StoryBloom",
+  "meta_description": "A personalized superhero book where your child finds a cape and uses noticing, listening and helping to solve a real problem at the park.",
+  "image_alt": "Personalized superhero book cover featuring an illustrated child in a red cape as the hero on a sunny park hill",
+  "h1": "Personalized Superhero Book: Your Child Becomes the Everyday Hero",
+  "example": {
+   "name": "Arjun",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "dinosaur-egg",
+  "title_pattern": "{name} and the Dinosaur Egg",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A warm egg, a tiny dinosaur, and one brave helper who knows the way home.",
+  "meta_title": "Personalized Dinosaur Book for Kids | StoryBloom",
+  "meta_description": "A personalized dinosaur book where your child finds a warm egg, meets a baby dinosaur, and leads it home to a hidden valley.",
+  "image_alt": "Personalized dinosaur book cover featuring an illustrated child holding a baby dinosaur above a green valley",
+  "h1": "Personalized Dinosaur Book for Kids: Your Child and the Dinosaur Egg",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "tide-pool-mermaid",
+  "title_pattern": "{name} and the Tide Pool Mermaid",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A tiny mermaid, a shrinking tide pool, and one brave helper racing the tide.",
+  "meta_title": "Personalized Mermaid Book: Tide Pool Rescue | StoryBloom",
+  "meta_description": "A personalized mermaid book where your child helps a tiny mermaid get home before high tide and learns about tide pools along the way.",
+  "image_alt": "Personalized mermaid book cover featuring an illustrated child kneeling by a tide pool with a tiny mermaid",
+  "h1": "Personalized Mermaid Book: Your Child Rescues a Tiny Mermaid Before the Tide Comes In",
+  "example": {
+   "name": "Theo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "broken-bridge-princess",
+  "title_pattern": "{Princess/Prince} {name} and the Broken Bridge",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A toolbox, a broken bridge, and one kind question that changes everything.",
+  "meta_title": "Personalized Princess Book: The Broken Bridge | StoryBloom",
+  "meta_description": "A personalized princess or prince book where your child grabs a toolbox, fixes a broken bridge and wins over a grumpy troll.",
+  "image_alt": "Personalized princess book cover featuring an illustrated child with a toolbox on a repaired bridge beside a friendly troll",
+  "h1": "Personalized Princess Book: Your Child Fixes the Broken Bridge",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "paper-map-pirate",
+  "title_pattern": "Captain {name} and the Paper Map",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A rainy afternoon, a cardboard ship, and a paper map that leads to a treasure meant for everyone.",
+  "meta_title": "Personalized Pirate Book for Kids | StoryBloom",
+  "meta_description": "A personalized pirate book for kids: your child captains a cardboard ship on a rainy day and follows a paper map to a treasure worth sharing.",
+  "image_alt": "Personalized pirate book cover featuring an illustrated child as captain of a cardboard ship sailing a living room sea",
+  "h1": "Personalized Pirate Book for Kids: Captain of the Cardboard Ship",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "big-yellow-digger",
+  "title_pattern": "{name} and the Big Yellow Digger",
+  "category": "adventures",
+  "age_range": "2-6",
+  "tagline": "Beep, beep! The digger is stuck, and your child knows just what to do.",
+  "meta_title": "Big Yellow Digger Personalized Book | StoryBloom",
+  "meta_description": "A personalized construction truck book where your child helps a crew free a stuck digger, with beeps, rumbles and scoops to read aloud.",
+  "image_alt": "Personalized construction truck book cover featuring an illustrated child in a yellow hard hat beside a big yellow digger",
+  "h1": "Personalized Construction Truck Book: Your Child and the Big Yellow Digger",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "unicorn-sparkle",
+  "title_pattern": "{name} and the Unicorn Who Lost Her Sparkle",
+  "category": "adventures",
+  "age_range": "3-7",
+  "tagline": "A little unicorn has lost her sparkle, and your child helps her find where it really comes from.",
+  "meta_title": "Personalized Unicorn Book for Kids | StoryBloom",
+  "meta_description": "A personalized unicorn book where your child helps a little unicorn find her lost sparkle and discovers that kindness makes us shine.",
+  "image_alt": "Personalized unicorn book cover featuring an illustrated child as the hero beside a glowing unicorn in a pastel meadow",
+  "h1": "Personalized Unicorn Book: The Unicorn Who Lost Her Sparkle",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "goodnight-sleepy-town",
+  "title_pattern": "Goodnight, {name}",
+  "category": "bedtime",
+  "age_range": "1-5",
+  "tagline": "The moon tucks in the whole town, one window at a time, and saves the coziest window for last.",
+  "meta_title": "Personalized Bedtime Book for Toddlers | StoryBloom",
+  "meta_description": "A personalized bedtime book for toddlers: the moon tucks in a sleepy town, one window at a time, until it reaches your child's window.",
+  "image_alt": "Personalized bedtime book cover featuring an illustrated child in pajamas at a window under a glowing moon",
+  "h1": "Personalized Bedtime Book for Toddlers: Goodnight, Starring Your Child",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "remembering-a-pet",
+  "title_pattern": "Remembering {name}'s Friend",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "tagline": "Plain, gentle words about a pet who died, and a memory box made with love.",
+  "meta_title": "Personalized Book About a Pet Dying | StoryBloom",
+  "meta_description": "A personalized picture book that uses plain, gentle words to help your child understand a pet's death and make a memory box together.",
+  "image_alt": "Personalized pet loss book cover featuring an illustrated child holding a painted memory box in a sunny garden",
+  "h1": "Personalized Book About the Death of a Pet for Kids",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ }
+]

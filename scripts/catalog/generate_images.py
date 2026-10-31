@@ -24,7 +24,7 @@ import time
 import urllib.error
 import urllib.request
 
-from PIL import Image
+from PIL import Image, ImageStat
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from validate import BOOKS, ROOT, render  # noqa: E402
@@ -44,7 +44,8 @@ WORDLESS = ("This is a wordless picture-book illustration. There is no writing a
             "labels, signs, banners, book covers with words, speech bubbles or page numbers. Any letter, sign or note in the scene is shown "
             "blank or seen from behind.")
 SAME_COLORS = "Keep the exact colors described for hair, fur, skin, eyes and clothing. The art style changes how things are drawn, never their colors."
-FULL_BLEED = "Fill the whole frame edge to edge with the scene; no borders, frames or empty margins."
+FULL_BLEED = ("Fill the whole frame edge to edge with the scene. The painted background runs off all four sides of the picture. "
+              "No borders, picture frames, outlines around the image, white margins, vignettes or empty background.")
 
 XMP = (b'<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF '
        b'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" '
@@ -85,6 +86,18 @@ def draw(key, parts):
             last = type(e).__name__
         time.sleep(8 * (attempt + 1))
     raise RuntimeError(f"image failed: {last}")
+
+
+def has_border(data):
+    """A plain white or black band along any edge: the art should run edge to edge."""
+    im = Image.open(io.BytesIO(data)).convert("L")
+    w, h = im.size
+    b = max(4, w // 80)
+    for box in ((0, 0, w, b), (0, h - b, w, h), (0, 0, b, h), (w - b, 0, w, h)):
+        st = ImageStat.Stat(im.crop(box))
+        if st.stddev[0] < 9 and (st.mean[0] > 235 or st.mean[0] < 25):
+            return True
+    return False
 
 
 def ref_part(img):
@@ -128,9 +141,18 @@ def make(key, b):
         SAME_COLORS, WORDLESS])}])
     refs = [{"text": f"Reference picture of {name}. Draw {name} looking exactly like this."}, ref_part(sheet)]
 
+    drawn = [1]  # the character sheet
+
     def scene(text, framing):
-        return draw(key, refs + [{"text": "\n\n".join([STYLE, f"Scene: {names(text)}", f"Setting and palette: {b['illustration_guide']}",
-                                                     f"{who}. {SAME_COLORS}", framing, FULL_BLEED])}])
+        parts = refs + [{"text": "\n\n".join([STYLE, f"Scene: {names(text)}", f"Setting and palette: {b['illustration_guide']}",
+                                              f"{who}. {SAME_COLORS}", framing, FULL_BLEED])}]
+        art = None
+        for _ in range(3):
+            art = draw(key, parts)
+            drawn[0] += 1
+            if not has_border(art):
+                return art
+        raise RuntimeError(f"{b['slug']}: art still has a border after 3 tries")
 
     cover = scene(b["cover_scene"], "This is the front cover of a children's picture book. Keep the top third of the picture calm and uncluttered "
                                     "(sky, wall or soft background, no faces), because the title will be printed there later. " + WORDLESS)
@@ -144,7 +166,7 @@ def make(key, b):
         page = Image.open(io.BytesIO(scene(s["scene"], "This is an inside page of a children's picture book. " + WORDLESS))).convert("RGB")
         page.thumbnail((750, 1000))
         page.save(d / f"page-{i}.webp", "WEBP", quality=78, xmp=XMP)
-    return 4 * COST_PER_IMAGE
+    return drawn[0] * COST_PER_IMAGE
 
 
 def main():

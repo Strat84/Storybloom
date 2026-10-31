@@ -285,6 +285,21 @@
   }
  },
  {
+  "slug": "turning-ten",
+  "title_pattern": "{name} and the Double-Digit Door",
+  "category": "birthday",
+  "age_range": "8-10",
+  "tagline": "On the morning your child turns ten, a door appears, and only ten years of living can open it.",
+  "meta_title": "Personalized 10th Birthday Book | StoryBloom",
+  "meta_description": "A personalized 10th birthday book where your child opens a magical door and solves a puzzle built from ten years of growing up.",
+  "image_alt": "Personalized 10th birthday book cover featuring an illustrated child holding a brass key at a glowing magical door with a clockwork owl",
+  "h1": "Personalized 10th Birthday Gift Book: The Double-Digit Door",
+  "example": {
+   "name": "Mateo",
+   "pronouns": "he"
+  }
+ },
+ {
   "slug": "welcome-little-one",
   "title_pattern": "Hello, {name}",
   "category": "new-baby",
@@ -312,6 +327,21 @@
   "example": {
    "name": "Elijah",
    "pronouns": "he"
+  }
+ },
+ {
+  "slug": "twins-arrive",
+  "title_pattern": "{name} and the Two New Babies",
+  "category": "new-baby",
+  "age_range": "2-6",
+  "tagline": "Two new babies, twice the socks, and one big sibling who knows them best.",
+  "meta_title": "Personalized New Twins Big Sibling Book | StoryBloom",
+  "meta_description": "A personalized big sister or brother book for families welcoming twins. Your child learns to tell two new babies apart and earns a special title.",
+  "image_alt": "Personalized new twins book cover featuring an illustrated child as the hero with two baby siblings",
+  "h1": "Personalized New Twins Book for a Big Sister or Brother",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
   }
  },
  {
@@ -375,6 +405,21 @@
   }
  },
  {
+  "slug": "sniffly-dragon",
+  "title_pattern": "{Dame/Sir} {name} and the Sniffly Dragon",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A young knight rides out to chase off a dragon and finds out it just needs a tissue, some soup, and a whole village of helpers.",
+  "meta_title": "Personalized Knight and Dragon Book | StoryBloom",
+  "meta_description": "A personalized knight and dragon book: your child rides out to face a dragon, finds it has a cold, and rallies the whole village to help.",
+  "image_alt": "Personalized knight and dragon book cover featuring an illustrated child as a young knight offering a giant handkerchief to a friendly sneezing dragon",
+  "h1": "Personalized Knight and Dragon Book: Your Child and the Sniffly Dragon",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
   "slug": "paper-map-pirate",
   "title_pattern": "Captain {name} and the Paper Map",
   "category": "adventures",
@@ -405,6 +450,51 @@
   }
  },
  {
+  "slug": "midnight-train",
+  "title_pattern": "Conductor {name} and the Midnight Train",
+  "category": "adventures",
+  "age_range": "2-7",
+  "tagline": "All aboard the night train, where your child is the conductor who gets every sleepy animal home to bed.",
+  "meta_title": "Personalized Train Book for Kids | StoryBloom",
+  "meta_description": "A personalized train book for kids: your child drives a night train, helping sleepy animals home to bed. A cozy bedtime adventure.",
+  "image_alt": "Personalized train book cover featuring an illustrated child as a conductor on a red night train with sleepy animal passengers under a crescent moon",
+  "h1": "Personalized Train Book for Kids: Conductor Your Child and the Midnight Train",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "little-red-racer",
+  "title_pattern": "{name} and the Little Red Racer",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A tiny car, a big race, and a pit crew chief who knows how to keep going.",
+  "meta_title": "Personalized Race Car Book for Kids | StoryBloom",
+  "meta_description": "A personalized race car book where your child leads a little red car's pit crew and learns why finishing the race matters. Ages 3-8.",
+  "image_alt": "Personalized race car book cover featuring an illustrated child as pit crew chief beside a little red race car on a sunny racetrack",
+  "h1": "Personalized Race Car Book: Your Child Leads the Pit Crew for Little Red Racer",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "lost-moon-rover",
+  "title_pattern": "Commander {name} and the Lost Moon Rover",
+  "category": "adventures",
+  "age_range": "4-9",
+  "tagline": "A countdown, a crater, and a little rover waiting for help.",
+  "meta_title": "Personalized Astronaut Book: Lost Moon Rover | StoryBloom",
+  "meta_description": "A personalized astronaut book where your child flies to the moon and rescues a lost rover, with real moon and star facts along the way.",
+  "image_alt": "Personalized astronaut book cover featuring an illustrated child in a spacesuit on the moon beside a small rover",
+  "h1": "Personalized Astronaut Book: Commander Your Child and the Lost Moon Rover",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
   "slug": "unicorn-sparkle",
   "title_pattern": "{name} and the Unicorn Who Lost Her Sparkle",
   "category": "adventures",
@@ -417,6 +507,411 @@
   "example": {
    "name": "Leo",
    "pronouns": "he"
+  }
+ },
+ {
+  "slug": "fairies-under-the-porch",
+  "title_pattern": "{name} and the Fairies Under the Porch",
+  "category": "adventures",
+  "age_range": "3-7",
+  "tagline": "A tiny village, a coming storm, and one helper just the right size to save it.",
+  "meta_title": "Personalized Fairy Book for Kids | StoryBloom",
+  "meta_description": "A personalized fairy book where your child finds a tiny village under the porch steps and helps the fairies stay safe from a coming storm.",
+  "image_alt": "Personalized fairy book cover featuring an illustrated child peeking into a tiny glowing fairy village under the porch steps",
+  "h1": "Personalized Fairy Book: Your Child Saves the Village Under the Porch",
+  "example": {
+   "name": "Amara",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "jungle-rescue",
+  "title_pattern": "{name}'s Jungle Rescue",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A lost baby elephant, a jungle full of new friends, and one brave helper who finds the way home.",
+  "meta_title": "Personalized Jungle Animals Book | StoryBloom",
+  "meta_description": "A personalized jungle animals book where your child helps a lost baby elephant find its herd, meeting hornbills, gibbons and otters on the way.",
+  "image_alt": "Personalized jungle animals book cover featuring an illustrated child as the hero beside a baby elephant in a sunlit rainforest",
+  "h1": "Personalized Jungle Animals Book: Your Child Leads a Baby Elephant Home",
+  "example": {
+   "name": "Mateo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "morning-on-the-farm",
+  "title_pattern": "{name}'s Morning on the Farm",
+  "category": "adventures",
+  "age_range": "2-5",
+  "tagline": "The rooster overslept, so your child gets the whole farm going.",
+  "meta_title": "Personalized Farm Animals Book for Kids | StoryBloom",
+  "meta_description": "A personalized farm animals book for ages 2-5. Your child helps the hens, cow, piglets, sheep and ducks when the rooster oversleeps.",
+  "image_alt": "Personalized farm animals book cover featuring an illustrated child as the hero with a rooster, cow, hen, piglet, sheep and duck",
+  "h1": "Personalized Farm Animals Book: Your Child Saves the Morning When the Rooster Oversleeps",
+  "example": {
+   "name": "Hana",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "runaway-puppy",
+  "title_pattern": "{name} and the Puppy Who Ran Away",
+  "category": "animals",
+  "age_range": "3-8",
+  "tagline": "A runaway puppy, a quiet neighborhood search, and a child who learns what a scared friend really needs.",
+  "meta_title": "Personalized Dog Book for Kids | StoryBloom",
+  "meta_description": "A personalized dog book for kids: your child follows a runaway puppy through the neighborhood and learns what a new pet needs to feel safe.",
+  "image_alt": "Personalized dog book cover featuring an illustrated child as the hero holding a fluffy puppy in a starry blanket on a neighborhood sidewalk",
+  "h1": "Personalized Dog Book for Kids: Your Child and the Puppy Who Ran Away",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "kitten-on-the-roof",
+  "title_pattern": "{name} and the Kitten on the Roof",
+  "category": "animals",
+  "age_range": "3-7",
+  "tagline": "A scared kitten, a quiet yard, and a child who learns that waiting can work wonders.",
+  "meta_title": "Personalized Cat Book for Kids | StoryBloom",
+  "meta_description": "A personalized cat book where your child helps a scared kitten off a roof by staying calm, quiet and patient. A gentle story for ages 3-7.",
+  "image_alt": "Personalized cat book cover featuring an illustrated child looking up at an orange kitten on a garden shed roof",
+  "h1": "Personalized Cat Book for Kids: Your Child and the Kitten on the Roof",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "clover-the-pony",
+  "title_pattern": "{name} and Clover the Pony",
+  "category": "animals",
+  "age_range": "4-9",
+  "tagline": "A shy pony, a patient friend, and a trust that grows one quiet morning at a time.",
+  "meta_title": "Personalized Horse Book for Kids | StoryBloom",
+  "meta_description": "A personalized horse book where your child earns the trust of a shy pony named Clover, one carrot and one quiet morning at a time.",
+  "image_alt": "Personalized horse book cover featuring an illustrated child at a paddock fence with a shy dapple-gray pony at sunrise",
+  "h1": "Personalized Horse Book for Kids: Your Child Earns the Trust of a Shy Pony",
+  "example": {
+   "name": "Arjun",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "soccer-team-goal",
+  "title_pattern": "{name} Scores for the Team",
+  "category": "adventures",
+  "age_range": "4-9",
+  "tagline": "The big game is today, the star is home sick, and your child finds out what teamwork really looks like.",
+  "meta_title": "Personalized Soccer Book for Kids | StoryBloom",
+  "meta_description": "A personalized soccer book where your child steps up when the team star is sick and discovers the winning play is a pass.",
+  "image_alt": "Personalized soccer book cover featuring an illustrated child as the hero kicking a ball on a sunny field",
+  "h1": "Personalized Soccer Book: Your Child Scores for the Team",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "basketball-last-shot",
+  "title_pattern": "{name} and the Last Shot",
+  "category": "adventures",
+  "age_range": "5-9",
+  "tagline": "One missed shot, one patient neighbor, and the courage to step up again.",
+  "meta_title": "Personalized Basketball Book for Kids | StoryBloom",
+  "meta_description": "A personalized basketball book where your child misses a big shot, practices with a kind neighbor and finds the courage to try again.",
+  "image_alt": "Personalized basketball book cover featuring an illustrated child as the hero leaping toward a driveway hoop at sunset",
+  "h1": "Personalized Basketball Book: Your Child and the Last Shot",
+  "example": {
+   "name": "Theo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "dance-recital",
+  "title_pattern": "{name} Takes the Stage",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "Butterflies in the tummy, a broken wing backstage, and a brave little dancer who steps into the light anyway.",
+  "meta_title": "Personalized Dance Recital Book for Kids | StoryBloom",
+  "meta_description": "A personalized dance book where your child faces recital nerves and a broken costume, then steps onstage anyway. For ages 3 to 8.",
+  "image_alt": "Personalized dance book cover featuring an illustrated child as a firefly dancer twirling on stage with golden wings",
+  "h1": "Personalized Dance Book: Your Child Takes the Stage at the Big Recital",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "backyard-home-run",
+  "title_pattern": "{name} and the Backyard Home Run",
+  "category": "adventures",
+  "age_range": "4-9",
+  "tagline": "Personalized baseball adventures for your little slugger!",
+  "meta_title": "Personalized Baseball Book for Kids | StoryBloom",
+  "meta_description": "Your child is the hero of this personalized baseball book! Discover a story of backyard adventures, responsibility, and new friendships.",
+  "image_alt": "Personalized baseball book cover featuring an illustrated child as the hero, holding a baseball bat in a backyard.",
+  "h1": "Personalized Baseball Book: Your Child's Home Run Adventure",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "balance-beam",
+  "title_pattern": "{name} on the Balance Beam",
+  "category": "adventures",
+  "age_range": "4-9",
+  "tagline": "Wobble, fall, and find your balance again!",
+  "meta_title": "Personalized Gymnastics Book | StoryBloom",
+  "meta_description": "Inspire your child with a personalized gymnastics book where your child is the star learning that every fall is part of practice.",
+  "image_alt": "Personalized gymnastics book cover featuring an illustrated child hero balancing on a balance beam with a confident smile.",
+  "h1": "Personalized Gymnastics Book: Your Child on the Balance Beam",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "earns-a-belt",
+  "title_pattern": "{name} Earns a Belt",
+  "category": "adventures",
+  "age_range": "4-9",
+  "tagline": "Your child's first karate belt is a story of focus and respect.",
+  "meta_title": "Personalized Karate Book for Kids | StoryBloom",
+  "meta_description": "Celebrate your child's first karate belt test with this personalized story. Your child is the hero who learns about focus and respect.",
+  "image_alt": "Personalized karate book cover featuring an illustrated child proudly holding a yellow belt with a dojo background.",
+  "h1": "Personalized Karate Book: Your Child Earns a Belt",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "song-nobody-knew",
+  "title_pattern": "{name} and the Song Nobody Knew",
+  "category": "adventures",
+  "age_range": "4-9",
+  "tagline": "Your child turns a rainy day tune into a neighborhood song.",
+  "meta_title": "Personalized Music Book for Kids | StoryBloom",
+  "meta_description": "Spark your child's creativity with this personalized music book! Your child hears a melody in the rain and brings a quiet street together with a new song.",
+  "image_alt": "Personalized music book cover featuring an illustrated child as the hero holding a homemade instrument on a sunny street.",
+  "h1": "Personalized Music Book for Kids: Your Child's Song",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "paints-the-town",
+  "title_pattern": "{name} Paints the Town",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "Celebrate creativity and community with a personalized art adventure.",
+  "meta_title": "Personalized Art Book for Kids | StoryBloom",
+  "meta_description": "Your child is the hero in this personalized art book, transforming a gray wall into a colorful community mural with friends.",
+  "image_alt": "Personalized art book cover featuring an illustrated child as the hero, holding a paintbrush in front of a colorful mural.",
+  "h1": "Personalized Art Book: Your Child Paints the Town",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "messy-kitchen-chef",
+  "title_pattern": "Chef {name}'s Very Messy Kitchen",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "One big pot, one bubbly mess, and a soup made with love for a friend who needs it.",
+  "meta_title": "Personalized Cooking Book for Kids | StoryBloom",
+  "meta_description": "A personalized cooking book for kids: your child cooks get-well soup for a sick friend, handles a bubbling-over pot and tastes as they go.",
+  "image_alt": "Personalized cooking book cover featuring an illustrated child as a chef stirring a big bubbling soup pot in a sunny kitchen",
+  "h1": "Personalized Cooking Book for Kids: Chef's Very Messy Kitchen",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "almost-working-machine",
+  "title_pattern": "{name} and the Almost-Working Machine",
+  "category": "adventures",
+  "age_range": "5-9",
+  "tagline": "Five tries, five clues, and one very determined inventor.",
+  "meta_title": "Personalized Science Book for Kids | StoryBloom",
+  "meta_description": "A personalized science book for kids: your child builds a plant-watering machine, fails five times, and learns from every try.",
+  "image_alt": "Personalized science book cover featuring an illustrated child as the hero beside a homemade cardboard watering machine and a sunflower",
+  "h1": "Personalized Science Book for Kids: The Almost-Working Machine",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "camps-under-the-stars",
+  "title_pattern": "{name} Camps Under the Stars",
+  "category": "adventures",
+  "age_range": "3-8",
+  "tagline": "A first night in a tent, a sky full of stars, and one mystery rustle to solve.",
+  "meta_title": "Personalized Camping Book for Kids | StoryBloom",
+  "meta_description": "A personalized camping book: your child's first night in a tent, a crackling fire, bright stars and a mystery rustle to solve.",
+  "image_alt": "Personalized camping book cover featuring an illustrated child as the hero sitting at a tent door under a starry night sky",
+  "h1": "Personalized Camping Book: Your Child's First Night Under the Stars",
+  "example": {
+   "name": "Amara",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "first-day-of-school",
+  "title_pattern": "{name}'s First Day of School",
+  "category": "milestones",
+  "age_range": "4-6",
+  "tagline": "Backpack nerves, a missing lunchbox, and the brave little choice that turns a scary day into a happy one.",
+  "meta_title": "Personalized First Day of School Book | StoryBloom",
+  "meta_description": "A personalized first day of school book where your child calms backpack nerves, finds a lost lunchbox, and makes a new friend.",
+  "image_alt": "Personalized first day of school book cover featuring an illustrated child with a red backpack in front of a school",
+  "h1": "Personalized First Day of School Book Starring Your Child",
+  "example": {
+   "name": "Mateo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "goes-to-preschool",
+  "title_pattern": "{name} Goes to Preschool",
+  "category": "milestones",
+  "age_range": "2-4",
+  "tagline": "A gentle first goodbye, a brave little wave, and a grown-up who always comes back.",
+  "meta_title": "Personalized Starting Preschool Book | StoryBloom",
+  "meta_description": "A personalized starting preschool book for ages 2-4. Your child braves a first drop-off and learns that grown-ups always come back.",
+  "image_alt": "Personalized starting preschool book cover featuring an illustrated child with a backpack waving in front of a cozy preschool",
+  "h1": "Personalized Starting Preschool Book: Your Child's Brave First Drop-Off",
+  "example": {
+   "name": "Hana",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "kindergarten-graduation",
+  "title_pattern": "{name} Graduates",
+  "category": "milestones",
+  "age_range": "5-6",
+  "tagline": "Celebrate a year of learning and growing, personalized just for your child.",
+  "meta_title": "Personalized Kindergarten Graduation Book | StoryBloom",
+  "meta_description": "Celebrate your child's kindergarten graduation with a personalized storybook where your child is the hero of their own accomplishment. A unique gift!",
+  "image_alt": "Personalized kindergarten graduation book cover featuring an illustrated child wearing a graduation cap, holding a diploma, with a colorful schoolhouse in the background.",
+  "h1": "Personalized Kindergarten Graduation Book: My Graduation Day",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "wiggly-tooth",
+  "title_pattern": "{name} and the Wiggly Tooth",
+  "category": "milestones",
+  "age_range": "4-7",
+  "tagline": "One wiggly tooth, one very long week, and one big search before bedtime.",
+  "meta_title": "Personalized Losing First Tooth Book | StoryBloom",
+  "meta_description": "A personalized first tooth book: your child wiggles a loose tooth all week, then hunts for it before the Tooth Fairy visits.",
+  "image_alt": "Personalized losing first tooth book cover featuring an illustrated child holding a keepsake box and showing a wiggly tooth at bedtime",
+  "h1": "Personalized Losing First Tooth Book: Your Child and the Wiggly Tooth",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "rides-a-bike",
+  "title_pattern": "{name} Rides Without Training Wheels",
+  "category": "milestones",
+  "age_range": "4-7",
+  "tagline": "A wobbly start, a scraped knee, and the moment your child rides on two wheels.",
+  "meta_title": "Learning to Ride a Bike Book, Personalized | StoryBloom",
+  "meta_description": "A personalized learning to ride a bike book where your child wobbles, falls, makes a plan and rides off on two wheels.",
+  "image_alt": "Personalized learning to ride a bike book cover featuring an illustrated child riding a teal bike without training wheels in a sunny park",
+  "h1": "Personalized Learning to Ride a Bike Book: Your Child Rides Without Training Wheels",
+  "example": {
+   "name": "Arjun",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "first-haircut",
+  "title_pattern": "{name}'s First Haircut",
+  "category": "milestones",
+  "age_range": "1-4",
+  "tagline": "A gentle, encouraging story for your child's first haircut.",
+  "meta_title": "Personalized First Haircut Book | StoryBloom",
+  "meta_description": "Make your child's first haircut a brave adventure with this personalized story where your child is the hero.",
+  "image_alt": "Personalized first haircut book cover featuring an illustrated child sitting in a salon chair with a stuffed animal, ready for a trim.",
+  "h1": "Personalized First Haircut Book for Your Toddler",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "new-house",
+  "title_pattern": "{name}'s New House",
+  "category": "milestones",
+  "age_range": "3-7",
+  "tagline": "A goodbye, a new door, and the first little thing that makes it home.",
+  "meta_title": "Personalized Moving to a New Home Book | StoryBloom",
+  "meta_description": "A personalized moving book where your child says goodbye to the old house and finds the first thing that makes the new one feel like home.",
+  "image_alt": "Personalized moving to a new home book cover featuring an illustrated child as the hero on the front step of a new house",
+  "h1": "Personalized Moving to a New Home Book for Kids",
+  "example": {
+   "name": "Theo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "big-kid-bed",
+  "title_pattern": "{name}'s Big Kid Bed",
+  "category": "milestones",
+  "age_range": "2-4",
+  "tagline": "Out of bed, back to bed, and a cozy reason to stay.",
+  "meta_title": "Personalized Big Kid Bed Book for Toddlers | StoryBloom",
+  "meta_description": "A personalized big kid bed book for toddlers: your child climbs out, gets walked back, and finds a cozy way to stay all night.",
+  "image_alt": "Personalized big kid bed book cover featuring an illustrated child hugging a plush bear in a cozy new bed",
+  "h1": "Personalized Big Kid Bed Book for Toddlers",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "potty-hero",
+  "title_pattern": "{name} the Potty Hero",
+  "category": "life-lessons",
+  "age_range": "2-3",
+  "tagline": "Sit, try, oops, try again: a gentle potty story starring your child.",
+  "meta_title": "Personalized Potty Training Book | StoryBloom",
+  "meta_description": "A personalized potty training book for ages 2-3 where your child tries, has an oops, tries again and earns a star on the chart.",
+  "image_alt": "Personalized potty training book cover featuring an illustrated toddler as the hero beside a small green potty holding a teddy bear and a star sticker",
+  "h1": "Personalized Potty Training Book Starring Your Child",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "bye-bye-binky",
+  "title_pattern": "{name} Says Bye-Bye Binky",
+  "category": "life-lessons",
+  "age_range": "2-3",
+  "tagline": "A gentle story of generosity to help your child say bye-bye to their pacifier.",
+  "meta_title": "Personalized Pacifier Book for Kids | StoryBloom",
+  "meta_description": "Help your child say bye-bye to their binky with this personalized story where your child is the hero who shares their pacifier with new babies.",
+  "image_alt": "Personalized giving up the pacifier book cover featuring an illustrated child smiling and waving goodbye to a pacifier in a gift box.",
+  "h1": "Personalized Giving Up the Pacifier Book",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
   }
  },
  {
@@ -435,6 +930,666 @@
   }
  },
  {
+  "slug": "friendly-dark",
+  "title_pattern": "{name} and the Friendly Dark",
+  "category": "bedtime",
+  "age_range": "3-6",
+  "tagline": "Every creak, tap and whoosh has a kind little secret, and your child is the one who finds it.",
+  "meta_title": "Personalized Afraid of the Dark Book | StoryBloom",
+  "meta_description": "A personalized bedtime book where your child explores night noises with a flashlight and finds a kind, cozy reason for each one.",
+  "image_alt": "Personalized afraid of the dark book cover featuring an illustrated child holding a flashlight in a moonlit bedroom",
+  "h1": "Personalized Book About Being Afraid of the Dark: Your Child Meets the Friendly Dark",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "kindness-ripple",
+  "title_pattern": "{name} and the Kindness Ripple",
+  "category": "life-lessons",
+  "age_range": "3-8",
+  "tagline": "One red mitten, one small kindness, and a ripple that travels all the way around town and back.",
+  "meta_title": "Personalized Kindness Book for Kids | StoryBloom",
+  "meta_description": "A personalized book about kindness where your child shares a red mitten at the bus stop and watches the good deed ripple around town and back.",
+  "image_alt": "Personalized kindness book cover featuring an illustrated child at a bus stop sharing a red mitten as a golden ripple spreads across town",
+  "h1": "Personalized Book About Kindness: Your Child and the Kindness Ripple",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "one-red-wagon",
+  "title_pattern": "{name} and the One Red Wagon",
+  "category": "life-lessons",
+  "age_range": "2-5",
+  "tagline": "A little red wagon, big adventures, and the joy of sharing.",
+  "meta_title": "Personalized Sharing Book for Toddlers | StoryBloom",
+  "meta_description": "Teach your child the joy of sharing with this personalized picture book. Your child is the hero of a sweet story about a red wagon.",
+  "image_alt": "Personalized sharing book cover featuring an illustrated child as the hero pulling a red wagon with a friend.",
+  "h1": "Personalized Book About Sharing with Your Child as the Hero",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "brave-today",
+  "title_pattern": "{name} Is Brave Today",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "tagline": "Three small moments, one big discovery: brave means doing it even while you feel scared.",
+  "meta_title": "Personalized Bravery Book for Kids | StoryBloom",
+  "meta_description": "A personalized bravery book for ages 3-7: your child climbs a tall slide, says hello and walks a dark hallway, scared and brave at once.",
+  "image_alt": "Personalized bravery book cover featuring an illustrated child as the hero at the top of a tall red slide holding a toy bunny",
+  "h1": "Personalized Bravery Book for Kids: Brave Today",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "confidence-can",
+  "title_pattern": "{name} Can",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "tagline": "A hard day, a list of everything your child can do, and a friend who needs exactly that.",
+  "meta_title": "Personalized Confidence Book for Kids | StoryBloom",
+  "meta_description": "A personalized confidence book where your child turns a hard day into a list of things they can do, then uses one to help a friend.",
+  "image_alt": "Personalized confidence book cover featuring an illustrated child as the hero beside a block bridge with a toy train",
+  "h1": "Personalized Confidence Book for Kids: Your Child Can",
+  "example": {
+   "name": "Amara",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "big-mad-storm",
+  "title_pattern": "{name} and the Big Mad Storm",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "tagline": "When a big mad storm rumbles in, your child learns to breathe, find words, and wait for the sky to clear.",
+  "meta_title": "Personalized Big Feelings Anger Book | StoryBloom",
+  "meta_description": "A personalized picture book about anger for ages 3-7. Your child calms a big mad storm with slow breaths, honest words and waiting.",
+  "image_alt": "Personalized book about anger cover featuring an illustrated child as the hero beside a block tower and a puppy under a clearing stormy sky",
+  "h1": "Personalized Book About Big Feelings and Anger for Kids",
+  "example": {
+   "name": "Mateo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "worry-backpack",
+  "title_pattern": "{name}'s Worry Backpack",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "tagline": "Every worry feels lighter once it is shared.",
+  "meta_title": "Personalized Worry Book for Kids | StoryBloom",
+  "meta_description": "A personalized picture book where your child carries a backpack of worries and learns that sharing them makes the load lighter. Ages 4-8.",
+  "image_alt": "Personalized worry book cover featuring an illustrated child as the hero with a yellow backpack and green leaves floating up",
+  "h1": "Personalized Worry Book for Kids: Your Child's Worry Backpack",
+  "example": {
+   "name": "Hana",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "spills-the-paint",
+  "title_pattern": "{name} Spills the Paint",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "tagline": "A little mistake can lead to a big, beautiful discovery!",
+  "meta_title": "Personalized Book on Mistakes & Creativity | StoryBloom",
+  "meta_description": "Turn a 'whoops!' into a 'wow!' in this personalized story about making mistakes and finding creative solutions. Your child is the hero!",
+  "image_alt": "Personalized book about making mistakes for kids cover featuring an illustrated child as the hero proudly displaying a colorful, abstract painting.",
+  "h1": "Personalized Book About Making Mistakes for Kids",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "tries-a-bite",
+  "title_pattern": "{name} Tries a Bite",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "tagline": "A gentle story encouraging your little one to take a brave bite of something new.",
+  "meta_title": "Personalized Picky Eater Book for Kids | StoryBloom",
+  "meta_description": "Encourage your child to try new foods with this personalized book where your child is the brave hero who takes one tiny bite. Fun and gentle.",
+  "image_alt": "Personalized picky eater book cover featuring an illustrated child holding a strawberry at a vibrant farmer's market with their grandparent.",
+  "h1": "Personalized Picky Eater Book for Your Child",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "broken-blue-vase",
+  "title_pattern": "{name} and the Broken Blue Vase",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "tagline": "A gentle story about the brave choice to tell the truth.",
+  "meta_title": "Personalized Book About Honesty | StoryBloom",
+  "meta_description": "Help your child learn the value of truth with this personalized story about honesty. Your child is the hero!",
+  "image_alt": "Personalized honesty book cover featuring an illustrated child holding a blue vase.",
+  "h1": "Personalized Honesty Book for Kids",
+  "example": {
+   "name": "Arjun",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "makes-a-friend",
+  "title_pattern": "{name} Makes a Friend",
+  "category": "life-lessons",
+  "age_range": "3-7",
+  "tagline": "A playground, a quiet new kid, and one brave hello.",
+  "meta_title": "Personalized Friendship Book for Kids | StoryBloom",
+  "meta_description": "A personalized friendship book where your child spots a lonely new kid at the playground and finds a brave way to say hello. For ages 3-7.",
+  "image_alt": "Personalized friendship book cover featuring an illustrated child as the hero digging a sand road with a new friend at the playground",
+  "h1": "Personalized Friendship Book for Kids: Your Child Makes a Friend",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "thank-you-jar",
+  "title_pattern": "{name}'s Thank-You Jar",
+  "category": "life-lessons",
+  "age_range": "3-8",
+  "tagline": "A personalized story of thankfulness, starring your child.",
+  "meta_title": "Personalized Gratitude Book for Kids | StoryBloom",
+  "meta_description": "Teach your child the power of thankfulness with a personalized gratitude book starring them as the hero. Create a cherished family tradition.",
+  "image_alt": "Personalized gratitude book cover featuring an illustrated child holding a thank-you jar, surrounded by happy family members.",
+  "h1": "Personalized Gratitude Book for Kids",
+  "example": {
+   "name": "Theo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "waits-for-the-bus",
+  "title_pattern": "{name} Waits for the Bus",
+  "category": "life-lessons",
+  "age_range": "2-5",
+  "tagline": "A gentle story about finding wonder while you wait.",
+  "meta_title": "Personalized Patience Book for Kids | StoryBloom",
+  "meta_description": "Teach patience and keen noticing with a personalized book where your child is the hero waiting for the bus, turning waiting into a fun game of discovery.",
+  "image_alt": "Personalized patience book cover featuring an illustrated child as the hero, happily pointing at the sky while waiting for a bus with Grandma.",
+  "h1": "Personalized Patience Book for Kids: Your Child's Bus Stop Adventure",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "just-like-nobody-else",
+  "title_pattern": "{name}, Just Like Nobody Else",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "tagline": "Let your unique light shine.",
+  "meta_title": "Personalized Be Yourself Book | StoryBloom",
+  "meta_description": "Celebrate your child's unique self with a personalized story where they discover their own special talents and interests. Your child is the hero!",
+  "image_alt": "Personalized be yourself book cover featuring an illustrated child as the hero, happily holding a paintbrush next to their friend.",
+  "h1": "Personalized Be Yourself Book for Kids",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "visits-the-dentist",
+  "title_pattern": "{name} Visits the Dentist",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "tagline": "A gentle, reassuring story for your child's first dentist visit.",
+  "meta_title": "Personalized First Dentist Visit Book | StoryBloom",
+  "meta_description": "Prepare your child for their first dental appointment with a personalized story. Your child is the hero in this gentle, reassuring book.",
+  "image_alt": "Personalized first dentist visit book cover featuring an illustrated child as the hero, smiling brightly in a dental chair with a friendly toothbrush.",
+  "h1": "Personalized First Dentist Visit Book for Kids",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "at-the-doctors",
+  "title_pattern": "{name} at the Doctor's",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "tagline": "A gentle, reassuring story about visiting the doctor for a checkup.",
+  "meta_title": "Personalized Doctor Visit Book for Kids | StoryBloom",
+  "meta_description": "Prepare your child for a doctor's visit with a personalized book. Your child is the hero, learning about checkups and feeling brave.",
+  "image_alt": "Personalized going to the doctor book cover featuring an illustrated child as the hero getting their heart listened to by a friendly doctor.",
+  "h1": "Personalized Going to the Doctor Book for Kids",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "rainbow-lunch",
+  "title_pattern": "{name}'s Rainbow Lunch",
+  "category": "life-lessons",
+  "age_range": "2-6",
+  "tagline": "Your child eats a rainbow of colorful foods!",
+  "meta_title": "Personalized Healthy Eating Book for Kids | StoryBloom",
+  "meta_description": "Inspire your child to love colorful, healthy foods with this personalized book! Your child is the hero discovering the joy of a rainbow lunch.",
+  "image_alt": "Personalized healthy eating book cover featuring an illustrated child as the hero, holding a plate of colorful fruits and vegetables.",
+  "h1": "Personalized Healthy Eating Book for Kids: Your Child's Rainbow Lunch",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "sugar-bugs",
+  "title_pattern": "{name} and the Sugar Bugs",
+  "category": "life-lessons",
+  "age_range": "2-5",
+  "tagline": "A fun story about brushing away mischievous sugar bugs for sparkling clean teeth!",
+  "meta_title": "Personalized Brushing Teeth Book for Kids | StoryBloom",
+  "meta_description": "Make brushing fun! Your child is the hero in this personalized book, chasing away mischievous sugar bugs for sparkling clean teeth. Get yours today!",
+  "image_alt": "Personalized brushing teeth book cover featuring an illustrated child as the hero holding a toothbrush.",
+  "h1": "Personalized Brushing Teeth Book for Toddlers",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "looks-up",
+  "title_pattern": "{name} Looks Up",
+  "category": "life-lessons",
+  "age_range": "4-8",
+  "tagline": "Discover a world of wonder beyond the screen.",
+  "meta_title": "Personalized Screen Time Book for Kids | StoryBloom",
+  "meta_description": "Encourage your child to look up from screens and discover real-world fun with this personalized story where your child is the hero.",
+  "image_alt": "Personalized screen time book cover featuring an illustrated child looking up from a pile of blocks and a puppet, with a bright, clear sky background.",
+  "h1": "Personalized Screen Time Book for Kids: Your Child Looks Up",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "doctor-saves-the-day",
+  "title_pattern": "Dr. {name} Saves the Day",
+  "category": "careers",
+  "age_range": "3-7",
+  "tagline": "A toy clinic, a frightened puppy, and one small doctor with very gentle hands.",
+  "meta_title": "Personalized Doctor Book for Kids | StoryBloom",
+  "meta_description": "A personalized doctor book where your child runs a toy clinic, then calmly helps a neighbor's scared puppy with Mom's help.",
+  "image_alt": "Personalized doctor book cover featuring an illustrated child in a play doctor coat holding a happy puppy in a backyard",
+  "h1": "Personalized When I Grow Up Doctor Book: Your Child Saves the Day",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "animal-doctor",
+  "title_pattern": "{name} the Animal Doctor",
+  "category": "careers",
+  "age_range": "3-8",
+  "tagline": "A day at the animal clinic, and one shy rabbit who needs a patient friend.",
+  "meta_title": "Personalized Vet Book for Kids | StoryBloom",
+  "meta_description": "A personalized vet book for kids: your child helps at an animal clinic and gently cares for a shy rabbit with a sore paw.",
+  "image_alt": "Personalized vet book cover featuring an illustrated child in a helper coat holding a bandaged rabbit outside an animal clinic",
+  "h1": "Personalized Vet Book for Kids: Your Child Becomes the Animal Doctor",
+  "example": {
+   "name": "Amara",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "teacher-for-a-day",
+  "title_pattern": "Teacher {name}",
+  "category": "careers",
+  "age_range": "3-7",
+  "tagline": "Explore the joy of teaching and the power of listening with your child as the star!",
+  "meta_title": "Personalized Teacher Book for Kids | StoryBloom",
+  "meta_description": "Imagine your child as the star in a personalized book about being a teacher. Watch them discover the joy of teaching and the power of listening.",
+  "image_alt": "Personalized teacher book cover featuring an illustrated child as the hero, standing in a playful classroom with stuffed animal students.",
+  "h1": "Personalized When I Grow Up: Teacher Book",
+  "example": {
+   "name": "Mateo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "firefighter-rescue",
+  "title_pattern": "Firefighter {name} to the Rescue",
+  "category": "careers",
+  "age_range": "2-7",
+  "tagline": "A day at the station, a frightened kitten, and a brave plan only your child could make.",
+  "meta_title": "Personalized Firefighter Book for Kids | StoryBloom",
+  "meta_description": "A personalized firefighter book where your child joins the station crew, rescues a frightened kitten, and shares simple fire safety tips.",
+  "image_alt": "Personalized firefighter book cover featuring an illustrated child in a yellow helmet holding a rescued kitten beside a red fire truck",
+  "h1": "Personalized Firefighter Book: Your Child Joins the Crew and Rescues a Kitten",
+  "example": {
+   "name": "Hana",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "captain-takes-off",
+  "title_pattern": "Captain {name} Takes Off",
+  "category": "careers",
+  "age_range": "3-8",
+  "tagline": "Your child is the pilot in this soaring adventure!",
+  "meta_title": "Personalized Pilot Book for Kids | StoryBloom",
+  "meta_description": "Your child is the hero of this personalized pilot book, taking to the skies on an exciting adventure and learning about flying.",
+  "image_alt": "Personalized pilot book cover featuring an illustrated child as the hero wearing a pilot's hat in front of an airplane.",
+  "h1": "Personalized Pilot Book: Your Child's High-Flying Adventure",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "builds-a-bridge",
+  "title_pattern": "{name} Builds a Bridge",
+  "category": "careers",
+  "age_range": "4-9",
+  "tagline": "A rushing creek needs a clever solution, and your child is just the engineer for the job!",
+  "meta_title": "Personalized Engineer Book for Kids | StoryBloom",
+  "meta_description": "Spark your child's inner engineer! In this personalized book, your child builds a bridge to solve a problem. Fun and inspiring.",
+  "image_alt": "Personalized engineer book cover featuring an illustrated child as the hero, holding a bridge drawing by a sunny creek.",
+  "h1": "Personalized Engineer Book for Kids: Your Child Builds a Bridge!",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "very-own-abcs",
+  "title_pattern": "{name}'s Very Own ABCs",
+  "category": "learning",
+  "age_range": "1-5",
+  "tagline": "From A at breakfast to Z at bedtime, a whole alphabet day with your child leading the way.",
+  "meta_title": "Personalized ABC Book With Your Child's Name | StoryBloom",
+  "meta_description": "A personalized ABC book with your child's name: an alphabet walk from breakfast to bedtime, finding a letter at every step of the day.",
+  "image_alt": "Personalized ABC book cover featuring an illustrated child holding a basket of alphabet blocks on a sunny garden path with an orange cat",
+  "h1": "Personalized ABC Book With Your Child's Name: An Alphabet Day From Breakfast to Bedtime",
+  "example": {
+   "name": "Arjun",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "counts-to-ten",
+  "title_pattern": "{name} Counts to Ten",
+  "category": "learning",
+  "age_range": "1-4",
+  "tagline": "A personalized counting adventure from one sun to ten sleepy stars, just for your child.",
+  "meta_title": "Personalized Toddler Counting Book | StoryBloom",
+  "meta_description": "Teach your toddler numbers 1-10 with a personalized counting book. Your child is the hero in this fun, rhyming story from StoryBloom.",
+  "image_alt": "Personalized counting book cover featuring an illustrated child as the hero, looking at a friendly moon and stars in the night sky.",
+  "h1": "Personalized Counting Book for Toddlers: Your Child's First Numbers",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "finds-a-rainbow",
+  "title_pattern": "{name} Finds a Rainbow",
+  "category": "learning",
+  "age_range": "1-4",
+  "tagline": "Discover a rainbow of colors and shapes with your little explorer!",
+  "meta_title": "Personalized Colors & Shapes Book | StoryBloom",
+  "meta_description": "Your child is the hero in this personalized book about discovering colors and shapes at home and in the garden. Perfect for ages 1-4.",
+  "image_alt": "Personalized colors and shapes book cover featuring an illustrated child joyfully pointing to colorful everyday objects.",
+  "h1": "Personalized Colors and Shapes Book for Toddlers",
+  "example": {
+   "name": "Theo",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "reads-all-alone",
+  "title_pattern": "{name} Reads It All Alone",
+  "category": "learning",
+  "age_range": "4-6",
+  "tagline": "Watch your child's confidence bloom as they discover the joy of reading!",
+  "meta_title": "Personalized Learning to Read Book | StoryBloom",
+  "meta_description": "Spark your child's love for words with a personalized learning to read book. Your child is the hero who discovers the magic of reading!",
+  "image_alt": "Personalized learning to read book cover featuring an illustrated child confidently pointing at a street sign, with open blue sky for the title.",
+  "h1": "Personalized Learning to Read Book: Your Child's First Words",
+  "example": {
+   "name": "Zoe",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "secret-valentine",
+  "title_pattern": "{name} and the Secret Valentine",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "A story about quiet kindness for Valentine's Day.",
+  "meta_title": "Personalized Valentine Book | StoryBloom",
+  "meta_description": "Your child is the hero in this personalized Valentine's Day story about kindness and friendship. They'll discover the joy of making a difference.",
+  "image_alt": "Personalized Valentine book cover featuring an illustrated child as the hero, holding a large heart, surrounded by classroom decorations.",
+  "h1": "Personalized Valentine's Day Book for Kids",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "great-egg-trail",
+  "title_pattern": "{name} and the Great Egg Trail",
+  "category": "holidays",
+  "age_range": "2-7",
+  "tagline": "Join a friendly bunny and help save the Easter egg hunt!",
+  "meta_title": "Personalized Easter Book for Kids | StoryBloom",
+  "meta_description": "Make Easter extra special! Your child is the hero in this personalized book, helping a friendly bunny find lost eggs. A unique holiday gift.",
+  "image_alt": "Personalized Easter book cover featuring an illustrated child as the hero with a bunny and colorful eggs in a spring garden.",
+  "h1": "Personalized Easter Egg Hunt Book for Kids",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "shy-little-ghost",
+  "title_pattern": "{name} and the Shy Little Ghost",
+  "category": "holidays",
+  "age_range": "3-7",
+  "tagline": "A gentle Halloween story about finding courage and making a new friend.",
+  "meta_title": "Personalized Halloween Book | StoryBloom",
+  "meta_description": "Celebrate Halloween with a personalized story where your child meets a shy ghost! A gentle, kind trick-or-treat adventure.",
+  "image_alt": "Personalized Halloween book cover featuring an illustrated child in a costume alongside a friendly, shy white ghost on a decorated street.",
+  "h1": "Personalized Halloween Book for Kids: Your Child and the Shy Little Ghost",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "thankful-table",
+  "title_pattern": "{name}'s Thankful Table",
+  "category": "holidays",
+  "age_range": "3-7",
+  "tagline": "A story celebrating togetherness and gratitude, where your child reminds everyone what Thanksgiving is truly about.",
+  "meta_title": "Personalized Thanksgiving Book for Kids | StoryBloom",
+  "meta_description": "Your child becomes the star of a personalized Thanksgiving story about gratitude and family. A unique gift for kids.",
+  "image_alt": "Personalized Thanksgiving book cover featuring an illustrated child as the hero helping prepare a festive table with autumn decorations.",
+  "h1": "Personalized Thanksgiving Book: Your Child's Thankful Table",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "sparkler-parade",
+  "title_pattern": "{name} and the Sparkler Parade",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "Celebrate community and sparkle on the Fourth of July!",
+  "meta_title": "Personalized Fourth of July Book for Kids | StoryBloom",
+  "meta_description": "Your child becomes the hero in a personalized Fourth of July book! Help build a parade float and celebrate Independence Day with StoryBloom.",
+  "image_alt": "Personalized Fourth of July book cover featuring an illustrated child as the hero next to a festive parade float.",
+  "h1": "Personalized Fourth of July Parade Book for Kids",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "new-year-wish",
+  "title_pattern": "{name}'s New Year Wish",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "Celebrate new beginnings and the joy of trying something new!",
+  "meta_title": "Personalized New Year Book for Kids | StoryBloom",
+  "meta_description": "Celebrate new beginnings with a personalized New Year book where your child makes a special promise to try something new.",
+  "image_alt": "Personalized New Year book cover featuring an illustrated child celebrating.",
+  "h1": "Personalized New Year Book for Kids",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "seven-candles",
+  "title_pattern": "{name} and the Seven Candles",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "Celebrate Kwanzaa with your child as the hero, learning the seven principles of joy and community!",
+  "meta_title": "Personalized Kwanzaa Book for Kids | StoryBloom",
+  "meta_description": "Celebrate Kwanzaa with your child as the star! This personalized Kwanzaa book teaches the seven principles.",
+  "image_alt": "Personalized Kwanzaa book cover featuring an illustrated child as the hero, surrounded by Kwanzaa symbols and a joyful family.",
+  "h1": "Personalized Kwanzaa Book: Your Child and the Seven Candles",
+  "example": {
+   "name": "Imani",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "festival-of-lights",
+  "title_pattern": "{name} and the Festival of Lights",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "A sparkling tale of light, love, and sharing for Diwali.",
+  "meta_title": "Personalized Diwali Book | Celebrate Lights | StoryBloom",
+  "meta_description": "Celebrate the Festival of Lights! Your child is the hero of this personalized Diwali book, learning about diyas, rangoli, and sharing.",
+  "image_alt": "Personalized Diwali book cover featuring an illustrated child as the hero holding a lit diya, with festive lights and rangoli.",
+  "h1": "Personalized Diwali Book for Kids",
+  "example": {
+   "name": "Priya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "eid-morning",
+  "title_pattern": "{name}'s Eid Morning",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "A joyous and respectful personalized story celebrating Eid morning.",
+  "meta_title": "Personalized Eid Book for Kids | StoryBloom",
+  "meta_description": "Celebrate Eid with a personalized story where your child is the hero! Discover the joy of new clothes, prayer, sweets, and giving to others.",
+  "image_alt": "Personalized Eid book cover featuring an illustrated child as the hero in a festive Eid outfit, holding a small lantern, with a mosque and family in the background.",
+  "h1": "Personalized Eid Book for Kids, Your Child is the Hero",
+  "example": {
+   "name": "Yusuf",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "red-lantern",
+  "title_pattern": "{name} and the Red Lantern",
+  "category": "holidays",
+  "age_range": "3-8",
+  "tagline": "Celebrate new beginnings and vibrant traditions with your child.",
+  "meta_title": "Personalized Lunar New Year Story | StoryBloom",
+  "meta_description": "Celebrate traditions with a personalized Lunar New Year book where your child is the hero! Features lion dances, red envelopes, and family fun.",
+  "image_alt": "Personalized Lunar New Year book cover featuring an illustrated child as the hero with a lion dance and lanterns.",
+  "h1": "Personalized Lunar New Year Book for Kids",
+  "example": {
+   "name": "Mei",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "baptism-day",
+  "title_pattern": "{name}'s Baptism Day",
+  "category": "faith",
+  "age_range": "0-6",
+  "tagline": "A gentle story of water, blessing and a family gathered close, with your child at the center.",
+  "meta_title": "Personalized Baptism Gift Book for Kids | StoryBloom",
+  "meta_description": "A personalized baptism gift book: your child is the hero of a gentle story of family, water and blessing on their special day.",
+  "image_alt": "Personalized baptism book cover featuring an illustrated child in white beside a church font with candlelight",
+  "h1": "Personalized Baptism Gift Book Starring Your Child",
+  "example": {
+   "name": "Elijah",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "first-communion",
+  "title_pattern": "{name}'s First Communion",
+  "category": "faith",
+  "age_range": "6-9",
+  "tagline": "Celebrate a sacred milestone. Your child's First Communion story, uniquely for your child.",
+  "meta_title": "Personalized First Communion Book | StoryBloom",
+  "meta_description": "Celebrate this sacred milestone with a personalized First Communion book. Your child is the hero of this Catholic faith story.",
+  "image_alt": "Personalized First Communion book cover featuring an illustrated child in a white dress or suit, holding a rosary, with a church backdrop.",
+  "h1": "Personalized First Communion Gift Book",
+  "example": {
+   "name": "Sophie",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "helps-noah",
+  "title_pattern": "{name} Helps Noah",
+  "category": "faith",
+  "age_range": "3-8",
+  "tagline": "Two by two up the ramp, and one small helper who makes the scared ones brave.",
+  "meta_title": "Personalized Noah's Ark Bible Story Book | StoryBloom",
+  "meta_description": "A personalized Bible story book where your child helps Noah load the ark and gives two frightened rabbits courage through the flood.",
+  "image_alt": "Personalized Noah's ark Bible story book cover featuring an illustrated child helping two rabbits up the ark's ramp",
+  "h1": "Personalized Bible Story Book: Your Child Helps Noah Fill the Ark",
+  "example": {
+   "name": "Arjun",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "bedtime-prayer",
+  "title_pattern": "{name}'s Bedtime Prayer",
+  "category": "faith",
+  "age_range": "1-6",
+  "tagline": "A gentle goodnight prayer where your child thanks God for the day's small gifts and the people they love.",
+  "meta_title": "Personalized Bedtime Prayer Book | StoryBloom",
+  "meta_description": "A personalized bedtime prayer book where your child thanks God for the day's small gifts and the people they love, then drifts off to sleep.",
+  "image_alt": "Personalized bedtime prayer book cover featuring an illustrated child kneeling in bed with folded hands beneath a starry night window",
+  "h1": "Personalized Bedtime Prayer Book Starring Your Child",
+  "example": {
+   "name": "Lucia",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "reads-from-the-torah",
+  "title_pattern": "{name} Reads from the Torah",
+  "category": "faith",
+  "age_range": "9-13",
+  "tagline": "Celebrate a sacred journey, a personal triumph, and a cherished community milestone.",
+  "meta_title": "Personalized Bar/Bat Mitzvah Book | StoryBloom",
+  "meta_description": "Celebrate your child's Bar or Bat Mitzvah with this personalized story. Your child is the hero of this special Jewish milestone book.",
+  "image_alt": "Personalized Bar or Bat Mitzvah book cover featuring an illustrated child proudly holding a Torah scroll.",
+  "h1": "Personalized Bar or Bat Mitzvah Celebration Book",
+  "example": {
+   "name": "Eli",
+   "pronouns": "he"
+  }
+ },
+ {
   "slug": "remembering-a-pet",
   "title_pattern": "Remembering {name}'s Friend",
   "category": "family-changes",
@@ -447,6 +1602,111 @@
   "example": {
    "name": "Zoe",
    "pronouns": "she"
+  }
+ },
+ {
+  "slug": "remembers-grandparent",
+  "title_pattern": "{name} Remembers",
+  "category": "family-changes",
+  "age_range": "4-9",
+  "tagline": "A gentle story about missing Grandpa and keeping what he taught you growing.",
+  "meta_title": "Personalized Book About Losing a Grandparent | StoryBloom",
+  "meta_description": "A personalized picture book for ages 4-9 about a grandparent dying, told with plain words, honest feelings and memories that keep growing.",
+  "image_alt": "Personalized book about the death of a grandparent, cover featuring an illustrated child as the hero in Grandpa's garden wearing a striped hat",
+  "h1": "Personalized Book About the Death of a Grandparent for Kids",
+  "example": {
+   "name": "Kai",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "two-homes",
+  "title_pattern": "{name} Has Two Homes",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "tagline": "Two homes, two bedrooms, and the same love in both.",
+  "meta_title": "Personalized Two Homes Divorce Book | StoryBloom",
+  "meta_description": "A personalized picture book for kids whose parents live apart: two homes, the things that stay the same, and it is not their fault.",
+  "image_alt": "Personalized two homes divorce book cover featuring an illustrated child as the hero standing between two houses under a crescent moon",
+  "h1": "Personalized Two Homes Book About Divorce for Kids",
+  "example": {
+   "name": "Nora",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "counts-the-days-deployment",
+  "title_pattern": "{name} Counts the Days",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "tagline": "A tender story for your child when a parent is away serving our country.",
+  "meta_title": "Personalized Military Parent Book | StoryBloom",
+  "meta_description": "A personalized book for your child with a deployed parent. Your child is the hero in this story of love and waiting.",
+  "image_alt": "Personalized military parent deployment book cover featuring an illustrated child looking at a world map.",
+  "h1": "Personalized Military Parent Deployment Book for Kids",
+  "example": {
+   "name": "Malik",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "hospital-visit",
+  "title_pattern": "{name}'s Hospital Visit",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "tagline": "A gentle, honest look at a hospital stay, with your child asking the questions and finding the brave answers.",
+  "meta_title": "Hospital Visit Book for Kids, Personalized | StoryBloom",
+  "meta_description": "A personalized picture book showing your child what a hospital stay is like, from wristbands to beeping machines.",
+  "image_alt": "Personalized hospital visit book cover featuring an illustrated child holding a stuffed bunny outside a friendly hospital",
+  "h1": "Personalized Book About Going to the Hospital for Kids",
+  "example": {
+   "name": "Isla",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "day-came-home",
+  "title_pattern": "The Day {name} Came Home",
+  "category": "family-changes",
+  "age_range": "2-8",
+  "tagline": "A warm, honest story of the day your child came home, told so they can feel proud of every part of it.",
+  "meta_title": "Personalized Adoption Book for Kids | StoryBloom",
+  "meta_description": "A personalized adoption book that tells the day your child came home warmly and honestly, so they feel proud of their own story.",
+  "image_alt": "Personalized adoption book cover featuring an illustrated child as the hero on the front step of a cozy home, wrapped in a yellow blanket",
+  "h1": "Personalized Adoption Book: The Day Your Child Came Home",
+  "example": {
+   "name": "Diego",
+   "pronouns": "he"
+  }
+ },
+ {
+  "slug": "bigger-table",
+  "title_pattern": "{name}'s Bigger Table",
+  "category": "family-changes",
+  "age_range": "4-9",
+  "tagline": "A warm story of growing a family and making space for everyone.",
+  "meta_title": "Personalized Blended Family Book for Kids | StoryBloom",
+  "meta_description": "Help your child navigate new family structures with this personalized story where they become the hero building a new home.",
+  "image_alt": "Personalized blended family book cover featuring an illustrated child as the hero, sitting happily with new siblings and parents around a big dinner table.",
+  "h1": "Personalized Blended Family Book for Your Child",
+  "example": {
+   "name": "Maya",
+   "pronouns": "she"
+  }
+ },
+ {
+  "slug": "very-small-baby",
+  "title_pattern": "{name} and the Very Small Baby",
+  "category": "family-changes",
+  "age_range": "3-8",
+  "tagline": "A gentle story for the big sister or brother of a very small baby.",
+  "meta_title": "Personalized NICU Sibling Book | StoryBloom",
+  "meta_description": "A personalized picture book for your child who is waiting for a premature or NICU baby sibling to come home. Help them understand and connect.",
+  "image_alt": "Personalized book cover for a child with a NICU sibling, featuring an illustrated child looking at a tiny baby.",
+  "h1": "Personalized Book for Siblings of NICU or Premature Babies",
+  "example": {
+   "name": "Leo",
+   "pronouns": "he"
   }
  }
 ]

@@ -8,9 +8,10 @@ from PIL import Image, ImageDraw
 ROOT = pathlib.Path(__file__).resolve().parents[2] / "client/public/images/books"
 out, slugs = sys.argv[1], sys.argv[2].split(",")
 covers_only = "--covers" in sys.argv
-names = ["cover.jpg"] if covers_only else ["cover.jpg", "page-1.webp", "page-2.webp"]
-W, H = (240, 320) if covers_only else (300, 400)
-cols = 6 if covers_only else 3
+pages_only = "--pages" in sys.argv
+names = ["cover.jpg"] if covers_only else ["page-1.webp", "page-2.webp"] if pages_only else ["cover.jpg", "page-1.webp", "page-2.webp"]
+W, H = (240, 320) if covers_only or pages_only else (300, 400)
+cols = 6 if covers_only or pages_only else 3
 n = len(slugs) * len(names)
 rows = (n + cols - 1) // cols
 sheet = Image.new("RGB", (cols * W, rows * (H + 18)), "white")

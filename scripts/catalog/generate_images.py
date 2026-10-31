@@ -45,7 +45,8 @@ WORDLESS = ("This is a wordless picture-book illustration. There is no writing a
             "blank or seen from behind.")
 SAME_COLORS = "Keep the exact colors described for hair, fur, skin, eyes and clothing. The art style changes how things are drawn, never their colors."
 FULL_BLEED = ("Fill the whole frame edge to edge with the scene. The painted background runs off all four sides of the picture. "
-              "No borders, picture frames, outlines around the image, white margins, vignettes or empty background.")
+              "No borders, picture frames, outlines around the image, white margins, vignettes or empty background. "
+              "One single scene: no comic panels, split images, or the same character shown more than once.")
 
 XMP = (b'<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?><x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF '
        b'xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="" '
@@ -93,11 +94,12 @@ def has_border(data):
     im = Image.open(io.BytesIO(data)).convert("L")
     w, h = im.size
     b = max(4, w // 80)
-    for box in ((0, 0, w, b), (0, h - b, w, h), (0, 0, b, h), (w - b, 0, w, h)):
+    def plain(box):
         st = ImageStat.Stat(im.crop(box))
-        if st.stddev[0] < 9 and (st.mean[0] > 235 or st.mean[0] < 25):
-            return True
-    return False
+        return (st.stddev[0] < 9 and st.mean[0] > 235) or (st.stddev[0] < 5 and st.mean[0] < 12)  # night skies are not borders
+
+    # A frame or fade shows on two or more edges; one plain edge is just a pale sky or a wall.
+    return sum(plain(box) for box in ((0, 0, w, b), (0, h - b, w, h), (0, 0, b, h), (w - b, 0, w, h))) >= 2
 
 
 def ref_part(img):
@@ -137,7 +139,8 @@ def make(key, b):
     names = lambda s: s.replace("The child", name).replace("the child", name)  # noqa: E731
     sheet = draw(key, [{"text": "\n\n".join([
         "Character reference picture for a children's picture book.", STYLE, f"Show only {who}.",
-        "Full body, standing, facing the viewer with a friendly expression, on a plain soft white background. Exactly one character.",
+        "Full body, standing, facing the viewer with a friendly expression, on a plain soft white background. Exactly one character. "
+        "Plain everyday clothes with no hat and no costume.",
         SAME_COLORS, WORDLESS])}])
     refs = [{"text": f"Reference picture of {name}. Draw {name} looking exactly like this."}, ref_part(sheet)]
 

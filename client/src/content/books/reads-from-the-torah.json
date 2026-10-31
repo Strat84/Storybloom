@@ -73,15 +73,15 @@
       "illustration_prompt": "The child is at a festive party, surrounded by smiling friends and family, holding a celebratory drink (non-alcoholic) or a piece of cake. Decorations are visible."
     }
   ],
-  "cover_scene": "The child, dressed in their special Bar/Bat Mitzvah outfit, standing proudly with an open (stylized) Torah scroll on a reading stand (Bimah). The background is a soft, inviting synagogue interior with a large stained-glass window allowing for an open top third.",
+  "cover_scene": "The child, dressed in their special Bar/Bat Mitzvah outfit, standing proudly with an open (stylized) Torah scroll on a reading stand (Bimah). The background is a soft, inviting synagogue interior with a large stained-glass window allowing for an open top third. The child wears a kippah and neat dress clothes, with no other hat.",
   "sample_pages": [
     {
       "text": "Day after day, {name} practiced chanting the ancient words. Sometimes {she/he} made a mistake, but {she/he} tried again, listening closely to the rhythm and melody. {name} was determined!",
-      "scene": "The child is standing alone in a practice room, holding a printed sheet, eyes closed, concentrating on chanting. Music notes subtly float around."
+      "scene": "The child is standing alone in a practice room, holding a printed sheet, eyes closed, concentrating on chanting. Music notes subtly float around. The child wears a kippah and neat dress clothes, with no other hat."
     },
     {
       "text": "Taking a deep breath, {name} began to chant the sacred text. Each word, each note, flowed from {her/him}. {name} had done it! {She/He} shared the wisdom of generations.",
-      "scene": "The child is standing confidently at the podium on the Bimah, hands resting on an open Torah scroll or a large book, chanting with an expression of focus and strength. The congregation is visible, respectfully listening."
+      "scene": "The child is standing confidently at the podium on the Bimah, hands resting on an open Torah scroll or a large book, chanting with an expression of focus and strength. The congregation is visible, respectfully listening. The child wears a kippah and a prayer shawl over neat dress clothes, with no other hat."
     }
   ],
   "h1": "Personalized Bar or Bat Mitzvah Celebration Book",

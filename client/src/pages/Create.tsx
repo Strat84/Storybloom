@@ -368,6 +368,7 @@ export default function Create() {
       dedication: state.details.dedication.trim() || undefined,
       language: state.language,
       cast: castRequest(a, state.photoConsent),
+      themeId: custom || !theme ? "custom" : theme.id,
     });
   };
 

@@ -15,6 +15,8 @@ export interface CastRequestMember {
 
 export interface CreateBookRequest extends GenerateRequest {
   cast?: CastRequestMember[];
+  /** The catalog or built-in story the book was made from, or "custom" for the parent's own idea. */
+  themeId?: string;
   dedication?: string;
 }
 

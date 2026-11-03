@@ -37,6 +37,8 @@ import type { PreparedPhoto } from "@/lib/photo";
 import { formatPrice, printPrice } from "@/lib/pricing";
 import { track } from "@/lib/track";
 import { cn } from "@/lib/utils";
+import { getAttribution } from "@/lib/track";
+import { currentReferral } from "@/lib/referral";
 
 const STORAGE_KEY = "sb_wizard_v3";
 const STEPS = ["Hero", "Look", "Friends", "Story", "Style", "Create"] as const;
@@ -344,6 +346,32 @@ export default function Create() {
         }
       : null;
 
+  /** Marketing and sales details stored with the book (see storybloom-backend services/dynamodb/story). */
+  const bookInsights = () => {
+    const source = getAttribution() ?? {};
+    return {
+      themeSource: custom || !theme ? "custom" : THEMES.includes(theme) ? "builtin" : "catalog",
+      artStyle: state.style,
+      pages: state.pageCount,
+      language: state.language,
+      heroAge: hero?.age ?? null,
+      heroPhoto: state.lookMode === "photo",
+      castSize: state.others.length + 1,
+      castRoles: state.others.map((m) => m.role).sort().join(","),
+      castPhotos: state.others.filter((m) => m.lookMode === "photo").length,
+      gift: Boolean(state.details.fromName.trim()),
+      dedication: Boolean(state.details.dedication.trim()),
+      device: window.matchMedia?.("(max-width: 767px)").matches ? "mobile" : "desktop",
+      partnerLink: Boolean(currentReferral()),
+      utmSource: source.utm_source ?? "",
+      utmMedium: source.utm_medium ?? "",
+      utmCampaign: source.utm_campaign ?? "",
+      partnerCode: source.code ?? source.ref ?? "",
+      referrer: source.referrer ?? "",
+      landingPage: source.landing_page ?? "",
+    };
+  };
+
   const startBook = () => {
     const a = answers();
     if (!a || !hero) return;
@@ -369,6 +397,7 @@ export default function Create() {
       language: state.language,
       cast: castRequest(a, state.photoConsent),
       themeId: custom || !theme ? "custom" : theme.id,
+      insights: bookInsights(),
     });
   };
 

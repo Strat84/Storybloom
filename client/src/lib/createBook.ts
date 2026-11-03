@@ -17,6 +17,8 @@ export interface CreateBookRequest extends GenerateRequest {
   cast?: CastRequestMember[];
   /** The catalog or built-in story the book was made from, or "custom" for the parent's own idea. */
   themeId?: string;
+  /** Marketing and sales details (art style, cast, gift, device, traffic source); see Create.tsx bookInsights. */
+  insights?: Record<string, string | number | boolean | null>;
   dedication?: string;
 }
 

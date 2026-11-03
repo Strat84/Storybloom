@@ -51,7 +51,21 @@ export function trackPageView(path: string, title: string) {
 const UTM_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "ref", "code"] as const;
 const UTM_STORAGE = "sb_attribution";
 
-/** Save first-touch UTM parameters and affiliate/discount codes for attaching to orders. */
+/** The other site a visitor arrived from (host only), or "" for direct visits and our own pages. */
+function referrerHost() {
+  try {
+    const host = document.referrer ? new URL(document.referrer).hostname : "";
+    return host && !host.endsWith("storybloom.ai") ? host : "";
+  } catch {
+    return "";
+  }
+}
+
+/**
+ * Save the first touch for attaching to books and orders: UTM parameters and affiliate/discount codes
+ * when the link has them, and for every visitor the referring site and landing page. A later tagged
+ * link replaces an untagged first visit, so paid and partner traffic is never hidden.
+ */
 export function captureAttribution() {
   if (typeof window === "undefined") return;
   try {
@@ -61,9 +75,11 @@ export function captureAttribution() {
       const value = params.get(key);
       if (value) found[key] = value.slice(0, 200);
     }
-    if (Object.keys(found).length === 0) return;
     const existing = JSON.parse(localStorage.getItem(UTM_STORAGE) || "null");
-    if (!existing) {
+    const tagged = Object.keys(found).length > 0;
+    if (!existing || (tagged && !UTM_KEYS.some((k) => existing[k]))) {
+      const referrer = referrerHost();
+      if (referrer) found.referrer = referrer;
       localStorage.setItem(UTM_STORAGE, JSON.stringify({ ...found, landing_page: window.location.pathname, captured_at: new Date().toISOString() }));
     }
   } catch {

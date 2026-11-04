@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { authErrorMessage, useAuth } from "@/lib/auth";
 import { track } from "@/lib/track";
 import { cn } from "@/lib/utils";
+import CreatorHandles from "@/components/CreatorHandles";
 
 const PASSWORD_RULES = [
   { label: "8+ characters", test: (p: string) => p.length >= 8 },
@@ -168,6 +169,7 @@ export default function InlineAuth({ heroName, onReady, busyLabel }: { heroName:
           </li>
         ))}
       </ul>
+      <CreatorHandles compact />
       <p className="text-xs text-muted-foreground">
         By continuing you agree to the <Link href="/terms" className="underline">Terms</Link> and <Link href="/privacy" className="underline">Privacy Policy</Link>, and confirm you're 18 or older.
       </p>

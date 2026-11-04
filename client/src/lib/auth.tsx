@@ -2,6 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 import config from "@config";
 import { authModule } from "./amplify";
 import { api } from "./api";
+import { clearCreatorHandles, readCreatorHandles } from "@/components/CreatorHandles";
 
 export interface ApiProfile {
   userId?: string;
@@ -109,7 +110,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       },
       async confirmSignUp(email, code) {
         const auth = await authModule();
-        await auth.confirmSignUp({ username: email.trim(), confirmationCode: code.trim() });
+        // Optional creator handles from the sign-up form go to the post-confirmation trigger.
+        const handles = readCreatorHandles();
+        await auth.confirmSignUp({ username: email.trim(), confirmationCode: code.trim(), options: handles ? { clientMetadata: handles } : undefined });
+        clearCreatorHandles();
       },
       async resendSignUpCode(email) {
         const auth = await authModule();

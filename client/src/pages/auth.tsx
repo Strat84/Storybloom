@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { authErrorMessage, useAuth } from "@/lib/auth";
 import { track } from "@/lib/track";
+import CreatorHandles from "@/components/CreatorHandles";
 
 /** Only follow same-site paths after sign-in. */
 function safeNext(search: string, fallback = "/mystories") {
@@ -218,6 +219,7 @@ export function SignUp() {
           <PasswordInput id="signup-password" value={password} onChange={setPassword} autoComplete="new-password" />
           <p className="text-xs text-muted-foreground">At least 8 characters with upper and lower case letters, a number and a symbol.</p>
         </div>
+        <CreatorHandles />
         <label className="flex items-start gap-2 text-sm">
           <input type="checkbox" className="mt-1" checked={guardian} onChange={(e) => setGuardian(e.target.checked)} />
           <span>I'm 18 or older and a parent, guardian or family member creating books for a child.</span>

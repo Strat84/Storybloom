@@ -76,6 +76,11 @@ export default function Privacy() {
                 To show this offer, your email address, order number, country and estimated delivery date are given to Google.
                 Google sends the survey only if you choose to take part, and handles it under its own privacy policy.
               </p>
+              <p className="text-muted-foreground mt-2">
+                If you choose to add an Instagram, TikTok or YouTube handle when you sign up, we look up that account's public profile
+                (follower count and bio) using a data provider, to decide whether to email you a creator offer. We keep the handle and those
+                numbers with your account. Leave the handles blank and we don't do this.
+              </p>
             </section>
 
             <section>

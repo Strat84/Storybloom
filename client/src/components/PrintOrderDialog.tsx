@@ -14,6 +14,7 @@ import { US_STATES } from "@/lib/usStates";
 import { cn } from "@/lib/utils";
 import PreviewWatermark from "@/components/PreviewWatermark";
 import { track } from "@/lib/track";
+import { withOffer } from "@/lib/checkout";
 
 /** Lulu print package used by the live site: 8.5x11, premium full color, saddle-stitched, 80# coated paper. */
 const POD_PACKAGE_ID = "0850X1100FCPRESS080CW444GXX";
@@ -72,6 +73,8 @@ interface PrintOrderDialogProps {
   watermark?: boolean;
   /** Close the order and open the page editor. */
   onEditPages?: () => void;
+  /** The follow-up email's discount on this book, in percent (applied by the backend too). */
+  offerPct?: number;
 }
 
 export interface ProofPage {
@@ -80,7 +83,7 @@ export interface ProofPage {
   label: string;
 }
 
-export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount, onClose, onCheckout, pdfCredit = 0, proofPages = [], watermark = false, onEditPages }: PrintOrderDialogProps) {
+export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount, onClose, onCheckout, pdfCredit = 0, proofPages = [], watermark = false, onEditPages, offerPct }: PrintOrderDialogProps) {
   const { toast } = useToast();
   // 0: proof every page, 1: shipping, 2: summary
   const [step, setStep] = useState<0 | 1 | 2>(1);
@@ -108,8 +111,10 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
   const shippingPrice = method.price;
   const extraCopies = (copies - 1) * extraCopyPrice();
   const credit = Math.min(pdfCredit, bookPrice);
-  // Mirrors the backend (services/pricing.js), which computes the amount actually charged.
-  const total = Math.round((bookPrice + extraCopies - credit + shippingPrice) * 100) / 100;
+  // Mirrors the backend (services/pricing.js, services/offer.js), which computes the amount actually charged.
+  const books = Math.round((bookPrice + extraCopies - credit) * 100) / 100;
+  const offerSaving = offerPct ? Math.round((books - withOffer(books, offerPct)) * 100) / 100 : 0;
+  const total = Math.round((books - offerSaving + shippingPrice) * 100) / 100;
 
   const complete =
     address.name.trim() && address.street1.trim() && address.city.trim() && address.state_code && address.postcode.length === 5 && address.phone_number.length === 10;
@@ -291,6 +296,9 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
               )}
               {credit > 0 && (
                 <div className="flex justify-between text-primary"><dt>Credit for the PDF you already bought</dt><dd>−{formatPrice(credit)}</dd></div>
+              )}
+              {offerSaving > 0 && (
+                <div className="flex justify-between text-primary"><dt>{offerPct}% off (your email offer)</dt><dd>−{formatPrice(offerSaving)}</dd></div>
               )}
               <div className="flex justify-between"><dt>{method.label} shipping</dt><dd>{shippingPrice ? formatPrice(shippingPrice) : "Free"}</dd></div>
               <div className="flex justify-between border-t pt-2 font-semibold text-base"><dt>Total</dt><dd>{formatPrice(total)}</dd></div>

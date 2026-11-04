@@ -53,6 +53,20 @@ export function pdfCreditFor(story: StoryListItem | undefined) {
   return Number(paid) > 0 ? Number(paid) : digitalPrice();
 }
 
+/** The follow-up email's offer on this book while it's open. The backend applies it at checkout (services/offer.js). */
+export function activeOffer(story: StoryListItem | undefined, now = Date.now()) {
+  const pct = Number(story?.offerPct);
+  const expiresAt = Number(story?.offerExpiresAt);
+  if (!(pct > 0 && pct < 100) || !expiresAt || now > expiresAt) return null;
+  return { pct, expiresAt };
+}
+
+/** A price after the offer, matching the backend's rounding to the cent. */
+export function withOffer(price: number, pct: number | undefined) {
+  if (!pct) return price;
+  return Math.round((Math.round(price * 100) * (100 - pct)) / 100) / 100;
+}
+
 export function isPurchased(story: StoryListItem | undefined) {
   return hasPaid(story, "pdf_only") || hasPaid(story, "pdf_and_book");
 }

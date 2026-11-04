@@ -116,6 +116,9 @@ export interface StoryListItem extends Story {
   /** Text generation status: PENDING, COMPLETED or FAILED. */
   status?: string;
   expectedDeliveryDate?: string;
+  /** The follow-up email's discount on this book (percent) and when it ends (ms); see activeOffer. */
+  offerPct?: number;
+  offerExpiresAt?: number;
 }
 
 export type DownloadOption = "pdf_only" | "pdf_and_book";

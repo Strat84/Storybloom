@@ -9,7 +9,7 @@ import BookViewerDialog, { type ViewerStory } from "@/components/BookViewerDialo
 import PreviewWatermark from "@/components/PreviewWatermark";
 import PrintOrderDialog from "@/components/PrintOrderDialog";
 import { api, normalizePages, type StoryListItem, type StoryPage } from "@/lib/api";
-import { orderIdFor, buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, pdfCreditFor, readPendingPurchase } from "@/lib/checkout";
+import { activeOffer, withOffer, orderIdFor, buyDigital, buyPrint, confirmPendingPurchase, downloadPdf, hasPaid, isPurchased, loadStoryList, pdfCreditFor, readPendingPurchase } from "@/lib/checkout";
 import { picturesDone, type ImagesStatus } from "@/lib/createBook";
 import { digitalPrice, formatPrice, printPrice, printTierForStory } from "@/lib/pricing";
 import { likelyInUS } from "@/lib/region";
@@ -19,6 +19,16 @@ import { useAuth } from "@/lib/auth";
 import { showReviewOptIn } from "@/lib/googleReviews";
 
 const IMAGES_POLL_MS = 5000;
+
+/** e.g. "Thu, Nov 5, 10:00 AM" in the visitor's own time zone. */
+function offerEnds(ms: number) {
+  return new Date(ms).toLocaleString(undefined, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+}
+
+function hoursLeft(ms: number, now: number) {
+  const mins = Math.max(0, Math.round((ms - now) / 60_000));
+  return mins >= 60 ? `About ${Math.round(mins / 60)} hour${Math.round(mins / 60) === 1 ? "" : "s"} left.` : `${mins} minute${mins === 1 ? "" : "s"} left.`;
+}
 
 function pageLabel(page: StoryPage, index: number, total: number) {
   if (page.type === "COVER_FRONT" || index === 0) return "Cover";
@@ -48,6 +58,15 @@ export default function Book() {
   const printed = hasPaid(listItem, "pdf_and_book");
   // The PDF price is credited toward the printed book (the backend applies it at checkout).
   const pdfCredit = pdfCreditFor(listItem);
+  // The follow-up email's discount, while it's open. Re-checked each minute so it disappears on time.
+  const [clock, setClock] = useState(() => Date.now());
+  useEffect(() => {
+    if (!listItem?.offerExpiresAt) return;
+    const timer = window.setInterval(() => setClock(Date.now()), 60_000);
+    return () => window.clearInterval(timer);
+  }, [listItem?.offerExpiresAt]);
+  const offer = activeOffer(listItem, clock);
+  const showOffer = offer && !purchased;
 
   const loadBook = useCallback(async () => {
     const [detail, list] = await Promise.all([api<{ pages?: StoryPage[] }>(`/stories/${storyId}`), loadStoryList()]);
@@ -202,7 +221,10 @@ export default function Book() {
   const printCard = (
     <div className={cardClass(inUS)}>
       <p className="font-semibold flex items-center gap-2"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book</p>
-      <p className="text-3xl font-bold text-primary my-1">{formatPrice(printPrice(printTier))}</p>
+      <p className="text-3xl font-bold text-primary my-1">
+        {formatPrice(withOffer(printPrice(printTier), showOffer ? offer.pct : 0))}
+        {showOffer && <s className="ml-2 text-base font-normal text-muted-foreground">{formatPrice(printPrice(printTier))}</s>}
+      </p>
       <ul className="text-sm text-muted-foreground mb-4 flex-1 space-y-1">
         <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />{printTier}-page full-color book, printed and shipped to your door</li>
         <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />Includes the digital PDF</li>
@@ -215,7 +237,10 @@ export default function Book() {
   const pdfCard = (
     <div className={cardClass(!inUS)}>
       <p className="font-semibold flex items-center gap-2"><Download className="h-4 w-4 text-primary" aria-hidden />{inUS ? "Digital book only" : "Digital book"}</p>
-      <p className="text-3xl font-bold text-primary my-1">{formatPrice(digitalPrice())}</p>
+      <p className="text-3xl font-bold text-primary my-1">
+        {formatPrice(withOffer(digitalPrice(), showOffer ? offer.pct : 0))}
+        {showOffer && <s className="ml-2 text-base font-normal text-muted-foreground">{formatPrice(digitalPrice())}</s>}
+      </p>
       <p className="text-sm text-muted-foreground mb-4 flex-1">
         {inUS
           ? `Instant PDF without the watermark. Order the printed book later and we'll credit the ${formatPrice(digitalPrice())}.`
@@ -330,6 +355,12 @@ export default function Book() {
           <Card className="p-6">
             <h2 className="text-2xl font-display font-bold mb-1">Get {title}</h2>
             <p className="text-muted-foreground mb-5">A keepsake they'll read again and again.</p>
+            {showOffer && (
+              <div className="mb-5 rounded-lg border border-primary/40 bg-primary/5 p-3 text-sm">
+                <p className="font-semibold text-primary flex items-center gap-1.5"><Sparkles className="h-4 w-4" aria-hidden />{offer.pct}% off this book until {offerEnds(offer.expiresAt)}</p>
+                <p className="text-muted-foreground">Already applied at checkout, no code needed. {hoursLeft(offer.expiresAt, clock)}</p>
+              </div>
+            )}
             <div className="grid grid-cols-1 sm:grid-cols-[3fr_2fr] gap-4">
               {inUS ? <>{printCard}{pdfCard}</> : <>{pdfCard}{printCard}</>}
             </div>
@@ -347,7 +378,10 @@ export default function Book() {
         <div className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t bg-background/95 backdrop-blur p-3 flex items-center gap-3">
           <div className="flex-1 text-sm">
             <p dir="auto" className="font-semibold leading-tight">{title}</p>
-            <p className="text-muted-foreground leading-tight">{inUS ? `Printed book ${formatPrice(printPrice(printTier))}` : `Digital book ${formatPrice(digitalPrice())}`}</p>
+            <p className="text-muted-foreground leading-tight">
+              {inUS ? `Printed book ${formatPrice(withOffer(printPrice(printTier), showOffer ? offer.pct : 0))}` : `Digital book ${formatPrice(withOffer(digitalPrice(), showOffer ? offer.pct : 0))}`}
+              {showOffer && ` (${offer.pct}% off)`}
+            </p>
           </div>
           {inUS ? (
             <Button onClick={openPrintOrder} disabled={!!drawing}>Order printed book</Button>
@@ -365,6 +399,7 @@ export default function Book() {
         pageCount={printTier}
         onClose={() => setPrintOpen(false)}
         pdfCredit={pdfCredit}
+        offerPct={offer?.pct}
         proofPages={pages.map((pg, i) => ({ imageUrl: pg.imageUrl ?? null, text: pg.text || pg.content || "", label: pageLabel(pg, i, total) }))}
         watermark={!purchased}
         onEditPages={() => {

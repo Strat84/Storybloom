@@ -237,6 +237,10 @@ export const THEME_EXAMPLES: Record<string, string> = {
   "saves-christmas": "mia-saves-christmas",
   "birthday-adventure": "noahs-birthday-adventure",
   "space-explorer": "sofia-the-space-explorer",
+  "north-pole-night": "a-night-at-the-north-pole-with-ezra",
+  "lost-reindeer": "liam-and-the-lost-reindeer",
+  "hanukkah-lights": "elis-first-hanukkah-lights",
+  "big-sibling": "zoe-the-big-sister",
 };
 
 export const builtInTheme = (id: string) => THEMES.find((t) => t.id === id);

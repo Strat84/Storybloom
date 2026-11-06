@@ -382,5 +382,385 @@
         "height": 1052
       }
     ]
+  },
+  {
+    "slug": "a-night-at-the-north-pole-with-ezra",
+    "storyId": "4490f389-5313-45df-a274-892704407897",
+    "title": "A Night at the North Pole with Ezra",
+    "description": "A golden invitation under his pillow sends Ezra and little Ruby to the North Pole on the back of Bramble the polar bear. Ezra paints toys in the workshop, taste-tests Mrs. Claus's cookies and helps a wobbly young reindeer find the courage to fly. Made from the \"A Night at the North Pole\" story.",
+    "story": "North Pole story",
+    "style": "3D Animation",
+    "starring": "Ezra (6) and his little sister Ruby",
+    "pages": [
+      {
+        "type": "COVER_FRONT",
+        "text": "",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/00.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Ezra woke when his pillow made a crinkly sound. Under it, he found a golden envelope with his name shining on the front. Ruby toddled over in her red mittens and gasped. Inside was an invitation to spend one night at the North Pole. “A brave heart shines bright,” Ezra whispered.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/01.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Snowflakes swirled outside the window. Then Bramble, a gentle polar bear in a red scarf, padded right up to the house. Ezra bundled fast, and Ruby helped tug one boot on crooked. With a soft laugh, Bramble lowered his back. Up they soared beneath the glowing northern lights.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/02.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "At last, Bramble landed beside a candy-cane gate taller than Ezra's dad. Beyond it twinkled a whole village of warm windows, snowy roofs, and tiny chimneys puffing peppermint-smelling steam. Ezra held the golden invitation tight. Ruby pointed at the sparkling path and said, “Go, Ezra, go!”",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/03.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Inside the toy workshop, bells jingled and wheels whirred. Pip the elf asked Ezra to help test toys. Ezra spun a top, bounced a fuzzy ball, and painted neat red stripes on a wooden rocking horse. One stripe wiggled like a worm. Ezra grinned and carefully tried again.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/04.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Soon, a delicious smell floated through the hall. Mrs. Claus set out hot cocoa and cookies as round as moons. She asked Ezra to taste-test her brand-new cinnamon cherry recipe. Ezra took one bite, then another. “Crunchy outside, soft inside,” he said. Ruby licked cocoa foam from her mitten.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/05.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Next came reindeer flight school. The youngest reindeer, Tumble, flapped his little legs, hopped once, and plopped into the snow. Ezra knelt beside him. “A brave heart shines bright,” he said softly. Ezra showed Tumble how to start small. Hop, wobble, breathe. Ruby clapped her red mittens together.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/06.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "That evening, the whole village gathered under the velvet sky. The northern lights swished in green and purple ribbons above the snow. Ezra stood with Ruby, Bramble, and new friends, watching in happy silence. Then Ezra spotted the brightest star and made one small wish, keeping it tucked inside.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/07.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Santa came through the crowd with a deep, warm chuckle. He thanked Ezra for helping in the workshop, at the cookie table, and with wobbly Tumble too. Then Santa placed a glowing ornament in Ezra's hands. Ezra felt proud and shy at once. “A brave heart shines bright,” Santa said.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/08.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Soon it was time to go home. Ezra climbed into Santa's sleigh with Ruby tucked beside him and Bramble pacing below for one last farewell. As the sleigh rose, Ezra waved at the tiny village lights, at Pip, at Tumble, at everyone. The ornament glowed softly in his pocket all the way.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/09.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "When Ezra woke again, his pillow was soft and still. Morning light touched his room, and Ruby snored in a blanket nest nearby. On Ezra's nightstand, the special ornament glowed like a tiny star beside the golden envelope. Ezra smiled and whispered, “A brave heart shines bright.” Then he hugged the day awake.",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/10.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "COVER_BACK",
+        "text": "",
+        "image": "/samples/a-night-at-the-north-pole-with-ezra/11.webp",
+        "width": 768,
+        "height": 1052
+      }
+    ]
+  },
+  {
+    "slug": "liam-and-the-lost-reindeer",
+    "storyId": "2225d9cf-e7e9-459d-906c-804e3a3c2b10",
+    "title": "Liam and the Lost Reindeer",
+    "description": "Just before Christmas, Liam finds a tiny reindeer named Juniper stuck in the backyard snow. With Pepper the dog, he follows glittering hoofprints past a riddling owl, across a frozen pond and through a snowstorm to help Juniper fly home. Made from the \"Lost Reindeer\" story.",
+    "story": "Lost Reindeer story",
+    "style": "Traditional Cartoon",
+    "starring": "Liam (5) and Pepper the border collie",
+    "pages": [
+      {
+        "type": "COVER_FRONT",
+        "text": "",
+        "image": "/samples/liam-and-the-lost-reindeer/00.webp",
+        "width": 768,
+        "height": 928
+      },
+      {
+        "type": "PAGE",
+        "text": "Just before Christmas, Liam played in his snowy backyard with Pepper. Near the fence, Liam saw tiny glittering hoofprints. Then he found a little reindeer stuck in a soft snowdrift, blinking big worried eyes at him.",
+        "image": "/samples/liam-and-the-lost-reindeer/01.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "The tiny reindeer was Juniper. He had gotten lost during flying practice. He was too young to fly far. Liam knelt close and said, \"I will help you.\" Pepper gave a soft bark. Together is the way.",
+        "image": "/samples/liam-and-the-lost-reindeer/02.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Liam wrapped Juniper in his scarf. Then Liam, Pepper, and Juniper followed the glittering hoofprints past the gate. The trail led into the snowy forest, under pine branches and soft blue shadows. Liam held Juniper close.",
+        "image": "/samples/liam-and-the-lost-reindeer/03.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "High above, a snowy owl blinked down. \"Find the tree that touches stars,\" she hooted. Liam looked around at many pines. Pepper sniffed. Juniper shivered. Liam whispered, \"Together is the way,\" and kept searching.",
+        "image": "/samples/liam-and-the-lost-reindeer/04.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Soon they reached a frozen pond. Liam stopped at the shiny ice. A rabbit family hopped over and thumped a safe path. Liam followed their tracks slowly. Pepper padded behind. Juniper crossed beside Liam, step by careful step.",
+        "image": "/samples/liam-and-the-lost-reindeer/05.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Then snow began to swirl and dance. The wind puffed white flakes around them. Juniper trembled. Liam sat behind a snowy log, tucked Juniper close, and sang a cozy humming song. Pepper curled near them. Together is the way.",
+        "image": "/samples/liam-and-the-lost-reindeer/06.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "At last, the snowstorm drifted away. The sky turned dark blue and still. Liam looked up and gasped. The North Star shone bright above a hill. Juniper lifted his small head. Pepper wagged fast. They climbed toward the light.",
+        "image": "/samples/liam-and-the-lost-reindeer/07.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "At the top, Liam pointed high. \"You can do it, Juniper!\" he cheered. Juniper ran, stumbled, then tried again. Liam clapped. Pepper barked happily. Juniper leaped into the air, and his tiny hooves sparkled like stars.",
+        "image": "/samples/liam-and-the-lost-reindeer/08.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Bells jingled through the sky. Santa's sleigh swooped down in a silver shimmer. The reindeer team cheered for Juniper with happy snorts and stomps. Liam laughed and waved. Juniper nuzzled Liam first. Together is the way.",
+        "image": "/samples/liam-and-the-lost-reindeer/09.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "On Christmas morning, Liam ran into the backyard again. Fresh hoofprints glittered across the roof. In the snow sat a silver bell. Liam smiled and held Pepper close. The yard felt merry and magical and wonderfully near.",
+        "image": "/samples/liam-and-the-lost-reindeer/10.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "COVER_BACK",
+        "text": "",
+        "image": "/samples/liam-and-the-lost-reindeer/11.webp",
+        "width": 768,
+        "height": 1052
+      }
+    ]
+  },
+  {
+    "slug": "elis-first-hanukkah-lights",
+    "storyId": "17809a7a-7d56-49d5-95b2-1adeedd542ca",
+    "title": "Eli's First Hanukkah Lights",
+    "description": "This year Eli is big enough to help light the menorah. Across eight nights he hears the story of the oil, makes latkes with Bubbe Miriam, spins the dreidel and shares the holiday with a neighbor who would have been alone. Made from the \"First Hanukkah Lights\" story.",
+    "story": "Hanukkah story",
+    "style": "3D Animation",
+    "starring": "Eli (5), his big sister Noa and Bubbe Miriam",
+    "pages": [
+      {
+        "type": "COVER_FRONT",
+        "text": "",
+        "image": "/samples/elis-first-hanukkah-lights/00.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "It was the first night of Hanukkah. Eli stood by the window and smiled at the family menorah. This year, Eli was finally big enough to help. Noa squeezed his hand. Bubbe Miriam whispered, \"Little lights, big love.\"",
+        "image": "/samples/elis-first-hanukkah-lights/01.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Bubbe Miriam opened her hands as she told the story. She spoke of the Maccabees and one tiny jar of oil. \"It lasted eight whole nights,\" said Noa. Eli's eyes grew wide. \"Little lights, big love,\" he said.",
+        "image": "/samples/elis-first-hanukkah-lights/02.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Eli held the shamash very carefully. Noa helped steady his small hand. Together they lit the first candle. Warm gold flickered on the window. The family sang sweet songs, and Eli felt tall and proud inside.",
+        "image": "/samples/elis-first-hanukkah-lights/03.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "On another night, the kitchen smelled warm and yummy. Bubbe Miriam grated potatoes. Noa stirred the bowl. Eli tried to pat little latkes flat. Oops, one slipped sideways. Everyone laughed. Soon, crispy golden latkes sizzled in the pan.",
+        "image": "/samples/elis-first-hanukkah-lights/04.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Another night brought cousins and a spinning dreidel. Eli gave it a big twirl. It wobbled, danced, and tipped over. The cousins giggled. Noa showed the letters. Nun, gimel, hei, and shin each had a turn to shine.",
+        "image": "/samples/elis-first-hanukkah-lights/05.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Snow fluttered down on a blue, quiet evening. Inside, the table held soft sufganiyot with sugar on top. Eli bit one, and red jelly peeked out. A dot landed on his nose. Bubbe Miriam laughed. So did Eli.",
+        "image": "/samples/elis-first-hanukkah-lights/06.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Then Eli looked at his shiny gelt. He looked at the bright window too. \"Little lights, big love,\" Eli said softly. He asked Noa and Bubbe Miriam, \"Can we share with Mrs. Rosen next door? She is alone tonight.\"",
+        "image": "/samples/elis-first-hanukkah-lights/07.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "So Eli carried a small plate with gelt and sufganiyot. Noa walked beside him. Bubbe Miriam knocked on the neighbor's door. Mrs. Rosen smiled with shiny eyes. Soon she joined them, and the room felt brighter than before.",
+        "image": "/samples/elis-first-hanukkah-lights/08.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "At last, the eighth night arrived. Eli stood by the window again. Now every candle glowed on the menorah, tall and bright. Mrs. Rosen sang with Noa and Bubbe Miriam. Outside, snow sparkled. Inside, every face shone softly.",
+        "image": "/samples/elis-first-hanukkah-lights/09.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "On the first night, Eli wanted to help light one candle. Now Eli looked at the glowing window and all the smiling faces. He snuggled close to his family and friend. \"Little lights, big love,\" Eli said, and everyone nodded.",
+        "image": "/samples/elis-first-hanukkah-lights/10.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "COVER_BACK",
+        "text": "",
+        "image": "/samples/elis-first-hanukkah-lights/11.webp",
+        "width": 768,
+        "height": 1052
+      }
+    ]
+  },
+  {
+    "slug": "zoe-the-big-sister",
+    "storyId": "319288aa-4867-4a29-9e68-f0eece82abb1",
+    "title": "Zoe the Big Sister",
+    "description": "Zoe is excited, curious and a little worried about the new baby. She gets the nursery ready, finds her big-sister jobs and learns that love grows bigger, not smaller, right up to Sam's very first smile. Made from the \"Big Brother / Sister\" story.",
+    "story": "Big sibling story",
+    "style": "Anime",
+    "starring": "Zoe (4), her baby brother Sam and Mom",
+    "pages": [
+      {
+        "type": "COVER_FRONT",
+        "text": "",
+        "image": "/samples/zoe-the-big-sister/00.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "One sunny morning, Mom smiled at Zoe. She touched her growing tummy. “Big news,” Mom said softly. “A new baby is coming.” Zoe blinked, then grinned wide. “I am going to be a big sister?”",
+        "image": "/samples/zoe-the-big-sister/01.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Zoe twirled, then stopped very still. She felt excited, curious, and a little worried too. “Big sister heart, growing from the start,” Mom said. Zoe whispered the words back and held Mom’s hand.",
+        "image": "/samples/zoe-the-big-sister/02.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Soon, Zoe helped fix the baby’s room. She placed soft blankets near the crib with the star mobile. Then Zoe chose her plush bunny to share. “This toy can help Sam feel cozy,” she said.",
+        "image": "/samples/zoe-the-big-sister/03.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "That night, Zoe sat quietly by Mom. “Will there still be enough love for me?” she asked. Mom gave Zoe a big hug. “Love grows bigger, not smaller.” Zoe breathed in. “Big sister heart, growing from the start.”",
+        "image": "/samples/zoe-the-big-sister/04.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Then the baby arrived. Mom showed Zoe her tiny brother, Sam, wrapped in a yellow blanket. Zoe leaned close and peeked at his little fingers. “They are so small,” Zoe whispered. Her eyes looked soft and wide.",
+        "image": "/samples/zoe-the-big-sister/05.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "At home, Zoe learned baby days were busy. Sam cried. Sam slept. Sam needed gentle help again and again. Zoe frowned when playtime stopped. Then she remembered, “Big sister heart, growing from the start,” and stayed nearby.",
+        "image": "/samples/zoe-the-big-sister/06.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Zoe found important big-sister jobs. She sang a soft lullaby. She fetched a diaper for Mom. She made silly puffed-cheek faces for Sam. At last, Sam grew calm, and Zoe stood tall beside the crib.",
+        "image": "/samples/zoe-the-big-sister/07.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "One morning, Zoe shook the plush bunny very gently. Sam looked at Zoe. Then his mouth made a tiny smile. “Mom! Sam smiled at me!” Zoe cried. Her whole face shone brighter than the star mobile.",
+        "image": "/samples/zoe-the-big-sister/08.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "Later, Mom and Zoe shared a quiet snack at the kitchen table. Sam slept nearby. Mom read Zoe’s favorite book. Zoe leaned close and smiled. Love still fit just right, and Zoe felt proud inside.",
+        "image": "/samples/zoe-the-big-sister/09.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "PAGE",
+        "text": "That night, Zoe stood by the crib with the star mobile. She tucked Sam’s yellow blanket snug. “I’m your big sister, and I’ll always look out for you,” she whispered. Mom smiled. Zoe’s big sister heart glowed warm.",
+        "image": "/samples/zoe-the-big-sister/10.webp",
+        "width": 768,
+        "height": 1052
+      },
+      {
+        "type": "COVER_BACK",
+        "text": "",
+        "image": "/samples/zoe-the-big-sister/11.webp",
+        "width": 768,
+        "height": 1052
+      }
+    ]
   }
 ]

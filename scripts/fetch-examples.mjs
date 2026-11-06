@@ -66,13 +66,16 @@ async function saveImage(url, file, trim) {
 }
 
 const sources = JSON.parse(await readFile(SOURCES, "utf8"));
-await rm(OUT_IMAGES, { recursive: true, force: true });
+// Books from other sources (scripts/import-dev-examples.mjs) are kept; only this list's books are rebuilt.
+const kept = JSON.parse(await readFile(OUT_JSON, "utf8").catch(() => "[]"))
+  .filter((b) => !sources.some((s) => slugify(s.title) === b.slug));
 const books = [];
 
 for (const source of sources) {
   const detail = await getJson(`${API}/stories/${source.storyId}`);
   const slug = slugify(source.title);
   const dir = path.join(OUT_IMAGES, slug);
+  await rm(dir, { recursive: true, force: true });
   await mkdir(dir, { recursive: true });
 
   const pages = [];
@@ -108,5 +111,6 @@ for (const source of sources) {
   console.log(`${source.title}: ${pages.length} pages`);
 }
 
+books.push(...kept);
 await writeFile(OUT_JSON, JSON.stringify(books, null, 2) + "\n");
 console.log(`Wrote ${books.length} books to ${path.relative(ROOT, OUT_JSON)}`);

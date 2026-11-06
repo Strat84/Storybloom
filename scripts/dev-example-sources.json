@@ -1,0 +1,35 @@
+[
+  {
+    "storyId": "4490f389-5313-45df-a274-892704407897",
+    "title": "A Night at the North Pole with Ezra",
+    "story": "North Pole story",
+    "style": "3D Animation",
+    "starring": "Ezra (6) and his little sister Ruby",
+    "description": "A golden invitation under his pillow sends Ezra and little Ruby to the North Pole on the back of Bramble the polar bear. Ezra paints toys in the workshop, taste-tests Mrs. Claus's cookies and helps a wobbly young reindeer find the courage to fly. Made from the \"A Night at the North Pole\" story."
+  },
+  {
+    "storyId": "2225d9cf-e7e9-459d-906c-804e3a3c2b10",
+    "title": "Liam and the Lost Reindeer",
+    "story": "Lost Reindeer story",
+    "style": "Traditional Cartoon",
+    "starring": "Liam (5) and Pepper the border collie",
+    "description": "Just before Christmas, Liam finds a tiny reindeer named Juniper stuck in the backyard snow. With Pepper the dog, he follows glittering hoofprints past a riddling owl, across a frozen pond and through a snowstorm to help Juniper fly home. Made from the \"Lost Reindeer\" story.",
+    "trimPages": [0]
+  },
+  {
+    "storyId": "17809a7a-7d56-49d5-95b2-1adeedd542ca",
+    "title": "Eli's First Hanukkah Lights",
+    "story": "Hanukkah story",
+    "style": "3D Animation",
+    "starring": "Eli (5), his big sister Noa and Bubbe Miriam",
+    "description": "This year Eli is big enough to help light the menorah. Across eight nights he hears the story of the oil, makes latkes with Bubbe Miriam, spins the dreidel and shares the holiday with a neighbor who would have been alone. Made from the \"First Hanukkah Lights\" story."
+  },
+  {
+    "storyId": "319288aa-4867-4a29-9e68-f0eece82abb1",
+    "title": "Zoe the Big Sister",
+    "story": "Big sibling story",
+    "style": "Anime",
+    "starring": "Zoe (4), her baby brother Sam and Mom",
+    "description": "Zoe is excited, curious and a little worried about the new baby. She gets the nursery ready, finds her big-sister jobs and learns that love grows bigger, not smaller, right up to Sam's very first smile. Made from the \"Big Brother / Sister\" story."
+  }
+]

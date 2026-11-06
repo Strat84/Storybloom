@@ -8,12 +8,13 @@ import Partners from "@/pages/Partners";
 import { Examples, ExampleBookPage } from "@/pages/Examples";
 import Landing, { landingFaqs } from "@/pages/Landing";
 import FaqPage, { allFaqs } from "@/pages/FaqPage";
-import { BooksCatalog, BooksSlug, ShippingReturns } from "@/pages/Books";
+import { BooksCatalog, BooksSlug, ShippingReturns, StoriesSlug, storyName } from "@/pages/Books";
+import { THEMES, THEME_EXAMPLES, builtInTheme } from "@/content/themes";
 import Terms from "@/pages/Terms";
 import Privacy from "@/pages/Privacy";
 import { SignIn, SignUp, ForgotPassword, CreateNewPassword } from "@/pages/auth";
 import { enabledLandingPages, type LandingPage } from "@/content/landing";
-import { EXAMPLE_BOOKS, coverOf, getExample } from "@/content/examples";
+import { EXAMPLE_BOOKS, coverOf, coverOf as exampleCover, getExample } from "@/content/examples";
 import { CATALOG, bookForPrerender, coverOf as bookCoverOf, exampleTitle, getEntry, getHub, liveHubs } from "@/content/catalog";
 import { digitalPrice, printPrice, shippingMethods } from "@/lib/pricing";
 import {
@@ -281,6 +282,25 @@ export function pageMetaFor(path: string): PageMeta {
     const meta = catalogMeta(catalogPage[1], clean);
     if (meta) return meta;
   }
+  const story = clean.match(/^\/stories\/([^/]+)$/);
+  if (story) {
+    const theme = builtInTheme(story[1]);
+    if (theme) {
+      const name = storyName(theme);
+      const example = getExample(THEME_EXAMPLES[theme.id]);
+      return {
+        path: clean,
+        title: `${name}: Personalized Book | ${SITE}`,
+        description: truncate(`${theme.tagline} ${theme.description}`, 158),
+        ...(example ? { ogImage: exampleCover(example).image, ogImageAlt: `Cover of ${example.title}` } : {}),
+        ogType: "product",
+        jsonLd: [
+          breadcrumbLd([{ name: "Home", path: "/" }, { name: "Books", path: "/books" }, { name, path: clean }]),
+          bookProductLd(clean, name, theme.description, example ? exampleCover(example).image : undefined),
+        ],
+      };
+    }
+  }
   if (clean.startsWith("/generated-story")) return noindex(clean, "Your story");
   if (clean.startsWith("/book/")) return noindex(clean, "Your book");
   return NOT_FOUND_META;
@@ -294,6 +314,7 @@ export const ROUTES: RouteDef[] = [
   { path: "/pricing", component: Pricing },
   { path: "/books", component: BooksCatalog },
   { path: "/books/:slug", component: BooksSlug },
+  { path: "/stories/:id", component: StoriesSlug },
   { path: "/shipping-returns", component: ShippingReturns },
   { path: "/examples", component: Examples },
   { path: "/examples/:slug", component: ExampleBookPage },
@@ -320,6 +341,7 @@ export const SITEMAP: SitemapEntry[] = [
   ...(CATALOG.length ? [{ path: "/books", priority: 0.9, changefreq: "weekly" as const }] : []),
   ...liveHubs().map((h) => ({ path: `/books/${h.slug}`, priority: 0.8, changefreq: "weekly" as const })),
   ...CATALOG.map((b) => ({ path: `/books/${b.slug}`, priority: 0.8, changefreq: "monthly" as const })),
+  ...THEMES.map((t) => ({ path: `/stories/${t.id}`, priority: 0.8, changefreq: "monthly" as const })),
   { path: "/shipping-returns", priority: 0.4, changefreq: "yearly" },
   { path: "/examples", priority: 0.7, changefreq: "monthly" },
   ...EXAMPLE_BOOKS.map((b) => ({ path: `/examples/${b.slug}`, priority: 0.6, changefreq: "monthly" as const })),

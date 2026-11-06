@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "wouter";
 import { CheckCircle2, Truck } from "lucide-react";
 import config from "@config";
-import { Breadcrumbs, CreateButton, FaqSection, HowItWorks, Section, SectionHeading } from "@/components/marketing";
+import { Breadcrumbs, CreateButton, FaqSection, HowItWorks, Section, SectionHeading, ThemeGrid } from "@/components/marketing";
+import { THEMES, THEME_EXAMPLES, builtInTheme, type StoryTheme } from "@/content/themes";
+import { coverOf as exampleCoverOf, getExample } from "@/content/examples";
 import VerifiedReviews from "@/components/VerifiedReviews";
 import NotFound from "@/pages/NotFound";
 import { generalFaqs } from "@/content/faq";
@@ -347,6 +349,121 @@ export function BooksSlug() {
   if (hub) return <HubPage hub={hub} />;
   const entry = getEntry(slug);
   return entry ? <BookPage key={entry.slug} entry={entry} /> : <NotFound />;
+}
+
+const CHRISTMAS_STORIES = new Set(["saves-christmas", "north-pole-night", "lost-reindeer"]);
+export const storyName = (t: StoryTheme) => t.label.replace("[Name]", "Your Child");
+
+/** /stories/<id>: the page for one built-in story (the cards' "Learn more"). */
+function StoryPage({ theme }: { theme: StoryTheme }) {
+  const now = useNow();
+  const phase = holidayPhase(now);
+  const cutoff = activeCutoff(phase);
+  const name = storyName(theme);
+  const path = `/stories/${theme.id}`;
+  const createHref = `/create?theme=${theme.id}`;
+  const createLabel = "Create this book for your child";
+  const example = getExample(THEME_EXAMPLES[theme.id]);
+  const exampleCover = example ? exampleCoverOf(example) : null;
+  const standard = shippingMethods()[0];
+  const others = THEMES.filter((t) => t.id !== theme.id && t.season === theme.season);
+
+  useEffect(() => {
+    track("view_content", { content_type: "story", content_ids: [theme.id], content_name: theme.id, content_category: theme.season });
+  }, [theme.id, theme.season]);
+
+  return (
+    <>
+      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Books", path: "/books" }, { name, path }]} />
+
+      <section className="container mx-auto px-4 sm:px-6 pt-6 pb-10 grid md:grid-cols-2 gap-8 items-center max-w-5xl">
+        {exampleCover ? (
+          <figure className="relative">
+            <img src={exampleCover.image} alt={`Cover of ${example!.title}, an example of ${name}`} width={exampleCover.width} height={exampleCover.height}
+              fetchPriority="high" className="w-full h-auto rounded-2xl shadow-md border" />
+            <figcaption className="absolute left-3 bottom-3"><ExampleBadge /></figcaption>
+          </figure>
+        ) : (
+          <div className={`rounded-2xl border bg-gradient-to-br ${theme.accent} aspect-[3/4] flex items-center justify-center p-8 text-center`}>
+            <p className="text-3xl font-display font-bold leading-tight">{name}</p>
+          </div>
+        )}
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
+            {theme.season === "holiday" ? "Holiday story" : "Everyday adventure"}
+          </p>
+          <h1 className="text-3xl sm:text-4xl font-display font-bold leading-tight mb-3">{name}</h1>
+          <p className="text-lg font-story text-muted-foreground mb-4">{theme.tagline}</p>
+          <p className="text-lg font-semibold mb-4">
+            {formatPrice(printPrice())} printed, free US shipping
+            <span className="block text-sm font-normal text-muted-foreground">or {formatPrice(digitalPrice())} as a digital PDF</span>
+          </p>
+          <span onClick={() => track("view_content", { content_type: "story_create_click", content_ids: [theme.id], content_name: theme.id })}>
+            <CreateButton href={createHref} label={createLabel} />
+          </span>
+          <p className="text-sm text-muted-foreground mt-3">Free to create and preview. No credit card needed.</p>
+        </div>
+      </section>
+
+      <div className="container mx-auto px-4 sm:px-6"><OneOfAKind /></div>
+
+      {CHRISTMAS_STORIES.has(theme.id) && phase !== "off" && (
+        <div className="container mx-auto px-4 sm:px-6 mt-6">
+          <div className="max-w-3xl mx-auto rounded-2xl border p-5 flex gap-3 items-start">
+            <Truck className="h-6 w-6 text-primary shrink-0" aria-hidden />
+            <p className="text-sm text-muted-foreground">
+              {cutoff
+                ? `Order your printed book by ${formatCutoff(cutoff)}${phase === "expressOnly" ? " with expedited shipping" : ""} for delivery before Christmas. `
+                : "Printed books ordered now will arrive after Christmas. "}
+              The digital book is ready instantly, any time.
+            </p>
+          </div>
+        </div>
+      )}
+
+      <Section>
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-display font-bold mb-3">What happens in the story</h2>
+          <p className="font-story text-lg text-foreground/80">{theme.description}</p>
+          {example && (
+            <p className="mt-4">
+              <Link href={`/examples/${example.slug}`} className="text-primary font-medium hover:underline">
+                Read a finished example: {example.title}
+              </Link>
+            </p>
+          )}
+        </div>
+      </Section>
+
+      <Section className="pt-0">
+        <div className="max-w-3xl mx-auto rounded-2xl border bg-card p-6">
+          <h2 className="text-2xl font-display font-bold mb-3">Details</h2>
+          <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 font-story">
+            <dt className="font-semibold">Length</dt><dd>{config.story.pageCounts.join(", ").replace(/, (\d+)$/, " or $1")} story pages, your choice</dd>
+            <dt className="font-semibold">Printed book</dt><dd>{formatPrice(printPrice())} softcover, free standard shipping in the US ({standard.minDays}-{standard.maxDays} business days)</dd>
+            <dt className="font-semibold">Digital PDF</dt><dd>{formatPrice(digitalPrice())}, ready right away</dd>
+            <dt className="font-semibold">Returns</dt><dd>Free reprint or refund if it arrives damaged or misprinted. <Link href="/shipping-returns" className="underline">Shipping and returns</Link></dd>
+          </dl>
+        </div>
+      </Section>
+
+      <HowItWorks />
+
+      <div className="container mx-auto px-4 sm:px-6"><VerifiedReviews /></div>
+
+      {others.length > 0 && <ThemeGrid themes={others} title="More stories like this" />}
+
+      <Section className="text-center pt-0">
+        <CreateButton href={createHref} label={createLabel} />
+      </Section>
+    </>
+  );
+}
+
+export function StoriesSlug() {
+  const { id = "" } = useParams<{ id: string }>();
+  const theme = builtInTheme(id);
+  return theme ? <StoryPage key={theme.id} theme={theme} /> : <NotFound />;
 }
 
 /** Shipping and returns: linked from book pages and given to Google Merchant Center. */

@@ -30,7 +30,7 @@ export interface StoryTheme {
   illustrationGuide: string;
   /** Emoji-free accent used on cards. */
   accent: string;
-  /** SEO landing page for this theme, if any. */
+  /** This story's own page: /stories/<id> for built-in stories, /books/<slug> for catalog books. */
   landingPath?: string;
 }
 
@@ -75,7 +75,6 @@ export const THEMES: StoryTheme[] = [
     illustrationGuide:
       "Cozy, glowing Christmas palette: deep reds, evergreen, warm gold light, soft snow. Recurring elements: Pip the elf (green hat with a bell), Santa's red sleigh, the golden spark of light.",
     accent: "from-red-500/15 to-emerald-500/15",
-    landingPath: "/christmas-book-for-kids",
   },
   {
     id: "north-pole-night",
@@ -101,7 +100,6 @@ export const THEMES: StoryTheme[] = [
     illustrationGuide:
       "Soft, dreamy night palette: indigo sky, aurora greens and purples, warm window light, fluffy snow. Recurring elements: Bramble the polar bear (red scarf), the golden invitation, the glowing ornament.",
     accent: "from-indigo-500/15 to-emerald-400/15",
-    landingPath: "/christmas-book-for-kids",
   },
   {
     id: "lost-reindeer",
@@ -127,7 +125,6 @@ export const THEMES: StoryTheme[] = [
     illustrationGuide:
       "Wintry woodland palette: snowy whites, pine greens, berry reds, soft blue shadows. Recurring elements: Juniper the baby reindeer (tiny red nose ribbon), the glittering hoofprints, the North Star.",
     accent: "from-sky-500/15 to-rose-400/15",
-    landingPath: "/christmas-book-for-kids",
   },
   {
     id: "hanukkah-lights",
@@ -178,7 +175,6 @@ export const THEMES: StoryTheme[] = [
     illustrationGuide:
       "Bright, celebratory palette: confetti colors, sunny yellows, candy pinks and sky blues. Recurring elements: the birthday cake with candles, Pop the balloon creature, the treasure map.",
     accent: "from-pink-500/15 to-amber-300/20",
-    landingPath: "/personalized-birthday-book",
   },
   {
     id: "space-explorer",
@@ -229,9 +225,21 @@ export const THEMES: StoryTheme[] = [
     illustrationGuide:
       "Soft, warm family palette: pastels, gentle morning light, cozy home interiors. Recurring elements: the shared toy, the baby's crib with a star mobile. Keep family members gentle and non-specific so any family sees itself.",
     accent: "from-rose-400/15 to-teal-400/15",
-    landingPath: "/new-sibling-book",
   },
 ];
+
+// Each built-in story has its own page (StoryPage in pages/Books.tsx), so "Learn more" on its card
+// goes to that story, not to a page about a different one.
+for (const t of THEMES) t.landingPath = `/stories/${t.id}`;
+
+/** Finished example books (content/examples.ts) made from a built-in story, by theme id. */
+export const THEME_EXAMPLES: Record<string, string> = {
+  "saves-christmas": "mia-saves-christmas",
+  "birthday-adventure": "noahs-birthday-adventure",
+  "space-explorer": "sofia-the-space-explorer",
+};
+
+export const builtInTheme = (id: string) => THEMES.find((t) => t.id === id);
 
 /** Catalog books the visitor has opened (content/catalog.ts), available alongside THEMES. */
 const REGISTERED = new Map<string, StoryTheme>();

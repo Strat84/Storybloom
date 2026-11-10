@@ -144,9 +144,12 @@ const config = {
     freePreviews: 3,
     /** Image regenerations per story (set by the backend; shown for copy only). */
     regenerationLimit: 5,
-    /** Redraws after reading the book to the end or starting to buy, and after buying (backend: services/storyAccess.js). */
+    /**
+     * Redraws after reading the book to the end, starting to buy, or for customers who bought another book;
+     * and how many a reason in the "out of redraws" popup adds (backend: services/storyAccess.js).
+     */
     engagedRegenerationLimit: 10,
-    purchasedRegenerationLimit: 20,
+    feedbackRedraws: 3,
     /** Hours an unbought book stays fully readable, and pages that stay open after that (set by the backend). */
     previewHours: 72,
     freePages: 3,

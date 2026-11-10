@@ -7,7 +7,7 @@
  * (fetch keepalive, so the last page turn isn't lost when someone closes the tab).
  */
 import config from "@config";
-import { getIdToken } from "./api";
+import { api, getIdToken } from "./api";
 
 export type ReadingEventName =
   | "book_open"
@@ -25,7 +25,8 @@ export type ReadingEventName =
   | "redraw_limit_hit"
   | "locked_view"
   | "survey_answer"
-  | "survey_dismiss";
+  | "survey_dismiss"
+  | "more_redraws";
 
 export interface ReadingEvent {
   name: ReadingEventName;
@@ -39,6 +40,8 @@ export interface ReadingEvent {
   source?: string;
   /** "inline" (book page) or "reader" (full-screen reading). */
   view?: string;
+  /** more_redraws only: what still isn't right, in their words. */
+  text?: string;
 }
 
 const FLUSH_MS = 5000;
@@ -100,6 +103,21 @@ export async function flushReading(leaving = false) {
       }
     }),
   );
+}
+
+/**
+ * The "out of redraws" popup: send the reason now and get the new limit back.
+ * granted false: too short (400) or this book already got its extra redraws.
+ */
+export async function requestMoreRedraws(storyId: string, ask: { category?: string; text: string; page?: number }) {
+  try {
+    return await api<{ granted: boolean; regenerationLimit?: number; added?: number; error?: string }>(`/stories/${storyId}/preview-count`, {
+      method: "PUT",
+      body: { events: [{ name: "more_redraws", ...ask, at: Date.now(), device: device() }] },
+    });
+  } catch (err) {
+    return { granted: false, error: (err as Error).message };
+  }
 }
 
 /** Where this visit came from, for "book_open" (e.g. "email:book_offer_first"). */

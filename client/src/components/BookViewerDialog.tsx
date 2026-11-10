@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { api, sleep, type Story, type StoryPage } from "@/lib/api";
-import { recordReading } from "@/lib/reading";
+import { recordReading, requestMoreRedraws } from "@/lib/reading";
 import { cn } from "@/lib/utils";
 
 /** Quick reasons for a redraw: they guide the feedback and tell us what goes wrong most. */
@@ -63,6 +63,8 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
   const [draft, setDraft] = useState({ title: "", author: "", text: "" });
   const [feedback, setFeedback] = useState("");
   const [reason, setReason] = useState<(typeof REDRAW_REASONS)[number]["key"] | null>(null);
+  const [why, setWhy] = useState("");
+  const [askState, setAskState] = useState<null | "sending" | "maxed">(null);
   const [busy, setBusy] = useState<null | "saving" | "drawing">(null);
 
   useEffect(() => {
@@ -212,16 +214,46 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
                 {mode === "redraw" && (
                   <div className="space-y-2 rounded-lg border p-3">
                     {limitReached ? (
-                      <div className="space-y-2 text-sm">
-                        <p className="font-medium">You've used all {limit} redraws for this book.</p>
-                        {limit < config.story.engagedRegenerationLimit ? (
-                          <p className="text-muted-foreground">Read your book to the last page to unlock {config.story.engagedRegenerationLimit - limit} more.</p>
-                        ) : !story?.purchased && limit < config.story.purchasedRegenerationLimit ? (
-                          <p className="text-muted-foreground">Buying the book adds more redraws ({config.story.purchasedRegenerationLimit} in total), so you can keep polishing it.</p>
-                        ) : null}
-                        <p className="text-muted-foreground">Still not right? <a className="underline text-primary" href={supportHref}>Email us</a> and we'll fix it with you.</p>
-                        <Button variant="outline" onClick={() => setMode("view")}>Back</Button>
-                      </div>
+                      askState === "maxed" ? (
+                        <div className="space-y-2 text-sm">
+                          <p className="font-medium">Thanks, we've noted it.</p>
+                          <p className="text-muted-foreground">This book has had all its extra redraws. <a className="underline text-primary" href={supportHref}>Email us</a> and we'll fix it with you.</p>
+                          <Button variant="outline" onClick={() => setMode("view")}>Back</Button>
+                        </div>
+                      ) : (
+                        <div className="space-y-2 text-sm">
+                          <p className="font-medium">You've used all {limit} redraws for this book.</p>
+                          <p className="text-muted-foreground">Tell us what still isn't right and we'll add {config.story.feedbackRedraws} more redraws right now.</p>
+                          <div className="flex flex-wrap gap-1.5">
+                            {REDRAW_REASONS.map((r) => (
+                              <button key={r.key} type="button" onClick={() => setReason(r.key)} disabled={askState === "sending"}
+                                className={cn("rounded-full border px-3 py-1 text-xs", reason === r.key ? "border-primary bg-primary/10 text-primary" : "border-border")}>
+                                {r.label}
+                              </button>
+                            ))}
+                          </div>
+                          <Textarea rows={3} aria-label="What still isn't right" placeholder="e.g. Her face still looks older than 4, and her hair should be curly" value={why} onChange={(e) => setWhy(e.target.value)} disabled={askState === "sending"} />
+                          <div className="flex gap-2">
+                            <Button disabled={why.trim().length < 8 || askState === "sending"} onClick={async () => {
+                              if (!story) return;
+                              setAskState("sending");
+                              const res = await requestMoreRedraws(story.storyId, { category: reason ?? "none", text: why.trim(), page: pageNo });
+                              if (res.granted && res.regenerationLimit) {
+                                onStoryUpdate({ ...story, regenerationLimit: res.regenerationLimit });
+                                toast({ title: `${res.added ?? config.story.feedbackRedraws} more redraws added`, description: "Thanks for telling us. Describe the change you want and redraw." });
+                                setWhy("");
+                                setAskState(null);
+                              } else if (res.error && /little more/.test(res.error)) {
+                                toast({ title: "Tell us a little more", description: "A few words about what isn't right is enough." });
+                                setAskState(null);
+                              } else {
+                                setAskState("maxed");
+                              }
+                            }}>{askState === "sending" ? "Sending…" : `Get ${config.story.feedbackRedraws} more redraws`}</Button>
+                            <Button variant="outline" onClick={() => setMode("view")} disabled={askState === "sending"}>Back</Button>
+                          </div>
+                        </div>
+                      )
                     ) : (
                       <>
                         <Label>What's wrong with this picture?</Label>

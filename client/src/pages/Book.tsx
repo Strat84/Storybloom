@@ -632,7 +632,11 @@ export default function Book() {
         onClose={() => setEditor(false)}
         onStoryUpdate={(updated) => {
           setPages(updated.pages);
-          if (updated.regenerationUsed !== undefined) setListItem((item) => (item ? { ...item, regenerationUsed: updated.regenerationUsed } : item));
+          setListItem((item) => (item ? {
+            ...item,
+            ...(updated.regenerationUsed !== undefined ? { regenerationUsed: updated.regenerationUsed } : {}),
+            ...(updated.regenerationLimit !== undefined ? { regenerationLimit: updated.regenerationLimit } : {}),
+          } : item));
         }}
         initialIndex={Math.min(index, total - 1)}
       />

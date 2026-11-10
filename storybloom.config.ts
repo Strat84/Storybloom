@@ -144,6 +144,12 @@ const config = {
     freePreviews: 3,
     /** Image regenerations per story (set by the backend; shown for copy only). */
     regenerationLimit: 5,
+    /** Redraws after reading the book to the end or starting to buy, and after buying (backend: services/storyAccess.js). */
+    engagedRegenerationLimit: 10,
+    purchasedRegenerationLimit: 20,
+    /** Hours an unbought book stays fully readable, and pages that stay open after that (set by the backend). */
+    previewHours: 72,
+    freePages: 3,
   },
 
   tracking: {
@@ -151,6 +157,11 @@ const config = {
     gtmId: "GTM-TL24S7M7",
     /** Google Merchant Center account, used by the Google Customer Reviews opt-in after checkout. */
     googleMerchantId: 5893582530,
+    /**
+     * Microsoft Clarity project id (session recordings and heatmaps). null = off. Book pictures and
+     * story text are masked (data-clarity-mask); set the project's masking mode to "Strict" as well.
+     */
+    clarityProjectId: null as string | null,
   },
 };
 

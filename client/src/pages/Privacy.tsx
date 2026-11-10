@@ -96,6 +96,10 @@ export default function Privacy() {
               <p data-testid="text-cookies" className="text-muted-foreground">
                 We use cookies to maintain your session and improve user experience. You can disable
                 cookies in your browser settings, though some features may not function properly.
+                To make StoryBloom easier to use, we measure how the site is used: which pages are opened,
+                how far a book is read and which buttons are tapped. We may use Microsoft Clarity to see
+                anonymized recordings of how visitors move through the site; your book's pictures, its
+                story text and anything you type are hidden from those recordings.
               </p>
             </section>
 

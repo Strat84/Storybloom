@@ -100,6 +100,7 @@ export function buyDigital(storyId: string) {
   );
 }
 
+/** Printed book, express: Stripe's page collects the address, phone and shipping speed. */
 export function buyPrint(order: PrintOrder) {
   return startCheckout(
     order.storyId,
@@ -107,22 +108,13 @@ export function buyPrint(order: PrintOrder) {
     {
       storyId: order.storyId,
       pageCount: order.pageCount,
-      shippingOption: order.shipping,
       copies: order.copies,
+      express: true,
       // The backend recomputes the price; this is only logged if it differs.
       totalPrice: Number(order.totalPrice.toFixed(2)),
-      shippingAddress: {
-        name: order.address.name.trim(),
-        line1: order.address.street1.trim(),
-        line2: order.address.street2.trim() || undefined,
-        city: order.address.city.trim(),
-        state: order.address.state_code,
-        postalCode: order.address.postcode,
-        country: order.address.country_code,
-        phone: order.address.phone_number,
-      },
     },
-    { downloadOption: "pdf_and_book", value: order.totalPrice, shipping: order.shipping },
+    // The speed is picked on Stripe's page; the slowest one dates the review request safely after arrival.
+    { downloadOption: "pdf_and_book", value: order.totalPrice, shipping: "standard" },
   );
 }
 

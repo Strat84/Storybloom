@@ -1,3 +1,4 @@
+import config from "@config";
 import { Suspense, useEffect, useRef } from "react";
 import { Redirect, Route, Router, Switch, useLocation } from "wouter";
 import { Loader2 } from "lucide-react";
@@ -38,10 +39,27 @@ function renderRoute(route: RouteDef) {
   );
 }
 
+/**
+ * Microsoft Clarity session recordings, when a project id is set (storybloom.config.ts).
+ * Book pictures and story text carry data-clarity-mask, so recordings never show them.
+ */
+function loadClarity() {
+  const id = config.tracking.clarityProjectId;
+  if (!id || typeof window === "undefined" || (window as any).clarity) return;
+  (window as any).clarity = function (...args: unknown[]) {
+    ((window as any).clarity.q = (window as any).clarity.q || []).push(args);
+  };
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.clarity.ms/tag/${encodeURIComponent(id)}`;
+  document.head.appendChild(script);
+}
+
 /** Keeps <head>, scroll position and analytics in step with client-side navigation. */
 function RouteEffects() {
   const [location] = useLocation();
   const first = useRef(true);
+  useEffect(() => loadClarity(), []);
   useEffect(() => {
     const meta = pageMetaFor(location);
     applyHead(meta);

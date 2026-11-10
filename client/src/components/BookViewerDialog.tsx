@@ -8,10 +8,23 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { api, sleep, type Story, type StoryPage } from "@/lib/api";
+import { recordReading } from "@/lib/reading";
+import { cn } from "@/lib/utils";
+
+/** Quick reasons for a redraw: they guide the feedback and tell us what goes wrong most. */
+const REDRAW_REASONS = [
+  { key: "likeness", label: "Doesn't look like my child", hint: "e.g. rounder face, curly brown hair, no glasses, a bit younger" },
+  { key: "person", label: "Wrong or extra person", hint: "e.g. only Mia and Grandma should be in this picture" },
+  { key: "missing", label: "Something's missing", hint: "e.g. add the red scarf and the puppy" },
+  { key: "style", label: "Colors or style", hint: "e.g. brighter colors, make it nighttime" },
+  { key: "other", label: "Something else", hint: "Describe what to change in this picture" },
+] as const;
 
 export interface ViewerStory extends Story {
   storyId: string;
   pages: StoryPage[];
+  /** Bought: shown in the "out of redraws" message. */
+  purchased?: boolean;
 }
 
 interface BookViewerDialogProps {
@@ -49,6 +62,7 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
   const [mode, setMode] = useState<"view" | "edit" | "redraw">("view");
   const [draft, setDraft] = useState({ title: "", author: "", text: "" });
   const [feedback, setFeedback] = useState("");
+  const [reason, setReason] = useState<(typeof REDRAW_REASONS)[number]["key"] | null>(null);
   const [busy, setBusy] = useState<null | "saving" | "drawing">(null);
 
   useEffect(() => {
@@ -70,6 +84,20 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
   const limit = story?.regenerationLimit ?? config.story.regenerationLimit;
   const used = story?.regenerationUsed ?? 0;
   const limitReached = used >= limit;
+  useEffect(() => {
+    if (open && limitReached && mode === "redraw") recordReading(story?.storyId, { name: "redraw_limit_hit", page: index });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open, limitReached, mode]);
+  const supportHref = `mailto:support@storybloom.ai?subject=${encodeURIComponent(`Help with my book: ${story?.title ?? ""}`)}&body=${encodeURIComponent(
+    `Hi StoryBloom,
+
+I've used all my redraws and this still isn't right:
+
+(what's wrong, and on which page)
+
+My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${story?.storyId}` : ""}
+`,
+  )}`;
   const title = pages.find((p) => p.title)?.title ?? story?.title ?? "";
   const author = pages.find((p) => p.author)?.author ?? story?.author ?? "";
   const text = page ? page.text || page.content || (isBack ? "The End" : "") : "";
@@ -117,6 +145,7 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
   const redraw = async () => {
     if (!story || !page || !feedback.trim() || limitReached) return;
     setBusy("drawing");
+    recordReading(story.storyId, { name: "redraw_request", page: pageNo, category: reason ?? "none" });
     try {
       const res = await api<{ regenerationUsed?: number }>(`/stories/${story.storyId}/pages/${pageNo}/regenerate`, {
         method: "POST",
@@ -128,6 +157,7 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
         ...(isFront ? { coverImageUrl: url } : {}),
       });
       setFeedback("");
+      setReason(null);
       setMode("view");
     } catch (err) {
       toast({ title: "Couldn't redraw", description: (err as Error).message, variant: "destructive" });
@@ -147,7 +177,7 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
         ) : (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="relative rounded-xl border bg-muted overflow-hidden">
+              <div className="relative rounded-xl border bg-muted overflow-hidden" data-clarity-mask="true">
                 {image ? <img src={image} alt={`${label} illustration`} className="w-full h-auto" /> : <p className="p-8 text-center text-muted-foreground">No picture yet</p>}
                 {busy === "drawing" && (
                   <div className="absolute inset-0 bg-background/70 flex items-center justify-center font-medium"><Loader2 className="h-5 w-5 animate-spin mr-2" aria-hidden />Drawing…</div>
@@ -181,20 +211,44 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
 
                 {mode === "redraw" && (
                   <div className="space-y-2 rounded-lg border p-3">
-                    <Label htmlFor="v-feedback">What should change in this picture?</Label>
-                    <Textarea id="v-feedback" rows={3} placeholder="e.g. Make her hair curlier and add the red scarf" value={feedback} onChange={(e) => setFeedback(e.target.value)} disabled={!!busy} />
-                    <p className="text-xs text-muted-foreground">{limitReached ? `You've used all ${limit} redraws for this book.` : `${used} of ${limit} redraws used for this book`}</p>
-                    <div className="flex gap-2">
-                      <Button onClick={redraw} disabled={!!busy || !feedback.trim() || limitReached}>{busy === "drawing" ? "Drawing…" : "Redraw picture"}</Button>
-                      <Button variant="outline" onClick={() => setMode("view")} disabled={!!busy}>Cancel</Button>
-                    </div>
+                    {limitReached ? (
+                      <div className="space-y-2 text-sm">
+                        <p className="font-medium">You've used all {limit} redraws for this book.</p>
+                        {limit < config.story.engagedRegenerationLimit ? (
+                          <p className="text-muted-foreground">Read your book to the last page to unlock {config.story.engagedRegenerationLimit - limit} more.</p>
+                        ) : !story?.purchased && limit < config.story.purchasedRegenerationLimit ? (
+                          <p className="text-muted-foreground">Buying the book adds more redraws ({config.story.purchasedRegenerationLimit} in total), so you can keep polishing it.</p>
+                        ) : null}
+                        <p className="text-muted-foreground">Still not right? <a className="underline text-primary" href={supportHref}>Email us</a> and we'll fix it with you.</p>
+                        <Button variant="outline" onClick={() => setMode("view")}>Back</Button>
+                      </div>
+                    ) : (
+                      <>
+                        <Label>What's wrong with this picture?</Label>
+                        <div className="flex flex-wrap gap-1.5">
+                          {REDRAW_REASONS.map((r) => (
+                            <button key={r.key} type="button" onClick={() => setReason(r.key)} disabled={!!busy}
+                              className={cn("rounded-full border px-3 py-1 text-xs", reason === r.key ? "border-primary bg-primary/10 text-primary" : "border-border")}>
+                              {r.label}
+                            </button>
+                          ))}
+                        </div>
+                        <Label htmlFor="v-feedback" className="block pt-1">What should change?</Label>
+                        <Textarea id="v-feedback" rows={3} placeholder={REDRAW_REASONS.find((r) => r.key === reason)?.hint ?? "e.g. Make her hair curlier and add the red scarf"} value={feedback} onChange={(e) => setFeedback(e.target.value)} disabled={!!busy} />
+                        <p className="text-xs text-muted-foreground">{used} of {limit} redraws used for this book</p>
+                        <div className="flex gap-2">
+                          <Button onClick={redraw} disabled={!!busy || !feedback.trim()}>{busy === "drawing" ? "Drawing…" : "Redraw picture"}</Button>
+                          <Button variant="outline" onClick={() => setMode("view")} disabled={!!busy}>Cancel</Button>
+                        </div>
+                      </>
+                    )}
                   </div>
                 )}
 
                 {mode === "view" && !isBack && (
                   <div className="flex flex-wrap gap-2">
                     <Button variant="outline" size="sm" className="gap-1" onClick={startEdit}><Pencil className="h-3.5 w-3.5" aria-hidden />{isFront ? "Edit title" : "Edit text"}</Button>
-                    <Button variant="outline" size="sm" className="gap-1" onClick={() => setMode("redraw")} disabled={limitReached}><RefreshCw className="h-3.5 w-3.5" aria-hidden />Redraw picture</Button>
+                    <Button variant="outline" size="sm" className="gap-1" onClick={() => setMode("redraw")}><RefreshCw className="h-3.5 w-3.5" aria-hidden />Redraw picture</Button>
                   </div>
                 )}
               </div>

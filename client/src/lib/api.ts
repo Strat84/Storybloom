@@ -61,7 +61,7 @@ export async function api<T = any>(path: string, { method = "GET", body, auth = 
     data = text;
   }
   if (!res.ok) {
-    const message = (data && typeof data === "object" && data.message) || (typeof data === "string" && data) || `Request failed (${res.status})`;
+    const message = (data && typeof data === "object" && (data.message || data.error)) || (typeof data === "string" && data) || `Request failed (${res.status})`;
     throw new ApiError(message, res.status, data);
   }
   return data as T;
@@ -91,6 +91,17 @@ export interface StoryPage {
   imagePrompt?: string;
   imageUrl?: string | null;
   status?: string;
+  /** Past the free reading window: no picture or words until the book is bought. */
+  locked?: boolean;
+}
+
+/** What the book page may show of an unbought book (backend: services/storyAccess.js). */
+export interface PreviewState {
+  /** When full reading ends (ms), or null when it never does. */
+  endsAt: number | null;
+  locked: boolean;
+  freePages: number;
+  purchased: boolean;
 }
 
 export interface Story {

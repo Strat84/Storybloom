@@ -164,7 +164,7 @@ const config = {
      * Microsoft Clarity project id (session recordings and heatmaps). null = off. Book pictures and
      * story text are masked (data-clarity-mask); set the project's masking mode to "Strict" as well.
      */
-    clarityProjectId: null as string | null,
+    clarityProjectId: "zc0kgb7f1w" as string | null,
   },
 };
 

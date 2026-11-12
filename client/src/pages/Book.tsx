@@ -7,6 +7,7 @@ import { Progress } from "@/components/ui/progress";
 import { useToast } from "@/hooks/use-toast";
 import BookReader from "@/components/BookReader";
 import BookViewerDialog, { type ViewerStory } from "@/components/BookViewerDialog";
+import FixAcrossPages from "@/components/FixAcrossPages";
 import PreviewWatermark from "@/components/PreviewWatermark";
 import PrintOrderDialog from "@/components/PrintOrderDialog";
 import { api, normalizePages, type PreviewState, type StoryListItem, type StoryPage } from "@/lib/api";
@@ -89,6 +90,7 @@ export default function Book() {
     setEditor(true);
   };
   const [fixTip, setFixTip] = useState(false);
+  const [fixAcross, setFixAcross] = useState<{ issue: string; from: number } | null>(null);
   const [survey, setSurvey] = useState<"ask" | "done" | null>(null);
   const purchaseRef = useRef<HTMLDivElement>(null);
   const pollTimer = useRef<number | null>(null);
@@ -509,6 +511,9 @@ export default function Book() {
                 <Button size="sm" className="gap-1.5" onClick={() => openEditor("redraw")}><RefreshCw className="h-3.5 w-3.5" aria-hidden />Redraw this picture</Button>
                 {index !== total - 1 && <Button size="sm" variant="outline" className="gap-1.5" onClick={() => openEditor("edit")}><Pencil className="h-3.5 w-3.5" aria-hidden />{index === 0 ? "Edit the title" : "Edit the words"}</Button>}
               </div>
+              <button type="button" className="mt-2 text-xs font-medium text-primary underline" onClick={() => { recordReading(storyId, { name: "fix_open", cta: "several", page: index }); setFixAcross({ issue: "", from: index }); }}>
+                Same problem on several pages? Fix them together
+              </button>
             </div>
           )}
           <div className="flex gap-1.5 overflow-x-auto pb-1" role="tablist" aria-label="Pages" data-clarity-mask="true">
@@ -662,6 +667,23 @@ export default function Book() {
         }}
       />
 
+      {storyId && (
+        <FixAcrossPages
+          open={!!fixAcross}
+          onClose={() => setFixAcross(null)}
+          storyId={storyId}
+          pages={pages}
+          fromPage={fixAcross?.from ?? index}
+          initialIssue={fixAcross?.issue ?? ""}
+          onPageImage={(n, url) => setPages((prev) => prev.map((p, i) => (Number(p.pageNumber ?? i) === n ? { ...p, imageUrl: url } : p)))}
+          onUsage={(u) => setListItem((item) => (item ? {
+            ...item,
+            ...(u.regenerationLimit !== undefined ? { regenerationLimit: u.regenerationLimit } : {}),
+            ...(u.regenerationUsed !== undefined && u.regenerationUsed !== null ? { regenerationUsed: u.regenerationUsed } : {}),
+          } : item))}
+        />
+      )}
+
       <BookViewerDialog
         open={editor}
         loading={false}
@@ -677,6 +699,10 @@ export default function Book() {
         }}
         initialIndex={Math.min(index, total - 1)}
         initialMode={editorMode}
+        onFixAcross={(issue, from) => {
+          setEditor(false);
+          setFixAcross({ issue, from });
+        }}
       />
     </div>
   );

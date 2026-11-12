@@ -37,6 +37,8 @@ interface BookViewerDialogProps {
   initialIndex?: number;
   /** Open straight into redrawing the picture or editing the words. */
   initialMode?: "view" | "edit" | "redraw";
+  /** "Same problem on other pages?": hand the request to the several-pages fixer. */
+  onFixAcross?: (issue: string, pageNo: number) => void;
 }
 
 function orderPages(pages: StoryPage[]) {
@@ -59,7 +61,7 @@ async function waitForImage(storyId: string, pageNo: number) {
   throw new Error("Drawing the picture took too long. Please try again.");
 }
 
-export default function BookViewerDialog({ story, loading, open, onClose, onStoryUpdate, initialIndex = 0, initialMode = "view" }: BookViewerDialogProps) {
+export default function BookViewerDialog({ story, loading, open, onClose, onStoryUpdate, initialIndex = 0, initialMode = "view", onFixAcross }: BookViewerDialogProps) {
   const { toast } = useToast();
   const [index, setIndex] = useState(0);
   const [mode, setMode] = useState<"view" | "edit" | "redraw">("view");
@@ -67,6 +69,8 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
   const [feedback, setFeedback] = useState("");
   const [reason, setReason] = useState<(typeof REDRAW_REASONS)[number]["key"] | null>(null);
   const [why, setWhy] = useState("");
+  /** The last redraw's request, offered for the other pages. */
+  const [lastAsked, setLastAsked] = useState<{ text: string; page: number } | null>(null);
   const [askState, setAskState] = useState<null | "sending" | "maxed">(null);
   const [busy, setBusy] = useState<null | "saving" | "drawing">(null);
   // On a phone the redraw form sits below the picture and words: bring it into view when it opens.
@@ -172,6 +176,7 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
         regenerationUsed: res?.regenerationUsed ?? used + 1,
         ...(isFront ? { coverImageUrl: url } : {}),
       });
+      setLastAsked({ text: feedback.trim(), page: pageNo });
       setFeedback("");
       setReason(null);
       setMode("view");
@@ -291,6 +296,13 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
                   </div>
                 )}
 
+                {mode === "view" && lastAsked && lastAsked.page === pageNo && onFixAcross && (
+                  <div className="rounded-lg bg-primary/10 border border-primary/30 p-3 text-sm space-y-2">
+                    <p className="font-medium">Is this also wrong on other pages?</p>
+                    <p className="text-muted-foreground text-xs">We'll find the pages with the same problem and fix only those, as one redraw.</p>
+                    <Button size="sm" onClick={() => onFixAcross(lastAsked.text, lastAsked.page)}>Check the other pages</Button>
+                  </div>
+                )}
                 {mode === "view" && !isBack && (
                   <div className="flex flex-wrap gap-2">
                     <Button variant="outline" size="sm" className="gap-1" onClick={startEdit}><Pencil className="h-3.5 w-3.5" aria-hidden />{isFront ? "Edit title" : "Edit text"}</Button>

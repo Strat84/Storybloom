@@ -26,7 +26,8 @@ export type ReadingEventName =
   | "locked_view"
   | "survey_answer"
   | "survey_dismiss"
-  | "more_redraws";
+  | "more_redraws"
+  | "fix_open";
 
 export interface ReadingEvent {
   name: ReadingEventName;

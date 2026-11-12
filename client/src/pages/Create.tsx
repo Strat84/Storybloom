@@ -714,9 +714,23 @@ export default function Create() {
               )}
             </div>
 
+            <fieldset>
+              <legend className="font-semibold mb-1">How long should the book be?</legend>
+              <p className="text-sm text-muted-foreground mb-2">Same price for every length.</p>
+              <div role="radiogroup" className="grid grid-cols-3 gap-2">
+                {config.story.pageCounts.map((p) => (
+                  <button key={p} type="button" role="radio" aria-checked={state.pageCount === p} onClick={() => update({ pageCount: p })} className={cn("rounded-xl border-2 p-3 text-center transition-colors", state.pageCount === p ? "border-primary bg-primary/10" : "border-border hover:border-primary/50")}>
+                    <span className="block font-semibold">{p} pages</span>
+                    <span className="block text-xs text-muted-foreground">{p === 10 ? "Bedtime story, about 5 min" : p === 15 ? "Story time, about 8 min" : "Big adventure, about 12 min"}</span>
+                  </button>
+                ))}
+              </div>
+              {state.pageCount > 10 && <p className="text-xs text-muted-foreground mt-2">Longer books take a minute or two more to draw.</p>}
+            </fieldset>
+
             <div>
               <button type="button" className="text-sm font-medium text-primary hover:underline" onClick={() => setShowExtras((v) => !v)} aria-expanded={showExtras}>
-                {showExtras ? "Hide" : "Add"} a dedication, favorite things or book length (optional)
+                {showExtras ? "Hide" : "Add"} a dedication or favorite things (optional)
               </button>
               {showExtras && (
                 <div className="space-y-4 mt-4">
@@ -733,17 +747,6 @@ export default function Create() {
                     <Label htmlFor="from-name">Author name on the cover</Label>
                     <Input id="from-name" value={state.details.fromName} maxLength={40} placeholder="e.g. Grandma Rose" onChange={(e) => updateDetails({ fromName: e.target.value })} />
                   </div>
-                  <fieldset>
-                    <legend className="text-sm font-medium mb-1.5">Book length</legend>
-                    <div role="radiogroup" className="grid grid-cols-3 gap-2">
-                      {config.story.pageCounts.map((p) => (
-                        <button key={p} type="button" role="radio" aria-checked={state.pageCount === p} onClick={() => update({ pageCount: p })} className={cn("rounded-xl border-2 p-3 text-center", state.pageCount === p ? "border-primary bg-primary/10" : "border-border")}>
-                          <span className="block font-semibold">{p} pages</span>
-                          <span className="block text-xs text-muted-foreground">{p === 10 ? "Short" : p === 15 ? "Medium" : "Long"}, same price</span>
-                        </button>
-                      ))}
-                    </div>
-                  </fieldset>
                 </div>
               )}
             </div>

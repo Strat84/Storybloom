@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Loader2, Pencil, RefreshCw } from "lucide-react";
 import config from "@config";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 const REDRAW_REASONS = [
   { key: "likeness", label: "Doesn't look like my child", hint: "e.g. rounder face, curly brown hair, no glasses, a bit younger" },
   { key: "person", label: "Wrong or extra person", hint: "e.g. only Mia and Grandma should be in this picture" },
-  { key: "missing", label: "Something's missing", hint: "e.g. add the red scarf and the puppy" },
+  { key: "missing", label: "Someone or something is missing", hint: "e.g. Add my daughter Mia, she's missing from this picture" },
   { key: "style", label: "Colors or style", hint: "e.g. brighter colors, make it nighttime" },
   { key: "other", label: "Something else", hint: "Describe what to change in this picture" },
 ] as const;
@@ -35,6 +35,8 @@ interface BookViewerDialogProps {
   onStoryUpdate: (story: ViewerStory) => void;
   /** Page to open on (defaults to the cover). */
   initialIndex?: number;
+  /** Open straight into redrawing the picture or editing the words. */
+  initialMode?: "view" | "edit" | "redraw";
 }
 
 function orderPages(pages: StoryPage[]) {
@@ -46,8 +48,9 @@ function orderPages(pages: StoryPage[]) {
   return [...front, ...inner, ...back];
 }
 
+/** Redraws finish in the background (checked, and redrawn if someone is missing), so allow up to 3 minutes. */
 async function waitForImage(storyId: string, pageNo: number) {
-  for (let attempt = 0; attempt < 30; attempt++) {
+  for (let attempt = 0; attempt < 90; attempt++) {
     await sleep(2000);
     const status = await api<{ status?: string; imageUrl?: string }>(`/stories/${storyId}/pages/${pageNo}/image-status`);
     if (status.status === "COMPLETED" && status.imageUrl) return status.imageUrl;
@@ -56,7 +59,7 @@ async function waitForImage(storyId: string, pageNo: number) {
   throw new Error("Drawing the picture took too long. Please try again.");
 }
 
-export default function BookViewerDialog({ story, loading, open, onClose, onStoryUpdate, initialIndex = 0 }: BookViewerDialogProps) {
+export default function BookViewerDialog({ story, loading, open, onClose, onStoryUpdate, initialIndex = 0, initialMode = "view" }: BookViewerDialogProps) {
   const { toast } = useToast();
   const [index, setIndex] = useState(0);
   const [mode, setMode] = useState<"view" | "edit" | "redraw">("view");
@@ -66,11 +69,22 @@ export default function BookViewerDialog({ story, loading, open, onClose, onStor
   const [why, setWhy] = useState("");
   const [askState, setAskState] = useState<null | "sending" | "maxed">(null);
   const [busy, setBusy] = useState<null | "saving" | "drawing">(null);
+  // On a phone the redraw form sits below the picture and words: bring it into view when it opens.
+  const redrawPanel = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (open && mode === "redraw") window.setTimeout(() => redrawPanel.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 250);
+  }, [open, mode, index]);
 
   useEffect(() => {
     if (open) {
       setIndex(initialIndex);
-      setMode("view");
+      const start = pages[initialIndex];
+      const isCover = start?.type === "COVER_FRONT";
+      if (initialMode === "edit" && start) {
+        setDraft({ title: start.title ?? story?.title ?? "", author: start.author ?? story?.author ?? "", text: isCover ? "" : start.text || start.content || "" });
+      }
+      // The back cover has no words to edit.
+      setMode(initialMode === "edit" && start?.type === "COVER_BACK" ? "view" : initialMode);
     }
     // Only reset when the dialog opens, not on every story update while it's open.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -182,7 +196,7 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
               <div className="relative rounded-xl border bg-muted overflow-hidden" data-clarity-mask="true">
                 {image ? <img src={image} alt={`${label} illustration`} className="w-full h-auto" /> : <p className="p-8 text-center text-muted-foreground">No picture yet</p>}
                 {busy === "drawing" && (
-                  <div className="absolute inset-0 bg-background/70 flex items-center justify-center font-medium"><Loader2 className="h-5 w-5 animate-spin mr-2" aria-hidden />Drawing…</div>
+                  <div className="absolute inset-0 bg-background/75 flex flex-col items-center justify-center font-medium text-center px-6"><span className="flex items-center"><Loader2 className="h-5 w-5 animate-spin mr-2" aria-hidden />Drawing…</span><span className="text-xs text-muted-foreground mt-1 font-normal">We check that everyone you asked for is in the picture, so this can take up to a minute.</span></div>
                 )}
               </div>
               <div className="space-y-4">
@@ -212,7 +226,7 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
                 )}
 
                 {mode === "redraw" && (
-                  <div className="space-y-2 rounded-lg border p-3">
+                  <div ref={redrawPanel} className="space-y-2 rounded-lg border-2 border-primary/40 p-3 scroll-mt-4">
                     {limitReached ? (
                       askState === "maxed" ? (
                         <div className="space-y-2 text-sm">

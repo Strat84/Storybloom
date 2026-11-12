@@ -1,5 +1,5 @@
 import { useEffect, useRef, type ReactNode } from "react";
-import { ChevronLeft, ChevronRight, Lock, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, Lock, RefreshCw, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PreviewWatermark from "@/components/PreviewWatermark";
 import type { StoryPage } from "@/lib/api";
@@ -18,6 +18,8 @@ interface BookReaderProps {
   /** Shown after the last page (and on locked pages) when the book isn't bought yet. */
   endPanel?: ReactNode;
   lockedPanel?: ReactNode;
+  /** Redraw or edit the page being read (closes the reader). */
+  onFix?: (index: number) => void;
 }
 
 function label(page: StoryPage, i: number, total: number) {
@@ -30,7 +32,7 @@ function label(page: StoryPage, i: number, total: number) {
  * Full-screen reading, made for phones: picture and words on one screen, swipe or tap the
  * sides to turn the page. After the last page, an end screen with the ways to keep the book.
  */
-export default function BookReader({ open, onClose, title, author, pages, index, onIndex, watermarked, endPanel, lockedPanel }: BookReaderProps) {
+export default function BookReader({ open, onClose, title, author, pages, index, onIndex, watermarked, endPanel, lockedPanel, onFix }: BookReaderProps) {
   const total = pages.length;
   // One extra "slide" after the back cover when there's an end panel.
   const last = endPanel ? total : total - 1;
@@ -85,6 +87,11 @@ export default function BookReader({ open, onClose, title, author, pages, index,
       <div className="flex items-center gap-3 px-3 py-2 shrink-0">
         <button type="button" onClick={onClose} aria-label="Close the book" className="p-2 -ml-1 rounded-full hover:bg-white/10"><X className="h-6 w-6" /></button>
         <p dir="auto" className="flex-1 truncate text-sm font-semibold">{title}</p>
+        {onFix && !atEnd && !pages[Math.min(index, total - 1)]?.locked && (
+          <button type="button" onClick={() => onFix(index)} className="flex items-center gap-1 rounded-full bg-white/15 hover:bg-white/25 px-3 py-1.5 text-xs font-semibold">
+            <RefreshCw className="h-3.5 w-3.5" aria-hidden />Fix this page
+          </button>
+        )}
         <p className="text-sm text-white/70 tabular-nums">{atEnd ? "The End" : `${index + 1} / ${total}`}</p>
       </div>
 

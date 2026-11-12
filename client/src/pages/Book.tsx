@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useParams } from "wouter";
-import { BookOpen, CheckCircle2, ChevronLeft, ChevronRight, Clock, Download, Loader2, Lock, Pencil, ShieldCheck, Sparkles, Truck, X } from "lucide-react";
+import { BookOpen, CheckCircle2, ChevronLeft, ChevronRight, Clock, Download, Loader2, Lock, Pencil, RefreshCw, ShieldCheck, Sparkles, Truck, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -79,6 +79,16 @@ export default function Book() {
   const [busy, setBusy] = useState<null | "pdf" | "print" | "download" | "confirming">(null);
   const [printOpen, setPrintOpen] = useState(false);
   const [editor, setEditor] = useState(false);
+  const [editorMode, setEditorMode] = useState<"view" | "edit" | "redraw">("view");
+  /** Open the editor on a page, straight into redrawing its picture or editing its words. */
+  const openEditor = (mode: "view" | "edit" | "redraw", at = index) => {
+    recordReading(storyId, { name: "fix_open", cta: mode, page: at, view: readerOpen ? "reader" : "inline" });
+    setReaderOpen(false);
+    setIndex(Math.min(at, Math.max(0, total - 1)));
+    setEditorMode(mode);
+    setEditor(true);
+  };
+  const [fixTip, setFixTip] = useState(false);
   const [survey, setSurvey] = useState<"ask" | "done" | null>(null);
   const purchaseRef = useRef<HTMLDivElement>(null);
   const pollTimer = useRef<number | null>(null);
@@ -212,6 +222,7 @@ export default function Book() {
     opened.current = true;
     const source = openSource();
     recordReading(storyId, { name: "book_open", of: total, source });
+    if (source === "created" && !purchased) setFixTip(true);
     // A return visit to a book that isn't bought: ask one quick question (once).
     const visits = storage(() => Number(localStorage.getItem(visitsKey(storyId!)) || 0) + 1, 1);
     storage(() => localStorage.setItem(visitsKey(storyId!), String(visits)), undefined);
@@ -408,6 +419,14 @@ export default function Book() {
         </Card>
       )}
 
+      {fixTip && !drawing && (
+        <div className="mb-4 max-w-xl mx-auto rounded-xl bg-primary text-primary-foreground p-3 flex items-start gap-3" role="status">
+          <Sparkles className="h-5 w-5 shrink-0 mt-0.5" aria-hidden />
+          <p className="text-sm flex-1"><strong>Your book is ready!</strong> If any picture isn't quite right, tap <strong>Redraw this picture</strong> under it and tell us what to change.</p>
+          <button type="button" onClick={() => setFixTip(false)} aria-label="Got it" className="p-0.5 opacity-80 hover:opacity-100"><X className="h-4 w-4" /></button>
+        </div>
+      )}
+
       {!purchased && !drawing && preview?.endsAt && (
         locked ? (
           <Card className="p-4 mb-5 max-w-xl mx-auto border-primary/40 bg-primary/5">
@@ -481,10 +500,17 @@ export default function Book() {
           <div className="flex items-center gap-2">
             <Button variant="outline" onClick={() => go(index - 1)} disabled={index === 0} aria-label="Previous page"><ChevronLeft className="h-4 w-4" /></Button>
             <Button variant="outline" onClick={() => go(index + 1)} disabled={index === total - 1} aria-label="Next page"><ChevronRight className="h-4 w-4" /></Button>
-            {!drawing && !locked && (
-              <Button variant="ghost" size="sm" className="gap-1 ml-auto" onClick={() => setEditor(true)}><Pencil className="h-3.5 w-3.5" aria-hidden />Edit or redraw</Button>
-            )}
           </div>
+          {!drawing && !locked && !page.locked && (
+            <div className="rounded-xl border-2 border-dashed border-primary/40 bg-primary/5 p-3">
+              <p className="font-semibold text-sm flex items-center gap-1.5"><Sparkles className="h-4 w-4 text-primary" aria-hidden />Not quite right? Fix it in seconds.</p>
+              <p className="text-xs text-muted-foreground mt-0.5 mb-2.5">Redraw any picture (hair color, a missing person, a different pose) or change the words. Free, before you buy.</p>
+              <div className="flex flex-wrap gap-2">
+                <Button size="sm" className="gap-1.5" onClick={() => openEditor("redraw")}><RefreshCw className="h-3.5 w-3.5" aria-hidden />Redraw this picture</Button>
+                {index !== total - 1 && <Button size="sm" variant="outline" className="gap-1.5" onClick={() => openEditor("edit")}><Pencil className="h-3.5 w-3.5" aria-hidden />{index === 0 ? "Edit the title" : "Edit the words"}</Button>}
+              </div>
+            </div>
+          )}
           <div className="flex gap-1.5 overflow-x-auto pb-1" role="tablist" aria-label="Pages" data-clarity-mask="true">
             {pages.map((p, i) => (
               <button
@@ -516,7 +542,7 @@ export default function Book() {
         </Card>
       )}
       {survey === "done" && (
-        <p className="mt-6 text-sm text-center text-muted-foreground">Thank you! If the pictures or story need work, tap “Edit or redraw”, or email support@storybloom.ai and we'll help.</p>
+        <p className="mt-6 text-sm text-center text-muted-foreground">Thank you! If a picture or the words need work, tap “Redraw this picture” or “Edit the words”, or email support@storybloom.ai and we'll help.</p>
       )}
 
       <div ref={purchaseRef} className="mt-8 scroll-mt-24">
@@ -594,7 +620,17 @@ export default function Book() {
         index={index}
         onIndex={setIndex}
         watermarked={!purchased}
-        endPanel={purchased ? undefined : buyPanel(`Keep ${title}`)}
+        onFix={locked ? undefined : (at) => openEditor("redraw", at)}
+        endPanel={purchased ? undefined : (
+          <div className="space-y-4">
+            {buyPanel(`Keep ${title}`)}
+            {!locked && (
+              <button type="button" onClick={() => openEditor("redraw", 1)} className="w-full text-sm text-primary underline">
+                Want to change a picture first? Redraw it free.
+              </button>
+            )}
+          </div>
+        )}
         lockedPanel={buyPanel("Get the book to read every page")}
       />
 
@@ -610,6 +646,7 @@ export default function Book() {
         watermark={!purchased}
         onEditPages={locked ? undefined : () => {
           setPrintOpen(false);
+          setEditorMode("view");
           setEditor(true);
         }}
         onEvent={(name) => recordReading(storyId, { name })}
@@ -639,6 +676,7 @@ export default function Book() {
           } : item));
         }}
         initialIndex={Math.min(index, total - 1)}
+        initialMode={editorMode}
       />
     </div>
   );

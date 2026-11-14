@@ -8,6 +8,9 @@ import { recordReading } from "@/lib/reading";
 import { cn } from "@/lib/utils";
 
 const MAX_PAGES = 6;
+/** Every 3 pages fixed together count as one redraw (backend: PAGES_PER_REDRAW). */
+const PAGES_PER_REDRAW = 3;
+const redrawsFor = (pages: number) => Math.ceil(pages / PAGES_PER_REDRAW);
 
 interface ScanResult {
   pageNumber: number;
@@ -27,6 +30,8 @@ interface FixAcrossPagesProps {
   /** New pictures as they finish. */
   onPageImage: (pageNumber: number, imageUrl: string) => void;
   onUsage: (usage: { regenerationLimit?: number; regenerationUsed?: number | null }) => void;
+  /** Redraws left on this book; limits how many pages can be ticked. */
+  redrawsLeft?: number;
 }
 
 function label(n: number, total: number) {
@@ -38,9 +43,10 @@ function label(n: number, total: number) {
 /**
  * Fix the same problem on several pages at once, without touching pages that are fine:
  * describe it, let the AI find the pages that have it, adjust the ticks, fix only those.
- * The whole batch counts as one redraw (backend: regenerateImageWithFeedback.js, actions scan / fixPages).
+ * Every 3 pages fixed count as one redraw (backend: regenerateImageWithFeedback.js, actions scan / fixPages).
  */
-export default function FixAcrossPages({ open, onClose, storyId, pages, fromPage, initialIssue = "", onPageImage, onUsage }: FixAcrossPagesProps) {
+export default function FixAcrossPages({ open, onClose, storyId, pages, fromPage, initialIssue = "", onPageImage, onUsage, redrawsLeft }: FixAcrossPagesProps) {
+  const maxPages = Math.max(1, Math.min(MAX_PAGES, (redrawsLeft ?? MAX_PAGES) * PAGES_PER_REDRAW));
   const [step, setStep] = useState<"describe" | "scanning" | "choose" | "fixing" | "done">("describe");
   const [issue, setIssue] = useState(initialIssue);
   const [results, setResults] = useState<ScanResult[]>([]);
@@ -74,7 +80,7 @@ export default function FixAcrossPages({ open, onClose, storyId, pages, fromPage
       const res = await api<{ pages: ScanResult[] }>(`/stories/${storyId}/pages/${fromPage}/regenerate`, { method: "POST", body: { action: "scan", feedback: issue.trim() } });
       const found = res.pages || [];
       setResults(found);
-      setChosen(new Set(found.filter((r) => r.needsFix).map((r) => r.pageNumber).slice(0, MAX_PAGES)));
+      setChosen(new Set(found.filter((r) => r.needsFix).map((r) => r.pageNumber).slice(0, maxPages)));
       recordReading(storyId, { name: "fix_open", cta: `scan:${found.filter((r) => r.needsFix).length}`, page: fromPage });
       setStep("choose");
     } catch (err) {
@@ -87,7 +93,7 @@ export default function FixAcrossPages({ open, onClose, storyId, pages, fromPage
     setChosen((prev) => {
       const next = new Set(prev);
       if (next.has(n)) next.delete(n);
-      else if (next.size < MAX_PAGES) next.add(n);
+      else if (next.size < maxPages) next.add(n);
       return next;
     });
 
@@ -158,7 +164,7 @@ export default function FixAcrossPages({ open, onClose, storyId, pages, fromPage
           <div className="space-y-3">
             <p className="text-sm">
               {flagged.length
-                ? <><strong>{flagged.length} page{flagged.length === 1 ? "" : "s"}</strong> seem{flagged.length === 1 ? "s" : ""} to have this problem{flagged.length > MAX_PAGES ? `. We fix up to ${MAX_PAGES} at a time, so the first ${MAX_PAGES} are ticked; run it again for the rest` : ` and ${flagged.length === 1 ? "is" : "are"} ticked`}. Untick any that look fine, or tick others we missed.</>
+                ? <><strong>{flagged.length} page{flagged.length === 1 ? "" : "s"}</strong> seem{flagged.length === 1 ? "s" : ""} to have this problem{flagged.length > maxPages ? `. You can fix up to ${maxPages} at a time, so the first ${maxPages} are ticked` : ` and ${flagged.length === 1 ? "is" : "are"} ticked`}. Untick any that look fine, or tick others we missed.</>
                 : "No pages seem to have this problem. If you see one we missed, tick it."}
             </p>
             <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
@@ -179,15 +185,20 @@ export default function FixAcrossPages({ open, onClose, storyId, pages, fromPage
                 );
               })}
             </div>
-            {chosen.size >= MAX_PAGES && <p className="text-xs text-muted-foreground">Up to {MAX_PAGES} pages at a time.</p>}
+            {chosen.size >= maxPages && <p className="text-xs text-muted-foreground">Up to {maxPages} page{maxPages === 1 ? "" : "s"} at a time{maxPages < MAX_PAGES ? " with the redraws you have left" : ""}.</p>}
+            {flagged.length >= Math.max(6, Math.ceil(results.length * 0.7)) && (
+              <p className="text-xs rounded-md bg-amber-50 border border-amber-200 text-amber-900 p-2">
+                This changes most of the book. If you want a different story or setting, it's often better to make a new version of the book with that idea.
+              </p>
+            )}
             {error && <p role="alert" className="text-sm text-destructive">{error}</p>}
             <div className="flex gap-2">
               <Button className="flex-1 gap-2" onClick={fix} disabled={!chosen.size}>
-                <Sparkles className="h-4 w-4" aria-hidden />Fix {chosen.size || ""} page{chosen.size === 1 ? "" : "s"}
+                <Sparkles className="h-4 w-4" aria-hidden />Fix {chosen.size || ""} page{chosen.size === 1 ? "" : "s"}{chosen.size ? ` (${redrawsFor(chosen.size)} redraw${redrawsFor(chosen.size) === 1 ? "" : "s"})` : ""}
               </Button>
               <Button variant="outline" onClick={() => setStep("describe")}>Back</Button>
             </div>
-            <p className="text-xs text-muted-foreground">Counts as one redraw, however many pages you fix.</p>
+            <p className="text-xs text-muted-foreground">Every 3 pages fixed together count as one redraw{redrawsLeft !== undefined ? ` (you have ${redrawsLeft} left)` : ""}.</p>
           </div>
         )}
 

@@ -169,7 +169,7 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
     try {
       const res = await api<{ regenerationUsed?: number }>(`/stories/${story.storyId}/pages/${pageNo}/regenerate`, {
         method: "POST",
-        body: { feedback: feedback.trim() },
+        body: { feedback: feedback.trim(), category: reason ?? "none" },
       });
       const url = await waitForImage(story.storyId, pageNo);
       replacePage({ imageUrl: url }, {
@@ -299,7 +299,7 @@ My book: ${typeof window !== "undefined" ? `${window.location.origin}/book/${sto
                 {mode === "view" && lastAsked && lastAsked.page === pageNo && onFixAcross && (
                   <div className="rounded-lg bg-primary/10 border border-primary/30 p-3 text-sm space-y-2">
                     <p className="font-medium">Is this also wrong on other pages?</p>
-                    <p className="text-muted-foreground text-xs">We'll find the pages with the same problem and fix only those, as one redraw.</p>
+                    <p className="text-muted-foreground text-xs">We'll find the pages with the same problem and fix only those. Every 3 pages count as one redraw.</p>
                     <Button size="sm" onClick={() => onFixAcross(lastAsked.text, lastAsked.page)}>Check the other pages</Button>
                   </div>
                 )}

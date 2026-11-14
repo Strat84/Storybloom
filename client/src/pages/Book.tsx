@@ -20,6 +20,7 @@ import { track } from "@/lib/track";
 import { flushReading, onRedrawLimitRaised, openSource, recordReading } from "@/lib/reading";
 import { useAuth } from "@/lib/auth";
 import { showReviewOptIn } from "@/lib/googleReviews";
+import config from "@config";
 
 const IMAGES_POLL_MS = 5000;
 
@@ -675,6 +676,7 @@ export default function Book() {
           pages={pages}
           fromPage={fixAcross?.from ?? index}
           initialIssue={fixAcross?.issue ?? ""}
+          redrawsLeft={Math.max(0, (listItem?.regenerationLimit ?? config.story.regenerationLimit) - (listItem?.regenerationUsed ?? 0))}
           onPageImage={(n, url) => setPages((prev) => prev.map((p, i) => (Number(p.pageNumber ?? i) === n ? { ...p, imageUrl: url } : p)))}
           onUsage={(u) => setListItem((item) => (item ? {
             ...item,

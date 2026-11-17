@@ -157,11 +157,11 @@ function HeroBooks({ holiday }: { holiday: boolean }) {
         })}
         <Link
           href="/examples"
-          className="absolute z-20 -bottom-1 left-1/2 -translate-x-1/2 flex items-center gap-1.5 rounded-full bg-card/95 backdrop-blur border shadow-md pl-1 pr-3 py-1 text-xs font-semibold whitespace-nowrap"
+          className="absolute z-20 -bottom-1 inset-x-0 mx-auto w-fit max-w-full flex items-center gap-1.5 rounded-full bg-card/95 backdrop-blur border shadow-md pl-1 pr-3 py-1 text-xs font-semibold whitespace-nowrap"
         >
-          <img src="/images/photo-demo/photo-400.webp" width={400} height={548} alt="" className="h-7 w-7 rounded-full object-cover object-top" />
+          <img src="/images/photo-demo/photo-400.webp" width={400} height={548} alt="" className="h-7 w-7 shrink-0 rounded-full object-cover object-top" />
           <ArrowRight className="h-3 w-3 text-primary" aria-hidden />
-          <img src="/images/photo-demo/3d-400.webp" width={400} height={548} alt="" className="h-7 w-7 rounded-full object-cover object-top bg-white" />
+          <span className="h-7 w-7 shrink-0 rounded-full overflow-hidden bg-white"><img src="/images/photo-demo/3d-400.webp" width={400} height={548} alt="" className="w-full h-auto scale-[1.9] origin-[50%_8%]" /></span>
           <span>One photo, every page. See the books</span>
         </Link>
       </div>

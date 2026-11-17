@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { BookHeart, Camera, Languages, Users } from "lucide-react";
+import { ArrowRight, Clock, Eye, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   CreateButton,
@@ -14,7 +14,8 @@ import {
 } from "@/components/marketing";
 import VerifiedReviews from "@/components/VerifiedReviews";
 import { EVERGREEN_THEMES, HOLIDAY_THEMES } from "@/content/themes";
-import { EXAMPLE_BOOKS } from "@/content/examples";
+import { EXAMPLE_BOOKS, coverOf, getExample } from "@/content/examples";
+import { digitalPrice, formatPrice, printPrice } from "@/lib/pricing";
 import { BOOK_LANGUAGES } from "@/content/languages";
 import { generalFaqs } from "@/content/faq";
 import { isHolidaySeason } from "@/lib/holiday";
@@ -26,44 +27,39 @@ export default function Home() {
 
   return (
     <>
+      {/* Everything a visitor needs is on the first screen: what it is, real books as proof, the button, and what it costs. */}
       <section className="relative overflow-hidden bg-gradient-to-b from-primary/10 via-background to-background">
-        <div className="container mx-auto px-4 sm:px-6 py-10 sm:py-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          <div className="text-center lg:text-left">
-            <p className="inline-block rounded-full bg-primary/10 text-primary text-sm font-semibold px-3 py-1 mb-4">
+        <div className="container mx-auto px-4 sm:px-6 pt-6 pb-8 sm:py-14 grid grid-cols-1 lg:grid-cols-2 gap-x-12 items-center">
+          <div className="text-center lg:text-left lg:self-end">
+            <p className="inline-block rounded-full bg-primary/10 text-primary text-xs sm:text-sm font-semibold px-3 py-1 mb-3">
               {holiday ? "The most personal gift this holiday" : "From one photo, a book starring your child"}
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold leading-tight mb-4">
+            <h1 className="text-[2rem] leading-[1.1] sm:text-5xl lg:text-6xl font-display font-bold sm:leading-tight mb-3">
               Personalized storybooks starring <span className="text-primary">your child</span>
             </h1>
-            <p className="text-lg sm:text-xl text-muted-foreground font-story mb-6 max-w-xl mx-auto lg:mx-0">
-              Upload a photo and your child becomes the illustrated hero, with brothers, sisters, grandparents and even the dog along for the adventure.
-              Pick a story or write your own, in English or {BOOK_LANGUAGES.length - 1} other languages. Preview it free, then download it or order a printed keepsake.
+            <p className="text-base sm:text-xl text-muted-foreground font-story max-w-xl mx-auto lg:mx-0">
+              Upload a photo and your child becomes the illustrated hero of a real picture book, with family and pets along for the adventure.
             </p>
+          </div>
+
+          <HeroBooks holiday={holiday} />
+
+          <div className="text-center lg:text-left lg:col-start-1 lg:self-start lg:mt-6">
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <CreateButton label="Create your book" />
-              <Button asChild size="lg" variant="outline" className="text-base">
+              <Button asChild size="lg" variant="outline" className="text-base hidden sm:inline-flex">
                 <Link href="/examples">See example books</Link>
               </Button>
             </div>
-            <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 justify-center lg:justify-start text-sm text-muted-foreground">
-              <li className="flex items-center gap-1.5"><Camera className="h-4 w-4 text-primary" aria-hidden />Made from your photo</li>
-              <li className="flex items-center gap-1.5"><Users className="h-4 w-4 text-primary" aria-hidden />The whole family, pets too</li>
-              <li className="flex items-center gap-1.5"><Languages className="h-4 w-4 text-primary" aria-hidden />{BOOK_LANGUAGES.length} languages</li>
-              <li className="flex items-center gap-1.5"><BookHeart className="h-4 w-4 text-primary" aria-hidden />Preview before you pay</li>
+            <p className="mt-3 text-sm text-muted-foreground">
+              Free to create and preview. Keep it as a <span className="text-foreground font-medium">PDF for {formatPrice(digitalPrice())}</span> or
+              a <span className="text-foreground font-medium">printed book for {formatPrice(printPrice())}</span>, shipping included.
+            </p>
+            <ul className="mt-4 grid grid-cols-3 gap-2 max-w-md mx-auto sm:max-w-none sm:flex sm:flex-wrap sm:justify-center lg:justify-start sm:gap-x-6 text-xs sm:text-sm text-muted-foreground">
+              <li className="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 sm:whitespace-nowrap"><Eye className="h-4 w-4 text-primary shrink-0" aria-hidden />See every page first</li>
+              <li className="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 sm:whitespace-nowrap"><Clock className="h-4 w-4 text-primary shrink-0" aria-hidden />Ready in minutes</li>
+              <li className="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 sm:whitespace-nowrap"><Languages className="h-4 w-4 text-primary shrink-0" aria-hidden />{BOOK_LANGUAGES.length} languages</li>
             </ul>
-          </div>
-          <div>
-            <img
-              src="/images/hero-1024.webp"
-              srcSet="/images/hero-640.webp 640w, /images/hero-1024.webp 1024w, /images/hero-1440.webp 1440w"
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              width={1024}
-              height={559}
-              alt="Illustrated children reading glowing storybooks surrounded by storybook characters"
-              {...{ fetchpriority: "high" }}
-              decoding="async"
-              className="w-full h-auto rounded-3xl shadow-xl"
-            />
           </div>
         </div>
       </section>
@@ -121,5 +117,54 @@ export default function Home() {
         </div>
       </Section>
     </>
+  );
+}
+
+/** Three real example covers, fanned like books on a table, with the photo they start from. Each cover opens that book. */
+function HeroBooks({ holiday }: { holiday: boolean }) {
+  const slugs = holiday
+    ? ["elis-first-hanukkah-lights", "mia-saves-christmas", "a-night-at-the-north-pole-with-ezra"]
+    : ["sofia-the-space-explorer", "noahs-birthday-adventure", "zoe-the-big-sister"];
+  const books = slugs.map(getExample).filter((b) => b !== undefined);
+  if (books.length < 3) return null;
+  const place = [
+    "left-0 top-6 -rotate-6 w-[34%] z-0",
+    "left-1/2 -translate-x-1/2 top-0 w-[40%] z-10",
+    "right-0 top-6 rotate-6 w-[34%] z-0",
+  ];
+  return (
+    <div className="lg:col-start-2 lg:row-start-1 lg:row-span-2 my-5 lg:my-0">
+      <div className="relative mx-auto w-full max-w-[22rem] sm:max-w-md lg:max-w-lg aspect-[16/11]">
+        {books.map((book, i) => {
+          const cover = coverOf(book);
+          return (
+            <Link
+              key={book.slug}
+              href={`/examples/${book.slug}`}
+              className={`absolute block rounded-xl overflow-hidden shadow-xl ring-1 ring-black/5 bg-muted transition-transform hover:-translate-y-1 hover:z-20 ${place[i]}`}
+            >
+              <img
+                src={cover.image}
+                width={cover.width}
+                height={cover.height}
+                alt={`Cover of the example book ${book.title}`}
+                {...(i === 1 ? { fetchpriority: "high" } : {})}
+                decoding="async"
+                className="w-full aspect-[3/4] object-cover"
+              />
+            </Link>
+          );
+        })}
+        <Link
+          href="/examples"
+          className="absolute z-20 -bottom-1 left-1/2 -translate-x-1/2 flex items-center gap-1.5 rounded-full bg-card/95 backdrop-blur border shadow-md pl-1 pr-3 py-1 text-xs font-semibold whitespace-nowrap"
+        >
+          <img src="/images/photo-demo/photo-400.webp" width={400} height={548} alt="" className="h-7 w-7 rounded-full object-cover object-top" />
+          <ArrowRight className="h-3 w-3 text-primary" aria-hidden />
+          <img src="/images/photo-demo/3d-400.webp" width={400} height={548} alt="" className="h-7 w-7 rounded-full object-cover object-top bg-white" />
+          <span>One photo, every page. See the books</span>
+        </Link>
+      </div>
+    </div>
   );
 }

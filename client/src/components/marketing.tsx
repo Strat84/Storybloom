@@ -92,13 +92,14 @@ export function HowItWorks() {
           </li>
         ))}
       </ol>
+      <div className="text-center mt-8"><CreateButton label="Start your free preview" /></div>
     </Section>
   );
 }
 
 export function ThemeCard({ theme }: { theme: StoryTheme }) {
   return (
-    <article className={cn("rounded-2xl border bg-gradient-to-br p-5 flex flex-col", theme.accent)}>
+    <article className={cn("relative rounded-2xl border bg-gradient-to-br p-5 flex flex-col cursor-pointer transition-shadow hover:shadow-md", theme.accent)}>
       <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
         {theme.season === "holiday" ? "Holiday story" : "Everyday adventure"}
       </p>
@@ -106,12 +107,13 @@ export function ThemeCard({ theme }: { theme: StoryTheme }) {
       <p className="text-sm font-story text-foreground/80 mb-4 flex-1">{theme.description}</p>
       <div className="flex flex-wrap items-center gap-3">
         <Button asChild size="sm" className="gap-1">
-          <Link href={`/create?theme=${theme.id}`}>
+          {/* The ::after layer makes the whole card tap through to this story (people tapped the titles). */}
+          <Link href={`/create?theme=${theme.id}`} className="after:absolute after:inset-0 after:rounded-2xl after:content-['']">
             Start this story <ArrowRight className="h-3.5 w-3.5" aria-hidden />
           </Link>
         </Button>
         {theme.landingPath && (
-          <Link href={theme.landingPath} className="text-sm font-medium text-primary hover:underline">
+          <Link href={theme.landingPath} className="relative z-10 text-sm font-medium text-primary hover:underline">
             Learn more<span className="sr-only"> about {theme.label.replace("[Name]", "your child")}</span>
           </Link>
         )}

@@ -80,6 +80,22 @@ const config = {
     ] as ShippingMethod[],
   },
 
+  /**
+   * Black Friday – Cyber Monday sale on printed books. The banner, sale prices and the checkout discount
+   * appear only between these times and switch off by themselves. The backend charges it
+   * (services/sale.js in storybloom-backend); keep the dates and percent the same there.
+   * VITE_SALE_STARTS_AT / VITE_SALE_ENDS_AT override the dates for testing a dev build.
+   */
+  sale: {
+    pct: 20,
+    /** Fri Nov 27, 12:00 am Eastern. */
+    startsAt: env("VITE_SALE_STARTS_AT") ?? "2026-11-27T00:00:00-05:00",
+    /** Monday is named "Cyber Monday" from this time. */
+    cyberMondayAt: env("VITE_SALE_CYBER_AT") ?? "2026-11-30T00:00:00-05:00",
+    /** End of Cyber Monday: Mon Nov 30, 11:59 pm Pacific. */
+    endsAt: env("VITE_SALE_ENDS_AT") ?? "2026-12-01T00:00:00-08:00",
+  },
+
   holiday: {
     /** Feature the holiday stories (homepage order, "Holiday books" nav link) until bannerEndDate. */
     seasonActive: true,

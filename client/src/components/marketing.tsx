@@ -10,6 +10,9 @@ import type { StoryTheme } from "@/content/themes";
 import { coverOf, type ExampleBook } from "@/content/examples";
 import { digitalPrice, extraCopyPrice, formatPrice, printPrice, shippingMethods } from "@/lib/pricing";
 import { CARTOON_STYLES } from "@/components/CartoonStyleSelector";
+import { activeSale } from "@/lib/sale";
+import { useNow } from "@/lib/useNow";
+import { withOffer } from "@/lib/checkout";
 
 export function Section({ id, className, children }: { id?: string; className?: string; children: React.ReactNode }) {
   return (
@@ -257,6 +260,7 @@ export function FaqSection({ faqs, title = "Frequently asked questions" }: { faq
 
 export function PricingCards() {
   const shipping = shippingMethods();
+  const sale = activeSale(useNow());
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
       <div className="rounded-2xl border-2 bg-card p-6">
@@ -272,12 +276,24 @@ export function PricingCards() {
           ))}
         </ul>
       </div>
-      <div className="rounded-2xl border-2 border-primary bg-card p-6">
+      <div className="relative rounded-2xl border-2 border-primary bg-card p-6">
+        {sale && (
+          <span className="absolute -top-3 right-4 rounded-full bg-neutral-950 text-amber-300 px-3 py-1 text-xs font-extrabold uppercase tracking-wide shadow">
+            {sale.name}: {sale.pct}% off
+          </span>
+        )}
         <div className="flex items-center gap-2 mb-2">
           <BookOpen className="h-5 w-5 text-primary" aria-hidden />
           <h3 className="text-xl font-display font-bold">Printed storybook</h3>
         </div>
-        <p className="text-4xl font-bold text-primary mb-1">{formatPrice(printPrice())}</p>
+        {sale ? (
+          <p className="text-4xl font-bold text-red-600 mb-1">
+            {formatPrice(withOffer(printPrice(), sale.pct))}
+            <s className="ml-2 text-xl font-normal text-muted-foreground">{formatPrice(printPrice())}</s>
+          </p>
+        ) : (
+          <p className="text-4xl font-bold text-primary mb-1">{formatPrice(printPrice())}</p>
+        )}
         <p className="text-sm text-muted-foreground mb-4">Printed to order, includes the PDF, free standard shipping</p>
         <ul className="space-y-2 text-sm font-story">
           {["Full-color 8.5×11 keepsake book", "Check every page before it's printed", `Extra copies ${formatPrice(extraCopyPrice())} each`, `Bought the PDF first? We credit the ${formatPrice(digitalPrice())}`].map((f) => (

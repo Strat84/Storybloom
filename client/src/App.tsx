@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HolidayBanner from "@/components/HolidayBanner";
+import SaleBanner from "@/components/SaleBanner";
 import NotFound from "@/pages/NotFound";
 import { AuthProvider, useAuth } from "@/lib/auth";
 import { trackPageView } from "@/lib/track";
@@ -76,6 +77,7 @@ function Shell() {
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:p-3 focus:bg-background">
         Skip to content
       </a>
+      <SaleBanner />
       <HolidayBanner />
       <Header />
       <main id="main" className="flex-1">

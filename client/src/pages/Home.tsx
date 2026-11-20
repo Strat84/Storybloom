@@ -20,10 +20,14 @@ import { BOOK_LANGUAGES } from "@/content/languages";
 import { generalFaqs } from "@/content/faq";
 import { isHolidaySeason } from "@/lib/holiday";
 import { useNow } from "@/lib/useNow";
+import { activeSale, type Sale } from "@/lib/sale";
+import { withOffer } from "@/lib/checkout";
 import { BookCategoryLinks } from "@/pages/Books";
 
 export default function Home() {
-  const holiday = isHolidaySeason(useNow());
+  const now = useNow();
+  const holiday = isHolidaySeason(now);
+  const sale = activeSale(now);
 
   return (
     <>
@@ -31,9 +35,16 @@ export default function Home() {
       <section className="relative overflow-hidden bg-gradient-to-b from-primary/10 via-background to-background">
         <div className="container mx-auto px-4 sm:px-6 pt-6 pb-8 sm:py-14 grid grid-cols-1 lg:grid-cols-2 gap-x-12 items-center">
           <div className="text-center lg:text-left lg:self-end">
-            <p className="inline-block rounded-full bg-primary/10 text-primary text-xs sm:text-sm font-semibold px-3 py-1 mb-3">
-              {holiday ? "The most personal gift this holiday" : "From one photo, a book starring your child"}
-            </p>
+            {sale ? (
+              <p className="inline-flex items-center gap-2 rounded-full bg-neutral-950 text-white text-xs sm:text-sm font-semibold pl-1 pr-3 py-1 mb-3">
+                <span className="rounded-full bg-amber-400 text-neutral-950 px-2 py-0.5 font-extrabold uppercase tracking-wide">{sale.name}</span>
+                {sale.pct}% off every printed book
+              </p>
+            ) : (
+              <p className="inline-block rounded-full bg-primary/10 text-primary text-xs sm:text-sm font-semibold px-3 py-1 mb-3">
+                {holiday ? "The most personal gift this holiday" : "From one photo, a book starring your child"}
+              </p>
+            )}
             <h1 className="text-[2rem] leading-[1.1] sm:text-5xl lg:text-6xl font-display font-bold sm:leading-tight mb-3">
               Personalized storybooks starring <span className="text-primary">your child</span>
             </h1>
@@ -42,7 +53,7 @@ export default function Home() {
             </p>
           </div>
 
-          <HeroBooks holiday={holiday} />
+          <HeroBooks holiday={holiday} sale={sale} />
 
           <div className="text-center lg:text-left lg:col-start-1 lg:self-start lg:mt-6">
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
@@ -53,7 +64,9 @@ export default function Home() {
             </div>
             <p className="mt-3 text-sm text-muted-foreground">
               Free to create and preview. Keep it as a <span className="text-foreground font-medium">PDF for {formatPrice(digitalPrice())}</span> or
-              a <span className="text-foreground font-medium">printed book for {formatPrice(printPrice())}</span>, shipping included.
+              a <span className="text-foreground font-medium">printed book for {sale ? (
+                <><s className="font-normal text-muted-foreground">{formatPrice(printPrice())}</s> <span className="text-red-600 font-bold">{formatPrice(withOffer(printPrice(), sale.pct))}</span></>
+              ) : formatPrice(printPrice())}</span>, shipping included.
             </p>
             <ul className="mt-4 grid grid-cols-3 gap-2 max-w-md mx-auto sm:max-w-none sm:flex sm:flex-wrap sm:justify-center lg:justify-start sm:gap-x-6 text-xs sm:text-sm text-muted-foreground">
               <li className="flex flex-col sm:flex-row items-center gap-1 sm:gap-1.5 sm:whitespace-nowrap"><Eye className="h-4 w-4 text-primary shrink-0" aria-hidden />See every page first</li>
@@ -121,7 +134,7 @@ export default function Home() {
 }
 
 /** Three real example covers, fanned like books on a table, with the photo they start from. Each cover opens that book. */
-function HeroBooks({ holiday }: { holiday: boolean }) {
+function HeroBooks({ holiday, sale }: { holiday: boolean; sale: Sale | null }) {
   const slugs = holiday
     ? ["elis-first-hanukkah-lights", "mia-saves-christmas", "a-night-at-the-north-pole-with-ezra"]
     : ["sofia-the-space-explorer", "noahs-birthday-adventure", "zoe-the-big-sister"];
@@ -155,6 +168,16 @@ function HeroBooks({ holiday }: { holiday: boolean }) {
             </Link>
           );
         })}
+        {sale && (
+          <Link
+            href="/create"
+            aria-label={`${sale.name}: ${sale.pct}% off printed books`}
+            className="absolute z-30 -top-3 right-[6%] sm:right-[10%] h-[4.5rem] w-[4.5rem] sm:h-24 sm:w-24 rotate-12 rounded-full bg-red-600 text-white shadow-xl ring-4 ring-amber-300 flex flex-col items-center justify-center leading-none"
+          >
+            <span className="text-xl sm:text-3xl font-extrabold">{sale.pct}%</span>
+            <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wide">off print</span>
+          </Link>
+        )}
         <Link
           href="/examples"
           className="absolute z-20 -bottom-1 inset-x-0 mx-auto w-fit max-w-full flex items-center gap-1.5 rounded-full bg-card/95 backdrop-blur border shadow-md pl-1 pr-3 py-1 text-xs font-semibold whitespace-nowrap"

@@ -39,6 +39,8 @@ interface PrintOrderDialogProps {
   onEditPages?: () => void;
   /** The follow-up email's discount on this book, in percent (applied by the backend too). */
   offerPct?: number;
+  /** How the discount line reads, e.g. "Black Friday 20% off" or "15% off (your offer)". */
+  offerLabel?: string;
   /** Funnel events (proof_open, proof_confirm, checkout_start, checkout_error). */
   onEvent?: (name: "proof_open" | "proof_confirm" | "checkout_start" | "checkout_error") => void;
 }
@@ -50,7 +52,7 @@ export interface ProofPage {
   locked?: boolean;
 }
 
-export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount, onClose, onCheckout, pdfCredit = 0, proofPages = [], onEditPages, offerPct, onEvent }: PrintOrderDialogProps) {
+export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount, onClose, onCheckout, pdfCredit = 0, proofPages = [], onEditPages, offerPct, offerLabel, onEvent }: PrintOrderDialogProps) {
   const { toast } = useToast();
   const [approved, setApproved] = useState(false);
   const [copies, setCopies] = useState(1);
@@ -146,7 +148,7 @@ export default function PrintOrderDialog({ open, storyId, storyTitle, pageCount,
             <div className="flex justify-between"><dt>Printed book</dt><dd>{formatPrice(bookPrice)}</dd></div>
             {copies > 1 && <div className="flex justify-between"><dt>{copies - 1} extra {copies === 2 ? "copy" : "copies"}</dt><dd>{formatPrice(extraCopies)}</dd></div>}
             {credit > 0 && <div className="flex justify-between text-primary"><dt>Credit for the PDF you already bought</dt><dd>−{formatPrice(credit)}</dd></div>}
-            {offerSaving > 0 && <div className="flex justify-between text-primary"><dt>{offerPct}% off (your offer)</dt><dd>−{formatPrice(offerSaving)}</dd></div>}
+            {offerSaving > 0 && <div className="flex justify-between text-red-600 font-semibold"><dt>{offerLabel ?? `${offerPct}% off (your offer)`}</dt><dd>−{formatPrice(offerSaving)}</dd></div>}
             <div className="flex justify-between"><dt>Standard shipping</dt><dd>Free</dd></div>
             <div className="flex justify-between border-t pt-2 font-semibold text-base"><dt>Total</dt><dd>{formatPrice(total)}</dd></div>
           </dl>

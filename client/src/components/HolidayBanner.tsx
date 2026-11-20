@@ -3,6 +3,7 @@ import { GiftIcon, TruckIcon } from "lucide-react";
 import config from "@config";
 import { activeCutoff, countdownDays, formatCutoff, holidayPhase } from "@/lib/holiday";
 import { useNow } from "@/lib/useNow";
+import { activeSale } from "@/lib/sale";
 
 function countdownText(days: number) {
   if (days < 1) {
@@ -17,7 +18,8 @@ function countdownText(days: number) {
 export default function HolidayBanner() {
   const now = useNow(60_000);
   const phase = holidayPhase(now);
-  if (phase === "off") return null;
+  // The sale banner takes the top spot while the sale is on.
+  if (phase === "off" || activeSale(now)) return null;
 
   const cutoff = activeCutoff(phase);
   const days = countdownDays(phase, now);

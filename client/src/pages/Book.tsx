@@ -21,6 +21,7 @@ import { flushReading, onRedrawLimitRaised, openSource, recordReading } from "@/
 import { useAuth } from "@/lib/auth";
 import { showReviewOptIn } from "@/lib/googleReviews";
 import config from "@config";
+import { activeSale } from "@/lib/sale";
 
 const IMAGES_POLL_MS = 5000;
 
@@ -111,6 +112,12 @@ export default function Book() {
   }, []);
   const offer = activeOffer(listItem, clock);
   const showOffer = offer && !purchased;
+  // Black Friday – Cyber Monday sale on printed books (lib/sale.ts). For print, the sale or the email offer,
+  // whichever is bigger, as the backend charges (services/sale.js). The PDF only ever gets the email offer.
+  const sale = activeSale(clock);
+  const printDeal = sale && !(showOffer && offer && offer.pct > sale.pct)
+    ? { pct: sale.pct, label: `${sale.name} ${sale.pct}% off` }
+    : showOffer && offer ? { pct: offer.pct, label: `${offer.pct}% off (your offer)` } : null;
   const locked = !!preview?.locked && !purchased;
 
   const loadBook = useCallback(async () => {
@@ -347,14 +354,16 @@ export default function Book() {
   }
 
   const text = page.text || page.content || "";
-  const printNow = formatPrice(withOffer(printPrice(printTier), showOffer ? offer.pct : 0));
+  const printNow = formatPrice(withOffer(printPrice(printTier), printDeal?.pct));
   const pdfNow = formatPrice(withOffer(digitalPrice(), showOffer ? offer.pct : 0));
 
   // The short "keep this book" panel: end of the reader, and on locked pages.
   const buyPanel = (heading: string) => (
     <div className="space-y-3">
       <p className="text-xl font-display font-bold" dir="auto">{heading}</p>
-      {showOffer && (
+      {sale ? (
+        <p className="text-sm font-bold flex items-center gap-1.5"><span className="rounded bg-neutral-950 text-amber-300 px-1.5 py-0.5 text-xs uppercase tracking-wide">{sale.name}</span>{sale.pct}% off the printed book, applied at checkout</p>
+      ) : showOffer && (
         <p className="text-sm font-semibold text-primary flex items-center gap-1.5"><Sparkles className="h-4 w-4" aria-hidden />{offer.pct}% off until {offerEnds(offer.expiresAt)}</p>
       )}
       {inUS && (
@@ -372,10 +381,12 @@ export default function Book() {
   const cardClass = (primary: boolean) => cn("rounded-xl border-2 p-4 flex flex-col", primary && "border-primary bg-primary/5");
   const printCard = (
     <div className={cardClass(inUS)}>
-      <p className="font-semibold flex items-center gap-2"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book</p>
+      <p className="font-semibold flex items-center gap-2 flex-wrap"><BookOpen className="h-4 w-4 text-primary" aria-hidden />Printed book
+        {sale && <span className="rounded-full bg-red-600 text-white px-2 py-0.5 text-xs font-bold">{sale.name} {sale.pct}% off</span>}
+      </p>
       <p className="text-3xl font-bold text-primary my-1">
         {printNow}
-        {showOffer && <s className="ml-2 text-base font-normal text-muted-foreground">{formatPrice(printPrice(printTier))}</s>}
+        {printDeal && <s className="ml-2 text-base font-normal text-muted-foreground">{formatPrice(printPrice(printTier))}</s>}
       </p>
       <ul className="text-sm text-muted-foreground mb-4 flex-1 space-y-1">
         <li className="flex gap-1.5"><CheckCircle2 className="h-4 w-4 text-primary shrink-0" aria-hidden />{printTier}-page full-color book, printed and shipped to your door</li>
@@ -569,7 +580,7 @@ export default function Book() {
               </Button>
               {!printed && (
                 <Button variant="outline" onClick={() => openPrintOrder("owned_print")} className="gap-2">
-                  <Truck className="h-4 w-4" aria-hidden />Order a printed copy: {formatPrice(printPrice(printTier) - pdfCredit)}
+                  <Truck className="h-4 w-4" aria-hidden />Order a printed copy: {formatPrice(withOffer(printPrice(printTier) - pdfCredit, sale?.pct))}
                 </Button>
               )}
               <Button asChild variant="ghost"><Link href="/create">Make another book</Link></Button>
@@ -579,7 +590,12 @@ export default function Book() {
           <Card className="p-5 sm:p-6">
             <h2 className="text-2xl font-display font-bold mb-1" dir="auto">Keep {title}</h2>
             <p className="text-muted-foreground mb-5">A keepsake they'll read again and again.</p>
-            {showOffer && (
+            {sale ? (
+              <div className="mb-5 rounded-lg bg-neutral-950 text-white p-3 text-sm">
+                <p className="font-bold flex items-center gap-2 flex-wrap"><span className="rounded bg-amber-400 text-neutral-950 px-1.5 py-0.5 text-xs font-extrabold uppercase tracking-wide">{sale.name}</span>{sale.pct}% off the printed book</p>
+                <p className="text-white/75 mt-0.5">Already applied at checkout, no code needed. Ends {new Date(sale.endsAt).toLocaleDateString(undefined, { weekday: "long" })} at midnight.{showOffer && offer ? ` Your ${offer.pct}% offer still applies to the PDF.` : ""}</p>
+              </div>
+            ) : showOffer && (
               <div className="mb-5 rounded-lg border border-primary/40 bg-primary/5 p-3 text-sm">
                 <p className="font-semibold text-primary flex items-center gap-1.5"><Sparkles className="h-4 w-4" aria-hidden />{offer.pct}% off this book until {offerEnds(offer.expiresAt)}</p>
                 <p className="text-muted-foreground">Already applied at checkout, no code needed. {hoursLeft(offer.expiresAt, clock)}</p>
@@ -601,7 +617,7 @@ export default function Book() {
       {!purchased && busy !== "confirming" && !readerOpen && (
         <div className="md:hidden fixed bottom-0 inset-x-0 z-40 border-t bg-background/95 backdrop-blur px-3 py-2.5 flex items-center gap-3 pb-[max(0.625rem,env(safe-area-inset-bottom))]">
           <div className="flex-1 min-w-0 text-sm">
-            <p className="text-muted-foreground leading-tight truncate">{inUS ? "Printed book" : "Digital book"}{showOffer && ` · ${offer.pct}% off`}</p>
+            <p className="text-muted-foreground leading-tight truncate">{inUS ? "Printed book" : "Digital book"}{inUS ? (printDeal ? ` · ${printDeal.label}` : "") : showOffer ? ` · ${offer.pct}% off` : ""}</p>
             <p className="font-semibold leading-tight">{inUS ? printNow : pdfNow}</p>
           </div>
           {inUS ? (
@@ -647,7 +663,8 @@ export default function Book() {
         pageCount={printTier}
         onClose={() => setPrintOpen(false)}
         pdfCredit={pdfCredit}
-        offerPct={offer?.pct}
+        offerPct={printDeal?.pct}
+        offerLabel={printDeal?.label}
         proofPages={pages.map((pg, i) => ({ imageUrl: pg.imageUrl ?? null, text: pg.text || pg.content || "", label: pageLabel(pg, i, total), locked: pg.locked }))}
         watermark={!purchased}
         onEditPages={locked ? undefined : () => {
